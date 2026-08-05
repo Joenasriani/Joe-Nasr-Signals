@@ -1,4 +1,4 @@
-name: Prepare site for search indexing
+name: Keep canonical search files aligned
 
 on:
   push:
@@ -9,76 +9,42 @@ permissions:
   contents: write
 
 jobs:
-  optimize-search:
+  align-search-files:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Add canonical metadata and sitemap
+      - name: Align the Vercel canonical, sitemap and robots file
         shell: python
         run: |
           import re
           from pathlib import Path
 
-          site_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
+          site_url = "https://joe-nasr-signals.vercel.app/"
+          legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
+
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
-
-          description = (
-              '  <meta name="description" content="Official public portfolio archive of '
-              'Joe Ribal Nasr: creative director, composer, digital experience creator, media '
-              'educator, XR and game designer, and RoboMarket founder." />'
-          )
+          html = html.replace(legacy_url, site_url)
           html = re.sub(
-              r'  <meta name="description" content="[^"]*"\s*/>',
-              description,
+              r'<link rel="canonical" href="[^"]+"\s*/>',
+              f'<link rel="canonical" href="{site_url}" />',
               html,
               count=1,
           )
-
-          if 'rel="canonical"' not in html:
-              theme = '  <meta name="theme-color" content="#101317" />'
-              metadata = "\n".join([
-                  '  <meta name="author" content="Joe Ribal Nasr" />',
-                  '  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />',
-                  theme,
-                  '',
-                  f'  <link rel="canonical" href="{site_url}" />',
-                  f'  <link rel="sitemap" type="application/xml" href="{site_url}sitemap.xml" />',
-                  '',
-                  '  <meta property="og:type" content="profile" />',
-                  '  <meta property="og:site_name" content="Joe Nasr — Public Signals" />',
-                  '  <meta property="og:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />',
-                  '  <meta property="og:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />',
-                  f'  <meta property="og:url" content="{site_url}" />',
-                  '  <meta property="profile:first_name" content="Joe" />',
-                  '  <meta property="profile:last_name" content="Nasr" />',
-                  '',
-                  '  <meta name="twitter:card" content="summary" />',
-                  '  <meta name="twitter:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />',
-                  '  <meta name="twitter:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />',
-              ])
-              if theme not in html:
-                  raise SystemExit("Theme-color marker was not found")
-              html = html.replace(theme, metadata, 1)
-
           html = re.sub(
-              r'<title>.*?</title>',
-              '<title>Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator</title>',
+              r'<link rel="sitemap" type="application/xml" href="[^"]+"\s*/>',
+              f'<link rel="sitemap" type="application/xml" href="{site_url}sitemap.xml" />',
               html,
               count=1,
-              flags=re.DOTALL,
           )
-
-          html = html.replace(
-              '"url": "https://about.me/joenasr",',
-              '"url": "https://joenasriani.github.io/Joe-Nasr-Signals/",\n'
-              '    "description": "Creative director, composer, digital experience creator, '
-              'media educator, XR and game designer, and founder of RoboMarket.",',
-              1,
+          html = re.sub(
+              r'<meta property="og:url" content="[^"]+"\s*/>',
+              f'<meta property="og:url" content="{site_url}" />',
+              html,
+              count=1,
           )
-
           index.write_text(html, encoding="utf-8")
 
           sitemap = "\n".join([
@@ -94,16 +60,24 @@ jobs:
               '',
           ])
           Path("sitemap.xml").write_text(sitemap, encoding="utf-8")
+
+          robots = "\n".join([
+              'User-agent: *',
+              'Allow: /',
+              f'Sitemap: {site_url}sitemap.xml',
+              '',
+          ])
+          Path("robots.txt").write_text(robots, encoding="utf-8")
           Path(".nojekyll").touch()
 
-      - name: Commit generated search files
+      - name: Commit aligned search files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html sitemap.xml .nojekyll
+          git add index.html sitemap.xml robots.txt .nojekyll
           if git diff --cached --quiet; then
-            echo "No search-indexing changes were needed."
+            echo "Search files already aligned."
           else
-            git commit -m "Optimize site for Google indexing"
+            git commit -m "Align Vercel canonical search files"
             git push
           fi
