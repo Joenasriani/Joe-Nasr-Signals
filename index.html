@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Official public portfolio archive of Joe Ribal Nasr: creative director, composer, digital experience creator, media educator, XR and game designer, and RoboMarket founder." />
+  <meta name="description" content="Official public archive of Joe Ribal Nasr, a Lebanese musician, composer and Middle East creative director working across Dubai, AI, XR, media education and RoboMarket.ae." />
   <meta name="author" content="Joe Ribal Nasr" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="theme-color" content="#101317" />
@@ -12,17 +12,20 @@
   <link rel="sitemap" type="application/xml" href="https://joe-nasr-signals.vercel.app/sitemap.xml" />
 
   <meta property="og:type" content="profile" />
+  <meta property="og:locale" content="en_US" />
+  <link rel="alternate" hreflang="en" href="https://joe-nasr-signals.vercel.app/" />
+  <link rel="alternate" hreflang="x-default" href="https://joe-nasr-signals.vercel.app/" />
   <meta property="og:site_name" content="Joe Nasr — Public Signals" />
-  <meta property="og:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />
-  <meta property="og:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />
+  <meta property="og:title" content="Joe Nasr | Lebanese Musician, Composer &amp; Middle East Creative Director" />
+  <meta property="og:description" content="Verified public work by Joe Ribal Nasr across Lebanese music, composition, Middle East creative direction, Dubai media, AI, XR, games and RoboMarket.ae." />
   <meta property="og:url" content="https://joe-nasr-signals.vercel.app/" />
   <meta property="profile:first_name" content="Joe" />
   <meta property="profile:last_name" content="Nasr" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />
-  <meta name="twitter:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />
-  <title>Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator</title>
+  <meta name="twitter:title" content="Joe Nasr | Lebanese Musician, Composer &amp; Middle East Creative Director" />
+  <meta name="twitter:description" content="Verified public work across Lebanese music, Middle East creative direction, Dubai media, AI, XR, games and RoboMarket.ae." />
+  <title>Joe Nasr | Lebanese Musician, Composer &amp; Middle East Creative Director</title>
   
   <style>
 :root {
@@ -535,6 +538,21 @@ body.compact .record-url-wrap { margin-top: 8px; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @keyframes spinReverse { to { transform: rotate(-360deg); } }
 
+
+.search-profile-section,.faq-section{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+.search-profile-section{padding-top:90px;padding-bottom:clamp(90px,11vw,150px);border-top:1px solid var(--line-strong)}
+.search-profile-heading,.faq-heading{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.65fr);gap:50px;align-items:end;padding-bottom:42px;border-bottom:1px solid var(--line-strong)}
+.search-profile-heading h2,.faq-heading h2{margin:0;font-size:clamp(44px,6.6vw,100px);line-height:.9;letter-spacing:-.058em}
+.search-profile-heading p,.faq-heading p{margin:0;max-width:560px;font-family:Georgia,"Times New Roman",serif;font-size:clamp(18px,1.65vw,25px)}
+.profile-columns{display:grid;grid-template-columns:repeat(4,1fr)}
+.profile-columns article{min-height:270px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.profile-columns article:first-child{padding-left:0}.profile-columns article:last-child{border-right:0;padding-right:0}
+.profile-columns span{display:block;color:var(--signal);font:800 10px/1.2 "Courier New",monospace;letter-spacing:.11em;text-transform:uppercase}
+.profile-columns h3{margin:54px 0 12px;font-size:clamp(22px,1.8vw,31px);line-height:1;letter-spacing:-.035em}.profile-columns p{margin:0;color:var(--muted)}
+.region-context{margin:0;padding:18px 0;border-bottom:1px solid var(--line-strong);font:800 11px/1.6 "Courier New",monospace;letter-spacing:.07em;text-transform:uppercase}.region-context strong{color:var(--blue)}
+.faq-section{padding-top:90px;padding-bottom:clamp(90px,10vw,140px);border-top:1px solid var(--line-strong)}.faq-list{border-top:1px solid var(--line-strong)}.faq-list details{border-bottom:1px solid var(--line-strong)}
+.faq-list summary{list-style:none;display:grid;grid-template-columns:46px 1fr auto;gap:18px;align-items:center;padding:22px 0;cursor:pointer;font-size:clamp(18px,2vw,28px);font-weight:850;letter-spacing:-.025em}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary span{color:var(--signal);font:800 10px/1 "Courier New",monospace;letter-spacing:.1em}.faq-list summary::after{content:"+";font-size:28px}.faq-list details[open] summary::after{content:"−"}.faq-answer{max-width:920px;margin-left:64px;padding:0 0 28px;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-size:clamp(17px,1.4vw,21px)}
+
 @media (max-width: 980px) {
   .site-header { grid-template-columns: 1fr auto; }
   .header-nav { display: none; }
@@ -550,6 +568,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .record-actions { grid-column: 2 / -1; grid-template-columns: 1fr 1fr; }
   .method-grid { grid-template-columns: 1fr 1fr; }
   .method-stamp { grid-column: 2; justify-self: end; }
+  .search-profile-heading,.faq-heading{grid-template-columns:1fr;align-items:start}
+  .profile-columns{grid-template-columns:1fr 1fr}
+  .profile-columns article:nth-child(2){border-right:0;padding-right:0}.profile-columns article:nth-child(3){padding-left:0}
 }
 
 @media (max-width: 680px) {
@@ -582,6 +603,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .method-stamp { grid-column: 1; justify-self: start; width: 170px; }
   .site-footer { grid-template-columns: 1fr; }
   .footer-name { font-size: 20vw; }
+  .search-profile-heading h2,.faq-heading h2{font-size:52px}.profile-columns{grid-template-columns:1fr}.profile-columns article,.profile-columns article:first-child,.profile-columns article:last-child,.profile-columns article:nth-child(2),.profile-columns article:nth-child(3){min-height:auto;padding:24px 0;border-right:0}.profile-columns h3{margin-top:22px}.faq-list summary{grid-template-columns:34px 1fr auto;gap:10px}.faq-answer{margin-left:44px}
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -596,26 +618,147 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .hero { min-height: auto; padding-top: 30px; }
   .hero h1 { font-size: 80px; }
   .archive-record { break-inside: avoid; grid-template-columns: 38px 1fr 110px; }
-  .method-section, .identity-section, .archive-section { padding-block: 40px; }
+  .method-section,.identity-section,.search-profile-section,.archive-section,.faq-section{padding-block:40px}
 }
 
 </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Joe Ribal Nasr",
-    "alternateName": ["Joe Nasr", "Joseph Nasr"],
-    "jobTitle": ["Creative Director", "Composer", "Digital Experience Creator"],
-    "url": "https://joe-nasr-signals.vercel.app/",
-    "description": "Creative director, composer, digital experience creator, media educator, XR and game designer, and founder of RoboMarket.",
-    "sameAs": [
-      "https://ae.linkedin.com/in/joenasrprofile",
-      "https://www.youtube.com/c/joenasr",
-      "https://soundcloud.com/joenasrmusic",
-      "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
-      "https://joenasr.itch.io/",
-      "https://www.robomarket.ae/about"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://joe-nasr-signals.vercel.app/#website",
+        "url": "https://joe-nasr-signals.vercel.app/",
+        "name": "Joe Nasr — Public Signals",
+        "description": "Verified public archive of Joe Ribal Nasr across music, creative direction, AI, XR, education and RoboMarket.ae.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://joe-nasr-signals.vercel.app/#profile",
+        "url": "https://joe-nasr-signals.vercel.app/",
+        "name": "Joe Nasr | Lebanese Musician, Composer & Middle East Creative Director",
+        "dateModified": "2026-08-05",
+        "mainEntity": {
+          "@id": "https://joe-nasr-signals.vercel.app/#joe"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://joe-nasr-signals.vercel.app/#joe",
+        "name": "Joe Ribal Nasr",
+        "alternateName": [
+          "Joe Nasr",
+          "Joseph Nasr"
+        ],
+        "url": "https://joe-nasr-signals.vercel.app/",
+        "description": "Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae.",
+        "nationality": {
+          "@type": "Country",
+          "name": "Lebanon"
+        },
+        "homeLocation": [
+          {
+            "@type": "Place",
+            "name": "Dubai, United Arab Emirates"
+          },
+          {
+            "@type": "Country",
+            "name": "Lebanon"
+          }
+        ],
+        "jobTitle": [
+          "Creative Director",
+          "Composer",
+          "Musician",
+          "Digital Experience Creator",
+          "Media Educator",
+          "XR and Game Designer"
+        ],
+        "knowsAbout": [
+          "Music composition",
+          "Guitar",
+          "Sound design",
+          "Audio post-production",
+          "Creative direction",
+          "Advertising",
+          "Motion graphics",
+          "Film production",
+          "Artificial intelligence",
+          "Virtual reality",
+          "WebXR",
+          "Game design",
+          "Robotics marketplaces"
+        ],
+        "affiliation": {
+          "@type": "Organization",
+          "name": "RoboMarket.ae",
+          "url": "https://www.robomarket.ae/"
+        },
+        "sameAs": [
+          "https://ae.linkedin.com/in/joenasrprofile",
+          "https://www.youtube.com/c/joenasr",
+          "https://soundcloud.com/joenasrmusic",
+          "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+          "https://joenasr.itch.io/",
+          "https://www.robomarket.ae/about"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://joe-nasr-signals.vercel.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Joe Nasr?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Joe Nasr known for in music?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "His indexed music work includes cinematic and media composition, guitar performances, sound design, audio engineering, mixing, production-music licensing and audio post-production."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Joe Nasr’s role in Middle East creative direction?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "His public record covers brand storytelling, advertising, motion graphics, film, digital experiences, creative education and AI-assisted production associated with Dubai, the UAE and regional audiences."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Joe Nasr connected to AI and RoboMarket.ae?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "He applies AI-assisted production to creative work and is publicly identified as the founder of RoboMarket.ae, a marketplace and information platform focused on robotics, humanoids and AI."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does this page claim Joe Nasr is a “best” or “famous” musician?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. “Best musician” and “famous musician” are subjective rankings that should not be self-assigned. This archive provides direct, verifiable public references so readers and search engines can evaluate the work, credits, reach and relevance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which locations are relevant to Joe Nasr’s public profile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The archive connects work associated with Dubai and the United Arab Emirates to Joe Nasr’s Lebanese identity and regional discovery across Lebanon, Beirut and the wider Middle East."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
@@ -636,8 +779,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
     </a>
     <nav class="header-nav" aria-label="Main navigation">
       <a href="#identity">Identity</a>
+      <a href="#profile">Profile</a>
       <a href="#archive">Archive</a>
-      <a href="#method">Method</a>
+      <a href="#questions">Questions</a>
     </nav>
     <button class="mode-button" id="densityButton" type="button" aria-pressed="false">
       <span class="mode-icon" aria-hidden="true"></span>
@@ -655,8 +799,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <span class="outline-word">SIGNALS</span>
         </h1>
         <p class="hero-intro">
-          A readable index of Joe Nasr’s public work across creative direction, music composition,
-          sound, education, XR, independent games and robotics ventures.
+          A verified index of Joe Ribal Nasr’s work as a Lebanese musician, composer and
+          Middle East creative director across Dubai media, AI, XR, games, education and RoboMarket.ae.
         </p>
       </div>
 
@@ -688,8 +832,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="identity-heading">
         <h2 id="identityTitle">One career.<br>Multiple mediums.</h2>
         <p>
-          The archive connects work that search engines often separate: creative leadership,
-          commercial media, composition, teaching, interactive design and founder activity.
+          The archive connects a Lebanese music and sound career with Middle East creative direction,
+          Dubai-based media work, education, AI-assisted production, interactive design and founder activity.
         </p>
       </div>
       <div class="role-strip">
@@ -711,10 +855,21 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
     </section>
 
+    <section class="search-profile-section" id="profile" aria-labelledby="profileTitle">
+      <div class="section-label">02 / REGIONAL PROFILE</div>
+      <div class="search-profile-heading"><h2 id="profileTitle">Lebanese musician.<br />Middle East creative director.</h2><p>Joe Ribal Nasr is a Lebanese multidisciplinary creative professional connecting music, sound, advertising, motion, digital experiences, AI, XR, games and robotics ventures.</p></div>
+      <div class="profile-columns">
+        <article><span>Music · Lebanon</span><h3>Composer, guitarist and sound professional</h3><p>Public releases, guitar performances, production-music licensing, sound design, audio engineering and commercial audio-post credits.</p></article>
+        <article><span>Creative Direction · Middle East</span><h3>Regional creative leadership</h3><p>Brand storytelling, advertising, motion graphics, film, digital experiences, creative education and AI-assisted production associated with Dubai and the UAE.</p></article>
+        <article><span>AI · XR · Games</span><h3>Creative technology practice</h3><p>AI-enabled workflows, browser games, WebXR, VR experiments and interactive tools extending a long media-production background.</p></article>
+        <article><span>RoboMarket.ae</span><h3>Robotics marketplace founder</h3><p>Founder activity connecting robotics, humanoids, AI products, industry information and regional audiences through RoboMarket.ae.</p></article>
+      </div><p class="region-context"><strong>Regional context:</strong> Dubai · United Arab Emirates · Lebanon · Beirut · Middle East</p>
+    </section>
+
     <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
       <div class="archive-heading">
         <div>
-          <div class="section-label">02 / PUBLIC ARCHIVE</div>
+          <div class="section-label">03 / PUBLIC ARCHIVE</div>
           <h2 id="archiveTitle">Indexed references</h2>
         </div>
         <p>Search, filter, open or copy any direct public URL.</p>
@@ -751,8 +906,20 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
     </section>
 
+    <section class="faq-section" id="questions" aria-labelledby="faqTitle">
+      <div class="section-label">04 / SEARCH QUESTIONS</div><div class="faq-heading"><h2 id="faqTitle">What the public record supports.</h2><p>Clear answers for readers searching Joe Nasr across music, creative direction, AI, Dubai, Lebanon and the wider Middle East.</p></div>
+      <div class="faq-list">
+        <details><summary><span>Q01</span>Who is Joe Nasr?</summary><div class="faq-answer">Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology.</div></details>
+        <details><summary><span>Q02</span>What is Joe Nasr known for in music?</summary><div class="faq-answer">His indexed music work includes cinematic and media composition, guitar performances, sound design, audio engineering, mixing, production-music licensing and audio post-production.</div></details>
+        <details><summary><span>Q03</span>What is Joe Nasr’s role in Middle East creative direction?</summary><div class="faq-answer">His public record covers brand storytelling, advertising, motion graphics, film, digital experiences, creative education and AI-assisted production associated with Dubai, the UAE and regional audiences.</div></details>
+        <details><summary><span>Q04</span>How is Joe Nasr connected to AI and RoboMarket.ae?</summary><div class="faq-answer">He applies AI-assisted production to creative work and is publicly identified as the founder of RoboMarket.ae, a marketplace and information platform focused on robotics, humanoids and AI.</div></details>
+        <details><summary><span>Q05</span>Does this page claim Joe Nasr is a “best” or “famous” musician?</summary><div class="faq-answer">No. “Best musician” and “famous musician” are subjective rankings that should not be self-assigned. This archive provides direct, verifiable public references so readers and search engines can evaluate the work, credits, reach and relevance.</div></details>
+        <details><summary><span>Q06</span>Which locations are relevant to Joe Nasr’s public profile?</summary><div class="faq-answer">The archive connects work associated with Dubai and the United Arab Emirates to Joe Nasr’s Lebanese identity and regional discovery across Lebanon, Beirut and the wider Middle East.</div></details>
+      </div>
+    </section>
+
     <section class="method-section" id="method" aria-labelledby="methodTitle">
-      <div class="section-label">03 / METHOD</div>
+      <div class="section-label">05 / METHOD</div>
       <div class="method-grid">
         <h2 id="methodTitle">What this page is—and is not.</h2>
         <div class="method-copy">
@@ -777,7 +944,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
   <footer class="site-footer">
     <div class="footer-name">JOE RIBAL NASR</div>
-    <p>Creative Director · Composer · Digital Experience Creator</p>
+    <p>Lebanese Musician · Composer · Middle East Creative Director · AI/XR Creator</p>
     <a href="#top">Return to top ↑</a>
   </footer>
 
