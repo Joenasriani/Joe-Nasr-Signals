@@ -18,65 +18,82 @@ jobs:
       - name: Add canonical metadata and sitemap
         shell: python
         run: |
+          import re
           from pathlib import Path
 
           site_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
 
-          old_head = '''  <meta name="description" content="Joe Nasr public portfolio archive: creative direction, music, education, XR, games and technology ventures." />
-          <meta name="theme-color" content="#101317" />
-          <title>Joe Nasr — Public Signals</title>'''
-
-          new_head = '''  <meta name="description" content="Official public portfolio archive of Joe Ribal Nasr: creative director, composer, digital experience creator, media educator, XR and game designer, and RoboMarket founder." />
-          <meta name="author" content="Joe Ribal Nasr" />
-          <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-          <meta name="theme-color" content="#101317" />
-
-          <link rel="canonical" href="https://joenasriani.github.io/Joe-Nasr-Signals/" />
-          <link rel="sitemap" type="application/xml" href="https://joenasriani.github.io/Joe-Nasr-Signals/sitemap.xml" />
-
-          <meta property="og:type" content="profile" />
-          <meta property="og:site_name" content="Joe Nasr — Public Signals" />
-          <meta property="og:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />
-          <meta property="og:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />
-          <meta property="og:url" content="https://joenasriani.github.io/Joe-Nasr-Signals/" />
-          <meta property="profile:first_name" content="Joe" />
-          <meta property="profile:last_name" content="Nasr" />
-
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />
-          <meta name="twitter:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />
-
-          <title>Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator</title>'''
+          description = (
+              '  <meta name="description" content="Official public portfolio archive of '
+              'Joe Ribal Nasr: creative director, composer, digital experience creator, media '
+              'educator, XR and game designer, and RoboMarket founder." />'
+          )
+          html = re.sub(
+              r'  <meta name="description" content="[^"]*"\s*/>',
+              description,
+              html,
+              count=1,
+          )
 
           if 'rel="canonical"' not in html:
-              if old_head not in html:
-                  raise SystemExit("Expected original head block was not found")
-              html = html.replace(old_head, new_head, 1)
+              theme = '  <meta name="theme-color" content="#101317" />'
+              metadata = "\n".join([
+                  '  <meta name="author" content="Joe Ribal Nasr" />',
+                  '  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />',
+                  theme,
+                  '',
+                  f'  <link rel="canonical" href="{site_url}" />',
+                  f'  <link rel="sitemap" type="application/xml" href="{site_url}sitemap.xml" />',
+                  '',
+                  '  <meta property="og:type" content="profile" />',
+                  '  <meta property="og:site_name" content="Joe Nasr — Public Signals" />',
+                  '  <meta property="og:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />',
+                  '  <meta property="og:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />',
+                  f'  <meta property="og:url" content="{site_url}" />',
+                  '  <meta property="profile:first_name" content="Joe" />',
+                  '  <meta property="profile:last_name" content="Nasr" />',
+                  '',
+                  '  <meta name="twitter:card" content="summary" />',
+                  '  <meta name="twitter:title" content="Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator" />',
+                  '  <meta name="twitter:description" content="A verified public archive of Joe Nasr’s creative direction, music, education, XR, games and technology work." />',
+              ])
+              if theme not in html:
+                  raise SystemExit("Theme-color marker was not found")
+              html = html.replace(theme, metadata, 1)
+
+          html = re.sub(
+              r'<title>.*?</title>',
+              '<title>Joe Nasr — Creative Director, Composer &amp; Digital Experience Creator</title>',
+              html,
+              count=1,
+              flags=re.DOTALL,
+          )
 
           html = html.replace(
               '"url": "https://about.me/joenasr",',
-              '"url": "https://joenasriani.github.io/Joe-Nasr-Signals/",\n    "description": "Creative director, composer, digital experience creator, media educator, XR and game designer, and founder of RoboMarket.",',
+              '"url": "https://joenasriani.github.io/Joe-Nasr-Signals/",\n'
+              '    "description": "Creative director, composer, digital experience creator, '
+              'media educator, XR and game designer, and founder of RoboMarket.",',
               1,
           )
 
           index.write_text(html, encoding="utf-8")
 
-          Path("sitemap.xml").write_text(
-              '''<?xml version="1.0" encoding="UTF-8"?>
-          <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-            <url>
-              <loc>https://joenasriani.github.io/Joe-Nasr-Signals/</loc>
-              <lastmod>2026-08-05</lastmod>
-              <changefreq>monthly</changefreq>
-              <priority>1.0</priority>
-            </url>
-          </urlset>
-          ''',
-              encoding="utf-8",
-          )
-
+          sitemap = "\n".join([
+              '<?xml version="1.0" encoding="UTF-8"?>',
+              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+              '  <url>',
+              f'    <loc>{site_url}</loc>',
+              '    <lastmod>2026-08-05</lastmod>',
+              '    <changefreq>monthly</changefreq>',
+              '    <priority>1.0</priority>',
+              '  </url>',
+              '</urlset>',
+              '',
+          ])
+          Path("sitemap.xml").write_text(sitemap, encoding="utf-8")
           Path(".nojekyll").touch()
 
       - name: Commit generated search files
