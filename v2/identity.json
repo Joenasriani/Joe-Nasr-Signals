@@ -1,0 +1,24 @@
+{
+  "canonical_name": "Joe Nasr",
+  "full_names": ["Joe Ribal Nasr", "Joseph Ribal Nasr", "Joseph Nasr"],
+  "canonical_url": "https://joe-nasr-signals.vercel.app/v2/",
+  "description": "Lebanese creative director, creative technologist, multimedia producer, musician and founder working across Dubai, AI, XR, robotics, games, media and education.",
+  "location_context": ["Dubai", "United Arab Emirates", "Lebanon", "Middle East"],
+  "roles": ["Creative Director", "Creative Technologist", "Multimedia Producer", "Founder", "Musician"],
+  "profiles": {
+    "linkedin": "https://ae.linkedin.com/in/joenasrprofile",
+    "github": "https://github.com/Joenasriani",
+    "youtube": "https://www.youtube.com/c/joenasr",
+    "linktree": "https://linktr.ee/joenasr",
+    "soundcloud": "https://soundcloud.com/joenasrmusic",
+    "spotify": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+    "itch": "https://joenasr.itch.io/"
+  },
+  "projects": [
+    {"name": "Apex Innovate", "type": "company", "url": "https://apexinnovate.ae/", "relationship": "founder"},
+    {"name": "RoboMarket.ae", "type": "robotics and physical AI platform", "url": "https://www.robomarket.ae/", "relationship": "founder"},
+    {"name": "RoboCreate", "type": "digital-to-physical manufacturing platform", "url": "https://robocreate.manus.space/", "relationship": "creator/founder"},
+    {"name": "Ideavent", "type": "event ideation and production-planning platform", "url": "https://ideavent.ai/", "relationship": "creator/founder"}
+  ],
+  "disambiguation": "This identity refers to the Lebanese creative director and creative technologist associated with Apex Innovate and RoboMarket.ae, not other people named Joe Nasr or Joseph Nasr."
+}
