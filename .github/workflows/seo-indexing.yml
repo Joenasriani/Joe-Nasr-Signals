@@ -27,6 +27,7 @@ jobs:
           site_url = "https://joe-nasr-signals.vercel.app/"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
+          google_verification = "UJLtMo0dFrABd5C7IMfCL2FG5oyVVlAwwiCqJ3hLPZg"
 
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
@@ -49,6 +50,21 @@ jobs:
               html,
               count=1,
           )
+
+          verification_tag = f'<meta name="google-site-verification" content="{google_verification}" />'
+          if 'name="google-site-verification"' in html:
+              html = re.sub(
+                  r'<meta name="google-site-verification" content="[^"]*"\s*/>',
+                  verification_tag,
+                  html,
+                  count=1,
+              )
+          else:
+              html = html.replace(
+                  '  <meta name="theme-color" content="#101317" />',
+                  '  <meta name="theme-color" content="#101317" />\n  ' + verification_tag,
+                  1,
+              )
 
           # Use the same yellow highlight for both the active filter and hover.
           html = html.replace(
