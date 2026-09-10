@@ -1,12 +1,17 @@
-# Joe Nasr — Public Signals
+# Joe Nasr Public Signals
 
-Public archive for Joe Nasr's work, identity signals, research notes and concept pages.
+Public archive for Joe Nasr's work and identity references.
 
-## Published concept notes
+## Research
 
-- **Pre-Institutional Human Order** — a framing that asks what forms of human coordination, authority and social order remain if we remove not only government, but the entire category of deliberately constructed institutional systems.
-  - Public page: https://joe-nasr-signals.vercel.app/pre-institutional-human-order.html
-  - Published: 10 September 2026
-  - Attribution: Joe Nasr
+Research questions, source trails, and revision records are maintained in the Joe Research Registry:
 
-Main site: https://joe-nasr-signals.vercel.app/
+https://github.com/Joenasriani/joe-research-registry
+
+Research Note 001: Pre Institutional Human Order
+
+The note asks what forms of human coordination remain when government and deliberately designed institutions are removed from the starting model.
+
+Public work index:
+
+https://joe-nasr-signals.vercel.app/
