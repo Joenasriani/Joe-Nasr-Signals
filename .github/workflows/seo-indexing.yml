@@ -60,6 +60,10 @@ jobs:
               '.filter-button[aria-pressed="true"],\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
           )
 
+          # Replace the former orange accent with the same yellow used for highlights.
+          html = html.replace('--signal: #ff4f2e;', '--signal: #d9ff4f;')
+          html = html.replace('rgba(255,79,46,.22)', 'rgba(217,255,79,.22)')
+
           index.write_text(html, encoding="utf-8")
 
           sitemap = "\n".join([
