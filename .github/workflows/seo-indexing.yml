@@ -50,11 +50,14 @@ jobs:
               count=1,
           )
 
-          # Match filter hover to the archive's yellow highlight color while
-          # preserving the black selected state when the pointer is not over it.
+          # Use the same yellow highlight for both the active filter and hover.
+          html = html.replace(
+              '.filter-button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
+              '.filter-button[aria-pressed="true"],\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
+          )
           html = html.replace(
               '.filter-button:hover,\n.filter-button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }',
-              '.filter-button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
+              '.filter-button[aria-pressed="true"],\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
           )
 
           index.write_text(html, encoding="utf-8")
