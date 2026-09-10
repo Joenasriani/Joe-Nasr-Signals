@@ -620,6 +620,27 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .method-section,.identity-section,.search-profile-section,.archive-section,.faq-section{padding-block:40px}
 }
 
+/* High-contrast yellow text on light backgrounds */
+.section-label,
+.profile-columns span,
+.faq-list summary span,
+.method-copy li span,
+.result-status button,
+.record-status[data-status="Legacy"] {
+  display: inline-block;
+  width: max-content;
+  background: var(--ink);
+  color: var(--acid);
+  padding: 4px 7px;
+}
+
+/* Yellow backgrounds always use dark text for legibility. */
+.label-two,
+.open-button:hover,
+::selection {
+  color: var(--ink);
+}
+
 </style>
   <script type="application/ld+json">
   {
