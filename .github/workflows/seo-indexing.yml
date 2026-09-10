@@ -18,7 +18,7 @@ jobs:
       - name: Enhance the regional search profile
         run: python scripts/enhance_search_profile.py
 
-      - name: Align the Vercel canonical, sitemap and robots file
+      - name: Align canonical URLs, sitemap and robots file
         shell: python
         run: |
           import re
@@ -26,6 +26,7 @@ jobs:
 
           site_url = "https://joe-nasr-signals.vercel.app/"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
+          concept_url = f"{site_url}pre-institutional-human-order.html"
 
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
@@ -55,9 +56,15 @@ jobs:
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
               '  <url>',
               f'    <loc>{site_url}</loc>',
-              '    <lastmod>2026-08-05</lastmod>',
+              '    <lastmod>2026-09-10</lastmod>',
               '    <changefreq>monthly</changefreq>',
               '    <priority>1.0</priority>',
+              '  </url>',
+              '  <url>',
+              f'    <loc>{concept_url}</loc>',
+              '    <lastmod>2026-09-10</lastmod>',
+              '    <changefreq>monthly</changefreq>',
+              '    <priority>0.9</priority>',
               '  </url>',
               '</urlset>',
               '',
