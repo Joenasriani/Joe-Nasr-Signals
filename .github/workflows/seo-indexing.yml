@@ -65,28 +65,29 @@ jobs:
           html = html.replace('rgba(255,79,46,.22)', 'rgba(217,255,79,.22)')
 
           # Put a black strip behind yellow accent text when it appears on light areas.
-          contrast_css = '''
-/* High-contrast yellow text on light backgrounds */
-.section-label,
-.profile-columns span,
-.faq-list summary span,
-.method-copy li span,
-.result-status button,
-.record-status[data-status="Legacy"] {
-  display: inline-block;
-  width: max-content;
-  background: var(--ink);
-  color: var(--acid);
-  padding: 4px 7px;
-}
-
-/* Yellow backgrounds always use dark text for legibility. */
-.label-two,
-.open-button:hover,
-::selection {
-  color: var(--ink);
-}
-'''
+          contrast_css = "\n".join([
+              '/* High-contrast yellow text on light backgrounds */',
+              '.section-label,',
+              '.profile-columns span,',
+              '.faq-list summary span,',
+              '.method-copy li span,',
+              '.result-status button,',
+              '.record-status[data-status="Legacy"] {',
+              '  display: inline-block;',
+              '  width: max-content;',
+              '  background: var(--ink);',
+              '  color: var(--acid);',
+              '  padding: 4px 7px;',
+              '}',
+              '',
+              '/* Yellow backgrounds always use dark text for legibility. */',
+              '.label-two,',
+              '.open-button:hover,',
+              '::selection {',
+              '  color: var(--ink);',
+              '}',
+              '',
+          ])
           if '/* High-contrast yellow text on light backgrounds */' not in html:
               html = html.replace('</style>', contrast_css + '\n</style>', 1)
 
