@@ -1,0 +1,22 @@
+name: Finalize A2 root links
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/finalize-a2-root-links.yml]
+permissions: {contents: write}
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - shell: python
+        run: |
+          from pathlib import Path
+          for path in ['index.html','scripts/enhance_search_profile.py']:
+              p=Path(path)
+              s=p.read_text()
+              s=s.replace('https://ae.linkedin.com/in/joenasrprofile','https://www.linkedin.com/in/joenasrprofile')
+              s=s.replace('https://www.youtube.com/c/joenasr','https://www.youtube.com/@joenasr')
+              p.write_text(s)
+      - run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"; git rm .github/workflows/finalize-a2-root-links.yml; git add index.html scripts/enhance_search_profile.py; git commit -m "Normalize Signals identity profile URLs"; git push
