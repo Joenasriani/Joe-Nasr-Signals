@@ -9,7 +9,13 @@ CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/v2/"
 # The root page is a public-work archive. /v2/ is the canonical person profile.
 h = re.sub(
     r'<meta name="description" content="[^"]*"\s*/>',
-    '<meta name="description" content="Public work archive for Joe Ribal Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />',
+    '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />',
+    h,
+    count=1,
+)
+h = re.sub(
+    r'<meta name="author" content="[^"]*"\s*/>',
+    '<meta name="author" content="Joe Nasr" />',
     h,
     count=1,
 )
@@ -52,13 +58,29 @@ h = h.replace(
     '"@id": "https://joe-nasr-signals.vercel.app/#joe"',
     f'"@id": "{CANONICAL_PERSON}"',
 )
+
+# Joe Nasr is the public primary name. Full-name forms remain aliases for disambiguation.
+h = re.sub(
+    rf'("@id":\s*"{re.escape(CANONICAL_PERSON)}"\s*,\s*"name":\s*)"Joe Ribal Nasr"',
+    r'\1"Joe Nasr"',
+    h,
+)
+h = h.replace(
+    '"alternateName": [\n          "Joe Nasr",\n          "Joe Ribal Nasr",\n          "Joseph Ribal Nasr"\n        ]',
+    '"alternateName": [\n          "Joe Ribal Nasr",\n          "Joseph Ribal Nasr"\n        ]',
+)
+h = h.replace(
+    '"alternateName":["Joe Nasr","Joe Ribal Nasr","Joseph Ribal Nasr"]',
+    '"alternateName":["Joe Ribal Nasr","Joseph Ribal Nasr"]',
+)
+# Upgrade older alias arrays if they remain anywhere.
 h = h.replace(
     '"alternateName": [\n          "Joe Nasr",\n          "Joseph Nasr"\n        ]',
-    '"alternateName": [\n          "Joe Nasr",\n          "Joe Ribal Nasr",\n          "Joseph Ribal Nasr"\n        ]',
+    '"alternateName": [\n          "Joe Ribal Nasr",\n          "Joseph Ribal Nasr"\n        ]',
 )
 h = h.replace(
     '"alternateName":["Joe Nasr","Joseph Nasr"]',
-    '"alternateName":["Joe Nasr","Joe Ribal Nasr","Joseph Ribal Nasr"]',
+    '"alternateName":["Joe Ribal Nasr","Joseph Ribal Nasr"]',
 )
 
 # Only change a Person URL after the canonical Person @id, never the archive page canonical.
