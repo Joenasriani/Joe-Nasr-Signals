@@ -1,0 +1,62 @@
+name: Signals reputation cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/reputation-root-cleanup.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Align root archive and generator
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('index.html')
+          s=p.read_text()
+          reps={
+            'Official public archive of Joe Ribal Nasr, a Lebanese musician, composer and Middle East creative director working across Dubai, AI, XR, media education and RoboMarket.ae.':'Public work archive for Joe Ribal Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software.',
+            'Joe Nasr | Lebanese Musician, Composer &amp; Middle East Creative Director':'Joe Nasr — Public Work Archive | Creative Technology, XR & AI',
+            'Verified public work by Joe Ribal Nasr across Lebanese music, composition, Middle East creative direction, Dubai media, AI, XR, games and RoboMarket.ae.':'Public evidence archive connecting Joe Nasr’s technical, research, creative, education and music work to one canonical identity.',
+            'Verified public work across Lebanese music, Middle East creative direction, Dubai media, AI, XR, games and RoboMarket.ae.':'Public evidence archive across XR, AI, interactive systems, creative work, education, music and research.',
+            'Lebanese musician.<br />Middle East creative director.':'Creative technologist.<br />One public record.',
+            'Joe Ribal Nasr is a Lebanese multidisciplinary creative professional connecting music, sound, advertising, motion, digital experiences, AI, XR, games and robotics ventures.':'Joe Ribal Nasr is a Lebanese creative technologist working across XR, AI and interactive systems. This archive connects that technical practice with earlier and parallel work in creative direction, visual communication, education and music.',
+            'Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology.':'Joe Ribal Nasr is a Lebanese creative technologist working across XR, AI, interactive systems, spatial computing and experimental software, with professional history in creative direction, visual communication, education and music.',
+            'Lebanese Musician · Composer · Middle East Creative Director · AI/XR Creator':'Creative Technologist · XR · AI · Interactive Systems'
+          }
+          for a,b in reps.items(): s=s.replace(a,b)
+          # Top title after previous replacements.
+          s=re.sub(r'<title>.*?</title>','<title>Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI</title>',s,count=1,flags=re.S)
+          # Convert the root structured-data profile into an archive that references the canonical person entity.
+          s=s.replace('"@type": "ProfilePage"','"@type": "CollectionPage"')
+          s=s.replace('"@type":"ProfilePage"','"@type":"CollectionPage"')
+          s=s.replace('"@id": "https://joe-nasr-signals.vercel.app/#joe"','"@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"')
+          s=s.replace('"@id":U+"#joe"','"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"')
+          s=s.replace('"alternateName":["Joe Nasr","Joseph Nasr"]','"alternateName":["Joe Nasr","Joe Ribal Nasr","Joseph Ribal Nasr"]')
+          s=s.replace('"alternateName": ["Joe Nasr", "Joseph Nasr"]','"alternateName": ["Joe Nasr", "Joe Ribal Nasr", "Joseph Ribal Nasr"]')
+          s=s.replace('"description":"Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."','"description":"Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."')
+          s=s.replace('"description": "Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."','"description": "Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."')
+          s=s.replace('"jobTitle":["Creative Director","Composer","Musician","Digital Experience Creator","Media Educator","XR and Game Designer"]','"jobTitle":["Creative Technologist","Creative Director","Educator","Composer"]')
+          s=s.replace('"url":U,','"url":"https://joe-nasr-signals.vercel.app/v2/",')
+          # Remove company homepage from Person sameAs if present.
+          s=s.replace(',"https://www.robomarket.ae/"','')
+          s=s.replace(', "https://www.robomarket.ae/"','')
+          p.write_text(s)
+
+          # Replace the old generator with a small idempotent source that preserves the same reputation architecture.
+          Path('scripts/enhance_search_profile.py').write_text('''from pathlib import Path\nimport re\nP=Path("index.html")\nh=P.read_text(encoding="utf-8")\nCANONICAL_PERSON="https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\nCANONICAL_PROFILE="https://joe-nasr-signals.vercel.app/v2/"\nh=re.sub(r'<meta name="description" content="[^"]*"\\s*/>', '<meta name="description" content="Public work archive for Joe Ribal Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />', h, count=1)\nh=re.sub(r'<meta property="og:title" content="[^"]*"\\s*/>', '<meta property="og:title" content="Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI" />', h, count=1)\nh=re.sub(r'<meta name="twitter:title" content="[^"]*"\\s*/>', '<meta name="twitter:title" content="Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI" />', h, count=1)\nh=re.sub(r'<title>.*?</title>', '<title>Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI</title>', h, count=1, flags=re.S)\nh=h.replace('Lebanese musician.<br />Middle East creative director.','Creative technologist.<br />One public record.')\nh=h.replace('Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology.','Joe Ribal Nasr is a Lebanese creative technologist working across XR, AI, interactive systems, spatial computing and experimental software, with professional history in creative direction, visual communication, education and music.')\nh=h.replace('Lebanese Musician · Composer · Middle East Creative Director · AI/XR Creator','Creative Technologist · XR · AI · Interactive Systems')\nP.write_text(h,encoding="utf-8")\n''')
+          PY
+      - name: Commit aligned reputation architecture
+        run: |
+          git config user.name "Joe Nasr Reputation Maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html scripts/enhance_search_profile.py
+          git diff --cached --quiet || git commit -m "Align public archive with canonical technical identity"
+          git push
