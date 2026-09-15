@@ -1,0 +1,27 @@
+name: Signals SEO normalization
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/a3-signals-seo-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Normalize Signals archive
+        run: |
+          python scripts/enhance_search_profile.py
+          rm -f .github/workflows/a3-signals-seo-once.yml
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html .github/workflows/a3-signals-seo-once.yml
+          git diff --cached --quiet || git commit -m "Align Signals archive metadata with canonical identity"
+          git push
