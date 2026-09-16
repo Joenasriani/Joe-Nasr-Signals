@@ -30,6 +30,7 @@ jobs:
           profile_url = f"{site_url}v2/"
           person_id = f"{profile_url}#joe-nasr"
           games_url = f"{profile_url}games.html"
+          games_archive_url = f"{profile_url}games-development.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
           avatar_url = "https://avatars.githubusercontent.com/u/3828735?v=4"
@@ -162,7 +163,13 @@ jobs:
                       subjects.append({
                           "@type": "CollectionPage",
                           "url": games_url,
-                          "name": "Joe Nasr Games"
+                          "name": "Joe Nasr Published Games"
+                      })
+                  if not any(item.get("url") == games_archive_url for item in subjects if isinstance(item, dict)):
+                      subjects.append({
+                          "@type": "CollectionPage",
+                          "url": games_archive_url,
+                          "name": "Joe Nasr Game Development Archive"
                       })
 
           schema["@graph"] = graph
@@ -188,6 +195,12 @@ jobs:
               f'    <lastmod>{lastmod}</lastmod>',
               '    <changefreq>monthly</changefreq>',
               '    <priority>0.95</priority>',
+              '  </url>',
+              '  <url>',
+              f'    <loc>{games_archive_url}</loc>',
+              f'    <lastmod>{lastmod}</lastmod>',
+              '    <changefreq>monthly</changefreq>',
+              '    <priority>0.7</priority>',
               '  </url>',
               '  <url>',
               f'    <loc>{site_url}</loc>',
