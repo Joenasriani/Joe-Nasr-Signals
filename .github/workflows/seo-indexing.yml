@@ -27,6 +27,7 @@ jobs:
 
           site_url = "https://joe-nasr-signals.vercel.app/"
           profile_url = f"{site_url}v2/"
+          games_url = f"{site_url}v2/games.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
           google_verification = "UJLtMo0dFrABd5C7IMfCL2FG5oyVVlAwwiCqJ3hLPZg"
@@ -69,7 +70,6 @@ jobs:
                   1,
               )
 
-          # Use the same yellow highlight for both the active filter and hover.
           html = html.replace(
               '.filter-button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
               '.filter-button[aria-pressed="true"],\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
@@ -78,12 +78,9 @@ jobs:
               '.filter-button:hover,\n.filter-button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }',
               '.filter-button[aria-pressed="true"],\n.filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }',
           )
-
-          # Replace the former orange accent with the same yellow used for highlights.
           html = html.replace('--signal: #ff4f2e;', '--signal: #d9ff4f;')
           html = html.replace('rgba(255,79,46,.22)', 'rgba(217,255,79,.22)')
 
-          # Put a black strip behind yellow accent text when it appears on light areas.
           contrast_css = "\n".join([
               '/* High-contrast yellow text on light backgrounds */',
               '.section-label,',
@@ -99,7 +96,6 @@ jobs:
               '  padding: 4px 7px;',
               '}',
               '',
-              '/* Yellow backgrounds always use dark text for legibility. */',
               '.label-two,',
               '.open-button:hover,',
               '::selection {',
@@ -120,6 +116,12 @@ jobs:
               f'    <lastmod>{lastmod}</lastmod>',
               '    <changefreq>monthly</changefreq>',
               '    <priority>1.0</priority>',
+              '  </url>',
+              '  <url>',
+              f'    <loc>{games_url}</loc>',
+              f'    <lastmod>{lastmod}</lastmod>',
+              '    <changefreq>monthly</changefreq>',
+              '    <priority>0.95</priority>',
               '  </url>',
               '  <url>',
               f'    <loc>{site_url}</loc>',
