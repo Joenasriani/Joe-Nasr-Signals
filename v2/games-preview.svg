@@ -11,7 +11,7 @@
 <rect x="60" y="414" width="1080" height="1" fill="#101317" opacity=".24"/>
 <text x="60" y="465" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#101317">PATHWAY · DIORAMA · LEGOCRAFT · HAND DRONE XS · ASCENSION · PARADIGM SHIFT</text>
 <text x="60" y="502" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#101317">QUANTUM ENTANGLEMENT · ROBOSIM · AR TETRIS · ROUTING PROTOCOL · KLOTSKI</text>
-<text x="60" y="548" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#6c6b66">PLAYABLE BUILDS / SOURCE PROVENANCE / MACHINE READABLE GAME DATA</text>
+<text x="60" y="548" font-family="Courier New,monospace" font-size="15" font-weight="700" fill="#6c6b66">PLAY IN BROWSER / WEBXR / MOBILE / TOUCH / SOURCE AVAILABLE</text>
 <rect x="60" y="584" width="1080" height="1" fill="#101317" opacity=".24"/>
 <text x="60" y="612" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#6c6b66">joe-nasr-signals.vercel.app/v2/games.html</text>
 </svg>

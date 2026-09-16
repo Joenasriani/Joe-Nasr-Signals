@@ -218,7 +218,11 @@
               "STEM game",
               "browser robotics game"
             ],
-            "mainEntityOfPage": "https://joenasr.itch.io/robosim"
+            "mainEntityOfPage": "https://joenasr.itch.io/robosim",
+            "sameAs": [
+              "https://github.com/Joenasriani/robo-web-sim",
+              "https://github.com/Joenasriani/robosim"
+            ]
           }
         },
         {
