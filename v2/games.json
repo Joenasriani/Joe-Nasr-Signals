@@ -7,7 +7,7 @@
       "url": "https://joe-nasr-signals.vercel.app/v2/games.html",
       "name": "Games by Joe Nasr",
       "description": "Canonical catalog of original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr, organized around gameplay mechanics, genre, platform and official play pages.",
-      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.svg",
+      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.png",
       "mainEntity": {
         "@id": "https://joe-nasr-signals.vercel.app/v2/games.html#games"
       },
@@ -800,7 +800,7 @@
           }
         }
       ],
-      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.svg"
+      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.png"
     }
   ]
 }
