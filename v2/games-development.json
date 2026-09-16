@@ -2,29 +2,393 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "@id": "https://joe-nasr-signals.vercel.app/v2/games-development.html#development-games",
-  "name": "Joe Nasr Public Game Development Archive",
-  "description": "Verified public game prototypes, alternate builds and development records by Joe Nasr that are kept separate from the current published Games catalog.",
+  "name": "Public Game Development Archive",
+  "description": "Public game prototypes, alternate builds and earlier development records, separated from current published releases.",
   "itemListOrder": "https://schema.org/ItemListUnordered",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"VideoGame","name":"BMX Xtreme 3D","description":"Browser BMX racing game built around procedural tracks, jumps and arcade physics.","genre":["Racing","Arcade"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/bmx-xtreme"}},
-    {"@type":"ListItem","position":2,"item":{"@type":"VideoGame","name":"Kids Memory Match","alternateName":["Kids Memory Match SVG Game","Kids SVG"],"description":"Child focused browser memory matching game. Duplicate development repositories are consolidated into this lineage.","genre":["Educational","Memory"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-match"}},
-    {"@type":"ListItem","position":3,"item":{"@type":"VideoGame","name":"The Memory Game: Tap N# in Order","alternateName":"Memory Challenge","description":"Browser memory game about remembering and tapping numbered targets in the correct order.","genre":["Memory","Puzzle"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-memory-game"}},
-    {"@type":"ListItem","position":4,"item":{"@type":"VideoGame","name":"Hero Mission: The Healthy Choice","alternateName":"Kids: No to Drugs","description":"Educational browser quiz game for children about drug, vaping, medicine and peer-pressure safety choices. The kids-hero-quest repository is an alternate build of this same lineage.","genre":["Educational","Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/kids-no-to-drugs","https://github.com/Joenasriani/kids-hero-quest"]}},
-    {"@type":"ListItem","position":5,"item":{"@type":"VideoGame","name":"Find Your Destiny","description":"Child focused browser question-and-choice game with a magic-orb result interface.","genre":["Educational","Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-find-your-destiny"}},
-    {"@type":"ListItem","position":6,"item":{"@type":"VideoGame","name":"Life and Origins","description":"Browser alchemy and discovery game where players combine elements to reveal new results.","genre":["Discovery","Puzzle"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/life-and-origins-game"}},
-    {"@type":"ListItem","position":7,"item":{"@type":"VideoGame","name":"Safety Champion Adventure","description":"Child focused browser game built around safety learning and interactive challenges.","genre":["Educational"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-safety-champion"}},
-    {"@type":"ListItem","position":8,"item":{"@type":"VideoGame","name":"Hero Academy: Healthy Plate","alternateName":"Kids Hero Plate","description":"Child focused browser game about food and healthy-plate choices.","genre":["Educational","Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-hero-plate"}},
-    {"@type":"ListItem","position":9,"item":{"@type":"VideoGame","name":"Kindness Drive","description":"Child focused browser game built around kindness and positive social choices.","genre":["Educational"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-kindness-drive"}},
-    {"@type":"ListItem","position":10,"item":{"@type":"VideoGame","name":"A Smarter Me!","description":"Child focused browser quiz and choice game.","genre":["Educational","Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-a-smarter-me"}},
-    {"@type":"ListItem","position":11,"item":{"@type":"VideoGame","name":"ERGO-MATIC","description":"Educational browser board and quiz game about ergonomics.","genre":["Educational","Board game","Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-ergo-matic"}},
-    {"@type":"ListItem","position":12,"item":{"@type":"VideoGame","name":"Hangman","description":"Browser word game project with 2D and 3D presentation variants.","genre":["Word game","Puzzle"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/hangman"}},
-    {"@type":"ListItem","position":13,"item":{"@type":"VideoGame","name":"Threadbound","alternateName":"Stickman Threadbound","description":"Browser puzzle-platform prototype built around recorded movement, recall triggers and ghost replay.","genre":["Puzzle","Platformer"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/threadbound-game"}},
-    {"@type":"ListItem","position":14,"item":{"@type":"VideoGame","name":"AI Garden VR","alternateName":"AI Garden","description":"Experimental gamified browser prototype with creatures, progression and learning-themed interactions. The current prototype does not train a machine-learning model.","genre":["Educational","Experimental"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/ai-garden-vr"}},
-    {"@type":"ListItem","position":15,"item":{"@type":"VideoGame","name":"AI Millionaire Studio","alternateName":"WWTBAM AI Edition","description":"Quiz game prototype represented publicly by a partial source archive rather than a complete current playable build.","genre":["Quiz"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/wwtbam-ai-edition"}},
-    {"@type":"ListItem","position":16,"item":{"@type":"VideoGame","name":"STRESS BUSTER 3000","description":"Browser arcade interaction game built around punching on-screen targets; a WebXR repository is an alternate build of the same lineage.","genre":["Arcade","Action"],"gamePlatform":["Web browser","WebXR"],"creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/punch-game","https://github.com/Joenasriani/punch-game-xr"]}},
-    {"@type":"ListItem","position":17,"item":{"@type":"VideoGame","name":"Flyby","description":"Procedural browser flight simulation game with cockpit-style HUD, continuous movement and generated terrain or flight space.","genre":["Flight","Simulation"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/geo-force-vr"}},
-    {"@type":"ListItem","position":18,"item":{"@type":"VideoGame","name":"Word Finder","description":"Bilingual English and Arabic browser word-search game for children with progressive grids and touch interaction.","genre":["Educational","Word game"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/kids-word-finder"}},
-    {"@type":"ListItem","position":19,"item":{"@type":"VideoGame","name":"Stickman's Homework","description":"Minimal notebook-styled browser platformer combining movement with math challenges.","genre":["Platformer","Educational"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/stickmans-homework"}},
-    {"@type":"ListItem","position":20,"item":{"@type":"VideoGame","name":"Signal Cities","description":"Experimental Three.js puzzle game that turns authorized live city streams into an eight-step signal-matching challenge.","genre":["Puzzle","Experimental"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":"https://github.com/Joenasriani/cam-city"}}
-  ]
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "VideoGame",
+        "name": "BMX Xtreme 3D",
+        "description": "Browser BMX racing game built around procedural tracks, jumps and arcade physics.",
+        "genre": [
+          "Racing",
+          "Arcade"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/bmx-xtreme"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Kids Memory Match",
+        "alternateName": [
+          "Kids Memory Match SVG Game",
+          "Kids SVG"
+        ],
+        "description": "Child focused browser memory matching game. Duplicate development repositories are consolidated into this lineage.",
+        "genre": [
+          "Educational",
+          "Memory"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-match"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "VideoGame",
+        "name": "The Memory Game: Tap N# in Order",
+        "alternateName": "Memory Challenge",
+        "description": "Browser memory game about remembering and tapping numbered targets in the correct order.",
+        "genre": [
+          "Memory",
+          "Puzzle"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-memory-game"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Hero Mission: The Healthy Choice",
+        "alternateName": "Kids: No to Drugs",
+        "description": "Educational browser quiz game for children about drug, vaping, medicine and peer-pressure safety choices. The kids-hero-quest repository is an alternate build of this same lineage.",
+        "genre": [
+          "Educational",
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/kids-no-to-drugs",
+          "https://github.com/Joenasriani/kids-hero-quest"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Find Your Destiny",
+        "description": "Child focused browser question-and-choice game with a magic-orb result interface.",
+        "genre": [
+          "Educational",
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-find-your-destiny"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Life and Origins",
+        "description": "Browser alchemy and discovery game where players combine elements to reveal new results.",
+        "genre": [
+          "Discovery",
+          "Puzzle"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/life-and-origins-game"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Safety Champion Adventure",
+        "description": "Child focused browser game built around safety learning and interactive challenges.",
+        "genre": [
+          "Educational"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-safety-champion"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Hero Academy: Healthy Plate",
+        "alternateName": "Kids Hero Plate",
+        "description": "Child focused browser game about food and healthy-plate choices.",
+        "genre": [
+          "Educational",
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-hero-plate"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Kindness Drive",
+        "description": "Child focused browser game built around kindness and positive social choices.",
+        "genre": [
+          "Educational"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-kindness-drive"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "VideoGame",
+        "name": "A Smarter Me!",
+        "description": "Child focused browser quiz and choice game.",
+        "genre": [
+          "Educational",
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-a-smarter-me"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "VideoGame",
+        "name": "ERGO-MATIC",
+        "description": "Educational browser board and quiz game about ergonomics.",
+        "genre": [
+          "Educational",
+          "Board game",
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-ergo-matic"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Hangman",
+        "description": "Browser word game project with 2D and 3D presentation variants.",
+        "genre": [
+          "Word game",
+          "Puzzle"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/hangman"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Threadbound",
+        "alternateName": "Stickman Threadbound",
+        "description": "Browser puzzle-platform prototype built around recorded movement, recall triggers and ghost replay.",
+        "genre": [
+          "Puzzle",
+          "Platformer"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/threadbound-game"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "VideoGame",
+        "name": "AI Garden VR",
+        "alternateName": "AI Garden",
+        "description": "Experimental gamified browser prototype with creatures, progression and learning-themed interactions. The current prototype does not train a machine-learning model.",
+        "genre": [
+          "Educational",
+          "Experimental"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/ai-garden-vr"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "VideoGame",
+        "name": "AI Millionaire Studio",
+        "alternateName": "WWTBAM AI Edition",
+        "description": "Quiz game prototype represented publicly by a partial source archive rather than a complete current playable build.",
+        "genre": [
+          "Quiz"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/wwtbam-ai-edition"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "VideoGame",
+        "name": "STRESS BUSTER 3000",
+        "description": "Browser arcade interaction game built around punching on-screen targets; a WebXR repository is an alternate build of the same lineage.",
+        "genre": [
+          "Arcade",
+          "Action"
+        ],
+        "gamePlatform": [
+          "Web browser",
+          "WebXR"
+        ],
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/punch-game",
+          "https://github.com/Joenasriani/punch-game-xr"
+        ]
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Flyby",
+        "description": "Procedural browser flight simulation game with cockpit-style HUD, continuous movement and generated terrain or flight space.",
+        "genre": [
+          "Flight",
+          "Simulation"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/geo-force-vr"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Word Finder",
+        "description": "Bilingual English and Arabic browser word-search game for children with progressive grids and touch interaction.",
+        "genre": [
+          "Educational",
+          "Word game"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/kids-word-finder"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Stickman's Homework",
+        "description": "Minimal notebook-styled browser platformer combining movement with math challenges.",
+        "genre": [
+          "Platformer",
+          "Educational"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/stickmans-homework"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "VideoGame",
+        "name": "Signal Cities",
+        "description": "Experimental Three.js puzzle game that turns authorized live city streams into an eight-step signal-matching challenge.",
+        "genre": [
+          "Puzzle",
+          "Experimental"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+        },
+        "sameAs": "https://github.com/Joenasriani/cam-city"
+      }
+    }
+  ],
+  "author": {
+    "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Video games"
+  }
 }

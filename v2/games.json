@@ -43,7 +43,7 @@
       "@context": "https://schema.org",
       "@type": "ItemList",
       "@id": "https://joe-nasr-signals.vercel.app/v2/games.html#games",
-      "name": "Joe Nasr Games",
+      "name": "Games by Joe Nasr",
       "description": "Original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr.",
       "url": "https://joe-nasr-signals.vercel.app/v2/games.html",
       "numberOfItems": 26,

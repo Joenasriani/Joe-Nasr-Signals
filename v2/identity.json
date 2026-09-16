@@ -1,14 +1,31 @@
 {
   "canonical_name": "Joe Nasr",
-  "full_names": ["Joe Ribal Nasr", "Joseph Ribal Nasr"],
+  "full_names": [
+    "Joe Ribal Nasr",
+    "Joseph Ribal Nasr"
+  ],
   "canonical_url": "https://joe-nasr-signals.vercel.app/v2/",
   "canonical_person_id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
   "image": "https://avatars.githubusercontent.com/u/3828735?v=4",
   "primary_identity": "Creative Technologist",
-  "technical_focus": ["XR", "AI", "Interactive Systems"],
+  "technical_focus": [
+    "XR",
+    "AI",
+    "Interactive Systems"
+  ],
   "description": "Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces, experimental software and human-centered technology.",
-  "location_context": ["Dubai", "United Arab Emirates", "Lebanon", "Middle East"],
-  "career_context": ["Creative Direction", "Visual Communication", "Education", "Music and Composition"],
+  "location_context": [
+    "Dubai",
+    "United Arab Emirates",
+    "Lebanon",
+    "Middle East"
+  ],
+  "career_context": [
+    "Creative Direction",
+    "Visual Communication",
+    "Education",
+    "Music and Composition"
+  ],
   "profiles": {
     "linkedin": "https://www.linkedin.com/in/joenasrprofile",
     "github": "https://github.com/Joenasriani",
@@ -25,15 +42,36 @@
   },
   "creative_work": {
     "games_catalog": "https://joe-nasr-signals.vercel.app/v2/games.html",
-    "public_game_lineages": 26,
     "relationship": "creator",
-    "topic_rule": "Each game is represented as its own VideoGame entity. Joe Nasr is attached as creator provenance and is not used as the primary topic of individual game entities."
+    "topic_rule": "Each game is represented as its own VideoGame entity. Joe Nasr is linked as creator, while the game remains the primary topic.",
+    "published_games": 26,
+    "public_development_records": 20
   },
   "projects": [
-    {"name": "Apex Innovate", "type": "company", "url": "https://apexinnovate.ae/", "relationship": "founder"},
-    {"name": "RoboMarket.ae", "type": "robotics and physical AI platform", "url": "https://www.robomarket.ae/", "relationship": "founder"},
-    {"name": "RoboCreate", "type": "digital-to-physical manufacturing platform", "url": "https://robocreate.manus.space/", "relationship": "creator/founder"},
-    {"name": "Ideavent", "type": "event ideation and production-planning platform", "url": "https://ideavent.ai/", "relationship": "creator/founder"}
+    {
+      "name": "Apex Innovate",
+      "type": "company",
+      "url": "https://apexinnovate.ae/",
+      "relationship": "founder"
+    },
+    {
+      "name": "RoboMarket.ae",
+      "type": "robotics and physical AI platform",
+      "url": "https://www.robomarket.ae/",
+      "relationship": "founder"
+    },
+    {
+      "name": "RoboCreate",
+      "type": "digital-to-physical manufacturing platform",
+      "url": "https://robocreate.manus.space/",
+      "relationship": "creator/founder"
+    },
+    {
+      "name": "Ideavent",
+      "type": "event ideation and production-planning platform",
+      "url": "https://ideavent.ai/",
+      "relationship": "creator/founder"
+    }
   ],
   "disambiguation": "This identity refers to Joe Ribal Nasr, the Lebanese creative technologist associated with the Joenasriani GitHub account, Joe Nasr Research Registry, QuestRequestVR, Apex Innovate and RoboMarket.ae; it does not refer to other people named Joe Nasr or Joseph Nasr."
 }
