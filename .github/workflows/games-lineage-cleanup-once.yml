@@ -1,0 +1,51 @@
+name: Games lineage cleanup once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/games-lineage-cleanup-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove incorrect RoboSim source relation
+        shell: python
+        run: |
+          from pathlib import Path
+
+          same_as = '''            "sameAs": [
+              "https://github.com/Joenasriani/robosim"
+            ],
+'''
+          source_link = '<a href="https://github.com/Joenasriani/robosim">Source</a>'
+
+          for name in ("v2/games.html", "v2/games.json"):
+              p = Path(name)
+              text = p.read_text(encoding="utf-8")
+              text = text.replace(same_as, "")
+              if name.endswith("games.html"):
+                  text = text.replace(source_link, "")
+              p.write_text(text, encoding="utf-8")
+
+      - name: Remove this one-time workflow
+        run: rm -f .github/workflows/games-lineage-cleanup-once.yml
+
+      - name: Commit cleanup
+        run: |
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add v2/games.html v2/games.json .github/workflows/games-lineage-cleanup-once.yml
+          if git diff --cached --quiet; then
+            echo "No changes required."
+          else
+            git commit -m "Remove incorrect RoboSim source relation"
+            git push
+          fi
