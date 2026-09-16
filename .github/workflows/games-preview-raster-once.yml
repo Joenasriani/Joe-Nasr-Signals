@@ -1,0 +1,50 @@
+name: Generate games raster preview
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/games-preview-raster-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Render 1200x630 PNG and align metadata
+        run: |
+          python -m pip install --quiet cairosvg
+          python - <<'PY'
+          from pathlib import Path
+          import cairosvg
+
+          svg = Path('v2/games-preview.svg')
+          png = Path('v2/games-preview.png')
+          cairosvg.svg2png(bytestring=svg.read_bytes(), write_to=str(png), output_width=1200, output_height=630)
+
+          for file in ['v2/games.html', 'v2/games.json']:
+              p = Path(file)
+              s = p.read_text(encoding='utf-8').replace(
+                  'https://joe-nasr-signals.vercel.app/v2/games-preview.svg',
+                  'https://joe-nasr-signals.vercel.app/v2/games-preview.png'
+              )
+              if file.endswith('games.html') and 'property="og:image:width"' not in s:
+                  marker = '<meta property="og:image:alt" content="Joe Nasr Games catalog">'
+                  s = s.replace(marker, marker + '\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta property="og:image:type" content="image/png">', 1)
+              p.write_text(s, encoding='utf-8')
+          PY
+
+      - name: Remove workflow and commit
+        run: |
+          rm -f .github/workflows/games-preview-raster-once.yml
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add v2/games-preview.png v2/games.html v2/games.json .github/workflows/games-preview-raster-once.yml
+          git diff --cached --quiet || git commit -m "Use raster game catalog preview for social crawlers"
+          git push
