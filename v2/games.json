@@ -8,32 +8,651 @@
   "numberOfItems": 26,
   "itemListOrder": "https://schema.org/ItemListUnordered",
   "itemListElement": [
-    {"@type":"ListItem","position":1,"item":{"@type":"VideoGame","@id":"https://pathway-game.vercel.app/#game","name":"Pathway","url":"https://pathway-game.vercel.app/","description":"Thirty-level WebGL light puzzle about rotating glass lenses, redirecting a beam and aligning reflections to illuminate the target.","genre":["Puzzle","Logic"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://joenasr.itch.io/pathway","https://github.com/Joenasriani/pathway-game"]}},
-    {"@type":"ListItem","position":2,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/diorama#game","name":"DIORAMA","url":"https://joenasr.itch.io/diorama","description":"Early-access isometric route puzzle built around compact spatial scenes, path logic and tactile 3D interaction.","genre":"Puzzle","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/diorama-game"]}},
-    {"@type":"ListItem","position":3,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/happy-collector#game","name":"Happy Collector: Good Habits Adventure","url":"https://joenasr.itch.io/happy-collector","description":"3D browser platform game about collecting good habits, removing bad habits and navigating moving floating-island obstacles.","genre":["Educational","Platformer"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/kids-happy-collector"]}},
-    {"@type":"ListItem","position":4,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/cosmic-velocity#game","name":"Cosmic Velocity: Gyro Control","url":"https://joenasr.itch.io/cosmic-velocity","description":"Mobile browser 3D space shooter using phone tilt and gyroscope steering to dodge hazards, shoot targets and collect rings.","genre":["Action","Shooter","Arcade"],"gamePlatform":"Mobile web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}}},
-    {"@type":"ListItem","position":5,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/cheese-maze-mouse#game","name":"Cheese Maze Mouse","url":"https://joenasr.itch.io/cheese-maze-mouse","description":"Thirty-level mouse-and-cheese maze puzzle with one valid path per level and touch or drag controls.","genre":["Puzzle","Maze"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}}},
-    {"@type":"ListItem","position":6,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/robosim#game","name":"RoboSim","url":"https://joenasr.itch.io/robosim","description":"Early-access educational browser game built around programming and simulating robot behavior.","genre":["Educational","Simulation"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/robosim"]}},
-    {"@type":"ListItem","position":7,"item":{"@type":"VideoGame","@id":"https://legocraftvr.vercel.app/#game","name":"Legocraft","alternateName":"Brick XR Builder","url":"https://legocraftvr.vercel.app/","description":"Browser-based 3D construction sandbox for placing and editing digital bricks, saving builds, exporting GLB models and exploring creations through WebXR.","genre":["Sandbox","Creative building"],"gamePlatform":["Web browser","WebXR"],"creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://joenasr.itch.io/brickxr","https://github.com/Joenasriani/legocraft"]}},
-    {"@type":"ListItem","position":8,"item":{"@type":"VideoGame","@id":"https://joenasriani.github.io/ar-tetris-mobile/#game","name":"AR Tetris","url":"https://joenasriani.github.io/ar-tetris-mobile/","description":"Spatial falling-block puzzle for mobile and Meta Quest browsers that places the game board into the player's environment through WebXR.","genre":"Puzzle","gamePlatform":["Web browser","WebXR","Meta Quest browser"],"creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://joenasr.itch.io/artetris","https://github.com/Joenasriani/ar-tetris-mobile"]}},
-    {"@type":"ListItem","position":9,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/cheese-heist#game","name":"Cheese Heist Mouse","url":"https://joenasr.itch.io/cheese-heist","description":"Browser game built around a mouse, cheese, a cat and a child in a compact chase-and-collection scenario.","genre":"Casual","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}}},
-    {"@type":"ListItem","position":10,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/in-a-stickmans-world#game","name":"In a Stickman's World","url":"https://joenasr.itch.io/in-a-stickmans-world","description":"Browser platform game centered on movement, jumping, obstacles, enemies and level progression.","genre":"Platformer","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/stickman"]}},
-    {"@type":"ListItem","position":11,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/hand-drone-xs#game","name":"Hand Drone XS","url":"https://joenasr.itch.io/hand-drone-xs","description":"Browser action game that uses webcam hand tracking as the control surface for flying and steering a virtual drone.","genre":["Action","Experimental"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/hand-drone-game"]}},
-    {"@type":"ListItem","position":12,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/ball-sort-3d#game","name":"Ball Sort 3D","alternateName":"Sorting Balls 3D","url":"https://joenasr.itch.io/ball-sort-3d","description":"3D color-sorting logic puzzle about moving balls between tubes under constrained placement rules.","genre":["Puzzle","Logic"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://joenasr.itch.io/sorting-balls-3d","https://github.com/Joenasriani/ball-sorting-puzzle"]}},
-    {"@type":"ListItem","position":13,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/routing-protocol#game","name":"Routing Protocol","url":"https://joenasr.itch.io/routing-protocol","description":"Client-to-server connection puzzle about constructing valid network routes through a constrained grid.","genre":["Puzzle","Logic"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/routing-protocol-game"]}},
-    {"@type":"ListItem","position":14,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/gibberlink-academy#game","name":"GIBBERLINK ACADEMY","url":"https://joenasr.itch.io/gibberlink-academy","description":"Educational browser game that turns Gibberlink-style machine communication into an interactive learning challenge.","genre":"Educational","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}}},
-    {"@type":"ListItem","position":15,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/coloring-book#game","name":"Coloring Book For Kids","url":"https://joenasr.itch.io/coloring-book","description":"Simple browser coloring game designed for children with touch-friendly drawing interaction.","genre":["Kids","Creative"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/coloring-book"]}},
-    {"@type":"ListItem","position":16,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/klotski#game","name":"Klotski","url":"https://joenasr.itch.io/klotski","description":"Tactile 3D browser adaptation of the classic Hua Rong Dao sliding-block puzzle focused on constrained movement and spatial planning.","genre":["Puzzle","Sliding block"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/klotski-game"]}},
-    {"@type":"ListItem","position":17,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/mario-merge#game","name":"Mario Merge","url":"https://joenasr.itch.io/mario-merge","description":"Unofficial Mario-themed browser merge puzzle using physics-driven object combinations.","genre":["Puzzle","Merge"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/mario-merge"]}},
-    {"@type":"ListItem","position":18,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/bounce#game","name":"Old Bounce","url":"https://joenasr.itch.io/bounce","description":"Browser platform game centered on compact movement, jumping and touch-friendly arcade controls.","genre":"Platformer","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/bounce-game"]}},
-    {"@type":"ListItem","position":19,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/sector-glow#game","name":"Sector Glow: Cyber-Extract","url":"https://joenasr.itch.io/sector-glow","description":"Minimal cyber-themed path-clearing puzzle built around extracting a valid route through a glowing grid.","genre":"Puzzle","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}}},
-    {"@type":"ListItem","position":20,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/ascension#game","name":"Ascension","url":"https://joenasr.itch.io/ascension","description":"Minimalist isometric architectural puzzle game built around spatial routes and geometric progression.","genre":["Puzzle","Isometric"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/ascension-opt"]}},
-    {"@type":"ListItem","position":21,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/paradigm-shift#game","name":"Paradigm Shift","url":"https://joenasr.itch.io/paradigm-shift","description":"Perspective-shifting puzzle game in which changing viewpoint reveals hidden patterns and routes.","genre":"Puzzle","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/paradigm-shift-game"]}},
-    {"@type":"ListItem","position":22,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/zip-it#game","name":"ZIP IT!","url":"https://joenasr.itch.io/zip-it","description":"LinkedIn-themed browser snake puzzle and compact arcade experiment.","genre":["Puzzle","Arcade"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/zipit-game"]}},
-    {"@type":"ListItem","position":23,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/quantum-entanglement#game","name":"Quantum Entanglement","url":"https://joenasr.itch.io/quantum-entanglement","description":"Dual-control puzzle in which two linked particles must be guided simultaneously to separate target zones.","genre":"Puzzle","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/quantum-entanglement-game"]}},
-    {"@type":"ListItem","position":24,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/cybertruck-madness#game","name":"Cybertruck Madness '98","url":"https://joenasr.itch.io/cybertruck-madness","description":"Independent browser racing game with a Cybertruck-inspired vehicle in a retro off-road physics format; not an official Tesla product.","genre":"Racing","gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/teslamadness"]}},
-    {"@type":"ListItem","position":25,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/tic-tac-toe-reimagined#game","name":"Tic Tac Toe Reimagined","url":"https://joenasr.itch.io/tic-tac-toe-reimagined","description":"Expanding-board reinterpretation of tic-tac-toe that turns the familiar rule set into a larger spatial puzzle.","genre":["Puzzle","Board game"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/tictactoe-advanced"]}},
-    {"@type":"ListItem","position":26,"item":{"@type":"VideoGame","@id":"https://joenasr.itch.io/jumpy-jumperson#game","name":"Jumpy Jumperson","url":"https://joenasr.itch.io/jumpy-jumperson","description":"One-button 3D runner built around jumping, mid-air boosts, shields and escalating arcade speed.","genre":["Arcade","Runner"],"gamePlatform":"Web browser","creator":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},"sameAs":["https://github.com/Joenasriani/jumpy-jumperson"]}}
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://pathway-game.vercel.app/#game",
+        "name": "Pathway",
+        "url": "https://pathway-game.vercel.app/",
+        "description": "Thirty-level WebGL light puzzle about rotating glass lenses, redirecting a beam and aligning reflections to illuminate the target.",
+        "genre": [
+          "Puzzle",
+          "Logic"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://joenasr.itch.io/pathway",
+          "https://github.com/Joenasriani/pathway-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/diorama#game",
+        "name": "DIORAMA",
+        "url": "https://joenasr.itch.io/diorama",
+        "description": "Early-access isometric route puzzle built around compact spatial scenes, path logic and tactile 3D interaction.",
+        "genre": "Puzzle",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/diorama-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/happy-collector#game",
+        "name": "Happy Collector: Good Habits Adventure",
+        "url": "https://joenasr.itch.io/happy-collector",
+        "description": "3D browser platform game about collecting good habits, removing bad habits and navigating moving floating-island obstacles.",
+        "genre": [
+          "Educational",
+          "Platformer"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/kids-happy-collector"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/cosmic-velocity#game",
+        "name": "Cosmic Velocity: Gyro Control",
+        "url": "https://joenasr.itch.io/cosmic-velocity",
+        "description": "Mobile browser 3D space shooter using phone tilt and gyroscope steering to dodge hazards, shoot targets and collect rings.",
+        "genre": [
+          "Action",
+          "Shooter",
+          "Arcade"
+        ],
+        "gamePlatform": "Mobile web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/cheese-maze-mouse#game",
+        "name": "Cheese Maze Mouse",
+        "url": "https://joenasr.itch.io/cheese-maze-mouse",
+        "description": "Thirty-level mouse-and-cheese maze puzzle with one valid path per level and touch or drag controls.",
+        "genre": [
+          "Puzzle",
+          "Maze"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/robosim#game",
+        "name": "RoboSim",
+        "url": "https://joenasr.itch.io/robosim",
+        "description": "Early-access educational browser game built around programming and simulating robot behavior.",
+        "genre": [
+          "Educational",
+          "Simulation"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/robosim"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://legocraftvr.vercel.app/#game",
+        "name": "Legocraft",
+        "alternateName": "Brick XR Builder",
+        "url": "https://legocraftvr.vercel.app/",
+        "description": "Browser-based 3D construction sandbox for placing and editing digital bricks, saving builds, exporting GLB models and exploring creations through WebXR.",
+        "genre": [
+          "Sandbox",
+          "Creative building"
+        ],
+        "gamePlatform": [
+          "Web browser",
+          "WebXR"
+        ],
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://joenasr.itch.io/brickxr",
+          "https://github.com/Joenasriani/legocraft"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasriani.github.io/ar-tetris-mobile/#game",
+        "name": "AR Tetris",
+        "url": "https://joenasriani.github.io/ar-tetris-mobile/",
+        "description": "Spatial falling-block puzzle for mobile and Meta Quest browsers that places the game board into the player's environment through WebXR.",
+        "genre": "Puzzle",
+        "gamePlatform": [
+          "Web browser",
+          "WebXR",
+          "Meta Quest browser"
+        ],
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://joenasr.itch.io/artetris",
+          "https://github.com/Joenasriani/ar-tetris-mobile"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/cheese-heist#game",
+        "name": "Cheese Heist Mouse",
+        "url": "https://joenasr.itch.io/cheese-heist",
+        "description": "Browser game built around a mouse, cheese, a cat and a child in a compact chase-and-collection scenario.",
+        "genre": "Casual",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/in-a-stickmans-world#game",
+        "name": "In a Stickman's World",
+        "url": "https://joenasr.itch.io/in-a-stickmans-world",
+        "description": "Browser platform game centered on movement, jumping, obstacles, enemies and level progression.",
+        "genre": "Platformer",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/stickman"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/hand-drone-xs#game",
+        "name": "Hand Drone XS",
+        "url": "https://joenasr.itch.io/hand-drone-xs",
+        "description": "Browser action game that uses webcam hand tracking as the control surface for flying and steering a virtual drone.",
+        "genre": [
+          "Action",
+          "Experimental"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/hand-drone-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/ball-sort-3d#game",
+        "name": "Ball Sort 3D",
+        "alternateName": "Sorting Balls 3D",
+        "url": "https://joenasr.itch.io/ball-sort-3d",
+        "description": "3D color-sorting logic puzzle about moving balls between tubes under constrained placement rules.",
+        "genre": [
+          "Puzzle",
+          "Logic"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://joenasr.itch.io/sorting-balls-3d",
+          "https://github.com/Joenasriani/ball-sorting-puzzle"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/routing-protocol#game",
+        "name": "Routing Protocol",
+        "url": "https://joenasr.itch.io/routing-protocol",
+        "description": "Client-to-server connection puzzle about constructing valid network routes through a constrained grid.",
+        "genre": [
+          "Puzzle",
+          "Logic"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/routing-protocol-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/gibberlink-academy#game",
+        "name": "GIBBERLINK ACADEMY",
+        "url": "https://joenasr.itch.io/gibberlink-academy",
+        "description": "Independent educational browser game inspired by GibberLink-style machine communication, presented as an interactive learning challenge; not an official GibberLink project.",
+        "genre": "Educational",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/coloring-book#game",
+        "name": "Coloring Book For Kids",
+        "url": "https://joenasr.itch.io/coloring-book",
+        "description": "Simple browser coloring game designed for children with touch-friendly drawing interaction.",
+        "genre": [
+          "Kids",
+          "Creative"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/coloring-book"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/klotski#game",
+        "name": "Klotski",
+        "url": "https://joenasr.itch.io/klotski",
+        "description": "Tactile 3D browser adaptation of the classic Hua Rong Dao sliding-block puzzle focused on constrained movement and spatial planning.",
+        "genre": [
+          "Puzzle",
+          "Sliding block"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/klotski-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/mario-merge#game",
+        "name": "Mario Merge",
+        "url": "https://joenasr.itch.io/mario-merge",
+        "description": "Unofficial Mario-themed browser merge puzzle using physics-driven object combinations; not an official Nintendo or Mario product.",
+        "genre": [
+          "Puzzle",
+          "Merge"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/mario-merge"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/bounce#game",
+        "name": "Old Bounce",
+        "url": "https://joenasr.itch.io/bounce",
+        "description": "Browser platform game centered on compact movement, jumping and touch-friendly arcade controls.",
+        "genre": "Platformer",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/bounce-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/sector-glow#game",
+        "name": "Sector Glow: Cyber-Extract",
+        "url": "https://joenasr.itch.io/sector-glow",
+        "description": "Minimal cyber-themed path-clearing puzzle built around extracting a valid route through a glowing grid.",
+        "genre": "Puzzle",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/ascension#game",
+        "name": "Ascension",
+        "url": "https://joenasr.itch.io/ascension",
+        "description": "Minimalist isometric architectural puzzle game built around spatial routes and geometric progression.",
+        "genre": [
+          "Puzzle",
+          "Isometric"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/ascension-opt"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/paradigm-shift#game",
+        "name": "Paradigm Shift",
+        "url": "https://joenasr.itch.io/paradigm-shift",
+        "description": "Perspective-shifting puzzle game in which changing viewpoint reveals hidden patterns and routes.",
+        "genre": "Puzzle",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/paradigm-shift-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/zip-it#game",
+        "name": "ZIP IT!",
+        "url": "https://joenasr.itch.io/zip-it",
+        "description": "Independent LinkedIn-themed browser snake puzzle and compact arcade experiment; not affiliated with LinkedIn.",
+        "genre": [
+          "Puzzle",
+          "Arcade"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/zipit-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/quantum-entanglement#game",
+        "name": "Quantum Entanglement",
+        "url": "https://joenasr.itch.io/quantum-entanglement",
+        "description": "Dual-control puzzle in which two linked particles must be guided simultaneously to separate target zones.",
+        "genre": "Puzzle",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/quantum-entanglement-game"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/cybertruck-madness#game",
+        "name": "Cybertruck Madness '98",
+        "url": "https://joenasr.itch.io/cybertruck-madness",
+        "description": "Independent browser racing game with a Cybertruck-inspired vehicle in a retro off-road physics format; not an official Tesla product.",
+        "genre": "Racing",
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/teslamadness"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/tic-tac-toe-reimagined#game",
+        "name": "Tic Tac Toe Reimagined",
+        "url": "https://joenasr.itch.io/tic-tac-toe-reimagined",
+        "description": "Expanding-board reinterpretation of tic-tac-toe that turns the familiar rule set into a larger spatial puzzle.",
+        "genre": [
+          "Puzzle",
+          "Board game"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/tictactoe-advanced"
+        ],
+        "inLanguage": "en"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "VideoGame",
+        "@id": "https://joenasr.itch.io/jumpy-jumperson#game",
+        "name": "Jumpy Jumperson",
+        "url": "https://joenasr.itch.io/jumpy-jumperson",
+        "description": "One-button 3D runner built around jumping, mid-air boosts, shields and escalating arcade speed.",
+        "genre": [
+          "Arcade",
+          "Runner"
+        ],
+        "gamePlatform": "Web browser",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+          "name": "Joe Nasr",
+          "url": "https://joe-nasr-signals.vercel.app/v2/"
+        },
+        "sameAs": [
+          "https://github.com/Joenasriani/jumpy-jumperson"
+        ],
+        "inLanguage": "en"
+      }
+    }
   ],
   "author": {
     "@type": "Person",
