@@ -21,13 +21,15 @@ jobs:
       - name: Align canonical URLs, profile, sitemap and robots file
         shell: python
         run: |
+          import json
           import re
           from datetime import date
           from pathlib import Path
 
           site_url = "https://joe-nasr-signals.vercel.app/"
           profile_url = f"{site_url}v2/"
-          games_url = f"{site_url}v2/games.html"
+          person_id = f"{profile_url}#joe-nasr"
+          games_url = f"{profile_url}games.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
           avatar_url = "https://avatars.githubusercontent.com/u/3828735?v=4"
@@ -110,24 +112,68 @@ jobs:
 
           profile = Path("v2/index.html")
           profile_html = profile.read_text(encoding="utf-8")
+
           if 'property="og:image"' not in profile_html:
               profile_html = profile_html.replace(
-                  '</head>',
-                  f'<meta property="og:image" content="{avatar_url}">\n<meta name="twitter:image" content="{avatar_url}">\n</head>',
+                  '<meta property="profile:last_name" content="Nasr">',
+                  '<meta property="profile:last_name" content="Nasr">\n'
+                  f'<meta property="og:image" content="{avatar_url}">',
                   1,
               )
+          if 'name="twitter:image"' not in profile_html:
+              profile_html = profile_html.replace(
+                  '<meta name="twitter:description" content="XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software.">',
+                  '<meta name="twitter:description" content="XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software.">\n'
+                  f'<meta name="twitter:image" content="{avatar_url}">',
+                  1,
+              )
+
           if 'href="games.html"' not in profile_html:
               profile_html = profile_html.replace(
                   '<nav><a href="#identity">Identity</a><a href="#work">Work</a><a href="#profiles">Profiles</a></nav>',
                   '<nav><a href="#identity">Identity</a><a href="#work">Work</a><a href="games.html">Games</a><a href="#profiles">Profiles</a></nav>',
                   1,
               )
-          if f'"image": "{avatar_url}"' not in profile_html:
-              profile_html = profile_html.replace(
-                  '"jobTitle": "Creative Technologist",',
-                  f'"jobTitle": "Creative Technologist",\n      "image": "{avatar_url}",',
-                  1,
+
+          schema_match = re.search(
+              r'(<script type="application/ld\+json">\s*)(\{.*?\})(\s*</script>)',
+              profile_html,
+              flags=re.S,
+          )
+          if not schema_match:
+              raise SystemExit("Canonical profile JSON-LD block not found")
+
+          schema = json.loads(schema_match.group(2))
+          graph = schema.get("@graph", [])
+
+          # The Games catalog is maintained only on /v2/games.html + /v2/games.json.
+          # Remove the older embedded copy so search/AI systems see one game graph.
+          graph = [
+              node for node in graph
+              if not (
+                  node.get("@type") == "ItemList"
+                  and node.get("@id") == f"{profile_url}#games"
               )
+          ]
+
+          for node in graph:
+              if node.get("@type") == "Person" and node.get("@id") == person_id:
+                  node["image"] = avatar_url
+                  subjects = node.setdefault("subjectOf", [])
+                  if not any(item.get("url") == games_url for item in subjects if isinstance(item, dict)):
+                      subjects.append({
+                          "@type": "CollectionPage",
+                          "url": games_url,
+                          "name": "Joe Nasr Games"
+                      })
+
+          schema["@graph"] = graph
+          schema_text = json.dumps(schema, ensure_ascii=False, indent=2)
+          profile_html = (
+              profile_html[:schema_match.start(2)]
+              + schema_text
+              + profile_html[schema_match.end(2):]
+          )
           profile.write_text(profile_html, encoding="utf-8")
 
           sitemap = "\n".join([
