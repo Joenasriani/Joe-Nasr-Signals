@@ -200,6 +200,7 @@
             "@type": "VideoGame",
             "@id": "https://joenasr.itch.io/robosim#game",
             "name": "RoboSim",
+            "alternateName": "RoboWebSim",
             "url": "https://joenasr.itch.io/robosim",
             "description": "Educational browser robot programming game about sequencing commands, simulating robot behavior, testing logic and debugging solutions.",
             "genre": [
@@ -663,10 +664,10 @@
             "@id": "https://joenasr.itch.io/zip-it#game",
             "name": "ZIP IT!",
             "url": "https://joenasr.itch.io/zip-it",
-            "description": "Independent LinkedIn themed browser snake puzzle and compact arcade game. Not affiliated with LinkedIn.",
+            "description": "Browser grid path puzzle about covering every cell with one continuous route while visiting numbered checkpoints in order.",
             "genre": [
               "Puzzle",
-              "Arcade"
+              "Logic"
             ],
             "gamePlatform": "Web browser",
             "creator": {
@@ -677,10 +678,10 @@
             ],
             "inLanguage": "en",
             "keywords": [
-              "snake puzzle game",
-              "browser arcade game",
-              "LinkedIn themed game",
-              "indie browser game"
+              "grid path puzzle game",
+              "Hamiltonian path game",
+              "browser logic game",
+              "path planning game"
             ],
             "mainEntityOfPage": "https://joenasr.itch.io/zip-it"
           }
