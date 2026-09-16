@@ -18,7 +18,7 @@ jobs:
       - name: Enhance the regional search profile
         run: python scripts/enhance_search_profile.py
 
-      - name: Align canonical URLs, profile, games, sitemap and robots file
+      - name: Align canonical URLs, profile, sitemap and robots file
         shell: python
         run: |
           import json
@@ -176,21 +176,6 @@ jobs:
           )
           profile.write_text(profile_html, encoding="utf-8")
 
-          # RoboSim on itch is a public game, while Joenasriani/robosim currently
-          # documents a separate RoboWebSim codebase. Do not assert that repository
-          # as source or sameAs evidence for the public RoboSim game.
-          robosim_same_as = '''            "sameAs": [
-              "https://github.com/Joenasriani/robosim"
-            ],
-'''
-          robosim_source_link = '<a href="https://github.com/Joenasriani/robosim">Source</a>'
-          for game_file in (Path("v2/games.html"), Path("v2/games.json")):
-              game_text = game_file.read_text(encoding="utf-8")
-              game_text = game_text.replace(robosim_same_as, "")
-              if game_file.name == "games.html":
-                  game_text = game_text.replace(robosim_source_link, "")
-              game_file.write_text(game_text, encoding="utf-8")
-
           sitemap = "\n".join([
               '<?xml version="1.0" encoding="UTF-8"?>',
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
@@ -236,7 +221,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html v2/index.html v2/games.html v2/games.json sitemap.xml robots.txt .nojekyll
+          git add index.html v2/index.html sitemap.xml robots.txt .nojekyll
           if git diff --cached --quiet; then
             echo "Search files already aligned."
           else
