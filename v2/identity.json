@@ -2,6 +2,8 @@
   "canonical_name": "Joe Nasr",
   "full_names": ["Joe Ribal Nasr", "Joseph Ribal Nasr"],
   "canonical_url": "https://joe-nasr-signals.vercel.app/v2/",
+  "canonical_person_id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+  "image": "https://avatars.githubusercontent.com/u/3828735?v=4",
   "primary_identity": "Creative Technologist",
   "technical_focus": ["XR", "AI", "Interactive Systems"],
   "description": "Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces, experimental software and human-centered technology.",
@@ -13,11 +15,19 @@
     "portfolio": "https://joenasriani.github.io/joenasr-portfolio/",
     "research": "https://joenasriani.github.io/joe-research-registry/",
     "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
+    "games": "https://joe-nasr-signals.vercel.app/v2/games.html",
+    "games_data": "https://joe-nasr-signals.vercel.app/v2/games.json",
     "youtube": "https://www.youtube.com/@joenasr",
     "linktree": "https://linktr.ee/joenasr",
     "soundcloud": "https://soundcloud.com/joenasrmusic",
     "spotify": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
     "itch": "https://joenasr.itch.io/"
+  },
+  "creative_work": {
+    "games_catalog": "https://joe-nasr-signals.vercel.app/v2/games.html",
+    "public_game_lineages": 26,
+    "relationship": "creator",
+    "topic_rule": "Each game is represented as its own VideoGame entity. Joe Nasr is attached as creator provenance and is not used as the primary topic of individual game entities."
   },
   "projects": [
     {"name": "Apex Innovate", "type": "company", "url": "https://apexinnovate.ae/", "relationship": "founder"},
