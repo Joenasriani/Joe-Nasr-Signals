@@ -126,3 +126,18 @@ h = re.sub(
 )
 
 P.write_text(h, encoding="utf-8")
+
+# Keep the public RoboSim game separate from the repository named robosim.
+# That repository currently documents the distinct RoboWebSim codebase, so it
+# must not be asserted as source/sameAs evidence for the itch.io RoboSim game.
+robosim_same_as = '''            "sameAs": [
+              "https://github.com/Joenasriani/robosim"
+            ],
+'''
+robosim_source_link = '<a href="https://github.com/Joenasriani/robosim">Source</a>'
+for game_path in (Path("v2/games.html"), Path("v2/games.json")):
+    game_text = game_path.read_text(encoding="utf-8")
+    game_text = game_text.replace(robosim_same_as, "")
+    if game_path.name == "games.html":
+        game_text = game_text.replace(robosim_source_link, "")
+    game_path.write_text(game_text, encoding="utf-8")
