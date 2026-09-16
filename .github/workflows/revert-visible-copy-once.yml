@@ -1,0 +1,48 @@
+name: Restore pre-today visible copy only
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/revert-visible-copy-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Restore visible copy without reverting technical changes
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('v2/index.html')
+          s = p.read_text(encoding='utf-8')
+          replacements = {
+            'JOE NASR<small>XR · AI · INTERACTIVE SYSTEMS</small>': 'JOE NASR<small>CANONICAL PUBLIC IDENTITY</small>',
+            '<a href="#identity">Profile</a>': '<a href="#identity">Identity</a>',
+            '<div class="kicker">Creative Technologist · Dubai / Lebanon</div>': '<div class="kicker">Joe Ribal Nasr · Joseph Ribal Nasr · Dubai / Lebanon</div>',
+            '<span>Role</span><strong>Creative Technologist</strong>': '<span>Primary identity</span><strong>Creative Technologist</strong>',
+            '<h2>TECHNICAL<br>PRACTICE.</h2><p>Joe Nasr builds and researches interactive systems across spatial computing, multimodal interfaces, simulation, games and experimental software.</p>': '<h2>ONE PERSON.<br>ONE CORE IDENTITY.</h2><p>This page is the canonical public identity record connecting Joe Nasr\'s technical work, research, portfolio, career history, teaching, music and projects without treating each practice as a separate primary profession.</p>',
+            '<div class="identity-note"><strong>Current work.</strong> Research, games, prototypes and professional work are published as distinct projects and connected here through their original public sources.</div>': '<div class="identity-note"><strong>Disambiguation.</strong> Joe Nasr, Joe Ribal Nasr and Joseph Ribal Nasr on the linked profiles refer to the Lebanese creative technologist associated with the Joenasriani GitHub account, Joe Nasr Research Registry and QuestRequestVR. Creative direction, visual communication, education and music are part of his professional history and practice, not competing canonical identities.</div>',
+            '<h2>WORK<br>SURFACES.</h2><p>Code, research, games and professional work are published through their dedicated project pages.</p>': '<h2>WORK<br>SURFACES.</h2><p>Different public surfaces provide evidence for different parts of the same practice.</p>',
+            '<h3>Games</h3><p>Original browser games, puzzle games, WebXR games, educational games, arcade games and 3D interactive game projects.</p>': '<h3>Interactive Experiments</h3><p>Independent browser, puzzle, VR and experimental game projects.</p>',
+            '<h2>PUBLIC<br>PROFILES.</h2><p>Public profiles for code, professional work, video, music and project discovery.</p>': '<h2>IDENTITY<br>PROFILES.</h2><p>External profiles used to corroborate the same person. Company and product sites are intentionally not used as Person <code>sameAs</code> identities.</p>',
+            '<span>Joe Nasr · Creative Technologist</span><span>Creative Technologist · XR · AI · Interactive Systems</span>': '<span>Joe Nasr · Canonical public identity</span><span>Creative Technologist · XR · AI · Interactive Systems</span>'
+          }
+          missing = [old for old in replacements if old not in s]
+          if missing:
+            raise SystemExit('Expected current visible-copy strings not found: ' + repr(missing))
+          for old, new in replacements.items():
+            s = s.replace(old, new, 1)
+          p.write_text(s, encoding='utf-8')
+      - name: Commit restored visible copy and remove one-time workflow
+        run: |
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git rm .github/workflows/revert-visible-copy-once.yml
+          git add v2/index.html
+          git commit -m "Restore pre-today visible Signals copy only"
+          git push
