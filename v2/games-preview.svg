@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Joe Nasr Games</title>
+<desc id="desc">Editorial catalog image for twenty six public game lineages by Joe Nasr.</desc>
+<rect width="1200" height="630" fill="#f2efe7"/>
+<rect width="1200" height="14" fill="#d9ff4f"/>
+<rect x="60" y="64" width="1080" height="1" fill="#101317" opacity=".3"/>
+<text x="60" y="118" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" letter-spacing="4" fill="#101317">JOE NASR / GAMES</text>
+<text x="60" y="230" font-family="Arial,Helvetica,sans-serif" font-size="92" font-weight="900" letter-spacing="-5" fill="#101317">26 PUBLIC</text>
+<text x="60" y="318" font-family="Arial,Helvetica,sans-serif" font-size="92" font-weight="900" letter-spacing="-5" fill="#101317">GAME LINEAGES</text>
+<text x="64" y="374" font-family="Courier New,monospace" font-size="17" font-weight="700" letter-spacing="2" fill="#6c6b66">PUZZLE / ARCADE / WEBXR / PLATFORMER / EDUCATIONAL / SANDBOX</text>
+<rect x="60" y="414" width="1080" height="1" fill="#101317" opacity=".24"/>
+<text x="60" y="455" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#101317">Pathway / DIORAMA / Legocraft / Hand Drone XS / AR Tetris / RoboSim / Ascension</text>
+<text x="60" y="488" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#101317">Paradigm Shift / Quantum Entanglement / Routing Protocol / Ball Sort 3D / Klotski / ZIP IT!</text>
+<text x="60" y="521" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#101317">Happy Collector / Cosmic Velocity / Cheese Maze Mouse / Cheese Heist Mouse / Sector Glow</text>
+<text x="60" y="554" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" fill="#101317">In a Stickman's World / Jumpy Jumperson / Tic Tac Toe Reimagined / Old Bounce / Coloring Book</text>
+<rect x="60" y="584" width="1080" height="1" fill="#101317" opacity=".24"/>
+<text x="60" y="612" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#6c6b66">joe-nasr-signals.vercel.app/v2/games.html</text>
+</svg>
