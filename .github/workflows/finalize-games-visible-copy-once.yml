@@ -1,0 +1,40 @@
+name: Finalize visible game ambiguity cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/finalize-games-visible-copy-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Align visible catalog wording
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('v2/games.html')
+          s = p.read_text(encoding='utf-8')
+          replacements = {
+            'Turn machine style communication into an interactive learning challenge.': 'An independent educational game inspired by GibberLink-style machine communication. It is not an official GibberLink project.',
+            'An unofficial Mario themed merge puzzle driven by physics and progressive object combinations.': 'An unofficial Mario themed merge puzzle driven by physics and progressive object combinations. It is not an official Nintendo or Mario product.',
+            'A LinkedIn themed browser snake puzzle presented as a compact arcade experiment.': 'An independent LinkedIn themed browser snake puzzle presented as a compact arcade experiment. It is not affiliated with LinkedIn.'
+          }
+          for old, new in replacements.items():
+              if old not in s:
+                  raise SystemExit(f'Missing expected text: {old}')
+              s = s.replace(old, new, 1)
+          p.write_text(s, encoding='utf-8')
+      - name: Remove workflow and commit
+        run: |
+          rm -f .github/workflows/finalize-games-visible-copy-once.yml
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add v2/games.html .github/workflows/finalize-games-visible-copy-once.yml
+          git diff --cached --quiet || git commit -m "Remove visible game affiliation ambiguity"
+          git push
