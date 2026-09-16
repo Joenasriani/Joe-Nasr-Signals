@@ -22,35 +22,59 @@
 </style>
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type":"WebSite",
-      "@id":"https://joe-nasr-signals.vercel.app/v2/#website",
-      "url":"https://joe-nasr-signals.vercel.app/v2/",
-      "name":"Joe Nasr — Canonical Identity",
-      "inLanguage":"en",
-      "about":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"}
+      "@type": "WebSite",
+      "@id": "https://joe-nasr-signals.vercel.app/v2/#website",
+      "url": "https://joe-nasr-signals.vercel.app/v2/",
+      "name": "Joe Nasr — Canonical Identity",
+      "inLanguage": "en",
+      "about": {
+        "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+      }
     },
     {
-      "@type":"ProfilePage",
-      "@id":"https://joe-nasr-signals.vercel.app/v2/#profile",
-      "url":"https://joe-nasr-signals.vercel.app/v2/",
-      "name":"Joe Nasr — Creative Technologist | XR, AI & Interactive Systems",
-      "mainEntity":{"@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr"},
-      "isPartOf":{"@id":"https://joe-nasr-signals.vercel.app/v2/#website"}
+      "@type": "ProfilePage",
+      "@id": "https://joe-nasr-signals.vercel.app/v2/#profile",
+      "url": "https://joe-nasr-signals.vercel.app/v2/",
+      "name": "Joe Nasr — Creative Technologist | XR, AI & Interactive Systems",
+      "mainEntity": {
+        "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+      },
+      "isPartOf": {
+        "@id": "https://joe-nasr-signals.vercel.app/v2/#website"
+      }
     },
     {
-      "@type":"Person",
-      "@id":"https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
-      "name":"Joe Nasr",
-      "alternateName":["Joe Ribal Nasr","Joseph Ribal Nasr"],
-      "url":"https://joe-nasr-signals.vercel.app/v2/",
-      "description":"Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces, experimental software and human-centered technology.",
-      "nationality":{"@type":"Country","name":"Lebanon"},
-      "jobTitle":"Creative Technologist",
-      "knowsAbout":["Extended reality","Virtual reality","Spatial computing","Artificial intelligence","Interactive systems","Human-computer interaction","Multimodal interfaces","Simulation","Experimental software","Game design","Visual communication"],
-      "sameAs":[
+      "@type": "Person",
+      "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr",
+      "name": "Joe Nasr",
+      "alternateName": [
+        "Joe Ribal Nasr",
+        "Joseph Ribal Nasr"
+      ],
+      "url": "https://joe-nasr-signals.vercel.app/v2/",
+      "description": "Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces, experimental software and human-centered technology.",
+      "nationality": {
+        "@type": "Country",
+        "name": "Lebanon"
+      },
+      "jobTitle": "Creative Technologist",
+      "knowsAbout": [
+        "Extended reality",
+        "Virtual reality",
+        "Spatial computing",
+        "Artificial intelligence",
+        "Interactive systems",
+        "Human-computer interaction",
+        "Multimodal interfaces",
+        "Simulation",
+        "Experimental software",
+        "Game design",
+        "Visual communication"
+      ],
+      "sameAs": [
         "https://www.linkedin.com/in/joenasrprofile",
         "https://github.com/Joenasriani",
         "https://www.youtube.com/@joenasr",
@@ -59,10 +83,454 @@
         "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
         "https://joenasr.itch.io/"
       ],
-      "subjectOf":[
-        {"@type":"WebPage","url":"https://joenasriani.github.io/joenasr-portfolio/","name":"Joe Nasr Portfolio"},
-        {"@type":"WebPage","url":"https://joenasriani.github.io/joe-research-registry/","name":"Joe Nasr Research Registry"},
-        {"@type":"WebPage","url":"https://joenasriani.github.io/joe-research-registry/quest-research.html","name":"Joe Nasr Quest Research"}
+      "subjectOf": [
+        {
+          "@type": "WebPage",
+          "url": "https://joenasriani.github.io/joenasr-portfolio/",
+          "name": "Joe Nasr Portfolio"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://joenasriani.github.io/joe-research-registry/",
+          "name": "Joe Nasr Research Registry"
+        },
+        {
+          "@type": "WebPage",
+          "url": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
+          "name": "Joe Nasr Quest Research"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://joe-nasr-signals.vercel.app/v2/#games",
+      "name": "Joe Nasr Games",
+      "description": "Public browser, puzzle, XR and experimental games created by Joe Nasr.",
+      "numberOfItems": 26,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/pathway#game",
+            "name": "Pathway",
+            "url": "https://joenasr.itch.io/pathway",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/pathway-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/diorama#game",
+            "name": "DIORAMA",
+            "url": "https://joenasr.itch.io/diorama",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/diorama-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/happy-collector#game",
+            "name": "Happy Collector: Good Habits Adventure",
+            "url": "https://joenasr.itch.io/happy-collector",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/kids-happy-collector"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/cosmic-velocity#game",
+            "name": "Cosmic Velocity",
+            "url": "https://joenasr.itch.io/cosmic-velocity",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/cheese-maze-mouse#game",
+            "name": "Cheese Maze Mouse",
+            "url": "https://joenasr.itch.io/cheese-maze-mouse",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/robosim#game",
+            "name": "RoboSim",
+            "url": "https://joenasr.itch.io/robosim",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/robosim"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://legocraftvr.vercel.app#game",
+            "name": "Legocraft / Brick XR Builder",
+            "url": "https://legocraftvr.vercel.app/",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://joenasr.itch.io/brickxr",
+              "https://github.com/Joenasriani/legocraft"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/artetris#game",
+            "name": "AR Tetris",
+            "url": "https://joenasr.itch.io/artetris",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/ar-tetris-mobile"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/cheese-heist#game",
+            "name": "Cheese Heist Mouse",
+            "url": "https://joenasr.itch.io/cheese-heist",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/in-a-stickmans-world#game",
+            "name": "In a Stickman's World",
+            "url": "https://joenasr.itch.io/in-a-stickmans-world",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/stickman"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/hand-drone-xs#game",
+            "name": "Hand Drone XS",
+            "url": "https://joenasr.itch.io/hand-drone-xs",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/hand-drone-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/sorting-balls-3d#game",
+            "name": "Sorting Balls 3D / Ball Sort 3D",
+            "url": "https://joenasr.itch.io/sorting-balls-3d",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://joenasr.itch.io/ball-sort-3d",
+              "https://github.com/Joenasriani/ball-sorting-puzzle"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/routing-protocol#game",
+            "name": "Routing Protocol",
+            "url": "https://joenasr.itch.io/routing-protocol",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/routing-protocol-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/gibberlink-academy#game",
+            "name": "Gibberlink Academy",
+            "url": "https://joenasr.itch.io/gibberlink-academy",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://github.com/Joenasriani/coloring-book#game",
+            "name": "Coloring Book for Kids",
+            "url": "https://github.com/Joenasriani/coloring-book",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/klotski#game",
+            "name": "Klotski",
+            "url": "https://joenasr.itch.io/klotski",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/klotski-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/mario-merge#game",
+            "name": "Mario Merge",
+            "url": "https://joenasr.itch.io/mario-merge",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/mario-merge"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/bounce#game",
+            "name": "Old Bounce",
+            "url": "https://joenasr.itch.io/bounce",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/bounce-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/sector-glow#game",
+            "name": "Sector Glow: Cyber-Extract",
+            "url": "https://joenasr.itch.io/sector-glow",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/ascension#game",
+            "name": "Ascension",
+            "url": "https://joenasr.itch.io/ascension",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/ascension-opt"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/paradigm-shift#game",
+            "name": "Paradigm Shift",
+            "url": "https://joenasr.itch.io/paradigm-shift",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/paradigm-shift-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/zip-it#game",
+            "name": "ZIP IT!",
+            "url": "https://joenasr.itch.io/zip-it",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/zipit-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/quantum-entanglement#game",
+            "name": "Quantum Entanglement",
+            "url": "https://joenasr.itch.io/quantum-entanglement",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/quantum-entanglement-game"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/cybertruck-madness#game",
+            "name": "Cybertruck Madness '98",
+            "url": "https://joenasr.itch.io/cybertruck-madness",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/teslamadness"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://joenasr.itch.io/tic-tac-toe-reimagined#game",
+            "name": "Tic Tac Toe Reimagined",
+            "url": "https://joenasr.itch.io/tic-tac-toe-reimagined",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser",
+            "sameAs": [
+              "https://github.com/Joenasriani/tictactoe-advanced"
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "VideoGame",
+            "@id": "https://github.com/Joenasriani/jumpy-jumperson#game",
+            "name": "Jumpy Jumperson",
+            "url": "https://github.com/Joenasriani/jumpy-jumperson",
+            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "gamePlatform": "Web browser"
+          }
+        }
       ]
     }
   ]
