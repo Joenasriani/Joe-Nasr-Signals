@@ -210,9 +210,6 @@
             "creator": {
               "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
             },
-            "sameAs": [
-              "https://github.com/Joenasriani/robosim"
-            ],
             "inLanguage": "en",
             "keywords": [
               "robot programming game",
