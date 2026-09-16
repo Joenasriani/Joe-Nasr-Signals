@@ -73,7 +73,6 @@ h = h.replace(
     '"alternateName":["Joe Nasr","Joe Ribal Nasr","Joseph Ribal Nasr"]',
     '"alternateName":["Joe Ribal Nasr","Joseph Ribal Nasr"]',
 )
-# Upgrade older alias arrays if they remain anywhere.
 h = h.replace(
     '"alternateName": [\n          "Joe Nasr",\n          "Joseph Nasr"\n        ]',
     '"alternateName": [\n          "Joe Ribal Nasr",\n          "Joseph Ribal Nasr"\n        ]',
@@ -127,17 +126,37 @@ h = re.sub(
 
 P.write_text(h, encoding="utf-8")
 
-# Keep the public RoboSim game separate from the repository named robosim.
-# That repository currently documents the distinct RoboWebSim codebase, so it
-# must not be asserted as source/sameAs evidence for the itch.io RoboSim game.
+# Keep current game lineage/source relations evidence-based.
 robosim_same_as = '''            "sameAs": [
               "https://github.com/Joenasriani/robosim"
             ],
 '''
 robosim_source_link = '<a href="https://github.com/Joenasriani/robosim">Source</a>'
+sector_source = "https://github.com/Joenasriani/kids-slider-game"
+sector_marker = '''            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "inLanguage": "en",
+            "keywords": [
+              "cyber puzzle game",'''
+sector_replacement = '''            "creator": {
+              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+            },
+            "sameAs": [
+              "https://github.com/Joenasriani/kids-slider-game"
+            ],
+            "inLanguage": "en",
+            "keywords": [
+              "cyber puzzle game",'''
+sector_visible = '<div class="links"><a href="https://joenasr.itch.io/sector-glow">Play</a></div>'
+sector_visible_replacement = '<div class="links"><a href="https://joenasr.itch.io/sector-glow">Play</a><a href="https://github.com/Joenasriani/kids-slider-game">Source</a></div>'
+
 for game_path in (Path("v2/games.html"), Path("v2/games.json")):
     game_text = game_path.read_text(encoding="utf-8")
     game_text = game_text.replace(robosim_same_as, "")
+    if sector_source not in game_text:
+        game_text = game_text.replace(sector_marker, sector_replacement, 1)
     if game_path.name == "games.html":
         game_text = game_text.replace(robosim_source_link, "")
+        game_text = game_text.replace(sector_visible, sector_visible_replacement, 1)
     game_path.write_text(game_text, encoding="utf-8")
