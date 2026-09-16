@@ -263,9 +263,9 @@
           "position": 8,
           "item": {
             "@type": "VideoGame",
-            "@id": "https://joenasriani.github.io/ar-tetris-mobile/#game",
+            "@id": "https://artetris.vercel.app/#game",
             "name": "AR Tetris",
-            "url": "https://joenasriani.github.io/ar-tetris-mobile/",
+            "url": "https://artetris.vercel.app/",
             "description": "Independent browser augmented reality falling block puzzle for mobile and Meta Quest browsers using WebXR spatial placement. Not affiliated with Tetris Holding or The Tetris Company.",
             "genre": "Puzzle",
             "gamePlatform": [
@@ -287,7 +287,7 @@
               "WebXR game",
               "Meta Quest browser game"
             ],
-            "mainEntityOfPage": "https://joenasriani.github.io/ar-tetris-mobile/"
+            "mainEntityOfPage": "https://artetris.vercel.app/"
           }
         },
         {
