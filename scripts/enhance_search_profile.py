@@ -39,7 +39,6 @@ h = re.sub(
     flags=re.S,
 )
 
-# Visible positioning: technical identity first; career history remains in the archive.
 h = h.replace(
     'Lebanese musician.<br />Middle East creative director.',
     'Creative technologist.<br />One public record.',
@@ -53,13 +52,10 @@ h = h.replace(
     'Creative Technologist · XR · AI · Interactive Systems',
 )
 
-# Normalize every Joe Person node in this archive to the same canonical entity.
 h = h.replace(
     '"@id": "https://joe-nasr-signals.vercel.app/#joe"',
     f'"@id": "{CANONICAL_PERSON}"',
 )
-
-# Joe Nasr is the public primary name. Full-name forms remain aliases for disambiguation.
 h = re.sub(
     rf'("@id":\s*"{re.escape(CANONICAL_PERSON)}"\s*,\s*"name":\s*)"Joe Ribal Nasr"',
     r'\1"Joe Nasr"',
@@ -82,7 +78,6 @@ h = h.replace(
     '"alternateName":["Joe Ribal Nasr","Joseph Ribal Nasr"]',
 )
 
-# Only change a Person URL after the canonical Person @id, never the archive page canonical.
 pos = 0
 while True:
     pos = h.find(f'"@id": "{CANONICAL_PERSON}"', pos)
@@ -116,17 +111,15 @@ h = h.replace(
     '"description":"Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."',
     '"description":"Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."',
 )
-
-# A company URL is evidence of a relationship, not a Person sameAs identity.
 h = re.sub(
     r',?\s*"https://(?:www\.)?robomarket\.ae/"',
     '',
     h,
 )
-
 P.write_text(h, encoding="utf-8")
 
-# Keep current game lineage/source relations evidence-based.
+# Keep current game lineage/source relations evidence-based and separate
+# current published games from public development history.
 robosim_same_as = '''            "sameAs": [
               "https://github.com/Joenasriani/robosim"
             ],
@@ -159,4 +152,16 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
     if game_path.name == "games.html":
         game_text = game_text.replace(robosim_source_link, "")
         game_text = game_text.replace(sector_visible, sector_visible_replacement, 1)
+        game_text = game_text.replace(
+            'Games / 26 unique public lineages',
+            'Games / 26 current published lineages',
+        )
+        game_text = game_text.replace(
+            '26 unique public game lineages. Distribution duplicates are consolidated rather than represented as separate games.',
+            '26 current published game lineages. Public prototypes and development records are indexed separately.',
+        )
+        game_text = game_text.replace(
+            '<a href="games.html" aria-current="page">Games</a><a href="https://joenasriani.github.io/joe-research-registry/">Research</a>',
+            '<a href="games.html" aria-current="page">Published Games</a><a href="games-development.html">Development Archive</a><a href="https://joenasriani.github.io/joe-research-registry/">Research</a>',
+        )
     game_path.write_text(game_text, encoding="utf-8")
