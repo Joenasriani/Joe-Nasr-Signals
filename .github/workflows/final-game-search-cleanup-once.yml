@@ -1,0 +1,115 @@
+name: Final game search cleanup
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/final-game-search-cleanup-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply final game and profile cleanup
+        shell: python
+        run: |
+          import json
+          import re
+          from pathlib import Path
+
+          person_id = 'https://joe-nasr-signals.vercel.app/v2/#joe-nasr'
+
+          # Public profile: normal visitor language; machine disambiguation stays in JSON-LD.
+          p = Path('v2/index.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('<a href="#identity">Identity</a>', '<a href="#identity">Profile</a>')
+          s = s.replace('<span>Primary identity</span><strong>Creative Technologist</strong>', '<span>Role</span><strong>Creative Technologist</strong>')
+          s = s.replace('Different public surfaces provide evidence for different parts of the same practice.', 'Code, research, games and professional work are published through their dedicated project pages.')
+          p.write_text(s, encoding='utf-8')
+
+          # Published games: update embedded JSON-LD and visible wording.
+          p = Path('v2/games.html')
+          s = p.read_text(encoding='utf-8')
+          m = re.search(r'(<script type="application/ld\+json">\s*)(\{.*?\})(\s*</script>)', s, flags=re.S)
+          if not m:
+              raise SystemExit('Games JSON-LD not found')
+          data = json.loads(m.group(2))
+          for node in data.get('@graph', []):
+              if node.get('@type') == 'ItemList':
+                  node['name'] = 'Games by Joe Nasr'
+                  for li in node.get('itemListElement', []):
+                      item = li.get('item', {})
+                      if item.get('name') == 'RoboSim':
+                          item['alternateName'] = 'RoboWebSim'
+                          item['sameAs'] = [
+                              'https://github.com/Joenasriani/robo-web-sim',
+                              'https://github.com/Joenasriani/robosim'
+                          ]
+          rendered = json.dumps(data, ensure_ascii=False, indent=2)
+          s = s[:m.start(2)] + rendered + s[m.end(2):]
+          p.write_text(s, encoding='utf-8')
+
+          # Standalone machine-readable game catalog mirrors embedded JSON-LD.
+          p = Path('v2/games.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          for node in data.get('@graph', []):
+              if node.get('@type') == 'ItemList':
+                  node['name'] = 'Games by Joe Nasr'
+                  for li in node.get('itemListElement', []):
+                      item = li.get('item', {})
+                      if item.get('name') == 'RoboSim':
+                          item['alternateName'] = 'RoboWebSim'
+                          item['sameAs'] = [
+                              'https://github.com/Joenasriani/robo-web-sim',
+                              'https://github.com/Joenasriani/robosim'
+                          ]
+          p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Development archive: remove internal entity-resolution language.
+          p = Path('v2/games-development.html')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('<a href="./">Identity</a>', '<a href="./">Profile</a>')
+          s = s.replace('historical names in the same lineage', 'historical names for the same game')
+          s = s.replace('is the same lineage; kids-hero-quest is retained as an alternate development build', 'is the same game; kids-hero-quest is retained as an alternate development build')
+          s = s.replace('alternate build of the same game lineage', 'alternate build of the same game')
+          s = s.replace('26 current published lineages / this page is development history', '26 published games / this page is development history')
+          p.write_text(s, encoding='utf-8')
+
+          # Social preview stays editorial and game-facing, not SEO/backend-facing.
+          p = Path('v2/games-preview.svg')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('PLAYABLE BUILDS / SOURCE PROVENANCE / MACHINE READABLE GAME DATA', 'PLAY IN BROWSER / WEBXR / MOBILE / TOUCH / SOURCE AVAILABLE')
+          p.write_text(s, encoding='utf-8')
+
+          # Ensure persistent SEO workflow commits development-archive changes made by the maintenance script.
+          p = Path('.github/workflows/seo-indexing.yml')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace(
+              'git add index.html v2/index.html v2/games.html v2/games.json sitemap.xml robots.txt .nojekyll',
+              'git add index.html v2/index.html v2/games.html v2/games.json v2/games-development.html sitemap.xml robots.txt .nojekyll'
+          )
+          p.write_text(s, encoding='utf-8')
+
+      - name: Render game preview PNG
+        run: |
+          python -m pip install --quiet cairosvg
+          python - <<'PY'
+          import cairosvg
+          cairosvg.svg2png(url='v2/games-preview.svg', write_to='v2/games-preview.png', output_width=1200, output_height=630)
+          PY
+
+      - name: Commit final cleanup
+        run: |
+          rm -f .github/workflows/final-game-search-cleanup-once.yml
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git add v2/index.html v2/games.html v2/games.json v2/games-development.html v2/games-preview.svg v2/games-preview.png .github/workflows/seo-indexing.yml .github/workflows/final-game-search-cleanup-once.yml
+          git diff --cached --quiet || git commit -m "Finish game search signals and public presentation"
+          git push
