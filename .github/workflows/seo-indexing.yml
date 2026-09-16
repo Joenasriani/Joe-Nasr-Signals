@@ -18,7 +18,7 @@ jobs:
       - name: Enhance the regional search profile
         run: python scripts/enhance_search_profile.py
 
-      - name: Align canonical URLs, sitemap and robots file
+      - name: Align canonical URLs, profile, sitemap and robots file
         shell: python
         run: |
           import re
@@ -30,6 +30,7 @@ jobs:
           games_url = f"{site_url}v2/games.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
+          avatar_url = "https://avatars.githubusercontent.com/u/3828735?v=4"
           google_verification = "UJLtMo0dFrABd5C7IMfCL2FG5oyVVlAwwiCqJ3hLPZg"
           lastmod = date.today().isoformat()
 
@@ -105,8 +106,29 @@ jobs:
           ])
           if '/* High-contrast yellow text on light backgrounds */' not in html:
               html = html.replace('</style>', contrast_css + '\n</style>', 1)
-
           index.write_text(html, encoding="utf-8")
+
+          profile = Path("v2/index.html")
+          profile_html = profile.read_text(encoding="utf-8")
+          if 'property="og:image"' not in profile_html:
+              profile_html = profile_html.replace(
+                  '</head>',
+                  f'<meta property="og:image" content="{avatar_url}">\n<meta name="twitter:image" content="{avatar_url}">\n</head>',
+                  1,
+              )
+          if 'href="games.html"' not in profile_html:
+              profile_html = profile_html.replace(
+                  '<nav><a href="#identity">Identity</a><a href="#work">Work</a><a href="#profiles">Profiles</a></nav>',
+                  '<nav><a href="#identity">Identity</a><a href="#work">Work</a><a href="games.html">Games</a><a href="#profiles">Profiles</a></nav>',
+                  1,
+              )
+          if f'"image": "{avatar_url}"' not in profile_html:
+              profile_html = profile_html.replace(
+                  '"jobTitle": "Creative Technologist",',
+                  f'"jobTitle": "Creative Technologist",\n      "image": "{avatar_url}",',
+                  1,
+              )
+          profile.write_text(profile_html, encoding="utf-8")
 
           sitemap = "\n".join([
               '<?xml version="1.0" encoding="UTF-8"?>',
@@ -153,7 +175,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html sitemap.xml robots.txt .nojekyll
+          git add index.html v2/index.html sitemap.xml robots.txt .nojekyll
           if git diff --cached --quiet; then
             echo "Search files already aligned."
           else
