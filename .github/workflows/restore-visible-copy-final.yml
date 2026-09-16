@@ -1,0 +1,41 @@
+name: Restore pre-today visible Signals copy final
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/restore-visible-copy-final.yml
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Restore remaining pre-today visible wording only
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('v2/index.html')
+          s = p.read_text(encoding='utf-8')
+          replacements = {
+            '<div class="kicker">Creative Technologist · Dubai / Lebanon</div>': '<div class="kicker">Joe Ribal Nasr · Joseph Ribal Nasr · Dubai / Lebanon</div>',
+            '<section id="identity"><div class="wrap"><div class="section-head"><h2>ONE PERSON.<br>ONE CORE IDENTITY.</h2><p>This page is the canonical public identity record connecting Joe Nasr\'s technical work, research, portfolio, career history, teaching, music and projects without treating each practice as a separate primary profession.</p></div></div></section>': '<section id="identity"><div class="wrap"><div class="section-head"><h2>ONE PERSON.<br>ONE CORE IDENTITY.</h2><p>This page is the canonical public identity record connecting Joe Nasr\'s technical work, research, portfolio, career history, teaching, music and projects without treating each practice as a separate primary profession.</p></div><div class="identity-note"><strong>Disambiguation.</strong> Joe Nasr, Joe Ribal Nasr and Joseph Ribal Nasr on the linked profiles refer to the Lebanese creative technologist associated with the Joenasriani GitHub account, Joe Nasr Research Registry and QuestRequestVR. Creative direction, visual communication, education and music are part of his professional history and practice, not competing canonical identities.</div></div></section>',
+            '<section id="profiles"><div class="wrap"><div class="section-head"><h2>IDENTITY<br>PROFILES.</h2></div><div class="lines">': '<section id="profiles"><div class="wrap"><div class="section-head"><h2>IDENTITY<br>PROFILES.</h2><p>External profiles used to corroborate the same person. Company and product sites are intentionally not used as Person <code>sameAs</code> identities.</p></div><div class="lines">'
+          }
+          missing = [old for old in replacements if old not in s]
+          if missing:
+            raise SystemExit('Expected current Signals strings not found: ' + repr(missing))
+          for old, new in replacements.items():
+            s = s.replace(old, new, 1)
+          p.write_text(s, encoding='utf-8')
+      - name: Commit and remove one-time workflow
+        run: |
+          git config user.name "Joe Nasr repository maintenance"
+          git config user.email "actions@users.noreply.github.com"
+          git rm .github/workflows/restore-visible-copy-final.yml
+          git add v2/index.html
+          git commit -m "Restore remaining pre-today Signals page wording"
+          git push
