@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import re
 
 P = Path("index.html")
@@ -111,57 +112,85 @@ h = h.replace(
     '"description":"Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."',
     '"description":"Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."',
 )
-h = re.sub(
-    r',?\s*"https://(?:www\.)?robomarket\.ae/"',
-    '',
-    h,
-)
+h = re.sub(r',?\s*"https://(?:www\.)?robomarket\.ae/"', '', h)
 P.write_text(h, encoding="utf-8")
 
-# Keep current game lineage/source relations evidence-based and separate
-# current published games from public development history.
-robosim_same_as = '''            "sameAs": [
-              "https://github.com/Joenasriani/robosim"
-            ],
-'''
-robosim_source_link = '<a href="https://github.com/Joenasriani/robosim">Source</a>'
-sector_source = "https://github.com/Joenasriani/kids-slider-game"
-sector_marker = '''            "creator": {
-              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
-            },
-            "inLanguage": "en",
-            "keywords": [
-              "cyber puzzle game",'''
-sector_replacement = '''            "creator": {
-              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
-            },
-            "sameAs": [
-              "https://github.com/Joenasriani/kids-slider-game"
-            ],
-            "inLanguage": "en",
-            "keywords": [
-              "cyber puzzle game",'''
-sector_visible = '<div class="links"><a href="https://joenasr.itch.io/sector-glow">Play</a></div>'
-sector_visible_replacement = '<div class="links"><a href="https://joenasr.itch.io/sector-glow">Play</a><a href="https://github.com/Joenasriani/kids-slider-game">Source</a></div>'
-
+# Keep game entities centered on gameplay, platform and genre. Joe Nasr is creator,
+# while historical names and alternate repositories are represented only where useful.
 for game_path in (Path("v2/games.html"), Path("v2/games.json")):
+    if not game_path.exists():
+        continue
     game_text = game_path.read_text(encoding="utf-8")
-    game_text = game_text.replace(robosim_same_as, "")
+
+    # RoboSim: canonical source is robo-web-sim; robosim is an alternate development copy.
+    game_text = game_text.replace(
+        '"name": "RoboSim",\n            "url": "https://joenasr.itch.io/robosim",',
+        '"name": "RoboSim",\n            "alternateName": "RoboWebSim",\n            "url": "https://joenasr.itch.io/robosim",',
+    )
+    game_text = game_text.replace(
+        '"sameAs": [\n              "https://github.com/Joenasriani/robosim"\n            ],',
+        '"sameAs": [\n              "https://github.com/Joenasriani/robo-web-sim",\n              "https://github.com/Joenasriani/robosim"\n            ],',
+    )
+
+    # ZIP IT!: remove legacy LinkedIn/snake classification and describe the real mechanic.
+    game_text = game_text.replace(
+        '"description": "Independent LinkedIn themed browser snake puzzle and compact arcade game. Not affiliated with LinkedIn.",',
+        '"description": "Browser grid path puzzle about covering every cell with one continuous route while visiting numbered checkpoints in order.",',
+    )
+    game_text = game_text.replace(
+        '"genre": [\n              "Puzzle",\n              "Arcade"\n            ],',
+        '"genre": [\n              "Puzzle",\n              "Logic"\n            ],',
+        1,
+    )
+    game_text = game_text.replace(
+        '"snake puzzle game",\n              "browser arcade game",\n              "LinkedIn themed game",\n              "indie browser game"',
+        '"grid path puzzle game",\n              "Hamiltonian path game",\n              "browser logic game",\n              "path planning game"',
+    )
+
+    # Historical duplicate names should read naturally, not as internal entity jargon.
+    game_text = game_text.replace(
+        'Sorting Balls 3D is treated as the same lineage.',
+        'Sorting Balls 3D is an alternate public listing of the same game.',
+    )
+
+    # Sector Glow source is a verified public source repository.
+    sector_source = "https://github.com/Joenasriani/kids-slider-game"
+    sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
+    sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
     if sector_source not in game_text:
         game_text = game_text.replace(sector_marker, sector_replacement, 1)
+
     if game_path.name == "games.html":
-        game_text = game_text.replace(robosim_source_link, "")
-        game_text = game_text.replace(sector_visible, sector_visible_replacement, 1)
         game_text = game_text.replace(
-            'Games / 26 unique public lineages',
-            'Games / 26 current published lineages',
+            '<a href="./">Identity</a>',
+            '<a href="./">Profile</a>',
         )
         game_text = game_text.replace(
-            '26 unique public game lineages. Distribution duplicates are consolidated rather than represented as separate games.',
-            '26 current published game lineages. Public prototypes and development records are indexed separately.',
+            'The catalog is organized by what each game actually is: mechanic, genre, platform and playable surface. Creator identity is attached as provenance, not used as the topic.',
+            'Each entry identifies the game mechanic, genre, platform, playable build and available source.',
         )
         game_text = game_text.replace(
-            '<a href="games.html" aria-current="page">Games</a><a href="https://joenasriani.github.io/joe-research-registry/">Research</a>',
-            '<a href="games.html" aria-current="page">Published Games</a><a href="games-development.html">Development Archive</a><a href="https://joenasriani.github.io/joe-research-registry/">Research</a>',
+            '<div class="game"><div class="num">06</div><div><h2>RoboSim</h2><div class="meta">Educational / Simulation / Early access</div></div><p>Program robot behavior, simulate it and iterate through an educational browser environment.</p><div class="links"><a href="https://joenasr.itch.io/robosim">Play</a></div></div>',
+            '<div class="game"><div class="num">06</div><div><h2>RoboSim</h2><div class="meta">Educational / Simulation / Early access</div></div><p>Program robot behavior, simulate it and iterate through an educational browser environment.</p><div class="links"><a href="https://joenasr.itch.io/robosim">Play</a><a href="https://github.com/Joenasriani/robo-web-sim">Source</a></div></div>',
         )
+        game_text = game_text.replace(
+            '<div class="game"><div class="num">22</div><div><h2>ZIP IT!</h2><div class="meta">Puzzle / Arcade / Snake</div></div><p>An independent LinkedIn themed browser snake puzzle presented as a compact arcade experiment. It is not affiliated with LinkedIn.</p>',
+            '<div class="game"><div class="num">22</div><div><h2>ZIP IT!</h2><div class="meta">Puzzle / Grid path / Browser</div></div><p>Trace one continuous route across the grid, cover every cell and visit numbered checkpoints in order.</p>',
+        )
+        game_text = game_text.replace(
+            '<div class="game"><div class="num">12</div><div><h2>Ball Sort 3D</h2><div class="meta">Puzzle / Logic / 3D</div></div><p>Move colored balls between tubes under constrained placement rules until every color is grouped. Sorting Balls 3D is treated as the same lineage.</p>',
+            '<div class="game"><div class="num">12</div><div><h2>Ball Sort 3D</h2><div class="meta">Puzzle / Logic / 3D</div></div><p>Move colored balls between tubes under constrained placement rules until every color is grouped. Sorting Balls 3D is an alternate public listing of the same game.</p>',
+        )
+
     game_path.write_text(game_text, encoding="utf-8")
+
+# Keep development-history wording useful to visitors rather than exposing internal entity language.
+dev_path = Path("v2/games-development.html")
+if dev_path.exists():
+    d = dev_path.read_text(encoding="utf-8")
+    d = d.replace('<a href="./">Identity</a>', '<a href="./">Profile</a>')
+    d = d.replace('historical names in the same lineage', 'historical names for the same game')
+    d = d.replace('is the same lineage; kids-hero-quest is retained as an alternate development build', 'is the same game; kids-hero-quest is retained as an alternate development build')
+    d = d.replace('alternate build of the same game lineage', 'alternate build of the same game')
+    d = d.replace('26 current published lineages / this page is development history', '26 published games / this page is development history')
+    dev_path.write_text(d, encoding="utf-8")
