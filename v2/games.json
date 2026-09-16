@@ -585,6 +585,9 @@
             "creator": {
               "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
             },
+            "sameAs": [
+              "https://github.com/Joenasriani/kids-slider-game"
+            ],
             "inLanguage": "en",
             "keywords": [
               "cyber puzzle game",
