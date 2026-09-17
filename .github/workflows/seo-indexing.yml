@@ -40,6 +40,7 @@ jobs:
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
           html = html.replace(legacy_url, site_url)
+          html = html.replace("one canonical identity.", "one identity.")
           html = re.sub(
               r'<link rel="canonical" href="[^"]+"\s*/>',
               f'<link rel="canonical" href="{site_url}" />',
