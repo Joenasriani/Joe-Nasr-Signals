@@ -2,13 +2,13 @@
 
 **Creative Technologist · XR, AI & Interactive Systems**
 
-This repository is the public evidence/archive layer for **Joe Ribal Nasr**. It connects technical projects, research, professional work, education and music to one canonical identity without treating every practice as a separate primary profession.
+This repository is the public evidence/archive layer for **Joe Ribal Nasr**. It connects technical projects, research, professional work, education and music to one identity without treating every practice as a separate primary profession.
 
-## Canonical identity
+## Identity
 
 https://joe-nasr-signals.vercel.app/v2/
 
-Canonical Person ID:
+Person ID:
 
 `https://joe-nasr-signals.vercel.app/v2/#joe-nasr`
 
