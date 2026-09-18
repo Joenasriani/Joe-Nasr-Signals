@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joe-nasr-signals.vercel.app/</loc>
+    <loc>https://joe-nasr-signals.vercel.app/v2/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://joe-nasr-signals.vercel.app/games.html</loc>
+    <loc>https://joe-nasr-signals.vercel.app/v2/games.html</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://joe-nasr-signals.vercel.app/games-development.html</loc>
+    <loc>https://joe-nasr-signals.vercel.app/v2/games-development.html</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
