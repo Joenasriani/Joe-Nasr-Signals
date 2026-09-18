@@ -4,10 +4,10 @@ import re
 
 P = Path("index.html")
 h = P.read_text(encoding="utf-8")
-CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
-CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/v2/"
+CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/#joe-nasr"
+CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/"
 
-# The root page is a public-work archive. /v2/ is the canonical person profile.
+# The root page is the canonical public-work and person identity surface.
 h = re.sub(
     r'<meta name="description" content="[^"]*"\s*/>',
     '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />',
