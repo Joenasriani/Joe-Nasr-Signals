@@ -19,7 +19,7 @@
         "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
       },
       "isPartOf": {
-        "@id": "https://joe-nasr-signals.vercel.app/v2/#website"
+        "@id": "https://joe-nasr-signals.vercel.app/#website"
       },
       "inLanguage": "en",
       "dateModified": "2026-09-16"
@@ -32,7 +32,7 @@
         "Joe Ribal Nasr",
         "Joseph Ribal Nasr"
       ],
-      "url": "https://joe-nasr-signals.vercel.app/v2/",
+      "url": "https://joe-nasr-signals.vercel.app/",
       "image": "https://avatars.githubusercontent.com/u/3828735?v=4",
       "sameAs": [
         "https://github.com/Joenasriani",
