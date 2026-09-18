@@ -4,10 +4,10 @@ import re
 
 P = Path("index.html")
 h = P.read_text(encoding="utf-8")
-CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/#joe-nasr"
-CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/"
+CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
+CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/v2/"
 
-# The root page is the canonical public-work and person identity surface.
+# The root page is a public-work archive. /v2/ is the canonical person profile.
 h = re.sub(
     r'<meta name="description" content="[^"]*"\s*/>',
     '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />',
@@ -155,8 +155,8 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
 
     # Sector Glow source is a verified public source repository.
     sector_source = "https://github.com/Joenasriani/kids-slider-game"
-    sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
-    sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
+    sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
+    sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
     if sector_source not in game_text:
         game_text = game_text.replace(sector_marker, sector_replacement, 1)
 
