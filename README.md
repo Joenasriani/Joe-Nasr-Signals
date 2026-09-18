@@ -6,11 +6,11 @@ This repository is the public evidence/archive layer for **Joe Ribal Nasr**. It 
 
 ## Identity
 
-https://joe-nasr-signals.vercel.app/v2/
+https://joe-nasr-signals.vercel.app/
 
 Person ID:
 
-`https://joe-nasr-signals.vercel.app/v2/#joe-nasr`
+`https://joe-nasr-signals.vercel.app/#joe-nasr`
 
 ## Technical / research surfaces
 
