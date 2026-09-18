@@ -155,8 +155,8 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
 
     # Sector Glow source is a verified public source repository.
     sector_source = "https://github.com/Joenasriani/kids-slider-game"
-    sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
-    sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
+    sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
+    sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
     if sector_source not in game_text:
         game_text = game_text.replace(sector_marker, sector_replacement, 1)
 
