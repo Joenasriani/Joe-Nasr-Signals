@@ -10,7 +10,7 @@ https://joe-nasr-signals.vercel.app/
 
 Person ID:
 
-`https://joe-nasr-signals.vercel.app/v2/#joe-nasr`
+`https://joe-nasr-signals.vercel.app/#joe-nasr`
 
 ## Technical / research surfaces
 
