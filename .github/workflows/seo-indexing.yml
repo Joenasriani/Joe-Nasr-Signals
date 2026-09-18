@@ -27,10 +27,11 @@ jobs:
           from pathlib import Path
 
           site_url = "https://joe-nasr-signals.vercel.app/"
-          profile_url = f"{site_url}v2/"
-          person_id = f"{profile_url}#joe-nasr"
-          games_url = f"{profile_url}games.html"
-          games_archive_url = f"{profile_url}games-development.html"
+          profile_url = site_url
+          v2_url = f"{site_url}v2/"
+          person_id = f"{site_url}#joe-nasr"
+          games_url = f"{v2_url}games.html"
+          games_archive_url = f"{v2_url}games-development.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
           avatar_url = "https://avatars.githubusercontent.com/u/3828735?v=4"
@@ -202,12 +203,6 @@ jobs:
               f'    <lastmod>{lastmod}</lastmod>',
               '    <changefreq>monthly</changefreq>',
               '    <priority>0.7</priority>',
-              '  </url>',
-              '  <url>',
-              f'    <loc>{site_url}</loc>',
-              f'    <lastmod>{lastmod}</lastmod>',
-              '    <changefreq>monthly</changefreq>',
-              '    <priority>0.9</priority>',
               '  </url>',
               '  <url>',
               f'    <loc>{concept_url}</loc>',
