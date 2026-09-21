@@ -60,6 +60,21 @@ jobs:
               count=1,
           )
 
+          html = re.sub(
+              r'"dateModified":\s*"\d{4}-\d{2}-\d{2}"',
+              f'"dateModified": "{lastmod}"',
+              html,
+              count=1,
+          )
+          curated_label = date.today().strftime("%-d %B %Y")
+          curated_stamp = date.today().strftime("%d·%m·%y")
+          html = re.sub(
+              r'aria-label="Last curated [^"]+"><span>CURATED</span><strong>[^<]+</strong>',
+              f'aria-label="Last curated {curated_label}"><span>CURATED</span><strong>{curated_stamp}</strong>',
+              html,
+              count=1,
+          )
+
           verification_tag = f'<meta name="google-site-verification" content="{google_verification}" />'
           if 'name="google-site-verification"' in html:
               html = re.sub(
