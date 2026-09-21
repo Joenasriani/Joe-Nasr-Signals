@@ -7,10 +7,10 @@ h = P.read_text(encoding="utf-8")
 CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
 CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/v2/"
 
-# The root page is a public-work archive. /v2/ is the canonical person profile.
+# Existing profile identifiers are preserved here; canonical-route changes must be coordinated with the workflow and published files.
 h = re.sub(
     r'<meta name="description" content="[^"]*"\s*/>',
-    '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative technologist working across XR, AI, interactive systems, visual communication, education, music and experimental software." />',
+    '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative director with more than 15 years of work across advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software." />',
     h,
     count=1,
 )
@@ -22,19 +22,19 @@ h = re.sub(
 )
 h = re.sub(
     r'<meta property="og:title" content="[^"]*"\s*/>',
-    '<meta property="og:title" content="Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI" />',
+    '<meta property="og:title" content="Joe Nasr — Creative Director | Digital Experiences | Interactive Prototyping" />',
     h,
     count=1,
 )
 h = re.sub(
     r'<meta name="twitter:title" content="[^"]*"\s*/>',
-    '<meta name="twitter:title" content="Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI" />',
+    '<meta name="twitter:title" content="Joe Nasr — Creative Director | Digital Experiences | Interactive Prototyping" />',
     h,
     count=1,
 )
 h = re.sub(
     r'<title>.*?</title>',
-    '<title>Joe Nasr — Public Work Archive | Creative Technology, XR &amp; AI</title>',
+    '<title>Joe Nasr — Creative Director | Digital Experiences | Interactive Prototyping</title>',
     h,
     count=1,
     flags=re.S,
@@ -42,15 +42,15 @@ h = re.sub(
 
 h = h.replace(
     'Lebanese musician.<br />Middle East creative director.',
-    'Creative technologist.<br />One public record.',
+    'Creative Director.<br />Digital Experiences · Interactive Prototyping.',
 )
 h = h.replace(
     'Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology.',
-    'Joe Ribal Nasr is a Lebanese creative technologist working across XR, AI, interactive systems, spatial computing and experimental software, with professional history in creative direction, visual communication, education and music.',
+    'Joe Ribal Nasr is a Lebanese creative director with more than 15 years of work across advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software, alongside music and teaching.',
 )
 h = h.replace(
     'Lebanese Musician · Composer · Middle East Creative Director · AI/XR Creator',
-    'Creative Technologist · XR · AI · Interactive Systems',
+    'Creative Director · Digital Experiences · Interactive Prototyping',
 )
 
 h = h.replace(
@@ -98,19 +98,19 @@ while True:
 
 h = h.replace(
     '"jobTitle": [\n          "Creative Director",\n          "Composer",\n          "Musician",\n          "Digital Experience Creator",\n          "Media Educator",\n          "XR and Game Designer"\n        ]',
-    '"jobTitle": [\n          "Creative Technologist",\n          "Creative Director",\n          "Educator",\n          "Composer"\n        ]',
+    '"jobTitle": [\n          "Creative Director",\n          "Creative Technologist",\n          "Educator",\n          "Composer"\n        ]',
 )
 h = h.replace(
     '"jobTitle":["Creative Director","Composer","Musician","Digital Experience Creator","Media Educator","XR and Game Designer"]',
-    '"jobTitle":["Creative Technologist","Creative Director","Educator","Composer"]',
+    '"jobTitle":["Creative Director","Creative Technologist","Educator","Composer"]',
 )
 h = h.replace(
     '"description": "Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."',
-    '"description": "Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."',
+    '"description": "Lebanese creative director with an established background in advertising, visual communication, multimedia, motion and 3D, with current work in digital experiences, interactive prototyping, XR, games and experimental software."',
 )
 h = h.replace(
     '"description":"Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."',
-    '"description":"Lebanese creative technologist working across XR, AI, interactive systems, spatial computing, multimodal interfaces and experimental software."',
+    '"description":"Lebanese creative director with an established background in advertising, visual communication, multimedia, motion and 3D, with current work in digital experiences, interactive prototyping, XR, games and experimental software."',
 )
 h = re.sub(r',?\s*"https://(?:www\.)?robomarket\.ae/"', '', h)
 P.write_text(h, encoding="utf-8")
@@ -153,7 +153,7 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
         'Sorting Balls 3D is an alternate public listing of the same game.',
     )
 
-    # Sector Glow source is a verified public source repository.
+    # Sector Glow source is a public source repository.
     sector_source = "https://github.com/Joenasriani/kids-slider-game"
     sector_marker = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
     sector_replacement = '''            "creator": {\n              "@id": "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"\n            },\n            "sameAs": [\n              "https://github.com/Joenasriani/kids-slider-game"\n            ],\n            "inLanguage": "en",\n            "keywords": [\n              "cyber puzzle game",'''
