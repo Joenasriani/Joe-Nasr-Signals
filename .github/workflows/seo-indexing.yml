@@ -40,7 +40,6 @@ jobs:
           index = Path("index.html")
           html = index.read_text(encoding="utf-8")
           html = html.replace(legacy_url, site_url)
-          html = html.replace("one canonical identity.", "one identity.")
           html = re.sub(
               r'<link rel="canonical" href="[^"]+"\s*/>',
               f'<link rel="canonical" href="{site_url}" />',
@@ -123,11 +122,11 @@ jobs:
                   1,
               )
           if 'name="twitter:image"' not in profile_html:
-              profile_html = profile_html.replace(
-                  '<meta name="twitter:description" content="XR, AI, interactive systems, spatial computing, games and experimental software.">',
-                  '<meta name="twitter:description" content="XR, AI, interactive systems, spatial computing, games and experimental software.">\n'
-                  f'<meta name="twitter:image" content="{avatar_url}">',
-                  1,
+              profile_html = re.sub(
+                  r'(<meta name="twitter:description" content="[^"]*">)',
+                  lambda m: m.group(1) + '\n' + f'<meta name="twitter:image" content="{avatar_url}">',
+                  profile_html,
+                  count=1,
               )
 
           if 'href="games.html"' not in profile_html:
@@ -143,7 +142,7 @@ jobs:
               flags=re.S,
           )
           if not schema_match:
-              raise SystemExit("Canonical profile JSON-LD block not found")
+              raise SystemExit("Profile JSON-LD block not found")
 
           schema = json.loads(schema_match.group(2))
           graph = schema.get("@graph", [])
