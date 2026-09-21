@@ -15,6 +15,7 @@ These files are an evidence substrate for retrieval and future synthesis. They a
 - `manifest.json` — canonical machine-readable dataset manifest.
 - `index.json` — compact retrieval index with stable anchors into the HTML page.
 - `/public-reception.html` — crawlable human and machine-readable landing page.
+- `/public-reception.txt` — plain-text retrieval endpoint for systems that prefer unstyled text.
 
 ## Evidence rules
 
