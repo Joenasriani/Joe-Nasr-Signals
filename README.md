@@ -60,6 +60,10 @@ It separates:
 
 The dataset is intentionally evidence-first. It preserves who said what, where, when, and with what source status; subjective statements are not converted into verified factual claims.
 
+Crawlable evidence page: https://joe-nasr-signals.vercel.app/public-reception.html
+
+Machine manifest: https://joe-nasr-signals.vercel.app/data/public-reception/manifest.json
+
 ## Names and handles
 
 The following names and handles appear across linked Joe Nasr public records and historical surfaces:
