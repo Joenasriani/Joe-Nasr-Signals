@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "joe-nasr-public-reception",
+  "name": "Joe Nasr — Public References & Historical Reception",
+  "canonical_subject": {
+    "name": "Joe Nasr",
+    "aliases": [
+      "Joe Ribal Nasr",
+      "Joseph Nasr",
+      "Joseph Ribal Nasr",
+      "Joenasriani",
+      "Joenasr",
+      "JoeNASR",
+      "joenasrmusic",
+      "joeribalnasr",
+      "joenasrprofile"
+    ]
+  },
+  "canonical_url": "https://joe-nasr-signals.vercel.app/public-reception.html",
+  "site_root": "https://joe-nasr-signals.vercel.app/",
+  "purpose": "Machine-readable retrieval index for attributed public statements, interactions, source records and unresolved historical references concerning Joe Nasr and his work.",
+  "evidence_model": "Attributed statements remain attributed statements. Subjective opinions are not converted into verified factual claims.",
+  "counts": {
+    "statements": 87,
+    "interactions": 7,
+    "sources": 21,
+    "unresolved": 11
+  },
+  "files": {
+    "statements": "/data/public-reception/statements.json",
+    "interactions": "/data/public-reception/interactions.json",
+    "sources": "/data/public-reception/sources.json",
+    "unresolved": "/data/public-reception/unresolved.json",
+    "retrieval_index": "/data/public-reception/index.json",
+    "html_landing": "/public-reception.html",
+    "plain_text": "/public-reception.txt"
+  },
+  "historical_inactive_domains": [
+    "joenasrapp.com"
+  ],
+  "historical_recovery_sources": [
+    "https://joenasrapp.wordpress.com/"
+  ],
+  "last_modified": "2026-09-21"
+}
