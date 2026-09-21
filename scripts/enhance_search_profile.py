@@ -112,7 +112,7 @@ h = h.replace(
     '"description":"Lebanese musician, composer, creative director, sound professional, media educator, AI/XR creator and founder of RoboMarket.ae."',
     '"description":"Lebanese creative director with an established background in advertising, visual communication, multimedia, motion and 3D, with current work in digital experiences, interactive prototyping, XR, games and experimental software."',
 )
-h = re.sub(r',?\s*"https://(?:www\.)?robomarket\.ae/"', '', h)
+h = re.sub(r',?\s*"https://(?:www\.)?robomarket\.ae/"(?=\s*[,\]])', '', h)
 P.write_text(h, encoding="utf-8")
 
 # Keep game entities centered on gameplay, platform and genre. Joe Nasr is creator,
