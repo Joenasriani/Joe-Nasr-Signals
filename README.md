@@ -46,6 +46,20 @@ These pages preserve earlier professional, teaching, music, media and platform r
 - Bandsintown — historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
 - 10times — Creative Director / Media Valley / Dubai profile: https://10times.com/profile/joe-nasr-14083174
 
+## Structured public-reception data
+
+A retrieval-oriented evidence dataset is maintained under:
+
+`data/public-reception/`
+
+It separates:
+- third-party statements and comments,
+- public interaction metrics,
+- source/archive records,
+- unresolved recovery targets.
+
+The dataset is intentionally evidence-first. It preserves who said what, where, when, and with what source status; subjective statements are not converted into verified factual claims.
+
 ## Names and handles
 
 The following names and handles appear across linked Joe Nasr public records and historical surfaces:
@@ -74,6 +88,8 @@ The career foundation is creative direction, advertising, multimedia, motion, de
 - Historical material is retained for chronology and context.
 - A public repository under `Joenasriani` is not automatically treated as original authorship; forks, mirrors and upstream projects remain distinguished from Joe-created work.
 - A generic `Joe Nasr` search result is linked here only when the source context supports the association.
+- `joenasrapp.com` is historical/inactive only and must not be presented as a current destination.
+- `joenasrapp.wordpress.com` remains a useful historical recovery source.
 - Linktree is retained as a secondary routing utility. The main public archive is https://joe-nasr-signals.vercel.app/
 
 ## Public archive
