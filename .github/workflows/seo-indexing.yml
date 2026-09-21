@@ -27,10 +27,11 @@ jobs:
           from pathlib import Path
 
           site_url = "https://joe-nasr-signals.vercel.app/"
-          profile_url = f"{site_url}v2/"
-          person_id = f"{profile_url}#joe-nasr"
-          games_url = f"{profile_url}games.html"
-          games_archive_url = f"{profile_url}games-development.html"
+          profile_url = site_url
+          legacy_profile_url = f"{site_url}v2/"
+          person_id = f"{site_url}#joe-nasr"
+          games_url = f"{site_url}v2/games.html"
+          games_archive_url = f"{site_url}v2/games-development.html"
           legacy_url = "https://joenasriani.github.io/Joe-Nasr-Signals/"
           concept_url = f"{site_url}pre-institutional-human-order.html"
           avatar_url = "https://avatars.githubusercontent.com/u/3828735?v=4"
@@ -113,6 +114,29 @@ jobs:
 
           profile = Path("v2/index.html")
           profile_html = profile.read_text(encoding="utf-8")
+          profile_html = re.sub(
+              r'<meta name="robots" content="[^"]*">',
+              '<meta name="robots" content="noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">',
+              profile_html,
+              count=1,
+          )
+          profile_html = re.sub(
+              r'<link rel="canonical" href="[^"]+">',
+              f'<link rel="canonical" href="{site_url}">',
+              profile_html,
+              count=1,
+          )
+          profile_html = re.sub(
+              r'<meta property="og:url" content="[^"]+">',
+              f'<meta property="og:url" content="{site_url}">',
+              profile_html,
+              count=1,
+          )
+          profile_html = profile_html.replace(legacy_profile_url + "#website", site_url + "#website")
+          profile_html = profile_html.replace(legacy_profile_url + "#profile", site_url + "#profile")
+          profile_html = profile_html.replace(legacy_profile_url + "#joe-nasr", person_id)
+          profile_html = profile_html.replace('"url": "https://joe-nasr-signals.vercel.app/v2/"', f'"url": "{site_url}"')
+          profile_html = profile_html.replace('href="/v2/"', f'href="{site_url}"')
 
           if 'property="og:image"' not in profile_html:
               profile_html = profile_html.replace(
@@ -203,12 +227,6 @@ jobs:
               '    <priority>0.7</priority>',
               '  </url>',
               '  <url>',
-              f'    <loc>{site_url}</loc>',
-              f'    <lastmod>{lastmod}</lastmod>',
-              '    <changefreq>monthly</changefreq>',
-              '    <priority>0.9</priority>',
-              '  </url>',
-              '  <url>',
               f'    <loc>{concept_url}</loc>',
               '    <lastmod>2026-09-10</lastmod>',
               '    <changefreq>monthly</changefreq>',
@@ -232,7 +250,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html v2/index.html v2/games.html v2/games.json v2/games-development.html sitemap.xml robots.txt .nojekyll
+          git add index.html v2/index.html v2/identity.json v2/games.html v2/games.json v2/games-development.html v2/games-development.json pre-institutional-human-order.html sitemap.xml robots.txt .nojekyll
           if git diff --cached --quiet; then
             echo "Search files already aligned."
           else
