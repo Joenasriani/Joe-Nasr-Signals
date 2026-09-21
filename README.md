@@ -20,7 +20,7 @@ Person ID:
 
 - GitHub: https://github.com/Joenasriani
 - Interactive work / games: https://joenasr.itch.io/
-- Portfolio: https://joenasriani.github.io/joenasr-portfolio/
+- Portfolio repository: https://github.com/Joenasriani/joenasr-portfolio
 - Research Registry: https://joenasriani.github.io/joe-research-registry/
 - Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
 - YouTube / commercial and project archive: https://youtube.com/@joenasr
