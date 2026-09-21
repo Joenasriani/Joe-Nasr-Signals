@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "joe-nasr-public-reception",
+  "canonical_url": "https://joe-nasr-signals.vercel.app/public-reception.html",
+  "subject": [
+    "Joe Nasr",
+    "Joe Ribal Nasr",
+    "Joseph Ribal Nasr"
+  ],
+  "records": [
+    {
+      "id": "TP-001",
+      "speaker": "scotthack",
+      "date": null,
+      "platform": "Instagram/social screenshot",
+      "context": "Reaction to Joe guitar performance",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "teaching/learning",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501760.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-001"
+    },
+    {
+      "id": "TP-002",
+      "speaker": "joe152437",
+      "date": "Mar 24 (year unknown)",
+      "platform": "Instagram/social screenshot",
+      "context": "Reaction to Joe music/guitar post",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "music",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501760.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-002"
+    },
+    {
+      "id": "TP-003",
+      "speaker": "guitaramania",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Third-party guitar feature",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501759.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-003"
+    },
+    {
+      "id": "TP-004",
+      "speaker": "guitarsfame",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Third-party guitar feature",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501758.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-004"
+    },
+    {
+      "id": "TP-005",
+      "speaker": "guitar_gamer217_v2",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Comment under a Joe guitar feature",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "teaching/learning",
+        "Instagram",
+        "piano"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501757.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-005"
+    },
+    {
+      "id": "TP-006",
+      "speaker": "santyniwaitsmusic",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Reaction under Joe guitar feature",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501757.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-006"
+    },
+    {
+      "id": "TP-007",
+      "speaker": "hanashite_baka",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Reaction to Naruto-related Joe guitar content",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501757.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-007"
+    },
+    {
+      "id": "TP-008",
+      "speaker": "guitarcollabs",
+      "date": null,
+      "platform": "Instagram",
+      "context": "Third-party guitar feature",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501755.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-008"
+    },
+    {
+      "id": "TP-009",
+      "speaker": "Kyle Pulver",
+      "date": null,
+      "platform": "Facebook",
+      "context": "Reaction to Joe guitar/video work",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501754.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-009"
+    },
+    {
+      "id": "TP-010",
+      "speaker": "Joseph Terterian",
+      "date": null,
+      "platform": "Instagram/social screenshot",
+      "context": "Reaction to Joe music/video",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Instagram"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501749.jpg",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-010"
+    },
+    {
+      "id": "TP-011",
+      "speaker": "Amal Nasr",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Composition reaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-011"
+    },
+    {
+      "id": "TP-012",
+      "speaker": "Jamal Joseph Nasr",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Lyrics written at Joe's request",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "Facebook",
+        "lyrics"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-012"
+    },
+    {
+      "id": "TP-013",
+      "speaker": "Elias Mansour",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Composition reaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-013"
+    },
+    {
+      "id": "TP-014",
+      "speaker": "Magdalena Eid",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Composition reaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-014"
+    },
+    {
+      "id": "TP-015",
+      "speaker": "Raja Rizkallah",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Detailed composition feedback",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "Facebook",
+        "piano",
+        "lyrics"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-015"
+    },
+    {
+      "id": "TP-016",
+      "speaker": "Elham Farid",
+      "date": "2010-09-08",
+      "platform": "Facebook",
+      "context": "Listener reaction",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-016"
+    },
+    {
+      "id": "TP-017",
+      "speaker": "Dany Fares",
+      "date": "2010-09-09",
+      "platform": "Facebook",
+      "context": "Musician-to-musician reaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-017"
+    },
+    {
+      "id": "TP-018",
+      "speaker": "Nassif Naz",
+      "date": "2010-09-09",
+      "platform": "Facebook",
+      "context": "Music encouragement",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-018"
+    },
+    {
+      "id": "TP-019",
+      "speaker": "Joe Ghalbouni",
+      "date": "2010-09-10",
+      "platform": "Facebook",
+      "context": "Composition feedback",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501750.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-019"
+    },
+    {
+      "id": "TP-020",
+      "speaker": "Rodion Romanenko",
+      "date": "2014-02-17",
+      "platform": "Facebook music page",
+      "context": "Hard Rock contest / music discovery",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501938.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-020"
+    },
+    {
+      "id": "TP-021",
+      "speaker": "Hanna Rached",
+      "date": "2012-10",
+      "platform": "Facebook music page",
+      "context": "Fan/public comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "Lebanon",
+        "artist/public reception"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501938.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-021"
+    },
+    {
+      "id": "TP-022",
+      "speaker": "Nataly Sejaan Karam",
+      "date": "2012-11",
+      "platform": "Facebook music page",
+      "context": "Fan comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501938.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-022"
+    },
+    {
+      "id": "TP-023",
+      "speaker": "Alec Yaverian",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Music/composition comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "music",
+        "Facebook",
+        "artist/public reception"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-023"
+    },
+    {
+      "id": "TP-024",
+      "speaker": "Vera Rabadi",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Identity/history query",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-024"
+    },
+    {
+      "id": "TP-025",
+      "speaker": "Jean Ghanime",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Fan comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-025"
+    },
+    {
+      "id": "TP-026",
+      "speaker": "Tony Bk",
+      "date": "2012-07",
+      "platform": "Facebook music page",
+      "context": "Personal/public page interaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-026"
+    },
+    {
+      "id": "TP-027",
+      "speaker": "Joanna El Khoury Badawi",
+      "date": "2012-07",
+      "platform": "Facebook music page",
+      "context": "Personal/public page interaction",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-027"
+    },
+    {
+      "id": "TP-028",
+      "speaker": "S. Elia B. Saroufim",
+      "date": "2012-07",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-028"
+    },
+    {
+      "id": "TP-029",
+      "speaker": "Nadim Kmeid",
+      "date": "2012-05",
+      "platform": "Facebook music page",
+      "context": "Request for music/career guidance",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "music",
+        "audio",
+        "soundtrack",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-029"
+    },
+    {
+      "id": "TP-030",
+      "speaker": "Eliz Zari Hosri",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Personal/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-030"
+    },
+    {
+      "id": "TP-031",
+      "speaker": "Maalam Parri",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Fan/public interaction",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-031"
+    },
+    {
+      "id": "TP-032",
+      "speaker": "Elias M…",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Song/music reaction",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "lyrics"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-032"
+    },
+    {
+      "id": "TP-033",
+      "speaker": "Giovanni K.",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-033"
+    },
+    {
+      "id": "TP-034",
+      "speaker": "Akram M. Nakhle",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Public support comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-034"
+    },
+    {
+      "id": "TP-035",
+      "speaker": "DrAli Jabor",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Request to find Joe's work",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501940.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-035"
+    },
+    {
+      "id": "TP-036",
+      "speaker": "Olia Lomona",
+      "date": "2012",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-036"
+    },
+    {
+      "id": "TP-037",
+      "speaker": "Nadine Mazloum",
+      "date": "2012-01-15",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-037"
+    },
+    {
+      "id": "TP-038",
+      "speaker": "Nathalie Catherine Rou…",
+      "date": "2012-01-15",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-038"
+    },
+    {
+      "id": "TP-039",
+      "speaker": "Eliz Zari Hosri",
+      "date": "2012-01-29",
+      "platform": "Facebook music page",
+      "context": "Music/fan comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-039"
+    },
+    {
+      "id": "TP-040",
+      "speaker": "Isabella Graca Nasr",
+      "date": "2012-01-15",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-040"
+    },
+    {
+      "id": "TP-041",
+      "speaker": "Chamtal Daw",
+      "date": "2012-01-15",
+      "platform": "Facebook music page",
+      "context": "Public support comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-041"
+    },
+    {
+      "id": "TP-042",
+      "speaker": "Joyce Samara",
+      "date": "2012-01-11",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-042"
+    },
+    {
+      "id": "TP-043",
+      "speaker": "Pia M Issa",
+      "date": null,
+      "platform": "Facebook music page",
+      "context": "Public support comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-043"
+    },
+    {
+      "id": "TP-044",
+      "speaker": "Olia Lomona",
+      "date": "2012-01-28",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-044"
+    },
+    {
+      "id": "TP-045",
+      "speaker": "Unknown/cropped author",
+      "date": "2012-01",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-045"
+    },
+    {
+      "id": "TP-046",
+      "speaker": "Olia Lomona",
+      "date": "2012-01-19",
+      "platform": "Facebook music page",
+      "context": "Music/fan comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501942.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-046"
+    },
+    {
+      "id": "TP-047",
+      "speaker": "Rabih Deaibess",
+      "date": "2011-11",
+      "platform": "Facebook music page",
+      "context": "Musician/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "Lebanon"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501944.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-047"
+    },
+    {
+      "id": "TP-048",
+      "speaker": "Anthony Bsal Abdo",
+      "date": "2011-11",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501944.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-048"
+    },
+    {
+      "id": "TP-049",
+      "speaker": "Issam Saadane",
+      "date": "2011",
+      "platform": "Facebook music page",
+      "context": "Expresses interest in collaborating with Joe",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "collaboration"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501944.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-049"
+    },
+    {
+      "id": "TP-050",
+      "speaker": "Vartan Kelechian",
+      "date": "2011",
+      "platform": "Facebook music page",
+      "context": "Public support comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501944.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-050"
+    },
+    {
+      "id": "TP-051",
+      "speaker": "Wissam Abdallah",
+      "date": "2011",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501944.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-051"
+    },
+    {
+      "id": "TP-052",
+      "speaker": "Shadi Zeidan",
+      "date": "2009-07-28",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-052"
+    },
+    {
+      "id": "TP-053",
+      "speaker": "Joe Abi Raad",
+      "date": "2009-07-15",
+      "platform": "Facebook music page",
+      "context": "Request for specific Joe track",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-053"
+    },
+    {
+      "id": "TP-054",
+      "speaker": "Joyce Samara",
+      "date": "2009-07-24",
+      "platform": "Facebook music page",
+      "context": "Request for specific Joe track",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-054"
+    },
+    {
+      "id": "TP-055",
+      "speaker": "Joseph Azrak",
+      "date": "2009-06",
+      "platform": "Facebook music page",
+      "context": "Project/music request and prior-work reference",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-055"
+    },
+    {
+      "id": "TP-056",
+      "speaker": "Ziad Rizkallah",
+      "date": "2009-06-21",
+      "platform": "Facebook music page",
+      "context": "Public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-056"
+    },
+    {
+      "id": "TP-057",
+      "speaker": "Ziad Bardawil",
+      "date": "2009-07",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "composition",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-057"
+    },
+    {
+      "id": "TP-058",
+      "speaker": "Walid Khalife",
+      "date": "2009-07-17",
+      "platform": "Facebook music page",
+      "context": "Musician/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "guitar",
+        "composition",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-058"
+    },
+    {
+      "id": "TP-059",
+      "speaker": "Romeo Chalfoun",
+      "date": "2009-07-01",
+      "platform": "Facebook music page",
+      "context": "Music/learning comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "teaching/learning",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-059"
+    },
+    {
+      "id": "TP-060",
+      "speaker": "Sabine Maurice Nehme",
+      "date": "2009-07",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "partial_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-060"
+    },
+    {
+      "id": "TP-061",
+      "speaker": "Salim Abdo",
+      "date": "2009-07-08",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-061"
+    },
+    {
+      "id": "TP-062",
+      "speaker": "Elias Njeim",
+      "date": "2009-07-01",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "faithful_summary_with_quote",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-062"
+    },
+    {
+      "id": "TP-063",
+      "speaker": "Joyce Samara",
+      "date": "2009-07-24",
+      "platform": "Facebook music page",
+      "context": "Reaction to specific Joe track",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501946.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-063"
+    },
+    {
+      "id": "TP-064",
+      "speaker": "Nataly Kalousdian Wela…",
+      "date": "2009-06",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-064"
+    },
+    {
+      "id": "TP-065",
+      "speaker": "Marianne Zeinoun",
+      "date": "2009-06-28",
+      "platform": "Facebook music page",
+      "context": "Musician/learning/collaboration comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "teaching/learning",
+        "Facebook",
+        "collaboration"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-065"
+    },
+    {
+      "id": "TP-066",
+      "speaker": "Carolina Mechalany San…",
+      "date": "2009-07-20",
+      "platform": "Facebook music page",
+      "context": "Reference to a song Joe previously made for her",
+      "statement_mode": "near_exact",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-066"
+    },
+    {
+      "id": "TP-067",
+      "speaker": "Bechara Jamal Chammas",
+      "date": "2009-07",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "transcription_pending",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-067"
+    },
+    {
+      "id": "TP-068",
+      "speaker": "Joyce Samara",
+      "date": "2009-07-26",
+      "platform": "Facebook music page",
+      "context": "Reaction to specific Joe track",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-068"
+    },
+    {
+      "id": "TP-069",
+      "speaker": "Joanna Hasbani",
+      "date": "2009-06",
+      "platform": "Facebook music page",
+      "context": "Music/public comment",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-069"
+    },
+    {
+      "id": "TP-070",
+      "speaker": "Mike Chaemine",
+      "date": "2009-06",
+      "platform": "Facebook music page",
+      "context": "Public/fan comment about Joe",
+      "statement_mode": "exact_transcription",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-070"
+    },
+    {
+      "id": "TP-071",
+      "speaker": "Joyce Samara",
+      "date": "2009-07-24",
+      "platform": "Facebook music page",
+      "context": "Detailed music reaction",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "piano"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-071"
+    },
+    {
+      "id": "TP-072",
+      "speaker": "Chris Bogazi",
+      "date": "2009-06",
+      "platform": "Facebook music page",
+      "context": "Historical track recollection",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-072"
+    },
+    {
+      "id": "TP-073",
+      "speaker": "Joyce Samara",
+      "date": "2009-07-21",
+      "platform": "Facebook music page",
+      "context": "Detailed music reaction",
+      "statement_mode": "partial_faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "Facebook",
+        "artist/public reception"
+      ],
+      "source_url": null,
+      "evidence_asset": "1000501948.png",
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-073"
+    },
+    {
+      "id": "TP-074",
+      "speaker": "Raja Rizkallah",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "film/media",
+        "LinkedIn",
+        "artist/public reception"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-074"
+    },
+    {
+      "id": "TP-075",
+      "speaker": "Romeo Chalfoun",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Music teaching/professional recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-075"
+    },
+    {
+      "id": "TP-076",
+      "speaker": "Antoine Bou Elias",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music/production recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "LinkedIn",
+        "Dubai/UAE"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-076"
+    },
+    {
+      "id": "TP-077",
+      "speaker": "Fadi Nasr",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-077"
+    },
+    {
+      "id": "TP-078",
+      "speaker": "Asma El Mouttaki",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional artistic recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "LinkedIn",
+        "artist/public reception"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-078"
+    },
+    {
+      "id": "TP-079",
+      "speaker": "Joyce Trad",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional audio-post recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "audio",
+        "audio post-production",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-079"
+    },
+    {
+      "id": "TP-080",
+      "speaker": "Denis Lisionok",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "music",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-080"
+    },
+    {
+      "id": "TP-081",
+      "speaker": "Farah Faour",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "LinkedIn",
+        "music production"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-081"
+    },
+    {
+      "id": "TP-082",
+      "speaker": "Jamal Joseph Nasr",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-082"
+    },
+    {
+      "id": "TP-083",
+      "speaker": "Roula Abou Obeid",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music/audio recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "composition",
+        "music",
+        "audio",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-083"
+    },
+    {
+      "id": "TP-084",
+      "speaker": "Alia Bader",
+      "date": null,
+      "platform": "LinkedIn recommendation preserved by Clarity",
+      "context": "Professional music recommendation",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "LinkedIn"
+      ],
+      "source_url": "https://clarity.fm/joenasr",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-084"
+    },
+    {
+      "id": "TP-085",
+      "speaker": "GraveWish",
+      "date": "2021-08-19",
+      "platform": "Metal Archives forum",
+      "context": "Independent historical music-forum statement",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "music",
+        "forum/community",
+        "Valhalla",
+        "Lebanon"
+      ],
+      "source_url": "https://forum.metal-archives.com/viewtopic.php?p=2992234",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-085"
+    },
+    {
+      "id": "TP-086",
+      "speaker": "VALHALLA Lebanon public channel description",
+      "date": null,
+      "platform": "YouTube/indexed mirror",
+      "context": "Historical Lebanese-band description; remainder unresolved",
+      "statement_mode": "partial_indexed_quote",
+      "topics": [
+        "Joe Nasr",
+        "Lebanon"
+      ],
+      "source_url": "https://www.idcrawl.com/tony-rizkallah",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-086"
+    },
+    {
+      "id": "TP-087",
+      "speaker": "Subeer Ahamed / SAE UAE context",
+      "date": null,
+      "platform": "LinkedIn",
+      "context": "Creative training / mentorship in UAE",
+      "statement_mode": "faithful_summary",
+      "topics": [
+        "Joe Nasr",
+        "mentorship",
+        "teaching/learning",
+        "LinkedIn"
+      ],
+      "source_url": "https://ae.linkedin.com/in/subeer-ahamed-jaffar-sait",
+      "evidence_asset": null,
+      "anchor": "https://joe-nasr-signals.vercel.app/public-reception.html#TP-087"
+    }
+  ]
+}
