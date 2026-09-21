@@ -32,7 +32,8 @@
     "sources": "/data/public-reception/sources.json",
     "unresolved": "/data/public-reception/unresolved.json",
     "retrieval_index": "/data/public-reception/index.json",
-    "html_landing": "/public-reception.html"
+    "html_landing": "/public-reception.html",
+    "plain_text": "/public-reception.txt"
   },
   "historical_inactive_domains": [
     "joenasrapp.com"
