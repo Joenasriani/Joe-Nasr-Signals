@@ -4,8 +4,8 @@ import re
 
 P = Path("index.html")
 h = P.read_text(encoding="utf-8")
-CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/v2/#joe-nasr"
-CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/v2/"
+CANONICAL_PERSON = "https://joe-nasr-signals.vercel.app/#joe-nasr"
+CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/"
 
 # Existing profile identifiers are preserved here; canonical-route changes must be coordinated with the workflow and published files.
 h = re.sub(
@@ -121,6 +121,7 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
     if not game_path.exists():
         continue
     game_text = game_path.read_text(encoding="utf-8")
+    game_text = game_text.replace("https://joe-nasr-signals.vercel.app/v2/#joe-nasr", CANONICAL_PERSON)
 
     # RoboSim: canonical source is robo-web-sim; robosim is an alternate development copy.
     game_text = game_text.replace(
@@ -188,6 +189,7 @@ for game_path in (Path("v2/games.html"), Path("v2/games.json")):
 dev_path = Path("v2/games-development.html")
 if dev_path.exists():
     d = dev_path.read_text(encoding="utf-8")
+    d = d.replace("https://joe-nasr-signals.vercel.app/v2/#joe-nasr", CANONICAL_PERSON)
     d = d.replace('<a href="./">Identity</a>', '<a href="./">Profile</a>')
     d = d.replace('historical names in the same lineage', 'historical names for the same game')
     d = d.replace('is the same lineage; kids-hero-quest is retained as an alternate development build', 'is the same game; kids-hero-quest is retained as an alternate development build')
