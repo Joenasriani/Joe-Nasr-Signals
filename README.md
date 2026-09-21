@@ -4,9 +4,11 @@
 
 This repository brings together public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, research and historical records.
 
-## Main public archive
+## Canonical public identity / evidence graph
 
 https://joe-nasr-signals.vercel.app/
+
+This site is the higher public identity taxonomy and record/evidence layer beneath the master online-presence plan. It resolves the same Joe Nasr across projects, aliases, chronology, credits and platform-specific branches without forcing identical copy across those platforms.
 
 Person ID:
 
@@ -23,7 +25,7 @@ Person ID:
 - Portfolio repository: https://github.com/Joenasriani/joenasr-portfolio
 - Research Registry: https://joenasriani.github.io/joe-research-registry/
 - Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
-- YouTube / commercial and project archive: https://youtube.com/@joenasr
+- YouTube / audiovisual work archive: https://youtube.com/@joenasr
 
 ## Founder / venture surface
 
@@ -74,7 +76,7 @@ The career foundation is creative direction, advertising, multimedia, motion, de
 - Historical material is retained for chronology and context.
 - A public repository under `Joenasriani` is not automatically treated as original authorship; forks, mirrors and upstream projects remain distinguished from Joe-created work.
 - A generic `Joe Nasr` search result is linked here only when the source context supports the association.
-- Linktree is retained as a secondary routing utility. The main public archive is https://joe-nasr-signals.vercel.app/
+- Linktree is retained as a secondary routing utility. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
 
 ## Public archive
 
