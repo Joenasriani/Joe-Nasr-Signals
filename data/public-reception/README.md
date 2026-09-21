@@ -12,6 +12,9 @@ These files are an evidence substrate for retrieval and future synthesis. They a
 - `interactions.json` — likes, views, shares, votes and other non-textual interaction metrics.
 - `sources.json` — source register, including historical archives and platform records.
 - `unresolved.json` — known recovery gaps and pending verification/transcription work.
+- `manifest.json` — canonical machine-readable dataset manifest.
+- `index.json` — compact retrieval index with stable anchors into the HTML page.
+- `/public-reception.html` — crawlable human and machine-readable landing page.
 
 ## Evidence rules
 
