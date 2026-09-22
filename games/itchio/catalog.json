@@ -22,7 +22,11 @@
       "source": "itch.io",
       "creator": "Joe Nasr",
       "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "status": "official",
+      "xPosts": [
+        "https://x.com/i/status/2059984313408463083",
+        "https://x.com/JoeNASR/status/2061010274534969428"
+      ]
     },
     {
       "id": "ITCH-003",
