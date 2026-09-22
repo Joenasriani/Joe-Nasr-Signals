@@ -10,7 +10,7 @@ CANONICAL_PROFILE = "https://joe-nasr-signals.vercel.app/"
 # Existing profile identifiers are preserved here; canonical-route changes must be coordinated with the workflow and published files.
 h = re.sub(
     r'<meta name="description" content="[^"]*"\s*/>',
-    '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative director with more than 15 years of work across advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software." />',
+    '<meta name="description" content="Public work archive for Joe Nasr, a Lebanese creative director with more than 20 years of work across advertising, visual communication, multimedia, motion graphics, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software." />',
     h,
     count=1,
 )
@@ -46,7 +46,7 @@ h = h.replace(
 )
 h = h.replace(
     'Joe Ribal Nasr is a Lebanese creative director, musician, composer, sound professional, media educator and digital-experience creator whose public work spans Dubai, Lebanon and Middle East-focused creative technology.',
-    'Joe Ribal Nasr is a Lebanese creative director with more than 15 years of work across advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software, alongside music and teaching.',
+    'Joe Ribal Nasr is a Lebanese creative director with more than 20 years of work across advertising, visual communication, multimedia, motion graphics, 3D and production in the UAE and wider GCC, with current work in digital experiences, interactive prototyping, XR, games and experimental software, alongside music and teaching.',
 )
 h = h.replace(
     'Lebanese Musician · Composer · Middle East Creative Director · AI/XR Creator',
