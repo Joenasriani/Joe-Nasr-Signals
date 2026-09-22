@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-22",
+  "collection": "Joe Nasr games — itch.io repertoire",
+  "canonical_identity": "https://joe-nasr-signals.vercel.app/",
+  "platform": "https://joenasr.itch.io/",
+  "count": 27,
+  "items": [
+    {
+      "id": "ITCH-001",
+      "title": "Pathway (Rotate. Reflect. Light)",
+      "url": "https://joenasr.itch.io/pathway",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-002",
+      "title": "DIORAMA",
+      "url": "https://joenasr.itch.io/diorama",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-003",
+      "title": "Happy Collector - Good Habits Adventure!",
+      "url": "https://joenasr.itch.io/happy-collector",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-004",
+      "title": "Cosmic Velocity: Gyro Control",
+      "url": "https://joenasr.itch.io/cosmic-velocity",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-005",
+      "title": "CheeSe mAzE mOuSe",
+      "url": "https://joenasr.itch.io/cheese-maze-mouse",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-006",
+      "title": "RoboSim (Early Access)",
+      "url": "https://joenasr.itch.io/robosim",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-007",
+      "title": "BRICK XR BUILDER (EARLY ACCESS)",
+      "url": "https://joenasr.itch.io/brickxr",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-008",
+      "title": "AR TETRIS - Mobile/MetaQuest",
+      "url": "https://joenasr.itch.io/artetris",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-009",
+      "title": "CheeSe HeiSt MouSe",
+      "url": "https://joenasr.itch.io/cheese-heist",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-010",
+      "title": "In a Stickman's World",
+      "url": "https://joenasr.itch.io/in-a-stickmans-world",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-011",
+      "title": "Hand Drone XS",
+      "url": "https://joenasr.itch.io/hand-drone-xs",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-012",
+      "title": "SORTING BALLS 3D",
+      "url": "https://joenasr.itch.io/sorting-balls-3d",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-013",
+      "title": "Routing Protocol",
+      "url": "https://joenasr.itch.io/routing-protocol",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-014",
+      "title": "GIBBERLINK ACADEMY",
+      "url": "https://joenasr.itch.io/gibberlink-academy",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-015",
+      "title": "Coloring Book For Kids",
+      "url": "https://joenasr.itch.io/coloring-book",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-016",
+      "title": "Klotski",
+      "url": "https://joenasr.itch.io/klotski",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-017",
+      "title": "Mario Merge",
+      "url": "https://joenasr.itch.io/mario-merge",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-018",
+      "title": "Old Bounce",
+      "url": "https://joenasr.itch.io/bounce",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-019",
+      "title": "Ball Sort 3D",
+      "url": "https://joenasr.itch.io/ball-sort-3d",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-020",
+      "title": "Sector Glow: Cyber-Extract",
+      "url": "https://joenasr.itch.io/sector-glow",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-021",
+      "title": "Ascension",
+      "url": "https://joenasr.itch.io/ascension",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-022",
+      "title": "PARADIGM SHIFT",
+      "url": "https://joenasr.itch.io/paradigm-shift",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-023",
+      "title": "ZIP IT! LinkedIn.",
+      "url": "https://joenasr.itch.io/zip-it",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-024",
+      "title": "Quantum Entanglement",
+      "url": "https://joenasr.itch.io/quantum-entanglement",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-025",
+      "title": "Cybertruck Madness '98",
+      "url": "https://joenasr.itch.io/cybertruck-madness",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-026",
+      "title": "Tic Tac Toe Reimagined",
+      "url": "https://joenasr.itch.io/tic-tac-toe-reimagined",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    },
+    {
+      "id": "ITCH-027",
+      "title": "Jumpy Jumperson",
+      "url": "https://joenasr.itch.io/jumpy-jumperson",
+      "source": "itch.io",
+      "creator": "Joe Nasr",
+      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
+      "status": "official"
+    }
+  ]
+}
