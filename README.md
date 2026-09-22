@@ -8,7 +8,9 @@ This repository brings together public references to **Joe Nasr / Joe Ribal Nasr
 
 https://joe-nasr-signals.vercel.app/
 
-This site is the higher public identity taxonomy and record/evidence layer beneath the master online-presence plan. It resolves the same Joe Nasr across projects, aliases, chronology, credits and platform-specific branches without forcing identical copy across those platforms.
+Public archive for Joe Nasr / Joseph Ribal Nasr covering professional work, interactive projects, technical implementation, education, music, ventures, and historical references.
+
+Includes current profiles, project repositories, professional credits, selected historical records, and source links.
 
 Person ID:
 
