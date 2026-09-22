@@ -193,8 +193,19 @@
     "linkedin": "current professional and career chronology",
     "youtube": "audiovisual archive across professional projects, media, music/audio, training and selected interactive work",
     "github": "technical implementation and personal-lab evidence",
-    "itch_io": "playable games, XR and interactive evidence",
+    "itch_io": "game-specific playable releases, game pages and development logs",
     "music_surfaces": "music, composition, guitar and audio evidence",
-    "ventures": "venture and product relationship evidence"
+    "ventures": "venture and product relationship evidence",
+    "x": "platform-native public posts; game posts belong under the games evidence branch when directly verified"
+  },
+  "hierarchical_specificity_rule": "Describe every evidence item at the most specific truthful level first, then connect upward: specific evidence → domain → capability branch → chronology → canonical Joe identity. Do not flatten games, guitar, music, teaching, ventures or other domains into generic labels.",
+  "specific_evidence_branches": {
+    "games": {
+      "index": "https://joe-nasr-signals.vercel.app/games/",
+      "itch_io": "https://joe-nasr-signals.vercel.app/games/itchio/",
+      "itch_io_data": "https://joe-nasr-signals.vercel.app/games/itchio/catalog.json",
+      "x_posts": "https://joe-nasr-signals.vercel.app/games/x/",
+      "x_posts_data": "https://joe-nasr-signals.vercel.app/games/x/posts.json"
+    }
   }
 }
