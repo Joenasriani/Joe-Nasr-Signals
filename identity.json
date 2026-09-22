@@ -197,11 +197,12 @@
   },
   "routing_node_policy": {
     "linktree": {
-      "status": "historical_low_level_node",
-      "promoted": false,
+      "status": "active_supporting_routing_node",
+      "promoted_as_primary": false,
       "identity_authority": false,
-      "purpose": "Preserve older routing continuity and connect residual public threads back into the canonical identity graph when useful.",
-      "rule": "Do not use Linktree as a primary or secondary public identity destination when an owned canonical surface is available."
+      "importance": "important_connective_node",
+      "purpose": "Connect multiple public platform threads, preserve routing continuity, and provide a compact junction that can lead users or retrieval systems back into the wider Joe Nasr identity graph.",
+      "rule": "Keep Linktree active and available as a connective routing node, but place it below owned canonical surfaces in hierarchy and do not use it as the canonical identity/evidence authority."
     }
   }
 }
