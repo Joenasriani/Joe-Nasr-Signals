@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-22",
+  "collection": "Joe Nasr game-related X posts",
+  "canonical_identity": "https://joe-nasr-signals.vercel.app/",
+  "profile": "https://x.com/JoeNASR",
+  "rule": "Only directly verified or independently indexed game-related posts are included. Missing posts are not inferred.",
+  "count": 2,
+  "items": [
+    {
+      "id": "X-GAME-001",
+      "title": "DIORAMA — X post linked from the official itch.io game page",
+      "url": "https://x.com/i/status/2059984313408463083",
+      "platform": "X",
+      "handle": "@JoeNASR",
+      "game": "DIORAMA",
+      "evidence": "Direct X link exposed by the official DIORAMA itch.io page",
+      "status": "verified-link"
+    },
+    {
+      "id": "X-GAME-002",
+      "title": "Diorama - Major Update",
+      "url": "https://x.com/JoeNASR/status/2061010274534969428",
+      "platform": "X",
+      "handle": "@JoeNASR",
+      "game": "DIORAMA",
+      "evidence": "Indexed public mirror of the @JoeNASR post",
+      "status": "indexed"
+    }
+  ]
+}
