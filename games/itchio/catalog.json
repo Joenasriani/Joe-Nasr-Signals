@@ -1,257 +1,464 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "snapshot_date": "2026-09-22",
-  "collection": "Joe Nasr games — itch.io repertoire",
-  "canonical_identity": "https://joe-nasr-signals.vercel.app/",
-  "platform": "https://joenasr.itch.io/",
+  "state": "WORKING_NATIVE_PLATFORM_AUDIT_NOT_FINAL_SIGNALS_REPERTOIRE",
+  "rule": "This file records the current itch.io-native title, short description and live itch.io tags. Correct the native itch.io project first; only then promote the corrected values into the final Signals repertoire. Do not use this working snapshot to alter the locked main Joe Nasr identity structure.",
+  "platform": "itch.io",
+  "platform_profile": "https://joenasr.itch.io/",
   "count": 27,
+  "fields": [
+    "platform",
+    "title",
+    "description",
+    "tags",
+    "url",
+    "audit_state"
+  ],
   "items": [
     {
       "id": "ITCH-001",
+      "platform": "itch.io",
       "title": "Pathway (Rotate. Reflect. Light)",
+      "description": "Rotate. Reflect. Light.",
+      "tags": [
+        "2D",
+        "brainiac",
+        "Brain Training",
+        "Minimalist",
+        "Puzzle-Platformer"
+      ],
       "url": "https://joenasr.itch.io/pathway",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-002",
+      "platform": "itch.io",
       "title": "DIORAMA",
+      "description": "(Early Access)",
+      "tags": [
+        "3D",
+        "Brain Training",
+        "Cute",
+        "easy",
+        "Minimalist",
+        "mobile",
+        "one-button",
+        "threejs"
+      ],
       "url": "https://joenasr.itch.io/diorama",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official",
-      "xPosts": [
-        "https://x.com/i/status/2059984313408463083",
-        "https://x.com/JoeNASR/status/2061010274534969428"
-      ]
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-003",
+      "platform": "itch.io",
       "title": "Happy Collector - Good Habits Adventure!",
+      "description": "Collect Good Habits. Destroy Bad Habits.",
+      "tags": [
+        "children",
+        "cool",
+        "games-for-kids",
+        "jump",
+        "jumping",
+        "kids"
+      ],
       "url": "https://joenasr.itch.io/happy-collector",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-004",
+      "platform": "itch.io",
       "title": "Cosmic Velocity: Gyro Control",
+      "description": "Tilt Your Phone, Dodge Asteroids, Collect Rings! Your phone is not just a phone anymore.",
+      "tags": [
+        "Arcade",
+        "arcade-shooter",
+        "gyro",
+        "jet",
+        "mobile-game",
+        "shooting",
+        "Space",
+        "space-shooter"
+      ],
       "url": "https://joenasr.itch.io/cosmic-velocity",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-005",
+      "platform": "itch.io",
       "title": "CheeSe mAzE mOuSe",
+      "description": "Find the path to the cheesiest destiny",
+      "tags": [
+        "2D",
+        "children",
+        "Cute",
+        "kids",
+        "minimal",
+        "Minimalist",
+        "mobile",
+        "one-finger"
+      ],
       "url": "https://joenasr.itch.io/cheese-maze-mouse",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-006",
+      "platform": "itch.io",
       "title": "RoboSim (Early Access)",
+      "description": "Program. Simulate. Succeed.",
+      "tags": [
+        "blockly",
+        "blocks",
+        "coding",
+        "robotics",
+        "Robots",
+        "Scratch"
+      ],
       "url": "https://joenasr.itch.io/robosim",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-007",
+      "platform": "itch.io",
       "title": "BRICK XR BUILDER (EARLY ACCESS)",
+      "description": "Build. Preview. Experience.",
+      "tags": [
+        "3D Platformer",
+        "Augmented Reality",
+        "bricks",
+        "build",
+        "create",
+        "imagine",
+        "lego",
+        "meta-quest",
+        "Virtual Reality (VR)",
+        "xr"
+      ],
       "url": "https://joenasr.itch.io/brickxr",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-008",
+      "platform": "itch.io",
       "title": "AR TETRIS - Mobile/MetaQuest",
+      "description": "Scan your floor. Place the board. Play Tetris!",
+      "tags": [
+        "3D",
+        "Arcade",
+        "argame",
+        "Augmented Reality",
+        "Indie",
+        "Minimalist",
+        "mobile",
+        "Tetris",
+        "Virtual Reality (VR)"
+      ],
       "url": "https://joenasr.itch.io/artetris",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-009",
+      "platform": "itch.io",
       "title": "CheeSe HeiSt MouSe",
+      "description": "The Mouse. The Cheese. The Cat... and the Kid.",
+      "tags": [
+        "2D",
+        "Arcade",
+        "easy",
+        "for-kids",
+        "Indie",
+        "kids",
+        "Minimalist",
+        "mobile",
+        "one-button"
+      ],
       "url": "https://joenasr.itch.io/cheese-heist",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-010",
+      "platform": "itch.io",
       "title": "In a Stickman's World",
+      "description": "When the mission is changing your destiny!",
+      "tags": [
+        "free-game",
+        "pencil",
+        "Singleplayer",
+        "stickman"
+      ],
       "url": "https://joenasr.itch.io/in-a-stickmans-world",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-011",
+      "platform": "itch.io",
       "title": "Hand Drone XS",
+      "description": "Control the Drone with your hand!",
+      "tags": [
+        "AI Generated",
+        "Arcade",
+        "camera",
+        "drone",
+        "hand-tracking",
+        "Singleplayer",
+        "tracking"
+      ],
       "url": "https://joenasr.itch.io/hand-drone-xs",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-012",
+      "platform": "itch.io",
       "title": "SORTING BALLS 3D",
+      "description": "Sort My Balls!",
+      "tags": [
+        "3D",
+        "Brain Training",
+        "Colorful",
+        "Minimalist",
+        "Touch-Friendly"
+      ],
       "url": "https://joenasr.itch.io/sorting-balls-3d",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-013",
+      "platform": "itch.io",
       "title": "Routing Protocol",
+      "description": "Routing Protocol – A Client-to-Server Connection Puzzle",
+      "tags": [
+        "2D",
+        "Brain Training",
+        "connection",
+        "connector",
+        "cybersecurity",
+        "in-browser",
+        "link",
+        "mobile"
+      ],
       "url": "https://joenasr.itch.io/routing-protocol",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-014",
+      "platform": "itch.io",
       "title": "GIBBERLINK ACADEMY",
+      "description": "Learn GIBBERLINK - or at least try!",
+      "tags": [
+        "artificial-intelligence",
+        "gibberlink",
+        "learn",
+        "mobile",
+        "now-you-know",
+        "Sound effects"
+      ],
       "url": "https://joenasr.itch.io/gibberlink-academy",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-015",
+      "platform": "itch.io",
       "title": "Coloring Book For Kids",
+      "description": "A cute and simple coloring book for kids.",
+      "tags": [],
       "url": "https://joenasr.itch.io/coloring-book",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_tags_unrecovered"
     },
     {
       "id": "ITCH-016",
+      "platform": "itch.io",
       "title": "Klotski",
+      "description": "Master the classic Hua Rong Dao puzzle in a beautifully tactile 3D environment.",
+      "tags": [
+        "3D",
+        "blocks",
+        "classics",
+        "Cult Classic",
+        "klotski",
+        "logic-game",
+        "slide",
+        "sliding",
+        "webgames"
+      ],
       "url": "https://joenasr.itch.io/klotski",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-017",
+      "platform": "itch.io",
       "title": "Mario Merge",
+      "description": "Mario themed Merge Game",
+      "tags": [
+        "8-Bit",
+        "Brain Training",
+        "drop",
+        "mario",
+        "merge",
+        "Minimalist"
+      ],
       "url": "https://joenasr.itch.io/mario-merge",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-018",
+      "platform": "itch.io",
       "title": "Old Bounce",
+      "description": "",
+      "tags": [
+        "2D",
+        "AI Generated",
+        "aracde",
+        "bounce",
+        "classics",
+        "jumping",
+        "minigames"
+      ],
       "url": "https://joenasr.itch.io/bounce",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-019",
+      "platform": "itch.io",
       "title": "Ball Sort 3D",
+      "description": "A RELAXING COLOR-SORTING PUZZLE",
+      "tags": [
+        "balls",
+        "lightweight",
+        "threejs",
+        "webgl"
+      ],
       "url": "https://joenasr.itch.io/ball-sort-3d",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-020",
+      "platform": "itch.io",
       "title": "Sector Glow: Cyber-Extract",
+      "description": "CLEAR THE PATH!",
+      "tags": [
+        "blocks",
+        "Brain Training",
+        "Puzzle-Platformer",
+        "slide",
+        "slider"
+      ],
       "url": "https://joenasr.itch.io/sector-glow",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-021",
+      "platform": "itch.io",
       "title": "Ascension",
+      "description": "minimalist isometric architectural puzzle game.",
+      "tags": [
+        "3D",
+        "geometry",
+        "Minimalist",
+        "online",
+        "Relaxing",
+        "Singleplayer"
+      ],
       "url": "https://joenasr.itch.io/ascension",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-022",
+      "platform": "itch.io",
       "title": "PARADIGM SHIFT",
+      "description": "SHIFT YOUR PERSPECTIVE TO REVEAL THE PATTERN",
+      "tags": [
+        "3D",
+        "3dpuzzle",
+        "Indie",
+        "logic-game",
+        "optical-illusions",
+        "Perspective",
+        "reflect",
+        "zen"
+      ],
       "url": "https://joenasr.itch.io/paradigm-shift",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-023",
+      "platform": "itch.io",
       "title": "ZIP IT! LinkedIn.",
+      "description": "A Snake Game for People Who Pretend This Is Productivity",
+      "tags": [
+        "2D",
+        "Brain Training",
+        "brainy",
+        "Casual",
+        "challenge",
+        "linkedin",
+        "pathfinder",
+        "Snake"
+      ],
       "url": "https://joenasr.itch.io/zip-it",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-024",
+      "platform": "itch.io",
       "title": "Quantum Entanglement",
+      "description": "Control two quantum particles simultaneously to guide both particles to their respective target zones.",
+      "tags": [
+        "Brain Training",
+        "clever",
+        "Minimalist",
+        "quantum",
+        "Tactical"
+      ],
       "url": "https://joenasr.itch.io/quantum-entanglement",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-025",
+      "platform": "itch.io",
       "title": "Cybertruck Madness '98",
+      "description": "Cybertruck in a Motocross Madness '98 theme",
+      "tags": [
+        "AI Generated",
+        "Arcade",
+        "cybertruck",
+        "drfiting",
+        "elon-musk",
+        "Indie",
+        "mobile",
+        "race",
+        "Retro"
+      ],
       "url": "https://joenasr.itch.io/cybertruck-madness",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-026",
+      "platform": "itch.io",
       "title": "Tic Tac Toe Reimagined",
+      "description": "Tic Tac Toe ...expanding.",
+      "tags": [
+        "modernized",
+        "reimagined",
+        "tic-tac-toe",
+        "tiktok"
+      ],
       "url": "https://joenasr.itch.io/tic-tac-toe-reimagined",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     },
     {
       "id": "ITCH-027",
+      "platform": "itch.io",
       "title": "Jumpy Jumperson",
+      "description": "Square-Saurus Rex",
+      "tags": [
+        "2D",
+        "AI Generated",
+        "Arcade",
+        "Minimalist",
+        "one-button",
+        "Retro"
+      ],
       "url": "https://joenasr.itch.io/jumpy-jumperson",
-      "source": "itch.io",
-      "creator": "Joe Nasr",
-      "creatorCanonical": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-      "status": "official"
+      "audit_state": "current_native_snapshot_pending_fix"
     }
   ]
 }
