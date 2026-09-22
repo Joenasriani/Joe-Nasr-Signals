@@ -101,7 +101,7 @@ The career foundation is more than 15 years of creative direction, advertising, 
 - Historical material is retained for chronology and context.
 - A public repository under `Joenasriani` is not automatically treated as original authorship; forks, mirrors and upstream projects remain distinguished from Joe-created work.
 - A generic `Joe Nasr` search result is linked here only when the source context supports the association.
-- Linktree is retained only as a low-level historical routing node where it helps connect older public threads back into the identity graph. It is not a primary, secondary, featured, or canonical destination. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
+- Linktree remains an active supporting routing node in the public graph. It is useful for connecting multiple platform threads and routing them back into the wider identity structure, but it is not the canonical identity/evidence authority or the preferred primary public destination. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
 
 ## Public archive
 
