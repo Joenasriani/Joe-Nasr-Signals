@@ -18,6 +18,29 @@ Person ID:
 
 - LinkedIn: https://www.linkedin.com/in/joenasrprofile
 
+## Work experience
+
+LinkedIn-aligned professional chronology:
+
+- Creative Director & Founder — Apex Innovate FZ LLC — Self-employed — Dec 2025–Present
+- Creative Director — Self-employed — Mar 2023–Present
+- Guest Lecturer & Corporate Trainer — Self-employed — May 2016–Present
+- Creative Director & Multimedia Producer — Self-employed / Freelance — Oct 2023–Jul 2025
+- Director of Operations & Creative Lead — Daoverse Capital / Guild Technologies — Contract — Oct 2021–Oct 2023
+- Creative Director & Multimedia Producer — Self-employed / Freelance — Oct 2016–Oct 2021
+- Art Director & Multimedia Producer — Self-employed — Sep 2011–Sep 2016
+- Multimedia Producer & Composer — Self-employed / Freelance — Sep 2005–Sep 2011
+
+This chronology is intentionally not an exhaustive client or project list. The wider archive preserves additional verified clients, projects, credits and historical records.
+
+## Education and teaching
+
+- American University of Science and Technology — Bachelor's Degree, Major in Advertising with a minor in Media Production — 2001–2008
+- Holy Spirit University of Kaslik - USEK — certification, Music — 1999–2002
+- Collège Mariste Champville — Bacc II, Experimental Science — 1984–1999
+- Guest Lecturer & Corporate Trainer since May 2016; more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
+- The current LinkedIn teaching entry names Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Emaar Properties, Meraas, Cartier Middle East, ITP Media Group, American University in Dubai (AUD), New Media Academy and SAE Dubai. This is not an exhaustive training record.
+
 ## Creative / interactive / technical surfaces
 
 - GitHub: https://github.com/Joenasriani
@@ -68,7 +91,7 @@ The following names and handles appear across linked Joe Nasr public records and
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
-The career foundation is creative direction, advertising, multimedia, motion, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
+The career foundation is more than 20 years of creative direction, advertising, multimedia, motion graphics, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
 
 ## Repository notes
 
