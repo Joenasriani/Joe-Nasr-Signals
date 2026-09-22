@@ -164,23 +164,6 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 }
 .header-nav a:hover::after,
 .header-nav a:focus-visible::after { right: 0; }
-.mode-button {
-  justify-self: end;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid var(--line-strong);
-  background: transparent;
-  padding: 9px 12px;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  font-size: 10px;
-  font-weight: 800;
-}
-.mode-button:hover { background: var(--ink); color: var(--paper); }
-.mode-icon { width: 12px; height: 8px; border-block: 2px solid currentColor; }
-
 .hero {
   min-height: calc(100vh - 78px);
   max-width: var(--max);
@@ -579,7 +562,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .site-header { height: 66px; }
   .brand-copy small { display: none; }
   .brand-mark { width: 36px; height: 36px; }
-  .mode-button { padding: 8px 9px; }
   .hero { padding-top: 72px; }
   .hero h1 { font-size: clamp(64px, 23vw, 118px); }
   .outline-word { transform: translateX(0); }
@@ -823,10 +805,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <a href="#archive">Archive</a>
       <a href="#questions">Questions</a>
     </nav>
-    <button class="mode-button" id="densityButton" type="button" aria-pressed="false">
-      <span class="mode-icon" aria-hidden="true"></span>
-      Compact
-    </button>
   </header>
 
   <main id="top">
@@ -1199,7 +1177,6 @@ const sortSelect = document.querySelector("#sortSelect");
 const resultCount = document.querySelector("#resultCount");
 const emptyState = document.querySelector("#emptyState");
 const clearButton = document.querySelector("#clearButton");
-const densityButton = document.querySelector("#densityButton");
 const toast = document.querySelector("#toast");
 const heroCount = document.querySelector("#heroCount");
 
@@ -1306,12 +1283,6 @@ clearButton.addEventListener("click", () => {
   sortSelect.value = "featured";
   filterRow.querySelectorAll("button").forEach(item => item.setAttribute("aria-pressed", item.dataset.category === "All" ? "true" : "false"));
   render();
-});
-
-densityButton.addEventListener("click", () => {
-  const compact = document.body.classList.toggle("compact");
-  densityButton.setAttribute("aria-pressed", compact ? "true" : "false");
-  densityButton.lastChild.textContent = compact ? " Expanded" : " Compact";
 });
 
 document.addEventListener("keydown", event => {
