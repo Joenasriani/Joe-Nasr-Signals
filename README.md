@@ -91,7 +91,7 @@ The following names and handles appear across linked Joe Nasr public records and
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
-The career foundation is more than 20 years of creative direction, advertising, multimedia, motion graphics, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
+The career foundation is more than 15 years of creative direction, advertising, multimedia, motion graphics, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
 
 ## Repository notes
 
