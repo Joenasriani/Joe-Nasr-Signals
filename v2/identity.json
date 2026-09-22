@@ -33,19 +33,20 @@
     "portfolio": "https://github.com/Joenasriani/joenasr-portfolio",
     "research": "https://joenasriani.github.io/joe-research-registry/",
     "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-    "games": "https://joe-nasr-signals.vercel.app/v2/games.html",
-    "games_data": "https://joe-nasr-signals.vercel.app/v2/games.json",
+    "games": "https://joe-nasr-signals.vercel.app/games/",
+    "games_data": "https://joe-nasr-signals.vercel.app/games/itchio/catalog.json",
     "youtube": "https://www.youtube.com/@joenasr",
     "linktree": "https://linktr.ee/joenasr",
     "soundcloud": "https://soundcloud.com/joenasrmusic",
     "spotify": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
-    "itch": "https://joenasr.itch.io/"
+    "itch": "https://joenasr.itch.io/",
+    "games_x": "https://joe-nasr-signals.vercel.app/games/x/"
   },
   "creative_work": {
-    "games_catalog": "https://joe-nasr-signals.vercel.app/v2/games.html",
+    "games_catalog": "https://joe-nasr-signals.vercel.app/games/itchio/",
     "relationship": "creator",
     "topic_rule": "Each game is represented as its own VideoGame entity. Joe Nasr is linked as creator, while the game remains the primary topic.",
-    "published_games": 26,
+    "published_games": 27,
     "public_development_records": 20
   },
   "projects": [
