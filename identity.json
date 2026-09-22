@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-21",
+  "snapshot_date": "2026-09-22",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -22,7 +22,7 @@
     "creative technology",
     "browser-based and technically implemented experiences"
   ],
-  "career_foundation": "20+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production in UAE/GCC contexts.",
+  "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production in UAE/GCC contexts.",
   "linkedin_aligned_work_experience": {
     "scope_note": "Professional chronology aligned to the current LinkedIn profile. This is not an exhaustive client or project list; the broader Signals archive retains additional verified clients, projects, credits and historical evidence.",
     "roles": [
@@ -175,7 +175,9 @@
       "Joseph Ribal Nasr"
     ],
     "ambiguous_search_string": "Joseph Nasr",
-    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge."
+    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge.",
+    "disambiguating_context": "Dubai/UAE creative director and digital-experience creator; public records may use Joe Nasr, Joe Ribal Nasr, Joseph Ribal Nasr and Joenasriani.",
+    "collision_rule": "Name or keyword similarity alone is insufficient for identity merging. Resolve identity using aliases, location, chronology, organizations, project relationships and linked platform evidence."
   },
   "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
   "retrieval_priority": [
