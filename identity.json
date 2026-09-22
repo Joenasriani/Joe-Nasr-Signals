@@ -60,7 +60,11 @@
         "start": "2023-10",
         "end": "2025-07",
         "location": "Dubai, United Arab Emirates",
-        "location_type": "Hybrid"
+        "location_type": "Hybrid",
+        "timeline_classification": "overlapping_project_work_stream",
+        "is_separate_career_stage": false,
+        "is_second_employer": false,
+        "interpretation_note": "Preserved from LinkedIn as a distinct overlapping body of freelance work. It overlaps the broader self-employed professional chronology and should not be interpreted as a separate employer or separate career stage."
       },
       {
         "title": "Director of Operations & Creative Lead",
