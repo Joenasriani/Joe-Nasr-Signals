@@ -194,5 +194,14 @@
     "itch_io": "playable games, XR and interactive evidence",
     "music_surfaces": "music, composition, guitar and audio evidence",
     "ventures": "venture and product relationship evidence"
+  },
+  "routing_node_policy": {
+    "linktree": {
+      "status": "historical_low_level_node",
+      "promoted": false,
+      "identity_authority": false,
+      "purpose": "Preserve older routing continuity and connect residual public threads back into the canonical identity graph when useful.",
+      "rule": "Do not use Linktree as a primary or secondary public identity destination when an owned canonical surface is available."
+    }
   }
 }
