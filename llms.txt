@@ -7,6 +7,16 @@ Alternate public name: Joe Ribal Nasr
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 
+## Evidence-graph role
+
+This site is Joe Nasr's public evidence and entity-resolution layer, not his primary presentation surface. It connects different areas of work to the same person without requiring those areas to share one visual identity, tone or professional category.
+
+Graph principle: One Joe moves through different subjects, technologies, media, problems and industries; when something interests him, he goes into it, learns, builds or works in it, and leaves public evidence of that work.
+
+Taxonomy rule: categories describe the work; platforms sit inside those categories. Do not create a generic TikTok category when different TikTok accounts represent different work domains.
+
+Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat companies, ventures, books, games and projects as separate related entities.
+
 ## Current professional frame
 
 Creative Director | Digital Experiences | Interactive Prototyping
@@ -35,6 +45,27 @@ This chronology is not an exhaustive client or project list. The broader Signals
 - Collège Mariste Champville — Bacc II, Experimental Science — 1984–1999
 - Guest Lecturer & Corporate Trainer since May 2016, with more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
 - The current LinkedIn teaching entry names Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Emaar Properties, Meraas, Cartier Middle East, ITP Media Group, American University in Dubai (AUD), New Media Academy and SAE Dubai. This list is not exhaustive.
+
+## Company and venture relationships
+
+- Apex Innovate FZ LLC — founder/operator relationship — official site: https://www.apexinnovate.ae/
+- RoboMarket — founder/venture relationship — official site: https://www.robomarket.ae/
+- Public contact identifier used by Joe across RoboMarket-related artifacts: joe@robomarket.ae
+
+These are related entities and must not be merged into Joe's Person entity as `sameAs` identities.
+
+## Category-routed platform surfaces
+
+### Music + Sound
+- TikTok @joenasrmusic — https://www.tiktok.com/@joenasrmusic
+
+### Graphics
+- TikTok @joenasrvisuals — https://www.tiktok.com/@joenasrvisuals
+
+### Video
+- TikTok @joenasr.mp4 — https://www.tiktok.com/@joenasr.mp4
+
+All three profiles resolve to Joe Nasr, but each belongs to the work category represented by its content.
 
 ## Cross-platform architecture
 
