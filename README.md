@@ -16,6 +16,14 @@ Person ID:
 
 `https://joe-nasr-signals.vercel.app/#joe-nasr`
 
+## Graph role
+
+This site is the public evidence and entity-resolution layer for Joe Nasr. It is not Joe's main presentation surface or a single-brand biography. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
+
+Working principle: one Joe moves through different subjects, technologies, media, problems and industries; when something interests him, he goes into it, learns, builds or works in it, and leaves public evidence of that work.
+
+Categories describe the work. Platforms are routed inside those categories; a platform such as TikTok is not itself a work category.
+
 ## Primary professional surface
 
 - LinkedIn: https://www.linkedin.com/in/joenasrprofile
@@ -52,13 +60,30 @@ This chronology is intentionally not an exhaustive client or project list. The w
 - Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
 
+## Company / venture relationships
+
+- **Apex Innovate FZ LLC** — founder/operator relationship — https://www.apexinnovate.ae/
+- **RoboMarket** — founder/venture relationship — https://www.robomarket.ae/
+- **Public RoboMarket contact identifier used by Joe:** joe@robomarket.ae
+
+These are related entities, not alternate identities for Joe Nasr.
+
 ## Founder / venture surface
 
 - RoboMarket: https://www.robomarket.ae/
 
 ## Music / composition surface
 
+- @joenasrmusic — TikTok — https://www.tiktok.com/@joenasrmusic
 - Anghami: https://play.anghami.com/artist/12198154
+
+## Graphics / visual design surface
+
+- @joenasrvisuals — TikTok — graphics, animation and design — https://www.tiktok.com/@joenasrvisuals
+
+## Video / advertising surface
+
+- @joenasr.mp4 — TikTok — advertising and video work — https://www.tiktok.com/@joenasr.mp4
 
 ## Historical and third-party references
 
@@ -94,6 +119,10 @@ The following names and handles appear across linked Joe Nasr public records and
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
 The career foundation is more than 15 years of creative direction, advertising, multimedia, motion graphics, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
+
+## Entity-resolution rule
+
+`sameAs` is reserved for pages or profiles representing Joe Nasr himself. Apex Innovate, RoboMarket, books, games, research projects and other artifacts are separate entities connected to Joe through explicit relationships; they are not Joe's `sameAs` identities.
 
 ## Repository notes
 
