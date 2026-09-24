@@ -185,7 +185,7 @@
     "historical specialist evidence"
   ],
   "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
-  "graph_role": "Higher public identity taxonomy beneath the master online-presence plan. Resolves the same Joe Nasr across aliases, projects, chronology, credits and platform-specific evidence branches.",
+  "graph_role": "Public evidence and entity-resolution layer beneath Joe Nasr's main online presentation. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
   "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. No specialist surface should redefine the whole person.",
   "platform_roles": {
     "linkedin": "current professional and career chronology",
@@ -204,5 +204,59 @@
       "purpose": "Connect multiple public platform threads, preserve routing continuity, and provide a compact junction that can lead users or retrieval systems back into the wider Joe Nasr identity graph.",
       "rule": "Keep Linktree active and available as a connective routing node, but place it below owned canonical surfaces in hierarchy and do not use it as the canonical identity/evidence authority."
     }
-  }
+  },
+  "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
+  "graph_principle": "One Joe moves through different subjects, technologies, media, problems and industries; when something interests him, he goes into it, learns, builds or works in it, and leaves public evidence of that work.",
+  "public_identifiers": {
+    "robomarket_email": {
+      "value": "joe@robomarket.ae",
+      "type": "email",
+      "relationship": "Joe Nasr public contact identifier used across RoboMarket-related artifacts",
+      "visibility": "public"
+    }
+  },
+  "related_entities": {
+    "apex_innovate": {
+      "name": "Apex Innovate FZ LLC",
+      "type": "company",
+      "relationship": "founder/operator",
+      "url": "https://www.apexinnovate.ae/"
+    },
+    "robomarket": {
+      "name": "RoboMarket",
+      "type": "venture",
+      "relationship": "founder/venture relationship",
+      "url": "https://www.robomarket.ae/"
+    }
+  },
+  "category_routes": {
+    "Music + Sound": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasrmusic",
+        "url": "https://www.tiktok.com/@joenasrmusic",
+        "scope": "music and guitar",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ],
+    "Graphics": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasrvisuals",
+        "url": "https://www.tiktok.com/@joenasrvisuals",
+        "scope": "graphics, animation and design",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ],
+    "Video": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasr.mp4",
+        "url": "https://www.tiktok.com/@joenasr.mp4",
+        "scope": "advertising and video work",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ]
+  },
+  "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities."
 }
