@@ -707,11 +707,14 @@ body.compact .record-url-wrap { margin-top: 8px; }
           "Game design",
           "Robotics marketplaces"
         ],
-        "affiliation": {
-          "@type": "Organization",
-          "name": "RoboMarket.ae",
-          "url": "https://www.robomarket.ae/"
-        },
+        "affiliation": [
+          {
+            "@id": "https://joe-nasr-signals.vercel.app/#apex-innovate"
+          },
+          {
+            "@id": "https://joe-nasr-signals.vercel.app/#robomarket"
+          }
+        ],
         "sameAs": [
           "https://www.linkedin.com/in/joenasrprofile",
           "https://github.com/Joenasriani",
@@ -719,12 +722,33 @@ body.compact .record-url-wrap { margin-top: 8px; }
           "https://soundcloud.com/joenasrmusic",
           "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
           "https://joenasr.itch.io/",
-          "https://www.robomarket.ae/about"
+          "https://www.tiktok.com/@joenasrmusic",
+          "https://www.tiktok.com/@joenasrvisuals",
+          "https://www.tiktok.com/@joenasr.mp4"
         ],
         "subjectOf": {
           "@type": "Dataset",
           "name": "Joe Nasr — Music & Professional Evidence Index",
           "url": "https://github.com/Joenasriani/joe-nasr-public-reception"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://joe-nasr-signals.vercel.app/#apex-innovate",
+        "name": "Apex Innovate FZ LLC",
+        "legalName": "Apex Innovate FZ LLC",
+        "url": "https://www.apexinnovate.ae/",
+        "founder": {
+          "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://joe-nasr-signals.vercel.app/#robomarket",
+        "name": "RoboMarket",
+        "url": "https://www.robomarket.ae/",
+        "founder": {
+          "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         }
       },
       {
@@ -898,7 +922,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="section-label">05 / ARCHIVE NOTES</div>
       <div class="method-grid">
         <h2 id="methodTitle">Archive notes.</h2>
-        <div class="method-copy"><p>This archive is the higher public identity and evidence taxonomy connecting current profiles, project pages, third-party references and historical material across one Joe Nasr. Each linked platform keeps its native role and wording while resolving to the same factual identity graph. Older entries are retained where they document the career timeline. A separate <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">music and professional evidence index</a> preserves supporting attributed records for retrieval and source tracing.</p><ul><li><span>Official</span> A current profile or project page maintained by Joe Nasr or an associated venture.</li><li><span>External</span> A platform, institution or distributor carrying a public reference to the work.</li><li><span>Legacy</span> Older material retained for historical context.</li></ul></div>
+        <div class="method-copy"><p>This archive is the higher public identity and evidence taxonomy connecting current profiles, project pages, third-party references and historical material across one Joe Nasr. Each linked platform keeps its native role and wording while resolving to the same factual identity graph. Categories describe the work; platforms are routed inside those categories. Older entries are retained where they document the career timeline. A separate <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">music and professional evidence index</a> preserves supporting attributed records for retrieval and source tracing.</p><ul><li><span>Official</span> A current profile or project page maintained by Joe Nasr or an associated venture.</li><li><span>External</span> A platform, institution or distributor carrying a public reference to the work.</li><li><span>Legacy</span> Older material retained for historical context.</li></ul></div>
         <div class="method-stamp" aria-label="Last curated 24 September 2026"><span>CURATED</span><strong>24·09·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
     </section>
@@ -1045,6 +1069,38 @@ const records = [
     status: "Official"
   },
   {
+    title: "Apex Innovate FZ LLC",
+    description: "Official company website for Apex Innovate FZ LLC, connected to Joe Nasr through the founder/operator relationship.",
+    url: "https://www.apexinnovate.ae/",
+    source: "Apex Innovate",
+    category: "Founder",
+    status: "Official"
+  },
+  {
+    title: "TikTok — @joenasrmusic",
+    description: "Joe Nasr TikTok surface focused on music and guitar.",
+    url: "https://www.tiktok.com/@joenasrmusic",
+    source: "TikTok",
+    category: "Music + Sound",
+    status: "Official"
+  },
+  {
+    title: "TikTok — @joenasrvisuals",
+    description: "Joe Nasr TikTok surface focused on graphics, animation and design.",
+    url: "https://www.tiktok.com/@joenasrvisuals",
+    source: "TikTok",
+    category: "Graphics",
+    status: "Official"
+  },
+  {
+    title: "TikTok — @joenasr.mp4",
+    description: "Joe Nasr TikTok surface focused on advertising and video work.",
+    url: "https://www.tiktok.com/@joenasr.mp4",
+    source: "TikTok",
+    category: "Video",
+    status: "Official"
+  },
+  {
     title: "RoboMarket — Joe Nasr Founder Profile",
     description: "RoboMarket’s company page identifying Joe Ribal Nasr as CEO and founder of the GCC-focused robotics marketplace.",
     url: "https://www.robomarket.ae/about",
@@ -1166,7 +1222,7 @@ const records = [
   }
 ];
 
-const categories = ["All", "Creative Direction", "Music + Sound", "Education", "XR + Games", "Founder"];
+const categories = ["All", "Creative Direction", "Graphics", "Video", "Music + Sound", "Education", "XR + Games", "Founder"];
 const state = { query: "", category: "All", sort: "featured" };
 
 const archiveList = document.querySelector("#archiveList");
