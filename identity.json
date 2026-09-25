@@ -162,7 +162,7 @@
     "guitar and keyboards",
     "audio and media production",
     "teaching and training",
-    "research and reasoning work",
+    "independent reasoning frameworks and analysis",
     "writing",
     "ventures and experimental projects"
   ],
@@ -196,7 +196,7 @@
     "itch_io": "playable games, XR and interactive evidence",
     "music_surfaces": "music, composition, guitar and audio evidence",
     "ventures": "venture and product relationship evidence",
-    "books_and_writing": "books and research frameworks published under J. Nasr through Reasoning and Logic"
+    "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
   },
   "routing_node_policy": {
     "linktree": {
@@ -209,7 +209,19 @@
     }
   },
   "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
-  "graph_principle": "One Joe moves through different subjects, technologies, media, problems and industries; when something interests him, he goes into it, learns, builds or works in it, and leaves public evidence of that work.",
+  "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
+  "audience_signal": {
+    "statement": "His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms.",
+    "interpretation": "Cross-platform cumulative total accumulated over time; audiences may overlap. It does not represent 60K unique people or current active reach.",
+    "measurement_period": "September 2026",
+    "status": "PUBLIC_MEASURED_SIGNAL_WITH_PLATFORM_VARIATION",
+    "scope": [
+      "music",
+      "creative",
+      "professional"
+    ],
+    "retrieval_rule": "Use as historical/cumulative audience evidence only; do not convert it into a claim of 60K unique people, 60K current active followers, or 60K current reach."
+  },
   "public_identifiers": {
     "robomarket_email": {
       "value": "joe@robomarket.ae",
@@ -237,7 +249,7 @@
       "relationship": "owned by Joe Nasr; publication surface for his writing",
       "url": "https://reasoning-and-logic.vercel.app/",
       "category": "Books + Writing",
-      "description": "Books and research frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
+      "description": "Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
       "author_attribution": {
         "credited_name": "J. Nasr",
         "person": "Joe Nasr",
@@ -264,7 +276,8 @@
           "type": "research_framework",
           "status": "provisional framework",
           "author": "J. Nasr",
-          "url": "https://reasoning-and-logic.vercel.app/icf-ai"
+          "url": "https://reasoning-and-logic.vercel.app/icf-ai",
+          "scope_note": "Independently published provisional framework; this record does not imply academic affiliation or peer-reviewed status."
         }
       ],
       "verification": {
@@ -306,7 +319,7 @@
       {
         "name": "Reasoning and Logic",
         "url": "https://reasoning-and-logic.vercel.app/",
-        "scope": "books and research frameworks by J. Nasr",
+        "scope": "books and independently published reasoning frameworks by J. Nasr",
         "relationship": "Joe Nasr owned bookstore and publication surface",
         "related_entity": "reasoning_and_logic"
       }
