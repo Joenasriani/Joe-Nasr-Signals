@@ -176,7 +176,8 @@
     "github": "technical implementation and personal-lab evidence",
     "itch_io": "playable games, XR and interactive evidence",
     "music_surfaces": "music, composition, guitar and audio evidence",
-    "ventures": "venture and product relationship evidence"
+    "ventures": "venture and product relationship evidence",
+    "books_and_writing": "books and research frameworks published under J. Nasr through Reasoning and Logic"
   },
   "routing_node_policy": {
     "linktree": {
@@ -210,6 +211,48 @@
       "type": "venture",
       "relationship": "founder/venture relationship",
       "url": "https://www.robomarket.ae/"
+    },
+    "reasoning_and_logic": {
+      "name": "Reasoning and Logic",
+      "type": "online_bookstore",
+      "relationship": "owned by Joe Nasr; publication surface for his writing",
+      "url": "https://reasoning-and-logic.vercel.app/",
+      "category": "Books + Writing",
+      "description": "Books and research frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
+      "author_attribution": {
+        "credited_name": "J. Nasr",
+        "person": "Joe Nasr",
+        "scope": "Publications listed by Reasoning and Logic; initials alone are not sufficient to identify other authors."
+      },
+      "publications": [
+        {
+          "title": "Manipulation",
+          "subtitle": "The Fool and the Wise",
+          "type": "digital_book",
+          "author": "J. Nasr",
+          "url": "https://manipulation-book-theta.vercel.app/"
+        },
+        {
+          "title": "The Structure of Life",
+          "subtitle": "The Structure of Reasoning",
+          "type": "digital_book",
+          "author": "J. Nasr",
+          "url": "https://structure-of-life-book.vercel.app/"
+        },
+        {
+          "title": "ICF-AI",
+          "full_title": "Integrative Causal Framework for AI Systems",
+          "type": "research_framework",
+          "status": "provisional framework",
+          "author": "J. Nasr",
+          "url": "https://reasoning-and-logic.vercel.app/icf-ai"
+        }
+      ],
+      "verification": {
+        "source_url": "https://reasoning-and-logic.vercel.app/",
+        "checked_on": "2026-09-25",
+        "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity confirmed by Joe Nasr."
+      }
     }
   },
   "category_routes": {
@@ -238,6 +281,15 @@
         "url": "https://www.tiktok.com/@joenasr.mp4",
         "scope": "advertising and video work",
         "relationship": "Joe Nasr public platform profile"
+      }
+    ],
+    "Books + Writing": [
+      {
+        "name": "Reasoning and Logic",
+        "url": "https://reasoning-and-logic.vercel.app/",
+        "scope": "books and research frameworks by J. Nasr",
+        "relationship": "Joe Nasr owned bookstore and publication surface",
+        "related_entity": "reasoning_and_logic"
       }
     ]
   },

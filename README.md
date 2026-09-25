@@ -58,6 +58,15 @@ This chronology is intentionally not an exhaustive client or project list. The w
 - Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
 
+## Books + Writing
+
+- **Reasoning and Logic**: https://reasoning-and-logic.vercel.app/
+- Books and research frameworks by J. Nasr on human behavior, influence, reasoning and systems.
+- Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; it is not a rule for merging unrelated authors with the same initials.
+- The live catalogue includes *Manipulation: The Fool and the Wise*, *The Structure of Life: The Structure of Reasoning*, and *ICF-AI*, a provisional framework for AI systems.
+
+This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
+
 ## Company / venture relationships
 
 - **Apex Innovate FZ LLC** — founder/operator relationship — https://www.apexinnovate.ae/

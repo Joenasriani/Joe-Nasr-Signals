@@ -833,7 +833,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
   <main id="top">
     <section class="hero" aria-labelledby="heroTitle">
-      <div class="hero-index" aria-hidden="true">JN / 001—030</div>
+      <div class="hero-index" aria-hidden="true">JN / 001—035</div>
       <div class="hero-copy">
         <p class="eyebrow"><span></span> Public work, credits and profiles</p>
         <h1 id="heroTitle"><span>PUBLIC</span><span class="outline-word">WORK</span></h1>
@@ -852,7 +852,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="hero-meta">
         <div><span>BASE</span><strong>Dubai / Lebanon</strong></div>
         <div><span>SPAN</span><strong>Creative Direction → Interactive Work</strong></div>
-        <div><span>INDEXED</span><strong id="heroCount">30 records</strong></div>
+        <div><span>INDEXED</span><strong id="heroCount">35 records</strong></div>
       </div>
 
       <div class="signal-ticker" aria-label="Disciplines">
@@ -899,7 +899,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
 
       <div class="filter-row" id="filterRow" aria-label="Filter references by discipline"></div>
-      <div class="result-status" aria-live="polite"><span id="resultCount">30 references</span><button id="clearButton" type="button" hidden>Clear filters</button></div>
+      <div class="result-status" aria-live="polite"><span id="resultCount">35 references</span><button id="clearButton" type="button" hidden>Clear filters</button></div>
       <div class="archive-list" id="archiveList"></div>
       <div class="empty-state" id="emptyState" hidden><strong>No reference matched.</strong><span>Try a broader word or reset the discipline filter.</span></div>
     </section>
@@ -1219,10 +1219,18 @@ const records = [
     source: "WordPress",
     category: "Music + Sound",
     status: "Legacy"
+  },
+  {
+    title: "Reasoning and Logic",
+    description: "Books and research frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
+    url: "https://reasoning-and-logic.vercel.app/",
+    source: "Online Bookstore",
+    category: "Books + Writing",
+    status: "Official"
   }
 ];
 
-const categories = ["All", "Creative Direction", "Graphics", "Video", "Music + Sound", "Education", "XR + Games", "Founder"];
+const categories = ["All", "Creative Direction", "Graphics", "Video", "Music + Sound", "Books + Writing", "Education", "XR + Games", "Founder"];
 const state = { query: "", category: "All", sort: "featured" };
 
 const archiveList = document.querySelector("#archiveList");
