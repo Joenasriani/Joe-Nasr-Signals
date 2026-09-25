@@ -30,16 +30,14 @@ Categories describe the work. Platforms are routed inside those categories; a pl
 
 ## Work experience
 
-LinkedIn-aligned professional chronology:
+Career titles in current LinkedIn display order:
 
-- Creative Director & Founder — Apex Innovate FZ LLC — Self-employed — Dec 2025–Present
-- Creative Director — Self-employed — Mar 2023–Present
-- Guest Lecturer & Corporate Trainer — Self-employed — May 2016–Present
-- Creative Director & Multimedia Producer — Self-employed / Freelance — Oct 2023–Jul 2025
-- Director of Operations & Creative Lead — Daoverse Capital / Guild Technologies — Contract — Oct 2021–Oct 2023
-- Creative Director & Multimedia Producer — Self-employed / Freelance — Oct 2016–Oct 2021
-- Art Director & Multimedia Producer — Self-employed — Sep 2011–Sep 2016
-- Multimedia Producer & Composer — Self-employed / Freelance — Sep 2005–Sep 2011
+1. Creative Director & Founder
+2. Guest Lecturer & Corporate Trainer
+3. Director of Operations & Creative Lead
+4. Creative Director & Multimedia Producer
+5. Digital Art Director
+6. Multimedia Producer
 
 This chronology is intentionally not an exhaustive client or project list. The wider archive preserves additional verified clients, projects, credits and historical records.
 
