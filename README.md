@@ -28,9 +28,9 @@ Categories describe the work. Platforms are routed inside those categories; a pl
 
 - LinkedIn: https://www.linkedin.com/in/joenasrprofile
 
-## Work experience
+## LinkedIn Experience
 
-Career titles in current LinkedIn display order:
+Titles in LinkedIn display order:
 
 1. Creative Director & Founder
 2. Guest Lecturer & Corporate Trainer
@@ -39,7 +39,8 @@ Career titles in current LinkedIn display order:
 5. Digital Art Director
 6. Multimedia Producer
 
-This chronology is intentionally not an exhaustive client or project list. The wider archive preserves additional verified clients, projects, credits and historical records.
+Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
+Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display order is not a consecutive chronology.
 
 ## Education and teaching
 
@@ -47,7 +48,8 @@ This chronology is intentionally not an exhaustive client or project list. The w
 - Holy Spirit University of Kaslik - USEK — certification, Music — 1999–2002
 - Collège Mariste Champville — Bacc II, Experimental Science — 1984–1999
 - Guest Lecturer & Corporate Trainer since May 2016; more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
-- The current LinkedIn teaching entry names Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Emaar Properties, Meraas, Cartier Middle East, ITP Media Group, American University in Dubai (AUD), New Media Academy and SAE Dubai. This is not an exhaustive training record.
+- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
+- Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
 ## Creative / interactive / technical surfaces
 
@@ -142,3 +144,9 @@ The career foundation is more than 15 years of creative direction, advertising, 
 ## Public archive
 
 https://joe-nasr-signals.vercel.app/
+
+## Record maintenance
+
+`identity.json` holds the verified LinkedIn roles, dates, relationships and teaching sources. Run `python scripts/sync_linkedin_records.py` after a verified update to render the corresponding homepage, README and retrieval-guide summaries. The homepage FAQ schema is derived from its visible answers.
+
+The workflow runs `python scripts/sync_linkedin_records.py --check` and `python scripts/validate_signals.py`. It reports inconsistencies without rewriting or publishing files. The synchronizer does not modify styles, game catalogs, historical pages or verification dates.

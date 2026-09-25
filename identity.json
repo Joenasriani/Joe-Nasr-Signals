@@ -87,7 +87,12 @@
     "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
     "verified_live_on": "2026-09-25",
     "evidence_note": "Verified against the live LinkedIn Experience section. This records the profile's statements, not independent verification of each engagement. Omitted fields were not explicitly displayed.",
-    "timeline_note": "Concurrent dates are preserved. LinkedIn display order is not a strictly consecutive career progression. Self-employed, Freelance and Independent Creative are preserved as displayed organization labels; named contract clients are not recast as employers."
+    "timeline_note": "Concurrent dates are preserved. LinkedIn display order is not a strictly consecutive career progression. Self-employed, Freelance and Independent Creative are preserved as displayed organization labels; named contract clients are not recast as employers.",
+    "profile_categories": [
+      "Creative Direction",
+      "Education",
+      "Founder"
+    ]
   },
   "education": [
     {
@@ -128,15 +133,29 @@
       "Government of Dubai Media Office (GDMO)",
       "Dubai Police",
       "UAE Armed Forces",
+      "Ministry of Culture and Knowledge Development in Abu Dhabi",
+      "the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi",
+      "Reyada Centre",
+      "Egyptian Ministry of Foreign Affairs",
+      "New Media Academy",
+      "American University in Dubai (AUD)",
       "Emaar Properties",
       "Meraas",
       "Cartier Middle East",
-      "ITP Media Group",
-      "American University in Dubai (AUD)",
-      "New Media Academy"
+      "ITP Media Group"
     ],
     "training_provider_example": "SAE Dubai",
-    "scope_note": "Named organizations mirror the current LinkedIn teaching entry and are not an exhaustive record of all training clients, institutions or programs."
+    "scope_note": "The named organizations reproduce the LinkedIn teaching entry checked on 25 September 2026. Separate institutional evidence is identified by its own source; this is not an exhaustive teaching record.",
+    "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
+    "verified_live_on": "2026-09-25",
+    "historical_institutional_evidence": [
+      {
+        "institution": "SAE UAE",
+        "relationship": "Design and Motion Graphics program mentorship",
+        "source_url": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+        "source_type": "institutional post"
+      }
+    ]
   },
   "parallel_capabilities": [
     "music and composition",
@@ -293,5 +312,6 @@
       }
     ]
   },
-  "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities."
+  "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
+  "updated_on": "2026-09-25"
 }
