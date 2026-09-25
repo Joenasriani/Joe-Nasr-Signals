@@ -2,13 +2,13 @@
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
-This repository brings together public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, research and historical records.
+This repository brings together public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, writing, independently published frameworks and historical records.
 
 ## Canonical public identity / evidence graph
 
 https://joe-nasr-signals.vercel.app/
 
-Public archive for Joe Nasr / Joseph Ribal Nasr covering professional work, interactive projects, technical implementation, education, music, ventures, and historical references.
+Public archive for Joe Nasr / Joseph Ribal Nasr covering professional work, interactive projects, technical implementation, education, music, writing, ventures and historical references.
 
 Includes current profiles, project repositories, professional credits, selected historical records, and source links.
 
@@ -20,7 +20,7 @@ Person ID:
 
 This site is the public evidence and entity-resolution layer for Joe Nasr. It is not Joe's main presentation surface or a single-brand biography. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
 
-Working principle: one Joe moves through different subjects, technologies, media, problems and industries; when something interests him, he goes into it, learns, builds or works in it, and leaves public evidence of that work.
+Working principle: His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.
 
 Categories describe the work. Platforms are routed inside those categories; a platform such as TikTok is not itself a work category.
 
@@ -63,11 +63,17 @@ Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display o
 ## Books + Writing
 
 - **Reasoning and Logic**: https://reasoning-and-logic.vercel.app/
-- Books and research frameworks by J. Nasr on human behavior, influence, reasoning and systems.
+- Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.
 - Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; it is not a rule for merging unrelated authors with the same initials.
 - The live catalogue includes *Manipulation: The Fool and the Wise*, *The Structure of Life: The Structure of Reasoning*, and *ICF-AI*, a provisional framework for AI systems.
 
 This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
+
+## Public audience signal
+
+His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure is a cross-platform total accumulated over time; audiences may overlap, and it does not represent 60K unique people or current active reach.
+
+This is cumulative cross-platform evidence, not a count of unique people and not a claim about current active reach.
 
 ## Company / venture relationships
 
@@ -127,7 +133,7 @@ The following names and handles appear across linked Joe Nasr public records and
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
-The career foundation is more than 15 years of creative direction, advertising, multimedia, motion graphics, design, 3D and production work in the UAE and wider GCC. Current work includes interactive experiences, prototyping, XR/VR, games, creative technology and technically implemented experiences. Music/composition, teaching/training, AI/reasoning work, writing and ventures remain part of the broader career record.
+Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods.
 
 ## Entity-resolution rule
 
