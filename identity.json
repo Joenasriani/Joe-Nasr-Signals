@@ -24,29 +24,70 @@
   ],
   "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production in UAE/GCC contexts.",
   "linkedin_aligned_work_experience": {
-    "scope_note": "Career titles only, in the order displayed on the live LinkedIn Experience section. Full role details and dates remain on LinkedIn.",
+    "scope_note": "Career titles follow the live LinkedIn Experience display order. The visible Signals summary uses titles only; this underlying record retains the dates, organizations and employment or client relationships shown on LinkedIn.",
     "roles": [
       {
-        "title": "Creative Director & Founder"
+        "title": "Creative Director & Founder",
+        "organization": "Apex Innovate FZ LLC",
+        "employment_type": "Self-employed",
+        "start": "2025-12",
+        "end": "Present",
+        "location": "Ajman, United Arab Emirates",
+        "location_type": "Hybrid"
       },
       {
-        "title": "Guest Lecturer & Corporate Trainer"
+        "title": "Guest Lecturer & Corporate Trainer",
+        "organization": "Self-employed",
+        "employment_type": "Self-employed",
+        "start": "2016-05",
+        "end": "Present",
+        "location": "United Arab Emirates"
       },
       {
-        "title": "Director of Operations & Creative Lead"
+        "title": "Director of Operations & Creative Lead",
+        "organization": "Self-employed",
+        "employment_type": "Contract",
+        "start": "2021-01",
+        "end": "2023-06",
+        "location": "Dubai, United Arab Emirates",
+        "clients": [
+          "Daoverse Capital",
+          "Guild Technologies"
+        ],
+        "relationship_note": "LinkedIn names Daoverse Capital and Guild Technologies as clients of this contract role."
       },
       {
-        "title": "Creative Director & Multimedia Producer"
+        "title": "Creative Director & Multimedia Producer",
+        "organization": "Freelance",
+        "start": "2021-03",
+        "end": "2023-06",
+        "location": "Dubai, United Arab Emirates"
       },
       {
-        "title": "Digital Art Director"
+        "title": "Digital Art Director",
+        "organization": "Freelance",
+        "employment_type": "Freelance",
+        "start": "2011-10",
+        "end": "2021-07",
+        "location": "United Arab Emirates",
+        "client_label": "Grey Worldwide/Grey Beirut",
+        "relationship_note": "The live role description identifies freelance projects for Grey Worldwide/Grey Beirut."
       },
       {
-        "title": "Multimedia Producer"
+        "title": "Multimedia Producer",
+        "organization": "Independent Creative",
+        "employment_type": "Freelance",
+        "start": "2005-02",
+        "end": "2011-09",
+        "project_location_context": [
+          "Lebanon"
+        ]
       }
     ],
     "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
-    "verified_live_on": "2026-09-25"
+    "verified_live_on": "2026-09-25",
+    "evidence_note": "Verified against the live LinkedIn Experience section. This records the profile's statements, not independent verification of each engagement. Omitted fields were not explicitly displayed.",
+    "timeline_note": "Concurrent dates are preserved. LinkedIn display order is not a strictly consecutive career progression. Self-employed, Freelance and Independent Creative are preserved as displayed organization labels; named contract clients are not recast as employers."
   },
   "education": [
     {
