@@ -2,7 +2,7 @@
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
-This repository brings together public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, writing, independently published frameworks and historical records.
+This repository indexes public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, writing, independently published frameworks and historical records.
 
 ## Canonical public identity / evidence graph
 
