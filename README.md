@@ -2,7 +2,7 @@
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
-**Joe Nasr’s public record** covers creative direction, art direction, advertising, multimedia production, motion graphics, 3D production, digital experiences and interactive prototyping. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.
+**Joe Nasr’s public record** covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.
 
 **Full name:** Joseph Ribal Nasr  
 **Also appears as:** Joe Ribal Nasr, Joenasriani
