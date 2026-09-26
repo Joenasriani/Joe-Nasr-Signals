@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, UAE, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping." />
+  <meta name="description" content="Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE, with a background in advertising, multimedia, motion and 3D and current work in digital experiences and interactive prototyping." />
   <meta name="author" content="Joe Nasr" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="theme-color" content="#101317" />
@@ -214,6 +214,23 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(19px, 2vw, 29px);
   line-height: 1.32;
+}
+.identity-names {
+  max-width: 760px;
+  margin: 18px 0 0;
+  padding-left: clamp(0px, 7vw, 110px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  color: var(--muted);
+  font: 700 11px/1.45 "Courier New", monospace;
+}
+.identity-names span { display: inline-flex; flex-wrap: wrap; gap: 7px; align-items: baseline; }
+.identity-names b {
+  color: var(--ink);
+  font-size: 9px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
 }
 .identity-disc {
   align-self: center;
@@ -642,7 +659,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       "@type": "ProfilePage",
       "@id": "https://joe-nasr-signals.vercel.app/#profile",
       "url": "https://joe-nasr-signals.vercel.app/",
-      "name": "Joe Nasr (Joseph Ribal Nasr) | Creative Director | Digital Experiences | Interactive Prototyping",
+      "name": "Joe Nasr | Creative Director | Digital Experiences | Interactive Prototyping",
       "dateModified": "2026-09-26",
       "mainEntity": {
         "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
@@ -653,11 +670,17 @@ body.compact .record-url-wrap { margin-top: 8px; }
       "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr",
       "name": "Joe Nasr",
       "alternateName": [
+        "Joseph Ribal Nasr",
         "Joe Ribal Nasr",
-        "Joseph Ribal Nasr"
+        "Joenasriani",
+        "joenasr",
+        "joenasrprofile",
+        "joenasrmusic",
+        "joenasrvisuals",
+        "joenasr.mp4"
       ],
       "url": "https://joe-nasr-signals.vercel.app/",
-      "description": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates. His public professional record spans 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, with current work in digital experiences and interactive prototyping. His wider record also includes XR, games, teaching, music, writing and independent project work from different periods.",
+      "description": "Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE. His background spans advertising, multimedia, motion and 3D, with current work focused on digital experiences and interactive prototyping.",
       "nationality": {
         "@type": "Country",
         "name": "Lebanon"
@@ -722,7 +745,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
         "@type": "Dataset",
         "name": "Joe Nasr — Music & Professional Evidence Index",
         "url": "https://github.com/Joenasriani/joe-nasr-public-reception"
-      }
+      },
+      "disambiguatingDescription": "Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE, currently focused on digital experiences and interactive prototyping."
     },
     {
       "@type": "Organization",
@@ -752,7 +776,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
           "name": "Who is Joe Nasr?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods."
+            "text": "Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE. His background spans advertising, multimedia, motion and 3D, with current work focused on digital experiences and interactive prototyping. The archive also documents music, teaching, XR, games, writing and independent software projects from different periods."
           }
         },
         {
@@ -818,6 +842,14 @@ body.compact .record-url-wrap { margin-top: 8px; }
             "@type": "Answer",
             "text": "His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure is a cross-platform total accumulated over time; audiences may overlap, and it does not represent 60K unique people or current active reach."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Which names and handles identify Joe Nasr online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Full name: Joseph Ribal Nasr. Also appears as: Joe Ribal Nasr and Joenasriani. Verified public handles include joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4. These identifiers are used only where linked public records support the same-person relationship."
+          }
         }
       ]
     }
@@ -853,7 +885,11 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="hero-copy">
         <p class="eyebrow"><span></span> Public work, credits and profiles</p>
         <h1 id="heroTitle"><span>JOE</span><span class="outline-word">NASR</span></h1>
-        <p class="hero-intro"><strong>Joe Nasr (Joseph Ribal Nasr)</strong> is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates. His public professional record spans 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, with current work in digital experiences and interactive prototyping. XR, games, teaching, music, writing and independent projects remain documented parts of the same public record.</p>
+        <p class="hero-intro">Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE. His background spans advertising, multimedia, motion and 3D, with current work focused on digital experiences and interactive prototyping.</p>
+        <div class="identity-names" aria-label="Joe Nasr identity names">
+          <span><b>Full name</b> Joseph Ribal Nasr</span>
+          <span><b>Also appears as</b> Joe Ribal Nasr · Joenasriani</span>
+        </div>
       </div>
 
       <div class="identity-disc" aria-hidden="true">
@@ -898,9 +934,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
     </section>
 
     <section class="faq-section" id="questions" aria-labelledby="faqTitle">
-      <div class="section-label">02 / ABOUT</div><div class="faq-heading"><h2 id="faqTitle">Work and background.</h2><p>Selected facts about Joe Nasr’s creative direction, music, interactive work, teaching, ventures and regional professional history.</p></div>
+      <div class="section-label">02 / ABOUT</div><div class="faq-heading"><h2 id="faqTitle">Work and background.</h2><p>Identity, professional history and source-linked work across different periods.</p></div>
       <div class="faq-list">
-        <details><summary><span>Q01</span>Who is Joe Nasr?</summary><div class="faq-answer">Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods.</div></details>
+        <details><summary><span>Q01</span>Who is Joe Nasr?</summary><div class="faq-answer">Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE. His background spans advertising, multimedia, motion and 3D, with current work focused on digital experiences and interactive prototyping. The archive also documents music, teaching, XR, games, writing and independent software projects from different periods.</div></details>
         <details><summary><span>Q02</span>What music and audio work is documented for Joe Nasr?</summary><div class="faq-answer">His indexed music and audio record includes cinematic and media composition, guitar performances, sound design, audio engineering, mixing, production-music licensing and audio post-production.</div></details>
         <details><summary><span>Q03</span>What creative-direction and digital-experience work is documented for Joe Nasr in the UAE and GCC?</summary><div class="faq-answer">His public record documents creative direction, advertising, motion graphics, film, digital experiences, creative education and AI-assisted production associated with Dubai, the UAE and GCC clients and institutions.</div></details>
         <details><summary><span>Q04</span>What current work connects Joe Nasr to AI, interactive prototyping and RoboMarket?</summary><div class="faq-answer">His current public work includes AI-assisted creative workflows and interactive prototyping. RoboMarket.ae identifies Joe Ribal Nasr as founder of its GCC-focused robotics marketplace.</div></details>
@@ -909,6 +945,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <details id="linkedin-experience"><summary><span>Q07</span>LinkedIn Experience</summary><div class="faq-answer"><p>Roles listed on Joe Nasr’s LinkedIn profile:</p><ol><li>Creative Director &amp; Founder</li><li>Guest Lecturer &amp; Corporate Trainer</li><li>Director of Operations &amp; Creative Lead</li><li>Creative Director &amp; Multimedia Producer</li><li>Digital Art Director</li><li>Multimedia Producer</li></ol><p><a href="https://www.linkedin.com/in/joenasrprofile/details/experience/" target="_blank" rel="noopener noreferrer">Dates and role details on LinkedIn</a>.</p></div></details>
         <details><summary><span>Q08</span>What is Joe Nasr’s education and teaching background?</summary><div class="faq-answer">Education records include a Bachelor’s Degree from the American University of Science and Technology, Major in Advertising with a minor in Media Production (2001–2008); a Music certification record at Holy Spirit University of Kaslik - USEK (1999–2002); and Bacc II, Experimental Science at Collège Mariste Champville (1984–1999). Joe Nasr has worked as a Guest Lecturer &amp; Corporate Trainer since May 2016, with more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies. His LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group. A separate <a href="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc" target="_blank" rel="noopener noreferrer">SAE UAE institutional post</a> documents his mentorship in a six-month Design and Motion Graphics program.</div></details>
         <details><summary><span>Q09</span>What public audience is documented across Joe Nasr’s profiles?</summary><div class="faq-answer">His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure is a cross-platform total accumulated over time; audiences may overlap, and it does not represent 60K unique people or current active reach.</div></details>
+        <details><summary><span>Q10</span>Which names and handles identify Joe Nasr online?</summary><div class="faq-answer"><strong>Full name:</strong> Joseph Ribal Nasr. <strong>Also appears as:</strong> Joe Ribal Nasr and Joenasriani. Verified public handles include joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4. These identifiers are used only where linked public records support the same-person relationship.</div></details>
       </div>
     </section>
 
@@ -917,7 +954,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="method-grid">
         <h2 id="methodTitle">Archive notes.</h2>
         <div class="method-copy"><p>This archive indexes Joe Nasr’s projects, profiles, publications and credits. Each entry points to its source. Historical profiles are retained when they document earlier work.</p><p>Additional attributed music and professional references are collected in the <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">supporting evidence index</a>.</p></div>
-        <div class="method-stamp" aria-label="Archive updated 25 September 2026"><span>UPDATED</span><strong>25·09·26</strong><small>PUBLIC WEB INDEX</small></div>
+        <div class="method-stamp" aria-label="Archive updated 26 September 2026"><span>UPDATED</span><strong>26·09·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
     </section>
   </main>
