@@ -29,6 +29,19 @@ Working principle: His public record spans different periods of work across crea
 
 Categories describe the work. Platforms are routed inside those categories; a platform such as TikTok is not itself a work category.
 
+## Retrieval architecture
+
+Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine registry is in `identity.json`.
+
+- **Primary current** routes are preferred for broad identity and present-tense professional questions.
+- **Secondary specialist** routes cover narrower current subjects and platforms.
+- **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. It does **not** mean weak, irrelevant, deprecated or hidden.
+- **Pending verification** surfaces are recorded but are not promoted until their public visibility or identity relationship is rechecked.
+
+Topic relevance can override age. A historical specialist page may be a strong live retrieval source for the query it directly answers. For example, ReverbNation is historical in time but remains relevant to searches for Joe Nasr's guitar, music and composition work.
+
+The graph is guidance for identity resolution and retrieval, not a claim that external search engines or AI systems will crawl or rank the URLs in a fixed sequence.
+
 ## Primary professional surface
 
 - LinkedIn: https://www.linkedin.com/in/joenasrprofile
@@ -106,12 +119,14 @@ These are related entities, not alternate identities for Joe Nasr.
 
 ## Historical and third-party references
 
-These pages preserve earlier professional, teaching, music, media and platform records that remain useful for career chronology and historical context.
+These pages preserve earlier professional, teaching, music, media and platform records as searchable historical support. Historical means older in time, not weak or irrelevant; these pages can remain strong retrieval routes for matching topic queries.
 
 - SlideShare — Joe Nasr / Dubai Media Valley: https://www.slideshare.net/JoeNasr
 - Stage 32 — Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
 - Stage 32 — Joe Ribal Nasr, music/sound archive: https://www.stage32.com/profile/365666
 - Clarity — historical music/sound profile: https://clarity.fm/joenasr
+- ReverbNation — historical guitar/music profile: https://www.reverbnation.com/joenasr
+- AudioSparx — historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
 - Flickr — Joe Nasr / `joenasriani` historical alias reference: https://www.flickr.com/photos/27243981@N04/
 - Mixcloud — Joe Nasr / `joenasrprofile`: https://www.mixcloud.com/joenasrprofile/
 - Bandsintown — historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
