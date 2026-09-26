@@ -2,6 +2,8 @@
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
+**Joe Nasr (Joseph Ribal Nasr)** is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates.
+
 This repository indexes public references to **Joe Nasr / Joe Ribal Nasr / Joseph Ribal Nasr** across professional work, interactive projects, technical implementation, education, music, ventures, writing, independently published frameworks and historical records.
 
 ## Canonical public identity / evidence graph
@@ -133,7 +135,7 @@ The following names and handles appear across linked Joe Nasr public records and
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
-Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods.
+Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates. His public professional record spans 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, with current work in digital experiences and interactive prototyping. His wider record also includes XR, games, teaching, music, writing and independent project work from different periods.
 
 ## Entity-resolution rule
 
