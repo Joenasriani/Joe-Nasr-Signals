@@ -1,10 +1,12 @@
 # Joe Nasr — canonical public identity guide
 
-Published: 2026-09-25
+Published: 2026-09-26
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full-name identity: Joseph Ribal Nasr
 Alternate public name: Joe Ribal Nasr
+Nationality: Lebanese
+Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 
@@ -22,7 +24,7 @@ Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat com
 
 Creative Director | Digital Experiences | Interactive Prototyping
 
-Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods.
+Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates. His public professional record spans 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, with current work in digital experiences and interactive prototyping. His wider record also includes XR, games, teaching, music, writing and independent project work from different periods.
 
 ## LinkedIn Experience
 
