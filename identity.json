@@ -339,7 +339,7 @@
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
   "updated_on": "2026-09-26",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
-  "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, motion graphics, 3D production, digital experiences and interactive prototyping. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
+  "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director with more than 15 years of work in Dubai and the UAE across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
   "retrieval_facets": {
     "primary_role": "Creative Director",
@@ -353,10 +353,14 @@
       "art direction",
       "advertising",
       "multimedia production",
-      "motion graphics",
-      "3D production",
       "digital experiences",
       "interactive prototyping"
+    ],
+    "multimedia_production_includes": [
+      "motion graphics",
+      "3D",
+      "video",
+      "audio"
     ],
     "other_documented_work": [
       "commercial and institutional projects",
@@ -365,6 +369,6 @@
       "music",
       "experimental interactive work"
     ],
-    "rule": "Keep lists semantically consistent: role titles with role titles; work domains with work domains; project or activity types with project or activity types."
+    "rule": "Keep taxonomy hierarchical. Do not place a parent category and its child disciplines at the same level unless retrieval requires an explicit child term; retain child disciplines as nested facets."
   }
 }
