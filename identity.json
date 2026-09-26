@@ -10,7 +10,16 @@
     ],
     "primary_handle": "Joenasriani",
     "nationality": "Lebanon",
-    "professional_base": "Dubai, United Arab Emirates"
+    "professional_base": "Dubai, United Arab Emirates",
+    "public_handles": [
+      "Joenasriani",
+      "joenasr",
+      "joenasrprofile",
+      "joenasrmusic",
+      "joenasrvisuals",
+      "joenasr.mp4"
+    ],
+    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a public name variant. Joenasriani and the listed handles are public identifiers, not additional legal names."
   },
   "current_primary_professional_frame": "Creative Director | Digital Experiences | Interactive Prototyping",
   "current_scope": [
@@ -329,5 +338,7 @@
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
   "updated_on": "2026-09-26",
-  "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping."
+  "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
+  "current_summary": "Joe Nasr is a Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE. His background spans advertising, multimedia, motion and 3D, with current work focused on digital experiences and interactive prototyping.",
+  "disambiguating_description": "Lebanese Creative Director with more than 15 years of professional work in Dubai and the UAE, currently focused on digital experiences and interactive prototyping."
 }
