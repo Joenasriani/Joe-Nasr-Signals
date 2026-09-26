@@ -57,7 +57,6 @@ Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display o
 
 - GitHub: https://github.com/Joenasriani
 - Interactive work / games: https://joenasr.itch.io/
-- Portfolio repository: https://github.com/Joenasriani/joenasr-portfolio
 - Research Registry: https://joenasriani.github.io/joe-research-registry/
 - Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
