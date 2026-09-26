@@ -29,7 +29,6 @@
   "profiles": {
     "linkedin": "https://www.linkedin.com/in/joenasrprofile",
     "github": "https://github.com/Joenasriani",
-    "portfolio": "https://github.com/Joenasriani/joenasr-portfolio",
     "research": "https://joenasriani.github.io/joe-research-registry/",
     "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
     "games": "https://joe-nasr-signals.vercel.app/v2/games.html",
@@ -79,5 +78,5 @@
   "publication_name": "J. Nasr",
   "publication_name_scope": "Used for publications explicitly attributed to J. Nasr on Joe Nasr’s Reasoning and Logic publication surface; not a general identity-merging rule.",
   "research_scope_note": "Research-named links in this legacy record refer to independently published project/research registry surfaces and do not imply an academic affiliation or peer-reviewed status.",
-  "updated_on": "2026-09-25"
+  "updated_on": "2026-09-26"
 }
