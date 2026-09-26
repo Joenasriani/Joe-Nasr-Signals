@@ -339,6 +339,28 @@
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
   "updated_on": "2026-09-26",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
-  "current_summary": "Joe Nasr’s public record spans creative direction, advertising, multimedia, motion, 3D, digital experiences and interactive prototyping. It traces work developed across different periods, from commercial and institutional projects to independent products, teaching, music and experimental interactive work.",
-  "disambiguating_description": "Lebanese Creative Director with more than 15 years of work in Dubai and the UAE across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping."
+  "current_summary": "Joe Nasr’s public record includes roles such as Creative Director, Digital Art Director and Multimedia Producer, alongside work in advertising campaigns, motion graphics, 3D production, digital experiences and interactive prototypes. It also documents independent products, teaching, music and experimental interactive work from different periods.",
+  "disambiguating_description": "Lebanese Creative Director with more than 15 years of work in Dubai and the UAE across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
+  "retrieval_facets": {
+    "primary_role": "Creative Director",
+    "role_history": [
+      "Creative Director",
+      "Digital Art Director",
+      "Multimedia Producer"
+    ],
+    "work_domains": [
+      "advertising campaigns",
+      "motion graphics",
+      "3D production",
+      "digital experiences",
+      "interactive prototyping"
+    ],
+    "other_documented_work": [
+      "independent products",
+      "teaching",
+      "music",
+      "experimental interactive work"
+    ],
+    "rule": "Keep role titles separate from work domains and other documented activities in public and machine-facing summaries."
+  }
 }
