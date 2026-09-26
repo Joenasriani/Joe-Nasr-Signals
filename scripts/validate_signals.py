@@ -39,6 +39,37 @@ for record in records:
 assert len(urls) == len(set(urls)), "Duplicate archive URL"
 assert linkedin_memberships == identity["linkedin_aligned_work_experience"]["profile_categories"]
 
+
+# Query-aware public-surface registry integrity.
+registry = identity.get("public_surface_registry", [])
+assert registry, "public_surface_registry must not be empty"
+surface_ids = [surface["id"] for surface in registry]
+assert len(surface_ids) == len(set(surface_ids)), "Duplicate public-surface id"
+surface_urls = [surface["url"] for surface in registry]
+assert len(surface_urls) == len(set(surface_urls)), "Duplicate public-surface URL"
+
+allowed_temporal = {"CURRENT", "HISTORICAL"}
+allowed_priority = {"PRIMARY_CURRENT", "SECONDARY_SPECIALIST", "HISTORICAL_SUPPORT", "PENDING_VERIFICATION"}
+allowed_retrieval = {"ACTIVE", "ACTIVE_QUERY_SPECIFIC", "WEAK", "UNRESOLVED"}
+allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE"}
+for surface in registry:
+    assert surface["temporal_state"] in allowed_temporal, f"Invalid temporal state: {surface['id']}"
+    assert surface["nervous_system_priority"] in allowed_priority, f"Invalid priority: {surface['id']}"
+    assert surface["retrieval_state"] in allowed_retrieval, f"Invalid retrieval state: {surface['id']}"
+    assert surface["relationship_to_joe"] in allowed_relationship, f"Invalid relationship: {surface['id']}"
+    if surface["nervous_system_priority"] == "PENDING_VERIFICATION":
+        assert surface["retrieval_state"] == "UNRESOLVED", f"Pending surface must remain unresolved: {surface['id']}"
+
+surface_id_set = set(surface_ids)
+for route_name, route in identity.get("query_routes", {}).items():
+    for surface_id in route.get("surface_ids", []):
+        assert surface_id in surface_id_set, f"Unknown surface id in query route {route_name}: {surface_id}"
+
+reverbnation = next(surface for surface in registry if surface["id"] == "reverbnation")
+assert reverbnation["temporal_state"] == "HISTORICAL"
+assert reverbnation["retrieval_state"] == "ACTIVE_QUERY_SPECIFIC"
+assert reverbnation["query_relevance"].get("Joe Nasr guitar") == "HIGH"
+
 ids = re.findall(r'\bid="([^"]+)"', html)
 assert len(ids) == len(set(ids)), "Duplicate HTML id"
 for target in re.findall(r'href="#([^"]+)"', html):
