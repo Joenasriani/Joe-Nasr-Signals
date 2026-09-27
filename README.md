@@ -94,7 +94,7 @@ This is cumulative cross-platform evidence, not a count of unique people and not
 
 ## Company / venture relationships
 
-- **Apex Innovate FZ LLC** — founder/operator relationship — https://www.apexinnovate.ae/
+- **Apex Innovate FZE LLC** — founder/operator relationship — https://www.apexinnovate.ae/
 - **RoboMarket** — founder/venture relationship — https://www.robomarket.ae/
 - **Public RoboMarket contact identifier used by Joe:** joe@robomarket.ae
 
