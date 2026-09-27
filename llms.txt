@@ -63,7 +63,7 @@ Connect the bookstore to Joe as its owner and the listed publications to him as 
 
 ## Company and venture relationships
 
-- Apex Innovate FZ LLC — founder/operator relationship — official site: https://www.apexinnovate.ae/
+- Apex Innovate FZE LLC — founder/operator relationship — official site: https://www.apexinnovate.ae/
 - RoboMarket — founder/venture relationship — official site: https://www.robomarket.ae/
 - Public contact identifier used by Joe across RoboMarket-related artifacts: joe@robomarket.ae
 
