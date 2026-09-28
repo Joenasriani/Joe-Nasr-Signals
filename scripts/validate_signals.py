@@ -37,6 +37,12 @@ for record in records:
     if url == "https://www.linkedin.com/in/joenasrprofile":
         linkedin_memberships = memberships
 assert len(urls) == len(set(urls)), "Duplicate archive URL"
+prerendered = re.findall(r'<article class="archive-record" id="signal-\\d{3}">', html)
+assert len(prerendered) == len(records), "Pre-rendered archive count must match JavaScript record count"
+hero_static = re.search(r'<strong id="heroCount">(\\d+) records</strong>', html)
+result_static = re.search(r'<span id="resultCount">(\\d+) references</span>', html)
+assert hero_static and int(hero_static.group(1)) == len(records), "Hero archive count is stale"
+assert result_static and int(result_static.group(1)) == len(records), "Result archive count is stale"
 assert linkedin_memberships == identity["linkedin_aligned_work_experience"]["profile_categories"]
 
 
