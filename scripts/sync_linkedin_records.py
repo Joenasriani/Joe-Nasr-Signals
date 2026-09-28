@@ -56,6 +56,11 @@ def render_files():
     for summary, answer in re.findall(r'<details[^>]*><summary>(.*?)</summary><div class="faq-answer">(.*?)</div></details>', html, re.S):
         summary = re.sub(r'<span>Q\d+</span>', '', summary)
         def plain(value):
+            # Preserve semantic boundaries when visible HTML lists/paragraphs are flattened
+            # into FAQPage text. Without this, role titles collapse into one ambiguous run.
+            value = re.sub(r'</li>\s*<li>', '; ', value)
+            value = re.sub(r'</p>\s*<ol>', ' ', value)
+            value = re.sub(r'</ol>\s*<p>', '. ', value)
             return " ".join(unescape(re.sub(r'<[^>]+>', ' ', value)).split())
         questions.append({"@type": "Question", "name": plain(summary), "acceptedAnswer": {"@type": "Answer", "text": plain(answer)}})
     for node in schema["@graph"]:
