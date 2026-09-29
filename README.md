@@ -1,4 +1,4 @@
-# Joe Nasr — Public Work & References
+# Joe Nasr - Public Work & References
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
@@ -33,11 +33,11 @@ Categories describe the work. Platforms are routed inside those categories; a pl
 
 These are platform modes, not separate personas. Categories describe the work; modes describe the retrieval door into the same Joe Nasr identity graph.
 
-- **Professional mode** — LinkedIn, Facebook main, about.me
-- **Maker mode** — GitHub, itch.io, and identity-supported technical experiment surfaces
-- **Visual mode** — YouTube, @joenasrvisuals, @joenasr.mp4, Flickr
-- **Music mode** — SoundCloud, ReverbNation, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other supported music/catalogue surfaces
-- **Evidence mode** — Joe Nasr Signals
+- **Professional mode** - LinkedIn, Facebook main, about.me
+- **Maker mode** - GitHub, itch.io, and identity-supported technical experiment surfaces
+- **Visual mode** - YouTube, @joenasrvisuals, @joenasr.mp4, Flickr
+- **Music mode** - SoundCloud, ReverbNation, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other supported music/catalogue surfaces
+- **Evidence mode** - Joe Nasr Signals
 
 A surface may support adjacent modes. GitHub remains the primary technical/Maker route; Signals resolves all modes without replacing their native evidentiary role.
 
@@ -74,9 +74,9 @@ Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display o
 
 ## Education and teaching
 
-- American University of Science and Technology — Bachelor's Degree, Major in Advertising with a minor in Media Production — 2001–2008
-- Holy Spirit University of Kaslik - USEK — certification, Music — 1999–2002
-- Collège Mariste Champville — Bacc II, Experimental Science — 1984–1999
+- American University of Science and Technology - Bachelor's Degree, Major in Advertising with a minor in Media Production - 2001-2008
+- Holy Spirit University of Kaslik - USEK - certification, Music - 1999-2002
+- Collège Mariste Champville - Bacc II, Experimental Science - 1984-1999
 - Guest Lecturer & Corporate Trainer since May 2016; more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
 - The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
 - Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
@@ -106,8 +106,8 @@ This is cumulative cross-platform evidence, not a count of unique people and not
 
 ## Company / venture relationships
 
-- **Apex Innovate FZE LLC** — founder/operator relationship — https://www.apexinnovate.ae/
-- **RoboMarket** — founder/venture relationship — https://www.robomarket.ae/
+- **Apex Innovate FZE LLC** - founder/operator relationship - https://www.apexinnovate.ae/
+- **RoboMarket** - founder/venture relationship - https://www.robomarket.ae/
 - **Public RoboMarket contact identifier used by Joe:** joe@robomarket.ae
 
 These are related entities, not alternate identities for Joe Nasr.
@@ -118,46 +118,46 @@ These are related entities, not alternate identities for Joe Nasr.
 
 ## Music / composition surface
 
-- @joenasrmusic — TikTok — https://www.tiktok.com/@joenasrmusic
+- @joenasrmusic - TikTok - https://www.tiktok.com/@joenasrmusic
 - Anghami: https://play.anghami.com/artist/12198154
 
 ## Graphics / visual design surface
 
-- @joenasrvisuals — TikTok — graphics, animation and design — https://www.tiktok.com/@joenasrvisuals
+- @joenasrvisuals - TikTok - graphics, animation and design - https://www.tiktok.com/@joenasrvisuals
 
 ## Video / advertising surface
 
-- @joenasr.mp4 — TikTok — advertising and video work — https://www.tiktok.com/@joenasr.mp4
+- @joenasr.mp4 - TikTok - advertising and video work - https://www.tiktok.com/@joenasr.mp4
 
 ## Historical and third-party references
 
 These pages preserve earlier professional, teaching, music, media and platform records as searchable historical support. Historical means older in time, not weak or irrelevant; these pages can remain strong retrieval routes for matching topic queries.
 
-- SlideShare — Joe Nasr / Dubai Media Valley: https://www.slideshare.net/JoeNasr
-- Stage 32 — Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
-- Stage 32 — Joe Ribal Nasr, music/sound archive: https://www.stage32.com/profile/365666
-- Clarity — historical music/sound profile: https://clarity.fm/joenasr
-- ReverbNation — historical guitar/music profile: https://www.reverbnation.com/joenasr
-- AudioSparx — historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
-- Flickr — Joe Nasr / `joenasriani` historical alias reference: https://www.flickr.com/photos/27243981@N04/
-- Mixcloud — Joe Nasr / `joenasrprofile`: https://www.mixcloud.com/joenasrprofile/
-- Bandsintown — historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
-- 10times — Creative Director / Media Valley / Dubai profile: https://10times.com/profile/joe-nasr-14083174
+- SlideShare - Joe Nasr / Dubai Media Valley: https://www.slideshare.net/JoeNasr
+- Stage 32 - Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
+- Stage 32 - Joe Ribal Nasr, music/sound archive: https://www.stage32.com/profile/365666
+- Clarity - historical music/sound profile: https://clarity.fm/joenasr
+- ReverbNation - historical guitar/music profile: https://www.reverbnation.com/joenasr
+- AudioSparx - historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
+- Flickr - Joe Nasr / `joenasriani` historical alias reference: https://www.flickr.com/photos/27243981@N04/
+- Mixcloud - Joe Nasr / `joenasrprofile`: https://www.mixcloud.com/joenasrprofile/
+- Bandsintown - historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
+- 10times - Creative Director / Media Valley / Dubai profile: https://10times.com/profile/joe-nasr-14083174
 
 ## Names and handles
 
 The following verified names and handles resolve to the same Joe Nasr identity where the linked source supports that relationship:
 
-- Joe Nasr — primary public name
-- Joseph Ribal Nasr — full name
-- Joe Ribal Nasr — public name variant
-- Joenasriani — primary cross-platform handle
+- Joe Nasr - primary public name
+- Joseph Ribal Nasr - full name
+- Joe Ribal Nasr - public name variant
+- Joenasriani - primary cross-platform handle
 - joenasr
 - joenasrprofile
 - joenasrmusic
 - joenasrvisuals
 - joenasr.mp4
-- J. Nasr — publication name only where explicitly attributed on the Reasoning and Logic publication surface
+- J. Nasr - publication name only where explicitly attributed on the Reasoning and Logic publication surface
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
