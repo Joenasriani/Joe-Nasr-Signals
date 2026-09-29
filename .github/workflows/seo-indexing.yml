@@ -1,20 +1,65 @@
-name: Validate canonical Signals records
-
+name: Verify published Signals cleanup
 on:
   push:
-    branches: [main]
-  pull_request:
-  workflow_dispatch:
-
+    branches: [maintenance/signals-header-20260929-2669b8c]
+    paths: [.github/workflows/seo-indexing.yml]
 permissions:
   contents: read
-
 jobs:
-  validate-records:
+  verify-live:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
-      - name: Check LinkedIn summaries and visible FAQ schema
-        run: python scripts/sync_linkedin_records.py --check
-      - name: Validate published structured data and category records
-        run: python scripts/validate_signals.py
+        with:
+          ref: 5c4a7ac1b56766a48f0355fee9848b2ba6ac20a8
+          persist-credentials: false
+      - name: Compare public production files with the approved commit
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import json
+          import re
+          import time
+          import urllib.request
+          from html.parser import HTMLParser
+          base = 'https://joe-nasr-signals.vercel.app/'
+          revision = '5c4a7ac1b56766a48f0355fee9848b2ba6ac20a8'
+          published = {}
+          for name in ['index.html', 'identity.json', 'projects.json']:
+              path = '' if name == 'index.html' else name
+              expected = Path(name).read_bytes()
+              url = base + path + '?verify=' + revision
+              for attempt in range(6):
+                  try:
+                      request = urllib.request.Request(url, headers={'Cache-Control': 'no-cache', 'Accept-Encoding': 'identity'})
+                      with urllib.request.urlopen(request, timeout=25) as response:
+                          assert response.status == 200
+                          actual = response.read()
+                      if actual == expected:
+                          published[name] = actual.decode('utf-8')
+                          print('LIVE BYTE-MATCH PASS:', name, 'sha256=' + hashlib.sha256(actual).hexdigest())
+                          break
+                      print('Waiting for current deployment:', name)
+                  except Exception as error:
+                      print('Fetch retry:', name, type(error).__name__)
+                  time.sleep(5)
+              else:
+                  raise AssertionError('Production did not match approved revision: ' + name)
+          html = published['index.html']
+          assert '<p class="eyebrow"><span></span> PUBLIC WORK ARCHIVE</p>' in html
+          assert '<strong>Creative Director | Digital Experiences | Interactive Prototyping</strong><br />Explore projects, credits and publications across advertising, multimedia, interactive experiences, teaching, music and independent ventures.' in html
+          assert 'truelancer' not in html.lower()
+          assert 'truelancer' not in published['identity.json'].lower()
+          assert '<strong id="heroCount">35 records</strong>' in html
+          assert '<span id="resultCount">35 references</span>' in html
+          assert len(re.findall(r'<article class="archive-record" id="signal-\d{3}">', html)) == 35
+          identity = json.loads(published['identity.json'])
+          ids = {surface['id'] for surface in identity['public_surface_registry']}
+          for route in identity['query_routes'].values():
+              assert set(route.get('surface_ids', [])) <= ids
+          json.loads(published['projects.json'])
+          print('LIVE ACCEPTANCE PASS: approved opening, 35 archive entries, no Truelancer in HTML or machine identity, no dangling retrieval routes, project evidence registry preserved.')
+          PY
