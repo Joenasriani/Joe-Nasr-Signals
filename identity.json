@@ -210,6 +210,53 @@
     "ventures": "venture and product relationship evidence",
     "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
   },
+  "platform_modes": {
+    "rule": "Modes describe retrieval doors, not separate personas. Categories describe the work; modes describe how a person or machine enters the ONEJOE graph. A surface may carry evidence from adjacent modes while retaining one primary mode.",
+    "professional": {
+      "purpose": "Current professional identity, chronology, credibility and business context.",
+      "surface_ids": [
+        "linkedin",
+        "facebook_profile",
+        "about_me"
+      ]
+    },
+    "maker": {
+      "purpose": "Artifact-based proof, technical experimentation, interactive work and implementation lineage.",
+      "surface_ids": [
+        "github",
+        "itch_io",
+        "huggingface"
+      ]
+    },
+    "visual": {
+      "purpose": "Visual work, production, design, process and audiovisual evidence.",
+      "surface_ids": [
+        "youtube",
+        "tiktok_visuals",
+        "tiktok_mp4",
+        "flickr"
+      ]
+    },
+    "music": {
+      "purpose": "Music, composition, guitar, soundtrack, catalogue and historical music evidence.",
+      "surface_ids": [
+        "soundcloud",
+        "reverbnation",
+        "anghami",
+        "audiosparx",
+        "facebook_music",
+        "tiktok_music",
+        "bandsintown",
+        "mixcloud"
+      ]
+    },
+    "evidence": {
+      "purpose": "Canonical identity resolution, chronology, relationships, provenance, evidence routing and machine retrieval.",
+      "surface_ids": [
+        "signals"
+      ]
+    }
+  },
   "routing_node_policy": {
     "linktree": {
       "status": "active_supporting_routing_node",
