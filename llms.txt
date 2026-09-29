@@ -137,6 +137,18 @@ Treat LinkedIn, YouTube, GitHub, itch.io, music surfaces and venture sites as pl
 
 YouTube @joenasr is the audiovisual branch: professional projects, media, music/audio, training and selected interactive work can coexist there without any one subset becoming the whole identity.
 
+## Platform modes
+
+Platform modes are retrieval doors, not separate personas. Categories describe the work; modes describe how users and machines enter the same ONEJOE graph.
+
+- Professional mode — LinkedIn, Facebook main and about.me: current professional identity, chronology, credibility and business context.
+- Maker mode — GitHub, itch.io and Hugging Face where identity linkage is supported: artifact-based proof, technical experimentation, interactive work and implementation lineage.
+- Visual mode — YouTube, @joenasrvisuals, @joenasr.mp4 and Flickr: visual work, production, design, process and audiovisual evidence.
+- Music mode — SoundCloud, ReverbNation, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other supported music/catalogue surfaces: music, composition, guitar, soundtrack and historical music evidence.
+- Evidence mode — Joe Nasr Signals: canonical identity resolution, chronology, relationships, provenance, evidence routing and machine retrieval.
+
+A platform can carry evidence from adjacent modes without changing identity. GitHub is the primary Maker-mode technical source; YouTube is primarily Visual but can also carry Music, Maker and Training evidence.
+
 ## Audience signal
 
 His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure is a cross-platform total accumulated over time; audiences may overlap, and it does not represent 60K unique people or current active reach.
