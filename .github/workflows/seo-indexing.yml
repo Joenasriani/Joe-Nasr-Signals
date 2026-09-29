@@ -1,47 +1,20 @@
-name: Prepare approved Signals content patch
+name: Validate canonical Signals records
 
 on:
   push:
-    branches: [maintenance/signals-header-20260929-2669b8c]
-    paths: [.github/workflows/seo-indexing.yml]
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  prepare:
-    if: github.repository == 'Joenasriani/Joe-Nasr-Signals' && github.ref == 'refs/heads/maintenance/signals-header-20260929-2669b8c'
+  validate-records:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
-        with:
-          ref: maintenance/signals-header-20260929-2669b8c
-          fetch-depth: 0
-      - name: Apply the pinned, scoped patch with template-aware validation
-        shell: bash
-        run: |
-          python - <<'PY'
-          import subprocess
-          workflow = subprocess.check_output(['git', 'show', 'c89ed11e51d6f491268375e9df4bc095fa65bc15:.github/workflows/seo-indexing.yml'], text=True)
-          source = workflow.split("          python - <<'PY'\n", 1)[1].split('\n          PY', 1)[0]
-          lines = [line[10:] if line.startswith('          ') else line for line in source.splitlines()]
-          replaced = 0
-          for i, line in enumerate(lines):
-              if line.startswith('article_pattern = '):
-                  lines[i] = "article_pattern = " + repr(r'(?m)^[ \t]*<article\b(?=[^>]*\bclass="archive-record")(?=[^>]*\bid="signal-\d{3}")[^>]*>.*?</article>[ \t]*(?:\n|$)')
-                  replaced += 1
-              if line.strip() == "if tag == 'article' and attrs.get('class') == 'archive-record':":
-                  lines[i] = line[:-1] + " and attrs.get('id', '').startswith('signal-'):"
-                  replaced += 1
-          assert replaced == 2
-          exec(compile('\n'.join(lines), '<approved-signals-patch>', 'exec'))
-          PY
-      - name: Save the reviewed content tree on the isolated branch only
-        shell: bash
-        run: |
-          git add index.html identity.json .github/workflows/seo-indexing.yml
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Apply approved Signals header and public-link cleanup'
-          git push origin HEAD:maintenance/signals-header-20260929-2669b8c
-          echo "Prepared commit: $(git rev-parse HEAD)"
-          echo "Prepared tree: $(git rev-parse 'HEAD^{tree}')"
+      - name: Check LinkedIn summaries and visible FAQ schema
+        run: python scripts/sync_linkedin_records.py --check
+      - name: Validate published structured data and category records
+        run: python scripts/validate_signals.py
