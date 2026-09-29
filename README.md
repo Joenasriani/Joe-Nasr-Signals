@@ -31,7 +31,7 @@ Categories describe the work. Platforms are routed inside those categories; a pl
 
 ## Retrieval architecture
 
-Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine registry is in `identity.json`.
+Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine identity registry is in `identity.json`. The evidence-bounded project registry is in `projects.json`, with public-safe detail shards under `data/projects-*.json`.
 
 - **Primary current** routes are preferred for broad identity and present-tense professional questions.
 - **Secondary specialist** routes cover narrower current subjects and platforms.
