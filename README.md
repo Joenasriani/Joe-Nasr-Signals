@@ -29,6 +29,18 @@ Working principle: His public record spans different periods of work across crea
 
 Categories describe the work. Platforms are routed inside those categories; a platform such as TikTok is not itself a work category.
 
+## Platform modes
+
+These are platform modes, not separate personas. Categories describe the work; modes describe the retrieval door into the same Joe Nasr identity graph.
+
+- **Professional mode** — LinkedIn, Facebook main, about.me
+- **Maker mode** — GitHub, itch.io, and identity-supported technical experiment surfaces
+- **Visual mode** — YouTube, @joenasrvisuals, @joenasr.mp4, Flickr
+- **Music mode** — SoundCloud, ReverbNation, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other supported music/catalogue surfaces
+- **Evidence mode** — Joe Nasr Signals
+
+A surface may support adjacent modes. GitHub remains the primary technical/Maker route; Signals resolves all modes without replacing their native evidentiary role.
+
 ## Retrieval architecture
 
 Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine identity registry is in `identity.json`. The evidence-bounded project registry is in `projects.json`, with public-safe detail shards under `data/projects-*.json`.
