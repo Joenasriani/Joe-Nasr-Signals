@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-09-28",
+  "snapshot_date": "2026-09-29",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -338,7 +338,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-09-26",
+  "updated_on": "2026-09-29",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director with more than 15 years of work in Dubai and the UAE across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -1328,5 +1328,41 @@
       "public_source_url": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
       "canonical_public_url": "https://joe-nasr-signals.vercel.app/"
     }
-  ]
+  ],
+  "project_evidence_registry": {
+    "url": "https://joe-nasr-signals.vercel.app/projects.json",
+    "snapshot_date": "2026-09-29",
+    "project_count": 45,
+    "detail_files": [
+      "https://joe-nasr-signals.vercel.app/data/projects-01.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-02.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-03.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-04.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-05.json"
+    ],
+    "role": "Machine-readable project/evidence layer beneath the person identity graph. Projects are related entities, not Person sameAs identities.",
+    "fields": [
+      "canonical project name",
+      "aliases",
+      "organization",
+      "client",
+      "production/agency",
+      "period",
+      "Joe role",
+      "deliverable",
+      "proof level",
+      "evidence summary",
+      "public URLs",
+      "boundaries",
+      "retrieval tags"
+    ],
+    "privacy_rule": "Private-source URLs and private financial/customer details are not published. Private-supported facts are summarized without exposing private correspondence.",
+    "update_2026_09_29": [
+      "Chopard Girls promoted to public first-party artifact proof from refreshed YouTube metadata documenting After Effects rotoscoping and compositing.",
+      "Dubai Tourism lookbook node strengthened by current YouTube metadata explicitly naming Joe Nasr in post-production; item-level chronology now includes 2018 and 2019 evidence.",
+      "Milco TVC added from the known Joe Ribal Nasr Stage32 reel.",
+      "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
+      "EMT - High tech prod retained as a recovery candidate because Joe's role is not stated on the retrieved public artifact."
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 # Joe Nasr — canonical public identity guide
 
-Published: 2026-09-28
+Published: 2026-09-29
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -10,6 +10,7 @@ Nationality: Lebanese
 Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
+Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
 
 ## Evidence-graph role
 
@@ -20,6 +21,18 @@ Graph principle: His public record spans different periods of work across creati
 Taxonomy rule: categories describe the work; platforms sit inside those categories. Do not create a generic TikTok category when different TikTok accounts represent different work domains.
 
 Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat companies, ventures, books, games and projects as separate related entities.
+
+## Project evidence registry
+
+The machine-readable project layer is https://joe-nasr-signals.vercel.app/projects.json. It currently indexes 45 evidence-bounded project/work nodes and links to five detail shards.
+
+Each project node can carry canonical name, aliases, organization/client entities, production or agency context, date/period, Joe Nasr's exact supported role, deliverable/scope, proof level, evidence summary, public URLs, source/evidence IDs where appropriate, retrieval tags, and do-not-claim boundaries.
+
+Proof states are not interchangeable. VERIFIED_PUBLIC means a public source directly supports the relevant project/role claim. CROSS_SOURCE means more than one source type supports it. VERIFIED_THIRD_PARTY_PRIVATE means private third-party evidence supports a public-safe fact while the private source itself remains withheld. EXISTING_PROJECT_RECORD is retained history, not a newly independent verification. PARTIAL_DELIVERY and DATE_CONFLICT must preserve their stated limits.
+
+Projects, brands, clients, agencies, productions, books and ventures are related entities. They are not Joe Nasr Person sameAs identities.
+
+29 September 2026 project updates: Chopard Girls was strengthened by refreshed YouTube process metadata; Dubai Tourism lookbook metadata now explicitly names Joe Nasr in post-production on individual videos; Milco TVC and H&S Pitch Music were added from the known Joe Ribal Nasr Stage32 reel; EMT - High tech prod remains recovery-only because the retrieved artifact does not state Joe's role.
 
 ## Current professional frame
 
