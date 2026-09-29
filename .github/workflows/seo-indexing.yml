@@ -18,150 +18,24 @@ jobs:
         with:
           ref: maintenance/signals-header-20260929-2669b8c
           fetch-depth: 0
-      - name: Apply and validate only the approved public content changes
+      - name: Apply the pinned, scoped patch with template-aware validation
         shell: bash
         run: |
           python - <<'PY'
-          from pathlib import Path
-          import copy
-          import json
-          import re
           import subprocess
-          import tempfile
-          from html.parser import HTMLParser
-
-          BASE = '2669b8c5ce16a689241473b30a83610b7eac318f'
-          def git(*args):
-              return subprocess.check_output(['git', *args], text=True).strip()
-          assert git('hash-object', 'index.html') == '9018bfa454252c0f79f7ad07accff202e94bbabe'
-          assert git('hash-object', 'identity.json') == '76072a64e1c0743fbd5fd595c5f486e2e30af07d'
-          commands = [['python', 'scripts/sync_linkedin_records.py', '--check'], ['python', 'scripts/validate_signals.py']]
-          baseline = [subprocess.run(command, text=True, capture_output=True) for command in commands]
-          html_path = Path('index.html')
-          old_html = html_path.read_text(encoding='utf-8')
-          html = old_html
-          old_label = '<p class="eyebrow"><span></span> Public work, credits and profiles</p>'
-          new_label = '<p class="eyebrow"><span></span> PUBLIC WORK ARCHIVE</p>'
-          assert html.count(old_label) == 1
-          html = html.replace(old_label, new_label, 1)
-          old_intro = '<p class="hero-intro">A public archive of Joe Nasr’s projects, credits, profiles and publications, organized across professional, creative, educational, music, venture and interactive work from different periods.</p>'
-          new_intro = '<p class="hero-intro"><strong>Creative Director | Digital Experiences | Interactive Prototyping</strong><br />Explore projects, credits and publications across advertising, multimedia, interactive experiences, teaching, music and independent ventures.</p>'
-          assert html.count(old_intro) == 1
-          html = html.replace(old_intro, new_intro, 1)
-
-          article_pattern = r'(?m)^[ \t]*<article\b[^>]*class="archive-record"[^>]*>.*?</article>[ \t]*(?:\n|$)'
-          old_articles = list(re.finditer(article_pattern, html, re.S))
-          assert len(old_articles) == 36, len(old_articles)
-          removed_articles = [match for match in old_articles if 'truelancer' in match.group(0).lower()]
-          assert len(removed_articles) == 1
-          html = re.sub(article_pattern, lambda match: '' if 'truelancer' in match.group(0).lower() else match.group(0), html, flags=re.S)
-          number = [0]
-          def renumber(match):
-              number[0] += 1
-              block = match.group(0)
-              block, id_count = re.subn(r'id="signal-\d{3}"', f'id="signal-{number[0]:03d}"', block, count=1)
-              block, label_count = re.subn(r'(<div class="record-number">)\d+(</div>)', lambda found: found.group(1) + f'{number[0]:02d}' + found.group(2), block, count=1)
-              assert id_count == label_count == 1
-              return block
-          html = re.sub(article_pattern, renumber, html, flags=re.S)
-          assert number[0] == 35
-
-          records_match = re.search(r'(const records = \[)(.*?)(\n\];)', html, re.S)
-          assert records_match
-          old_records = records_match.group(2)
-          item_pattern = r'(?m)^[ \t]*\{[^{}]*\},?[ \t]*(?:\n|$)'
-          record_matches = list(re.finditer(item_pattern, old_records, re.S))
-          assert len(record_matches) == 36, len(record_matches)
-          assert sum('truelancer' in match.group(0).lower() for match in record_matches) == 1
-          new_records = re.sub(item_pattern, lambda match: '' if 'truelancer' in match.group(0).lower() else match.group(0), old_records, flags=re.S)
-          html = html[:records_match.start(2)] + new_records + html[records_match.end(2):]
-          count_changes = [
-              ('JN / 001—036', 'JN / 001—035'),
-              ('<strong id="heroCount">36 records</strong>', '<strong id="heroCount">35 records</strong>'),
-              ('<span id="resultCount">36 references</span>', '<span id="resultCount">35 references</span>'),
-          ]
-          for old, new in count_changes:
-              assert html.count(old) == 1, old
-              html = html.replace(old, new, 1)
-          assert 'truelancer' not in html.lower(), 'Unexpected additional HTML reference needs review'
-          assert html.split('</head>', 1)[0] == old_html.split('</head>', 1)[0], 'HTML head must not change'
-          assert re.findall(r'<style\b[^>]*>.*?</style>', html, re.S) == re.findall(r'<style\b[^>]*>.*?</style>', old_html, re.S)
-          assert re.search(r'<div class="identity-names".*?</div>', html, re.S).group(0) == re.search(r'<div class="identity-names".*?</div>', old_html, re.S).group(0)
-          html_path.write_text(html, encoding='utf-8')
-
-          identity_path = Path('identity.json')
-          old_identity_text = identity_path.read_text(encoding='utf-8')
-          old_identity = json.loads(old_identity_text)
-          identity = copy.deepcopy(old_identity)
-          surfaces = identity['public_surface_registry']
-          assert sum(surface['id'] == 'truelancer' for surface in surfaces) == 1
-          identity['public_surface_registry'] = [surface for surface in surfaces if surface['id'] != 'truelancer']
-          removed_route_refs = 0
-          for route in identity['query_routes'].values():
-              ids = route.get('surface_ids', [])
-              removed_route_refs += ids.count('truelancer')
-              if 'truelancer' in ids:
-                  route['surface_ids'] = [surface_id for surface_id in ids if surface_id != 'truelancer']
-          assert removed_route_refs == 2, removed_route_refs
-          new_identity_text = json.dumps(identity, ensure_ascii=False, indent=2) + '\n'
-          assert 'truelancer' not in new_identity_text.lower()
-          identity_path.write_text(new_identity_text, encoding='utf-8')
-          allowed_top_keys = {'public_surface_registry', 'query_routes'}
-          assert {key for key in old_identity if old_identity[key] != identity[key]} == allowed_top_keys
-          surface_ids = {surface['id'] for surface in identity['public_surface_registry']}
-          for route in identity['query_routes'].values():
-              assert set(route.get('surface_ids', [])) <= surface_ids
-
-          class Page(HTMLParser):
-              def __init__(self):
-                  super().__init__()
-                  self.ids = []
-                  self.articles = []
-                  self.links = []
-              def handle_starttag(self, tag, attrs):
-                  attrs = dict(attrs)
-                  if 'id' in attrs:
-                      self.ids.append(attrs['id'])
-                  if tag == 'article' and attrs.get('class') == 'archive-record':
-                      self.articles.append(attrs['id'])
-                  if tag == 'a' and 'href' in attrs:
-                      self.links.append(attrs['href'])
-          page = Page()
-          page.feed(html)
-          assert len(page.ids) == len(set(page.ids))
-          assert page.articles == [f'signal-{i:03d}' for i in range(1, 36)]
-          assert all(link[1:] in page.ids for link in page.links if link.startswith('#'))
-          for path in Path('.').rglob('*.json'):
-              if '.git' not in path.parts:
-                  json.loads(path.read_text(encoding='utf-8'))
-          for attrs, script in re.findall(r'<script\b([^>]*)>(.*?)</script>', html, re.S):
-              if 'application/ld+json' in attrs:
-                  json.loads(script)
-              elif script.strip() and 'src=' not in attrs:
-                  with tempfile.NamedTemporaryFile(mode='w', suffix='.js', encoding='utf-8') as file:
-                      file.write(script)
-                      file.flush()
-                      subprocess.run(['node', '--check', file.name], check=True)
-          for command, before in zip(commands, baseline):
-              after = subprocess.run(command, text=True, capture_output=True)
-              if before.returncode == 0:
-                  assert after.returncode == 0, after.stdout + after.stderr
-                  print('REGRESSION PASS:', ' '.join(command))
-              else:
-                  assert after.returncode == before.returncode
-                  assert after.stderr == before.stderr, 'Existing validation failure changed'
-                  print('PRE-EXISTING VALIDATOR FAILURE:', ' '.join(command))
-                  print(after.stderr)
-          # This temporary branch workflow never enters the production change tree.
-          subprocess.run(['git', 'restore', '--source', BASE, '--', '.github/workflows/seo-indexing.yml'], check=True)
-          changed = set(git('diff', '--name-only', BASE).splitlines())
-          assert changed == {'index.html', 'identity.json'}, changed
-          subprocess.run(['git', 'diff', '--check', BASE], check=True)
-          for line in git('diff', '--numstat', BASE).splitlines():
-              added, deleted, name = line.split('\t')
-              assert int(added) + int(deleted) < 250, f'Unexpectedly broad diff: {line}'
-          print('PATCH VERIFIED: approved header, 35 HTML/JavaScript archive records, one public-surface removal, two route removals; CSS, metadata, project registry and all other files unchanged.')
-          print(git('diff', '--stat', BASE))
+          workflow = subprocess.check_output(['git', 'show', 'c89ed11e51d6f491268375e9df4bc095fa65bc15:.github/workflows/seo-indexing.yml'], text=True)
+          source = workflow.split("          python - <<'PY'\n", 1)[1].split('\n          PY', 1)[0]
+          lines = [line[10:] if line.startswith('          ') else line for line in source.splitlines()]
+          replaced = 0
+          for i, line in enumerate(lines):
+              if line.startswith('article_pattern = '):
+                  lines[i] = "article_pattern = " + repr(r'(?m)^[ \t]*<article\b(?=[^>]*\bclass="archive-record")(?=[^>]*\bid="signal-\d{3}")[^>]*>.*?</article>[ \t]*(?:\n|$)')
+                  replaced += 1
+              if line.strip() == "if tag == 'article' and attrs.get('class') == 'archive-record':":
+                  lines[i] = line[:-1] + " and attrs.get('id', '').startswith('signal-'):"
+                  replaced += 1
+          assert replaced == 2
+          exec(compile('\n'.join(lines), '<approved-signals-patch>', 'exec'))
           PY
       - name: Save the reviewed content tree on the isolated branch only
         shell: bash
