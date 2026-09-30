@@ -1,1 +1,251 @@
-{"schema_version":"1.0","snapshot_date":"2026-09-29","canonical_person":"Joe Nasr","registry":"Joe Nasr Signals project evidence","shard":2,"project_count":9,"projects":[{"id":"SYN-0310","name":"Dubai Tourism & Culture influencer series","aliases":["Dubai Tourism & Culture","DTCM influencer series"],"organization":"Shadow Professional Photography, Dubai","client":"Dubai Tourism (DTCM), Government of Dubai","production_or_agency":"Shadow Professional Photography, Dubai","period":"2019","joe_role":"Post-production","deliverable":"Post-production on individual Dubai Tourism & Culture influencer/talent cuts.","proof_level":"CROSS_SOURCE","evidence_summary":"Existing YouTube/project cleanup record. Shadow independently lists Dubai Tourism among its clients. Joe's role and production chain are preserved in the approved project metadata.","evidence_ids":[],"source_ids":["LIB-P020"],"public_urls":["https://www.youtube.com/watch?v=kvmCU-dMWqU","https://www.youtube.com/watch?v=jTQm-RiwLms","https://www.youtube.com/watch?v=wb-qPpbYnb4","https://www.youtube.com/watch?v=c2nF-hRVRr0","https://www.youtube.com/watch?v=IGKI8jjRtGs"],"boundaries":["Do not infer unverified talent surnames or agency relationships beyond established records."],"retrieval_tags":["Dubai Tourism","DTCM","Shadow","post-production","2019"],"update_note":null},{"id":"SYN-0311","name":"Dubai Tourism & Culture lookbooks","aliases":["Dubai Tourism lookbooks","DTCM lookbooks"],"organization":"Shadow Professional Photography, Dubai","client":"Dubai Tourism (DTCM), Government of Dubai","production_or_agency":"Shadow Professional Photography, Dubai","period":"2018","joe_role":"Post-production","deliverable":"Lookbook-format Dubai Tourism assets.","proof_level":"CROSS_SOURCE_CURRENT_YOUTUBE_ROLE_EXPLICIT","evidence_summary":"Approved YouTube cleanup record.","evidence_ids":[],"source_ids":["LIB-P021"],"public_urls":["https://www.youtube.com/watch?v=IU_qMlQmcm8","https://www.youtube.com/watch?v=tfd3Pq3WLlI","https://www.youtube.com/watch?v=SrX4kXUgerA"],"boundaries":["Nilo identity beyond first name remains unresolved in the evidence record."],"retrieval_tags":["Dubai Tourism","DTCM","lookbook","2018"],"update_note":"Current YouTube descriptions explicitly state Post-Production: Joe Nasr. Item dates currently resolve as Tamara Jamal 2018; Jumana Khan 2019; Nilo 2019."},{"id":"SYN-0309","name":"adidas TERREX Jackets MENA","aliases":[],"organization":"SEEME Production / Seeme International","client":"adidas TERREX","production_or_agency":"SEEME Production / Seeme International","period":"2021","joe_role":"Post-production","deliverable":"MENA commercial/post-production project.","proof_level":"CROSS_SOURCE","evidence_summary":"SEEME Production Vimeo/public project tracing supports the project. Joe's individual post-production role is preserved in the archive/project record.","evidence_ids":[],"source_ids":["LIB-P024"],"public_urls":["https://vimeo.com/794455766"],"boundaries":["Do not lock the project to MYSHELTER/FW21 unless separately verified; Edward Yazbeck's exact role remains unproven."],"retrieval_tags":["adidas","TERREX","SEEME","2021","post-production"],"update_note":null},{"id":"SYN-0291","name":"Sephora intro with GlamGlow","aliases":[],"organization":"Other commercial / branded project records","client":"Sephora / GlamGlow","production_or_agency":null,"period":null,"joe_role":"Post-production / motion","deliverable":"After Effects and Premiere work.","proof_level":"EXISTING_PROJECT_RECORD","evidence_summary":"Existing YouTube/project cleanup record.","evidence_ids":[],"source_ids":["LIB-P025"],"public_urls":[],"boundaries":["Exact year, agency and final project title remain unresolved."],"retrieval_tags":["Sephora","GlamGlow","After Effects","Premiere"],"update_note":null},{"id":"SYN-0288","name":"L’AZURDE","aliases":[],"organization":"Other commercial / branded project records","client":"L’AZURDE","production_or_agency":null,"period":null,"joe_role":"Project contribution; exact role pending","deliverable":null,"proof_level":"EXISTING_PROJECT_RECORD","evidence_summary":"Existing commercial-project cleanup record.","evidence_ids":[],"source_ids":["LIB-P026"],"public_urls":[],"boundaries":["Exact deliverable, year, agency and role."],"retrieval_tags":["L’AZURDE","luxury","jewelry"],"update_note":null},{"id":"SYN-0290","name":"Pepsi Arabia montage / Qusai","aliases":[],"organization":"Other commercial / branded project records","client":"Pepsi Arabia","production_or_agency":null,"period":null,"joe_role":"Historical commercial music/audio/media contribution; exact technical role needs reconciliation","deliverable":"Project record associated with Qusai and Pepsi Arabia.","proof_level":"EXISTING_PROJECT_RECORD","evidence_summary":"Historical project record; broader source architecture treats Pepsi/commercial music as valid where independently verified.","evidence_ids":[],"source_ids":["LIB-P027"],"public_urls":[],"boundaries":["Exact year, campaign, role and production chain."],"retrieval_tags":["Pepsi","Qusai","music","audio"],"update_note":null},{"id":"SYN-0287","name":"Khalifa International Awards of Excellence - 'The Walk of Fame'","aliases":["The Walk of Fame","Khalifa International Awards of Excellence 2014"],"organization":"Other commercial / branded project records","client":"Khalifa International Awards of Excellence","production_or_agency":"Unresolved","period":"2014","joe_role":"Orchestral composition","deliverable":"'The Walk of Fame' event composition for the 2014 Dubai awards.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Direct Joe YouTube artifact description identifies the project, year, Dubai location and orchestral-composition role.","evidence_ids":["E-JOE-312"],"source_ids":["SRC-084","LIB-P032"],"public_urls":["https://www.youtube.com/watch?v=U0YPG5fVHSs"],"boundaries":["Do not merge with the Abu Dhabi Sheikh Khalifa Excellence Award/SKEA work."],"retrieval_tags":["Khalifa International Awards","2014","Dubai","orchestral composition"],"update_note":null},{"id":"SYN-0260","name":"CDAO Website UI Adjustment","aliases":[],"organization":"ConsciousDAO / Conscious Network","client":"ConsciousDAO","production_or_agency":null,"period":"Jul-Aug 2023 document context","joe_role":"UI adjustment contributor/editor; full implementation scope unresolved","deliverable":"Shared Google document titled 'UI Adjustment for CDAO Website 20230726' was assigned to Joe for editing.","proof_level":"VERIFIED_THIRD_PARTY_PRIVATE","evidence_summary":"Private third-party correspondence or operational evidence directly supports Joe Nasr's stated role and/or delivery. Private source material is withheld from the public registry.","evidence_ids":[],"source_ids":["LIB-P035"],"public_urls":[],"boundaries":["Do not claim sole design ownership or shipped implementation from the share record alone."],"retrieval_tags":["UI","ConsciousDAO","website","2023"],"update_note":null},{"id":"SYN-0248","name":"Social content strategy and graphics","aliases":[],"organization":"AVA Only / GLO / related consumer-brand work","client":"AVA Only / GLO","production_or_agency":null,"period":"Dec 2024-Jan 2025","joe_role":"Content strategy and graphic/content creation","deliverable":"Joe provided content/strategy with at least three weeks of material; team members explicitly referred to graphics Joe created and requested source assets/revisions.","proof_level":"VERIFIED_THIRD_PARTY_PRIVATE","evidence_summary":"Private third-party correspondence or operational evidence directly supports Joe Nasr's stated role and/or delivery. Private source material is withheld from the public registry.","evidence_ids":[],"source_ids":["LIB-P036"],"public_urls":[],"boundaries":["Private working links should not be published."],"retrieval_tags":["AVA","GLO","content strategy","graphics","social"],"update_note":null}]}
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-29",
+  "canonical_person": "Joe Nasr",
+  "registry": "Joe Nasr Signals project evidence",
+  "shard": 2,
+  "project_count": 9,
+  "projects": [
+    {
+      "id": "SYN-0310",
+      "name": "Dubai Tourism & Culture influencer series",
+      "aliases": [
+        "Dubai Tourism & Culture",
+        "DTCM influencer series"
+      ],
+      "organization": "Shadow Professional Photography, Dubai",
+      "client": "Dubai Tourism (DTCM), Government of Dubai",
+      "production_or_agency": "Shadow Professional Photography, Dubai",
+      "period": "2019",
+      "joe_role": "Post-production",
+      "deliverable": "Post-production on individual Dubai Tourism & Culture influencer/talent cuts.",
+      "evidence_summary": "Existing YouTube/project cleanup record. Shadow independently lists Dubai Tourism among its clients. Joe's role and production chain are preserved in the approved project metadata.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=kvmCU-dMWqU",
+        "https://www.youtube.com/watch?v=jTQm-RiwLms",
+        "https://www.youtube.com/watch?v=wb-qPpbYnb4",
+        "https://www.youtube.com/watch?v=c2nF-hRVRr0",
+        "https://www.youtube.com/watch?v=IGKI8jjRtGs"
+      ],
+      "boundaries": [
+        "Do not infer unverified talent surnames or agency relationships beyond established records."
+      ],
+      "retrieval_tags": [
+        "Dubai Tourism",
+        "DTCM",
+        "Shadow",
+        "post-production",
+        "2019"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0311",
+      "name": "Dubai Tourism & Culture lookbooks",
+      "aliases": [
+        "Dubai Tourism lookbooks",
+        "DTCM lookbooks"
+      ],
+      "organization": "Shadow Professional Photography, Dubai",
+      "client": "Dubai Tourism (DTCM), Government of Dubai",
+      "production_or_agency": "Shadow Professional Photography, Dubai",
+      "period": "2018",
+      "joe_role": "Post-production",
+      "deliverable": "Lookbook-format Dubai Tourism assets.",
+      "evidence_summary": "Approved YouTube cleanup record.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=IU_qMlQmcm8",
+        "https://www.youtube.com/watch?v=tfd3Pq3WLlI",
+        "https://www.youtube.com/watch?v=SrX4kXUgerA"
+      ],
+      "boundaries": [
+        "Nilo identity beyond first name remains unresolved in the evidence record."
+      ],
+      "retrieval_tags": [
+        "Dubai Tourism",
+        "DTCM",
+        "lookbook",
+        "2018"
+      ],
+      "update_note": "Current YouTube descriptions explicitly state Post-Production: Joe Nasr. Item dates currently resolve as Tamara Jamal 2018; Jumana Khan 2019; Nilo 2019.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0309",
+      "name": "adidas TERREX Jackets MENA",
+      "aliases": [],
+      "organization": "SEEME Production / Seeme International",
+      "client": "adidas TERREX",
+      "production_or_agency": "SEEME Production / Seeme International",
+      "period": "2021",
+      "joe_role": "Post-production",
+      "deliverable": "MENA commercial/post-production project.",
+      "evidence_summary": "SEEME Production Vimeo/public project tracing supports the project. Joe's individual post-production role is preserved in the archive/project record.",
+      "public_urls": [
+        "https://vimeo.com/794455766"
+      ],
+      "boundaries": [
+        "Do not lock the project to MYSHELTER/FW21 unless separately verified; Edward Yazbeck's exact role remains unproven."
+      ],
+      "retrieval_tags": [
+        "adidas",
+        "TERREX",
+        "SEEME",
+        "2021",
+        "post-production"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0291",
+      "name": "Sephora intro with GlamGlow",
+      "aliases": [],
+      "organization": "Other commercial / branded project records",
+      "client": "Sephora / GlamGlow",
+      "production_or_agency": null,
+      "period": null,
+      "joe_role": "Post-production / motion",
+      "deliverable": "After Effects and Premiere work.",
+      "evidence_summary": "Existing YouTube/project cleanup record.",
+      "public_urls": [],
+      "boundaries": [
+        "Exact year, agency and final project title remain unresolved."
+      ],
+      "retrieval_tags": [
+        "Sephora",
+        "GlamGlow",
+        "After Effects",
+        "Premiere"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+    },
+    {
+      "id": "SYN-0288",
+      "name": "L’AZURDE",
+      "aliases": [],
+      "organization": "Other commercial / branded project records",
+      "client": "L’AZURDE",
+      "production_or_agency": null,
+      "period": null,
+      "joe_role": "Project contribution; exact role pending",
+      "deliverable": null,
+      "evidence_summary": "Existing commercial-project cleanup record.",
+      "public_urls": [],
+      "boundaries": [
+        "Exact deliverable, year, agency and role."
+      ],
+      "retrieval_tags": [
+        "L’AZURDE",
+        "luxury",
+        "jewelry"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+    },
+    {
+      "id": "SYN-0290",
+      "name": "Pepsi Arabia montage / Qusai",
+      "aliases": [],
+      "organization": "Other commercial / branded project records",
+      "client": "Pepsi Arabia",
+      "production_or_agency": null,
+      "period": null,
+      "joe_role": "Historical commercial music/audio/media contribution; exact technical role needs reconciliation",
+      "deliverable": "Project record associated with Qusai and Pepsi Arabia.",
+      "evidence_summary": "Historical project record; broader source architecture treats Pepsi/commercial music as valid where independently verified.",
+      "public_urls": [],
+      "boundaries": [
+        "Exact year, campaign, role and production chain."
+      ],
+      "retrieval_tags": [
+        "Pepsi",
+        "Qusai",
+        "music",
+        "audio"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+    },
+    {
+      "id": "SYN-0287",
+      "name": "Khalifa International Awards of Excellence - 'The Walk of Fame'",
+      "aliases": [
+        "The Walk of Fame",
+        "Khalifa International Awards of Excellence 2014"
+      ],
+      "organization": "Other commercial / branded project records",
+      "client": "Khalifa International Awards of Excellence",
+      "production_or_agency": "Unresolved",
+      "period": "2014",
+      "joe_role": "Orchestral composition",
+      "deliverable": "'The Walk of Fame' event composition for the 2014 Dubai awards.",
+      "evidence_summary": "Direct Joe YouTube artifact description identifies the project, year, Dubai location and orchestral-composition role.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=U0YPG5fVHSs"
+      ],
+      "boundaries": [
+        "Do not merge with the Abu Dhabi Sheikh Khalifa Excellence Award/SKEA work."
+      ],
+      "retrieval_tags": [
+        "Khalifa International Awards",
+        "2014",
+        "Dubai",
+        "orchestral composition"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0260",
+      "name": "CDAO Website UI Adjustment",
+      "aliases": [],
+      "organization": "ConsciousDAO / Conscious Network",
+      "client": "ConsciousDAO",
+      "production_or_agency": null,
+      "period": "Jul-Aug 2023 document context",
+      "joe_role": "UI adjustment contributor/editor; full implementation scope unresolved",
+      "deliverable": "Shared Google document titled 'UI Adjustment for CDAO Website 20230726' was assigned to Joe for editing.",
+      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "public_urls": [],
+      "boundaries": [
+        "Do not claim sole design ownership or shipped implementation from the share record alone."
+      ],
+      "retrieval_tags": [
+        "UI",
+        "ConsciousDAO",
+        "website",
+        "2023"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+    },
+    {
+      "id": "SYN-0248",
+      "name": "Social content strategy and graphics",
+      "aliases": [],
+      "organization": "AVA Only / GLO / related consumer-brand work",
+      "client": "AVA Only / GLO",
+      "production_or_agency": null,
+      "period": "Dec 2024-Jan 2025",
+      "joe_role": "Content strategy and graphic/content creation",
+      "deliverable": "Joe provided content/strategy with at least three weeks of material; team members explicitly referred to graphics Joe created and requested source assets/revisions.",
+      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "public_urls": [],
+      "boundaries": [
+        "Private working links should not be published."
+      ],
+      "retrieval_tags": [
+        "AVA",
+        "GLO",
+        "content strategy",
+        "graphics",
+        "social"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+    }
+  ]
+}
