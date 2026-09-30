@@ -46,6 +46,31 @@ Joe Nasr is a Creative Director. His documented body of work includes visual com
 
 Grouping rule: keep the taxonomy hierarchical. Role titles belong with role titles. Work domains belong with work domains. Parent domains should not be flattened beside their child disciplines. For retrieval, multimedia production includes motion graphics, 3D, video and audio.
 
+## Areas of Practice
+
+The visible Areas of Practice section is a domain map, not a CV chronology and not a self-rated skills list. A domain is included only where the evidence graph contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. Learning alone is not sufficient.
+
+Retrieval relationship:
+Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence.
+
+Creative & Production:
+- Creative Direction & Advertising
+- Design & Visual Communication
+- Film, Video & Post Production
+- Motion Graphics, Animation & 3D
+- Music & Audio
+
+Interactive & Technology:
+- Interactive Experiences, XR & Games
+- AI & Creative Technology
+- Product & Venture Development
+
+Knowledge & Education:
+- Corporate Training & Guest Lecturing
+- Research, Reasoning & Publishing
+
+The Areas of Practice ontology and the visible archive taxonomy serve different purposes. Areas of Practice answers which fields Joe Nasr has documented activity in. The archive categories answer where a visitor can route to public evidence. Do not collapse the two taxonomies into one flat list. The structured mapping between domains and evidence routes is recorded in identity.json under practice_domain_map.
+
 ## LinkedIn Experience
 
 Current roles:

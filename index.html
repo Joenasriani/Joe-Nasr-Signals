@@ -313,6 +313,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .ticker-track i { color: var(--signal); font-style: normal; }
 
 .identity-section,
+.practice-section,
 .archive-section,
 .method-section {
   max-width: var(--max);
@@ -356,6 +357,61 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .role-strip span { display: inline-grid; place-items: center; width: 34px; height: 34px; background: var(--acid); font: 800 11px/1 "Courier New", monospace; }
 .role-strip h3 { margin: 50px 0 12px; font-size: clamp(23px, 2vw, 34px); letter-spacing: -.035em; }
 .role-strip p { max-width: 380px; margin: 0; color: var(--muted); }
+
+
+.practice-section {
+  padding-top: clamp(86px, 10vw, 140px);
+  padding-bottom: clamp(90px, 11vw, 150px);
+}
+.practice-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, .65fr);
+  gap: 44px;
+  align-items: end;
+}
+.practice-heading h2 {
+  margin: 0;
+  font-size: clamp(50px, 8vw, 122px);
+  line-height: .9;
+  letter-spacing: -.06em;
+}
+.practice-heading p {
+  margin: 0;
+  max-width: 560px;
+  padding-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(17px, 1.55vw, 24px);
+}
+.practice-family { margin-top: 58px; }
+.practice-family-heading {
+  margin: 0 0 22px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: 700 8px/1.3 "Courier New", monospace;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(34px, 6vw, 90px);
+  row-gap: 34px;
+}
+.practice-item { max-width: 650px; }
+.practice-item h3 {
+  margin: 0 0 8px;
+  font-size: clamp(22px, 2vw, 31px);
+  line-height: 1.04;
+  letter-spacing: -.035em;
+}
+.practice-item p {
+  margin: 0;
+  color: #3e3f3d;
+  max-width: 620px;
+  font-size: 15px;
+  line-height: 1.6;
+}
 
 .archive-section { padding-top: 90px; padding-bottom: 130px; border-top: 1px solid var(--line-strong); }
 .archive-heading { display: flex; justify-content: space-between; gap: 30px; align-items: end; }
@@ -607,6 +663,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .identity-disc { width: min(64vw, 380px); margin: 70px auto 10px; }
   .hero-meta { margin-top: 60px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
+  .practice-heading { grid-template-columns: 1fr; align-items: start; }
+  .practice-grid { grid-template-columns: 1fr; row-gap: 28px; }
   .role-strip { grid-template-columns: 1fr; }
   .role-strip article, .role-strip article + article { min-height: auto; padding: 28px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .role-strip article:last-child { border-bottom: 0; }
@@ -633,6 +691,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .hero-meta div, .hero-meta div + div { padding: 12px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .hero-meta div:last-child { border-bottom: 0; }
   .identity-heading h2 { font-size: 54px; }
+  .practice-heading h2 { font-size: 57px; }
+  .practice-family { margin-top: 42px; }
   .archive-heading { align-items: start; flex-direction: column; }
   .archive-heading h2 { font-size: 57px; }
   .archive-controls { grid-template-columns: 1fr; }
@@ -664,7 +724,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .hero { min-height: auto; padding-top: 30px; }
   .hero h1 { font-size: 80px; }
   .archive-record { break-inside: avoid; grid-template-columns: 38px 1fr 110px; }
-  .method-section,.identity-section,.search-profile-section,.archive-section,.faq-section{padding-block:40px}
+  .method-section,.identity-section,.practice-section,.search-profile-section,.archive-section,.faq-section{padding-block:40px}
 }
 
 /* High-contrast yellow text on light backgrounds */
@@ -829,18 +889,16 @@ body.compact .record-url-wrap { margin-top: 8px; }
         }
       ],
       "knowsAbout": [
-        "Creative direction",
-        "Visual communication",
-        "Advertising",
-        "Multimedia production",
-        "Motion graphics",
-        "3D",
-        "Digital experiences",
-        "Interactive prototyping",
-        "XR and virtual reality",
-        "Games and interactive experiences",
-        "Music and audio production",
-        "Professional training"
+        "Creative direction and advertising",
+        "Design and visual communication",
+        "Film, video and post-production",
+        "Motion graphics, animation and 3D",
+        "Music and audio",
+        "Interactive experiences, XR and games",
+        "AI and creative technology",
+        "Product and venture development",
+        "Corporate training and guest lecturing",
+        "Research, reasoning and publishing"
       ],
       "affiliation": [
         {
@@ -1053,6 +1111,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </span>
     </a>
     <nav class="header-nav" aria-label="Main navigation">
+      <a href="#practice">Practice</a>
       <a href="#archive">Categories</a>
       <a href="#questions">About</a>
       <a href="#linkedin-experience">Experience</a>
@@ -1097,10 +1156,78 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
     </section>
 
+    <section class="practice-section" id="practice" aria-labelledby="practiceTitle">
+      <div class="practice-heading">
+        <div>
+          <div class="section-label">01 / AREAS OF PRACTICE</div>
+          <h2 id="practiceTitle">Areas of Practice.</h2>
+        </div>
+        <p>Documented areas of activity, organized by field rather than chronology. Each domain is supported by work, public sources, or project evidence elsewhere in Signals.</p>
+      </div>
+
+      <div class="practice-family">
+        <h3 class="practice-family-heading">Creative &amp; Production</h3>
+        <div class="practice-grid">
+          <article class="practice-item">
+            <h3>Creative Direction &amp; Advertising</h3>
+            <p>Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Design &amp; Visual Communication</h3>
+            <p>Graphic design, branding, typography, visual systems, campaign design, retouching and communication-focused creative work.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Film, Video &amp; Post Production</h3>
+            <p>Editing, post-production, compositing, visual finishing, video production and work across broader audiovisual production pipelines.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Motion Graphics, Animation &amp; 3D</h3>
+            <p>Motion graphics, animation and 3D work across branded, editorial and experimental visual projects.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Music &amp; Audio</h3>
+            <p>Composition, guitar, sound design, audio engineering, mixing, production music and audio post-production across media and independent work.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="practice-family">
+        <h3 class="practice-family-heading">Interactive &amp; Technology</h3>
+        <div class="practice-grid">
+          <article class="practice-item">
+            <h3>Interactive Experiences, XR &amp; Games</h3>
+            <p>Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems.</p>
+          </article>
+          <article class="practice-item">
+            <h3>AI &amp; Creative Technology</h3>
+            <p>Development and exploration of AI-assisted systems, reasoning tools, visual frameworks, experimental interfaces and creative-technology prototypes.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Product &amp; Venture Development</h3>
+            <p>Documented venture and product activity spanning concept development, positioning, design, prototyping and public release.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="practice-family">
+        <h3 class="practice-family-heading">Knowledge &amp; Education</h3>
+        <div class="practice-grid">
+          <article class="practice-item">
+            <h3>Corporate Training &amp; Guest Lecturing</h3>
+            <p>Professional training and guest lecturing across design, multimedia and creative technology, including corporate, academic and government engagements.</p>
+          </article>
+          <article class="practice-item">
+            <h3>Research, Reasoning &amp; Publishing</h3>
+            <p>Independent work across reasoning, decision structures, human behavior, research frameworks, publishing and AI-related knowledge systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
       <span id="identity" aria-hidden="true"></span><span id="profile" aria-hidden="true"></span>
       <div class="archive-heading">
-        <div><div class="section-label">01 / PUBLIC ARCHIVE</div><h2 id="archiveTitle">Work by category.</h2></div>
+        <div><div class="section-label">02 / PUBLIC ARCHIVE</div><h2 id="archiveTitle">Work by category.</h2></div>
         <p>Choose a category to find the relevant public work, source collections and publications. Detailed project evidence remains available to search and AI systems through the machine-readable registry.</p>
       </div>
 
@@ -1342,7 +1469,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
     </section>
 
     <section class="faq-section" id="questions" aria-labelledby="faqTitle">
-      <div class="section-label">02 / ABOUT</div><div class="faq-heading"><h2 id="faqTitle">Work and background.</h2><p>Identity, professional history and source-linked work across different periods.</p></div>
+      <div class="section-label">03 / ABOUT</div><div class="faq-heading"><h2 id="faqTitle">Work and background.</h2><p>Identity, professional history and source-linked work across different periods.</p></div>
       <div class="faq-list">
         <details><summary><span>Q01</span>Who is Joe Nasr?</summary><div class="faq-answer">Professional work spans creative direction, advertising, multimedia production, digital experiences and interactive prototyping, with additional work across motion, 3D, XR, games, music and audio, professional training, writing and research.</div></details>
         <details><summary><span>Q02</span>What music and audio work is documented for Joe Nasr?</summary><div class="faq-answer">Indexed music and audio work includes cinematic and media composition, guitar performances, sound design, audio engineering, mixing, production-music licensing and audio post-production.</div></details>
@@ -1357,7 +1484,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
     </section>
 
     <section class="method-section" id="method" aria-labelledby="methodTitle">
-      <div class="section-label">03 / SOURCES</div>
+      <div class="section-label">04 / SOURCES</div>
       <div class="method-grid">
         <h2 id="methodTitle">Archive notes.</h2>
         <div class="method-copy"><p>This visible archive groups public work by discipline. YouTube is represented by curated Showcase playlists and itch.io by a single games/XR hub rather than individual project cards; detailed project-level evidence remains preserved in the machine-readable project registry.</p><p>Additional attributed music and professional references are collected in the <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">supporting evidence index</a>.</p></div>
