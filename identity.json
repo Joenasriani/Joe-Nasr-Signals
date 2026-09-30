@@ -36,7 +36,7 @@
   ],
   "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production in UAE/GCC contexts.",
   "linkedin_aligned_work_experience": {
-    "scope_note": "Career titles follow the live LinkedIn Experience display order. The visible Signals summary uses titles only; this underlying record retains the dates, organizations and employment or client relationships shown on LinkedIn.",
+    "scope_note": "Career roles reflect the consolidated LinkedIn structure confirmed by Joe Nasr on 30 September 2026. Signals explicitly separates current and previous roles while preserving employment, freelance and client relationships.",
     "roles": [
       {
         "title": "Creative Director & Founder",
@@ -57,7 +57,7 @@
       },
       {
         "title": "Director of Operations & Creative Lead",
-        "organization": "Self-employed",
+        "organization": "Freelance",
         "employment_type": "Contract",
         "start": "2021-01",
         "end": "2023-06",
@@ -66,40 +66,25 @@
           "Daoverse Capital",
           "Guild Technologies"
         ],
-        "relationship_note": "LinkedIn names Daoverse Capital and Guild Technologies as clients of this contract role."
+        "relationship_note": "Daoverse Capital and Guild Technologies are named as clients of this contract role, not employers."
       },
       {
-        "title": "Creative Director & Multimedia Producer",
+        "title": "Independent Creative",
         "organization": "Freelance",
-        "start": "2021-03",
-        "end": "2023-06",
-        "location": "Dubai, United Arab Emirates"
-      },
-      {
-        "title": "Digital Art Director",
-        "organization": "Freelance",
-        "employment_type": "Freelance",
-        "start": "2011-10",
-        "end": "2021-07",
-        "location": "United Arab Emirates",
-        "client_label": "Grey Worldwide/Grey Beirut",
-        "relationship_note": "The live role description identifies freelance projects for Grey Worldwide/Grey Beirut."
-      },
-      {
-        "title": "Multimedia Producer",
-        "organization": "Independent Creative",
         "employment_type": "Freelance",
         "start": "2005-02",
-        "end": "2011-09",
+        "end": "2023-09",
         "project_location_context": [
-          "Lebanon"
-        ]
+          "Lebanon",
+          "United Arab Emirates"
+        ],
+        "relationship_note": "Consolidated LinkedIn role covering the independent creative career that progressed through multimedia design and production, digital art direction, creative direction and multidisciplinary production."
       }
     ],
     "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
-    "verified_live_on": "2026-09-25",
-    "evidence_note": "Verified against the live LinkedIn Experience section. This records the profile's statements, not independent verification of each engagement. Omitted fields were not explicitly displayed.",
-    "timeline_note": "Concurrent dates are preserved. LinkedIn display order is not a strictly consecutive career progression. Self-employed, Freelance and Independent Creative are preserved as displayed organization labels; named contract clients are not recast as employers.",
+    "verified_live_on": "2026-09-30",
+    "evidence_note": "Updated from user-provided LinkedIn screenshots and direct confirmation after the 30 September 2026 role consolidation. This records the profile's statements; it is not independent verification of every underlying engagement.",
+    "timeline_note": "Current and previous roles are explicitly separated. The 2021–2023 Director of Operations contract overlaps the broader 2005–2023 Independent Creative freelance record; that overlap is intentional. Named contract clients are not recast as employers.",
     "profile_categories": [
       "Creative Direction",
       "Education",
@@ -291,7 +276,8 @@
     "robomarket": {
       "name": "RoboMarket",
       "type": "venture",
-      "relationship": "founder/venture relationship",
+      "relationship": "venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO",
+      "parent_entity": "apex_innovate",
       "url": "https://www.robomarket.ae/"
     },
     "reasoning_and_logic": {
@@ -336,6 +322,13 @@
         "checked_on": "2026-09-25",
         "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity confirmed by Joe Nasr."
       }
+    },
+    "robocreate": {
+      "name": "RoboCreate",
+      "type": "product_initiative",
+      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder",
+      "parent_entity": "apex_innovate",
+      "url": "https://robocreate.manus.space/"
     }
   },
   "category_routes": {
@@ -385,8 +378,9 @@
     "primary_role": "Creative Director",
     "role_history": [
       "Creative Director",
-      "Digital Art Director",
-      "Multimedia Producer"
+      "Guest Lecturer & Corporate Trainer",
+      "Director of Operations & Creative Lead",
+      "Independent Creative"
     ],
     "work_domains": [
       "creative direction",
