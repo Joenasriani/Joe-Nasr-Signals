@@ -1516,5 +1516,17 @@
       "UNRESOLVED": "Not sufficient for a factual public project or role claim."
     }
   },
-  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research."
+  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
+  "viewer_hidden_sources": [
+    {
+      "label": "SlideShare teaching archive",
+      "url": "https://www.slideshare.net/JoeNasr",
+      "reason": "Preserved for machine retrieval/provenance; intentionally hidden from the human-facing Signals archive."
+    },
+    {
+      "label": "Showcase: Animated Infographics on a Budget!",
+      "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j",
+      "reason": "Preserved for machine retrieval/provenance; intentionally hidden from the human-facing Signals archive."
+    }
+  ]
 }
