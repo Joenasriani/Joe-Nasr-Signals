@@ -1277,6 +1277,31 @@
   },
   "selected_historical_work": [
     {
+      "name": "E! Beyond The Red Carpet - 13th Dubai International Film Festival",
+      "year": 2016,
+      "person": "Joe Nasr",
+      "role": "Editor",
+      "production_company": "Navigation Films",
+      "event": "13th Dubai International Film Festival",
+      "temporal_state": "HISTORICAL",
+      "canonical_public_url": "https://joe-nasr-signals.vercel.app/"
+    },
+    {
+      "name": "Cartier corporate training through SAE",
+      "date": "2020-06",
+      "person": "Joe Nasr",
+      "role": "Trainer",
+      "training_provider": "SAE",
+      "cohort": "Cartier",
+      "subjects": [
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+      ],
+      "delivery_mode": "virtual",
+      "temporal_state": "HISTORICAL",
+      "canonical_public_url": "https://joe-nasr-signals.vercel.app/"
+    },
+    {
       "name": "SAE / HHEO / Reyada Design and Motion Graphics diploma",
       "person": "Joe Nasr",
       "role": "Mentor",
@@ -1292,8 +1317,8 @@
   ],
   "project_evidence_registry": {
     "url": "https://joe-nasr-signals.vercel.app/projects.json",
-    "snapshot_date": "2026-09-30",
-    "project_count": 30,
+    "snapshot_date": "2026-09-29",
+    "project_count": 45,
     "detail_files": [
       "https://joe-nasr-signals.vercel.app/data/projects-01.json",
       "https://joe-nasr-signals.vercel.app/data/projects-02.json",
@@ -1321,7 +1346,8 @@
       "Chopard Girls promoted to public first-party artifact proof from refreshed YouTube metadata documenting After Effects rotoscoping and compositing.",
       "Dubai Tourism lookbook node strengthened by current YouTube metadata explicitly naming Joe Nasr in post-production; item-level chronology now includes 2018 and 2019 evidence.",
       "Milco TVC added from the known Joe Ribal Nasr Stage32 reel.",
-      "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel."
+      "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
+      "EMT - High tech prod remains unverified because the retrieved public artifact does not state Joe Nasr's role."
     ]
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research."
