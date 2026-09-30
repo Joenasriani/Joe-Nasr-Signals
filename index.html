@@ -13,6 +13,7 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="sitemap" type="application/xml" href="https://joe-nasr-signals.vercel.app/sitemap.xml" />
   <link rel="alternate" type="text/plain" href="https://joe-nasr-signals.vercel.app/llms.txt" title="Machine retrieval guide" />
+  <link rel="alternate" type="application/json" href="https://joe-nasr-signals.vercel.app/identity.json" title="Joe Nasr identity record" />
   <link rel="alternate" type="application/json" href="https://joe-nasr-signals.vercel.app/projects.json" title="Machine project evidence registry" />
 
   <meta property="og:type" content="profile" />
@@ -668,7 +669,18 @@ body.compact .record-url-wrap { margin-top: 8px; }
       "dateModified": "2026-09-30",
       "mainEntity": {
         "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
-      }
+      },
+      "hasPart": [
+        {
+          "@id": "https://joe-nasr-signals.vercel.app/#brick-xr-builder"
+        },
+        {
+          "@id": "https://joe-nasr-signals.vercel.app/#diorama"
+        },
+        {
+          "@id": "https://joe-nasr-signals.vercel.app/#pathway"
+        }
+      ]
     },
     {
       "@type": "Person",
@@ -741,6 +753,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
         "Joe Ribal Nasr"
       ],
       "url": "https://joe-nasr-signals.vercel.app/",
+      "mainEntityOfPage": {
+        "@id": "https://joe-nasr-signals.vercel.app/#profile"
+      },
       "description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
       "nationality": {
         "@type": "Country",
@@ -838,22 +853,34 @@ body.compact .record-url-wrap { margin-top: 8px; }
       }
     },
     {
-      "@type": "Course",
-      "@id": "https://joe-nasr-signals.vercel.app/#cartier-sae-2020",
-      "name": "Cartier corporate training through SAE - Adobe Photoshop and Illustrator (June 2020)",
-      "description": "Joe Nasr delivered virtual training in Adobe Photoshop and Illustrator for a Cartier corporate cohort through SAE in June 2020.",
-      "temporalCoverage": "2020-06",
-      "provider": {
-        "@type": "EducationalOrganization",
-        "name": "SAE"
-      },
-      "hasCourseInstance": {
-        "@type": "CourseInstance",
-        "name": "Cartier virtual corporate training - June 2020",
-        "courseMode": "online",
-        "instructor": {
-          "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
-        }
+      "@type": "SoftwareApplication",
+      "@id": "https://joe-nasr-signals.vercel.app/#brick-xr-builder",
+      "name": "Brick XR Builder",
+      "url": "https://joenasr.itch.io/brickxr",
+      "description": "A WebXR building project developed by Joe Nasr around spatial creation and immersive interaction.",
+      "applicationCategory": "Interactive WebXR application",
+      "creator": {
+        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
+      }
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://joe-nasr-signals.vercel.app/#diorama",
+      "name": "DIORAMA",
+      "url": "https://joenasr.itch.io/diorama",
+      "description": "An isometric browser puzzle built around route logic, spatial clarity and accessible click-to-move interaction.",
+      "creator": {
+        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
+      }
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://joe-nasr-signals.vercel.app/#pathway",
+      "name": "Pathway: Rotate. Reflect. Light.",
+      "url": "https://joenasr.itch.io/pathway",
+      "description": "A responsive optical logic game where players rotate glass lenses to reflect a beam toward a target bulb.",
+      "creator": {
+        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
       }
     },
     {
