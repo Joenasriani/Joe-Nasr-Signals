@@ -1317,7 +1317,7 @@
   ],
   "project_evidence_registry": {
     "url": "https://joe-nasr-signals.vercel.app/projects.json",
-    "snapshot_date": "2026-09-29",
+    "snapshot_date": "2026-09-30",
     "project_count": 45,
     "detail_files": [
       "https://joe-nasr-signals.vercel.app/data/projects-01.json",
@@ -1336,9 +1336,11 @@
       "period",
       "Joe role",
       "deliverable",
-      "proof level",
+      "evidence class",
       "evidence summary",
       "public URLs",
+      "public source availability",
+      "public retrieval status",
       "boundaries",
       "retrieval tags"
     ],
@@ -1348,7 +1350,14 @@
       "Milco TVC added from the known Joe Ribal Nasr Stage32 reel.",
       "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
       "EMT - High tech prod remains unverified because the retrieved public artifact does not state Joe Nasr's role."
-    ]
+    ],
+    "evidence_class_semantics": {
+      "PUBLIC": "Supported by a listed public source.",
+      "DOCUMENTED_NONPUBLIC": "Supported by documented evidence whose underlying source is not published in this public record.",
+      "ESTABLISHED_RECORD": "Established in the project record but still requiring stronger source recovery for precise public claims.",
+      "PARTIAL": "Only the stated portion of the work or delivery is established.",
+      "UNRESOLVED": "Not sufficient for a factual public project or role claim."
+    }
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research."
 }
