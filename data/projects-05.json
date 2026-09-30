@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-09-30",
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 5,
-  "project_count": 9,
+  "project_count": 11,
   "projects": [
     {
       "id": "SYN-0272",
@@ -263,6 +263,70 @@
         "Stage32"
       ],
       "update_note": "Added 2026-09-29 from the known Joe Ribal Nasr Stage32 reel.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-0332",
+      "name": "Manipulation: The Fool and the Wise",
+      "aliases": [
+        "Manipulation — The Fool and the Wise",
+        "Manipulation"
+      ],
+      "organization": "Books / reasoning publications",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Author / framework writer",
+      "deliverable": "Public study edition by J. Nasr.",
+      "evidence_summary": "Public publication website and GitHub source repository.",
+      "public_urls": [
+        "https://manipulation-book-theta.vercel.app/",
+        "https://github.com/Joenasriani/manipulation-book"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "book",
+        "publication",
+        "manipulation",
+        "reasoning",
+        "J. Nasr"
+      ],
+      "update_note": "Added to the public project registry during the 2026-09-30 Signals taxonomy cleanup.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-0333",
+      "name": "ICF-AI",
+      "aliases": [
+        "ICF",
+        "ICF-AI Reference Edition"
+      ],
+      "organization": "Books / reasoning publications",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Author / research framework creator",
+      "deliverable": "Public research record and Reference Edition by J. Nasr.",
+      "evidence_summary": "Public product page and GitHub source repository.",
+      "public_urls": [
+        "https://reasoning-and-logic.vercel.app/icf-ai",
+        "https://github.com/Joenasriani/icf-ai"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "ICF",
+        "ICF-AI",
+        "book",
+        "publication",
+        "research",
+        "reasoning",
+        "J. Nasr"
+      ],
+      "update_note": "Added to the public project registry during the 2026-09-30 Signals taxonomy cleanup.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
