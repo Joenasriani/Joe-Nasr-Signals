@@ -221,11 +221,11 @@
       "production_or_agency": null,
       "period": "Jul-Aug 2023 document context",
       "joe_role": "UI adjustment contributor/editor; full implementation scope unresolved",
-      "deliverable": "Shared Google document titled 'UI Adjustment for CDAO Website 20230726' was assigned to Joe for editing.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "deliverable": "UI adjustment contribution on the CDAO website.",
+      "evidence_summary": "Documented project record supports Joe Nasr as a UI adjustment contributor/editor; full implementation scope remains unresolved.",
       "public_urls": [],
       "boundaries": [
-        "Do not claim sole design ownership or shipped implementation from the share record alone."
+        "Do not claim sole design ownership or shipped implementation."
       ],
       "retrieval_tags": [
         "UI",
@@ -247,8 +247,8 @@
       "production_or_agency": null,
       "period": "Dec 2024-Jan 2025",
       "joe_role": "Content strategy and graphic/content creation",
-      "deliverable": "Joe provided content/strategy with at least three weeks of material; team members explicitly referred to graphics Joe created and requested source assets/revisions.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "deliverable": "Content strategy and graphic/content creation across a multi-week campaign period.",
+      "evidence_summary": "Documented project record supports Joe Nasr's content-strategy and graphic/content contribution.",
       "public_urls": [],
       "retrieval_tags": [
         "AVA",
