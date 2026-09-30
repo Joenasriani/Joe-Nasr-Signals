@@ -28,7 +28,9 @@
         "Facebook"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0247",
@@ -52,7 +54,9 @@
         "promo"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0246",
@@ -73,7 +77,9 @@
         "collaboration"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0305",
@@ -97,7 +103,9 @@
         "2024"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0303",
@@ -124,7 +132,9 @@
         "After Effects"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0304",
@@ -152,7 +162,9 @@
         "2025"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0301",
@@ -176,7 +188,9 @@
         "Holy Quran Academy"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0302",
@@ -200,7 +214,9 @@
         "2026"
       ],
       "update_note": null,
-      "public_retrieval_status": "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "PARTIAL",
+      "public_source_available": false
     },
     {
       "id": "SYN-0259",
@@ -230,7 +246,9 @@
         "online"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     }
   ]
 }
