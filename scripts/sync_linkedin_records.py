@@ -9,10 +9,18 @@ ROOT = Path(__file__).resolve().parents[1]
 PERSON_ID = "https://joe-nasr-signals.vercel.app/#joe-nasr"
 
 
+def year_range(role):
+    start = str(role["start"])[:4]
+    end = role["end"] if role["end"] == "Present" else str(role["end"])[:4]
+    return f"{start}–{end}"
+
+
 def render_files():
     identity = json.loads((ROOT / "identity.json").read_text())
     career = identity["linkedin_aligned_work_experience"]
-    titles = [role["title"] for role in career["roles"]]
+    roles = career["roles"]
+    current_roles = [role for role in roles if role["end"] == "Present"]
+    previous_roles = [role for role in roles if role["end"] != "Present"]
     teaching = identity["teaching_and_training"]
     organizations = teaching["organizations_named_on_linkedin"]
     organization_text = ", ".join(organizations[:-1]) + " and " + organizations[-1]
@@ -26,10 +34,12 @@ def render_files():
     source_url = career["source_url"]
     career_html = (
         '<details id="linkedin-experience"><summary><span>Q07</span>LinkedIn Experience</summary>'
-        '<div class="faq-answer"><p>Roles listed on Joe Nasr’s LinkedIn profile:</p><ol>'
-        + "".join("<li>" + escape(title) + "</li>" for title in titles)
-        + '</ol><p><a href="' + escape(source_url, quote=True)
-        + '" target="_blank" rel="noopener noreferrer">Dates and role details on LinkedIn</a>.</p></div></details>'
+        '<div class="faq-answer"><p><strong>Current roles:</strong></p><ul>'
+        + "".join("<li>" + escape(role["title"]) + "</li>" for role in current_roles)
+        + '</ul><p><strong>Previous roles:</strong></p><ul>'
+        + "".join("<li>" + escape(role["title"]) + " — " + escape(year_range(role)) + "</li>" for role in previous_roles)
+        + '</ul><p><a href="' + escape(source_url, quote=True)
+        + '" target="_blank" rel="noopener noreferrer">Role details on LinkedIn</a>.</p></div></details>'
     )
     html = (ROOT / "index.html").read_text()
     html, count = re.subn(
@@ -38,7 +48,7 @@ def render_files():
     )
     if count != 1:
         raise ValueError("Expected one Q07 LinkedIn Experience entry")
-    # Preserve the existing education facts; replace only the teaching paragraph.
+
     match = re.search(r'(<details><summary><span>Q08</span>.*?<div class="faq-answer">)(.*?)(</div></details>)', html, re.S)
     if not match:
         raise ValueError("Expected one Q08 education and teaching entry")
@@ -56,11 +66,9 @@ def render_files():
     for summary, answer in re.findall(r'<details[^>]*><summary>(.*?)</summary><div class="faq-answer">(.*?)</div></details>', html, re.S):
         summary = re.sub(r'<span>Q\d+</span>', '', summary)
         def plain(value):
-            # Preserve semantic boundaries when visible HTML lists/paragraphs are flattened
-            # into FAQPage text. Without this, role titles collapse into one ambiguous run.
             value = re.sub(r'</li>\s*<li>', '; ', value)
-            value = re.sub(r'</p>\s*<ol>', ' ', value)
-            value = re.sub(r'</ol>\s*<p>', '. ', value)
+            value = re.sub(r'</p>\s*<(?:ol|ul)>', ' ', value)
+            value = re.sub(r'</(?:ol|ul)>\s*<p>', '. ', value)
             return " ".join(unescape(re.sub(r'<[^>]+>', ' ', value)).split())
         questions.append({"@type": "Question", "name": plain(summary), "acceptedAnswer": {"@type": "Answer", "text": plain(answer)}})
     for node in schema["@graph"]:
@@ -68,11 +76,16 @@ def render_files():
             node["mainEntity"] = questions
     html = html[:schema_match.start(2)] + json.dumps(schema, ensure_ascii=False, indent=2) + html[schema_match.end(2):]
     outputs = {"index.html": html}
+
     block = (
-        "## LinkedIn Experience\n\nTitles in LinkedIn display order:\n\n"
-        + "\n".join(f"{i}. {title}" for i, title in enumerate(titles, 1))
-        + "\n\nSource: " + source_url + "\n"
-        + "Checked: " + career["verified_live_on"] + ". Overlapping dates are preserved in identity.json; display order is not a consecutive chronology.\n\n"
+        "## LinkedIn Experience\n\n"
+        "Current roles:\n"
+        + "".join("- " + role["title"] + "\n" for role in current_roles)
+        + "\nPrevious roles:\n"
+        + "".join("- " + role["title"] + " — " + year_range(role) + "\n" for role in previous_roles)
+        + "\nSource: " + source_url + "\n"
+        + "Updated from the LinkedIn structure confirmed by Joe Nasr on " + career["verified_live_on"] + ". "
+        + "Concurrent contract/freelance dates are preserved; named contract clients are not recast as employers.\n\n"
     )
     for name in ("README.md", "llms.txt"):
         text = (ROOT / name).read_text()
@@ -99,7 +112,7 @@ if __name__ == "__main__":
     if args.check:
         if changed:
             raise SystemExit("LinkedIn records need synchronization: " + ", ".join(changed))
-        print("LinkedIn titles, teaching sources and visible FAQ schema are aligned.")
+        print("LinkedIn roles, teaching sources and visible FAQ schema are aligned.")
     else:
         for name in changed:
             (ROOT / name).write_text(outputs[name])
