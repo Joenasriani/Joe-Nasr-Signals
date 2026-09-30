@@ -1,3 +1,7 @@
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: *
 Allow: /
+
 Sitemap: https://joe-nasr-signals.vercel.app/sitemap.xml
