@@ -97,9 +97,6 @@
       "public_urls": [
         "https://carelyusshop.etsy.com/"
       ],
-      "boundaries": [
-        "Do not publish private order/customer details."
-      ],
       "retrieval_tags": [
         "ecommerce",
         "Printify",
@@ -148,8 +145,7 @@
       "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
       "public_urls": [],
       "boundaries": [
-        "Do not call this a verified public/end-screen credit until a public credit frame or equivalent public source is recovered.",
-        "Do not republish the HD programme or private call sheet without confirming permissions."
+        "Do not call this a verified public/end-screen credit until a public credit frame or equivalent public source is recovered."
       ],
       "retrieval_tags": [
         "E!",
@@ -176,7 +172,7 @@
       "period": "Exact year unresolved",
       "joe_role": "Post-production",
       "deliverable": "After Effects rotoscoping and compositing.",
-      "evidence_summary": "Joe-confirmed role in prior project audit; public video asset exists.",
+      "evidence_summary": "Current YouTube metadata documents Joe Nasr's After Effects rotoscoping, animated masks, layering and compositing on the public video asset.",
       "public_urls": [
         "https://www.youtube.com/watch?v=1opzhAEfFVQ"
       ],
