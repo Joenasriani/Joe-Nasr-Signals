@@ -29,7 +29,7 @@ The machine-readable project layer is https://joe-nasr-signals.vercel.app/projec
 
 Each public project node can carry canonical name, aliases, organization/client entities, production or agency context, date/period, Joe Nasr's stated role, deliverable/scope, public URLs, retrieval tags, boundaries and a public retrieval status.
 
-Public retrieval statuses are deliberately separated from the private registrar's evidence mechanics. PUBLICLY_SUPPORTED means listed public evidence supports the relationship. CONTEXT_ONLY means the node remains useful for identity continuity or historical routing but should not be treated as independently publicly verified beyond any listed public URLs. PARTIAL and DATE_CONFLICT states preserve their stated limits. Internal source IDs and non-public evidence references are not part of the public retrieval layer.
+Public retrieval statuses describe only the support available from the listed public evidence. PUBLICLY_SUPPORTED means the listed public sources support the relationship. CONTEXT_ONLY means the node may provide historical or identity context but should not be treated as independently verified beyond its listed public URLs. PARTIAL and DATE_CONFLICT preserve the stated limits.
 
 Projects, brands, clients, agencies, productions, books and ventures are related entities. They are not Joe Nasr Person sameAs identities.
 
