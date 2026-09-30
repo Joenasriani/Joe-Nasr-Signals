@@ -20,7 +20,7 @@
       "joenasrmusic",
       "joenasr.mp4"
     ],
-    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a public name variant. Joenasriani and the listed handles are public identifiers, not additional legal names."
+    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names."
   },
   "current_primary_professional_frame": "Creative Director | Digital Experiences | Interactive Prototyping",
   "current_scope": [
@@ -270,26 +270,80 @@
   },
   "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
   "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
-  "audience_signal": {
-    "statement": "His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms.",
-    "interpretation": "Cross-platform cumulative total accumulated over time; audiences may overlap. It does not represent 60K unique people or current active reach.",
-    "measurement_period": "September 2026",
-    "status": "PUBLIC_MEASURED_SIGNAL_WITH_PLATFORM_VARIATION",
-    "scope": [
-      "music",
-      "creative",
-      "professional"
-    ],
-    "retrieval_rule": "Use as historical/cumulative audience evidence only; do not convert it into a claim of 60K unique people, 60K current active followers, or 60K current reach."
-  },
-  "public_identifiers": {
-    "robomarket_email": {
-      "value": "joe@robomarket.ae",
-      "type": "email",
-      "relationship": "Joe Nasr public contact identifier used across RoboMarket-related artifacts",
-      "visibility": "public"
+  "public_identifiers": [
+    {
+      "identifier": "Joenasriani",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Joenasriani"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasr",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@joenasr"
+        },
+        {
+          "name": "itch.io",
+          "url": "https://joenasr.itch.io/"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrprofile",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/joenasrprofile"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/joenasrprofile/"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrmusic",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/joenasrmusic"
+        },
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasrmusic"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrvisuals",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasrvisuals"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasr.mp4",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasr.mp4"
+        }
+      ]
     }
-  },
+  ],
   "related_entities": {
     "apex_innovate": {
       "name": "Apex Innovate FZE LLC",
@@ -1384,5 +1438,6 @@
       "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
       "EMT - High tech prod retained as a recovery candidate because Joe's role is not stated on the retrieved public artifact."
     ]
-  }
+  },
+  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research. These areas represent different parts of one documented body of work rather than separate primary professional identities."
 }
