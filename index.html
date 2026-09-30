@@ -407,22 +407,23 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .archive-group-label {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 18px 0 8px;
+  gap: 12px;
+  padding: 14px 0 7px;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
-  font: 700 9px/1.3 "Courier New", monospace;
+  font: 700 8px/1.3 "Courier New", monospace;
   letter-spacing: .14em;
   text-transform: uppercase;
 }
-.archive-group-label a {
-  color: var(--blue);
-  text-decoration: none;
-  letter-spacing: .08em;
+.archive-group-label strong {
+  color: var(--ink);
+  font-size: 9px;
+  font-weight: 800;
 }
-.archive-group-label a:hover,
-.archive-group-label a:focus-visible { text-decoration: underline; }
+.archive-group-label span {
+  opacity: .78;
+  letter-spacing: .1em;
+}
 
 .archive-record {
   display: grid;
@@ -921,27 +922,21 @@ body.compact .record-url-wrap { margin-top: 8px; }
       "@id": "https://joe-nasr-signals.vercel.app/#manipulation-book",
       "name": "Manipulation: The Fool and the Wise",
       "url": "https://manipulation-book-theta.vercel.app/",
-      "author": {
-        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
-      }
+      "author": { "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr" }
     },
     {
       "@type": "Book",
       "@id": "https://joe-nasr-signals.vercel.app/#structure-of-life-book",
       "name": "The Structure of Life — The Structure of Reasoning",
       "url": "https://the-structure-of-life.vercel.app/",
-      "author": {
-        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
-      }
+      "author": { "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr" }
     },
     {
       "@type": "CreativeWork",
       "@id": "https://joe-nasr-signals.vercel.app/#icf-ai",
       "name": "ICF-AI",
       "url": "https://reasoning-and-logic.vercel.app/icf-ai",
-      "creator": {
-        "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
-      }
+      "creator": { "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr" }
     },
     {
       "@type": "FAQPage",
@@ -984,7 +979,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
           "name": "Where is Joe Nasr’s music and guitar work documented?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Public music and guitar references include YouTube, SoundCloud, Anghami, AudioSparx, Apple Music and Deezer. Historical music profiles remain preserved in the supporting identity and evidence records rather than the primary work filters."
+            "text": "Public music and guitar references include YouTube, SoundCloud, Anghami, AudioSparx, Apple Music and Deezer, with additional historical profiles listed in this archive. Spotify is included for its connection to Joe Nasr’s released music."
           }
         },
         {
@@ -1049,7 +1044,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
   <main id="top">
     <section class="hero" aria-labelledby="heroTitle">
-      <div class="hero-index" aria-hidden="true">JN / 001-022</div>
+      <div class="hero-index" aria-hidden="true">JN / 001-025</div>
       <div class="hero-copy">
         <p class="eyebrow"><span></span> PUBLIC WORK ARCHIVE</p>
         <h1 id="heroTitle"><span>JOE</span><span class="outline-word">NASR</span></h1>
@@ -1073,7 +1068,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="hero-meta">
         <div><span>WORK HISTORY</span><strong>UAE / GCC</strong></div>
         <div><span>SPAN</span><strong>Creative Direction → Interactive Work</strong></div>
-        <div><span>INDEXED</span><strong id="heroCount">22 records</strong></div>
+        <div><span>INDEXED</span><strong id="heroCount">25 records</strong></div>
       </div>
 
       <div class="signal-ticker" aria-label="Disciplines">
@@ -1088,223 +1083,256 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <span id="identity" aria-hidden="true"></span><span id="profile" aria-hidden="true"></span>
       <div class="archive-heading">
         <div><div class="section-label">01 / PUBLIC ARCHIVE</div><h2 id="archiveTitle">Work by category.</h2></div>
-        <p>Choose a category to find selected projects, education evidence and publications. Full project evidence remains in the machine-readable registry.</p>
+        <p>Choose a category to find the relevant public work, source collections and publications. Detailed project evidence remains available to search and AI systems through the machine-readable registry.</p>
       </div>
 
       <div class="archive-controls" role="search">
-        <label class="search-field" for="searchInput"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search project, client, role, discipline…" autocomplete="off" /><kbd>/</kbd></label>
+        <label class="search-field" for="searchInput"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search work, role, discipline…" autocomplete="off" /><kbd>/</kbd></label>
         <label class="sort-field" for="sortSelect"><span>Sort</span><select id="sortSelect"><option value="featured">Curated order</option><option value="title">Title A-Z</option><option value="category">Discipline</option><option value="source">Platform</option></select></label>
       </div>
 
       <div class="filter-row" id="filterRow" aria-label="Filter references by discipline"></div>
-      <div class="result-status" aria-live="polite"><span id="resultCount">22 references</span><button id="clearButton" type="button" hidden>Clear filters</button></div>
+      <div class="result-status" aria-live="polite"><span id="resultCount">25 references</span><button id="clearButton" type="button" hidden>Clear filters</button></div>
       <div class="archive-list" id="archiveList">
-        <div class="archive-group-label" data-archive-group="Commercials &amp; Campaigns"><span>Commercials &amp; Campaigns</span><a href="https://www.youtube.com/@joenasr/playlists" target="_blank" rel="noopener noreferrer">YouTube playlists ↗</a></div>
+        <div class="archive-group-label" data-archive-group="Commercials &amp; Campaigns"><strong>Commercials &amp; Campaigns</strong><span>VIDEO · POST-PRODUCTION · BRAND ADVERTISING</span></div>
         <article class="archive-record" id="signal-001">
           <div class="record-number">01</div>
           <div class="record-main">
-            <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="External">External</span></div>
-            <h3 class="record-title">adidas TERREX Jackets MENA</h3>
-            <p class="record-description">MENA commercial project for adidas TERREX with Joe Nasr documented in post-production.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://vimeo.com/794455766" target="_blank" rel="noopener noreferrer">https://vimeo.com/794455766</a></div>
+            <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">Showcase: My Creative Brand Advertising Projects</h3>
+            <p class="record-description">Curated brand advertising work for producers, creative teams and commercial clients.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>Vimeo / SEEME Production</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://vimeo.com/794455766">Copy URL</button><a class="open-button" href="https://vimeo.com/794455766" target="_blank" rel="noopener noreferrer" aria-label="Open adidas TERREX Jackets MENA">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: My Creative Brand Advertising Projects">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-002">
           <div class="record-number">02</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Barakat | Live Fresh | Editing &amp; Post-Production | Joe Nasr</h3>
-            <p class="record-description">Commercial work for Barakat documenting editing and post-production.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=KqJcBcVw6uE" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=KqJcBcVw6uE</a></div>
+            <h3 class="record-title">Showcase: My Video Post-Production Brand Projects</h3>
+            <p class="record-description">Curated branded video and post-production work.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlfE_Ihsutz97VRDYCwJ05Ef" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlfE_Ihsutz97VRDYCwJ05Ef</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=KqJcBcVw6uE">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=KqJcBcVw6uE" target="_blank" rel="noopener noreferrer" aria-label="Open Barakat | Live Fresh | Editing &amp; Post-Production | Joe Nasr">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwlfE_Ihsutz97VRDYCwJ05Ef">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlfE_Ihsutz97VRDYCwJ05Ef" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: My Video Post-Production Brand Projects">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-003">
           <div class="record-number">03</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Jotun Arabia | Kat LeBrasse | Stop-Motion Ad | Joe Nasr</h3>
-            <p class="record-description">Stop-motion advertising work for Jotun Arabia featuring Kat LeBrasse.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=fWh4ECK2Lxk" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=fWh4ECK2Lxk</a></div>
+            <h3 class="record-title">Showcase: Some of My Side Video Editing Projects</h3>
+            <p class="record-description">Selected video-editing work from additional professional and independent projects.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwldhHRatTQ9WbklYraDCJWcP" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwldhHRatTQ9WbklYraDCJWcP</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=fWh4ECK2Lxk">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=fWh4ECK2Lxk" target="_blank" rel="noopener noreferrer" aria-label="Open Jotun Arabia | Kat LeBrasse | Stop-Motion Ad | Joe Nasr">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwldhHRatTQ9WbklYraDCJWcP">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwldhHRatTQ9WbklYraDCJWcP" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: Some of My Side Video Editing Projects">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-004">
           <div class="record-number">04</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Dubai Tourism &amp; Culture | Tamara Jamal | Post-Production</h3>
-            <p class="record-description">Dubai Tourism &amp; Culture project documenting Joe Nasr’s post-production contribution.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=c2nF-hRVRr0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=c2nF-hRVRr0</a></div>
+            <h3 class="record-title">Showcase: Some of My Audio Post-Production Projects</h3>
+            <p class="record-description">Selected television, advertising and media audio post-production work.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=c2nF-hRVRr0">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=c2nF-hRVRr0" target="_blank" rel="noopener noreferrer" aria-label="Open Dubai Tourism &amp; Culture | Tamara Jamal | Post-Production">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: Some of My Audio Post-Production Projects">Open ↗</a></div>
         </article>
+        <div class="archive-group-label" data-archive-group="Animation &amp; Motion"><strong>Animation &amp; Motion</strong><span>ANIMATION · MOTION GRAPHICS · 3D</span></div>
         <article class="archive-record" id="signal-005">
           <div class="record-number">05</div>
           <div class="record-main">
-            <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Dubai Tourism &amp; Culture | Jumana Khan | Post-Production</h3>
-            <p class="record-description">Dubai Tourism &amp; Culture project documenting Joe Nasr’s post-production contribution.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=jTQm-RiwLms" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=jTQm-RiwLms</a></div>
+            <div class="record-topline"><span class="record-category">Animation &amp; Motion</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">Showcase: Animated Infographics on a Budget!</h3>
+            <p class="record-description">Curated animation and motion-graphics work.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=jTQm-RiwLms">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=jTQm-RiwLms" target="_blank" rel="noopener noreferrer" aria-label="Open Dubai Tourism &amp; Culture | Jumana Khan | Post-Production">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: Animated Infographics on a Budget!">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-006">
           <div class="record-number">06</div>
           <div class="record-main">
-            <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Dubai Tourism &amp; Culture | Nilo | Post-Production</h3>
-            <p class="record-description">Dubai Tourism &amp; Culture project documenting Joe Nasr’s post-production contribution.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=wb-qPpbYnb4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=wb-qPpbYnb4</a></div>
+            <div class="record-topline"><span class="record-category">Animation &amp; Motion</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">Showcase: My 3D Work for Web3 Projects and Other Brands</h3>
+            <p class="record-description">Curated 3D work across Web3 projects and branded visual production.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwleSabyHfPS6SF-pQGUsKXsu" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwleSabyHfPS6SF-pQGUsKXsu</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=wb-qPpbYnb4">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=wb-qPpbYnb4" target="_blank" rel="noopener noreferrer" aria-label="Open Dubai Tourism &amp; Culture | Nilo | Post-Production">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwleSabyHfPS6SF-pQGUsKXsu">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwleSabyHfPS6SF-pQGUsKXsu" target="_blank" rel="noopener noreferrer" aria-label="Open Showcase: My 3D Work for Web3 Projects and Other Brands">Open ↗</a></div>
         </article>
+        <div class="archive-group-label" data-archive-group="Graphic Design"><strong>Graphic Design</strong><span>GRAPHICS · VISUAL DESIGN · RETOUCHING</span></div>
         <article class="archive-record" id="signal-007">
           <div class="record-number">07</div>
           <div class="record-main">
-            <div class="record-topline"><span class="record-category">Commercials &amp; Campaigns</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Milco Yoghurt | Where Is Milco? TVC | Music &amp; Sound Design</h3>
-            <p class="record-description">Milco television commercial documenting music composition, sound recording and sound design.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=vcD7KReYYdE" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=vcD7KReYYdE</a></div>
+            <div class="record-topline"><span class="record-category">Graphic Design</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">BTS Showcase: My Ad Retouching Work</h3>
+            <p class="record-description">Behind-the-scenes advertising retouching and visual finishing work.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcA8IciZr5pUhzZCFuKgDj2" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlcA8IciZr5pUhzZCFuKgDj2</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=vcD7KReYYdE">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=vcD7KReYYdE" target="_blank" rel="noopener noreferrer" aria-label="Open Milco Yoghurt | Where Is Milco? TVC | Music &amp; Sound Design">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcA8IciZr5pUhzZCFuKgDj2">Copy URL</button><a class="open-button" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcA8IciZr5pUhzZCFuKgDj2" target="_blank" rel="noopener noreferrer" aria-label="Open BTS Showcase: My Ad Retouching Work">Open ↗</a></div>
         </article>
-        <div class="archive-group-label" data-archive-group="Animation &amp; Motion"><span>Animation &amp; Motion</span><a href="https://www.youtube.com/@joenasr/playlists" target="_blank" rel="noopener noreferrer">YouTube playlists ↗</a></div>
         <article class="archive-record" id="signal-008">
           <div class="record-number">08</div>
           <div class="record-main">
-            <div class="record-topline"><span class="record-category">Animation &amp; Motion</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Chopard Girls | After Effects Rotoscoping and Compositing</h3>
-            <p class="record-description">Chopard post-production work documenting After Effects rotoscoping, animated masks, layering and compositing.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/watch?v=1opzhAEfFVQ" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=1opzhAEfFVQ</a></div>
-          </div>
-          <div class="record-source"><span>SOURCE</span><strong>YouTube</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.youtube.com/watch?v=1opzhAEfFVQ">Copy URL</button><a class="open-button" href="https://www.youtube.com/watch?v=1opzhAEfFVQ" target="_blank" rel="noopener noreferrer" aria-label="Open Chopard Girls | After Effects Rotoscoping and Compositing">Open ↗</a></div>
-        </article>
-        <div class="archive-group-label" data-archive-group="Graphic Design"><span>Graphic Design</span><a href="https://www.tiktok.com/@joenasrvisuals" target="_blank" rel="noopener noreferrer">Visual archive ↗</a></div>
-        <article class="archive-record" id="signal-009">
-          <div class="record-number">09</div>
-          <div class="record-main">
             <div class="record-topline"><span class="record-category">Graphic Design</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">@joenasrvisuals | Graphics, Animation &amp; Design</h3>
-            <p class="record-description">Joe Nasr’s public visual-work surface focused on graphic design, animation and visual experiments.</p>
+            <h3 class="record-title">TikTok - @joenasrvisuals</h3>
+            <p class="record-description">Joe Nasr’s public visual-work surface focused on graphics, animation and design.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://www.tiktok.com/@joenasrvisuals" target="_blank" rel="noopener noreferrer">https://www.tiktok.com/@joenasrvisuals</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>TikTok</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.tiktok.com/@joenasrvisuals">Copy URL</button><a class="open-button" href="https://www.tiktok.com/@joenasrvisuals" target="_blank" rel="noopener noreferrer" aria-label="Open @joenasrvisuals | Graphics, Animation &amp; Design">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.tiktok.com/@joenasrvisuals">Copy URL</button><a class="open-button" href="https://www.tiktok.com/@joenasrvisuals" target="_blank" rel="noopener noreferrer" aria-label="Open TikTok - @joenasrvisuals">Open ↗</a></div>
         </article>
-        <div class="archive-group-label" data-archive-group="Education &amp; Training"><span>Education &amp; Training</span><a href="https://www.slideshare.net/JoeNasr" target="_blank" rel="noopener noreferrer">Teaching archive ↗</a></div>
+        <div class="archive-group-label" data-archive-group="Education &amp; Training"><strong>Education &amp; Training</strong><span>EDUCATION · TEACHING · CORPORATE TRAINING</span></div>
+        <article class="archive-record" id="signal-009">
+          <div class="record-number">09</div>
+          <div class="record-main">
+            <div class="record-topline"><span class="record-category">Education &amp; Training</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">LinkedIn - Joe Nasr</h3>
+            <p class="record-description">Professional profile containing education, academic engagements, guest lecturing and corporate-training history.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://www.linkedin.com/in/joenasrprofile" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/joenasrprofile</a></div>
+          </div>
+          <div class="record-source"><span>SOURCE</span><strong>LinkedIn</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.linkedin.com/in/joenasrprofile">Copy URL</button><a class="open-button" href="https://www.linkedin.com/in/joenasrprofile" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn - Joe Nasr">Open ↗</a></div>
+        </article>
         <article class="archive-record" id="signal-010">
           <div class="record-number">10</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Education &amp; Training</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">LinkedIn | Education &amp; Training</h3>
-            <p class="record-description">Education, academic engagement, guest lecturing and corporate-training evidence within Joe Nasr’s professional profile.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://www.linkedin.com/in/joenasrprofile" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/joenasrprofile</a></div>
-          </div>
-          <div class="record-source"><span>SOURCE</span><strong>LinkedIn</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.linkedin.com/in/joenasrprofile">Copy URL</button><a class="open-button" href="https://www.linkedin.com/in/joenasrprofile" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn | Education &amp; Training">Open ↗</a></div>
-        </article>
-        <article class="archive-record" id="signal-011">
-          <div class="record-number">11</div>
-          <div class="record-main">
-            <div class="record-topline"><span class="record-category">Education &amp; Training</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">SlideShare | Joe Nasr Teaching Archive</h3>
+            <h3 class="record-title">SlideShare - Joe Nasr Teaching Archive</h3>
             <p class="record-description">Teaching presentations covering film production, camera fundamentals, editing, motion graphics, audio and social content creation.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://www.slideshare.net/JoeNasr" target="_blank" rel="noopener noreferrer">https://www.slideshare.net/JoeNasr</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>SlideShare</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.slideshare.net/JoeNasr">Copy URL</button><a class="open-button" href="https://www.slideshare.net/JoeNasr" target="_blank" rel="noopener noreferrer" aria-label="Open SlideShare | Joe Nasr Teaching Archive">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.slideshare.net/JoeNasr">Copy URL</button><a class="open-button" href="https://www.slideshare.net/JoeNasr" target="_blank" rel="noopener noreferrer" aria-label="Open SlideShare - Joe Nasr Teaching Archive">Open ↗</a></div>
         </article>
-        <article class="archive-record" id="signal-012">
-          <div class="record-number">12</div>
+        <article class="archive-record" id="signal-011">
+          <div class="record-number">11</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Education &amp; Training</span><span class="record-status" data-status="External">External</span></div>
-            <h3 class="record-title">SAE UAE | Design and Motion Graphics Mentorship</h3>
+            <h3 class="record-title">LinkedIn - SAE UAE: Design and Motion Graphics Mentorship</h3>
             <p class="record-description">SAE UAE institutional acknowledgment of Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma with HHEO and Reyada Centre.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>SAE UAE / LinkedIn</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc">Copy URL</button><a class="open-button" href="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc" target="_blank" rel="noopener noreferrer" aria-label="Open SAE UAE | Design and Motion Graphics Mentorship">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>SAE UAE</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc">Copy URL</button><a class="open-button" href="https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn - SAE UAE: Design and Motion Graphics Mentorship">Open ↗</a></div>
         </article>
-        <div class="archive-group-label" data-archive-group="Interactive &amp; Prototypes"><span>Interactive &amp; Prototypes</span><a href="https://joenasr.itch.io/" target="_blank" rel="noopener noreferrer">Playable work ↗</a></div>
+        <div class="archive-group-label" data-archive-group="Interactive &amp; Prototypes"><strong>Interactive &amp; Prototypes</strong><span>XR · GAMES · INTERACTIVE SYSTEMS</span></div>
+        <article class="archive-record" id="signal-012">
+          <div class="record-number">12</div>
+          <div class="record-main">
+            <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">GitHub - Joenasriani</h3>
+            <p class="record-description">Public repositories documenting interactive prototypes, browser applications, experimental software and technical implementation.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://github.com/Joenasriani" target="_blank" rel="noopener noreferrer">https://github.com/Joenasriani</a></div>
+          </div>
+          <div class="record-source"><span>SOURCE</span><strong>GitHub</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://github.com/Joenasriani">Copy URL</button><a class="open-button" href="https://github.com/Joenasriani" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub - Joenasriani">Open ↗</a></div>
+        </article>
         <article class="archive-record" id="signal-013">
           <div class="record-number">13</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Visual Framework System App</h3>
-            <p class="record-description">Visual reasoning and composition system built around nodes, semantic roles, provenance and interactive graph operations.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://github.com/Joenasriani/visual-framework-system-app" target="_blank" rel="noopener noreferrer">https://github.com/Joenasriani/visual-framework-system-app</a></div>
+            <h3 class="record-title">itch.io - Joe Nasr Games and XR</h3>
+            <p class="record-description">Public collection of browser games, responsive interactive experiences, puzzles and WebXR experiments.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>GitHub</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://github.com/Joenasriani/visual-framework-system-app">Copy URL</button><a class="open-button" href="https://github.com/Joenasriani/visual-framework-system-app" target="_blank" rel="noopener noreferrer" aria-label="Open Visual Framework System App">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Joe Nasr Games and XR">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-014">
           <div class="record-number">14</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Brick XR Builder</h3>
-            <p class="record-description">WebXR building project centered on spatial creation, brick manipulation and immersive interaction.</p>
+            <h3 class="record-title">itch.io - Brick XR Builder</h3>
+            <p class="record-description">A WebXR building project developed around spatial creation and immersive interaction.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/brickxr" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/brickxr</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/brickxr">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/brickxr" target="_blank" rel="noopener noreferrer" aria-label="Open Brick XR Builder">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/brickxr">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/brickxr" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Brick XR Builder">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-015">
           <div class="record-number">15</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">DIORAMA</h3>
-            <p class="record-description">Isometric browser puzzle built around route logic, spatial clarity and direct interaction.</p>
+            <h3 class="record-title">itch.io - DIORAMA</h3>
+            <p class="record-description">An isometric browser puzzle built around route logic, spatial clarity and accessible click-to-move interaction.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/diorama" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/diorama</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/diorama">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/diorama" target="_blank" rel="noopener noreferrer" aria-label="Open DIORAMA">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/diorama">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/diorama" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - DIORAMA">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-016">
           <div class="record-number">16</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Pathway: Rotate. Reflect. Light.</h3>
-            <p class="record-description">Responsive optical logic game based on rotating lenses and reflecting a beam toward a target.</p>
+            <h3 class="record-title">itch.io - Pathway: Rotate. Reflect. Light.</h3>
+            <p class="record-description">A responsive optical logic game where players rotate glass lenses to reflect a beam toward a target bulb.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/pathway" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/pathway</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/pathway">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/pathway" target="_blank" rel="noopener noreferrer" aria-label="Open Pathway: Rotate. Reflect. Light.">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/pathway">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/pathway" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Pathway: Rotate. Reflect. Light.">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-017">
           <div class="record-number">17</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Ascension</h3>
-            <p class="record-description">Minimalist rotation-based browser game designed around readable spatial progression.</p>
+            <h3 class="record-title">itch.io - Ascension</h3>
+            <p class="record-description">A minimalist rotation-based browser game designed for readable spatial progression across desktop and mobile.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/ascension" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/ascension</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/ascension">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/ascension" target="_blank" rel="noopener noreferrer" aria-label="Open Ascension">Open ↗</a></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/ascension">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/ascension" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Ascension">Open ↗</a></div>
         </article>
         <article class="archive-record" id="signal-018">
           <div class="record-number">18</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
-            <h3 class="record-title">Roundtable AI</h3>
-            <p class="record-description">Multi-perspective reasoning prototype using multiple disciplinary lenses and synthesis.</p>
-            <div class="record-url-wrap"><a class="record-url" href="https://github.com/Joenasriani/roundtable_ai" target="_blank" rel="noopener noreferrer">https://github.com/Joenasriani/roundtable_ai</a></div>
+            <h3 class="record-title">itch.io - Quantum Entanglement</h3>
+            <p class="record-description">A responsive science-inspired logic puzzle created using HTML5, JavaScript and Web Audio.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/quantum-entanglement" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/quantum-entanglement</a></div>
           </div>
-          <div class="record-source"><span>SOURCE</span><strong>GitHub</strong></div>
-          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://github.com/Joenasriani/roundtable_ai">Copy URL</button><a class="open-button" href="https://github.com/Joenasriani/roundtable_ai" target="_blank" rel="noopener noreferrer" aria-label="Open Roundtable AI">Open ↗</a></div>
+          <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/quantum-entanglement">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/quantum-entanglement" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Quantum Entanglement">Open ↗</a></div>
         </article>
-        <div class="archive-group-label" data-archive-group="Books &amp; Publications"><span>Books &amp; Publications</span><a href="https://reasoning-and-logic.vercel.app/" target="_blank" rel="noopener noreferrer">Bookstore ↗</a></div>
         <article class="archive-record" id="signal-019">
           <div class="record-number">19</div>
+          <div class="record-main">
+            <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">itch.io - Routing Protocol</h3>
+            <p class="record-description">A mobile-friendly path-validation puzzle inspired by packets, servers, network nodes and routing logic.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/routing-protocol" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/routing-protocol</a></div>
+          </div>
+          <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/routing-protocol">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/routing-protocol" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Routing Protocol">Open ↗</a></div>
+        </article>
+        <article class="archive-record" id="signal-020">
+          <div class="record-number">20</div>
+          <div class="record-main">
+            <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">itch.io - Klotski: 3D Sliding Puzzle</h3>
+            <p class="record-description">A browser-based 3D block puzzle with direct manipulation, an orbiting camera and procedural tactile audio.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/klotski" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/klotski</a></div>
+          </div>
+          <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/klotski">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/klotski" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - Klotski: 3D Sliding Puzzle">Open ↗</a></div>
+        </article>
+        <article class="archive-record" id="signal-021">
+          <div class="record-number">21</div>
+          <div class="record-main">
+            <div class="record-topline"><span class="record-category">Interactive &amp; Prototypes</span><span class="record-status" data-status="Official">Official</span></div>
+            <h3 class="record-title">itch.io - In a Stickman’s World</h3>
+            <p class="record-description">A minimalist black-and-white action platformer for browser, desktop and mobile.</p>
+            <div class="record-url-wrap"><a class="record-url" href="https://joenasr.itch.io/in-a-stickmans-world" target="_blank" rel="noopener noreferrer">https://joenasr.itch.io/in-a-stickmans-world</a></div>
+          </div>
+          <div class="record-source"><span>SOURCE</span><strong>itch.io</strong></div>
+          <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://joenasr.itch.io/in-a-stickmans-world">Copy URL</button><a class="open-button" href="https://joenasr.itch.io/in-a-stickmans-world" target="_blank" rel="noopener noreferrer" aria-label="Open itch.io - In a Stickman’s World">Open ↗</a></div>
+        </article>
+        <div class="archive-group-label" data-archive-group="Books &amp; Publications"><strong>Books &amp; Publications</strong><span>BOOKS · RESEARCH · FRAMEWORKS</span></div>
+        <article class="archive-record" id="signal-022">
+          <div class="record-number">22</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Books &amp; Publications</span><span class="record-status" data-status="Official">Official</span></div>
             <h3 class="record-title">Manipulation: The Fool and the Wise</h3>
@@ -1314,8 +1342,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <div class="record-source"><span>SOURCE</span><strong>Publication</strong></div>
           <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://manipulation-book-theta.vercel.app/">Copy URL</button><a class="open-button" href="https://manipulation-book-theta.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Manipulation: The Fool and the Wise">Open ↗</a></div>
         </article>
-        <article class="archive-record" id="signal-020">
-          <div class="record-number">20</div>
+        <article class="archive-record" id="signal-023">
+          <div class="record-number">23</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Books &amp; Publications</span><span class="record-status" data-status="Official">Official</span></div>
             <h3 class="record-title">The Structure of Life — The Structure of Reasoning</h3>
@@ -1325,8 +1353,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <div class="record-source"><span>SOURCE</span><strong>Publication</strong></div>
           <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://the-structure-of-life.vercel.app/">Copy URL</button><a class="open-button" href="https://the-structure-of-life.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open The Structure of Life — The Structure of Reasoning">Open ↗</a></div>
         </article>
-        <article class="archive-record" id="signal-021">
-          <div class="record-number">21</div>
+        <article class="archive-record" id="signal-024">
+          <div class="record-number">24</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Books &amp; Publications</span><span class="record-status" data-status="Official">Official</span></div>
             <h3 class="record-title">ICF</h3>
@@ -1336,8 +1364,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <div class="record-source"><span>SOURCE</span><strong>Publication</strong></div>
           <div class="record-actions"><button class="copy-button" type="button" aria-label="Copy direct URL" data-url="https://reasoning-and-logic.vercel.app/icf-ai">Copy URL</button><a class="open-button" href="https://reasoning-and-logic.vercel.app/icf-ai" target="_blank" rel="noopener noreferrer" aria-label="Open ICF">Open ↗</a></div>
         </article>
-        <article class="archive-record" id="signal-022">
-          <div class="record-number">22</div>
+        <article class="archive-record" id="signal-025">
+          <div class="record-number">25</div>
           <div class="record-main">
             <div class="record-topline"><span class="record-category">Books &amp; Publications</span><span class="record-status" data-status="Official">Official</span></div>
             <h3 class="record-title">Reasoning and Logic</h3>
@@ -1390,7 +1418,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="section-label">03 / SOURCES</div>
       <div class="method-grid">
         <h2 id="methodTitle">Archive notes.</h2>
-        <div class="method-copy"><p>This visible archive is a curated view of Joe Nasr’s projects, education and training evidence, publications and selected source surfaces. The fuller historical profile and project evidence remains preserved in the machine-readable identity and project registries.</p><p>Additional attributed music and professional references are collected in the <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">supporting evidence index</a>.</p></div>
+        <div class="method-copy"><p>This visible archive groups Joe Nasr’s public work by discipline. YouTube is represented by curated Showcase playlists rather than individual video cards; detailed project-level evidence remains preserved in the machine-readable project registry.</p><p>Additional attributed music and professional references are collected in the <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">supporting evidence index</a>.</p></div>
         <div class="method-stamp" aria-label="Archive updated 30 September 2026"><span>UPDATED</span><strong>30·09·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
     </section>
@@ -1417,171 +1445,145 @@ body.compact .record-url-wrap { margin-top: 8px; }
   <script>
 const records = [
   {
-    "title": "adidas TERREX Jackets MENA",
-    "description": "MENA commercial project for adidas TERREX with Joe Nasr documented in post-production.",
-    "url": "https://vimeo.com/794455766",
-    "source": "Vimeo / SEEME Production",
+    "title": "Showcase: My Creative Brand Advertising Projects",
+    "description": "Curated brand advertising work for producers, creative teams and commercial clients.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h",
+    "source": "YouTube Playlist",
     "category": "Commercials & Campaigns",
     "categories": [
       "Commercials & Campaigns"
     ],
     "keywords": [
-      "adidas",
-      "TERREX",
-      "commercial",
+      "creative direction",
+      "commercials",
+      "campaigns",
       "advertising",
-      "campaign",
-      "video",
-      "post-production",
-      "MENA"
-    ],
-    "status": "External"
-  },
-  {
-    "title": "Barakat | Live Fresh | Editing & Post-Production | Joe Nasr",
-    "description": "Commercial work for Barakat documenting editing and post-production.",
-    "url": "https://www.youtube.com/watch?v=KqJcBcVw6uE",
-    "source": "YouTube",
-    "category": "Commercials & Campaigns",
-    "categories": [
-      "Commercials & Campaigns"
-    ],
-    "keywords": [
-      "Barakat",
-      "Live Fresh",
-      "commercial",
-      "advertising",
-      "video",
-      "editing",
+      "brands",
+      "video production",
+      "producer",
+      "TVC",
       "post-production"
     ],
     "status": "Official"
   },
   {
-    "title": "Jotun Arabia | Kat LeBrasse | Stop-Motion Ad | Joe Nasr",
-    "description": "Stop-motion advertising work for Jotun Arabia featuring Kat LeBrasse.",
-    "url": "https://www.youtube.com/watch?v=fWh4ECK2Lxk",
-    "source": "YouTube",
+    "title": "Showcase: My Video Post-Production Brand Projects",
+    "description": "Curated branded video and post-production work.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfE_Ihsutz97VRDYCwJ05Ef",
+    "source": "YouTube Playlist",
     "category": "Commercials & Campaigns",
     "categories": [
-      "Commercials & Campaigns",
+      "Commercials & Campaigns"
+    ],
+    "keywords": [
+      "video",
+      "post-production",
+      "brands",
+      "commercials",
+      "advertising",
+      "editing",
+      "producer"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "Showcase: Some of My Side Video Editing Projects",
+    "description": "Selected video-editing work from additional professional and independent projects.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwldhHRatTQ9WbklYraDCJWcP",
+    "source": "YouTube Playlist",
+    "category": "Commercials & Campaigns",
+    "categories": [
+      "Commercials & Campaigns"
+    ],
+    "keywords": [
+      "video editing",
+      "post-production",
+      "editing",
+      "video",
+      "producer"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "Showcase: Some of My Audio Post-Production Projects",
+    "description": "Selected television, advertising and media audio post-production work.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
+    "source": "YouTube Playlist",
+    "category": "Commercials & Campaigns",
+    "categories": [
+      "Commercials & Campaigns"
+    ],
+    "keywords": [
+      "audio post-production",
+      "television",
+      "advertising",
+      "commercial",
+      "sound",
+      "post-production",
+      "producer"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "Showcase: Animated Infographics on a Budget!",
+    "description": "Curated animation and motion-graphics work.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j",
+    "source": "YouTube Playlist",
+    "category": "Animation & Motion",
+    "categories": [
       "Animation & Motion"
     ],
     "keywords": [
-      "Jotun Arabia",
-      "Kat LeBrasse",
-      "commercial",
-      "advertising",
-      "stop-motion",
       "animation",
+      "motion graphics",
+      "animated infographics",
+      "2D",
       "motion"
     ],
     "status": "Official"
   },
   {
-    "title": "Dubai Tourism & Culture | Tamara Jamal | Post-Production",
-    "description": "Dubai Tourism & Culture project documenting Joe Nasr’s post-production contribution.",
-    "url": "https://www.youtube.com/watch?v=c2nF-hRVRr0",
-    "source": "YouTube",
-    "category": "Commercials & Campaigns",
-    "categories": [
-      "Commercials & Campaigns"
-    ],
-    "keywords": [
-      "Dubai Tourism",
-      "DTCM",
-      "Tamara Jamal",
-      "campaign",
-      "video",
-      "post-production",
-      "Dubai"
-    ],
-    "status": "Official"
-  },
-  {
-    "title": "Dubai Tourism & Culture | Jumana Khan | Post-Production",
-    "description": "Dubai Tourism & Culture project documenting Joe Nasr’s post-production contribution.",
-    "url": "https://www.youtube.com/watch?v=jTQm-RiwLms",
-    "source": "YouTube",
-    "category": "Commercials & Campaigns",
-    "categories": [
-      "Commercials & Campaigns"
-    ],
-    "keywords": [
-      "Dubai Tourism",
-      "DTCM",
-      "Jumana Khan",
-      "campaign",
-      "video",
-      "post-production",
-      "Dubai"
-    ],
-    "status": "Official"
-  },
-  {
-    "title": "Dubai Tourism & Culture | Nilo | Post-Production",
-    "description": "Dubai Tourism & Culture project documenting Joe Nasr’s post-production contribution.",
-    "url": "https://www.youtube.com/watch?v=wb-qPpbYnb4",
-    "source": "YouTube",
-    "category": "Commercials & Campaigns",
-    "categories": [
-      "Commercials & Campaigns"
-    ],
-    "keywords": [
-      "Dubai Tourism",
-      "DTCM",
-      "Nilo",
-      "campaign",
-      "video",
-      "post-production",
-      "Dubai"
-    ],
-    "status": "Official"
-  },
-  {
-    "title": "Chopard Girls | After Effects Rotoscoping and Compositing",
-    "description": "Chopard post-production work documenting After Effects rotoscoping, animated masks, layering and compositing.",
-    "url": "https://www.youtube.com/watch?v=1opzhAEfFVQ",
-    "source": "YouTube",
+    "title": "Showcase: My 3D Work for Web3 Projects and Other Brands",
+    "description": "Curated 3D work across Web3 projects and branded visual production.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwleSabyHfPS6SF-pQGUsKXsu",
+    "source": "YouTube Playlist",
     "category": "Animation & Motion",
     "categories": [
-      "Animation & Motion",
-      "Commercials & Campaigns"
+      "Animation & Motion"
     ],
     "keywords": [
-      "Chopard",
-      "After Effects",
-      "rotoscoping",
-      "compositing",
-      "motion",
+      "3D",
       "animation",
-      "post-production",
-      "commercial"
+      "motion",
+      "Web3",
+      "brands",
+      "CGI"
     ],
     "status": "Official"
   },
   {
-    "title": "Milco Yoghurt | Where Is Milco? TVC | Music & Sound Design",
-    "description": "Milco television commercial documenting music composition, sound recording and sound design.",
-    "url": "https://www.youtube.com/watch?v=vcD7KReYYdE",
-    "source": "YouTube",
-    "category": "Commercials & Campaigns",
+    "title": "BTS Showcase: My Ad Retouching Work",
+    "description": "Behind-the-scenes advertising retouching and visual finishing work.",
+    "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcA8IciZr5pUhzZCFuKgDj2",
+    "source": "YouTube Playlist",
+    "category": "Graphic Design",
     "categories": [
+      "Graphic Design",
       "Commercials & Campaigns"
     ],
     "keywords": [
-      "Milco",
-      "TVC",
-      "television commercial",
-      "music composition",
-      "sound design",
-      "advertising"
+      "graphic design",
+      "retouching",
+      "advertising",
+      "visual design",
+      "compositing",
+      "design"
     ],
     "status": "Official"
   },
   {
-    "title": "@joenasrvisuals | Graphics, Animation & Design",
-    "description": "Joe Nasr’s public visual-work surface focused on graphic design, animation and visual experiments.",
+    "title": "TikTok - @joenasrvisuals",
+    "description": "Joe Nasr’s public visual-work surface focused on graphics, animation and design.",
     "url": "https://www.tiktok.com/@joenasrvisuals",
     "source": "TikTok",
     "category": "Graphic Design",
@@ -1590,8 +1592,8 @@ const records = [
       "Animation & Motion"
     ],
     "keywords": [
-      "graphic design",
       "graphics",
+      "graphic design",
       "visual design",
       "animation",
       "motion",
@@ -1600,8 +1602,8 @@ const records = [
     "status": "Official"
   },
   {
-    "title": "LinkedIn | Education & Training",
-    "description": "Education, academic engagement, guest lecturing and corporate-training evidence within Joe Nasr’s professional profile.",
+    "title": "LinkedIn - Joe Nasr",
+    "description": "Professional profile containing education, academic engagements, guest lecturing and corporate-training history.",
     "url": "https://www.linkedin.com/in/joenasrprofile",
     "source": "LinkedIn",
     "category": "Education & Training",
@@ -1610,17 +1612,17 @@ const records = [
     ],
     "keywords": [
       "education",
+      "academia",
       "teaching",
-      "training",
       "lecturer",
       "corporate trainer",
-      "academia",
-      "LinkedIn"
+      "training",
+      "professional experience"
     ],
     "status": "Official"
   },
   {
-    "title": "SlideShare | Joe Nasr Teaching Archive",
+    "title": "SlideShare - Joe Nasr Teaching Archive",
     "description": "Teaching presentations covering film production, camera fundamentals, editing, motion graphics, audio and social content creation.",
     "url": "https://www.slideshare.net/JoeNasr",
     "source": "SlideShare",
@@ -1632,18 +1634,18 @@ const records = [
       "education",
       "teaching",
       "training",
-      "SlideShare",
+      "presentations",
       "film production",
-      "editing",
-      "motion graphics"
+      "motion graphics",
+      "audio"
     ],
     "status": "Official"
   },
   {
-    "title": "SAE UAE | Design and Motion Graphics Mentorship",
+    "title": "LinkedIn - SAE UAE: Design and Motion Graphics Mentorship",
     "description": "SAE UAE institutional acknowledgment of Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma with HHEO and Reyada Centre.",
     "url": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
-    "source": "SAE UAE / LinkedIn",
+    "source": "SAE UAE",
     "category": "Education & Training",
     "categories": [
       "Education & Training"
@@ -1652,37 +1654,59 @@ const records = [
       "SAE UAE",
       "HHEO",
       "Reyada",
-      "mentorship",
       "education",
       "training",
-      "motion graphics",
-      "design"
+      "mentorship",
+      "design",
+      "motion graphics"
     ],
     "status": "External"
   },
   {
-    "title": "Visual Framework System App",
-    "description": "Visual reasoning and composition system built around nodes, semantic roles, provenance and interactive graph operations.",
-    "url": "https://github.com/Joenasriani/visual-framework-system-app",
+    "title": "GitHub - Joenasriani",
+    "description": "Public repositories documenting interactive prototypes, browser applications, experimental software and technical implementation.",
+    "url": "https://github.com/Joenasriani",
     "source": "GitHub",
     "category": "Interactive & Prototypes",
     "categories": [
       "Interactive & Prototypes"
     ],
     "keywords": [
-      "VFA",
-      "visual framework",
-      "interactive prototyping",
-      "reasoning",
-      "HCI",
-      "React",
-      "TypeScript"
+      "interactive",
+      "prototype",
+      "AI",
+      "XR",
+      "VR",
+      "games",
+      "Three.js",
+      "software",
+      "GitHub"
     ],
     "status": "Official"
   },
   {
-    "title": "Brick XR Builder",
-    "description": "WebXR building project centered on spatial creation, brick manipulation and immersive interaction.",
+    "title": "itch.io - Joe Nasr Games and XR",
+    "description": "Public collection of browser games, responsive interactive experiences, puzzles and WebXR experiments.",
+    "url": "https://joenasr.itch.io/",
+    "source": "itch.io",
+    "category": "Interactive & Prototypes",
+    "categories": [
+      "Interactive & Prototypes"
+    ],
+    "keywords": [
+      "interactive",
+      "prototype",
+      "XR",
+      "VR",
+      "games",
+      "WebXR",
+      "itch.io"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "itch.io - Brick XR Builder",
+    "description": "A WebXR building project developed around spatial creation and immersive interaction.",
     "url": "https://joenasr.itch.io/brickxr",
     "source": "itch.io",
     "category": "Interactive & Prototypes",
@@ -1693,16 +1717,15 @@ const records = [
       "XR",
       "VR",
       "WebXR",
-      "Three.js",
       "interactive",
       "prototype",
-      "game"
+      "Three.js"
     ],
     "status": "Official"
   },
   {
-    "title": "DIORAMA",
-    "description": "Isometric browser puzzle built around route logic, spatial clarity and direct interaction.",
+    "title": "itch.io - DIORAMA",
+    "description": "An isometric browser puzzle built around route logic, spatial clarity and accessible click-to-move interaction.",
     "url": "https://joenasr.itch.io/diorama",
     "source": "itch.io",
     "category": "Interactive & Prototypes",
@@ -1719,8 +1742,8 @@ const records = [
     "status": "Official"
   },
   {
-    "title": "Pathway: Rotate. Reflect. Light.",
-    "description": "Responsive optical logic game based on rotating lenses and reflecting a beam toward a target.",
+    "title": "itch.io - Pathway: Rotate. Reflect. Light.",
+    "description": "A responsive optical logic game where players rotate glass lenses to reflect a beam toward a target bulb.",
     "url": "https://joenasr.itch.io/pathway",
     "source": "itch.io",
     "category": "Interactive & Prototypes",
@@ -1737,8 +1760,8 @@ const records = [
     "status": "Official"
   },
   {
-    "title": "Ascension",
-    "description": "Minimalist rotation-based browser game designed around readable spatial progression.",
+    "title": "itch.io - Ascension",
+    "description": "A minimalist rotation-based browser game designed for readable spatial progression across desktop and mobile.",
     "url": "https://joenasr.itch.io/ascension",
     "source": "itch.io",
     "category": "Interactive & Prototypes",
@@ -1755,20 +1778,77 @@ const records = [
     "status": "Official"
   },
   {
-    "title": "Roundtable AI",
-    "description": "Multi-perspective reasoning prototype using multiple disciplinary lenses and synthesis.",
-    "url": "https://github.com/Joenasriani/roundtable_ai",
-    "source": "GitHub",
+    "title": "itch.io - Quantum Entanglement",
+    "description": "A responsive science-inspired logic puzzle created using HTML5, JavaScript and Web Audio.",
+    "url": "https://joenasr.itch.io/quantum-entanglement",
+    "source": "itch.io",
     "category": "Interactive & Prototypes",
     "categories": [
       "Interactive & Prototypes"
     ],
     "keywords": [
-      "AI",
-      "reasoning",
+      "game",
+      "interactive",
       "prototype",
-      "interactive system",
-      "multi-perspective"
+      "science",
+      "HTML5",
+      "JavaScript"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "itch.io - Routing Protocol",
+    "description": "A mobile-friendly path-validation puzzle inspired by packets, servers, network nodes and routing logic.",
+    "url": "https://joenasr.itch.io/routing-protocol",
+    "source": "itch.io",
+    "category": "Interactive & Prototypes",
+    "categories": [
+      "Interactive & Prototypes"
+    ],
+    "keywords": [
+      "game",
+      "interactive",
+      "prototype",
+      "routing",
+      "network",
+      "browser"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "itch.io - Klotski: 3D Sliding Puzzle",
+    "description": "A browser-based 3D block puzzle with direct manipulation, an orbiting camera and procedural tactile audio.",
+    "url": "https://joenasr.itch.io/klotski",
+    "source": "itch.io",
+    "category": "Interactive & Prototypes",
+    "categories": [
+      "Interactive & Prototypes"
+    ],
+    "keywords": [
+      "game",
+      "3D",
+      "interactive",
+      "prototype",
+      "puzzle",
+      "browser"
+    ],
+    "status": "Official"
+  },
+  {
+    "title": "itch.io - In a Stickman’s World",
+    "description": "A minimalist black-and-white action platformer for browser, desktop and mobile.",
+    "url": "https://joenasr.itch.io/in-a-stickmans-world",
+    "source": "itch.io",
+    "category": "Interactive & Prototypes",
+    "categories": [
+      "Interactive & Prototypes"
+    ],
+    "keywords": [
+      "game",
+      "interactive",
+      "prototype",
+      "platformer",
+      "browser"
     ],
     "status": "Official"
   },
@@ -1849,31 +1929,13 @@ const records = [
 
 const categories = ["All","Commercials & Campaigns","Animation & Motion","Graphic Design","Education & Training","Interactive & Prototypes","Books & Publications"];
 const categoryOrder = categories.slice(1);
-const categoryRoutes = {
-  "Commercials & Campaigns": {
-    "label": "YouTube playlists ↗",
-    "url": "https://www.youtube.com/@joenasr/playlists"
-  },
-  "Animation & Motion": {
-    "label": "YouTube playlists ↗",
-    "url": "https://www.youtube.com/@joenasr/playlists"
-  },
-  "Graphic Design": {
-    "label": "Visual archive ↗",
-    "url": "https://www.tiktok.com/@joenasrvisuals"
-  },
-  "Education & Training": {
-    "label": "Teaching archive ↗",
-    "url": "https://www.slideshare.net/JoeNasr"
-  },
-  "Interactive & Prototypes": {
-    "label": "Playable work ↗",
-    "url": "https://joenasr.itch.io/"
-  },
-  "Books & Publications": {
-    "label": "Bookstore ↗",
-    "url": "https://reasoning-and-logic.vercel.app/"
-  }
+const categoryMeta = {
+  "Commercials & Campaigns": "VIDEO · POST-PRODUCTION · BRAND ADVERTISING",
+  "Animation & Motion": "ANIMATION · MOTION GRAPHICS · 3D",
+  "Graphic Design": "GRAPHICS · VISUAL DESIGN · RETOUCHING",
+  "Education & Training": "EDUCATION · TEACHING · CORPORATE TRAINING",
+  "Interactive & Prototypes": "XR · GAMES · INTERACTIVE SYSTEMS",
+  "Books & Publications": "BOOKS · RESEARCH · FRAMEWORKS"
 };
 const featuredOrder = records.map(record => record.title);
 const featuredRank = new Map(featuredOrder.map((title, index) => [title, index]));
@@ -1927,18 +1989,11 @@ function appendGroupLabel(categoryName) {
   const label = document.createElement("div");
   label.className = "archive-group-label";
   label.dataset.archiveGroup = categoryName;
-  const text = document.createElement("span");
-  text.textContent = categoryName;
-  label.appendChild(text);
-  const route = categoryRoutes[categoryName];
-  if (route) {
-    const link = document.createElement("a");
-    link.href = route.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = route.label;
-    label.appendChild(link);
-  }
+  const title = document.createElement("strong");
+  title.textContent = categoryName;
+  const meta = document.createElement("span");
+  meta.textContent = categoryMeta[categoryName] || "";
+  label.append(title, meta);
   archiveList.appendChild(label);
 }
 

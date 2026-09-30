@@ -33,7 +33,7 @@ Two fields must be interpreted separately. `evidence_class` records how well the
 
 Projects, brands, clients, agencies, productions, books and ventures are related entities. They are not Joe Nasr Person sameAs identities.
 
-30 September 2026 taxonomy update: the human-facing Signals archive was reduced to a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities.
+30 September 2026 taxonomy update: the human-facing Signals archive was reduced to a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities. The visible YouTube routing uses Joe Nasr’s curated Showcase playlists rather than individual video/project links; project-level YouTube evidence remains in the machine-readable project registry for retrieval and provenance.
 
 29 September 2026 project updates: Chopard Girls was strengthened by refreshed YouTube process metadata; Dubai Tourism lookbook metadata now explicitly names Joe Nasr in post-production on individual videos; Milco TVC and H&S Pitch Music were added from the known Joe Ribal Nasr Stage32 reel; EMT - High tech prod remains recovery-only because the retrieved artifact does not state Joe's role.
 
