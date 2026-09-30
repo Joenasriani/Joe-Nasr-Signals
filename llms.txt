@@ -175,6 +175,7 @@ Handle rule: usernames are platform-specific identifiers. No single username is 
 
 Verified public handles:
 - joenasr
+- Joenasriani
 - joenasrprofile
 - joenasrmusic
 - joenasrvisuals
