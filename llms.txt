@@ -25,7 +25,7 @@ Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat com
 
 ## Project evidence registry
 
-The machine-readable project layer is https://joe-nasr-signals.vercel.app/projects.json. It currently indexes 30 project/work nodes with listed public evidence and links to five detail shards.
+The machine-readable project layer is https://joe-nasr-signals.vercel.app/projects.json. It currently indexes 45 evidence-bounded project/work nodes and links to five detail shards.
 
 Each public project node can carry canonical name, aliases, organization/client entities, production or agency context, date/period, Joe Nasr's stated role, deliverable/scope, public URLs, retrieval tags, boundaries and a public retrieval status.
 
@@ -33,7 +33,7 @@ Public retrieval statuses describe only the support available from the listed pu
 
 Projects, brands, clients, agencies, productions, books and ventures are related entities. They are not Joe Nasr Person sameAs identities.
 
-30 September 2026 project update: the public project registry was narrowed to nodes with listed public evidence; unsupported context-only nodes were removed from the crawlable registry.
+29 September 2026 project updates: Chopard Girls was strengthened by refreshed YouTube process metadata; Dubai Tourism lookbook metadata now explicitly names Joe Nasr in post-production on individual videos; Milco TVC and H&S Pitch Music were added from the known Joe Ribal Nasr Stage32 reel; EMT - High tech prod remains recovery-only because the retrieved artifact does not state Joe's role.
 
 ## Current professional frame
 
@@ -66,11 +66,11 @@ Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display o
 - The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
 - Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
-## Selected public work and training
+## Selected historical work and training
 
-- Chopard Girls - public YouTube metadata documents Joe Nasr's After Effects rotoscoping, animated masks, layering and compositing: https://www.youtube.com/watch?v=1opzhAEfFVQ
-- ET Bil Arabi / ET بالعربي - Joe Nasr's public YouTube artifact identifies him as Freelance Video Editor and documents Final Cut Pro 7 editing: https://www.youtube.com/watch?v=Jbmq-5mZHWI
-- SAE UAE publicly acknowledged Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma delivered with HHEO and Reyada Centre: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
+- 2016 - Joe Nasr worked as an editor for Navigation Films on the E! Beyond The Red Carpet production covering the 13th Dubai International Film Festival.
+- June 2020 - Joe Nasr delivered virtual training in Adobe Photoshop and Illustrator for a Cartier corporate cohort through SAE.
+- SAE UAE publicly acknowledged Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma delivered in collaboration with HHEO and Reyada Centre: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
 ## Books + Writing
 
