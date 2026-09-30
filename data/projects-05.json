@@ -27,7 +27,9 @@
         "experimental"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0274",
@@ -55,7 +57,9 @@
         "identity"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0273",
@@ -78,7 +82,9 @@
         "evidence"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0258",
@@ -103,7 +109,9 @@
         "Carely Us"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0252",
@@ -126,7 +134,9 @@
         "structure"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0331",
@@ -157,7 +167,9 @@
         "TV"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0256",
@@ -186,7 +198,9 @@
         "compositing"
       ],
       "update_note": "Promoted 2026-09-29 after current YouTube metadata explicitly documented Joe's After Effects rotoscoping, animated masks, layering and compositing.",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "NS-NEW-20260929-001",
@@ -217,7 +231,9 @@
         "Stage32"
       ],
       "update_note": "Added 2026-09-29 from the known Joe Ribal Nasr Stage32 reel.",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "NS-NEW-20260929-002",
@@ -247,7 +263,9 @@
         "Stage32"
       ],
       "update_note": "Added 2026-09-29 from the known Joe Ribal Nasr Stage32 reel.",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ]
 }
