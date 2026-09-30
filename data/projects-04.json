@@ -27,7 +27,9 @@
         "composer"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0297",
@@ -54,7 +56,9 @@
         "e-commerce"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0266",
@@ -80,7 +84,9 @@
         "product"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0278",
@@ -109,7 +115,9 @@
         "current"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0277",
@@ -132,7 +140,9 @@
         "prototype"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0271",
@@ -155,7 +165,9 @@
         "local app"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0276",
@@ -181,7 +193,9 @@
         "spatial"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0270",
@@ -204,7 +218,9 @@
         "interaction"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0275",
@@ -227,7 +243,9 @@
         "XR"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ]
 }
