@@ -138,7 +138,24 @@
                 "games_xr"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "selected_evidence": [
+              {
+                "name": "Quest ReQuest VR",
+                "role": "Independent Meta Quest content and community ecosystem",
+                "url": "https://linktr.ee/questrequestvr",
+                "scope": [
+                  "Meta Quest",
+                  "VR",
+                  "XR",
+                  "gameplay",
+                  "reviews",
+                  "workshops",
+                  "community"
+                ],
+                "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership."
+              }
+            ]
           },
           {
             "name": "AI & Creative Technology",
@@ -502,6 +519,15 @@
       "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder",
       "parent_entity": "apex_innovate",
       "url": "https://robocreate.manus.space/"
+    },
+    "quest_request_vr": {
+      "name": "Quest ReQuest VR",
+      "type": "independent_xr_content_and_community_ecosystem",
+      "relationship": "Joe Nasr creator/operator",
+      "url": "https://linktr.ee/questrequestvr",
+      "category": "XR + Games",
+      "description": "Independent Meta Quest-focused ecosystem spanning VR/XR content, gameplay, reviews, workshops and community resources.",
+      "affiliation_note": "Independent initiative; not an official Meta property and no Meta partnership is implied."
     }
   },
   "category_routes": {
@@ -1337,6 +1363,38 @@
         "Joe Nasr Mixcloud": "HIGH",
         "Joe Nasr music": "LOW"
       }
+    },
+    {
+      "id": "quest_request_vr",
+      "name": "Quest ReQuest VR",
+      "platform": "Linktree / multi-platform ecosystem",
+      "handle": "questrequestvr",
+      "url": "https://linktr.ee/questrequestvr",
+      "category": [
+        "XR + Games",
+        "Interactive",
+        "VR"
+      ],
+      "subtopics": [
+        "Meta Quest",
+        "VR",
+        "XR",
+        "gameplay",
+        "reviews",
+        "workshops",
+        "community"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CREATOR_OPERATED_ECOSYSTEM",
+      "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership.",
+      "query_relevance": {
+        "Joe Nasr Meta Quest": "HIGH",
+        "Joe Nasr VR": "HIGH",
+        "Joe Nasr XR": "HIGH",
+        "Quest ReQuest VR": "HIGH"
+      }
     }
   ],
   "query_routes": {
@@ -1409,7 +1467,8 @@
         "itch_io",
         "github",
         "gamebrain",
-        "youtube"
+        "youtube",
+        "quest_request_vr"
       ]
     },
     "visual_design": {
