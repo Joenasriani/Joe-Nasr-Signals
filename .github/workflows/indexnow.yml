@@ -1,0 +1,82 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "identity.json"
+      - "llms.txt"
+      - "projects.json"
+      - "data/**"
+      - "v2/games.html"
+      - "v2/games-development.html"
+      - "pre-institutional-human-order.html"
+      - "sitemap.xml"
+
+permissions:
+  contents: read
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Build changed public URL list
+        id: urls
+        shell: bash
+        run: |
+          set -euo pipefail
+          before="${{ github.event.before }}"
+          current="${{ github.sha }}"
+          if [[ "$before" =~ ^0+$ ]]; then
+            changed="$(git show --pretty='' --name-only "$current")"
+          else
+            changed="$(git diff --name-only "$before" "$current")"
+          fi
+
+          urls=()
+          add_url() {
+            local u="$1"
+            for existing in "${urls[@]:-}"; do
+              [[ "$existing" == "$u" ]] && return
+            done
+            urls+=("$u")
+          }
+
+          while IFS= read -r file; do
+            case "$file" in
+              index.html|identity.json|llms.txt|projects.json|data/*|sitemap.xml)
+                add_url "https://joe-nasr-signals.vercel.app/"
+                ;;
+              v2/games.html)
+                add_url "https://joe-nasr-signals.vercel.app/v2/games.html"
+                ;;
+              v2/games-development.html)
+                add_url "https://joe-nasr-signals.vercel.app/v2/games-development.html"
+                ;;
+              pre-institutional-human-order.html)
+                add_url "https://joe-nasr-signals.vercel.app/pre-institutional-human-order.html"
+                ;;
+            esac
+          done <<< "$changed"
+
+          if [[ ${#urls[@]} -eq 0 ]]; then
+            echo "payload=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          json_urls="$(printf '%s\n' "${urls[@]}" | jq -R . | jq -s .)"
+          payload="$(jq -nc             --arg host "joe-nasr-signals.vercel.app"             --arg key "4f2a8c9d71b64e35a0f3c8d92e7b1a56"             --arg keyLocation "https://joe-nasr-signals.vercel.app/4f2a8c9d71b64e35a0f3c8d92e7b1a56.txt"             --argjson urlList "$json_urls"             '{host:$host,key:$key,keyLocation:$keyLocation,urlList:$urlList}')"
+
+          echo "payload=$payload" >> "$GITHUB_OUTPUT"
+
+      - name: Submit changed URLs to IndexNow
+        if: steps.urls.outputs.payload != ''
+        env:
+          PAYLOAD: ${{ steps.urls.outputs.payload }}
+        run: |
+          curl --fail-with-body --retry 3             -H "Content-Type: application/json; charset=utf-8"             -d "$PAYLOAD"             "https://api.indexnow.org/indexnow"
