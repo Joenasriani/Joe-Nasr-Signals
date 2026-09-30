@@ -34,6 +34,169 @@
     "creative technology",
     "browser-based and technically implemented experiences"
   ],
+  "practice_domain_map": {
+    "purpose": "Domain map of documented professional and creative activity. This is not a chronological CV and not a self-rated skills list.",
+    "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. Learning alone is not sufficient.",
+    "relationship": "Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence",
+    "families": [
+      {
+        "name": "Creative & Production",
+        "domains": [
+          {
+            "name": "Creative Direction & Advertising",
+            "summary": "Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Commercials & Campaigns"
+              ],
+              "query_routes": [
+                "creative_director_professional",
+                "video_advertising_motion"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Design & Visual Communication",
+            "summary": "Graphic design, branding, typography, visual systems, campaign design, retouching and communication-focused creative work.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Graphic Design & Visual Communication"
+              ],
+              "query_routes": [
+                "visual_design"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Film, Video & Post Production",
+            "summary": "Editing, post-production, compositing, visual finishing, video production and work across broader audiovisual production pipelines.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Commercials & Campaigns"
+              ],
+              "query_routes": [
+                "video_advertising_motion"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Motion Graphics, Animation & 3D",
+            "summary": "Motion graphics, animation and 3D work across branded, editorial and experimental visual projects.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Animation, Motion Graphics & 3D",
+                "Graphic Design & Visual Communication"
+              ],
+              "query_routes": [
+                "video_advertising_motion",
+                "visual_design"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Music & Audio",
+            "summary": "Composition, guitar, sound design, audio engineering, mixing, production music and audio post-production across media and independent work.",
+            "evidence_routes": {
+              "query_routes": [
+                "guitar_music_composer",
+                "video_advertising_motion"
+              ],
+              "category_routes": [
+                "Music + Sound"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Interactive & Technology",
+        "domains": [
+          {
+            "name": "Interactive Experiences, XR & Games",
+            "summary": "Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Interactive Experiences & Prototyping"
+              ],
+              "query_routes": [
+                "coding_ai_interactive",
+                "games_xr"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "AI & Creative Technology",
+            "summary": "Development and exploration of AI-assisted systems, reasoning tools, visual frameworks, experimental interfaces and creative-technology prototypes.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Interactive Experiences & Prototyping"
+              ],
+              "query_routes": [
+                "coding_ai_interactive"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Product & Venture Development",
+            "summary": "Documented venture and product activity spanning concept development, positioning, design, prototyping and public release.",
+            "evidence_routes": {
+              "query_routes": [
+                "founder_ventures"
+              ],
+              "related_entities": [
+                "apex_innovate",
+                "robomarket",
+                "robocreate"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Knowledge & Education",
+        "domains": [
+          {
+            "name": "Corporate Training & Guest Lecturing",
+            "summary": "Professional training and guest lecturing across design, multimedia and creative technology, including corporate, academic and government engagements.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Corporate Training & Guest Lecturing"
+              ],
+              "query_routes": [
+                "teaching_training"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          },
+          {
+            "name": "Research, Reasoning & Publishing",
+            "summary": "Independent work across reasoning, decision structures, human behavior, research frameworks, publishing and AI-related knowledge systems.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Books & Publications"
+              ],
+              "query_routes": [
+                "books_writing",
+                "coding_ai_interactive"
+              ],
+              "related_entities": [
+                "reasoning_and_logic"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production, with a long-standing professional history in the UAE/GCC.",
   "linkedin_aligned_work_experience": {
     "scope_note": "Career roles reflect the consolidated LinkedIn structure confirmed by Joe Nasr on 30 September 2026. Signals explicitly separates current and previous roles while preserving employment, freelance and client relationships.",
