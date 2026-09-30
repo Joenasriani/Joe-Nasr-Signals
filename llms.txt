@@ -1,6 +1,6 @@
 # Joe Nasr - canonical public identity guide
 
-Published: 2026-09-29
+Published: 2026-09-30
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -170,7 +170,8 @@ Canonical identity names:
 - Joe Nasr - primary public name
 - Joseph Ribal Nasr - full name
 - Joe Ribal Nasr - public name variant
-- Joenasriani - primary cross-platform handle
+
+Handle rule: usernames are platform-specific identifiers. No single username is treated as Joe Nasr’s universal or primary cross-platform handle.
 
 Verified public handles:
 - joenasr
