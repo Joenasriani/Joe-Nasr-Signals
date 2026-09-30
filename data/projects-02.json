@@ -38,7 +38,9 @@
         "2019"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0311",
@@ -69,7 +71,9 @@
         "2018"
       ],
       "update_note": "Current YouTube descriptions explicitly state Post-Production: Joe Nasr. Item dates currently resolve as Tamara Jamal 2018; Jumana Khan 2019; Nilo 2019.",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0309",
@@ -96,7 +100,9 @@
         "post-production"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0291",
@@ -120,7 +126,9 @@
         "Premiere"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0288",
@@ -143,7 +151,9 @@
         "jewelry"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0290",
@@ -167,7 +177,9 @@
         "audio"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0287",
@@ -196,7 +208,9 @@
         "orchestral composition"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0260",
@@ -220,7 +234,9 @@
         "2023"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0248",
@@ -242,7 +258,9 @@
         "social"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     }
   ]
 }
