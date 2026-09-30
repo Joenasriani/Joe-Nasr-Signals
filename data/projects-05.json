@@ -4,7 +4,7 @@
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 5,
-  "project_count": 9,
+  "project_count": 8,
   "projects": [
     {
       "id": "SYN-0272",
@@ -127,37 +127,6 @@
       ],
       "update_note": null,
       "public_retrieval_status": "PUBLICLY_SUPPORTED"
-    },
-    {
-      "id": "SYN-0331",
-      "name": "E! Beyond The Red Carpet: The 13th Dubai International Film Festival",
-      "aliases": [
-        "E! Beyond The Red Carpet",
-        "E! DIFF 2016",
-        "13th Dubai International Film Festival"
-      ],
-      "organization": "Navigation Films / E! / NBCUniversal",
-      "client": "E! / NBCUniversal",
-      "production_or_agency": "Navigation Films",
-      "period": "December 2016",
-      "joe_role": "Editor",
-      "deliverable": "Editor role explicitly listed on call sheet; direct correspondence acknowledges project contribution and invoice/payment workflow.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
-      "public_urls": [],
-      "boundaries": [
-        "Do not call this a verified public/end-screen credit until a public credit frame or equivalent public source is recovered."
-      ],
-      "retrieval_tags": [
-        "E!",
-        "NBCUniversal",
-        "Navigation Films",
-        "DIFF",
-        "editor",
-        "2016",
-        "TV"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
     },
     {
       "id": "SYN-0256",
