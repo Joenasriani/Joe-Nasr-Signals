@@ -1552,6 +1552,11 @@
       "label": "ICF",
       "url": "https://reasoning-and-logic.vercel.app/icf-ai",
       "reason": "Individual publication hidden from the human-facing Signals archive; preserved for machine retrieval/provenance. Public routing is through the Reasoning and Logic bookstore."
+    },
+    {
+      "label": "Showcase: Some of My Audio Post-Production Projects",
+      "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
+      "reason": "Legitimate historical audio-post evidence retained for machine retrieval; no longer used as the visible Media Music Composition route."
     }
   ]
 }
