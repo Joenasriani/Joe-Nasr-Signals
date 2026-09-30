@@ -234,9 +234,6 @@
       "deliverable": "Joe provided content/strategy with at least three weeks of material; team members explicitly referred to graphics Joe created and requested source assets/revisions.",
       "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
       "public_urls": [],
-      "boundaries": [
-        "Private working links should not be published."
-      ],
       "retrieval_tags": [
         "AVA",
         "GLO",
