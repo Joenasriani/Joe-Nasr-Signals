@@ -4,7 +4,7 @@
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 1,
-  "project_count": 9,
+  "project_count": 8,
   "projects": [
     {
       "id": "SYN-0319",
@@ -253,30 +253,6 @@
       ],
       "update_note": null,
       "public_retrieval_status": "PUBLICLY_SUPPORTED"
-    },
-    {
-      "id": "SYN-0257",
-      "name": "NYX Cosmetics Dubai",
-      "aliases": [],
-      "organization": "Capital D Studio",
-      "client": "NYX Professional Makeup",
-      "production_or_agency": "Capital D Studio",
-      "period": "Historical; exact campaign date unresolved",
-      "joe_role": "Video/multimedia/post-production contribution; exact credit needs source recovery",
-      "deliverable": null,
-      "evidence_summary": "Existing project cleanup record links NYX Dubai with Capital D provenance.",
-      "public_urls": [],
-      "boundaries": [
-        "Do not over-specify exact deliverable or job title until asset/source is rechecked."
-      ],
-      "retrieval_tags": [
-        "beauty",
-        "NYX",
-        "Capital D",
-        "commercial"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
     }
   ]
 }
