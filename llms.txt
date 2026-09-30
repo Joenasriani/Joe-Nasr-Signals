@@ -63,6 +63,7 @@ Creative & Production:
 
 Interactive & Technology:
 - Interactive Experiences, XR & Games
+  - Quest ReQuest VR — independent Meta Quest content and community ecosystem covering VR/XR content, gameplay, reviews, workshops and community resources. Canonical public route: https://linktr.ee/questrequestvr. Do not imply official Meta ownership or partnership.
 - AI & Creative Technology
 - Product & Venture Development
 
