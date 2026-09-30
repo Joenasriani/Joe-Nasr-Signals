@@ -10,7 +10,7 @@
     "identity_record": "https://joe-nasr-signals.vercel.app/identity.json"
   },
   "registry_role": "Machine-readable public project/evidence layer. Project entities are related to Joe Nasr but are not Person sameAs identities.",
-  "project_count": 45,
+  "project_count": 47,
   "detail_files": [
     "https://joe-nasr-signals.vercel.app/data/projects-01.json",
     "https://joe-nasr-signals.vercel.app/data/projects-02.json",
@@ -473,6 +473,30 @@
       "aliases": [
         "H&S Pitch Music",
         "H&S TVC pitch music"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-0332",
+      "name": "Manipulation: The Fool and the Wise",
+      "aliases": [
+        "Manipulation — The Fool and the Wise",
+        "Manipulation"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-0333",
+      "name": "ICF-AI",
+      "aliases": [
+        "ICF",
+        "ICF-AI Reference Edition"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
