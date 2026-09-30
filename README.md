@@ -151,7 +151,10 @@ The following verified names and handles resolve to the same Joe Nasr identity w
 - Joe Nasr - primary public name
 - Joseph Ribal Nasr - full name
 - Joe Ribal Nasr - public name variant
-- Joenasriani - primary cross-platform handle
+Handles are platform-specific; no single username is treated as the universal or primary cross-platform handle.
+
+Verified public handles include:
+- Joenasriani
 - joenasr
 - joenasrprofile
 - joenasrmusic
