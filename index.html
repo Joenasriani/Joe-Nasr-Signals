@@ -179,7 +179,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   padding: clamp(50px, 8vh, 108px) var(--pad) 0;
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(260px, .55fr);
+  grid-template-columns: minmax(0, 1fr);
   column-gap: clamp(30px, 7vw, 120px);
   align-content: center;
 }
@@ -240,50 +240,6 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   letter-spacing: .12em;
   text-transform: uppercase;
 }
-.identity-disc {
-  align-self: center;
-  justify-self: center;
-  width: min(30vw, 390px);
-  aspect-ratio: 1;
-  position: relative;
-  display: grid;
-  place-items: center;
-}
-.disc-core {
-  width: 39%;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  background: var(--ink);
-  color: var(--paper);
-  border-radius: 50%;
-  font-size: clamp(18px, 2.2vw, 34px);
-  font-weight: 950;
-  line-height: .9;
-  letter-spacing: -.05em;
-  z-index: 3;
-}
-.disc-ring { position: absolute; border-radius: 50%; border: 1px solid var(--ink); }
-.ring-one { inset: 8%; animation: spin 24s linear infinite; }
-.ring-one::before { content: ""; position: absolute; width: 14px; height: 14px; background: var(--signal); border-radius: 50%; top: 12%; left: 11%; }
-.ring-two { inset: 24%; border-style: dashed; animation: spinReverse 18s linear infinite; }
-.disc-label {
-  position: absolute;
-  padding: 5px 7px;
-  color: var(--paper);
-  background: var(--blue);
-  font-size: clamp(7px, .7vw, 9px);
-  font-weight: 900;
-  line-height: 1;
-  letter-spacing: .1em;
-  white-space: nowrap;
-  z-index: 2;
-}
-.label-one { left: 1%; top: 13%; transform: rotate(-7deg); }
-.label-two { right: 0; top: 15%; transform: rotate(7deg); background: var(--signal); color: var(--ink); }
-.label-three { left: 0; bottom: 12%; transform: rotate(6deg); background: var(--ink); }
-.label-four { right: 0; bottom: 11%; transform: rotate(-6deg); background: var(--blue); }
 .hero-meta {
   grid-column: 1 / -1;
   display: grid;
@@ -642,8 +598,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
 .toast.visible { opacity: 1; transform: translate(-50%, 0); }
 
 @keyframes ticker { to { transform: translateX(-50%); } }
-@keyframes spin { to { transform: rotate(360deg); } }
-@keyframes spinReverse { to { transform: rotate(-360deg); } }
 
 .search-profile-section,.faq-section{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
 .search-profile-section{padding-top:90px;padding-bottom:clamp(90px,11vw,150px);border-top:1px solid var(--line-strong)}
@@ -664,7 +618,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .site-header { grid-template-columns: 1fr auto; }
   .header-nav { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 80px; }
-  .identity-disc { width: min(64vw, 380px); margin: 70px auto 10px; }
   .hero-meta { margin-top: 60px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-heading { grid-template-columns: 1fr; align-items: start; }
@@ -723,7 +676,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 }
 
 @media print {
-  .site-header, .archive-controls, .filter-row, .record-actions, .signal-ticker, .identity-disc, .cursor-orbit, .page-grid, .toast { display: none !important; }
+  .site-header, .archive-controls, .filter-row, .record-actions, .signal-ticker, .cursor-orbit, .page-grid, .toast { display: none !important; }
   body { background: white; }
   .hero { min-height: auto; padding-top: 30px; }
   .hero h1 { font-size: 80px; }
@@ -1135,16 +1088,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <span><b>Name variant</b> Joe Ribal Nasr</span>
           <span><b>Handles</b> Platform-specific verified profiles</span>
         </div>
-      </div>
-
-      <div class="identity-disc" aria-hidden="true">
-        <div class="disc-core">JOE<br>NASR</div>
-        <div class="disc-ring ring-one"></div>
-        <div class="disc-ring ring-two"></div>
-        <span class="disc-label label-one">ADVERTISING</span>
-        <span class="disc-label label-two">MULTIMEDIA</span>
-        <span class="disc-label label-three">INTERACTIVE</span>
-        <span class="disc-label label-four">TECHNOLOGY</span>
       </div>
 
       <div class="hero-meta">
