@@ -402,8 +402,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .filter-button[aria-pressed="true"],
 .filter-button:hover { background: var(--acid); color: var(--ink); border-color: var(--ink); }
 .result-status { display: flex; justify-content: space-between; min-height: 34px; color: var(--muted); font: 700 10px/1.4 "Courier New", monospace; letter-spacing: .12em; text-transform: uppercase; }
-.result-status button { border: 0; padding: 0; background: transparent; color: var(--signal); font-weight: 800; cursor: pointer; text-decoration: underline; }
-.archive-list { border-top: 2px solid var(--ink); }
+.archive-list { border-top: 0; }
 .archive-group-label {
   padding: 19px 0 7px;
   border-bottom: 1px solid var(--line);
@@ -424,7 +423,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   gap: 24px;
   align-items: start;
   padding: 26px 0;
-  border-bottom: 1px solid var(--line-strong);
+  border-bottom: 0;
   position: relative;
   transition: padding .2s ease, background .2s ease;
 }
@@ -1085,7 +1084,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
 
       <div class="filter-row" id="filterRow" aria-label="Filter references by discipline"></div>
-      <div class="result-status" aria-live="polite"><span id="resultCount">25 references</span><button id="clearButton" type="button" hidden>Clear filters</button></div>
+      <div class="result-status" aria-live="polite"><span id="resultCount">25 references</span></div>
       <div class="archive-list" id="archiveList">
         <div class="archive-group-label" data-archive-group="Commercials &amp; Campaigns"><strong>Commercials &amp; Campaigns</strong></div>
         <article class="archive-record" id="signal-001">
@@ -1941,7 +1940,6 @@ const searchInput = document.querySelector("#searchInput");
 const sortSelect = document.querySelector("#sortSelect");
 const resultCount = document.querySelector("#resultCount");
 const emptyState = document.querySelector("#emptyState");
-const clearButton = document.querySelector("#clearButton");
 const toast = document.querySelector("#toast");
 const heroCount = document.querySelector("#heroCount");
 
@@ -2049,7 +2047,6 @@ function render() {
 
   resultCount.textContent = `${filtered.length} ${filtered.length === 1 ? "reference" : "references"}`;
   emptyState.hidden = filtered.length !== 0;
-  clearButton.hidden = state.query === "" && state.category === "All" && state.sort === "featured";
 }
 
 let toastTimer;
@@ -2062,16 +2059,6 @@ function showToast(message) {
 
 searchInput.addEventListener("input", event => { state.query = event.target.value; render(); });
 sortSelect.addEventListener("change", event => { state.sort = event.target.value; render(); });
-clearButton.addEventListener("click", () => {
-  state.query = "";
-  state.category = "All";
-  state.sort = "featured";
-  searchInput.value = "";
-  sortSelect.value = "featured";
-  filterRow.querySelectorAll("button").forEach(item => item.setAttribute("aria-pressed", item.dataset.category === "All" ? "true" : "false"));
-  render();
-});
-
 document.addEventListener("keydown", event => {
   const target = event.target;
   const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
