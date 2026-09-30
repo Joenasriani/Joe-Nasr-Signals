@@ -98,8 +98,8 @@
             }
           },
           {
-            "name": "Music & Audio",
-            "summary": "Composition, guitar, sound design, audio engineering, mixing, production music and audio post-production across media and independent work.",
+            "name": "Media Music Composition",
+            "summary": "Original music composition for advertising, events and media, alongside broader documented music and audio work.",
             "evidence_routes": {
               "query_routes": [
                 "guitar_music_composer",
@@ -112,7 +112,14 @@
               "archive_categories": [
                 "Music & Audio"
               ]
-            }
+            },
+            "selected_evidence": [
+              {
+                "name": "Khalifa Award event music",
+                "contribution": "Event main theme, awards theme and reception music",
+                "evidence_basis": "User-supplied professional record; preserve as a documented claim pending independent source recovery."
+              }
+            ]
           }
         ]
       },
@@ -1545,6 +1552,11 @@
       "label": "ICF",
       "url": "https://reasoning-and-logic.vercel.app/icf-ai",
       "reason": "Individual publication hidden from the human-facing Signals archive; preserved for machine retrieval/provenance. Public routing is through the Reasoning and Logic bookstore."
+    },
+    {
+      "label": "Showcase: Some of My Audio Post-Production Projects",
+      "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
+      "reason": "Legitimate historical audio-post evidence retained for machine retrieval; no longer used as the visible Media Music Composition route."
     }
   ]
 }
