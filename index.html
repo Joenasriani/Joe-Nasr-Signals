@@ -1244,8 +1244,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <div class="record-number">01</div>
           <div class="record-main">
             <div class="record-topline"></div>
-            <h3 class="record-title">Showcase: My Creative Brand Advertising Projects</h3>
-            <p class="record-description">Curated brand advertising work for producers, creative teams and commercial clients.</p>
+            <h3 class="record-title">Brand Advertising & Campaign Work</h3>
+            <p class="record-description">Selected advertising, branded-content and campaign work across international and regional brands.</p>
             <div class="record-url-wrap"><a class="record-url" href="https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h</a></div>
           </div>
           <div class="record-source"><span>SOURCE</span><strong>YouTube Playlist</strong></div>
@@ -1498,8 +1498,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
   <script>
 const records = [
   {
-    "title": "Showcase: My Creative Brand Advertising Projects",
-    "description": "Curated brand advertising work for producers, creative teams and commercial clients.",
+    "title": "Brand Advertising & Campaign Work",
+    "description": "Selected advertising, branded-content and campaign work across international and regional brands.",
     "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcblEA_biSc1_CWyohy_d9h",
     "source": "YouTube Playlist",
     "category": "Commercials & Campaigns",
@@ -1517,7 +1517,8 @@ const records = [
       "TVC",
       "post-production"
     ],
-    "status": "Official"
+    "status": "Official",
+    "source_title": "Showcase: My Creative Brand Advertising Projects"
   },
   {
     "title": "Showcase: My Video Post-Production Brand Projects",
@@ -1858,7 +1859,7 @@ function filteredRecords() {
   const query = state.query.trim().toLowerCase();
   let result = records.map((record, originalIndex) => ({ ...record, originalIndex }));
   if (state.category !== "All") result = result.filter(record => (record.categories || [record.category]).includes(state.category));
-  if (query) result = result.filter(record => [record.title, record.description, record.url, record.source, ...(record.categories || [record.category]), ...(record.keywords || []), record.status].join(" ").toLowerCase().includes(query));
+  if (query) result = result.filter(record => [record.title, record.source_title || "", record.description, record.url, record.source, ...(record.categories || [record.category]), ...(record.keywords || []), record.status].join(" ").toLowerCase().includes(query));
   const sorters = {
     featured: (a, b) => (featuredRank.get(a.title) ?? Number.MAX_SAFE_INTEGER) - (featuredRank.get(b.title) ?? Number.MAX_SAFE_INTEGER) || a.originalIndex - b.originalIndex,
     title: (a, b) => a.title.localeCompare(b.title),
