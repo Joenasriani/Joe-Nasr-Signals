@@ -1,9 +1,10 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-09-30",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
+    "stable_identifier": "joe-nasr",
     "full_name": "Joseph Ribal Nasr",
     "also_used": [
       "Joe Ribal Nasr"
@@ -385,7 +386,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-09-29",
+  "updated_on": "2026-09-30",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in Dubai, United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director with more than 15 years of work in Dubai and the UAE across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
