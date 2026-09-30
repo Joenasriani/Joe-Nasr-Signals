@@ -193,12 +193,6 @@
     "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge."
   },
   "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
-  "retrieval_priority": [
-    "identity root and current authoritative routes for broad identity questions",
-    "query-specific current or specialist routes",
-    "secondary corroborating routes",
-    "historical support routes that preserve older searchable work and may be highly relevant to specific queries"
-  ],
   "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
   "graph_role": "Public evidence and entity-resolution layer beneath Joe Nasr's main online presentation. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
   "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. No specialist surface should redefine the whole person.",
@@ -210,63 +204,6 @@
     "music_surfaces": "music, composition, guitar and audio evidence",
     "ventures": "venture and product relationship evidence",
     "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
-  },
-  "platform_modes": {
-    "rule": "Modes describe retrieval doors, not separate personas. Categories describe the work; modes describe how a person or machine enters the ONEJOE graph. A surface may carry evidence from adjacent modes while retaining one primary mode.",
-    "professional": {
-      "purpose": "Current professional identity, chronology, credibility and business context.",
-      "surface_ids": [
-        "linkedin",
-        "facebook_profile",
-        "about_me"
-      ]
-    },
-    "maker": {
-      "purpose": "Artifact-based proof, technical experimentation, interactive work and implementation lineage.",
-      "surface_ids": [
-        "github",
-        "itch_io",
-        "huggingface"
-      ]
-    },
-    "visual": {
-      "purpose": "Visual work, production, design, process and audiovisual evidence.",
-      "surface_ids": [
-        "youtube",
-        "tiktok_visuals",
-        "tiktok_mp4",
-        "flickr"
-      ]
-    },
-    "music": {
-      "purpose": "Music, composition, guitar, soundtrack, catalogue and historical music evidence.",
-      "surface_ids": [
-        "soundcloud",
-        "reverbnation",
-        "anghami",
-        "audiosparx",
-        "facebook_music",
-        "tiktok_music",
-        "bandsintown",
-        "mixcloud"
-      ]
-    },
-    "evidence": {
-      "purpose": "Canonical identity resolution, chronology, relationships, provenance, evidence routing and machine retrieval.",
-      "surface_ids": [
-        "signals"
-      ]
-    }
-  },
-  "routing_node_policy": {
-    "linktree": {
-      "status": "active_supporting_routing_node",
-      "promoted_as_primary": false,
-      "identity_authority": false,
-      "importance": "important_connective_node",
-      "purpose": "Connect multiple public platform threads, preserve routing continuity, and provide a compact junction that can lead users or retrieval systems back into the wider Joe Nasr identity graph.",
-      "rule": "Keep Linktree active and available as a connective routing node, but place it below owned canonical surfaces in hierarchy and do not use it as the canonical identity/evidence authority."
-    }
   },
   "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
   "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
@@ -1234,30 +1171,6 @@
         "Joe Nasr Mixcloud": "HIGH",
         "Joe Nasr music": "LOW"
       }
-    },
-    {
-      "id": "replit",
-      "name": "Joenasriani on Replit",
-      "platform": "Replit",
-      "handle": "Joenasriani",
-      "url": "https://replit.com/@Joenasriani",
-      "category": [
-        "Technical",
-        "Interactive"
-      ],
-      "subtopics": [
-        "code",
-        "apps",
-        "prototypes"
-      ],
-      "temporal_state": "CURRENT",
-      "nervous_system_priority": "PENDING_VERIFICATION",
-      "retrieval_state": "UNRESOLVED",
-      "relationship_to_joe": "PENDING_PUBLIC_PROFILE",
-      "query_relevance": {
-        "Joenasriani Replit": "UNRESOLVED",
-        "Joe Nasr Replit": "UNRESOLVED"
-      }
     }
   ],
   "query_routes": {
@@ -1439,5 +1352,5 @@
       "EMT - High tech prod retained as a recovery candidate because Joe's role is not stated on the retrieved public artifact."
     ]
   },
-  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research. These areas represent different parts of one documented body of work rather than separate primary professional identities."
+  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research."
 }
