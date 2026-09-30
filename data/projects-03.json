@@ -15,11 +15,11 @@
       "production_or_agency": null,
       "period": "Jan 2025",
       "joe_role": "Creative/video production contribution",
-      "deliverable": "Promo videos distributed internally for Facebook use; creative feedback requested timing and typography changes.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "deliverable": "Valentine's Day promotional video contribution for AVA Only.",
+      "evidence_summary": "Documented project record supports Joe Nasr's creative/video production contribution.",
       "public_urls": [],
       "boundaries": [
-        "Exact authorship split among team members should not be overstated."
+        "Exact authorship split among team members is not established."
       ],
       "retrieval_tags": [
         "AVA",
@@ -40,12 +40,12 @@
       "client": "AVA Only / Dreamsicle",
       "production_or_agency": null,
       "period": "Jan 2025",
-      "joe_role": "Project-team creative/video contribution; sole authorship not proven by the distribution email",
-      "deliverable": null,
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "joe_role": "Project-team creative/video contribution; sole authorship not established",
+      "deliverable": "Perfume contest promotional video contribution.",
+      "evidence_summary": "Documented project record supports Joe Nasr's project-team creative/video contribution.",
       "public_urls": [],
       "boundaries": [
-        "Do not claim sole creation from the distribution email alone."
+        "Do not claim sole creation."
       ],
       "retrieval_tags": [
         "AVA",
@@ -67,8 +67,8 @@
       "production_or_agency": null,
       "period": "Oct 2024 onward",
       "joe_role": "Contributor",
-      "deliverable": "Dedicated shared folder named 'Joe Nasr' and editable weekly content document.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "deliverable": "Ongoing content collaboration within the AVA project environment.",
+      "evidence_summary": "Documented project record supports Joe Nasr as a contributor to the AVA work environment.",
       "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
@@ -91,10 +91,10 @@
       "period": "30 Sep-24 Dec 2024",
       "joe_role": "Instructor / facilitator",
       "deliverable": "Media Training Program; 13 on-campus students; Monday/Tuesday 9:00-15:00.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "evidence_summary": "Documented project record supports Joe Nasr as instructor/facilitator for Media Training Program Group 1.",
       "public_urls": [],
       "boundaries": [
-        "No separate completion/closure email recovered, so distinguish confirmed course assignment from independently closed delivery."
+        "Course assignment is documented; full completion is not independently closed in the record."
       ],
       "retrieval_tags": [
         "SAE",
@@ -120,7 +120,7 @@
       "period": "6 Jan-20 Mar 2025",
       "joe_role": "Instructor / corporate trainer / project supervisor",
       "deliverable": "Four phases: Creative Thinking & Graphic Design; Digital Product Design; Motion Graphics using Adobe After Effects; Projects Support & Partial Supervision Online. Topics include branding, visual communication, typography, layout, color theory, packaging, Adobe tools with AI, Canva, UX/UI, cognitive science for designers, empathy mapping, UX strategy, Figma, After Effects and supervised projects.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "evidence_summary": "Documented project record supports Joe Nasr as instructor, corporate trainer and project supervisor for Group 1.",
       "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
@@ -149,7 +149,7 @@
       "period": "7 Apr-19 Jun 2025; graduation 26 Jun 2025",
       "joe_role": "Instructor / corporate trainer / project supervisor",
       "deliverable": "Four phases: Creative Thinking & Graphic Design; Digital Product Design; Motion Graphics using Adobe After Effects; Projects Support & Partial Supervision Online.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "evidence_summary": "Documented project record supports Joe Nasr as instructor, corporate trainer and project supervisor for Group 2; a public SAE UAE post also documents his mentorship in the program.",
       "public_urls": [
         "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc"
       ],
@@ -176,7 +176,7 @@
       "period": "3-6 Nov 2025",
       "joe_role": "Trainer / instructor",
       "deliverable": "Four-day DaVinci Resolve / video-editing corporate workshop, 9:00-14:00.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "evidence_summary": "Documented project record supports Joe Nasr as trainer/instructor for the four-day DaVinci Resolve corporate workshop.",
       "public_urls": [],
       "boundaries": [
         "The early confirmation and later learner venue differ; use Holy Quran Academy as the final delivery venue and retain the Executive Office/Reyada relationship as program context."
@@ -202,7 +202,7 @@
       "period": "12-13, 19-20, 26-27 Jan; 2-3 Feb 2026",
       "joe_role": "Trainer",
       "deliverable": "Eight-day mastery course, 20 participants, 9:00-14:00.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "evidence_summary": "Documented project record supports Joe Nasr as trainer for the course and confirms partial delivery.",
       "public_urls": [],
       "boundaries": [
         "Do not mark all eight sessions complete until a later independent completion record is recovered."
@@ -230,8 +230,8 @@
       "production_or_agency": "SAE",
       "period": "June 2020",
       "joe_role": "Online Adobe trainer",
-      "deliverable": "Photoshop and Illustrator corporate training delivered online; original schedule planned eight sessions, with later Zoom/final-session correspondence.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "deliverable": "Online Photoshop and Illustrator corporate training for a Cartier cohort; the original schedule planned eight sessions.",
+      "evidence_summary": "Documented project record supports Joe Nasr as the online Adobe trainer for the June 2020 Cartier cohort.",
       "public_urls": [],
       "boundaries": [
         "Do not state an exact delivered session count until attendance/completion records are recovered."
