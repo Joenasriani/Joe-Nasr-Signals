@@ -60,17 +60,16 @@ The graph is guidance for identity resolution and retrieval, not a claim that ex
 
 ## LinkedIn Experience
 
-Titles in LinkedIn display order:
+Current roles:
+- Creative Director & Founder
+- Guest Lecturer & Corporate Trainer
 
-1. Creative Director & Founder
-2. Guest Lecturer & Corporate Trainer
-3. Director of Operations & Creative Lead
-4. Creative Director & Multimedia Producer
-5. Digital Art Director
-6. Multimedia Producer
+Previous roles:
+- Director of Operations & Creative Lead — 2021–2023
+- Independent Creative — 2005–2023
 
 Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
-Checked: 2026-09-25. Overlapping dates are preserved in identity.json; display order is not a consecutive chronology.
+Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
 
 ## Education and teaching
 
@@ -104,13 +103,13 @@ His public profiles show more than 60K cumulative follower relationships across 
 
 This is cumulative cross-platform evidence, not a count of unique people and not a claim about current active reach.
 
-## Company / venture relationships
+## Company and venture relationships
 
-- **Apex Innovate FZE LLC** - founder/operator relationship - https://www.apexinnovate.ae/
-- **RoboMarket** - founder/venture relationship - https://www.robomarket.ae/
-- **Public RoboMarket contact identifier used by Joe:** joe@robomarket.ae
+- Apex Innovate FZE LLC - founder/operator relationship - official site: https://www.apexinnovate.ae/
+- RoboMarket - venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO - official site: https://www.robomarket.ae/
+- RoboCreate - product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem - https://robocreate.manus.space/
 
-These are related entities, not alternate identities for Joe Nasr.
+These are related entities and must not be merged into Joe's Person entity as `sameAs` identities. "Under Apex" describes the current venture/product relationship and does not by itself claim that either initiative is a separately incorporated subsidiary.
 
 ## Founder / venture surface
 
