@@ -270,16 +270,20 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .ring-two { inset: 24%; border-style: dashed; animation: spinReverse 18s linear infinite; }
 .disc-label {
   position: absolute;
-  padding: 6px 9px;
+  padding: 5px 7px;
   color: var(--paper);
   background: var(--blue);
-  font-size: 9px;
+  font-size: clamp(7px, .7vw, 9px);
   font-weight: 900;
-  letter-spacing: .13em;
+  line-height: 1;
+  letter-spacing: .1em;
+  white-space: nowrap;
+  z-index: 4;
 }
-.label-one { left: -2%; top: 28%; transform: rotate(-8deg); }
-.label-two { right: 0; top: 58%; transform: rotate(7deg); background: var(--signal); }
-.label-three { bottom: 4%; left: 34%; background: var(--ink); }
+.label-one { left: 1%; top: 13%; transform: rotate(-7deg); }
+.label-two { right: 0; top: 15%; transform: rotate(7deg); background: var(--signal); color: var(--ink); }
+.label-three { left: 0; bottom: 12%; transform: rotate(6deg); background: var(--ink); }
+.label-four { right: 0; bottom: 11%; transform: rotate(-6deg); background: var(--blue); }
 .hero-meta {
   grid-column: 1 / -1;
   display: grid;
@@ -1137,9 +1141,10 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div class="disc-core">JOE<br>NASR</div>
         <div class="disc-ring ring-one"></div>
         <div class="disc-ring ring-two"></div>
-        <span class="disc-label label-one">CREATIVE DIRECTION</span>
-        <span class="disc-label label-two">DIGITAL EXPERIENCES</span>
-        <span class="disc-label label-three">PROTOTYPING</span>
+        <span class="disc-label label-one">ADVERTISING</span>
+        <span class="disc-label label-two">MULTIMEDIA</span>
+        <span class="disc-label label-three">INTERACTIVE</span>
+        <span class="disc-label label-four">TECHNOLOGY</span>
       </div>
 
       <div class="hero-meta">
