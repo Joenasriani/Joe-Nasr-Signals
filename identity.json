@@ -435,8 +435,7 @@
       "ROUTER": "A routing page that connects to other Joe Nasr surfaces.",
       "EVIDENCE": "A source supporting a Joe Nasr relationship or claim.",
       "PENDING_PUBLIC_PROFILE": "Known account whose unauthenticated public visibility is not yet established."
-    },
-    "external_system_limit": "This graph supplies semantic identity and retrieval guidance. It does not claim control over the crawl, ranking or retrieval order used by Google, Grok, ChatGPT, Gemini, Claude or other external systems."
+    }
   },
   "public_surface_registry": [
     {
@@ -1343,13 +1342,12 @@
       "boundaries",
       "retrieval tags"
     ],
-    "privacy_rule": "Private-source URLs and private financial/customer details are not published. Private-supported facts are summarized without exposing private correspondence.",
     "update_2026_09_29": [
       "Chopard Girls promoted to public first-party artifact proof from refreshed YouTube metadata documenting After Effects rotoscoping and compositing.",
       "Dubai Tourism lookbook node strengthened by current YouTube metadata explicitly naming Joe Nasr in post-production; item-level chronology now includes 2018 and 2019 evidence.",
       "Milco TVC added from the known Joe Ribal Nasr Stage32 reel.",
       "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
-      "EMT - High tech prod retained as a recovery candidate because Joe's role is not stated on the retrieved public artifact."
+      "EMT - High tech prod remains unverified because the retrieved public artifact does not state Joe Nasr's role."
     ]
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research."
