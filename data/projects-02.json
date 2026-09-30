@@ -4,7 +4,7 @@
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 2,
-  "project_count": 9,
+  "project_count": 4,
   "projects": [
     {
       "id": "SYN-0310",
@@ -99,77 +99,6 @@
       "public_retrieval_status": "PUBLICLY_SUPPORTED"
     },
     {
-      "id": "SYN-0291",
-      "name": "Sephora intro with GlamGlow",
-      "aliases": [],
-      "organization": "Other commercial / branded project records",
-      "client": "Sephora / GlamGlow",
-      "production_or_agency": null,
-      "period": null,
-      "joe_role": "Post-production / motion",
-      "deliverable": "After Effects and Premiere work.",
-      "evidence_summary": "Existing YouTube/project cleanup record.",
-      "public_urls": [],
-      "boundaries": [
-        "Exact year, agency and final project title remain unresolved."
-      ],
-      "retrieval_tags": [
-        "Sephora",
-        "GlamGlow",
-        "After Effects",
-        "Premiere"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
-    },
-    {
-      "id": "SYN-0288",
-      "name": "L’AZURDE",
-      "aliases": [],
-      "organization": "Other commercial / branded project records",
-      "client": "L’AZURDE",
-      "production_or_agency": null,
-      "period": null,
-      "joe_role": "Project contribution; exact role pending",
-      "deliverable": null,
-      "evidence_summary": "Existing commercial-project cleanup record.",
-      "public_urls": [],
-      "boundaries": [
-        "Exact deliverable, year, agency and role."
-      ],
-      "retrieval_tags": [
-        "L’AZURDE",
-        "luxury",
-        "jewelry"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
-    },
-    {
-      "id": "SYN-0290",
-      "name": "Pepsi Arabia montage / Qusai",
-      "aliases": [],
-      "organization": "Other commercial / branded project records",
-      "client": "Pepsi Arabia",
-      "production_or_agency": null,
-      "period": null,
-      "joe_role": "Historical commercial music/audio/media contribution; exact technical role needs reconciliation",
-      "deliverable": "Project record associated with Qusai and Pepsi Arabia.",
-      "evidence_summary": "Historical project record; broader source architecture treats Pepsi/commercial music as valid where independently verified.",
-      "public_urls": [],
-      "boundaries": [
-        "Exact year, campaign, role and production chain."
-      ],
-      "retrieval_tags": [
-        "Pepsi",
-        "Qusai",
-        "music",
-        "audio"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
-    },
-    {
       "id": "SYN-0287",
       "name": "Khalifa International Awards of Excellence - 'The Walk of Fame'",
       "aliases": [
@@ -197,52 +126,6 @@
       ],
       "update_note": null,
       "public_retrieval_status": "PUBLICLY_SUPPORTED"
-    },
-    {
-      "id": "SYN-0260",
-      "name": "CDAO Website UI Adjustment",
-      "aliases": [],
-      "organization": "ConsciousDAO / Conscious Network",
-      "client": "ConsciousDAO",
-      "production_or_agency": null,
-      "period": "Jul-Aug 2023 document context",
-      "joe_role": "UI adjustment contributor/editor; full implementation scope unresolved",
-      "deliverable": "Shared Google document titled 'UI Adjustment for CDAO Website 20230726' was assigned to Joe for editing.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
-      "public_urls": [],
-      "boundaries": [
-        "Do not claim sole design ownership or shipped implementation from the share record alone."
-      ],
-      "retrieval_tags": [
-        "UI",
-        "ConsciousDAO",
-        "website",
-        "2023"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
-    },
-    {
-      "id": "SYN-0248",
-      "name": "Social content strategy and graphics",
-      "aliases": [],
-      "organization": "AVA Only / GLO / related consumer-brand work",
-      "client": "AVA Only / GLO",
-      "production_or_agency": null,
-      "period": "Dec 2024-Jan 2025",
-      "joe_role": "Content strategy and graphic/content creation",
-      "deliverable": "Joe provided content/strategy with at least three weeks of material; team members explicitly referred to graphics Joe created and requested source assets/revisions.",
-      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
-      "public_urls": [],
-      "retrieval_tags": [
-        "AVA",
-        "GLO",
-        "content strategy",
-        "graphics",
-        "social"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
     }
   ]
 }
