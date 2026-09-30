@@ -504,15 +504,6 @@
         "relationship": "Joe Nasr public platform profile"
       }
     ],
-    "Graphics": [
-      {
-        "platform": "TikTok",
-        "handle": "@joenasrvisuals",
-        "url": "https://www.tiktok.com/@joenasrvisuals",
-        "scope": "graphics, animation and design",
-        "relationship": "Joe Nasr public platform profile"
-      }
-    ],
     "Video": [
       {
         "platform": "TikTok",
@@ -529,6 +520,15 @@
         "scope": "books and independently published reasoning frameworks by J. Nasr",
         "relationship": "Joe Nasr owned bookstore and publication surface",
         "related_entity": "reasoning_and_logic"
+      }
+    ],
+    "Animation + Motion Graphics": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasrvisuals",
+        "url": "https://www.tiktok.com/@joenasrvisuals",
+        "scope": "animation, motion graphics and visual design",
+        "relationship": "Joe Nasr public platform profile"
       }
     ]
   },
