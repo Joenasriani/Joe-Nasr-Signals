@@ -121,7 +121,7 @@ These are related entities and must not be merged into Joe's Person entity as `s
 ### Music + Sound
 - TikTok @joenasrmusic - https://www.tiktok.com/@joenasrmusic
 
-### Graphics
+### Animation + Motion Graphics
 - TikTok @joenasrvisuals - https://www.tiktok.com/@joenasrvisuals
 
 ### Video
