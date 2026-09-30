@@ -74,9 +74,26 @@ jobs:
 
           echo "payload=$payload" >> "$GITHUB_OUTPUT"
 
+      - name: Wait for public IndexNow key
+        if: steps.urls.outputs.payload != ''
+        run: |
+          set -euo pipefail
+          key_url="https://joe-nasr-signals.vercel.app/4f2a8c9d71b64e35a0f3c8d92e7b1a56.txt"
+          for attempt in {1..18}; do
+            if curl --fail --silent --show-error "$key_url" | grep -qx "4f2a8c9d71b64e35a0f3c8d92e7b1a56"; then
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "IndexNow key was not publicly available after deployment wait." >&2
+          exit 1
+
       - name: Submit changed URLs to IndexNow
         if: steps.urls.outputs.payload != ''
         env:
           PAYLOAD: ${{ steps.urls.outputs.payload }}
         run: |
-          curl --fail-with-body --retry 3             -H "Content-Type: application/json; charset=utf-8"             -d "$PAYLOAD"             "https://api.indexnow.org/indexnow"
+          curl --fail-with-body --retry 3 \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$PAYLOAD" \
+            "https://api.indexnow.org/indexnow"
