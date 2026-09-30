@@ -4,8 +4,9 @@ Published: 2026-09-29
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
-Also appears as: Joe Ribal Nasr, Joenasriani
-Verified public handles: joenasr, joenasrprofile, joenasrmusic, joenasrvisuals, joenasr.mp4
+Also appears as: Joe Ribal Nasr
+Primary public handle: joenasr
+Verified public handles: joenasr, Joenasriani, joenasrprofile, joenasrmusic, joenasrvisuals, joenasr.mp4
 Nationality: Lebanese
 Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
