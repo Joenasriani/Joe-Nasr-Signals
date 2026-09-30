@@ -28,42 +28,57 @@
         "Entertainment Tonight Arabic"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0293",
       "name": "OTV show-theme / program-music cluster",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0294",
       "name": "OTV sonic identity / bumper package",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0295",
       "name": "Wa2fetna - OTV Staff Singing",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0292",
       "name": "Le2ouna 3al Se7a - main music theme",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true,
+      "evidence_flags": [
+        "DATE_CONFLICT"
+      ]
     },
     {
       "id": "SYN-0264",
       "name": "Panda Stores TVC",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0265",
@@ -74,21 +89,27 @@
         "SGH"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0263",
       "name": "The Battlefield",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0257",
       "name": "NYX Cosmetics Dubai",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0310",
@@ -98,7 +119,9 @@
         "DTCM influencer series"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0311",
@@ -108,35 +131,45 @@
         "DTCM lookbooks"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0309",
       "name": "adidas TERREX Jackets MENA",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0291",
       "name": "Sephora intro with GlamGlow",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0288",
       "name": "L’AZURDE",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0290",
       "name": "Pepsi Arabia montage / Qusai",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     },
     {
       "id": "SYN-0287",
@@ -146,49 +179,63 @@
         "Khalifa International Awards of Excellence 2014"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0260",
       "name": "CDAO Website UI Adjustment",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0248",
       "name": "Social content strategy and graphics",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0249",
       "name": "Valentine's Day promo videos",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0247",
       "name": "Dreamsicle perfume contest promo video",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0246",
       "name": "AVA shared work environment",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0305",
       "name": "Media Training Program - Group 1",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0303",
@@ -198,7 +245,9 @@
         "Media Graphic & Motion Design Group 1"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0304",
@@ -208,21 +257,27 @@
         "Media Graphic & Motion Design Group 2"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0301",
       "name": "Corporate Video Editing using DaVinci Resolve",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0302",
       "name": "DaVinci Resolve Mastery Corporate Training",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "PARTIAL",
+      "public_source_available": false
     },
     {
       "id": "SYN-0259",
@@ -232,28 +287,36 @@
         "Cartier Adobe Training"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0245",
       "name": "Joe Nasr AudioSparx catalog / licensing activity",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0297",
       "name": "RoboMarket.ae",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0266",
       "name": "Event Ideatecture / Ideavent",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0278",
@@ -263,21 +326,27 @@
         "Visual Framework System App"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0277",
       "name": "Roundtable AI",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0271",
       "name": "Eureka v3",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0276",
@@ -287,28 +356,36 @@
         "Quest-XSA"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0270",
       "name": "ASCENSION",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0275",
       "name": "LegoCraft",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0272",
       "name": "Facial Gesture Interpretation Engine",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0274",
@@ -319,14 +396,18 @@
         "Joe-Nasr-Signals"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0273",
       "name": "Joe Research Registry",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0258",
@@ -336,14 +417,18 @@
         "Carelyus"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0252",
       "name": "The Structure of Life",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0331",
@@ -354,7 +439,9 @@
         "13th Dubai International Film Festival"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0256",
@@ -364,7 +451,9 @@
         "After Effects Rotoscoping and Compositing"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "NS-NEW-20260929-001",
@@ -374,7 +463,9 @@
         "Milco TVC"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "NS-NEW-20260929-002",
@@ -384,7 +475,9 @@
         "H&S TVC pitch music"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ],
   "recovery_candidates": [
@@ -406,5 +499,12 @@
     "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Context is retained for entity continuity but should not be treated as an independently publicly verified role claim.",
     "PARTIAL_PUBLIC_CONTEXT": "Only the stated portion is publicly supportable; full completion is not asserted.",
     "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Only limited context is retained; do not infer full completion or independent public verification."
+  },
+  "evidence_class_semantics": {
+    "PUBLIC": "The project or role is supported by a listed public source.",
+    "DOCUMENTED_NONPUBLIC": "The project or role is supported by documented evidence whose underlying source is not published here.",
+    "ESTABLISHED_RECORD": "The project exists in the established project record, but stronger source recovery is still needed for precise public claims.",
+    "PARTIAL": "Only the stated portion of the work or delivery is established.",
+    "UNRESOLVED": "Do not promote as a factual project or role claim until evidence is sufficient."
   }
 }
