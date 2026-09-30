@@ -38,7 +38,9 @@
         "2015"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0293",
@@ -74,7 +76,9 @@
         "broadcast"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0294",
@@ -111,7 +115,9 @@
         "Lebanon"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0295",
@@ -135,7 +141,9 @@
         "arrangement"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0292",
@@ -162,7 +170,12 @@
         "date conflict"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true,
+      "evidence_flags": [
+        "DATE_CONFLICT"
+      ]
     },
     {
       "id": "SYN-0264",
@@ -190,7 +203,9 @@
         "TVC"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0265",
@@ -224,7 +239,9 @@
         "GCC"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0263",
@@ -252,7 +269,9 @@
         "ReverbNation"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0257",
@@ -276,7 +295,9 @@
         "commercial"
       ],
       "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED"
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": false
     }
   ]
 }
