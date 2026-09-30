@@ -1,1 +1,236 @@
-{"schema_version":"1.0","snapshot_date":"2026-09-29","canonical_person":"Joe Nasr","registry":"Joe Nasr Signals project evidence","shard":4,"project_count":9,"projects":[{"id":"SYN-0245","name":"Joe Nasr AudioSparx catalog / licensing activity","aliases":[],"organization":"AudioSparx / Navarr Enterprises","client":"AudioSparx marketplace/licensing customers","production_or_agency":"AudioSparx / Navarr Enterprises","period":"Active evidence in Jul 2026","joe_role":"Music vendor / composer-catalog owner","deliverable":"Commercial licensing/sales catalog with recorded commission activity.","proof_level":"VERIFIED_THIRD_PARTY_PRIVATE","evidence_summary":"Private third-party correspondence or operational evidence directly supports Joe Nasr's stated role and/or delivery. Private source material is withheld from the public registry.","evidence_ids":[],"source_ids":["LIB-P048"],"public_urls":["https://www.audiosparx.com/sa/module/artist/countries/by_country.cfm/fips.AE/aatemp.0"],"boundaries":["Do not publish private client/vendor identifiers, tax information or private earnings amounts."],"retrieval_tags":["music","licensing","AudioSparx","composer"],"update_note":null},{"id":"SYN-0297","name":"RoboMarket.ae","aliases":[],"organization":"RoboMarket / RoboCreate","client":"RoboMarket","production_or_agency":null,"period":"Current","joe_role":"Founder / CEO","deliverable":"Robotics marketplace/product venture; public source architecture connects Joe Ribal Nasr to the venture.","proof_level":"CROSS_SOURCE","evidence_summary":"Current public company/about relationship in source registry. External DQventures correspondence references Joe as founding RoboMarket.ae. Robotics partnership correspondence exists with KEENON Robotics.","evidence_ids":[],"source_ids":["LIB-P050"],"public_urls":["https://robomarket.ae/","https://www.robomarket.ae/about"],"boundaries":["Do not use application-derived third-party wording as the sole authority for capabilities."],"retrieval_tags":["RoboMarket","robotics","founder","e-commerce"],"update_note":null},{"id":"SYN-0266","name":"Event Ideatecture / Ideavent","aliases":[],"organization":"Event Ideatecture / Ideavent","client":"Event Ideatecture / Ideavent","production_or_agency":null,"period":"2026 active development context","joe_role":"Product/creative/technical contributor; exact partnership structure documented separately","deliverable":"Event ideation / event-architecture SaaS project.","proof_level":"CROSS_SOURCE","evidence_summary":"Vercel notification identifies a Joenasriani commit to event-ideatecture under the RoboMarket team. Existing partnership/project source records define the Ideavent collaboration.","evidence_ids":[],"source_ids":["LIB-P052"],"public_urls":["https://ideavent.ai/"],"boundaries":["Do not infer successful deployment from the blocked-deployment notification."],"retrieval_tags":["Event Ideatecture","Ideavent","SaaS","product"],"update_note":null},{"id":"SYN-0278","name":"Visual Framework System App","aliases":["VFA","Visual Framework System App"],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current 2026","joe_role":"System/product designer and builder","deliverable":"React/TypeScript/Vite visual reasoning framework with nodes, semantic roles, provenance, executable operations, local-first storage and graph interaction.","proof_level":"CROSS_SOURCE","evidence_summary":"Public GitHub/source documentation. Vercel independently identified Joenasriani/visual-framework-system-app for import/deployment.","evidence_ids":[],"source_ids":["LIB-P053"],"public_urls":["https://github.com/Joenasriani/visual-framework-system-app","https://visual-framework-app.vercel.app/"],"boundaries":[],"retrieval_tags":["Visual Framework","reasoning","HCI","React","current"],"update_note":null},{"id":"SYN-0277","name":"Roundtable AI","aliases":[],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current/recent","joe_role":"Builder / experiment designer","deliverable":"Executable multi-perspective reasoning experiment with multiple disciplinary lenses and synthesis.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Repository audit documents working prototype, OpenRouter integration, export and testing.","evidence_ids":[],"source_ids":["LIB-P054"],"public_urls":["https://github.com/Joenasriani/roundtable_ai"],"boundaries":[],"retrieval_tags":["AI","reasoning","prototype"],"update_note":null},{"id":"SYN-0271","name":"Eureka v3","aliases":[],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current/recent","joe_role":"Builder / system designer","deliverable":"Local structured-reasoning application with source contracts, tests and constrained model roles.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Repository audit.","evidence_ids":[],"source_ids":["LIB-P055"],"public_urls":["https://github.com/Joenasriani/eureka-v3"],"boundaries":[],"retrieval_tags":["AI","reasoning","local app"],"update_note":null},{"id":"SYN-0276","name":"Quest-XSA","aliases":["Quest XSA","Quest-XSA"],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current/recent","joe_role":"Research/system design","deliverable":"XR/spatial research project with explicit distinction between proposed and reproducibly implemented work.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Repository audit.","evidence_ids":[],"source_ids":["LIB-P056"],"public_urls":["https://github.com/Joenasriani/quest-xsa"],"boundaries":[],"retrieval_tags":["XR","research","spatial"],"update_note":null},{"id":"SYN-0270","name":"ASCENSION","aliases":[],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current/recent","joe_role":"Game/interaction designer and builder","deliverable":"Interactive/game project with documented lineage across base, optimized and packaging repositories.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Repository audit and explicit lineage documentation.","evidence_ids":[],"source_ids":["LIB-P057"],"public_urls":["https://joenasr.itch.io/ascension"],"boundaries":[],"retrieval_tags":["game","ASCENSION","interaction"],"update_note":null},{"id":"SYN-0275","name":"LegoCraft","aliases":[],"organization":"Independent technical / research / interactive lab","client":null,"production_or_agency":null,"period":"Current/recent","joe_role":"XR/WebXR builder","deliverable":"React Three Fiber / Three.js / Zustand / WebXR implementation with brick manipulation and save/load.","proof_level":"VERIFIED_PUBLIC","evidence_summary":"Repository audit.","evidence_ids":[],"source_ids":["LIB-P058"],"public_urls":["https://github.com/Joenasriani/legocraft"],"boundaries":[],"retrieval_tags":["WebXR","Three.js","XR"],"update_note":null}]}
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-09-29",
+  "canonical_person": "Joe Nasr",
+  "registry": "Joe Nasr Signals project evidence",
+  "shard": 4,
+  "project_count": 9,
+  "projects": [
+    {
+      "id": "SYN-0245",
+      "name": "Joe Nasr AudioSparx catalog / licensing activity",
+      "aliases": [],
+      "organization": "AudioSparx / Navarr Enterprises",
+      "client": "AudioSparx marketplace/licensing customers",
+      "production_or_agency": "AudioSparx / Navarr Enterprises",
+      "period": "Active evidence in Jul 2026",
+      "joe_role": "Music vendor / composer-catalog owner",
+      "deliverable": "Commercial licensing/sales catalog with recorded commission activity.",
+      "evidence_summary": "Context node retained in the public identity graph. It should not be treated as independently publicly verified beyond any listed public URLs.",
+      "public_urls": [
+        "https://www.audiosparx.com/sa/module/artist/countries/by_country.cfm/fips.AE/aatemp.0"
+      ],
+      "boundaries": [
+        "Do not publish private client/vendor identifiers, tax information or private earnings amounts."
+      ],
+      "retrieval_tags": [
+        "music",
+        "licensing",
+        "AudioSparx",
+        "composer"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED"
+    },
+    {
+      "id": "SYN-0297",
+      "name": "RoboMarket.ae",
+      "aliases": [],
+      "organization": "RoboMarket / RoboCreate",
+      "client": "RoboMarket",
+      "production_or_agency": null,
+      "period": "Current",
+      "joe_role": "Founder / CEO",
+      "deliverable": "Robotics marketplace/product venture; public source architecture connects Joe Ribal Nasr to the venture.",
+      "evidence_summary": "Current public company/about relationship in source registry. External DQventures correspondence references Joe as founding RoboMarket.ae. Robotics partnership correspondence exists with KEENON Robotics.",
+      "public_urls": [
+        "https://robomarket.ae/",
+        "https://www.robomarket.ae/about"
+      ],
+      "boundaries": [
+        "Do not use application-derived third-party wording as the sole authority for capabilities."
+      ],
+      "retrieval_tags": [
+        "RoboMarket",
+        "robotics",
+        "founder",
+        "e-commerce"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0266",
+      "name": "Event Ideatecture / Ideavent",
+      "aliases": [],
+      "organization": "Event Ideatecture / Ideavent",
+      "client": "Event Ideatecture / Ideavent",
+      "production_or_agency": null,
+      "period": "2026 active development context",
+      "joe_role": "Product/creative/technical contributor; exact partnership structure documented separately",
+      "deliverable": "Event ideation / event-architecture SaaS project.",
+      "evidence_summary": "Vercel notification identifies a Joenasriani commit to event-ideatecture under the RoboMarket team. Existing partnership/project source records define the Ideavent collaboration.",
+      "public_urls": [
+        "https://ideavent.ai/"
+      ],
+      "boundaries": [
+        "Do not infer successful deployment from the blocked-deployment notification."
+      ],
+      "retrieval_tags": [
+        "Event Ideatecture",
+        "Ideavent",
+        "SaaS",
+        "product"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0278",
+      "name": "Visual Framework System App",
+      "aliases": [
+        "VFA",
+        "Visual Framework System App"
+      ],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current 2026",
+      "joe_role": "System/product designer and builder",
+      "deliverable": "React/TypeScript/Vite visual reasoning framework with nodes, semantic roles, provenance, executable operations, local-first storage and graph interaction.",
+      "evidence_summary": "Public GitHub/source documentation. Vercel independently identified Joenasriani/visual-framework-system-app for import/deployment.",
+      "public_urls": [
+        "https://github.com/Joenasriani/visual-framework-system-app",
+        "https://visual-framework-app.vercel.app/"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "Visual Framework",
+        "reasoning",
+        "HCI",
+        "React",
+        "current"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0277",
+      "name": "Roundtable AI",
+      "aliases": [],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Builder / experiment designer",
+      "deliverable": "Executable multi-perspective reasoning experiment with multiple disciplinary lenses and synthesis.",
+      "evidence_summary": "Repository audit documents working prototype, OpenRouter integration, export and testing.",
+      "public_urls": [
+        "https://github.com/Joenasriani/roundtable_ai"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "AI",
+        "reasoning",
+        "prototype"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0271",
+      "name": "Eureka v3",
+      "aliases": [],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Builder / system designer",
+      "deliverable": "Local structured-reasoning application with source contracts, tests and constrained model roles.",
+      "evidence_summary": "Repository audit.",
+      "public_urls": [
+        "https://github.com/Joenasriani/eureka-v3"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "AI",
+        "reasoning",
+        "local app"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0276",
+      "name": "Quest-XSA",
+      "aliases": [
+        "Quest XSA",
+        "Quest-XSA"
+      ],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Research/system design",
+      "deliverable": "XR/spatial research project with explicit distinction between proposed and reproducibly implemented work.",
+      "evidence_summary": "Repository audit.",
+      "public_urls": [
+        "https://github.com/Joenasriani/quest-xsa"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "XR",
+        "research",
+        "spatial"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0270",
+      "name": "ASCENSION",
+      "aliases": [],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "Game/interaction designer and builder",
+      "deliverable": "Interactive/game project with documented lineage across base, optimized and packaging repositories.",
+      "evidence_summary": "Repository audit and explicit lineage documentation.",
+      "public_urls": [
+        "https://joenasr.itch.io/ascension"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "game",
+        "ASCENSION",
+        "interaction"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    },
+    {
+      "id": "SYN-0275",
+      "name": "LegoCraft",
+      "aliases": [],
+      "organization": "Independent technical / research / interactive lab",
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current/recent",
+      "joe_role": "XR/WebXR builder",
+      "deliverable": "React Three Fiber / Three.js / Zustand / WebXR implementation with brick manipulation and save/load.",
+      "evidence_summary": "Repository audit.",
+      "public_urls": [
+        "https://github.com/Joenasriani/legocraft"
+      ],
+      "boundaries": [],
+      "retrieval_tags": [
+        "WebXR",
+        "Three.js",
+        "XR"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "PUBLICLY_SUPPORTED"
+    }
+  ]
+}
