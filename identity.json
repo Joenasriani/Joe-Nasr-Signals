@@ -54,7 +54,12 @@
                 "video_advertising_motion"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Chopard",
+              "Mercedes-Benz",
+              "Dubai Culture and Arts Authority"
+            ]
           },
           {
             "name": "Design & Visual Communication",
@@ -67,7 +72,12 @@
                 "visual_design"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Maybelline New York",
+              "Estée Lauder",
+              "Sephora"
+            ]
           },
           {
             "name": "Film, Video & Post Production",
@@ -80,7 +90,12 @@
                 "video_advertising_motion"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Etihad Airways",
+              "E! News",
+              "Pepsi Arabia"
+            ]
           },
           {
             "name": "Motion Graphics, Animation & 3D",
@@ -95,7 +110,12 @@
                 "visual_design"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Adidas",
+              "Amazon.ae / Souq.com",
+              "NYX Professional Makeup"
+            ]
           },
           {
             "name": "Media Music Composition",
@@ -119,6 +139,11 @@
                 "contribution": "Event main theme, awards theme and reception music",
                 "evidence_basis": "User-supplied professional record; preserve as a documented claim pending independent source recovery."
               }
+            ],
+            "front_page_selected_evidence": [
+              "Khalifa Award for Education",
+              "OTV Lebanon",
+              "Milco"
             ]
           }
         ]
@@ -155,6 +180,12 @@
                 ],
                 "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership."
               }
+            ],
+            "front_page_selected_evidence": [
+              "RoboSim",
+              "Brick XR Builder",
+              "Diorama",
+              "Ascension"
             ]
           },
           {
@@ -168,7 +199,12 @@
                 "coding_ai_interactive"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Visual Framework App",
+              "Roundtable AI",
+              "DealFindr AI Compass"
+            ]
           },
           {
             "name": "Product & Venture Development",
@@ -183,7 +219,13 @@
                 "robocreate"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "RoboMarket",
+              "Apex Innovate",
+              "Daoversal"
+            ],
+            "front_page_evidence_note": "Daoversal is the current front-page selected evidence label confirmed by Joe Nasr on 2026-10-01. Preserve the separate historical 2021–2023 Daoverse Capital client record; do not silently rename or merge it."
           }
         ]
       },
