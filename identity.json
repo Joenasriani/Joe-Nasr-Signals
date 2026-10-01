@@ -201,9 +201,10 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
-              "Visual Framework App",
+              "Visual Framework Engine",
               "Roundtable AI",
-              "DealFindr AI Compass"
+              "RoboWebSim",
+              "Event Ideatecture (idevent)"
             ]
           },
           {
