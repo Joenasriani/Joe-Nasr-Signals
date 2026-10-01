@@ -100,7 +100,7 @@ Creative & Production:
 
 Interactive & Technology:
 - Interactive Experiences, XR & Games — RoboSim · Brick XR Builder · Diorama · Ascension
-- AI & Creative Technology — Visual Framework App · Roundtable AI · DealFindr AI Compass
+- AI & Creative Technology — Visual Framework Engine · Roundtable AI · RoboWebSim · Event Ideatecture (idevent)
 - Product & Venture Development — RoboMarket · Apex Innovate · Daoversal
 
 Retrieval boundary: Daoversal is the current front-page selected evidence label confirmed by Joe Nasr on 2026-10-01. The historical 2021–2023 Daoverse Capital client record is separate and remains unchanged; do not silently rename or merge the two.
