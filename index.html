@@ -78,7 +78,7 @@ body::before {
   z-index: 9998;
   background: rgba(226, 220, 208, 0.025);
   -webkit-backdrop-filter: saturate(0.86) contrast(0.965) brightness(0.993);
-  backdrop-filter: saturate(0.88) contrast(0.97) brightness(0.995);
+  backdrop-filter: saturate(0.86) contrast(0.965) brightness(0.993);
 }
 
 body::after {
@@ -359,6 +359,9 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .practice-section {
   padding-top: clamp(86px, 10vw, 140px);
   padding-bottom: clamp(90px, 11vw, 150px);
+}
+.signal-ticker-divider + .practice-section {
+  padding-top: 0;
 }
 .practice-heading {
   display: grid;
@@ -690,8 +693,18 @@ body.compact .record-url-wrap { margin-top: 8px; }
 }
 
 @media (max-width: 980px) {
-  .site-header { grid-template-columns: 1fr auto; }
-  .header-nav { display: none; }
+  .site-header { grid-template-columns: auto minmax(0, 1fr); gap: 16px; }
+  .header-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+  .header-nav::-webkit-scrollbar { display: none; }
+  .header-nav a { flex: 0 0 auto; font-size: 10px; }
   .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 80px; }
   .hero-meta { margin-top: 60px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
@@ -712,7 +725,10 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
 @media (max-width: 680px) {
   :root { --pad: 18px; }
-  .site-header { height: 66px; }
+  .site-header { height: 66px; gap: 10px; }
+  .brand-copy { display: none; }
+  .header-nav { gap: 10px; }
+  .header-nav a { font-size: 9px; letter-spacing: .08em; }
   .brand-copy small { display: none; }
   .brand-mark { width: 36px; height: 36px; }
   .hero { padding-top: 72px; }
@@ -1193,23 +1209,23 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div class="practice-grid">
           <article class="practice-item">
             <h3>Creative Direction &amp; Advertising</h3>
-            <p>Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands, such as Chopard, Mercedes-Benz and Dubai Culture and Arts Authority.</p>
+            <p>Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands. Examples include Chopard, Mercedes-Benz and Dubai Culture and Arts Authority.</p>
           </article>
           <article class="practice-item">
             <h3>Design &amp; Visual Communication</h3>
-            <p>Graphic design, branding, typography, visual systems, campaign design, retouching and communication-focused creative work, with clients including Maybelline New York, Estée Lauder and Sephora.</p>
+            <p>Graphic design, branding, typography, visual systems, campaign design, retouching and communication-focused creative work. Examples include Maybelline New York, Estée Lauder and Sephora.</p>
           </article>
           <article class="practice-item">
             <h3>Film, Video &amp; Post Production</h3>
-            <p>Editing, post-production, compositing, visual finishing, video production and work across broader audiovisual production pipelines, with clients including Etihad Airways, E! News and Pepsi Arabia.</p>
+            <p>Editing, post-production, compositing, visual finishing, video production and work across broader audiovisual production pipelines. Examples include Etihad Airways, E! News and Pepsi Arabia.</p>
           </article>
           <article class="practice-item">
             <h3>Motion Graphics, Animation &amp; 3D</h3>
-            <p>Motion graphics, animation and 3D work across branded, editorial and experimental visual projects, with clients including Adidas, B.Games and NYX Professional Makeup.</p>
+            <p>Motion graphics, animation and 3D work across branded, editorial and experimental visual projects. Examples include Adidas, B.Games and NYX Professional Makeup.</p>
           </article>
           <article class="practice-item">
             <h3>Media Music Composition</h3>
-            <p>Original music composition for advertising, events and media, including the Khalifa Award event main theme, awards theme and reception music, with work for Khalifa Award for Education, Milco Yoghurt TVC and Saudi German Hospital TVC.</p>
+            <p>Original music composition for advertising, events and media, including the Khalifa Award event main theme, awards theme and reception music. Examples include Khalifa Award for Education, Milco Yoghurt TVC and Saudi German Hospital TVC.</p>
           </article>
         </div>
       </div>
@@ -1219,15 +1235,15 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div class="practice-grid">
           <article class="practice-item">
             <h3>Interactive Experiences, XR &amp; Games</h3>
-            <p>Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems, including RoboSim, Brick XR Builder, Diorama and Ascension.<br><strong>Quest ReQuest VR · Meta Quest Content &amp; Community Ecosystem</strong></p>
+            <p>Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems. Examples include RoboSim, Brick XR Builder, Diorama and Ascension. Quest ReQuest VR is an independent Meta Quest content and community ecosystem.</p>
           </article>
           <article class="practice-item">
             <h3>AI &amp; Creative Technology</h3>
-            <p>Development and exploration of AI-assisted systems, reasoning tools, visual frameworks, experimental interfaces and creative-technology prototypes, including Visual Framework App, Roundtable AI and DealFindr AI Compass.</p>
+            <p>Development and exploration of AI-assisted systems, reasoning tools, visual frameworks, experimental interfaces and creative-technology prototypes. Examples include Visual Framework App, Roundtable AI and DealFindr AI Compass.</p>
           </article>
           <article class="practice-item">
             <h3>Product &amp; Venture Development</h3>
-            <p>Documented venture and product activity spanning concept development, positioning, design, prototyping and public release, including RoboMarket, Apex Innovate and Daoversal.</p>
+            <p>Documented venture and product activity spanning concept development, positioning, design, prototyping and public release. Examples include RoboMarket, Apex Innovate and Daoversal.</p>
           </article>
         </div>
       </div>
@@ -1461,7 +1477,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="method-grid">
         <h2 id="methodTitle">Archive notes.</h2>
         <div class="method-copy"><p>This visible archive groups public work by discipline. YouTube is represented by curated Showcase playlists and itch.io by a single games/XR hub rather than individual project cards; detailed project-level evidence remains preserved in the machine-readable project registry.</p><p>Additional attributed music and professional references are collected in the <a href="https://github.com/Joenasriani/joe-nasr-public-reception" target="_blank" rel="noopener noreferrer">supporting evidence index</a>.</p></div>
-        <div class="method-stamp" aria-label="Archive updated 30 September 2026"><span>UPDATED</span><strong>30·09·26</strong><small>PUBLIC WEB INDEX</small></div>
+        <div class="method-stamp" aria-label="Archive updated 1 October 2026"><span>UPDATED</span><strong>01·10·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
     </section>
   </main>
