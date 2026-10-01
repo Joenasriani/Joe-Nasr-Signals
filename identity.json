@@ -243,7 +243,12 @@
                 "teaching_training"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Government of Dubai Media Office (GDMO)",
+              "Dubai Police",
+              "American University in Dubai (AUD)"
+            ]
           },
           {
             "name": "Research, Reasoning & Publishing",
@@ -260,7 +265,12 @@
                 "reasoning_and_logic"
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
-            }
+            },
+            "front_page_selected_evidence": [
+              "Manipulation: The Fool and the Wise",
+              "The Structure of Life: The Structure of Reasoning",
+              "ICF-AI"
+            ]
           }
         ]
       }
