@@ -68,8 +68,8 @@ Interactive & Technology:
 - Product & Venture Development
 
 Knowledge & Training:
-- Corporate Training & Guest Lecturing
-- Research, Reasoning & Publishing
+- Corporate Training & Guest Lecturing — Government of Dubai Media Office (GDMO) · Dubai Police · American University in Dubai (AUD)
+- Research, Reasoning & Publishing — Manipulation: The Fool and the Wise · The Structure of Life: The Structure of Reasoning · ICF-AI
 
 The Areas of Practice ontology and the visible archive taxonomy serve different purposes. Areas of Practice answers which fields Joe Nasr has documented activity in. The archive categories answer where a visitor can route to public evidence. Do not collapse the two taxonomies into one flat list. The structured mapping between domains and evidence routes is recorded in identity.json under practice_domain_map.
 
