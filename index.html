@@ -398,6 +398,15 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   column-gap: clamp(34px, 6vw, 90px);
   row-gap: 34px;
 }
+.practice-grid-flow {
+  display: block;
+  column-count: 2;
+  column-gap: clamp(34px, 6vw, 90px);
+}
+.practice-grid-flow .practice-item {
+  break-inside: avoid;
+  margin: 0 0 34px;
+}
 .practice-item { max-width: 650px; }
 .practice-item h3 {
   margin: 0 0 8px;
@@ -714,6 +723,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-grid { grid-template-columns: 1fr; row-gap: 28px; }
+  .practice-grid-flow { display: grid; column-count: auto; }
+  .practice-grid-flow .practice-item { margin: 0; }
   .role-strip { grid-template-columns: 1fr; }
   .role-strip article, .role-strip article + article { min-height: auto; padding: 28px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   .role-strip article:last-child { border-bottom: 0; }
@@ -1210,7 +1221,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
       <div class="practice-family">
         <h3 class="practice-family-heading">Creative &amp; Production</h3>
-        <div class="practice-grid">
+        <div class="practice-grid practice-grid-flow">
           <article class="practice-item">
             <h3>Creative Direction &amp; Advertising</h3>
             <p>Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands.</p>
