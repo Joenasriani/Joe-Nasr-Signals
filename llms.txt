@@ -86,6 +86,25 @@ Previous roles:
 Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
 Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
 
+
+## Front-page selected evidence — 2026-10-01
+
+These are the current human-facing selected-evidence labels attached to the eight practice domains. They are evidence-routing context, not Person sameAs identities. Exact role, client, project, venture, chronology and provenance remain governed by the project registry and source records.
+
+Creative & Production:
+- Creative Direction & Advertising — Chopard · Mercedes-Benz · Dubai Culture and Arts Authority
+- Film, Video & Post Production — Etihad Airways · E! News · Pepsi Arabia
+- Design & Visual Communication — Maybelline New York · Estée Lauder · Sephora
+- Motion Graphics, Animation & 3D — Adidas · Amazon.ae / Souq.com · NYX Professional Makeup
+- Media Music Composition — Khalifa Award for Education · OTV Lebanon · Milco
+
+Interactive & Technology:
+- Interactive Experiences, XR & Games — RoboSim · Brick XR Builder · Diorama · Ascension
+- AI & Creative Technology — Visual Framework App · Roundtable AI · DealFindr AI Compass
+- Product & Venture Development — RoboMarket · Apex Innovate · Daoversal
+
+Retrieval boundary: Daoversal is the current front-page selected evidence label confirmed by Joe Nasr on 2026-10-01. The historical 2021–2023 Daoverse Capital client record is separate and remains unchanged; do not silently rename or merge the two.
+
 ## Education and teaching
 
 - American University of Science and Technology - Bachelor's Degree, Major in Advertising with a minor in Media Production - 2001-2008
