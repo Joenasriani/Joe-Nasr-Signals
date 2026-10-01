@@ -271,6 +271,13 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 }
 .ticker-track span { font-size: 12px; font-weight: 900; letter-spacing: .14em; }
 .ticker-track i { color: var(--signal); font-style: normal; }
+.signal-ticker-divider {
+  width: 100vw;
+  margin-top: clamp(56px, 6vw, 92px);
+  margin-bottom: clamp(56px, 6vw, 92px);
+  margin-left: calc(50% - 50vw);
+}
+
 
 .identity-section,
 .practice-section,
@@ -1133,13 +1140,14 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div><span>INDEXED</span><strong id="heroCount">14 records</strong></div>
       </div>
 
-      <div class="signal-ticker" aria-label="Disciplines">
-        <div class="ticker-track">
-          <span>CREATIVE DIRECTION</span><i>✦</i><span>DIGITAL EXPERIENCES</span><i>✦</i><span>INTERACTIVE PROTOTYPING</span><i>✦</i><span>XR + GAMES</span><i>✦</i><span>PROFESSIONAL TRAINING</span><i>✦</i>
-          <span aria-hidden="true">CREATIVE DIRECTION</span><i aria-hidden="true">✦</i><span aria-hidden="true">DIGITAL EXPERIENCES</span><i aria-hidden="true">✦</i><span aria-hidden="true">INTERACTIVE PROTOTYPING</span><i aria-hidden="true">✦</i><span aria-hidden="true">XR + GAMES</span><i aria-hidden="true">✦</i><span aria-hidden="true">PROFESSIONAL TRAINING</span><i aria-hidden="true">✦</i>
-        </div>
-      </div>
     </section>
+
+    <div class="signal-ticker signal-ticker-divider" aria-label="Disciplines">
+      <div class="ticker-track">
+        <span>CREATIVE DIRECTION</span><i>✦</i><span>DIGITAL EXPERIENCES</span><i>✦</i><span>INTERACTIVE PROTOTYPING</span><i>✦</i><span>XR + GAMES</span><i>✦</i><span>PROFESSIONAL TRAINING</span><i>✦</i>
+        <span aria-hidden="true">CREATIVE DIRECTION</span><i aria-hidden="true">✦</i><span aria-hidden="true">DIGITAL EXPERIENCES</span><i aria-hidden="true">✦</i><span aria-hidden="true">INTERACTIVE PROTOTYPING</span><i aria-hidden="true">✦</i><span aria-hidden="true">XR + GAMES</span><i aria-hidden="true">✦</i><span aria-hidden="true">PROFESSIONAL TRAINING</span><i aria-hidden="true">✦</i>
+      </div>
+    </div>
 
     <section class="practice-section" id="practice" aria-labelledby="practiceTitle">
       <div class="practice-heading">
