@@ -92,10 +92,10 @@ Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 202
 These are the current human-facing selected-evidence labels attached to the eight practice domains. They are evidence-routing context, not Person sameAs identities. Exact role, client, project, venture, chronology and provenance remain governed by the project registry and source records.
 
 Creative & Production:
-- Creative Direction & Advertising — Chopard · Mercedes-Benz · Dubai Culture and Arts Authority
+- Creative Direction & Advertising: Mercedes-Benz · Dubai Culture and Arts Authority · Noon (campaign) · GMC (campaign) · Chopard
 - Film, Video & Post Production — Etihad Airways · E! News · Pepsi Arabia
 - Design & Visual Communication — Maybelline New York · Estée Lauder · Sephora
-- Motion Graphics, Animation & 3D: Adidas (Terrex) · NYX Professional Makeup · B.Games
+- Motion Graphics, Animation & 3D: Adidas (Terrex) · NYX Professional Makeup · B.Games · L’AZURDE
 - Media Music Composition: Khalifa Award for Education (event music scoring including the main theme and the awards theme) · MILCO · Lacnor · NIDO® · Saudi German Hospital
 
 Interactive & Technology:
