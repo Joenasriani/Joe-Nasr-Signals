@@ -56,9 +56,11 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
-              "Chopard",
               "Mercedes-Benz",
-              "Dubai Culture and Arts Authority"
+              "Dubai Culture and Arts Authority",
+              "Noon (campaign)",
+              "GMC (campaign)",
+              "Chopard"
             ]
           },
           {
@@ -114,7 +116,8 @@
             "front_page_selected_evidence": [
               "Adidas (Terrex)",
               "NYX Professional Makeup",
-              "B.Games"
+              "B.Games",
+              "L’AZURDE"
             ]
           },
           {
