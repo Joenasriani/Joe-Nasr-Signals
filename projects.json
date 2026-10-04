@@ -505,6 +505,18 @@
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
+    },
+    {
+      "id": "SYN-GMC-001",
+      "name": "GMC campaign — Capital D Studio",
+      "aliases": [
+        "GMC campaign",
+        "GMC commercial"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
+      "public_retrieval_status": "USER_CONFIRMED_CONTEXT_PLUS_LEGACY_CORROBORATION",
+      "evidence_class": "USER_CONFIRMED_WITH_LEGACY_PROFILE_CORROBORATION",
+      "public_source_available": true
     }
   ],
   "recovery_candidates": [
