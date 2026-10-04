@@ -426,99 +426,45 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 }
 
 .client-bank-section {
-  padding: 84px 0 92px;
+  padding-top: clamp(86px, 10vw, 140px);
+  padding-bottom: clamp(90px, 11vw, 150px);
   border-top: 1px solid var(--line-strong);
 }
 .client-bank-heading {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr);
-  gap: clamp(28px, 6vw, 90px);
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, .65fr);
+  gap: 44px;
   align-items: end;
-  margin-bottom: 34px;
 }
 .client-bank-heading h2 {
   margin: 0;
-  font-size: clamp(38px, 5.6vw, 82px);
-  line-height: .92;
-  letter-spacing: -.055em;
+  font-size: clamp(50px, 8vw, 122px);
+  line-height: .9;
+  letter-spacing: -.06em;
 }
 .client-bank-heading p {
   margin: 0;
-  color: #686963;
-  max-width: 440px;
-  font-size: 14px;
-  line-height: 1.6;
+  max-width: 560px;
+  padding-bottom: 8px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(17px, 1.55vw, 24px);
 }
-.client-bank-count {
-  display: inline-block;
-  margin-bottom: 12px;
-  color: #8a8b84;
-  font-size: 11px;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-}
-.client-chip-grid,
-.client-bank-all-grid {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  border-top: 1px solid var(--line);
-  border-left: 1px solid var(--line);
-}
-.client-chip {
-  min-width: 0;
-  padding: 16px 17px 15px;
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: rgba(255,255,255,.18);
-}
-.client-chip strong {
-  display: block;
-  overflow: hidden;
-  color: var(--ink);
-  font-size: 14px;
-  font-weight: 560;
-  line-height: 1.2;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.client-chip span {
-  display: block;
-  margin-top: 7px;
-  color: #8a8b84;
-  font-size: 9px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-.client-bank-more {
-  margin-top: 18px;
-  border-top: 1px solid var(--line);
-}
-.client-bank-more summary {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 18px 0;
-  cursor: pointer;
-  list-style: none;
-  color: var(--ink);
-  font-size: 12px;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-.client-bank-more summary::-webkit-details-marker { display: none; }
-.client-bank-more summary::after { content: "+"; font-size: 18px; line-height: .7; }
-.client-bank-more[open] summary::after { content: "−"; }
 .client-bank-groups {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(24px, 4vw, 56px);
-  padding: 24px 0 8px;
+  column-gap: clamp(24px, 4vw, 56px);
+  row-gap: 44px;
+  margin-top: 58px;
+}
+.client-bank-group {
+  min-width: 0;
 }
 .client-bank-group h3 {
-  margin: 0 0 13px;
-  color: #888982;
-  font-size: 10px;
-  font-weight: 600;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font: 700 8px/1.3 "Courier New", monospace;
   letter-spacing: .14em;
   text-transform: uppercase;
 }
@@ -528,20 +474,19 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   list-style: none;
 }
 .client-bank-group li {
-  padding: 7px 0;
+  padding: 11px 0 10px;
   border-bottom: 1px solid rgba(35,35,33,.08);
   color: #3e3f3d;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.35;
 }
 .client-bank-note {
-  margin: 24px 0 0;
-  max-width: 780px;
-  color: #85867f;
-  font-size: 11px;
-  line-height: 1.55;
+  margin: 30px 0 0;
+  max-width: 760px;
+  color: #74756f;
+  font-size: 12px;
+  line-height: 1.6;
 }
-
 .archive-section { padding-top: 90px; padding-bottom: 130px; border-top: 1px solid var(--line-strong); }
 .archive-heading { display: flex; justify-content: space-between; gap: 30px; align-items: end; }
 .archive-heading h2 { font-size: clamp(50px, 8vw, 122px); }
@@ -822,10 +767,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
   }
 }
 
-@media (max-width: 1180px) and (min-width: 981px) {
-  .client-bank-all-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-
 @media (max-width: 980px) {
   .site-header { grid-template-columns: auto minmax(0, 1fr); gap: 16px; }
   .header-nav {
@@ -844,9 +785,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-grid { grid-template-columns: 1fr; row-gap: 28px; }
-  .client-bank-heading { grid-template-columns: 1fr; }
-  .client-chip-grid,
-  .client-bank-all-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .client-bank-heading { grid-template-columns: 1fr; align-items: start; }
   .client-bank-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .practice-grid-independent { display: grid; }
   .practice-grid-independent .practice-column { display: contents; }
@@ -869,6 +808,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
 }
 
 @media (max-width: 680px) {
+  .client-bank-groups { grid-template-columns: 1fr; row-gap: 34px; }
   :root { --pad: 18px; }
   .site-header { height: 66px; gap: 10px; }
   .brand-copy { display: none; }
@@ -1425,64 +1365,84 @@ body.compact .record-url-wrap { margin-top: 8px; }
     <section class="client-bank-section" id="client-bank" aria-labelledby="client-bank-title">
       <div class="client-bank-heading">
         <div>
-          <span class="client-bank-count">Clients · Institutions · Training Recipients</span>
+          <div class="section-label">CLIENTS / INSTITUTIONS</div>
           <h2 id="client-bank-title">Selected relationships.</h2>
         </div>
-        <p>Documented commercial, institutional, educational and training relationships across Joe Nasr's professional history. Relationship type varies by engagement.</p>
+        <p>Commercial, institutional, educational and training relationships documented across Joe Nasr's professional history.</p>
       </div>
 
-      <div class="client-bank-all-grid" aria-label="Clients, institutions and training recipients">
-        <div class="client-chip"><strong>Dubai Media Office</strong><span>Government</span></div>
-        <div class="client-chip"><strong>Dubai Police</strong><span>Government</span></div>
-        <div class="client-chip"><strong>UAE Armed Forces</strong><span>Government</span></div>
-        <div class="client-chip"><strong>UAE Ministry of Interior</strong><span>Government</span></div>
-        <div class="client-chip"><strong>Ministry of Culture</strong><span>Institution</span></div>
-        <div class="client-chip"><strong>Abu Dhabi Municipality</strong><span>Institution</span></div>
-        <div class="client-chip"><strong>H.H. Sheikha Jawaher EO</strong><span>Institution</span></div>
-        <div class="client-chip"><strong>Egyptian Ministry of Foreign Affairs</strong><span>Government</span></div>
-        <div class="client-chip"><strong>Holy Quran Academy</strong><span>Institution</span></div>
-        <div class="client-chip"><strong>Dubai Culture &amp; Arts Authority</strong><span>Institution</span></div>
+      <div class="client-bank-groups" aria-label="Clients, institutions and training recipients">
+        <div class="client-bank-group">
+          <h3>Government &amp; Institutions</h3>
+          <ul>
+            <li>Government of Dubai Media Office</li>
+            <li>Dubai Police</li>
+            <li>UAE Armed Forces</li>
+            <li>UAE Ministry of Interior</li>
+            <li>Ministry of Culture &amp; Knowledge Development</li>
+            <li>Abu Dhabi Municipality</li>
+            <li>Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi</li>
+            <li>Egyptian Ministry of Foreign Affairs</li>
+            <li>Holy Quran Academy, Sharjah</li>
+            <li>Dubai Culture &amp; Arts Authority</li>
+          </ul>
+        </div>
 
-        <div class="client-chip"><strong>SAE Institute / University College</strong><span>Education</span></div>
-        <div class="client-chip"><strong>Reyada</strong><span>Training</span></div>
-        <div class="client-chip"><strong>American University in Dubai</strong><span>Education</span></div>
-        <div class="client-chip"><strong>New Media Academy</strong><span>Education</span></div>
-        <div class="client-chip"><strong>ITP Media Group</strong><span>Media / Training</span></div>
-        <div class="client-chip"><strong>Emaar Hospitality Group</strong><span>Training</span></div>
-        <div class="client-chip"><strong>Cartier Middle East</strong><span>Training</span></div>
-        <div class="client-chip"><strong>Rove Hotels</strong><span>Training</span></div>
+        <div class="client-bank-group">
+          <h3>Education &amp; Training</h3>
+          <ul>
+            <li>SAE Institute Dubai / SAE University College</li>
+            <li>Reyada Learning &amp; Development / Reyada Center</li>
+            <li>American University in Dubai</li>
+            <li>New Media Academy</li>
+            <li>ITP Media Group</li>
+            <li>Emaar Hospitality Group</li>
+            <li>Cartier Middle East</li>
+            <li>Rove Hotels</li>
+          </ul>
+        </div>
 
-        <div class="client-chip"><strong>Mercedes-Benz</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Chevrolet</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Emaar Properties</strong><span>Corporate</span></div>
-        <div class="client-chip"><strong>Meraas</strong><span>Corporate</span></div>
-        <div class="client-chip"><strong>Noon</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>GMC</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Maybelline New York</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>NYX Professional Makeup</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Estée Lauder</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Sephora</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Guerlain</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Chopard</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Bloomingdale's</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Galeries Lafayette</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>InterContinental</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Jotun</strong><span>Brand</span></div>
+        <div class="client-bank-group">
+          <h3>Brands &amp; Corporate</h3>
+          <ul>
+            <li>Mercedes-Benz</li>
+            <li>Chevrolet</li>
+            <li>Emaar Properties</li>
+            <li>Meraas</li>
+            <li>Noon</li>
+            <li>GMC</li>
+            <li>Maybelline New York</li>
+            <li>NYX Professional Makeup</li>
+            <li>Estée Lauder</li>
+            <li>Sephora</li>
+            <li>Guerlain</li>
+            <li>Chopard</li>
+            <li>Bloomingdale's</li>
+            <li>Galeries Lafayette</li>
+            <li>InterContinental</li>
+            <li>Jotun</li>
+          </ul>
+        </div>
 
-        <div class="client-chip"><strong>Etihad Airways</strong><span>Media / Production</span></div>
-        <div class="client-chip"><strong>E! News</strong><span>Media</span></div>
-        <div class="client-chip"><strong>ET Bil Arabi</strong><span>Media</span></div>
-        <div class="client-chip"><strong>Pepsi Arabia</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Adidas / Terrex</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>Dubai Tourism &amp; Culture</strong><span>Tourism / Media</span></div>
-        <div class="client-chip"><strong>Louvre Abu Dhabi</strong><span>Culture</span></div>
-        <div class="client-chip"><strong>Guggenheim</strong><span>Culture</span></div>
-        <div class="client-chip"><strong>L'Azurde</strong><span>Brand</span></div>
-        <div class="client-chip"><strong>B.Games</strong><span>Digital / Gaming</span></div>
-        <div class="client-chip"><strong>Earn.Game</strong><span>Digital / Gaming</span></div>
+        <div class="client-bank-group">
+          <h3>Media, Culture &amp; Production</h3>
+          <ul>
+            <li>Etihad Airways</li>
+            <li>E! News</li>
+            <li>ET Bil Arabi</li>
+            <li>Pepsi Arabia</li>
+            <li>Adidas / Terrex</li>
+            <li>Dubai Tourism &amp; Culture</li>
+            <li>Louvre Abu Dhabi</li>
+            <li>Guggenheim</li>
+            <li>L'Azurde</li>
+            <li>B.Games</li>
+            <li>Earn.Game</li>
+          </ul>
+        </div>
       </div>
 
-      <p class="client-bank-note">These names represent different evidence-backed relationship types — including direct client work, agency/production-routed work, institutional engagements and training recipients. Inclusion does not imply the same commissioning structure for every organization.</p>
+      <p class="client-bank-note">Relationship type varies by engagement, including direct client work, agency/production-routed work, institutional engagements and training recipients.</p>
     </section>
 
     <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
