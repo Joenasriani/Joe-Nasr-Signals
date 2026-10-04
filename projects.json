@@ -167,9 +167,9 @@
       "name": "Pepsi Arabia montage / Qusai",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "public_retrieval_status": "PUBLIC_CONTEXT_ROLE_NOT_DIRECTLY_CREDITED",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": true
     },
     {
       "id": "SYN-0287",
