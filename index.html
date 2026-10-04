@@ -311,6 +311,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 
 .identity-section,
 .practice-section,
+.client-bank-section,
 .archive-section,
 .method-section {
   max-width: var(--max);
@@ -426,8 +427,8 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 }
 
 .client-bank-section {
-  padding-top: clamp(86px, 10vw, 140px);
-  padding-bottom: clamp(90px, 11vw, 150px);
+  padding-top: 90px;
+  padding-bottom: clamp(90px, 10vw, 140px);
   border-top: 1px solid var(--line-strong);
 }
 .client-bank-heading {
@@ -452,15 +453,12 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .client-bank-groups {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  column-gap: clamp(24px, 4vw, 56px);
-  row-gap: 44px;
+  column-gap: clamp(34px, 5vw, 74px);
+  row-gap: 54px;
   margin-top: 58px;
 }
-.client-bank-group {
-  min-width: 0;
-}
 .client-bank-group h3 {
-  margin: 0 0 14px;
+  margin: 0 0 18px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
@@ -474,14 +472,14 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   list-style: none;
 }
 .client-bank-group li {
-  padding: 11px 0 10px;
-  border-bottom: 1px solid rgba(35,35,33,.08);
+  margin: 0 0 10px;
   color: #3e3f3d;
-  font-size: 14px;
-  line-height: 1.35;
+  font-size: 15px;
+  line-height: 1.45;
 }
+.client-bank-group li:last-child { margin-bottom: 0; }
 .client-bank-note {
-  margin: 30px 0 0;
+  margin: 34px 0 0;
   max-width: 760px;
   color: #74756f;
   font-size: 12px;
@@ -1362,89 +1360,6 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
     </section>
 
-    <section class="client-bank-section" id="client-bank" aria-labelledby="client-bank-title">
-      <div class="client-bank-heading">
-        <div>
-          <div class="section-label">CLIENTS / INSTITUTIONS</div>
-          <h2 id="client-bank-title">Selected relationships.</h2>
-        </div>
-        <p>Commercial, institutional, educational and training relationships documented across Joe Nasr's professional history.</p>
-      </div>
-
-      <div class="client-bank-groups" aria-label="Clients, institutions and training recipients">
-        <div class="client-bank-group">
-          <h3>Government &amp; Institutions</h3>
-          <ul>
-            <li>Government of Dubai Media Office</li>
-            <li>Dubai Police</li>
-            <li>UAE Armed Forces</li>
-            <li>UAE Ministry of Interior</li>
-            <li>Ministry of Culture &amp; Knowledge Development</li>
-            <li>Abu Dhabi Municipality</li>
-            <li>Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi</li>
-            <li>Egyptian Ministry of Foreign Affairs</li>
-            <li>Holy Quran Academy, Sharjah</li>
-            <li>Dubai Culture &amp; Arts Authority</li>
-          </ul>
-        </div>
-
-        <div class="client-bank-group">
-          <h3>Education &amp; Training</h3>
-          <ul>
-            <li>SAE Institute Dubai / SAE University College</li>
-            <li>Reyada Learning &amp; Development / Reyada Center</li>
-            <li>American University in Dubai</li>
-            <li>New Media Academy</li>
-            <li>ITP Media Group</li>
-            <li>Emaar Hospitality Group</li>
-            <li>Cartier Middle East</li>
-            <li>Rove Hotels</li>
-          </ul>
-        </div>
-
-        <div class="client-bank-group">
-          <h3>Brands &amp; Corporate</h3>
-          <ul>
-            <li>Mercedes-Benz</li>
-            <li>Chevrolet</li>
-            <li>Emaar Properties</li>
-            <li>Meraas</li>
-            <li>Noon</li>
-            <li>GMC</li>
-            <li>Maybelline New York</li>
-            <li>NYX Professional Makeup</li>
-            <li>Estée Lauder</li>
-            <li>Sephora</li>
-            <li>Guerlain</li>
-            <li>Chopard</li>
-            <li>Bloomingdale's</li>
-            <li>Galeries Lafayette</li>
-            <li>InterContinental</li>
-            <li>Jotun</li>
-          </ul>
-        </div>
-
-        <div class="client-bank-group">
-          <h3>Media, Culture &amp; Production</h3>
-          <ul>
-            <li>Etihad Airways</li>
-            <li>E! News</li>
-            <li>ET Bil Arabi</li>
-            <li>Pepsi Arabia</li>
-            <li>Adidas / Terrex</li>
-            <li>Dubai Tourism &amp; Culture</li>
-            <li>Louvre Abu Dhabi</li>
-            <li>Guggenheim</li>
-            <li>L'Azurde</li>
-            <li>B.Games</li>
-            <li>Earn.Game</li>
-          </ul>
-        </div>
-      </div>
-
-      <p class="client-bank-note">Relationship type varies by engagement, including direct client work, agency/production-routed work, institutional engagements and training recipients.</p>
-    </section>
-
     <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
       <span id="identity" aria-hidden="true"></span><span id="profile" aria-hidden="true"></span>
       <div class="archive-heading">
@@ -1662,6 +1577,90 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div class="method-stamp" aria-label="Archive updated 1 October 2026"><span>UPDATED</span><strong>01·10·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
     </section>
+
+    <section class="client-bank-section" id="client-bank" aria-labelledby="client-bank-title">
+      <div class="client-bank-heading">
+        <div>
+          <div class="section-label">CLIENTS / INSTITUTIONS</div>
+          <h2 id="client-bank-title">Selected relationships.</h2>
+        </div>
+        <p>Commercial, institutional, educational and training relationships documented across Joe Nasr's professional history.</p>
+      </div>
+
+      <div class="client-bank-groups">
+        <div class="client-bank-group">
+          <h3>Government &amp; Institutions</h3>
+          <ul>
+            <li>Government of Dubai Media Office</li>
+            <li>Dubai Police</li>
+            <li>UAE Armed Forces</li>
+            <li>UAE Ministry of Interior</li>
+            <li>Ministry of Culture &amp; Knowledge Development</li>
+            <li>Abu Dhabi Municipality</li>
+            <li>Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi</li>
+            <li>Egyptian Ministry of Foreign Affairs</li>
+            <li>Holy Quran Academy, Sharjah</li>
+            <li>Dubai Culture &amp; Arts Authority</li>
+          </ul>
+        </div>
+
+        <div class="client-bank-group">
+          <h3>Education &amp; Training</h3>
+          <ul>
+            <li>SAE Institute Dubai / SAE University College</li>
+            <li>Reyada Learning &amp; Development / Reyada Center</li>
+            <li>American University in Dubai</li>
+            <li>New Media Academy</li>
+            <li>ITP Media Group</li>
+            <li>Emaar Hospitality Group</li>
+            <li>Cartier Middle East</li>
+            <li>Rove Hotels</li>
+          </ul>
+        </div>
+
+        <div class="client-bank-group">
+          <h3>Brands &amp; Corporate</h3>
+          <ul>
+            <li>Mercedes-Benz</li>
+            <li>Chevrolet</li>
+            <li>Emaar Properties</li>
+            <li>Meraas</li>
+            <li>Noon</li>
+            <li>GMC</li>
+            <li>Maybelline New York</li>
+            <li>NYX Professional Makeup</li>
+            <li>Estée Lauder</li>
+            <li>Sephora</li>
+            <li>Guerlain</li>
+            <li>Chopard</li>
+            <li>Bloomingdale's</li>
+            <li>Galeries Lafayette</li>
+            <li>InterContinental</li>
+            <li>Jotun</li>
+          </ul>
+        </div>
+
+        <div class="client-bank-group">
+          <h3>Media, Culture &amp; Production</h3>
+          <ul>
+            <li>Etihad Airways</li>
+            <li>E! News</li>
+            <li>ET Bil Arabi</li>
+            <li>Pepsi Arabia</li>
+            <li>Adidas / Terrex</li>
+            <li>Dubai Tourism &amp; Culture</li>
+            <li>Louvre Abu Dhabi</li>
+            <li>Guggenheim</li>
+            <li>L'Azurde</li>
+            <li>B.Games</li>
+            <li>Earn.Game</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="client-bank-note">Relationship type varies by engagement, including direct client work, agency/production-routed work, institutional engagements and training recipients.</p>
+    </section>
+
   </main>
 
   <footer class="site-footer"><div class="footer-name">JOE RIBAL NASR</div><p>Creative Director · Digital Experiences · Interactive Prototyping</p><a href="#top">Return to top ↑</a></footer>
