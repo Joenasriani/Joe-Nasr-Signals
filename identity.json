@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-09-30",
+  "snapshot_date": "2026-10-04",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -20,7 +20,12 @@
       "joenasrmusic",
       "joenasr.mp4"
     ],
-    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names."
+    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as search aliases only.",
+    "arabic_full_name": "جوزف رئبال نصر",
+    "arabic_search_aliases": [
+      "جوزف نصر",
+      "جو نصر"
+    ]
   },
   "current_primary_professional_frame": "Creative Director | Digital Experiences | Interactive Prototyping",
   "current_scope": [
@@ -428,7 +433,13 @@
       "Joseph Ribal Nasr"
     ],
     "ambiguous_search_string": "Joseph Nasr",
-    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge."
+    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge.",
+    "canonical_arabic_name": "جوزف رئبال نصر",
+    "arabic_search_aliases": [
+      "جوزف نصر",
+      "جو نصر"
+    ],
+    "arabic_alias_rule": "Use Arabic aliases for retrieval and entity resolution only; do not replace the canonical Arabic full-name form or merge namesakes without contextual proof."
   },
   "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
   "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
@@ -1680,5 +1691,69 @@
       "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
       "reason": "Legitimate historical audio-post evidence retained for machine retrieval; no longer used as the visible Media Music Composition route."
     }
-  ]
+  ],
+  "public_evidence_update_2026_10_04": {
+    "presentation_rule": "Do not restore a visible CLIENTELE wall. Keep client/project/institution names inside practice-domain selected evidence and machine-readable project/source records.",
+    "direct_or_institutional_corroboration": [
+      {
+        "subject": "SAE UAE Design and Motion Graphics program",
+        "support": "Institutional post explicitly names Joe Nasr for expertise and mentorship.",
+        "source": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+        "class": "INSTITUTIONAL_FACT_CORROBORATION"
+      },
+      {
+        "subject": "The Nidaa Show",
+        "support": "Third-party project credit identifies Joe Nasr for Audio Post Production.",
+        "source": "https://zainabsalbi.com/",
+        "class": "DIRECT_PROJECT_CREDIT_LEAD"
+      }
+    ],
+    "project_context_corroboration": [
+      {
+        "subject": "ET Bil Arabi",
+        "support": "Independent trade/news coverage verifies the 2015 show, Charisma Group production and Abu Dhabi/twofour54 context; Etere independently documents Final Cut Pro in the show's workflow.",
+        "sources": [
+          "https://www.digitalstudiome.com/production/article-8394-cbs-and-mbc-launch-et-bil-arabi",
+          "https://www.broadcastprome.com/news/mbc4-launches-local-format-of-entertainment-tonight/",
+          "https://www.digitalstudiome.com/production/content-management/article-8971-et-bil-arabi-finds-new-home-at-twofour54",
+          "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
+        ],
+        "boundary": "These sources do not independently name Joe Nasr as editor; Joe's role remains supported by his public artifact and recorded project evidence."
+      },
+      {
+        "subject": "E! Beyond The Red Carpet / DIFF 2016",
+        "support": "Navigation Films' public Dubai-office material verifies regional production/post-production capability and in-house editing context.",
+        "sources": [
+          "https://navigationfilms.com/offices/dubai/",
+          "https://navigationfilms.com/our-work/"
+        ],
+        "boundary": "No public Navigation Films or independent source naming Joe Nasr on this production has yet been recovered."
+      },
+      {
+        "subject": "Media Valley",
+        "support": "Public third-party indexing corroborates Joe Nasr as Creative Director at Media Valley Fz-LLC in Dubai.",
+        "sources": [
+          "https://prospectoo.com/company/MediaValleyFz-LLC-14387104/"
+        ],
+        "boundary": "Directory-level corroboration, not independent editorial coverage."
+      },
+      {
+        "subject": "Montage TV Production",
+        "support": "An attributed third-party testimonial states that Joe Nasr and Romeo Chalfoun worked together at Montage TV Production in Dubai.",
+        "sources": [
+          "https://clarity.fm/joenasr"
+        ],
+        "boundary": "Testimonial/profile evidence, not editorial coverage."
+      }
+    ],
+    "current_interactive_artifact_corroboration": [
+      {
+        "subject": "Brick XR Builder / LegoCraft",
+        "support": "Live itch.io artifact identifies the public project and documents browser 3D / WebXR functionality.",
+        "source": "https://joenasr.itch.io/brickxr",
+        "class": "FIRST_PARTY_LIVE_ARTIFACT"
+      }
+    ],
+    "editorial_notability_status": "No substantial independent editorial article directly about Joe Nasr has yet been verified in the 2026-10-04 search passes."
+  }
 }
