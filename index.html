@@ -424,6 +424,123 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   margin-top: 16px;
   color: #74756f;
 }
+
+.client-bank-section {
+  padding: 84px 0 92px;
+  border-top: 1px solid var(--line-strong);
+}
+.client-bank-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(260px, .6fr);
+  gap: clamp(28px, 6vw, 90px);
+  align-items: end;
+  margin-bottom: 34px;
+}
+.client-bank-heading h2 {
+  margin: 0;
+  font-size: clamp(38px, 5.6vw, 82px);
+  line-height: .92;
+  letter-spacing: -.055em;
+}
+.client-bank-heading p {
+  margin: 0;
+  color: #686963;
+  max-width: 440px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.client-bank-count {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #8a8b84;
+  font-size: 11px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.client-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+.client-chip {
+  min-width: 0;
+  padding: 16px 17px 15px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255,255,255,.18);
+}
+.client-chip strong {
+  display: block;
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 560;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.client-chip span {
+  display: block;
+  margin-top: 7px;
+  color: #8a8b84;
+  font-size: 9px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.client-bank-more {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.client-bank-more summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 0;
+  cursor: pointer;
+  list-style: none;
+  color: var(--ink);
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.client-bank-more summary::-webkit-details-marker { display: none; }
+.client-bank-more summary::after { content: "+"; font-size: 18px; line-height: .7; }
+.client-bank-more[open] summary::after { content: "−"; }
+.client-bank-groups {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(24px, 4vw, 56px);
+  padding: 24px 0 8px;
+}
+.client-bank-group h3 {
+  margin: 0 0 13px;
+  color: #888982;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.client-bank-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.client-bank-group li {
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(35,35,33,.08);
+  color: #3e3f3d;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.client-bank-note {
+  margin: 24px 0 0;
+  max-width: 780px;
+  color: #85867f;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
 .archive-section { padding-top: 90px; padding-bottom: 130px; border-top: 1px solid var(--line-strong); }
 .archive-heading { display: flex; justify-content: space-between; gap: 30px; align-items: end; }
 .archive-heading h2 { font-size: clamp(50px, 8vw, 122px); }
@@ -722,6 +839,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
   .identity-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-heading { grid-template-columns: 1fr; align-items: start; }
   .practice-grid { grid-template-columns: 1fr; row-gap: 28px; }
+  .client-bank-heading { grid-template-columns: 1fr; }
+  .client-chip-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .client-bank-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .practice-grid-independent { display: grid; }
   .practice-grid-independent .practice-column { display: contents; }
   .practice-grid-independent .practice-column-left .practice-item:nth-child(1) { order: 1; }
@@ -1294,6 +1414,106 @@ body.compact .record-url-wrap { margin-top: 8px; }
           </article>
         </div>
       </div>
+    </section>
+
+    <section class="client-bank-section" id="client-bank" aria-labelledby="client-bank-title">
+      <div class="client-bank-heading">
+        <div>
+          <span class="client-bank-count">Clients · Institutions · Training Recipients</span>
+          <h2 id="client-bank-title">Selected relationships.</h2>
+        </div>
+        <p>A compact view of documented commercial, institutional, educational and training relationships across Joe Nasr's professional history. Relationship type varies by engagement.</p>
+      </div>
+
+      <div class="client-chip-grid" aria-label="Selected clients and institutions">
+        <div class="client-chip" title="Government and institutional media relationship"><strong>Dubai Media Office</strong><span>Government</span></div>
+        <div class="client-chip" title="Government media relationship"><strong>Dubai Police</strong><span>Government</span></div>
+        <div class="client-chip" title="Government media and training relationship"><strong>UAE Armed Forces</strong><span>Government</span></div>
+        <div class="client-chip" title="Institutional training-program relationship"><strong>Ministry of Culture</strong><span>Institution</span></div>
+        <div class="client-chip" title="Executive Office / Reyada training-program relationship"><strong>H.H. Sheikha Jawaher EO</strong><span>Institution</span></div>
+        <div class="client-chip" title="Commercial and training relationship"><strong>Emaar</strong><span>Corporate</span></div>
+        <div class="client-chip" title="Commercial relationship"><strong>Meraas</strong><span>Corporate</span></div>
+        <div class="client-chip" title="Corporate Adobe training through SAE"><strong>Cartier</strong><span>Training</span></div>
+        <div class="client-chip" title="Institution and training-provider relationship"><strong>SAE</strong><span>Education</span></div>
+        <div class="client-chip" title="Training-program relationship"><strong>Reyada</strong><span>Training</span></div>
+        <div class="client-chip" title="Corporate media-training relationship"><strong>ITP Media</strong><span>Media</span></div>
+        <div class="client-chip" title="Commercial creative relationship"><strong>Mercedes-Benz</strong><span>Brand</span></div>
+      </div>
+
+      <details class="client-bank-more">
+        <summary><span>View all documented relationships</span><span>Grouped by context</span></summary>
+        <div class="client-bank-groups">
+          <div class="client-bank-group">
+            <h3>Government &amp; institutions</h3>
+            <ul>
+              <li>Government of Dubai Media Office</li>
+              <li>Dubai Police</li>
+              <li>UAE Armed Forces</li>
+              <li>UAE Ministry of Interior</li>
+              <li>Ministry of Culture &amp; Knowledge Development</li>
+              <li>Abu Dhabi Municipality</li>
+              <li>Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi</li>
+              <li>Egyptian Ministry of Foreign Affairs</li>
+              <li>Holy Quran Academy, Sharjah</li>
+              <li>Dubai Culture &amp; Arts Authority</li>
+            </ul>
+          </div>
+
+          <div class="client-bank-group">
+            <h3>Education &amp; training</h3>
+            <ul>
+              <li>SAE Institute Dubai / SAE University College</li>
+              <li>Reyada Learning &amp; Development / Reyada Center</li>
+              <li>American University in Dubai</li>
+              <li>New Media Academy</li>
+              <li>ITP Media Group</li>
+              <li>Emaar Hospitality Group</li>
+              <li>Cartier Middle East</li>
+              <li>Rove Hotels</li>
+            </ul>
+          </div>
+
+          <div class="client-bank-group">
+            <h3>Brands &amp; corporate</h3>
+            <ul>
+              <li>Mercedes-Benz</li>
+              <li>Chevrolet</li>
+              <li>Emaar Properties</li>
+              <li>Meraas</li>
+              <li>Noon</li>
+              <li>GMC</li>
+              <li>Maybelline New York</li>
+              <li>NYX Professional Makeup</li>
+              <li>Estée Lauder</li>
+              <li>Sephora</li>
+              <li>Guerlain</li>
+              <li>Chopard</li>
+              <li>Bloomingdale's</li>
+              <li>Galeries Lafayette</li>
+              <li>InterContinental</li>
+              <li>Jotun</li>
+            </ul>
+          </div>
+
+          <div class="client-bank-group">
+            <h3>Media, culture &amp; production</h3>
+            <ul>
+              <li>Etihad Airways</li>
+              <li>E! News</li>
+              <li>ET Bil Arabi</li>
+              <li>Pepsi Arabia</li>
+              <li>Adidas / Terrex</li>
+              <li>Dubai Tourism &amp; Culture</li>
+              <li>Louvre Abu Dhabi</li>
+              <li>Guggenheim</li>
+              <li>L'Azurde</li>
+              <li>B.Games</li>
+              <li>Earn.Game</li>
+            </ul>
+          </div>
+        </div>
+        <p class="client-bank-note">These names represent different evidence-backed relationship types — including direct client work, agency/production-routed work, institutional engagements and training recipients. Inclusion does not imply the same commissioning structure for every organization.</p>
+      </details>
     </section>
 
     <section class="archive-section" id="archive" aria-labelledby="archiveTitle">
