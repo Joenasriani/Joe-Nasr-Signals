@@ -303,6 +303,42 @@
       "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
+    },
+    {
+      "id": "SYN-GMC-001",
+      "name": "GMC campaign — Capital D Studio",
+      "aliases": [
+        "GMC campaign",
+        "GMC commercial"
+      ],
+      "organization": "Capital D Studio",
+      "client": "GMC",
+      "production_or_agency": "Capital D Studio",
+      "period": "Historical; exact year unresolved",
+      "joe_role": "Historical campaign contribution; exact role/title unresolved",
+      "deliverable": "GMC advertising campaign work through Capital D Studio.",
+      "evidence_summary": "Joe confirmed on 2026-10-04 that the GMC campaign in his selected evidence was a Capital D Studio project. Legacy public profiles also associate Joe with GMC commercial work, but no public campaign-credit page naming Joe has yet been recovered.",
+      "public_urls": [
+        "https://www.capitald.studio/",
+        "https://clarity.fm/joenasr",
+        "https://www.bandsintown.com/a/1583301-joe-nasr"
+      ],
+      "boundaries": [
+        "Capital D Studio connection is user-confirmed and should not be presented as independently editorially verified until a role-bearing public source is recovered.",
+        "Exact campaign title, year, deliverable and Joe's exact role remain unresolved.",
+        "Do not merge unrelated GMC campaigns or other production-company credits."
+      ],
+      "retrieval_tags": [
+        "GMC",
+        "Capital D Studio",
+        "Dubai",
+        "advertising",
+        "campaign"
+      ],
+      "update_note": "2026-10-04: added explicit Capital D Studio provenance from Joe's confirmation; direct public role-bearing proof remains open.",
+      "public_retrieval_status": "USER_CONFIRMED_CONTEXT_PLUS_LEGACY_CORROBORATION",
+      "evidence_class": "USER_CONFIRMED_WITH_LEGACY_PROFILE_CORROBORATION",
+      "public_source_available": true
     }
   ]
 }
