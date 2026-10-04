@@ -225,16 +225,21 @@
     {
       "id": "SYN-0275",
       "name": "LegoCraft",
-      "aliases": [],
+      "aliases": [
+        "Brick XR Builder",
+        "BRICK XR BUILDER (EARLY ACCESS)"
+      ],
       "organization": "Independent technical / research / interactive lab",
       "client": null,
       "production_or_agency": null,
       "period": "Current/recent",
       "joe_role": "XR/WebXR builder",
       "deliverable": "React Three Fiber / Three.js / Zustand / WebXR implementation with brick manipulation and save/load.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Repository audit plus live public itch.io artifact. The public Brick XR Builder page documents a browser-based 3D/WebXR building experience by Joe Nasr, while the source repository documents the React Three Fiber / Three.js / Zustand / WebXR implementation.",
       "public_urls": [
-        "https://github.com/Joenasriani/legocraft"
+        "https://github.com/Joenasriani/legocraft",
+        "https://joenasr.itch.io/brickxr",
+        "https://legocraftvr.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -242,7 +247,7 @@
         "Three.js",
         "XR"
       ],
-      "update_note": null,
+      "update_note": "2026-10-04: linked the public itch.io Brick XR Builder identity to the LegoCraft source/project lineage.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
