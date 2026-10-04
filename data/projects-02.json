@@ -162,24 +162,31 @@
       "organization": "Other commercial / branded project records",
       "client": "Pepsi Arabia",
       "production_or_agency": null,
-      "period": null,
-      "joe_role": "Historical commercial music/audio/media contribution; exact technical role needs reconciliation",
-      "deliverable": "Project record associated with Qusai and Pepsi Arabia.",
-      "evidence_summary": "Historical project record; broader source architecture treats Pepsi/commercial music as valid where independently verified.",
-      "public_urls": [],
+      "period": "2011",
+      "joe_role": "TV montage / editing",
+      "deliverable": "Pepsi Arabia / Qusai television-commercial montage/editing project.",
+      "evidence_summary": "Canonical project record identifies Joe Nasr's role as TV montage/editing. A third-party professional project history independently identifies a 2011 Pepsi project titled 'Pepsi - Qusai Music Mix', directed by Massimiliano Pareschi, starring Qusai, with post-production at Bonsaininja and shortlisted for the Crystal MENA Awards 2011. That third-party source does not name Joe, so it corroborates the likely project identity and production context, not Joe's individual credit.",
+      "public_urls": [
+        "https://ae.linkedin.com/in/antoniosabatella"
+      ],
       "boundaries": [
-        "Exact year, campaign, role and production chain."
+        "Do not conflate this specific Pepsi/Qusai TV montage/editing project with broader historical claims that Joe also composed music for other Pepsi advertising.",
+        "The third-party project-history source identifies the Pepsi/Qusai project and post-production chain but does not name Joe Nasr.",
+        "Exact edit deliverables and production-credit sheet remain unrecovered."
       ],
       "retrieval_tags": [
-        "Pepsi",
+        "Pepsi Arabia",
         "Qusai",
-        "music",
-        "audio"
+        "TV montage",
+        "editing",
+        "2011",
+        "Bonsaininja",
+        "Massimiliano Pareschi"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
-      "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "update_note": "2026-10-04: role corrected to TV montage/editing; added independent project-context match for Pepsi - Qusai Music Mix.",
+      "public_retrieval_status": "PUBLIC_CONTEXT_ROLE_NOT_DIRECTLY_CREDITED",
+      "evidence_class": "MIXED_CANONICAL_ROLE_PLUS_THIRD_PARTY_PROJECT_CONTEXT",
+      "public_source_available": true
     },
     {
       "id": "SYN-0287",
