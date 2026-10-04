@@ -152,8 +152,11 @@
       "period": "December 2016",
       "joe_role": "Editor",
       "deliverable": "Editing work for E! Beyond The Red Carpet at the 13th Dubai International Film Festival.",
-      "evidence_summary": "Documented project record supports Joe Nasr as Editor for the December 2016 production.",
-      "public_urls": [],
+      "evidence_summary": "Documented project record supports Joe Nasr as Editor for the December 2016 E! Beyond The Red Carpet / 13th Dubai International Film Festival production. Navigation Films' current public Dubai-office and portfolio pages independently establish its Dubai production/post-production operation and in-house editing capability, but no recovered public source currently names Joe on this specific production.",
+      "public_urls": [
+        "https://navigationfilms.com/offices/dubai/",
+        "https://navigationfilms.com/our-work/"
+      ],
       "boundaries": [
         "Do not call this a verified public/end-screen credit until a public credit frame or equivalent public source is recovered."
       ],
@@ -166,10 +169,11 @@
         "2016",
         "TV"
       ],
-      "update_note": null,
+      "update_note": "2026-10-04: added Navigation Films public context without upgrading Joe's role to independently verified.",
       "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "DOCUMENTED_NONPUBLIC",
-      "public_source_available": false
+      "public_source_available": true,
+      "source_quality_note": "Public sources corroborate Navigation Films' production/post-production context only. Joe's specific editor credit remains documented nonpublic until a public role-bearing source is recovered."
     },
     {
       "id": "SYN-0256",
