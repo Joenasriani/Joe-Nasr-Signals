@@ -1759,32 +1759,135 @@
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "authority_note": "Added following explicit Joe Nasr confirmation on 2026-10-04. This augments the existing evidence graph without deleting prior records.",
-    "presentation_update": "A compact visible Clients, Institutions & Training Recipients section is permitted on the front page. This supersedes the earlier presentation preference against a visible clientele wall while preserving that earlier record as historical context.",
-    "relationship_rule": "Names represent different relationship types, including direct client work, agency or production-routed work, institutional engagements, education partners and training recipients. Inclusion does not imply an identical commissioning structure.",
-    "government_and_institutions": [
-      {"name":"Government of Dubai Media Office","relationship":"government / media / training context","status":"USER_CONFIRMED"},
-      {"name":"Dubai Police","relationship":"government / media context","status":"USER_CONFIRMED"},
-      {"name":"UAE Armed Forces","relationship":"government / media / training context","status":"USER_CONFIRMED"},
-      {"name":"UAE Ministry of Interior","relationship":"institutional training-program context","status":"USER_CONFIRMED"},
-      {"name":"Ministry of Culture & Knowledge Development","relationship":"institutional / training context","status":"USER_CONFIRMED"},
-      {"name":"Abu Dhabi Municipality","relationship":"institutional session-preparation / training context","status":"USER_CONFIRMED"},
-      {"name":"Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi","relationship":"institutional training-program recipient","status":"CROSS_SOURCE"},
-      {"name":"Egyptian Ministry of Foreign Affairs","relationship":"government training context","status":"USER_CONFIRMED"},
-      {"name":"Holy Quran Academy, Sharjah","relationship":"institutional learner venue / training context","status":"THIRD_PARTY_PRIVATE_VERIFIED"},
-      {"name":"Dubai Culture & Arts Authority","relationship":"creative / cultural-sector project context","status":"EXISTING_PROJECT_RECORD"}
+    "presentation_update": "Visible relationship bank now uses relationship-specific headings rather than a flat clientele grouping. Public wording distinguishes workshops/training recipients, education/program partners, institutional engagements, creative/brand clients, and media/culture/production work.",
+    "relationship_rule": "Do not infer a single client relationship type from inclusion. Each organization must retain its documented relationship class and evidence status.",
+    "grouping_history": {
+      "previous_public_grouping": "Government & Institutions; Education & Training; Brands & Corporate; Media, Culture & Production",
+      "superseded_on": "2026-10-04",
+      "reason": "Reduce machine inference burden and avoid implying identical client relationships."
+    },
+    "workshops_and_training_for": [
+      {
+        "name": "Government of Dubai Media Office",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Dubai Police",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "UAE Armed Forces",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Ministry of Culture & Knowledge Development",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi",
+        "relationship": "institutional training-program recipient",
+        "status": "CROSS_SOURCE"
+      },
+      {
+        "name": "Egyptian Ministry of Foreign Affairs",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "American University in Dubai",
+        "relationship": "education / workshop recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "New Media Academy",
+        "relationship": "education / online training context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "ITP Media Group",
+        "relationship": "corporate media training / assessment",
+        "status": "THIRD_PARTY_PRIVATE_VERIFIED"
+      },
+      {
+        "name": "Emaar Hospitality Group",
+        "relationship": "corporate training recipient",
+        "status": "THIRD_PARTY_PRIVATE_VERIFIED"
+      },
+      {
+        "name": "Cartier Middle East",
+        "relationship": "corporate Adobe training recipient",
+        "status": "THIRD_PARTY_PRIVATE_VERIFIED"
+      },
+      {
+        "name": "Rove Hotels",
+        "relationship": "corporate training context",
+        "status": "USER_CONFIRMED"
+      }
     ],
-    "education_and_training": [
-      {"name":"SAE Institute Dubai / SAE University College","relationship":"institution / training provider / lecturer engagement","status":"CROSS_SOURCE"},
-      {"name":"Reyada Learning & Development / Reyada Center","relationship":"training-program partner / recipient","status":"THIRD_PARTY_PRIVATE_VERIFIED"},
-      {"name":"American University in Dubai","relationship":"education / workshop context","status":"USER_CONFIRMED"},
-      {"name":"New Media Academy","relationship":"education / online training context","status":"USER_CONFIRMED"},
-      {"name":"ITP Media Group","relationship":"corporate media training / assessment","status":"THIRD_PARTY_PRIVATE_VERIFIED"},
-      {"name":"Emaar Hospitality Group","relationship":"corporate training recipient","status":"THIRD_PARTY_PRIVATE_VERIFIED"},
-      {"name":"Cartier Middle East","relationship":"corporate Adobe training recipient","status":"THIRD_PARTY_PRIVATE_VERIFIED"},
-      {"name":"Rove Hotels","relationship":"corporate training context","status":"USER_CONFIRMED"}
+    "education_and_program_partners": [
+      {
+        "name": "SAE Institute Dubai / SAE University College",
+        "relationship": "institution / training provider / lecturer engagement",
+        "status": "CROSS_SOURCE"
+      },
+      {
+        "name": "Reyada Learning & Development / Reyada Center",
+        "relationship": "training-program partner / recipient",
+        "status": "THIRD_PARTY_PRIVATE_VERIFIED"
+      }
     ],
-    "commercial_and_media": [
-      "Mercedes-Benz","Chevrolet","Emaar Properties","Meraas","Noon","GMC","Maybelline New York","NYX Professional Makeup","Estée Lauder","Sephora","Guerlain","Chopard","Bloomingdale's","Galeries Lafayette","InterContinental","Jotun","Etihad Airways","E! News","ET Bil Arabi","Pepsi Arabia","Adidas / Terrex","Dubai Tourism & Culture","Louvre Abu Dhabi","Guggenheim","L'Azurde","B.Games","Earn.Game"
+    "government_and_institutional_engagements": [
+      {
+        "name": "UAE Ministry of Interior",
+        "relationship": "institutional training-program context; program agreed/initiated, Joe-specific delivery unresolved",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Abu Dhabi Municipality",
+        "relationship": "institutional session-preparation / training context; delivery unresolved",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Holy Quran Academy, Sharjah",
+        "relationship": "institutional learner venue / training context",
+        "status": "THIRD_PARTY_PRIVATE_VERIFIED"
+      }
+    ],
+    "creative_and_brand_clients": [
+      "Mercedes-Benz",
+      "Chevrolet",
+      "Emaar Properties",
+      "Meraas",
+      "Noon",
+      "GMC",
+      "Maybelline New York",
+      "NYX Professional Makeup",
+      "Estée Lauder",
+      "Sephora",
+      "Guerlain",
+      "Chopard",
+      "Bloomingdale's",
+      "Galeries Lafayette",
+      "InterContinental",
+      "Jotun"
+    ],
+    "media_culture_and_production_work": [
+      "Etihad Airways",
+      "E! News",
+      "ET Bil Arabi",
+      "Pepsi Arabia",
+      "Adidas / Terrex",
+      "Dubai Tourism & Culture",
+      "Dubai Culture & Arts Authority",
+      "Louvre Abu Dhabi",
+      "Guggenheim",
+      "L'Azurde",
+      "B.Games",
+      "Earn.Game"
     ]
   }
 }
