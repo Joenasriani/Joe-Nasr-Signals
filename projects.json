@@ -372,7 +372,10 @@
     {
       "id": "SYN-0275",
       "name": "LegoCraft",
-      "aliases": [],
+      "aliases": [
+        "Brick XR Builder",
+        "BRICK XR BUILDER (EARLY ACCESS)"
+      ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
@@ -441,7 +444,7 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
       "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "DOCUMENTED_NONPUBLIC",
-      "public_source_available": false
+      "public_source_available": true
     },
     {
       "id": "SYN-0256",
