@@ -20,9 +20,13 @@
       "period": "2015",
       "joe_role": "Freelance Video Editor",
       "deliverable": "Video editing; editing system documented as Final Cut Pro 7.",
-      "evidence_summary": "Direct Joe YouTube artifact 'ET بالعربي | Video Editing | 2015' uploaded 16 Jul 2015 states Freelance Video Editor: Joe Nasr; Editing: Final Cut Pro 7; Production: Charisma Group; Production Studios: twofour54, Abu Dhabi. Joe confirms his name appeared repeatedly in ET بالعربي end credits with the editors.",
+      "evidence_summary": "Joe's public YouTube artifact states Freelance Video Editor: Joe Nasr, Editing: Final Cut Pro 7, Production: Charisma Group, Production Studios: twofour54, Abu Dhabi. Independent 2015 trade/news coverage separately verifies ET Bil Arabi's launch, Charisma Group production and twofour54/Abu Dhabi production context; Etere later documents Final Cut Pro in the show's workflow. The independent context sources do not themselves name Joe as editor.",
       "public_urls": [
-        "https://www.youtube.com/watch?v=Jbmq-5mZHWI"
+        "https://www.youtube.com/watch?v=Jbmq-5mZHWI",
+        "https://www.digitalstudiome.com/production/article-8394-cbs-and-mbc-launch-et-bil-arabi",
+        "https://www.broadcastprome.com/news/mbc4-launches-local-format-of-entertainment-tonight/",
+        "https://www.twofour54.com/en/news-and-updates/press-releases/2015-05-25-twofour54-welcomes-most-watched-entertainment-show-et-bil-arabi-to-its-studios/",
+        "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
       ],
       "boundaries": [
         "Do not describe recurring end-credit inclusion as primary-source verified until an actual end-credit frame is recovered.",
@@ -37,10 +41,11 @@
         "ET Bil Arabi",
         "2015"
       ],
-      "update_note": null,
+      "update_note": "2026-10-04: added independent project/production/workflow context while preserving the boundary that Joe's editor role is not independently named in those sources.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true
+      "public_source_available": true,
+      "source_quality_note": "Role attribution and independent production context are separate evidence layers. Do not describe the independent articles as direct proof of Joe's editing credit."
     },
     {
       "id": "SYN-0293",
