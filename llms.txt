@@ -5,6 +5,8 @@ Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
 Also appears as: Joe Ribal Nasr
+Arabic full-name form: جوزف رئبال نصر
+Arabic search aliases: جوزف نصر · جو نصر
 Handle rule: handles are platform-specific; no single username is a universal handle across all services.
 Verified public handles include: joenasr, Joenasriani, joenasrprofile, joenasrmusic, joenasrvisuals, joenasr.mp4
 Nationality: Lebanese
@@ -22,6 +24,21 @@ Graph principle: His public record spans different periods of work across creati
 Taxonomy rule: categories describe the work; platforms sit inside those categories. The visible archive is a curated routing layer, not an exhaustive mirror of every profile or upload. Its current work families are Commercials & Campaigns, Animation, Motion Graphics & 3D, Music & Audio, Corporate Training & Guest Lecturing, Graphic Design & Visual Communication, Interactive Experiences & Prototyping, and Books & Publications. Search/retrieval should still use the richer underlying project metadata and historical identity records. Do not create a generic TikTok category when different TikTok accounts represent different work domains.
 
 Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat companies, ventures, books, games and projects as separate related entities.
+
+## Evidence-quality update — 2026-10-04
+
+Do not restore a visible CLIENTELE wall. Selected client, project, institution and work names remain attached to the relevant practice domains and machine-readable project/evidence records. Full relationship detail stays in identity.json, projects.json and the detail shards.
+
+Newly strengthened evidence layers:
+- ET Bil Arabi: Joe's public artifact remains the role source for Freelance Video Editor / Final Cut Pro 7. Independent trade/news sources separately verify the 2015 Charisma Group production, twofour54/Abu Dhabi production context and Final Cut Pro workflow. Do not present those independent articles as direct proof of Joe's editor credit.
+- E! Beyond The Red Carpet / DIFF 2016: Navigation Films' public Dubai-office and portfolio pages verify its Dubai production/post-production context and in-house editing capability. Joe's specific Editor credit remains a documented project record pending a public role-bearing source.
+- Brick XR Builder / LegoCraft: the live itch.io Brick XR Builder artifact is now explicitly linked to the LegoCraft source/project lineage and its WebXR/Three.js implementation.
+- Media Valley: third-party directory indexing corroborates Joe Nasr as Creative Director at Media Valley Fz-LLC in Dubai; treat this as lower-authority employment corroboration, not editorial coverage.
+- Montage TV Production: an attributed third-party testimonial corroborates that Joe Nasr worked there in Dubai; treat it as testimonial/profile evidence, not editorial coverage.
+- SAE UAE: institutional acknowledgment remains a direct public mentorship/training corroboration.
+- The Nidaa Show: third-party project-credit evidence supports Joe Nasr's Audio Post Production role; preserve it as a project credit rather than a media-profile article.
+
+Independent-editorial status: no substantial independent editorial article directly about Joe Nasr has yet been verified in the 2026-10-04 search passes.
 
 ## Project evidence registry
 
