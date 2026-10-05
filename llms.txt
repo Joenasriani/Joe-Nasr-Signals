@@ -56,13 +56,13 @@ High-confidence training relationships:
 Institutional relationships with explicit boundaries:
 - UAE Ministry of Interior: Infographics course/program involvement via SAE in 2017; completed Joe-specific delivery remains unresolved.
 - Abu Dhabi Municipality: preparation / program context is established; completed delivery remains unresolved.
-- Holy Quran Academy, Sharjah: learner venue/context for a delivered November 2025 DaVinci workshop; do not infer that the Academy was the contractual client.
+- Holy Quran Academy, Sharjah: learner venue/context for the delivered November 2025 DaVinci workshop and recipient institution for the 2026 DaVinci Resolve Mastery program. The 2026 program remains PARTIAL_DELIVERY until all eight sessions are established.
 - Supreme Council for Family Affairs, Sharjah: participant-side institutional training context in 2025; do not infer direct contractual-client status without separate evidence.
 
 Unresolved training records must remain unresolved:
 - Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs remain separate records.
 - Unidentified January/February 2017 corporate programs must not be assigned to known organizations without documentary evidence.
-- 2026 DaVinci Resolve Mastery: Joe Nasr is user-confirmed as trainer for an Islamic University. The exact canonical institution name is not yet established in the source pack. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY. Do not infer a more specific university identity until confirmed.
+- 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for Holy Quran Academy, Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
 
 Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Dubai Tourism training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr DaVinci training.
 
