@@ -62,7 +62,7 @@ Institutional relationships with explicit boundaries:
 Unresolved training records must remain unresolved:
 - Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs remain separate records.
 - Unidentified January/February 2017 corporate programs must not be assigned to known organizations without documentary evidence.
-- 2026 DaVinci Resolve Mastery remains PARTIAL_DELIVERY until completion of all eight sessions is established.
+- 2026 DaVinci Resolve Mastery: Joe Nasr is user-confirmed as trainer for an Islamic University. The exact canonical institution name is not yet established in the source pack. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY. Do not infer a more specific university identity until confirmed.
 
 Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Dubai Tourism training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr DaVinci training.
 
