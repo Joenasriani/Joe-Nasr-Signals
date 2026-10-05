@@ -1974,7 +1974,24 @@
     "unresolved_rules": [
       "Keep Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs as separate records until evidence resolves whether they are distinct engagements.",
       "Do not assign unidentified 2017 corporate programs to known clients without documentary evidence.",
-      "2026 DaVinci Resolve Mastery remains PARTIAL_DELIVERY until full eight-session completion is established."
+      "2026 DaVinci Resolve Mastery: recipient is user-confirmed as an Islamic University; exact canonical institution name remains unresolved; at least four sessions are established and full eight-session completion remains PARTIAL_DELIVERY."
     ]
-  }
+  },
+  "training_programs": [
+    {
+      "name": "DaVinci Resolve Mastery — Islamic University",
+      "person": "Joe Nasr",
+      "role": "Trainer",
+      "recipient": "Islamic University",
+      "recipient_identity_status": "USER_CONFIRMED_NAME_INCOMPLETE",
+      "canonical_recipient_name": "UNRESOLVED",
+      "program": "DaVinci Resolve Mastery",
+      "year": 2026,
+      "delivery_status": "PARTIAL_DELIVERY",
+      "established_scope": "At least the first four sessions are independently established.",
+      "unresolved_scope": "Completion of the full eight-session program remains unresolved.",
+      "evidence_status": "USER_CONFIRMED + PARTIAL_DELIVERY",
+      "boundary": "Do not infer or publish a more specific university identity until the exact canonical institution name is established."
+    }
+  ]
 }
