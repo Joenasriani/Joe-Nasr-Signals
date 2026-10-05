@@ -1904,11 +1904,14 @@
       },
       {
         "name": "Holy Quran Academy, Sharjah",
-        "relationship": "learner venue / training context → delivered DaVinci workshop",
-        "status": "EXISTING_PROJECT_RECORD",
-        "period": "2025-11",
-        "delivery_status": "DELIVERED_PROGRAM_CONTEXT",
-        "boundary": "Do not automatically classify the Academy as the contractual client."
+        "relationship": "learner venue / training context for delivered November 2025 DaVinci workshop; recipient institution for 2026 DaVinci Resolve Mastery",
+        "periods": [
+          "2025-11",
+          "2026"
+        ],
+        "status": "CROSS_SOURCE",
+        "delivery_status": "2025 DELIVERED_PROGRAM_CONTEXT; 2026 PARTIAL_DELIVERY",
+        "boundary": "2025 workshop context is delivered; 2026 DaVinci Resolve Mastery has at least four sessions established, with full eight-session completion unresolved."
       },
       {
         "name": "Supreme Council for Family Affairs, Sharjah",
@@ -1968,30 +1971,29 @@
     "bounded_institutional_relationships": [
       "UAE Ministry of Interior — Infographics course/program involvement — 2017 — completed Joe-specific delivery unresolved",
       "Abu Dhabi Municipality — preparation / program context — delivery unresolved",
-      "Holy Quran Academy, Sharjah — November 2025 DaVinci learner venue/context — do not infer contractual-client status",
+      "Holy Quran Academy, Sharjah — November 2025 DaVinci learner venue/context; 2026 DaVinci Resolve Mastery recipient institution — 2026 remains PARTIAL_DELIVERY.",
       "Supreme Council for Family Affairs, Sharjah — participant-side institutional training context — do not infer direct contractual-client status"
     ],
     "unresolved_rules": [
       "Keep Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs as separate records until evidence resolves whether they are distinct engagements.",
       "Do not assign unidentified 2017 corporate programs to known clients without documentary evidence.",
-      "2026 DaVinci Resolve Mastery: recipient is user-confirmed as an Islamic University; exact canonical institution name remains unresolved; at least four sessions are established and full eight-session completion remains PARTIAL_DELIVERY."
+      "2026 DaVinci Resolve Mastery: recipient institution is Holy Quran Academy, Sharjah; at least four sessions are established and full eight-session completion remains PARTIAL_DELIVERY."
     ]
   },
   "training_programs": [
     {
-      "name": "DaVinci Resolve Mastery — Islamic University",
+      "name": "DaVinci Resolve Mastery — Holy Quran Academy, Sharjah",
       "person": "Joe Nasr",
       "role": "Trainer",
-      "recipient": "Islamic University",
-      "recipient_identity_status": "USER_CONFIRMED_NAME_INCOMPLETE",
-      "canonical_recipient_name": "UNRESOLVED",
+      "recipient": "Holy Quran Academy, Sharjah",
+      "canonical_recipient_name": "Holy Quran Academy, Sharjah",
       "program": "DaVinci Resolve Mastery",
       "year": 2026,
       "delivery_status": "PARTIAL_DELIVERY",
       "established_scope": "At least the first four sessions are independently established.",
       "unresolved_scope": "Completion of the full eight-session program remains unresolved.",
       "evidence_status": "USER_CONFIRMED + PARTIAL_DELIVERY",
-      "boundary": "Do not infer or publish a more specific university identity until the exact canonical institution name is established."
+      "boundary": "Do not state full eight-session completion until the remaining sessions are established."
     }
   ]
 }
