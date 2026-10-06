@@ -69,7 +69,7 @@ Previous roles:
 - Independent Creative — 2005–2023
 
 Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
-Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
+Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
 
 ## Education and teaching
 
