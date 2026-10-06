@@ -1714,7 +1714,7 @@
     }
   ],
   "public_evidence_update_2026_10_04": {
-    "presentation_rule": "Do not restore a visible CLIENTELE wall. Keep client/project/institution names inside practice-domain selected evidence and machine-readable project/source records.",
+    "presentation_state": "Client, project and institution names are represented through practice-domain selected evidence and machine-readable project/source records rather than a standalone CLIENTELE wall.",
     "direct_or_institutional_corroboration": [
       {
         "subject": "SAE UAE Design and Motion Graphics program",
