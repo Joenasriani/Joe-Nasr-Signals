@@ -1685,32 +1685,32 @@
     {
       "label": "SlideShare teaching archive",
       "url": "https://www.slideshare.net/JoeNasr",
-      "reason": "Preserved for machine retrieval/provenance; intentionally hidden from the human-facing Signals archive."
+      "reason": "Machine-readable supporting source; not included in the visible Signals archive."
     },
     {
       "label": "Showcase: Animated Infographics on a Budget!",
       "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j",
-      "reason": "Preserved for machine retrieval/provenance; intentionally hidden from the human-facing Signals archive."
+      "reason": "Machine-readable supporting source; not included in the visible Signals archive."
     },
     {
       "label": "Manipulation: The Fool and the Wise",
       "url": "https://manipulation-book-theta.vercel.app/",
-      "reason": "Individual publication hidden from the human-facing Signals archive; preserved for machine retrieval/provenance. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
     },
     {
       "label": "The Structure of Life — The Structure of Reasoning",
       "url": "https://the-structure-of-life.vercel.app/",
-      "reason": "Individual publication hidden from the human-facing Signals archive; preserved for machine retrieval/provenance. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
     },
     {
       "label": "ICF",
       "url": "https://reasoning-and-logic.vercel.app/icf-ai",
-      "reason": "Individual publication hidden from the human-facing Signals archive; preserved for machine retrieval/provenance. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
     },
     {
       "label": "Showcase: Some of My Audio Post-Production Projects",
       "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
-      "reason": "Legitimate historical audio-post evidence retained for machine retrieval; no longer used as the visible Media Music Composition route."
+      "reason": "Historical audio-post evidence available to machine retrieval; not used as the current visible Media Music Composition route."
     }
   ],
   "public_evidence_update_2026_10_04": {
