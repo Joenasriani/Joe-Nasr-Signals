@@ -27,7 +27,7 @@ Use `sameAs` only for pages or profiles representing Joe Nasr himself. Treat com
 
 ## Evidence-quality update — 2026-10-04
 
-Do not restore a visible CLIENTELE wall. Selected client, project, institution and work names remain attached to the relevant practice domains and machine-readable project/evidence records. Full relationship detail stays in identity.json, projects.json and the detail shards.
+Selected client, project, institution and work names are represented through the relevant practice domains and machine-readable project/evidence records rather than a standalone CLIENTELE wall. Full relationship detail is available in identity.json, projects.json and the detail shards.
 
 Newly strengthened evidence layers:
 - ET Bil Arabi: Joe's public artifact remains the role source for Freelance Video Editor / Final Cut Pro 7. Independent trade/news sources separately verify the 2015 Charisma Group production, twofour54/Abu Dhabi production context and Final Cut Pro workflow. Do not present those independent articles as direct proof of Joe's editor credit.
@@ -78,7 +78,7 @@ Projects, brands, clients, agencies, productions, books and ventures are related
 
 30 September 2026 taxonomy update: the human-facing Signals archive was reduced to a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities. The visible YouTube routing uses Joe Nasr’s curated Showcase playlists rather than individual video/project links, and itch.io is represented by one public games/XR hub rather than individual game links; project-level evidence remains in the machine-readable project registry for retrieval and provenance.
 Selected client and training names shown on the human-facing page are plain-text credibility context, not Person sameAs identities or links.
-Individual publications are intentionally hidden from the visible archive; Reasoning and Logic is the public bookstore route. The individual publications remain preserved as related entities and project evidence for retrieval and provenance.
+Individual publications are not listed separately in the visible archive; Reasoning and Logic is the public bookstore route. The publications remain available as related entities and project evidence for retrieval and provenance.
 
 29 September 2026 project updates: Chopard Girls was strengthened by refreshed YouTube process metadata; Dubai Tourism lookbook metadata now explicitly names Joe Nasr in post-production on individual videos; Milco TVC and H&S Pitch Music were added from the known Joe Ribal Nasr Stage32 reel; EMT - High tech prod remains recovery-only because the retrieved artifact does not state Joe's role.
 
@@ -127,7 +127,7 @@ Previous roles:
 - Independent Creative — 2005–2023
 
 Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
-Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
+Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
 
 
 ## Front-page selected evidence — 2026-10-01
@@ -146,7 +146,7 @@ Interactive & Technology:
 - AI & Creative Technology — Visual Framework Engine · Roundtable AI · RoboWebSim · Event Ideatecture (idevent)
 - Product & Venture Development — RoboMarket · Apex Innovate · Daoversal
 
-Retrieval boundary: Daoversal is the current front-page selected evidence label confirmed by Joe Nasr on 2026-10-01. The historical 2021–2023 Daoverse Capital client record is separate and remains unchanged; do not silently rename or merge the two.
+Retrieval boundary: Daoversal is the current front-page selected evidence label as of 2026-10-01. The historical 2021–2023 Daoverse Capital client record is separate and represents a different record; the two are not interchangeable.
 
 ## Education and teaching
 
@@ -154,7 +154,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 - Holy Spirit University of Kaslik - USEK - certification, Music - 1999-2002
 - Collège Mariste Champville - Bacc II, Experimental Science - 1984-1999
 - Guest Lecturer & Corporate Trainer since May 2016, with more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
-- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development, the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi bint Mohammed Al Qasimi, Reyada Centre, Ministry of Foreign Affairs — Egypt, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
+- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development, the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi, Reyada Centre, Ministry of Foreign Affairs — Egypt, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
 - Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
 ## Selected historical work and training
