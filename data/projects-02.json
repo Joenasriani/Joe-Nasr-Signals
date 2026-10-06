@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-10-06",
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 2,
-  "project_count": 9,
+  "project_count": 10,
   "projects": [
     {
       "id": "SYN-0310",
@@ -25,7 +25,8 @@
         "https://www.youtube.com/watch?v=jTQm-RiwLms",
         "https://www.youtube.com/watch?v=wb-qPpbYnb4",
         "https://www.youtube.com/watch?v=c2nF-hRVRr0",
-        "https://www.youtube.com/watch?v=IGKI8jjRtGs"
+        "https://www.youtube.com/watch?v=IGKI8jjRtGs",
+        "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfjkeigxE9B4dce16vtCY67"
       ],
       "boundaries": [
         "Do not infer unverified talent surnames or agency relationships beyond established records."
@@ -37,7 +38,7 @@
         "post-production",
         "2019"
       ],
-      "update_note": null,
+      "update_note": "2026-10-06: Rechecked exact artifact wb-qPpbYnb4 via YouTube metadata: “Dubai Tourism & Culture | Nilo | Post-Production,” published on Joe Nasr’s channel. Added the supplied project-specific YouTube playlist as collection context. Existing role boundary remains unchanged.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
@@ -106,18 +107,26 @@
     },
     {
       "id": "SYN-0291",
-      "name": "Sephora intro with GlamGlow",
-      "aliases": [],
+      "name": "GlamGlow x Sephora Social Media Campaign",
+      "aliases": [
+        "Sephora intro with GlamGlow",
+        "Glamglow X Sephora Social Media Campaign"
+      ],
       "organization": "Other commercial / branded project records",
       "client": "Sephora / GlamGlow",
       "production_or_agency": null,
       "period": null,
       "joe_role": "Post-production / motion",
       "deliverable": "After Effects and Premiere work.",
-      "evidence_summary": "Existing YouTube/project cleanup record.",
-      "public_urls": [],
+      "evidence_summary": "Joe Nasr’s public YouTube upload is titled “Glamglow X Sephora Social Media Campaign,” providing a public first-party artifact for the established Sephora / GlamGlow project record. The source is Joe-controlled and does not independently verify client-side attribution or the exact role beyond the established project record.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=dUImFNFP1jw",
+        "https://www.youtube.com/playlist?list=PLA_K3WfiOwle_Ck9t6oH4Gwb0LuLev4dt"
+      ],
       "boundaries": [
-        "Exact year, agency and final project title remain unresolved."
+        "Exact year, agency and final project title remain unresolved.",
+        "Exact year, agency and final client-side project title remain unresolved.",
+        "Joe’s YouTube upload is first-party evidence; do not represent it as independent Sephora or GLAMGLOW verification."
       ],
       "retrieval_tags": [
         "Sephora",
@@ -125,10 +134,10 @@
         "After Effects",
         "Premiere"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "update_note": "2026-10-06: Exact YouTube video dUImFNFP1jw resolved via YouTube oEmbed as “Glamglow X Sephora Social Media Campaign” by Joe Nasr; linked with the supplied project-specific playlist.",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": true
     },
     {
       "id": "SYN-0288",
@@ -268,6 +277,41 @@
       "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": false
+    },
+    {
+      "id": "SYN-CHEV-TRAVERSE-001",
+      "name": "Chevrolet Arabia — All-New Traverse #BetterDriver",
+      "aliases": [
+        "The All-New Traverse - Technology That Helps Make A #BetterDriver",
+        "Chevrolet Traverse #BetterDriver"
+      ],
+      "organization": "Chevrolet Arabia",
+      "client": "Chevrolet",
+      "production_or_agency": null,
+      "period": null,
+      "joe_role": "Project contribution; exact role not stated by the official client upload",
+      "deliverable": "Regional Chevrolet Traverse campaign video / branded content artifact.",
+      "evidence_summary": "The exact YouTube artifact is published by the official Chevrolet Arabia channel. This independently verifies the client/campaign artifact and regional publication context. The official upload does not name Joe Nasr, so Joe’s exact role must remain sourced from the established project record/user confirmation rather than inferred from the client video.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=wTMNBmSIVIY",
+        "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfvTCEWNSZWdE5YwbwkT2gY"
+      ],
+      "boundaries": [
+        "Official Chevrolet Arabia publication proves the artifact and client/campaign context, not Joe Nasr’s individual credit.",
+        "Do not infer creative direction, editing, production, agency, or year until a source explicitly establishes those fields."
+      ],
+      "retrieval_tags": [
+        "Chevrolet",
+        "Chevrolet Arabia",
+        "Traverse",
+        "BetterDriver",
+        "official client publication",
+        "regional campaign"
+      ],
+      "update_note": "2026-10-06: Exact video wTMNBmSIVIY resolved via YouTube oEmbed/metadata as an official Chevrolet Arabia upload; added with the supplied project-specific playlist.",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
+      "public_source_available": true
     }
   ]
 }
