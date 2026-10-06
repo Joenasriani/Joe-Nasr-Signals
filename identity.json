@@ -103,8 +103,8 @@
               "E! News",
               "Pepsi Arabia",
               "Adidas (Terrex)",
-              "ET Bil Arabi",
-              "Dubai Tourism & Culture influencer series"
+              "ET بالعربي (ET Bil Arabi)",
+              "Department of Tourism and Commerce Marketing (Dubai Tourism) influencer series"
             ]
           },
           {
@@ -260,7 +260,7 @@
             },
             "front_page_selected_evidence": [
               "Government of Dubai Media Office (GDMO)",
-              "The Executive Office of Her Highness Sheikha Jawaher bint Mohammed Al Qasimi (HHEO)",
+              "The Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi (HHEO)",
               "Ministry of Culture and Knowledge Development",
               "Cartier Middle East",
               "ITP Media Group"
@@ -391,7 +391,7 @@
       "Ministry of Culture and Knowledge Development in Abu Dhabi",
       "the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi",
       "Reyada Centre",
-      "Egyptian Ministry of Foreign Affairs",
+      "Ministry of Foreign Affairs — Egypt",
       "New Media Academy",
       "American University in Dubai (AUD)",
       "Emaar Properties",
@@ -1731,7 +1731,7 @@
     ],
     "project_context_corroboration": [
       {
-        "subject": "ET Bil Arabi",
+        "subject": "ET بالعربي (ET Bil Arabi)",
         "support": "Independent trade/news coverage verifies the 2015 show, Charisma Group production and Abu Dhabi/twofour54 context; Etere independently documents Final Cut Pro in the show's workflow.",
         "sources": [
           "https://www.digitalstudiome.com/production/article-8394-cbs-and-mbc-launch-et-bil-arabi",
@@ -1804,17 +1804,17 @@
         "status": "USER_CONFIRMED"
       },
       {
-        "name": "Ministry of Culture & Knowledge Development",
+        "name": "Ministry of Culture and Knowledge Development",
         "relationship": "workshop / training recipient context",
         "status": "USER_CONFIRMED"
       },
       {
-        "name": "Executive Office of H.H. Sheikha Jawaher Bint Mohammed Al Qasimi",
+        "name": "Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
         "relationship": "institutional training-program recipient",
         "status": "CROSS_SOURCE"
       },
       {
-        "name": "Egyptian Ministry of Foreign Affairs",
+        "name": "Ministry of Foreign Affairs — Egypt",
         "relationship": "workshop / training recipient context",
         "status": "USER_CONFIRMED"
       },
@@ -1864,7 +1864,7 @@
         "period": "2017-02/2017-03",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "program_status": "CONFIRMED / DELIVERY_CONTEXT_DIRECTLY_ESTABLISHED",
-        "boundary": "Keep separate from the independently documented Dubai Tourism / Dubai Tourism & Culture media-production relationship."
+        "boundary": "Keep separate from the independently documented Dubai Tourism / Department of Tourism and Commerce Marketing (Dubai Tourism) media-production relationship."
       }
     ],
     "education_and_program_partners": [
@@ -1889,7 +1889,7 @@
     ],
     "government_and_institutional_engagements": [
       {
-        "name": "UAE Ministry of Interior",
+        "name": "Ministry of Interior (UAE)",
         "relationship": "course-development / institutional program involvement via SAE → Infographics",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2017-02",
@@ -1897,13 +1897,13 @@
         "boundary": "Program/proposal evidence is established; completed Joe-specific delivery is not."
       },
       {
-        "name": "Abu Dhabi Municipality",
+        "name": "Abu Dhabi City Municipality",
         "relationship": "training preparation / program context",
         "status": "EXISTING_PROJECT_RECORD",
         "delivery_status": "DELIVERY_UNRESOLVED"
       },
       {
-        "name": "Holy Quran Academy, Sharjah",
+        "name": "Holy Quran Academy in Sharjah",
         "relationship": "learner venue / training context for delivered November 2025 DaVinci workshop; recipient institution for 2026 DaVinci Resolve Mastery",
         "periods": [
           "2025-11",
@@ -1937,19 +1937,19 @@
       "Chopard",
       "Bloomingdale's",
       "Galeries Lafayette",
-      "InterContinental",
+      "InterContinental Hotels & Resorts",
       "Jotun"
     ],
     "media_culture_and_production_work": [
       "Etihad Airways",
       "E! News",
-      "ET Bil Arabi",
+      "ET بالعربي (ET Bil Arabi)",
       "Pepsi Arabia",
-      "Adidas / Terrex",
-      "Dubai Tourism & Culture",
-      "Dubai Culture & Arts Authority",
+      "Adidas",
+      "Department of Tourism and Commerce Marketing (Dubai Tourism)",
+      "Dubai Culture and Arts Authority",
       "Louvre Abu Dhabi",
-      "Guggenheim",
+      "Guggenheim Abu Dhabi",
       "L'Azurde",
       "B.Games",
       "Earn.Game"
@@ -1969,24 +1969,24 @@
       "Reyada Learning & Development / Reyada Center — lecturer / instructor / trainer via SAE — multi-program relationship — 2024–2026"
     ],
     "bounded_institutional_relationships": [
-      "UAE Ministry of Interior — Infographics course/program involvement — 2017 — completed Joe-specific delivery unresolved",
-      "Abu Dhabi Municipality — preparation / program context — delivery unresolved",
-      "Holy Quran Academy, Sharjah — November 2025 DaVinci learner venue/context; 2026 DaVinci Resolve Mastery recipient institution — 2026 remains PARTIAL_DELIVERY.",
+      "Ministry of Interior (UAE) — Infographics course/program involvement — 2017 — completed Joe-specific delivery unresolved",
+      "Abu Dhabi City Municipality — preparation / program context — delivery unresolved",
+      "Holy Quran Academy in Sharjah — November 2025 DaVinci learner venue/context; 2026 DaVinci Resolve Mastery recipient institution — 2026 remains PARTIAL_DELIVERY.",
       "Supreme Council for Family Affairs, Sharjah — participant-side institutional training context — do not infer direct contractual-client status"
     ],
     "unresolved_rules": [
-      "Keep Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs as separate records until evidence resolves whether they are distinct engagements.",
+      "Keep Egyptian Ministry of Culture and Ministry of Foreign Affairs — Egypt as separate records until evidence resolves whether they are distinct engagements.",
       "Do not assign unidentified 2017 corporate programs to known clients without documentary evidence.",
-      "2026 DaVinci Resolve Mastery: recipient institution is Holy Quran Academy, Sharjah; at least four sessions are established and full eight-session completion remains PARTIAL_DELIVERY."
+      "2026 DaVinci Resolve Mastery: recipient institution is Holy Quran Academy in Sharjah; at least four sessions are established and full eight-session completion remains PARTIAL_DELIVERY."
     ]
   },
   "training_programs": [
     {
-      "name": "DaVinci Resolve Mastery — Holy Quran Academy, Sharjah",
+      "name": "DaVinci Resolve Mastery — Holy Quran Academy in Sharjah",
       "person": "Joe Nasr",
       "role": "Trainer",
-      "recipient": "Holy Quran Academy, Sharjah",
-      "canonical_recipient_name": "Holy Quran Academy, Sharjah",
+      "recipient": "Holy Quran Academy in Sharjah",
+      "canonical_recipient_name": "Holy Quran Academy in Sharjah",
       "program": "DaVinci Resolve Mastery",
       "year": 2026,
       "delivery_status": "PARTIAL_DELIVERY",
