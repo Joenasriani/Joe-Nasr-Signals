@@ -49,22 +49,22 @@ High-confidence training relationships:
 - Emaar Hospitality Group: Joe Nasr → instructor via SAE → corporate media / photography / video training → 2016.
 - Rove Hotels: Joe Nasr → instructor via SAE → corporate media / photography / video training context → 2016.
 - ITP Media Group: Joe Nasr → instructor via SAE → media / video production and editing training → 2017.
-- Dubai Tourism: Joe Nasr → course designer / trainer via SAE → customized Adobe media-production program → 2017. Keep this training edge separate from independently documented Dubai Tourism / Dubai Tourism & Culture media-production work.
+- Dubai Tourism: Joe Nasr → course designer / trainer via SAE → customized Adobe media-production program → 2017. Keep this training edge separate from independently documented Dubai Tourism / Department of Tourism and Commerce Marketing media-production work.
 - Cartier Middle East: Joe Nasr → corporate trainer via SAE → Adobe Photoshop / Illustrator training → June 2020.
 - Reyada Learning & Development / Reyada Center: Joe Nasr → lecturer / instructor / trainer via SAE → multi-program media/design/motion relationship → 2024–2026.
 
 Institutional relationships with explicit boundaries:
-- UAE Ministry of Interior: Infographics course/program involvement via SAE in 2017; completed Joe-specific delivery remains unresolved.
-- Abu Dhabi Municipality: preparation / program context is established; completed delivery remains unresolved.
-- Holy Quran Academy, Sharjah: learner venue/context for the delivered November 2025 DaVinci workshop and recipient institution for the 2026 DaVinci Resolve Mastery program. The 2026 program remains PARTIAL_DELIVERY until all eight sessions are established.
+- Ministry of Interior: Infographics course/program involvement via SAE in 2017; completed Joe-specific delivery remains unresolved.
+- Abu Dhabi City Municipality: preparation / program context is established; completed delivery remains unresolved.
+- Holy Quran Academy in Sharjah: learner venue/context for the delivered November 2025 DaVinci workshop and recipient institution for the 2026 DaVinci Resolve Mastery program. The 2026 program remains PARTIAL_DELIVERY until all eight sessions are established.
 - Supreme Council for Family Affairs, Sharjah: participant-side institutional training context in 2025; do not infer direct contractual-client status without separate evidence.
 
 Unresolved training records must remain unresolved:
-- Egyptian Ministry of Culture and Egyptian Ministry of Foreign Affairs remain separate records.
+- Egyptian Ministry of Culture and Ministry of Foreign Affairs — Egypt remain separate records.
 - Unidentified January/February 2017 corporate programs must not be assigned to known organizations without documentary evidence.
-- 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for Holy Quran Academy, Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
+- 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for Holy Quran Academy in Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
 
-Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Dubai Tourism training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr DaVinci training.
+Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Department of Tourism and Commerce Marketing training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr DaVinci training.
 
 ## Project evidence registry
 
@@ -111,7 +111,7 @@ Interactive & Technology:
 - Product & Venture Development
 
 Knowledge & Training:
-- Corporate Training & Guest Lecturing — Government of Dubai Media Office (GDMO) · The Executive Office of Her Highness Sheikha Jawaher bint Mohammed Al Qasimi (HHEO) · Ministry of Culture and Knowledge Development · Cartier Middle East · ITP Media Group
+- Corporate Training & Guest Lecturing — Government of Dubai Media Office (GDMO) · The Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi (HHEO) · Ministry of Culture and Knowledge Development · Cartier Middle East · ITP Media Group
 - Research, Reasoning & Publishing — Manipulation: The Fool and the Wise · The Structure of Life: The Structure of Reasoning · ICF-AI
 
 The Areas of Practice ontology and the visible archive taxonomy serve different purposes. Areas of Practice answers which fields Joe Nasr has documented activity in. The archive categories answer where a visitor can route to public evidence. Do not collapse the two taxonomies into one flat list. The structured mapping between domains and evidence routes is recorded in identity.json under practice_domain_map.
@@ -136,7 +136,7 @@ These are the current human-facing selected-evidence labels attached to the eigh
 
 Creative & Production:
 - Creative Direction & Advertising: Mercedes-Benz · Dubai Culture and Arts Authority · Noon (campaign) · GMC (campaign) · Chopard
-- Film, Video & Post Production: Etihad Airways · E! News · Pepsi Arabia · Adidas (Terrex) · ET Bil Arabi · Dubai Tourism & Culture influencer series
+- Film, Video & Post Production: Etihad Airways · E! News · Pepsi Arabia · Adidas · ET Bil Arabi · Department of Tourism and Commerce Marketing influencer series
 - Design & Visual Communication — Maybelline New York · Estée Lauder · Sephora
 - Motion Graphics, Animation & 3D: NYX Professional Makeup · L'Azurde · B.Games · Earn.Game campaign videos
 - Media Music Composition: Khalifa Award for Education (event music scoring including the main theme and the awards theme) · MILCO · Lacnor · NIDO® · Saudi German Hospital
@@ -154,7 +154,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 - Holy Spirit University of Kaslik - USEK - certification, Music - 1999-2002
 - Collège Mariste Champville - Bacc II, Experimental Science - 1984-1999
 - Guest Lecturer & Corporate Trainer since May 2016, with more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
-- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
+- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development, the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi bint Mohammed Al Qasimi, Reyada Centre, Ministry of Foreign Affairs — Egypt, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
 - Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
 ## Selected historical work and training
