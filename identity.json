@@ -1781,7 +1781,7 @@
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "authority_note": "Updated 2026-10-05 with consolidated training and institutional evidence. Visible categories remain relationship-specific; machine-readable records preserve role, provider, program, date, evidence state, delivery state and boundaries without upgrading unresolved relationships.",
     "presentation_update": "Visible relationship bank now uses relationship-specific headings rather than a flat clientele grouping. Public wording distinguishes workshops/training recipients, education/program partners, institutional engagements, creative/brand clients, and media/culture/production work.",
-    "relationship_rule": "Do not infer a single client relationship type from inclusion. Each organization must retain its documented relationship class and evidence status.",
+    "relationship_state": "Inclusion does not imply a single client relationship type. Each organization retains its documented relationship class and evidence status.",
     "grouping_history": {
       "previous_public_grouping": "Government & Institutions; Education & Training; Brands & Corporate; Media, Culture & Production",
       "superseded_on": "2026-10-04",
