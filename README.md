@@ -77,7 +77,7 @@ Updated from the LinkedIn structure confirmed by Joe Nasr on 2026-09-30. The 202
 - Holy Spirit University of Kaslik - USEK - certification, Music - 1999-2002
 - Collège Mariste Champville - Bacc II, Experimental Science - 1984-1999
 - Guest Lecturer & Corporate Trainer since May 2016; more than 100 sessions delivered through universities, training providers, government organizations, media teams and companies.
-- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development in Abu Dhabi, the Executive Office of H.H. Sheikha Jawaher bint Mohammed Al Qasimi, Reyada Centre, Egyptian Ministry of Foreign Affairs, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
+- The LinkedIn teaching entry lists Government of Dubai Media Office (GDMO), Dubai Police, UAE Armed Forces, Ministry of Culture and Knowledge Development, the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi bint Mohammed Al Qasimi, Reyada Centre, Ministry of Foreign Affairs — Egypt, New Media Academy, American University in Dubai (AUD), Emaar Properties, Meraas, Cartier Middle East and ITP Media Group.
 - Separate institutional evidence: SAE UAE credits Joe Nasr’s mentorship in a six-month Design and Motion Graphics program: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
 ## Creative / interactive / technical surfaces
