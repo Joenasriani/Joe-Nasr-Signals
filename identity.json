@@ -294,7 +294,7 @@
   },
   "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production, with a long-standing professional history in the UAE/GCC.",
   "linkedin_aligned_work_experience": {
-    "scope_note": "Career roles reflect the consolidated LinkedIn structure confirmed by Joe Nasr on 30 September 2026. Signals explicitly separates current and previous roles while preserving employment, freelance and client relationships.",
+    "scope_note": "Career roles reflect the consolidated LinkedIn structure as of 30 September 2026. Signals explicitly separates current and previous roles while preserving employment, freelance and client relationships.",
     "roles": [
       {
         "title": "Creative Director & Founder",
@@ -389,7 +389,7 @@
       "Dubai Police",
       "UAE Armed Forces",
       "Ministry of Culture and Knowledge Development",
-      "the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi bint Mohammed Al Qasimi",
+      "the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
       "Reyada Centre",
       "Ministry of Foreign Affairs — Egypt",
       "New Media Academy",
@@ -584,7 +584,7 @@
       "verification": {
         "source_url": "https://reasoning-and-logic.vercel.app/",
         "checked_on": "2026-09-25",
-        "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity confirmed by Joe Nasr."
+        "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity are recorded in the canonical identity evidence."
       }
     },
     "robocreate": {
@@ -1969,8 +1969,8 @@
       "Reyada Learning & Development / Reyada Center — lecturer / instructor / trainer via SAE — multi-program relationship — 2024–2026"
     ],
     "bounded_institutional_relationships": [
-      "Ministry of Interior — Infographics course/program involvement — 2017 — completed Joe-specific delivery unresolved",
-      "Abu Dhabi City Municipality — preparation / program context — delivery unresolved",
+      "Ministry of Interior — Infographics course/program involvement — 2017 — completed Joe-specific delivery is not established",
+      "Abu Dhabi City Municipality — preparation / program context — completed delivery is not established",
       "Holy Quran Academy in Sharjah — November 2025 DaVinci learner venue/context; 2026 DaVinci Resolve Mastery recipient institution — 2026 remains PARTIAL_DELIVERY.",
       "Supreme Council for Family Affairs, Sharjah — participant-side institutional training context — do not infer direct contractual-client status"
     ],
