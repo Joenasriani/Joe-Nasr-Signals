@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-30",
+  "snapshot_date": "2026-10-06",
   "record_type": "joe_nasr_public_project_evidence_registry",
   "canonical_person": {
     "name": "Joe Nasr",
@@ -10,7 +10,7 @@
     "identity_record": "https://joe-nasr-signals.vercel.app/identity.json"
   },
   "registry_role": "Machine-readable public project/evidence layer. Project entities are related to Joe Nasr but are not Person sameAs identities.",
-  "project_count": 47,
+  "project_count": 49,
   "detail_files": [
     "https://joe-nasr-signals.vercel.app/data/projects-01.json",
     "https://joe-nasr-signals.vercel.app/data/projects-02.json",
@@ -146,12 +146,15 @@
     },
     {
       "id": "SYN-0291",
-      "name": "Sephora intro with GlamGlow",
-      "aliases": [],
+      "name": "GlamGlow x Sephora Social Media Campaign",
+      "aliases": [
+        "Sephora intro with GlamGlow",
+        "Glamglow X Sephora Social Media Campaign"
+      ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": true
     },
     {
       "id": "SYN-0288",
@@ -516,6 +519,18 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
       "public_retrieval_status": "USER_CONFIRMED_CONTEXT_PLUS_LEGACY_CORROBORATION",
       "evidence_class": "USER_CONFIRMED_WITH_LEGACY_PROFILE_CORROBORATION",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-CHEV-TRAVERSE-001",
+      "name": "Chevrolet Arabia — All-New Traverse #BetterDriver",
+      "aliases": [
+        "The All-New Traverse - Technology That Helps Make A #BetterDriver",
+        "Chevrolet Traverse #BetterDriver"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     }
   ],
