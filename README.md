@@ -181,8 +181,6 @@ Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally base
 
 https://joe-nasr-signals.vercel.app/
 
-## Record maintenance
+## Public data
 
-`identity.json` holds the verified LinkedIn roles, dates, relationships and teaching sources. Run `python scripts/sync_linkedin_records.py` after a verified update to render the corresponding homepage, README and retrieval-guide summaries. The homepage FAQ schema is derived from its visible answers.
-
-The workflow runs `python scripts/sync_linkedin_records.py --check` and `python scripts/validate_signals.py`. It reports inconsistencies without rewriting or publishing files. The synchronizer does not modify styles, game catalogs, historical pages or verification dates.
+`identity.json` holds the verified LinkedIn roles, dates, relationships and teaching sources. The homepage FAQ schema is derived from its visible answers.
