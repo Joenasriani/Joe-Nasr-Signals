@@ -456,6 +456,17 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   row-gap: 54px;
   margin-top: 58px;
 }
+.client-bank-group-training {
+  grid-column: span 2;
+}
+.client-bank-group-training ul {
+  columns: 2;
+  column-gap: clamp(34px, 5vw, 74px);
+}
+.client-bank-group-training li {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
 .client-bank-group h3 {
   margin: 0 0 18px;
   padding-bottom: 8px;
@@ -807,6 +818,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
 
 @media (max-width: 680px) {
   .client-bank-groups { grid-template-columns: 1fr; row-gap: 34px; }
+  .client-bank-group-training { grid-column: auto; }
+  .client-bank-group-training ul { columns: 1; }
   :root { --pad: 18px; }
   .site-header { height: 66px; gap: 10px; }
   .brand-copy { display: none; }
@@ -1581,7 +1594,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       </div>
 
       <div class="client-bank-groups">
-        <div class="client-bank-group">
+        <div class="client-bank-group client-bank-group-training">
           <h3>Workshops &amp; Training For</h3>
           <ul>
             <li>Government of Dubai Media Office</li>
@@ -1597,18 +1610,8 @@ body.compact .record-url-wrap { margin-top: 8px; }
             <li>Cartier Middle East</li>
             <li>Rove Hotels</li>
             <li>Dubai Tourism</li>
-          </ul>
-        </div>
-
-        <div class="client-bank-group">
-          <h3>Education &amp; Program Partners</h3>
-          <ul>
             <li>SAE Institute Dubai / SAE University College</li>
             <li>Reyada Learning &amp; Development / Reyada Center</li>
-          </ul>
-
-          <h3 style="margin-top:32px">Government &amp; Institutional Engagements</h3>
-          <ul>
             <li>Ministry of Interior</li>
             <li>Abu Dhabi City Municipality</li>
             <li>Holy Quran Academy in Sharjah</li>
