@@ -1258,10 +1258,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
     </a>
     <nav class="header-nav" aria-label="Main navigation">
       <a href="#practice">Practice</a>
-      <a href="#client-bank">Clients</a>
       <a href="#archive">Categories</a>
       <a href="#questions">About</a>
-      <a href="#linkedin-experience">Experience</a>
+      <a href="#client-bank">Clients</a>
     </nav>
   </header>
 
@@ -2154,11 +2153,40 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 
 const experienceDetails = document.querySelector("#linkedin-experience");
 function revealLinkedInExperience() {
-  if (window.location.hash === "#linkedin-experience") experienceDetails.open = true;
+  if (experienceDetails && window.location.hash === "#linkedin-experience") experienceDetails.open = true;
 }
 window.addEventListener("hashchange", revealLinkedInExperience);
-document.querySelector('a[href="#linkedin-experience"]').addEventListener("click", () => { experienceDetails.open = true; });
 revealLinkedInExperience();
+
+const headerNav = document.querySelector(".header-nav");
+const stickyHeader = document.querySelector(".site-header");
+const headerAnchorGap = 48;
+
+function scrollHeaderTarget(hash, smooth = true) {
+  if (!hash || !hash.startsWith("#")) return false;
+  const target = document.querySelector(hash);
+  if (!target) return false;
+
+  const marker = target.querySelector(".section-label") || target.querySelector("h2") || target;
+  const headerBottom = stickyHeader.getBoundingClientRect().bottom;
+  const targetTop = window.scrollY + marker.getBoundingClientRect().top - headerBottom - headerAnchorGap;
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  window.scrollTo({
+    top: Math.max(0, targetTop),
+    behavior: smooth && !reduceMotion ? "smooth" : "auto"
+  });
+  return true;
+}
+
+headerNav.addEventListener("click", event => {
+  const link = event.target.closest('a[href^="#"]');
+  if (!link) return;
+  const hash = link.getAttribute("href");
+  if (!scrollHeaderTarget(hash, true)) return;
+  event.preventDefault();
+  history.pushState(null, "", hash);
+});
 
 createFilters();
 render();
