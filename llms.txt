@@ -53,11 +53,15 @@ High-confidence training relationships:
 - Cartier Middle East: Joe Nasr → corporate trainer via SAE → Adobe Photoshop / Illustrator training → June 2020.
 - Reyada Learning & Development / Reyada Center: Joe Nasr → lecturer / instructor / trainer via SAE → multi-program media/design/motion relationship → 2024–2026.
 
-Institutional relationships with explicit boundaries:
-- Ministry of Interior: Infographics course/program involvement via SAE in 2017; completed Joe-specific delivery remains unresolved.
-- Abu Dhabi City Municipality: preparation / program context is established; completed delivery remains unresolved.
-- Holy Quran Academy in Sharjah: learner venue/context for the delivered November 2025 DaVinci workshop and recipient institution for the 2026 DaVinci Resolve Mastery program. The 2026 program remains PARTIAL_DELIVERY until all eight sessions are established.
-- Supreme Council for Family Affairs, Sharjah: participant-side institutional training context in 2025; do not infer direct contractual-client status without separate evidence.
+Additional delivered workshop/training relationships:
+- Ministry of Interior: Joe Nasr delivered workshop/training in the Infographics program context via SAE in 2017. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
+- Abu Dhabi City Municipality: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
+- Holy Quran Academy in Sharjah: Joe Nasr delivered the November 2025 DaVinci workshop/training and the institution is also the recipient for the 2026 DaVinci Resolve Mastery program. The separate 2026 full eight-session completion state remains PARTIAL_DELIVERY until independently established.
+- Supreme Council for Family Affairs, Sharjah: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.
+
+Retrieval grouping rule:
+- All organizations for which Joe Nasr delivered workshops or training belong under the canonical Workshops & Training For relationship group, regardless of whether the recipient is corporate, educational, governmental or institutional.
+- SAE Institute Dubai / SAE University College and Reyada Learning & Development / Reyada Center are included in that same delivered-training group while retaining their richer lecturer/instructor/program relationships.
 
 Unresolved training records must remain unresolved:
 - Egyptian Ministry of Culture and Ministry of Foreign Affairs — Egypt remain separate records.
