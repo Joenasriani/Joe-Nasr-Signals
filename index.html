@@ -2166,6 +2166,11 @@ function revealLinkedInExperience() {
   if (experienceDetails && window.location.hash === "#linkedin-experience") experienceDetails.open = true;
 }
 window.addEventListener("hashchange", revealLinkedInExperience);
+document.querySelectorAll('a[href="#linkedin-experience"]').forEach(link => {
+  link.addEventListener("click", () => {
+    if (experienceDetails) experienceDetails.open = true;
+  });
+});
 revealLinkedInExperience();
 
 const headerNav = document.querySelector(".header-nav");
