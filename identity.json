@@ -60,11 +60,12 @@
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
+            "front_page_selected_evidence_relationship": "campaign work",
             "front_page_selected_evidence": [
               "Mercedes-Benz",
               "Dubai Culture and Arts Authority",
-              "Noon (campaign)",
-              "GMC (campaign)",
+              "Noon",
+              "GMC",
               "Chopard"
             ]
           },
