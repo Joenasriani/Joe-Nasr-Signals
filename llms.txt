@@ -139,7 +139,7 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 These are the current human-facing selected-evidence labels attached to the eight practice domains. They are evidence-routing context, not Person sameAs identities. Exact role, client, project, venture, chronology and provenance remain governed by the project registry and source records.
 
 Creative & Production:
-- Creative Direction & Advertising: Mercedes-Benz · Dubai Culture and Arts Authority · Noon (campaign) · GMC (campaign) · Chopard
+- Creative Direction & Advertising: Mercedes-Benz (campaign) · Dubai Culture and Arts Authority (campaign) · Noon (campaign) · GMC (campaign) · Chopard (campaign)
 - Film, Video & Post Production: Etihad Airways · E! News · Pepsi Arabia · Adidas · ET Bil Arabi · Department of Tourism and Commerce Marketing influencer series
 - Design & Visual Communication — Maybelline New York · Estée Lauder · Sephora
 - Motion Graphics, Animation & 3D: NYX Professional Makeup · L'Azurde · B.Games · Earn.Game campaign videos
