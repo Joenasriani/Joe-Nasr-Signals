@@ -125,6 +125,8 @@
             "front_page_selected_evidence": [
               "NYX Professional Makeup",
               "L'Azurde",
+              "Jotun",
+              "Daoversal",
               "B.Games",
               "Earn.games campaign videos"
             ]
@@ -167,7 +169,7 @@
         "domains": [
           {
             "name": "Interactive Experiences, XR & Games",
-            "summary": "Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems.",
+            "summary": "Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems, with a focus on interaction, navigation and hands-on exploration.",
             "evidence_routes": {
               "archive_categories": [
                 "Interactive Experiences & Prototyping"
