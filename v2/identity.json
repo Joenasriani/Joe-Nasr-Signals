@@ -65,8 +65,7 @@
               "Mercedes-Benz",
               "Dubai Culture and Arts Authority",
               "Noon",
-              "GMC",
-              "Chopard"
+              "GMC"
             ]
           },
           {
@@ -84,7 +83,8 @@
             "front_page_selected_evidence": [
               "Maybelline New York",
               "Estée Lauder",
-              "Sephora"
+              "Sephora",
+              "Chopard"
             ]
           },
           {
@@ -100,10 +100,10 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
+              "Adidas",
               "Etihad Airways",
               "E! News",
               "Pepsi Arabia",
-              "Adidas",
               "ET Bil Arabi",
               "Department of Tourism and Commerce Marketing influencer series"
             ]
@@ -126,7 +126,7 @@
               "NYX Professional Makeup",
               "L'Azurde",
               "B.Games",
-              "Earn.Game campaign videos"
+              "Earn.games campaign videos"
             ]
           },
           {
@@ -222,7 +222,7 @@
               "Visual Framework Engine",
               "Roundtable AI",
               "RoboWebSim",
-              "Event Ideatecture (idevent)"
+              "Event Ideatecture (ideavent)"
             ]
           },
           {
@@ -2085,7 +2085,7 @@
       "Daoversal Multiverse",
       "Twofour54",
       "B.Games",
-      "Earn.Game"
+      "Earn.games"
     ],
     "public_citation_boundary": "USER_CONFIRMED identifies user-attested delivery, not independently publicly verified evidence. VERIFIED_THIRD_PARTY_PRIVATE identifies nonpublic provenance and is not a publicly citable source. No source documents or private correspondence are included in this projection. Workshop recipients and provider relationships do not automatically imply direct employment or contractual client relationships."
   },
