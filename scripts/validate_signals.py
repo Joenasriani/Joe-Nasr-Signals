@@ -20,17 +20,25 @@ for organization in organizations:
     assert organization["url"] not in person["sameAs"], "Organizations are distinct from the person"
 
 identity = json.loads((ROOT / "identity.json").read_text())
-records_block = re.search(r'const records = \[(.*?)\n\];', html, re.S).group(1)
-records = re.findall(r'\{(.*?)\}', records_block, re.S)
-categories = json.loads(re.search(r'const categories = (\[.*?\]);', html).group(1))
+def read_json_array(name):
+    match = re.search(r'\bconst\s+' + re.escape(name) + r'\s*=\s*', html)
+    assert match, f"Missing {name} array"
+    value, _ = json.JSONDecoder().raw_decode(html[match.end():])
+    assert isinstance(value, list), f"{name} must be an array"
+    return value
+
+
+records = read_json_array("records")
+categories = read_json_array("categories")
+assert records, "Archive records must not be empty"
 urls = []
 linkedin_memberships = None
 for record in records:
-    url = re.search(r'url: "([^"]+)"', record).group(1)
+    assert isinstance(record, dict), "Archive records must be JSON objects"
+    url = record["url"]
     urls.append(url)
-    primary = re.search(r'category: "([^"]+)"', record).group(1)
-    match = re.search(r'categories: (\[.*?\])', record)
-    memberships = json.loads(match.group(1)) if match else [primary]
+    primary = record["category"]
+    memberships = record.get("categories", [primary])
     assert primary in memberships, "Primary category must be included"
     assert len(memberships) == len(set(memberships)), "Duplicate category membership"
     assert all(category in categories and category != "All" for category in memberships)
@@ -43,7 +51,13 @@ hero_static = re.search(r'<strong id="heroCount">(\d+) records</strong>', html)
 result_static = re.search(r'<span id="resultCount">(\d+) references</span>', html)
 assert hero_static and int(hero_static.group(1)) == len(records), "Hero archive count is stale"
 assert result_static and int(result_static.group(1)) == len(records), "Result archive count is stale"
-assert linkedin_memberships == identity["linkedin_aligned_work_experience"]["profile_categories"]
+assert linkedin_memberships, "LinkedIn archive route must remain present"
+# Professional tags and visitor-facing archive categories are separate taxonomies.
+# Archive memberships are validated against the site's categories above.
+profile_categories = identity["linkedin_aligned_work_experience"]["profile_categories"]
+assert isinstance(profile_categories, list) and profile_categories, "Professional tags must be a non-empty list"
+assert all(isinstance(tag, str) and tag for tag in profile_categories), "Invalid professional tag"
+assert len(profile_categories) == len(set(profile_categories)), "Duplicate professional tag"
 
 
 # Query-aware public-surface registry integrity.
@@ -57,7 +71,7 @@ assert len(surface_urls) == len(set(surface_urls)), "Duplicate public-surface UR
 allowed_temporal = {"CURRENT", "HISTORICAL"}
 allowed_priority = {"PRIMARY_CURRENT", "SECONDARY_SPECIALIST", "HISTORICAL_SUPPORT", "PENDING_VERIFICATION"}
 allowed_retrieval = {"ACTIVE", "ACTIVE_QUERY_SPECIFIC", "WEAK", "UNRESOLVED"}
-allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE"}
+allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE", "CREATOR_OPERATED_ECOSYSTEM"}
 for surface in registry:
     assert surface["temporal_state"] in allowed_temporal, f"Invalid temporal state: {surface['id']}"
     assert surface["nervous_system_priority"] in allowed_priority, f"Invalid priority: {surface['id']}"
@@ -81,3 +95,4 @@ assert len(ids) == len(set(ids)), "Duplicate HTML id"
 for target in re.findall(r'href="#([^"]+)"', html):
     assert target in ids, f"Broken section link: #{target}"
 print(f"Published JSON and JSON-LD valid; {len(records)} unique archive records; category and section links valid.")
+
