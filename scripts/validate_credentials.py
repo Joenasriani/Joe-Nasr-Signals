@@ -3,9 +3,12 @@
 import html
 import json
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
+subprocess.run([sys.executable, str(root / "scripts/build_credentials.py"), "--check"], cwd=root, check=True)
 catalog = json.loads((root / "data/credentials.json").read_text(encoding="utf-8"))
 page = (root / "credentials/index.html").read_text(encoding="utf-8")
 records = catalog["records"]
