@@ -184,3 +184,14 @@ https://joe-nasr-signals.vercel.app/
 ## Public data
 
 `identity.json` holds the verified LinkedIn roles, dates, relationships and teaching sources. The homepage FAQ schema is derived from its visible answers.
+
+## Canonical games routes
+
+- Published games: https://joe-nasr-signals.vercel.app/games.html
+- Development archive: https://joe-nasr-signals.vercel.app/games-development.html
+- Published games data: https://joe-nasr-signals.vercel.app/games.json
+- Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
+
+Vercel redirects the corresponding old `/v2/` paths to these root routes. On GitHub Pages, the old HTML files are redirect pages; JSON and image files are compatibility copies of the current root files. The old identity JSON is a copy of the canonical root identity record.
+
+After editing a canonical root catalog, identity record or preview asset, run `python scripts/sync_v2_compatibility.py`. CI checks that the compatibility files remain synchronized. The root Person identifier and individual game identifiers are unchanged.

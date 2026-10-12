@@ -9,8 +9,12 @@ on:
       - "llms.txt"
       - "projects.json"
       - "data/**"
-      - "v2/games.html"
-      - "v2/games-development.html"
+      - "games.html"
+      - "games.json"
+      - "games-development.html"
+      - "games-development.json"
+      - "games-preview.png"
+      - "games-preview.svg"
       - "pre-institutional-human-order.html"
       - "sitemap.xml"
 
@@ -52,11 +56,11 @@ jobs:
               index.html|identity.json|llms.txt|projects.json|data/*|sitemap.xml)
                 add_url "https://joe-nasr-signals.vercel.app/"
                 ;;
-              v2/games.html)
-                add_url "https://joe-nasr-signals.vercel.app/v2/games.html"
+              games.html|games.json|games-preview.png|games-preview.svg)
+                add_url "https://joe-nasr-signals.vercel.app/games.html"
                 ;;
-              v2/games-development.html)
-                add_url "https://joe-nasr-signals.vercel.app/v2/games-development.html"
+              games-development.html|games-development.json)
+                add_url "https://joe-nasr-signals.vercel.app/games-development.html"
                 ;;
               pre-institutional-human-order.html)
                 add_url "https://joe-nasr-signals.vercel.app/pre-institutional-human-order.html"

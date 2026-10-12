@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "@id": "https://joe-nasr-signals.vercel.app/v2/games-development.html#development-games",
+  "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-games",
   "name": "Public Game Development Archive",
   "description": "Public game prototypes, alternate builds and earlier development records, separated from current published releases.",
   "itemListOrder": "https://schema.org/ItemListUnordered",
