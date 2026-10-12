@@ -30,10 +30,27 @@ def validate(root=ROOT):
         for record in shard['projects']:
             assert record['id'] not in details, 'Duplicate project ID'
             details[record['id']] = record
-    assert registry['project_count'] == len(registry['projects']) == len(details) == 49
+    assert registry['project_count'] == len(registry['projects']) == len(details) == identity['project_evidence_registry']['project_count'] == 51
     for item in registry['projects']:
         for field in ('name', 'aliases', 'evidence_class', 'public_retrieval_status', 'public_source_available'):
             assert item[field] == details[item['id']][field], 'Index/detail evidence mismatch: ' + item['id']
+    publications = identity['related_entities']['reasoning_and_logic']['publications']
+    assert len(publications) == 5, 'Bookstore publication identity count mismatch'
+    required_books = {
+        'SYN-PUB-20261012-001': ('Mamdani: From Zero to Hero', 'https://mamdani-from-zero-to-hero.vercel.app/', 'open'),
+        'SYN-PUB-20261012-002': ('Taxonomies and Classification Systems', 'https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems', 'review')
+    }
+    for book_id, (title, url, sale_state) in required_books.items():
+        entries = [p for p in publications if p['title'] == title]
+        assert len(entries) == 1 and entries[0]['url'] == url and entries[0]['sales_status'] == sale_state, 'Publication source mismatch: ' + title
+        detail = details[book_id]
+        assert detail['name'] == title and url in detail['public_urls'], 'Publication evidence route mismatch: ' + title
+        assert detail['public_retrieval_status'] == 'CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED', 'Publication public verification overstated: ' + title
+        assert title in guide and title in (root / 'README.md').read_text(), 'Publication missing from machine guide: ' + title
+    public_bank = identity['client_relationship_bank_2026_10_04']
+    assert not {'grouping_history', 'presentation_update', 'authority_note'} & public_bank.keys(), 'Private audit process exposed in public identity'
+    assert 'ai_retrieval_update_2026_10_05' not in identity, 'Private audit process exposed in public identity'
+    assert 'public_citation_boundary' in public_bank and 'VERIFIED_THIRD_PARTY_PRIVATE' in public_bank['public_citation_boundary'], 'Private provenance caveat missing'
     assert not details['SYN-0277']['public_source_available'], 'Unpublished artifact claimed public'
     assert details['SYN-0277']['evidence_class'] == 'DOCUMENTED_NONPUBLIC'
     assert not details['SYN-0277']['public_urls'], 'Unpublished artifact has public evidence URL'
