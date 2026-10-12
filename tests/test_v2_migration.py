@@ -42,6 +42,20 @@ class MigrationChecks(unittest.TestCase):
         result = self.validate()
         self.assertEqual(result.returncode, 0, result.stderr)
 
+    def test_missing_development_game_id(self):
+        path = self.root / "games-development.json"
+        data = json.loads(path.read_text())
+        data["itemListElement"][0]["item"].pop("@id")
+        path.write_text(json.dumps(data))
+        self.sync()
+        self.rejected("Missing development game identity")
+
+    def test_bad_development_anchor(self):
+        path = self.root / "games-development.html"
+        text = path.read_text().replace('id="development-bmx-xtreme"', 'id="development-wrong"', 1)
+        path.write_text(text)
+        self.rejected("Development anchor mismatch")
+
     def test_external_catalog_mismatch_is_rejected(self):
         path = self.root / "games.json"
         data = json.loads(path.read_text())
