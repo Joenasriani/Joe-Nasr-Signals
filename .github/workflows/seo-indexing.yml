@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Check LinkedIn summaries and visible FAQ schema
         run: python scripts/sync_linkedin_records.py --check
       - name: Validate published structured data and category records
@@ -22,3 +25,5 @@ jobs:
         run: python scripts/sync_v2_compatibility.py --check
       - name: Validate canonical games routes
         run: python scripts/validate_v2_migration.py
+      - name: Test migration failure cases and publication gate
+        run: python -m unittest discover -s tests -v

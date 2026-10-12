@@ -87,7 +87,7 @@
           "item": {
             "@type": "VideoGame",
             "@id": "https://joenasr.itch.io/diorama#game",
-            "name": "DIORAMA",
+            "name": "Diorama",
             "url": "https://joenasr.itch.io/diorama",
             "description": "3D browser mechanical puzzle game built around compact isometric structures, route logic, switches, bridges, lifts and spatial planning.",
             "genre": "Puzzle",

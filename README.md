@@ -192,6 +192,10 @@ https://joe-nasr-signals.vercel.app/
 - Published games data: https://joe-nasr-signals.vercel.app/games.json
 - Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
-Vercel redirects the corresponding old `/v2/` paths to these root routes. On GitHub Pages, the old HTML files are redirect pages; JSON and image files are compatibility copies of the current root files. The old identity JSON is a copy of the canonical root identity record.
+Vercel redirects the corresponding old `/v2/` paths to these root routes. On GitHub Pages, the old HTML files redirect with JavaScript, preserving query strings and fragments. Without JavaScript, the page offers a manual link and instructions for keeping those suffixes; static hosting cannot transfer them automatically. Catalog JSON and image files are exact compatibility copies. The old identity JSON includes the current canonical record plus synchronized flat legacy fields, preserving their field types and using current supported relationships.
 
 After editing a canonical root catalog, identity record or preview asset, run `python scripts/sync_v2_compatibility.py`. CI checks that the compatibility files remain synchronized. The root Person identifier and individual game identifiers are unchanged.
+
+Validation compares the complete published HTML schema with its JSON catalog, checks visible names and source links, executes legacy redirects against query/fragment cases, and checks the legacy identity field contract. Run `python scripts/validate_v2_migration.py` and `python -m unittest discover -s tests -v` before release. Node.js is used only to test the browser redirect scripts.
+
+The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and all ten Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
