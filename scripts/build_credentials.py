@@ -78,7 +78,10 @@ def main():
         "".join(f"<option>{escape(cat)}</option>" for cat in CATEGORIES))
     output = replace_block(output, "CARDS", "\n".join(card(r) for r in records))
     if args.check:
-        assert output == original, "Generated credentials HTML is stale: run python scripts/build_credentials.py"
+        if output != original:
+            import difflib
+            diff = "".join(difflib.unified_diff(original.splitlines(True), output.splitlines(True), fromfile="checked-in", tofile="generated"))
+            raise AssertionError("Generated credentials HTML is stale:\n" + diff[:4000])
         print(f"Credentials HTML synchronized: {len(records)} records")
     else:
         (ROOT / "credentials/index.html").write_text(output, encoding="utf-8")
