@@ -10,7 +10,7 @@
     "identity_record": "https://joe-nasr-signals.vercel.app/identity.json"
   },
   "registry_role": "Machine-readable public project/evidence layer. Project entities are related to Joe Nasr but are not Person sameAs identities.",
-  "project_count": 49,
+  "project_count": 51,
   "detail_files": [
     "https://joe-nasr-signals.vercel.app/data/projects-01.json",
     "https://joe-nasr-signals.vercel.app/data/projects-02.json",
@@ -532,6 +532,28 @@
       "evidence_class": "PUBLIC",
       "public_source_available": true,
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json"
+    },
+    {
+      "id": "SYN-PUB-20261012-001",
+      "name": "Mamdani: From Zero to Hero",
+      "aliases": [
+        "Mamdani: From Zero to Hero — Through the Eyes of a Doomscroller"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-PUB-20261012-002",
+      "name": "Taxonomies and Classification Systems",
+      "aliases": [
+        "Taxonomies and Classification Systems: A Technical Field Guide"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ],
   "recovery_candidates": [
