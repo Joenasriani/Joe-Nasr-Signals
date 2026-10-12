@@ -36,6 +36,22 @@ class PublicGraphChecks(unittest.TestCase):
     def test_current_graph(self):
         self.check()
 
+    def test_missing_publication_identity(self):
+        self.change_json('identity.json', lambda d: d['related_entities']['reasoning_and_logic']['publications'].pop())
+        self.check('Bookstore publication identity count mismatch')
+
+    def test_bookstore_sales_status_drift(self):
+        self.change_json('identity.json', lambda d: next(x for x in d['related_entities']['reasoning_and_logic']['publications'] if x['title'] == 'Taxonomies and Classification Systems').update(sales_status='open'))
+        self.check('Publication source mismatch')
+
+    def test_public_identity_audit_material(self):
+        self.change_json('identity.json', lambda d: d['client_relationship_bank_2026_10_04'].update(grouping_history={'internal': 'private plan'}))
+        self.check('Private audit process exposed')
+
+    def test_private_provenance_caveat(self):
+        self.change_json('identity.json', lambda d: d['client_relationship_bank_2026_10_04'].pop('public_citation_boundary'))
+        self.check('Private provenance caveat missing')
+
     def test_wrong_shard_count(self):
         self.change_json('data/projects-01.json', lambda d: d.update(project_count=9))
         self.check('Shard count mismatch')
