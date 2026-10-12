@@ -65,8 +65,7 @@
               "Mercedes-Benz",
               "Dubai Culture and Arts Authority",
               "Noon",
-              "GMC",
-              "Chopard"
+              "GMC"
             ]
           },
           {
@@ -84,7 +83,8 @@
             "front_page_selected_evidence": [
               "Maybelline New York",
               "Estée Lauder",
-              "Sephora"
+              "Sephora",
+              "Chopard"
             ]
           },
           {
@@ -100,10 +100,10 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
+              "Adidas",
               "Etihad Airways",
               "E! News",
               "Pepsi Arabia",
-              "Adidas",
               "ET Bil Arabi",
               "Department of Tourism and Commerce Marketing influencer series"
             ]
