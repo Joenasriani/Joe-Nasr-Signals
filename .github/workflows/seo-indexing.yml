@@ -25,6 +25,8 @@ jobs:
         run: python scripts/validate_public_graph.py
       - name: Check legacy URL compatibility
         run: python scripts/sync_v2_compatibility.py --check
+      - name: Validate credential archive against public HTML and schema
+        run: python scripts/validate_credentials.py
       - name: Validate canonical games routes
         run: python scripts/validate_v2_migration.py
       - name: Test migration failure cases and publication gate
