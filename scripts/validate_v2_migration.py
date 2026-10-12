@@ -154,6 +154,17 @@ def main():
     require(games["@id"] == ORIGIN + "/games.html#games" and games["url"] == ORIGIN + "/games.html",
             "Wrong published catalog identity")
     require(development["@id"] == ORIGIN + "/games-development.html#development-games", "Wrong development catalog identity")
+    development_ids = [row["item"].get("@id") for row in development["itemListElement"]]
+    require(all(development_ids) and len(set(development_ids)) == len(development_ids),
+            "Missing development game identity")
+    for row in development["itemListElement"]:
+        item = row["item"]
+        game_id = item["@id"]
+        require(game_id.startswith(ORIGIN + "/games-development.html#development-")
+                and item.get("url") == game_id, "Development game canonical URL drift: " + item["name"])
+        anchor = game_id.split("#", 1)[1]
+        require('class="record" id="' + anchor + '"' in (ROOT / "games-development.html").read_text(),
+                "Development anchor mismatch: " + item["name"])
     for html_name, data_name, count in [
         ("games.html", "games.json", len(games["itemListElement"])),
         ("games-development.html", "games-development.json", len(development["itemListElement"])),
