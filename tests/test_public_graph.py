@@ -36,6 +36,15 @@ class PublicGraphChecks(unittest.TestCase):
     def test_current_graph(self):
         self.check()
 
+    def test_removed_editorial_audit_stays_private(self):
+        self.change_json('identity.json', lambda d: d['public_evidence_update_2026_10_04'].update(editorial_notability_status='audit only'))
+        self.check('Internal editorial audit status')
+
+    def test_missing_mamdani_schema(self):
+        path = self.root / 'index.html'
+        path.write_text(path.read_text().replace('https://mamdani-from-zero-to-hero.vercel.app/', 'https://example.invalid/not-mamdani', 1))
+        self.check('Missing supported book schema')
+
     def test_missing_publication_identity(self):
         self.change_json('identity.json', lambda d: d['related_entities']['reasoning_and_logic']['publications'].pop())
         self.check('Bookstore publication identity count mismatch')
