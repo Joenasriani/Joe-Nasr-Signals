@@ -72,7 +72,7 @@ def main():
     assert catalog["person_ref"] == "https://joe-nasr-signals.vercel.app/#joe-nasr"
     original = (ROOT / "credentials/index.html").read_text(encoding="utf-8")
     encoded_schema = json.dumps(schema(records, catalog["person_ref"]), ensure_ascii=False, separators=(",", ":")).replace("<", r"\u003c")
-    output = replace_block(original, "JSON-LD", encoded_schema)
+    output = replace_block(original, "JSON-LD", '<script type="application/ld+json">' + encoded_schema + "</script>")
     output = replace_block(output, "CATEGORIES",
         '<option value="">All subject categories</option>' +
         "".join(f"<option>{escape(cat)}</option>" for cat in CATEGORIES))
