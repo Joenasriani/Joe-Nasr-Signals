@@ -10,7 +10,7 @@
     "identity_record": "https://joe-nasr-signals.vercel.app/identity.json"
   },
   "registry_role": "Machine-readable public project/evidence layer. Project entities are related to Joe Nasr but are not Person sameAs identities.",
-  "project_count": 49,
+  "project_count": 51,
   "detail_files": [
     "https://joe-nasr-signals.vercel.app/data/projects-01.json",
     "https://joe-nasr-signals.vercel.app/data/projects-02.json",
@@ -113,10 +113,12 @@
     },
     {
       "id": "SYN-0310",
-      "name": "Dubai Tourism & Culture influencer series",
+      "name": "Department of Tourism and Commerce Marketing influencer series",
       "aliases": [
-        "Dubai Tourism & Culture",
-        "DTCM influencer series"
+        "Department of Tourism and Commerce Marketing",
+        "DTCM influencer series",
+        "Dubai Tourism & Culture influencer series",
+        "Dubai Tourism & Culture"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
@@ -125,10 +127,11 @@
     },
     {
       "id": "SYN-0311",
-      "name": "Dubai Tourism & Culture lookbooks",
+      "name": "Department of Tourism and Commerce Marketing lookbooks",
       "aliases": [
         "Dubai Tourism lookbooks",
-        "DTCM lookbooks"
+        "DTCM lookbooks",
+        "Dubai Tourism & Culture lookbooks"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
@@ -171,7 +174,7 @@
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
       "public_retrieval_status": "PUBLIC_CONTEXT_ROLE_NOT_DIRECTLY_CREDITED",
-      "evidence_class": "ESTABLISHED_RECORD",
+      "evidence_class": "MIXED_CANONICAL_ROLE_PLUS_THIRD_PARTY_PROJECT_CONTEXT",
       "public_source_available": true
     },
     {
@@ -260,7 +263,7 @@
         "Media Graphic & Motion Design Group 2"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
@@ -299,7 +302,7 @@
       "name": "Joe Nasr AudioSparx catalog / licensing activity",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
@@ -317,8 +320,8 @@
       "name": "Event Ideatecture / Ideavent",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
     {
@@ -329,8 +332,8 @@
         "Visual Framework System App"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
     {
@@ -338,9 +341,9 @@
       "name": "Roundtable AI",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
-      "public_source_available": true
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0271",
@@ -529,6 +532,28 @@
       "evidence_class": "PUBLIC",
       "public_source_available": true,
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json"
+    },
+    {
+      "id": "SYN-PUB-20261012-001",
+      "name": "Mamdani: From Zero to Hero",
+      "aliases": [
+        "Mamdani: From Zero to Hero — Through the Eyes of a Doomscroller"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-PUB-20261012-002",
+      "name": "Taxonomies and Classification Systems",
+      "aliases": [
+        "Taxonomies and Classification Systems: A Technical Field Guide"
+      ],
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ],
   "recovery_candidates": [

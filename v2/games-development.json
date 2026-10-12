@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "@id": "https://joe-nasr-signals.vercel.app/v2/games-development.html#development-games",
+  "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-games",
   "name": "Public Game Development Archive",
   "description": "Public game prototypes, alternate builds and earlier development records, separated from current published releases.",
   "itemListOrder": "https://schema.org/ItemListUnordered",
@@ -21,7 +21,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/bmx-xtreme"
+        "sameAs": "https://github.com/Joenasriani/bmx-xtreme",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-bmx-xtreme",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-bmx-xtreme"
       }
     },
     {
@@ -43,7 +45,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-match"
+        "sameAs": "https://github.com/Joenasriani/kids-match",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-match",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-match"
       }
     },
     {
@@ -62,7 +66,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-memory-game"
+        "sameAs": "https://github.com/Joenasriani/kids-memory-game",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-memory-game",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-memory-game"
       }
     },
     {
@@ -84,7 +90,9 @@
         "sameAs": [
           "https://github.com/Joenasriani/kids-no-to-drugs",
           "https://github.com/Joenasriani/kids-hero-quest"
-        ]
+        ],
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-no-to-drugs",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-no-to-drugs"
       }
     },
     {
@@ -102,7 +110,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-find-your-destiny"
+        "sameAs": "https://github.com/Joenasriani/kids-find-your-destiny",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-find-your-destiny",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-find-your-destiny"
       }
     },
     {
@@ -120,7 +130,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/life-and-origins-game"
+        "sameAs": "https://github.com/Joenasriani/life-and-origins-game",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-life-and-origins-game",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-life-and-origins-game"
       }
     },
     {
@@ -137,7 +149,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-safety-champion"
+        "sameAs": "https://github.com/Joenasriani/kids-safety-champion",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-safety-champion",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-safety-champion"
       }
     },
     {
@@ -156,7 +170,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-hero-plate"
+        "sameAs": "https://github.com/Joenasriani/kids-hero-plate",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-hero-plate",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-hero-plate"
       }
     },
     {
@@ -173,7 +189,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-kindness-drive"
+        "sameAs": "https://github.com/Joenasriani/kids-kindness-drive",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-kindness-drive",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-kindness-drive"
       }
     },
     {
@@ -191,7 +209,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-a-smarter-me"
+        "sameAs": "https://github.com/Joenasriani/kids-a-smarter-me",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-a-smarter-me",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-a-smarter-me"
       }
     },
     {
@@ -210,7 +230,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-ergo-matic"
+        "sameAs": "https://github.com/Joenasriani/kids-ergo-matic",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-ergo-matic",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-ergo-matic"
       }
     },
     {
@@ -228,7 +250,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/hangman"
+        "sameAs": "https://github.com/Joenasriani/hangman",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-hangman",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-hangman"
       }
     },
     {
@@ -247,7 +271,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/threadbound-game"
+        "sameAs": "https://github.com/Joenasriani/threadbound-game",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-threadbound-game",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-threadbound-game"
       }
     },
     {
@@ -266,7 +292,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/ai-garden-vr"
+        "sameAs": "https://github.com/Joenasriani/ai-garden-vr",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-ai-garden-vr",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-ai-garden-vr"
       }
     },
     {
@@ -284,7 +312,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/wwtbam-ai-edition"
+        "sameAs": "https://github.com/Joenasriani/wwtbam-ai-edition",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-wwtbam-ai-edition",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-wwtbam-ai-edition"
       }
     },
     {
@@ -308,7 +338,9 @@
         "sameAs": [
           "https://github.com/Joenasriani/punch-game",
           "https://github.com/Joenasriani/punch-game-xr"
-        ]
+        ],
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-punch-game",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-punch-game"
       }
     },
     {
@@ -326,7 +358,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/geo-force-vr"
+        "sameAs": "https://github.com/Joenasriani/geo-force-vr",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-geo-force-vr",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-geo-force-vr"
       }
     },
     {
@@ -344,7 +378,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/kids-word-finder"
+        "sameAs": "https://github.com/Joenasriani/kids-word-finder",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-word-finder",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-kids-word-finder"
       }
     },
     {
@@ -362,7 +398,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/stickmans-homework"
+        "sameAs": "https://github.com/Joenasriani/stickmans-homework",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-stickmans-homework",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-stickmans-homework"
       }
     },
     {
@@ -380,7 +418,9 @@
         "creator": {
           "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
         },
-        "sameAs": "https://github.com/Joenasriani/cam-city"
+        "sameAs": "https://github.com/Joenasriani/cam-city",
+        "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-cam-city",
+        "url": "https://joe-nasr-signals.vercel.app/games-development.html#development-cam-city"
       }
     }
   ],

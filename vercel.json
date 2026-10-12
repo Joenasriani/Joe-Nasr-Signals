@@ -15,6 +15,46 @@
       "source": "/v2/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/v2/identity.json",
+      "destination": "/identity.json",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games.html",
+      "destination": "/games.html",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games-development.html",
+      "destination": "/games-development.html",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games.json",
+      "destination": "/games.json",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games-development.json",
+      "destination": "/games-development.json",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games-preview.png",
+      "destination": "/games-preview.png",
+      "permanent": true
+    },
+    {
+      "source": "/v2/games-preview.svg",
+      "destination": "/games-preview.svg",
+      "permanent": true
     }
-  ]
+  ],
+  "git": {
+    "deploymentEnabled": {
+      "codex/signals-v2-migration-20261012": false
+    }
+  }
 }

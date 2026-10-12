@@ -1,4 +1,2128 @@
 {
+  "schema_version": "1.1",
+  "snapshot_date": "2026-10-12",
+  "record_type": "public_identity_taxonomy_and_evidence_graph",
+  "canonical_person": {
+    "public_name": "Joe Nasr",
+    "stable_identifier": "joe-nasr",
+    "full_name": "Joseph Ribal Nasr",
+    "also_used": [
+      "Joe Ribal Nasr"
+    ],
+    "handle_policy": "Handles are platform-specific. No single username is treated as Joe Nasr’s universal handle across all services.",
+    "nationality": "Lebanon",
+    "professional_base": "United Arab Emirates",
+    "public_handles": [
+      "Joenasriani",
+      "joenasr",
+      "joenasrprofile",
+      "joenasrvisuals",
+      "joenasrmusic",
+      "joenasr.mp4"
+    ],
+    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as search aliases only.",
+    "arabic_full_name": "جوزف رئبال نصر",
+    "arabic_search_aliases": [
+      "جوزف نصر",
+      "جو نصر"
+    ]
+  },
+  "current_primary_professional_frame": "Creative Director | Digital Experiences | Interactive Prototyping",
+  "current_scope": [
+    "creative direction",
+    "digital experiences",
+    "interactive experiences",
+    "interactive prototyping",
+    "3D and spatial experiences",
+    "XR/VR",
+    "games and experimental interactive systems",
+    "creative technology",
+    "browser-based and technically implemented experiences"
+  ],
+  "practice_domain_map": {
+    "purpose": "Domain map of documented professional and creative activity. This is not a chronological CV and not a self-rated skills list.",
+    "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. Learning alone is not sufficient.",
+    "relationship": "Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence",
+    "families": [
+      {
+        "name": "Creative & Production",
+        "domains": [
+          {
+            "name": "Creative Direction & Advertising",
+            "summary": "Creative direction and production across advertising, branded content, campaigns, visual communication and multimedia work for international and regional brands.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Commercials & Campaigns"
+              ],
+              "query_routes": [
+                "creative_director_professional",
+                "video_advertising_motion"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence_relationship": "campaign work",
+            "front_page_selected_evidence": [
+              "Mercedes-Benz",
+              "Dubai Culture and Arts Authority",
+              "Noon",
+              "GMC"
+            ]
+          },
+          {
+            "name": "Design & Visual Communication",
+            "summary": "Graphic design, branding, typography, visual systems, campaign design, retouching and communication-focused creative work.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Graphic Design & Visual Communication"
+              ],
+              "query_routes": [
+                "visual_design"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "Maybelline New York",
+              "Estée Lauder",
+              "Sephora",
+              "Chopard"
+            ]
+          },
+          {
+            "name": "Film, Video & Post Production",
+            "summary": "Editing, post-production, compositing, visual finishing, video production and work across broader audiovisual production pipelines.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Commercials & Campaigns"
+              ],
+              "query_routes": [
+                "video_advertising_motion"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "Adidas",
+              "Etihad Airways",
+              "E! News",
+              "Pepsi Arabia",
+              "ET Bil Arabi",
+              "Department of Tourism and Commerce Marketing influencer series"
+            ]
+          },
+          {
+            "name": "Motion Graphics, Animation & 3D",
+            "summary": "Motion graphics, animation and 3D work across branded, editorial and experimental visual projects.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Animation, Motion Graphics & 3D",
+                "Graphic Design & Visual Communication"
+              ],
+              "query_routes": [
+                "video_advertising_motion",
+                "visual_design"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "NYX Professional Makeup",
+              "L'Azurde",
+              "Jotun",
+              "Daoversal",
+              "B.Games",
+              "Earn.games campaign videos"
+            ]
+          },
+          {
+            "name": "Media Music Composition",
+            "summary": "Original music composition for advertising, events and media, alongside broader documented music and audio work.",
+            "evidence_routes": {
+              "query_routes": [
+                "guitar_music_composer",
+                "video_advertising_motion"
+              ],
+              "category_routes": [
+                "Music + Sound"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json",
+              "archive_categories": [
+                "Music & Audio"
+              ]
+            },
+            "selected_evidence": [
+              {
+                "name": "Khalifa Award event music",
+                "contribution": "Event main theme, awards theme and reception music",
+                "evidence_basis": "User-supplied professional record; preserve as a documented claim pending independent source recovery."
+              }
+            ],
+            "front_page_selected_evidence": [
+              "Khalifa Award for Education (event music scoring including the main theme and the awards theme)",
+              "MILCO",
+              "Lacnor",
+              "NIDO®",
+              "Saudi German Hospital"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Interactive & Technology",
+        "domains": [
+          {
+            "name": "Interactive Experiences, XR & Games",
+            "summary": "Design and development of browser experiences, interactive prototypes, games, WebXR and VR projects, spatial interfaces and experimental digital systems, with a focus on interaction, navigation and hands-on exploration.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Interactive Experiences & Prototyping"
+              ],
+              "query_routes": [
+                "coding_ai_interactive",
+                "games_xr"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json",
+              "game_catalogs": [
+                "https://joe-nasr-signals.vercel.app/games.html",
+                "https://joe-nasr-signals.vercel.app/games-development.html"
+              ]
+            },
+            "selected_evidence": [
+              {
+                "name": "Quest ReQuest VR",
+                "role": "Independent Meta Quest content and community ecosystem",
+                "url": "https://linktr.ee/questrequestvr",
+                "scope": [
+                  "Meta Quest",
+                  "VR",
+                  "XR",
+                  "gameplay",
+                  "reviews",
+                  "workshops",
+                  "community"
+                ],
+                "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership."
+              }
+            ],
+            "front_page_selected_evidence": [
+              "RoboSim",
+              "Brick XR Builder",
+              "Diorama",
+              "Ascension"
+            ]
+          },
+          {
+            "name": "AI & Creative Technology",
+            "summary": "Development and exploration of AI-assisted systems, reasoning tools, visual frameworks, experimental interfaces and creative-technology prototypes.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Interactive Experiences & Prototyping"
+              ],
+              "query_routes": [
+                "coding_ai_interactive"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "Visual Framework Engine",
+              "Roundtable AI",
+              "RoboWebSim",
+              "Event Ideatecture (ideavent)"
+            ]
+          },
+          {
+            "name": "Product & Venture Development",
+            "summary": "Documented venture and product activity spanning concept development, positioning, design, prototyping and public release.",
+            "evidence_routes": {
+              "query_routes": [
+                "founder_ventures"
+              ],
+              "related_entities": [
+                "apex_innovate",
+                "robomarket",
+                "robocreate"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "RoboMarket.ae",
+              "Apex Innovate",
+              "Daoversal"
+            ],
+            "front_page_evidence_note": "Daoversal is the current front-page selected evidence label as of 2026-10-01. Daoverse Capital is a separate historical client record covering 2021–2023 and is not the same entity or label."
+          }
+        ]
+      },
+      {
+        "name": "Knowledge & Training",
+        "domains": [
+          {
+            "name": "Corporate Training & Guest Lecturing",
+            "summary": "Professional training and guest lecturing across design, multimedia and creative technology, including corporate, academic and government engagements.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Corporate Training & Guest Lecturing"
+              ],
+              "query_routes": [
+                "teaching_training"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "Government of Dubai Media Office (GDMO)",
+              "The Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi (HHEO)",
+              "Ministry of Culture and Knowledge Development",
+              "Cartier Middle East",
+              "ITP Media Group"
+            ]
+          },
+          {
+            "name": "Research, Reasoning & Publishing",
+            "summary": "Independent work across reasoning, decision structures, human behavior, research frameworks, publishing and AI-related knowledge systems.",
+            "evidence_routes": {
+              "archive_categories": [
+                "Books & Publications"
+              ],
+              "query_routes": [
+                "books_writing",
+                "coding_ai_interactive"
+              ],
+              "related_entities": [
+                "reasoning_and_logic"
+              ],
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
+            },
+            "front_page_selected_evidence": [
+              "Manipulation: The Fool and the Wise",
+              "The Structure of Life: The Structure of Reasoning",
+              "ICF-AI"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "career_foundation": "15+ years across advertising, creative direction, visual communication, multimedia, motion graphics, 3D and production, with a long-standing professional history in the UAE/GCC.",
+  "linkedin_aligned_work_experience": {
+    "scope_note": "Career roles reflect the consolidated LinkedIn structure as of 30 September 2026. Signals explicitly separates current and previous roles while preserving employment, freelance and client relationships.",
+    "roles": [
+      {
+        "title": "Creative Director & Founder",
+        "organization": "Apex Innovate FZE LLC",
+        "employment_type": "Self-employed",
+        "start": "2025-12",
+        "end": "Present",
+        "location": "Ajman, United Arab Emirates",
+        "location_type": "Hybrid"
+      },
+      {
+        "title": "Guest Lecturer & Corporate Trainer",
+        "organization": "Self-employed",
+        "employment_type": "Self-employed",
+        "start": "2016-05",
+        "end": "Present",
+        "location": "United Arab Emirates"
+      },
+      {
+        "title": "Director of Operations & Creative Lead",
+        "organization": "Freelance",
+        "employment_type": "Contract",
+        "start": "2021-01",
+        "end": "2023-06",
+        "location": "Dubai, United Arab Emirates",
+        "clients": [
+          "Daoverse Capital",
+          "Guild Technologies"
+        ],
+        "relationship_note": "Daoverse Capital and Guild Technologies are named as clients of this contract role, not employers."
+      },
+      {
+        "title": "Independent Creative",
+        "organization": "Freelance",
+        "employment_type": "Freelance",
+        "start": "2005-02",
+        "end": "2023-09",
+        "project_location_context": [
+          "Lebanon",
+          "United Arab Emirates"
+        ],
+        "relationship_note": "Consolidated LinkedIn role covering the independent creative career that progressed through multimedia design and production, digital art direction, creative direction and multidisciplinary production."
+      }
+    ],
+    "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
+    "verified_live_on": "2026-09-30",
+    "evidence_note": "Updated from user-provided LinkedIn screenshots and direct confirmation after the 30 September 2026 role consolidation. This records the profile's statements; it is not independent verification of every underlying engagement.",
+    "timeline_note": "Current and previous roles are explicitly separated. The 2021–2023 Director of Operations contract overlaps the broader 2005–2023 Independent Creative freelance record; that overlap is intentional. Named contract clients are not recast as employers.",
+    "profile_categories": [
+      "Creative Direction",
+      "Education",
+      "Founder"
+    ]
+  },
+  "education": [
+    {
+      "institution": "American University of Science and Technology",
+      "credential": "Bachelor's Degree",
+      "field": "Major in Advertising with a minor in Media Production",
+      "start_year": 2001,
+      "end_year": 2008
+    },
+    {
+      "institution": "Holy Spirit University of Kaslik - USEK",
+      "credential": "certification",
+      "field": "Music",
+      "start_year": 1999,
+      "end_year": 2002
+    },
+    {
+      "institution": "Collège Mariste Champville",
+      "credential": "Bacc II",
+      "field": "Experimental Science",
+      "start_year": 1984,
+      "end_year": 1999
+    }
+  ],
+  "teaching_and_training": {
+    "title": "Guest Lecturer & Corporate Trainer",
+    "start": "2016-05",
+    "end": "Present",
+    "session_count": "100+",
+    "subjects": [
+      "branding and visual communication",
+      "motion graphics and animation",
+      "video production and post-production",
+      "digital content",
+      "creative software"
+    ],
+    "organizations_named_on_linkedin": [
+      "Government of Dubai Media Office (GDMO)",
+      "Dubai Police",
+      "UAE Armed Forces",
+      "Ministry of Culture and Knowledge Development",
+      "the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
+      "Reyada Centre",
+      "Ministry of Foreign Affairs — Egypt",
+      "New Media Academy",
+      "American University in Dubai (AUD)",
+      "Emaar Properties",
+      "Meraas",
+      "Cartier Middle East",
+      "ITP Media Group"
+    ],
+    "training_provider_example": "SAE Dubai",
+    "scope_note": "The named organizations reproduce the LinkedIn teaching entry checked on 25 September 2026. Separate institutional evidence is identified by its own source; this is not an exhaustive teaching record.",
+    "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
+    "verified_live_on": "2026-09-25",
+    "historical_institutional_evidence": [
+      {
+        "institution": "SAE UAE",
+        "relationship": "Design and Motion Graphics program mentorship",
+        "source_url": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+        "source_type": "institutional post"
+      }
+    ]
+  },
+  "parallel_capabilities": [
+    "music and composition",
+    "guitar and keyboards",
+    "audio and media production",
+    "teaching and training",
+    "independent reasoning frameworks and analysis",
+    "writing",
+    "ventures and experimental projects"
+  ],
+  "temporal_policy": {
+    "current_identity_priority": true,
+    "historical_definition": "HISTORICAL means an older legitimate Joe Nasr public surface, project, credit, article or media trace that remains part of his searchable history and should remain connected as a later or query-specific retrieval path. HISTORICAL does not mean weak, irrelevant, deprecated or hidden.",
+    "rule": "For broad present-tense identity questions, prefer current authoritative professional evidence. For topic-specific queries, relevance can override age: a historical specialist surface may be the strongest retrieval route for that topic while still remaining historical in time."
+  },
+  "identity_resolution": {
+    "canonical_names": [
+      "Joe Nasr",
+      "Joe Ribal Nasr",
+      "Joseph Ribal Nasr"
+    ],
+    "ambiguous_search_string": "Joseph Nasr",
+    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge.",
+    "canonical_arabic_name": "جوزف رئبال نصر",
+    "arabic_search_aliases": [
+      "جوزف نصر",
+      "جو نصر"
+    ],
+    "arabic_alias_rule": "Use Arabic aliases for retrieval and entity resolution only; do not replace the canonical Arabic full-name form or merge namesakes without contextual proof."
+  },
+  "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
+  "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
+  "graph_role": "Public evidence and entity-resolution layer beneath Joe Nasr's main online presentation. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
+  "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. No specialist surface should redefine the whole person.",
+  "platform_roles": {
+    "linkedin": "current professional and career chronology",
+    "youtube": "audiovisual archive across professional projects, media, music/audio, training and selected interactive work",
+    "github": "technical implementation and personal-lab evidence",
+    "itch_io": "playable games, XR and interactive evidence",
+    "music_surfaces": "music, composition, guitar and audio evidence",
+    "ventures": "venture and product relationship evidence",
+    "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
+  },
+  "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
+  "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
+  "public_identifiers": [
+    {
+      "identifier": "Joenasriani",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Joenasriani"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasr",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/@joenasr"
+        },
+        {
+          "name": "itch.io",
+          "url": "https://joenasr.itch.io/"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrprofile",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/joenasrprofile"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/joenasrprofile/"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrmusic",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "SoundCloud",
+          "url": "https://soundcloud.com/joenasrmusic"
+        },
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasrmusic"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasrvisuals",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasrvisuals"
+        }
+      ]
+    },
+    {
+      "identifier": "joenasr.mp4",
+      "kind": "handle",
+      "platforms": [
+        {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@joenasr.mp4"
+        }
+      ]
+    },
+    {
+      "identifier": "shallowwaters",
+      "kind": "platform_alias",
+      "platforms": [
+        {
+          "name": "Suno",
+          "url": "https://suno.com/@shallowwaters"
+        }
+      ],
+      "scope": "Suno account only"
+    }
+  ],
+  "related_entities": {
+    "apex_innovate": {
+      "name": "Apex Innovate FZE LLC",
+      "type": "company",
+      "relationship": "founder/operator",
+      "url": "https://www.apexinnovate.ae/"
+    },
+    "robomarket": {
+      "name": "RoboMarket",
+      "type": "venture",
+      "relationship": "venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO",
+      "parent_entity": "apex_innovate",
+      "url": "https://www.robomarket.ae/"
+    },
+    "reasoning_and_logic": {
+      "name": "Reasoning and Logic",
+      "type": "online_bookstore",
+      "relationship": "owned by Joe Nasr; publication surface for his writing",
+      "url": "https://reasoning-and-logic.vercel.app/",
+      "category": "Books + Writing",
+      "description": "Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
+      "author_attribution": {
+        "credited_name": "J. Nasr",
+        "person": "Joe Nasr",
+        "scope": "Publications listed by Reasoning and Logic; initials alone are not sufficient to identify other authors."
+      },
+      "publications": [
+        {
+          "title": "Manipulation",
+          "subtitle": "The Fool and the Wise",
+          "type": "digital_book",
+          "author": "J. Nasr",
+          "url": "https://manipulation-book-theta.vercel.app/"
+        },
+        {
+          "title": "The Structure of Life",
+          "subtitle": "The Structure of Reasoning",
+          "type": "digital_book",
+          "author": "J. Nasr",
+          "url": "https://the-structure-of-life.vercel.app/"
+        },
+        {
+          "title": "ICF-AI",
+          "full_title": "Integrative Causal Framework for AI Systems",
+          "type": "research_framework",
+          "status": "provisional framework",
+          "author": "J. Nasr",
+          "url": "https://icf-ai.vercel.app/icf-ai",
+          "scope_note": "Independently published provisional framework; this record does not imply academic affiliation or peer-reviewed status."
+        },
+        {
+          "title": "Mamdani: From Zero to Hero",
+          "subtitle": "Through the Eyes of a Doomscroller",
+          "type": "digital_book",
+          "author": "J. Nasr",
+          "url": "https://mamdani-from-zero-to-hero.vercel.app/",
+          "edition": "Digital edition · 2026",
+          "bookstore_status": "published",
+          "sales_status": "open",
+          "source_scope": "First-party publication record; no independent editorial endorsement",
+          "retrieval_state": "PUBLIC_SOURCE_NOT_RECHECKED"
+        },
+        {
+          "title": "Taxonomies and Classification Systems",
+          "subtitle": "A Technical Field Guide",
+          "type": "technical_field_guide",
+          "author": "J. Nasr",
+          "url": "https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems",
+          "edition": "Technical Field Guide and AI Practical Edition v1.1.1 · 2026",
+          "bookstore_status": "published",
+          "sales_status": "review",
+          "source_scope": "First-party publication record; sales eligibility under review",
+          "retrieval_state": "PUBLIC_SOURCE_NOT_RECHECKED"
+        }
+      ],
+      "verification": {
+        "source_url": "https://reasoning-and-logic.vercel.app/",
+        "checked_on": "2026-09-25",
+        "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity are recorded in the canonical identity evidence.",
+        "source_manifest_checked_on": "2026-10-12",
+        "source_manifest_basis": "GitHub bookstore publication manifests and source lock document five catalogue entries. Live HTTP status and independent indexing were not rechecked.",
+        "public_recheck_state": "NOT_RECHECKED"
+      }
+    },
+    "robocreate": {
+      "name": "RoboCreate",
+      "type": "product_initiative",
+      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder",
+      "parent_entity": "apex_innovate",
+      "url": "https://robocreate.manus.space/"
+    },
+    "quest_request_vr": {
+      "name": "Quest ReQuest VR",
+      "type": "independent_xr_content_and_community_ecosystem",
+      "relationship": "Joe Nasr creator/operator",
+      "url": "https://linktr.ee/questrequestvr",
+      "category": "XR + Games",
+      "description": "Independent Meta Quest-focused ecosystem spanning VR/XR content, gameplay, reviews, workshops and community resources.",
+      "affiliation_note": "Independent initiative; not an official Meta property and no Meta partnership is implied."
+    }
+  },
+  "category_routes": {
+    "Music + Sound": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasrmusic",
+        "url": "https://www.tiktok.com/@joenasrmusic",
+        "scope": "music and guitar",
+        "relationship": "Joe Nasr public platform profile"
+      },
+      {
+        "platform": "Spotify",
+        "url": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+        "scope": "music catalogue",
+        "relationship": "Joe Nasr public platform profile"
+      },
+      {
+        "platform": "Suno",
+        "url": "https://suno.com/@shallowwaters",
+        "scope": "AI music under ShallowWaters",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ],
+    "Video": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasr.mp4",
+        "url": "https://www.tiktok.com/@joenasr.mp4",
+        "scope": "advertising and video work",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ],
+    "Books + Writing": [
+      {
+        "name": "Reasoning and Logic",
+        "url": "https://reasoning-and-logic.vercel.app/",
+        "scope": "books and independently published reasoning frameworks by J. Nasr",
+        "relationship": "Joe Nasr owned bookstore and publication surface",
+        "related_entity": "reasoning_and_logic"
+      }
+    ],
+    "Animation + Motion Graphics": [
+      {
+        "platform": "TikTok",
+        "handle": "@joenasrvisuals",
+        "url": "https://www.tiktok.com/@joenasrvisuals",
+        "scope": "animation, motion graphics and visual design",
+        "relationship": "Joe Nasr public platform profile"
+      }
+    ]
+  },
+  "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
+  "updated_on": "2026-10-12",
+  "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
+  "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
+  "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
+  "retrieval_facets": {
+    "primary_role": "Creative Director",
+    "role_history": [
+      "Creative Director",
+      "Guest Lecturer & Corporate Trainer",
+      "Director of Operations & Creative Lead",
+      "Independent Creative"
+    ],
+    "work_domains": [
+      "creative direction",
+      "art direction",
+      "advertising",
+      "multimedia production",
+      "digital experiences",
+      "interactive prototyping"
+    ],
+    "multimedia_production_includes": [
+      "motion graphics",
+      "3D",
+      "video",
+      "audio"
+    ],
+    "other_documented_work": [
+      "commercial and institutional projects",
+      "independent products",
+      "teaching",
+      "music",
+      "experimental interactive work"
+    ],
+    "rule": "Keep taxonomy hierarchical. Do not place a parent category and its child disciplines at the same level unless retrieval requires an explicit child term; retain child disciplines as nested facets."
+  },
+  "retrieval_architecture": {
+    "purpose": "Help search engines, AI retrievers and people reconstruct the correct Joe Nasr quickly from a clear identity root, current authoritative profiles, specialist branches, related entities and historical support.",
+    "core_rule": "Route by query relevance, evidence quality and identity clarity; do not treat recency as the only measure of retrieval value.",
+    "current_identity_rule": "For broad present-tense questions such as 'Who is Joe Nasr?', start with the canonical Signals record and current professional/profile evidence.",
+    "historical_rule": "Historical nodes retain chronology and topic relevance. Query relevance does not imply current URL availability; unavailable sources remain historical records and are excluded from active query routes.",
+    "priority_semantics": {
+      "PRIMARY_CURRENT": "Preferred current identity or professional route for broad discovery and disambiguation.",
+      "SECONDARY_SPECIALIST": "Current or supporting route with a narrower subject, platform or evidence function.",
+      "HISTORICAL_SUPPORT": "Older legitimate Joe Nasr surface retained for chronology, specialist retrieval and long-tail search. It may still have high query relevance.",
+      "PENDING_VERIFICATION": "Known account or surface not promoted as a public retrieval route until public visibility or identity linkage is rechecked."
+    },
+    "retrieval_state_semantics": {
+      "ACTIVE": "Public and useful as a current retrieval path.",
+      "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
+      "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source.",
+      "UNRESOLVED": "Do not promote until the unresolved visibility, ownership, alias or identity question is settled."
+    },
+    "relationship_semantics": {
+      "PROFILE": "A page or account representing Joe Nasr.",
+      "DIRECTORY_PROFILE": "A third-party directory/profile page representing or indexing Joe Nasr.",
+      "CATALOGUE_PROFILE": "A platform catalogue/profile associated with Joe Nasr's work.",
+      "ROUTER": "A routing page that connects to other Joe Nasr surfaces.",
+      "EVIDENCE": "A source supporting a Joe Nasr relationship or claim.",
+      "PENDING_PUBLIC_PROFILE": "Known account whose unauthenticated public visibility is not yet established."
+    }
+  },
+  "public_surface_registry": [
+    {
+      "id": "signals",
+      "name": "Joe Nasr Signals",
+      "platform": "Signals",
+      "url": "https://joe-nasr-signals.vercel.app/",
+      "category": [
+        "Identity",
+        "Public Work Archive"
+      ],
+      "subtopics": [
+        "Joe Nasr",
+        "Joseph Ribal Nasr",
+        "Joe Ribal Nasr",
+        "Joenasriani"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "PRIMARY_CURRENT",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "who is Joe Nasr": "HIGH",
+        "Joseph Ribal Nasr": "HIGH",
+        "Joenasriani": "HIGH"
+      }
+    },
+    {
+      "id": "linkedin",
+      "name": "Joe Nasr on LinkedIn",
+      "platform": "LinkedIn",
+      "handle": "joenasrprofile",
+      "url": "https://www.linkedin.com/in/joenasrprofile",
+      "category": [
+        "Professional",
+        "Creative Direction",
+        "Teaching + Training",
+        "Founder"
+      ],
+      "subtopics": [
+        "Creative Director",
+        "Dubai",
+        "UAE",
+        "GCC",
+        "digital experiences",
+        "interactive prototyping",
+        "career chronology"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "PRIMARY_CURRENT",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Creative Director": "HIGH",
+        "Joe Nasr Dubai": "HIGH",
+        "Joe Nasr professional": "HIGH",
+        "Joe Nasr lecturer": "HIGH"
+      }
+    },
+    {
+      "id": "github",
+      "name": "Joenasriani on GitHub",
+      "platform": "GitHub",
+      "handle": "Joenasriani",
+      "url": "https://github.com/Joenasriani",
+      "category": [
+        "Technical",
+        "Interactive",
+        "Projects"
+      ],
+      "subtopics": [
+        "code",
+        "prototypes",
+        "interactive systems",
+        "games",
+        "AI-assisted systems",
+        "Three.js",
+        "React"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "PRIMARY_CURRENT",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joenasriani": "HIGH",
+        "Joe Nasr GitHub": "HIGH",
+        "Joe Nasr coding": "HIGH",
+        "Joe Nasr interactive": "HIGH"
+      }
+    },
+    {
+      "id": "youtube",
+      "name": "Joe Nasr on YouTube",
+      "platform": "YouTube",
+      "handle": "joenasr",
+      "url": "https://www.youtube.com/@joenasr",
+      "category": [
+        "Video",
+        "Creative Direction",
+        "Music + Sound",
+        "Teaching + Training",
+        "Interactive"
+      ],
+      "subtopics": [
+        "audiovisual work",
+        "advertising",
+        "media production",
+        "music",
+        "audio",
+        "training",
+        "interactive work"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "PRIMARY_CURRENT",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr video": "HIGH",
+        "Joe Nasr advertising": "HIGH",
+        "Joe Nasr music": "MEDIUM",
+        "Joe Nasr training": "MEDIUM"
+      }
+    },
+    {
+      "id": "itch_io",
+      "name": "Joe Nasr on itch.io",
+      "platform": "itch.io",
+      "handle": "joenasr",
+      "url": "https://joenasr.itch.io/",
+      "category": [
+        "XR + Games",
+        "Interactive"
+      ],
+      "subtopics": [
+        "games",
+        "XR",
+        "browser 3D",
+        "interactive prototypes"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "PRIMARY_CURRENT",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr games": "HIGH",
+        "Joe Nasr XR": "HIGH",
+        "Joe Nasr itch.io": "HIGH",
+        "Joe Nasr interactive": "HIGH"
+      }
+    },
+    {
+      "id": "tiktok_visuals",
+      "name": "Joe Nasr Visuals on TikTok",
+      "platform": "TikTok",
+      "handle": "joenasrvisuals",
+      "url": "https://www.tiktok.com/@joenasrvisuals",
+      "category": [
+        "Graphics",
+        "Video"
+      ],
+      "subtopics": [
+        "design",
+        "animation",
+        "motion graphics",
+        "visual work"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr visuals": "HIGH",
+        "Joe Nasr animation": "HIGH",
+        "Joe Nasr motion graphics": "HIGH",
+        "Joe Nasr design": "HIGH"
+      }
+    },
+    {
+      "id": "tiktok_music",
+      "name": "Joe Nasr Music on TikTok",
+      "platform": "TikTok",
+      "handle": "joenasrmusic",
+      "url": "https://www.tiktok.com/@joenasrmusic",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "guitar",
+        "music",
+        "performance"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr guitar": "HIGH",
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr guitarist": "HIGH"
+      }
+    },
+    {
+      "id": "tiktok_mp4",
+      "name": "Joe Nasr MP4 on TikTok",
+      "platform": "TikTok",
+      "handle": "joenasr.mp4",
+      "url": "https://www.tiktok.com/@joenasr.mp4",
+      "category": [
+        "Video",
+        "Creative Direction"
+      ],
+      "subtopics": [
+        "advertising",
+        "commercial video",
+        "production"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr advertising": "HIGH",
+        "Joe Nasr commercials": "HIGH",
+        "Joe Nasr video": "HIGH"
+      }
+    },
+    {
+      "id": "facebook_profile",
+      "name": "Joe Nasr on Facebook",
+      "platform": "Facebook",
+      "handle": "joenasrprofile",
+      "url": "https://www.facebook.com/joenasrprofile/",
+      "category": [
+        "General",
+        "Professional"
+      ],
+      "subtopics": [
+        "creator profile",
+        "professional work"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Facebook": "HIGH",
+        "Joe Nasr profile": "LOW"
+      }
+    },
+    {
+      "id": "soundcloud",
+      "name": "Joe Nasr Music on SoundCloud",
+      "platform": "SoundCloud",
+      "handle": "joenasrmusic",
+      "url": "https://soundcloud.com/joenasrmusic",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music",
+        "composition",
+        "guitar",
+        "audio"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr composer": "HIGH",
+        "Joe Nasr guitar": "HIGH"
+      }
+    },
+    {
+      "id": "slideshare",
+      "name": "Joe Nasr on SlideShare",
+      "platform": "SlideShare",
+      "handle": "JoeNasr",
+      "url": "https://www.slideshare.net/JoeNasr",
+      "category": [
+        "Teaching + Training",
+        "Graphics",
+        "Video"
+      ],
+      "subtopics": [
+        "teaching",
+        "training",
+        "design",
+        "motion graphics",
+        "presentations"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr lecturer": "HIGH",
+        "Joe Nasr training": "HIGH",
+        "Joe Nasr teaching": "HIGH"
+      }
+    },
+    {
+      "id": "huggingface",
+      "name": "Joe-linked Hugging Face profile",
+      "platform": "Hugging Face",
+      "handle": "cryptophylia",
+      "url": "https://huggingface.co/cryptophylia",
+      "category": [
+        "Technical",
+        "AI"
+      ],
+      "subtopics": [
+        "AI",
+        "models",
+        "technical experiments"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr AI": "MEDIUM",
+        "Joe Nasr Hugging Face": "HIGH",
+        "cryptophylia Joe Nasr": "HIGH"
+      }
+    },
+    {
+      "id": "about_me",
+      "name": "Joe Nasr on about.me",
+      "platform": "about.me",
+      "handle": "joenasr",
+      "url": "https://about.me/joenasr",
+      "category": [
+        "General",
+        "Biography"
+      ],
+      "subtopics": [
+        "biography",
+        "creative work",
+        "music",
+        "professional history"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr biography": "MEDIUM",
+        "Joe Nasr about.me": "HIGH"
+      }
+    },
+    {
+      "id": "linktree",
+      "name": "Joe Nasr on Linktree",
+      "platform": "Linktree",
+      "handle": "joenasr",
+      "url": "https://linktr.ee/joenasr",
+      "category": [
+        "Routing"
+      ],
+      "subtopics": [
+        "public links",
+        "platform routing"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE",
+      "relationship_to_joe": "ROUTER",
+      "query_relevance": {
+        "Joe Nasr links": "HIGH",
+        "Joe Nasr Linktree": "HIGH"
+      }
+    },
+    {
+      "id": "x",
+      "name": "Joe Nasr on X",
+      "platform": "X",
+      "handle": "joenasr",
+      "url": "https://x.com/joenasr",
+      "category": [
+        "General"
+      ],
+      "subtopics": [
+        "social profile"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr X": "HIGH"
+      }
+    },
+    {
+      "id": "facebook_music",
+      "name": "Joe Nasr Music on Facebook",
+      "platform": "Facebook",
+      "handle": "joenasrmusic",
+      "url": "https://www.facebook.com/joenasrmusic/",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music",
+        "guitar",
+        "community"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "MEDIUM",
+        "Joe Nasr guitar": "MEDIUM",
+        "Joe Nasr Facebook music": "HIGH"
+      }
+    },
+    {
+      "id": "anghami",
+      "name": "Joe Nasr on Anghami",
+      "platform": "Anghami",
+      "url": "https://play.anghami.com/artist/12198154",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music catalogue",
+        "guitar",
+        "performance",
+        "composition"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr guitar": "MEDIUM",
+        "Joe Nasr Anghami": "HIGH"
+      },
+      "indexed_titles": [
+        "Dernière Danse (cover)",
+        "Ossetna Bhal Moujtama3 (cover)",
+        "College Days"
+      ],
+      "source_observation": {
+        "date": "2026-10-12",
+        "method": "SEARCH_INDEX",
+        "url": "https://play.anghami.com/artist/12198154"
+      }
+    },
+    {
+      "id": "reverbnation",
+      "name": "Joe Nasr on ReverbNation",
+      "platform": "ReverbNation",
+      "handle": "joenasr",
+      "url": "https://www.reverbnation.com/joenasr",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "guitar",
+        "composition",
+        "soundtrack",
+        "music"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "UNRESOLVED",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr guitar": "HIGH",
+        "Joe Nasr composer": "HIGH",
+        "Joe Nasr music": "HIGH"
+      },
+      "availability": {
+        "checked_on": "2026-10-12",
+        "http_status": 404,
+        "note": "Historical attribution is retained; this URL was unavailable at the last check."
+      }
+    },
+    {
+      "id": "audiosparx",
+      "name": "Joe Nasr on AudioSparx",
+      "platform": "AudioSparx",
+      "handle": "JoeNasr",
+      "url": "https://www.audiosparx.com/JoeNasr",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "composer",
+        "production music",
+        "music licensing",
+        "soundtrack"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr composer": "HIGH",
+        "Joe Nasr production music": "HIGH",
+        "Joe Nasr AudioSparx": "HIGH"
+      }
+    },
+    {
+      "id": "bandsintown",
+      "name": "Joe Nasr on Bandsintown",
+      "platform": "Bandsintown",
+      "url": "https://www.bandsintown.com/a/1583301-joe-nasr",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music",
+        "artist biography",
+        "commercial and media history"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "DIRECTORY_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "MEDIUM",
+        "Joe Nasr composer": "MEDIUM",
+        "Joe Nasr Bandsintown": "HIGH"
+      }
+    },
+    {
+      "id": "clarity",
+      "name": "Joe Nasr on Clarity",
+      "platform": "Clarity",
+      "handle": "joenasr",
+      "url": "https://clarity.fm/joenasr",
+      "category": [
+        "Music + Sound",
+        "Professional"
+      ],
+      "subtopics": [
+        "music composition",
+        "audio post-production",
+        "sound design",
+        "teaching",
+        "testimonials"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr composer": "HIGH",
+        "Joe Nasr audio": "HIGH",
+        "Joe Nasr Pro Tools": "HIGH",
+        "Joe Nasr music": "HIGH"
+      }
+    },
+    {
+      "id": "stage32_music",
+      "name": "Joe Ribal Nasr on Stage32",
+      "platform": "Stage32",
+      "url": "https://www.stage32.com/profile/365666",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "composer",
+        "sound designer",
+        "sound mixer",
+        "music production"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Ribal Nasr music": "HIGH",
+        "Joe Nasr composer": "HIGH",
+        "Joe Nasr sound designer": "HIGH"
+      }
+    },
+    {
+      "id": "stage32_creative",
+      "name": "Joe Nasr on Stage32 profile 141393",
+      "platform": "Stage32",
+      "url": "https://www.stage32.com/profile/141393",
+      "category": [
+        "Creative Direction",
+        "Video"
+      ],
+      "subtopics": [
+        "creative executive",
+        "editor",
+        "content creator",
+        "Dubai"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr creative executive": "HIGH",
+        "Joe Nasr editor": "HIGH",
+        "Joe Nasr Dubai": "MEDIUM"
+      }
+    },
+    {
+      "id": "stage32_vanity",
+      "name": "Joe Nasr on Stage32",
+      "platform": "Stage32",
+      "handle": "joenasr",
+      "url": "https://www.stage32.com/joenasr",
+      "category": [
+        "Creative Direction",
+        "Video"
+      ],
+      "subtopics": [
+        "creative",
+        "motion",
+        "media",
+        "Media Valley"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Stage32": "HIGH",
+        "Joe Nasr Media Valley": "MEDIUM"
+      }
+    },
+    {
+      "id": "flickr",
+      "name": "Joe Nasr on Flickr",
+      "platform": "Flickr",
+      "handle": "joenasriani",
+      "url": "https://www.flickr.com/photos/27243981@N04/",
+      "category": [
+        "Graphics",
+        "Visual Archive"
+      ],
+      "subtopics": [
+        "visual work",
+        "photography",
+        "Joenasriani alias history"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joenasriani": "HIGH",
+        "Joe Nasr Flickr": "HIGH",
+        "Joe Nasr visuals": "MEDIUM"
+      }
+    },
+    {
+      "id": "freelancer",
+      "name": "Joe Nasr on Freelancer",
+      "platform": "Freelancer",
+      "handle": "joenasriani",
+      "url": "https://www.freelancer.com/u/joenasriani",
+      "category": [
+        "Professional",
+        "Creative"
+      ],
+      "subtopics": [
+        "freelance",
+        "creative",
+        "media",
+        "Joenasriani alias history"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joenasriani": "HIGH",
+        "Joe Nasr Freelancer": "HIGH",
+        "Joe Nasr freelance": "MEDIUM"
+      }
+    },
+    {
+      "id": "ten_times",
+      "name": "Joe Nasr on 10times",
+      "platform": "10times",
+      "url": "https://10times.com/profile/joe-nasr-14083174",
+      "category": [
+        "Professional"
+      ],
+      "subtopics": [
+        "Creative Director",
+        "Media Valley",
+        "Dubai"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "DIRECTORY_PROFILE",
+      "query_relevance": {
+        "Joe Nasr Media Valley": "MEDIUM",
+        "Joe Nasr Creative Director Dubai": "MEDIUM"
+      }
+    },
+    {
+      "id": "gamebrain",
+      "name": "Joe Nasr on GameBrain",
+      "platform": "GameBrain",
+      "url": "https://gamebrain.co/developer/joenasr",
+      "category": [
+        "XR + Games",
+        "Interactive"
+      ],
+      "subtopics": [
+        "games",
+        "developer discovery"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "DIRECTORY_PROFILE",
+      "query_relevance": {
+        "Joe Nasr games": "HIGH",
+        "Joenasr games": "HIGH",
+        "Joe Nasr GameBrain": "HIGH"
+      }
+    },
+    {
+      "id": "mixcloud",
+      "name": "Joe Nasr on Mixcloud",
+      "platform": "Mixcloud",
+      "handle": "joenasrprofile",
+      "url": "https://www.mixcloud.com/joenasrprofile/",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "audio",
+        "music"
+      ],
+      "temporal_state": "HISTORICAL",
+      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "retrieval_state": "WEAK",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Mixcloud": "HIGH",
+        "Joe Nasr music": "LOW"
+      }
+    },
+    {
+      "id": "quest_request_vr",
+      "name": "Quest ReQuest VR",
+      "platform": "Linktree / multi-platform ecosystem",
+      "handle": "questrequestvr",
+      "url": "https://linktr.ee/questrequestvr",
+      "category": [
+        "XR + Games",
+        "Interactive",
+        "VR"
+      ],
+      "subtopics": [
+        "Meta Quest",
+        "VR",
+        "XR",
+        "gameplay",
+        "reviews",
+        "workshops",
+        "community"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CREATOR_OPERATED_ECOSYSTEM",
+      "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership.",
+      "query_relevance": {
+        "Joe Nasr Meta Quest": "HIGH",
+        "Joe Nasr VR": "HIGH",
+        "Joe Nasr XR": "HIGH",
+        "Quest ReQuest VR": "HIGH"
+      }
+    },
+    {
+      "id": "spotify",
+      "name": "Joe Nasr on Spotify",
+      "platform": "Spotify",
+      "url": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music catalogue",
+        "recordings"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr Spotify": "HIGH"
+      }
+    },
+    {
+      "id": "suno_shallowwaters",
+      "name": "ShallowWaters on Suno",
+      "platform": "Suno",
+      "handle": "shallowwaters",
+      "url": "https://suno.com/@shallowwaters",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "AI music",
+        "ShallowWaters"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Suno": "HIGH",
+        "ShallowWaters Suno": "HIGH"
+      },
+      "identity_scope": "Joe Nasr uses ShallowWaters on this Suno account. The name alone does not identify accounts or releases on other platforms."
+    }
+  ],
+  "query_routes": {
+    "broad_identity": {
+      "intent": "Who is Joe Nasr / Joseph Ribal Nasr / Joenasriani?",
+      "surface_ids": [
+        "signals",
+        "linkedin",
+        "github",
+        "youtube",
+        "itch_io"
+      ]
+    },
+    "creative_director_professional": {
+      "intent": "Creative Director, professional history, Dubai/UAE/GCC work",
+      "surface_ids": [
+        "linkedin",
+        "youtube",
+        "stage32_creative",
+        "ten_times"
+      ]
+    },
+    "guitar_music_composer": {
+      "intent": "Guitar, guitarist, music, composer, sound, audio",
+      "surface_ids": [
+        "spotify",
+        "soundcloud",
+        "anghami",
+        "tiktok_music",
+        "audiosparx",
+        "stage32_music",
+        "bandsintown",
+        "clarity",
+        "facebook_music",
+        "mixcloud"
+      ],
+      "historical_unavailable_surface_ids": [
+        "reverbnation"
+      ]
+    },
+    "video_advertising_motion": {
+      "intent": "Video, advertising, commercials, motion graphics, editing, production",
+      "surface_ids": [
+        "youtube",
+        "tiktok_mp4",
+        "tiktok_visuals",
+        "stage32_creative"
+      ]
+    },
+    "coding_ai_interactive": {
+      "intent": "Coding, AI, technical implementation, interactive prototypes",
+      "surface_ids": [
+        "github",
+        "itch_io",
+        "huggingface",
+        "signals"
+      ],
+      "note": "Replit remains excluded from active routing until public visibility is verified.",
+      "evidence_urls": [
+        "https://joe-nasr-signals.vercel.app/games.html",
+        "https://joe-nasr-signals.vercel.app/games.json",
+        "https://joe-nasr-signals.vercel.app/games-development.html",
+        "https://joe-nasr-signals.vercel.app/games-development.json"
+      ]
+    },
+    "teaching_training": {
+      "intent": "Joe Nasr lecturer, corporate trainer, SAE training, Adobe/media training, institutional training",
+      "surface_ids": [
+        "linkedin",
+        "slideshare",
+        "signals"
+      ],
+      "evidence_urls": [
+        "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+        "https://joe-nasr-signals.vercel.app/",
+        "https://joe-nasr-signals.vercel.app/identity.json"
+      ],
+      "related_relationship_groups": [
+        "workshops_and_training_for"
+      ],
+      "retrieval_terms": [
+        "Joe Nasr corporate trainer",
+        "Joe Nasr guest lecturer",
+        "Joe Nasr SAE lecturer",
+        "Joe Nasr SAE University College",
+        "Joe Nasr Department of Tourism and Commerce Marketing training",
+        "Joe Nasr Cartier training",
+        "Joe Nasr ITP Media training",
+        "Joe Nasr Emaar training",
+        "Joe Nasr Reyada",
+        "Joe Nasr DaVinci training"
+      ],
+      "boundary": "Use typed relationship records and delivery states. Do not infer completed delivery from proposal/program involvement, and do not collapse participant-side or venue context into direct contractual-client status."
+    },
+    "games_xr": {
+      "intent": "Games, XR, VR, interactive work",
+      "surface_ids": [
+        "itch_io",
+        "github",
+        "gamebrain",
+        "youtube",
+        "quest_request_vr"
+      ],
+      "evidence_urls": [
+        "https://joe-nasr-signals.vercel.app/games.html",
+        "https://joe-nasr-signals.vercel.app/games.json",
+        "https://joe-nasr-signals.vercel.app/games-development.html",
+        "https://joe-nasr-signals.vercel.app/games-development.json"
+      ]
+    },
+    "visual_design": {
+      "intent": "Visual design, graphics, animation, motion graphics",
+      "surface_ids": [
+        "tiktok_visuals",
+        "youtube",
+        "flickr",
+        "stage32_creative"
+      ]
+    },
+    "founder_ventures": {
+      "intent": "Founder, venture, product work",
+      "surface_ids": [
+        "linkedin",
+        "signals"
+      ],
+      "related_entity_ids": [
+        "apex_innovate",
+        "robomarket"
+      ]
+    },
+    "books_writing": {
+      "intent": "Books, writing, reasoning frameworks, J. Nasr",
+      "surface_ids": [
+        "signals"
+      ],
+      "related_entity_ids": [
+        "reasoning_and_logic"
+      ]
+    },
+    "ai_music": {
+      "intent": "Joe Nasr AI music and ShallowWaters on Suno",
+      "surface_ids": [
+        "suno_shallowwaters"
+      ],
+      "scope": "This account does not establish authorship or rights for similarly named artists or individual tracks."
+    }
+  },
+  "selected_historical_work": [
+    {
+      "name": "E! Beyond The Red Carpet - 13th Dubai International Film Festival",
+      "year": 2016,
+      "person": "Joe Nasr",
+      "role": "Editor",
+      "production_company": "Navigation Films",
+      "event": "13th Dubai International Film Festival",
+      "temporal_state": "HISTORICAL",
+      "canonical_public_url": "https://joe-nasr-signals.vercel.app/",
+      "evidence_boundary": "The editor role is documented in the project record. The listed public Navigation Films pages establish production context, not an independently published credit naming Joe Nasr on this production."
+    },
+    {
+      "name": "Cartier corporate training through SAE",
+      "date": "2020-06",
+      "person": "Joe Nasr",
+      "role": "Trainer",
+      "training_provider": "SAE",
+      "cohort": "Cartier",
+      "subjects": [
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+      ],
+      "delivery_mode": "virtual",
+      "temporal_state": "HISTORICAL",
+      "canonical_public_url": "https://joe-nasr-signals.vercel.app/"
+    },
+    {
+      "name": "SAE / HHEO / Reyada Design and Motion Graphics diploma",
+      "person": "Joe Nasr",
+      "role": "Mentor",
+      "program_length": "six months",
+      "organizations": [
+        "SAE UAE",
+        "HHEO",
+        "Reyada Centre"
+      ],
+      "public_source_url": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+      "canonical_public_url": "https://joe-nasr-signals.vercel.app/"
+    }
+  ],
+  "project_evidence_registry": {
+    "url": "https://joe-nasr-signals.vercel.app/projects.json",
+    "snapshot_date": "2026-10-12",
+    "project_count": 51,
+    "detail_files": [
+      "https://joe-nasr-signals.vercel.app/data/projects-01.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-02.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-03.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-04.json",
+      "https://joe-nasr-signals.vercel.app/data/projects-05.json"
+    ],
+    "role": "Machine-readable project/evidence layer beneath the person identity graph. Projects are related entities, not Person sameAs identities.",
+    "fields": [
+      "canonical project name",
+      "aliases",
+      "organization",
+      "client",
+      "production/agency",
+      "period",
+      "Joe role",
+      "deliverable",
+      "evidence class",
+      "evidence summary",
+      "public URLs",
+      "public source availability",
+      "public retrieval status",
+      "boundaries",
+      "retrieval tags"
+    ],
+    "update_2026_09_29": [
+      "Chopard Girls promoted to public first-party artifact proof from refreshed YouTube metadata documenting After Effects rotoscoping and compositing.",
+      "Dubai Tourism lookbook node strengthened by current YouTube metadata explicitly naming Joe Nasr in post-production; item-level chronology now includes 2018 and 2019 evidence.",
+      "Milco TVC added from the known Joe Ribal Nasr Stage32 reel.",
+      "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel.",
+      "EMT - High tech prod remains unverified because the retrieved public artifact does not state Joe Nasr's role."
+    ],
+    "evidence_class_semantics": {
+      "PUBLIC": "Supported by a listed public source.",
+      "DOCUMENTED_NONPUBLIC": "Supported by documented evidence whose underlying source is not published in this public record.",
+      "ESTABLISHED_RECORD": "Established in the project record but still requiring stronger source recovery for precise public claims.",
+      "PARTIAL": "Only the stated portion of the work or delivery is established.",
+      "UNRESOLVED": "Not sufficient for a factual public project or role claim."
+    }
+  },
+  "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
+  "viewer_hidden_sources": [
+    {
+      "label": "SlideShare teaching archive",
+      "url": "https://www.slideshare.net/JoeNasr",
+      "reason": "Machine-readable supporting source; not included in the visible Signals archive."
+    },
+    {
+      "label": "Showcase: Animated Infographics on a Budget!",
+      "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlddByAO84CTJEsfujOFLt3j",
+      "reason": "Machine-readable supporting source; not included in the visible Signals archive."
+    },
+    {
+      "label": "Manipulation: The Fool and the Wise",
+      "url": "https://manipulation-book-theta.vercel.app/",
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+    },
+    {
+      "label": "The Structure of Life — The Structure of Reasoning",
+      "url": "https://the-structure-of-life.vercel.app/",
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+    },
+    {
+      "label": "ICF",
+      "url": "https://icf-ai.vercel.app/icf-ai",
+      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+    },
+    {
+      "label": "Showcase: Some of My Audio Post-Production Projects",
+      "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
+      "reason": "Historical audio-post evidence available to machine retrieval; not used as the current visible Media Music Composition route."
+    }
+  ],
+  "public_evidence_update_2026_10_04": {
+    "presentation_state": "Client, project and institution names are represented through practice-domain selected evidence and machine-readable project/source records rather than a standalone CLIENTELE wall.",
+    "direct_or_institutional_corroboration": [
+      {
+        "subject": "SAE UAE Design and Motion Graphics program",
+        "support": "Institutional post explicitly names Joe Nasr for expertise and mentorship.",
+        "source": "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
+        "class": "INSTITUTIONAL_FACT_CORROBORATION"
+      },
+      {
+        "subject": "The Nidaa Show",
+        "support": "Third-party project credit identifies Joe Nasr for Audio Post Production.",
+        "source": "https://zainabsalbi.com/",
+        "class": "DIRECT_PROJECT_CREDIT_LEAD"
+      }
+    ],
+    "project_context_corroboration": [
+      {
+        "subject": "ET Bil Arabi",
+        "support": "Independent trade/news coverage verifies the 2015 show, Charisma Group production and Abu Dhabi/twofour54 context; Etere independently documents Final Cut Pro in the show's workflow.",
+        "sources": [
+          "https://www.digitalstudiome.com/production/article-8394-cbs-and-mbc-launch-et-bil-arabi",
+          "https://www.broadcastprome.com/news/mbc4-launches-local-format-of-entertainment-tonight/",
+          "https://www.digitalstudiome.com/production/content-management/article-8971-et-bil-arabi-finds-new-home-at-twofour54",
+          "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
+        ],
+        "boundary": "These sources do not independently name Joe Nasr as editor; Joe's role remains supported by his public artifact and recorded project evidence."
+      },
+      {
+        "subject": "E! Beyond The Red Carpet / DIFF 2016",
+        "support": "Navigation Films' public Dubai-office material verifies regional production/post-production capability and in-house editing context.",
+        "sources": [
+          "https://navigationfilms.com/offices/dubai/",
+          "https://navigationfilms.com/our-work/"
+        ],
+        "boundary": "No public Navigation Films or independent source naming Joe Nasr on this production has yet been recovered."
+      },
+      {
+        "subject": "Media Valley",
+        "support": "Public third-party indexing corroborates Joe Nasr as Creative Director at Media Valley Fz-LLC in Dubai.",
+        "sources": [
+          "https://prospectoo.com/company/MediaValleyFz-LLC-14387104/"
+        ],
+        "boundary": "Directory-level corroboration, not independent editorial coverage."
+      },
+      {
+        "subject": "Montage TV Production",
+        "support": "An attributed third-party testimonial states that Joe Nasr and Romeo Chalfoun worked together at Montage TV Production in Dubai.",
+        "sources": [
+          "https://clarity.fm/joenasr"
+        ],
+        "boundary": "Testimonial/profile evidence, not editorial coverage."
+      }
+    ],
+    "current_interactive_artifact_corroboration": [
+      {
+        "subject": "Brick XR Builder / LegoCraft",
+        "support": "Live itch.io artifact identifies the public project and documents browser 3D / WebXR functionality.",
+        "source": "https://joenasr.itch.io/brickxr",
+        "class": "FIRST_PARTY_LIVE_ARTIFACT"
+      }
+    ]
+  },
+  "client_relationship_bank_2026_10_04": {
+    "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
+    "relationship_state": "Workshops & Training For denotes delivered workshop/training relationships. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
+    "workshops_and_training_for": [
+      {
+        "name": "Government of Dubai Media Office",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Dubai Police",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "UAE Armed Forces",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Ministry of Culture and Knowledge Development",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
+        "relationship": "institutional training-program recipient",
+        "status": "CROSS_SOURCE"
+      },
+      {
+        "name": "Ministry of Foreign Affairs — Egypt",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "American University in Dubai",
+        "relationship": "education / workshop recipient context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "New Media Academy",
+        "relationship": "education / online training context",
+        "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "ITP Media Group",
+        "relationship": "instructor via SAE → media / video production and editing training",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2017",
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Emaar Hospitality Group",
+        "relationship": "instructor via SAE → corporate media / photography / video training",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2016",
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Cartier Middle East",
+        "relationship": "corporate trainer via SAE → Adobe Photoshop / Illustrator training",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2020-06",
+        "delivery_status": "DELIVERED",
+        "delivery_mode": "online"
+      },
+      {
+        "name": "Rove Hotels",
+        "relationship": "instructor via SAE → corporate media / photography / video training context",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2016",
+        "delivery_status": "DELIVERED",
+        "boundary": "Participant-domain evidence also included other Emaar hospitality brands; this record does not promote those domains into separate contractual-client relationships."
+      },
+      {
+        "name": "Dubai Tourism",
+        "relationship": "course designer / trainer via SAE → customized Adobe media-production program",
+        "period": "2017-02/2017-03",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "program_status": "CONFIRMED / DELIVERY_CONTEXT_DIRECTLY_ESTABLISHED",
+        "boundary": "Keep separate from the independently documented Dubai Tourism / Department of Tourism and Commerce Marketing media-production relationship."
+      },
+      {
+        "name": "SAE Institute Dubai / SAE University College",
+        "relationship": "lecturer / instructor / corporate trainer / course designer → delivered workshops and training",
+        "status": "CROSS_SOURCE",
+        "period": "2016–2026",
+        "temporal_state": "HISTORICAL / RECURRING_INSTITUTIONAL_RELATIONSHIP",
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Reyada Learning & Development / Reyada Center",
+        "relationship": "lecturer / instructor / trainer via SAE → delivered multi-program institutional workshops and training",
+        "status": "CROSS_SOURCE",
+        "period": "2024–2026",
+        "programs": [
+          "Media Diploma Corporate Training",
+          "Media Graphic & Motion Design",
+          "DaVinci-related training"
+        ],
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Ministry of Interior",
+        "relationship": "trainer via SAE → delivered Infographics workshop / training",
+        "status": "USER_CONFIRMED",
+        "period": "2017-02",
+        "delivery_status": "DELIVERED",
+        "prior_relationship_record": "course-development / institutional program involvement via SAE → Infographics",
+        "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE"
+      },
+      {
+        "name": "Abu Dhabi City Municipality",
+        "relationship": "trainer → delivered workshop / institutional training",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED",
+        "prior_relationship_record": "training preparation / program context",
+        "prior_evidence_status": "EXISTING_PROJECT_RECORD"
+      },
+      {
+        "name": "Holy Quran Academy in Sharjah",
+        "relationship": "trainer → delivered DaVinci workshop / institutional training; recipient institution for 2026 DaVinci Resolve Mastery",
+        "periods": [
+          "2025-11",
+          "2026"
+        ],
+        "status": "CROSS_SOURCE",
+        "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM PARTIAL_DELIVERY",
+        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state."
+      },
+      {
+        "name": "Supreme Council for Family Affairs, Sharjah",
+        "relationship": "trainer → delivered workshop / institutional training",
+        "period": "2025",
+        "status": "USER_CONFIRMED",
+        "evidence_scope": "PARTICIPANT_SIDE",
+        "boundary": "Training delivery is user-confirmed; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.",
+        "prior_relationship_record": "participant-side institutional training context via SAE; participant from Media Office",
+        "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "delivery_status": "DELIVERED"
+      }
+    ],
+    "creative_and_brand_clients": [
+      "Mercedes-Benz",
+      "Chevrolet",
+      "Emaar Properties",
+      "Noon",
+      "GMC",
+      "Maybelline New York",
+      "NYX Professional Makeup",
+      "Estée Lauder",
+      "Sephora",
+      "Guerlain",
+      "Chopard",
+      "Bloomingdale's",
+      "Galeries Lafayette",
+      "Pepsi Arabia",
+      "Adidas",
+      "L'Azurde"
+    ],
+    "media_culture_and_production_work": [
+      "Etihad Airways",
+      "E! News",
+      "ET Bil Arabi",
+      "Department of Tourism and Commerce Marketing",
+      "Dubai Culture and Arts Authority",
+      "Louvre Abu Dhabi",
+      "Guggenheim Abu Dhabi",
+      "Meraas",
+      "Jotun",
+      "InterContinental Hotels & Resorts",
+      "Daoversal Multiverse",
+      "Twofour54",
+      "B.Games",
+      "Earn.games"
+    ],
+    "public_citation_boundary": "USER_CONFIRMED identifies user-attested delivery, not independently publicly verified evidence. VERIFIED_THIRD_PARTY_PRIVATE identifies nonpublic provenance and is not a publicly citable source. No source documents or private correspondence are included in this projection. Workshop recipients and provider relationships do not automatically imply direct employment or contractual client relationships."
+  },
+  "training_programs": [
+    {
+      "name": "DaVinci Resolve Mastery — Holy Quran Academy in Sharjah",
+      "person": "Joe Nasr",
+      "role": "Trainer",
+      "recipient": "Holy Quran Academy in Sharjah",
+      "canonical_recipient_name": "Holy Quran Academy in Sharjah",
+      "program": "DaVinci Resolve Mastery",
+      "year": 2026,
+      "delivery_status": "PARTIAL_DELIVERY",
+      "established_scope": "At least the first four sessions are independently established.",
+      "unresolved_scope": "Completion of the full eight-session program remains unresolved.",
+      "evidence_status": "USER_CONFIRMED + PARTIAL_DELIVERY",
+      "boundary": "Do not state full eight-session completion until the remaining sessions are established."
+    }
+  ],
+  "game_catalogs": [
+    {
+      "name": "Published games",
+      "page": "https://joe-nasr-signals.vercel.app/games.html",
+      "data": "https://joe-nasr-signals.vercel.app/games.json",
+      "record_count": 26,
+      "scope": "Published games and interactive projects"
+    },
+    {
+      "name": "Development archive",
+      "page": "https://joe-nasr-signals.vercel.app/games-development.html",
+      "data": "https://joe-nasr-signals.vercel.app/games-development.json",
+      "record_count": 20,
+      "scope": "Prototypes, earlier builds and development records; not additional published games"
+    }
+  ],
   "canonical_name": "Joe Nasr",
   "full_names": [
     "Joe Ribal Nasr",
@@ -9,74 +2133,75 @@
   "image": "https://avatars.githubusercontent.com/u/3828735?v=4",
   "primary_identity": "Creative Director | Digital Experiences | Interactive Prototyping",
   "technical_focus": [
-    "XR",
-    "AI",
-    "Interactive Systems"
+    "creative direction",
+    "digital experiences",
+    "interactive experiences",
+    "interactive prototyping",
+    "3D and spatial experiences",
+    "XR/VR",
+    "games and experimental interactive systems",
+    "creative technology",
+    "browser-based and technically implemented experiences"
   ],
-  "description": "Joe Ribal Nasr’s public professional record spans more than 15 years across creative direction, advertising, visual communication, multimedia, motion, 3D and production, with substantial professional history in the UAE and wider GCC. Current public work includes digital experiences, interactive prototyping, XR, games and browser-based software projects. His wider record also includes music, teaching, writing and independent project work from different periods.",
+  "description": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "location_context": [
-    "Dubai",
-    "United Arab Emirates",
-    "Lebanon",
-    "Middle East"
+    "United Arab Emirates"
   ],
   "career_context": [
     "Creative Direction",
-    "Visual Communication",
     "Education",
-    "Music and Composition"
+    "Founder"
   ],
   "profiles": {
     "linkedin": "https://www.linkedin.com/in/joenasrprofile",
     "github": "https://github.com/Joenasriani",
     "research": "https://joenasriani.github.io/joe-research-registry/",
     "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-    "games": "https://joe-nasr-signals.vercel.app/v2/games.html",
-    "games_data": "https://joe-nasr-signals.vercel.app/v2/games.json",
+    "games": "https://joe-nasr-signals.vercel.app/games.html",
+    "games_data": "https://joe-nasr-signals.vercel.app/games.json",
     "youtube": "https://www.youtube.com/@joenasr",
     "linktree": "https://linktr.ee/joenasr",
     "soundcloud": "https://soundcloud.com/joenasrmusic",
     "itch": "https://joenasr.itch.io/"
   },
   "creative_work": {
-    "games_catalog": "https://joe-nasr-signals.vercel.app/v2/games.html",
+    "games_catalog": "https://joe-nasr-signals.vercel.app/games.html",
     "relationship": "creator",
-    "topic_rule": "Each game is represented as its own VideoGame entity. Joe Nasr is linked as creator, while the game remains the primary topic.",
+    "topic_rule": "Each game remains its own VideoGame entity; Joe Nasr is linked as creator.",
     "published_games": 26,
     "public_development_records": 20
   },
   "projects": [
     {
-      "name": "Apex Innovate",
+      "name": "Apex Innovate FZE LLC",
       "type": "company",
-      "url": "https://apexinnovate.ae/",
-      "relationship": "founder"
+      "url": "https://www.apexinnovate.ae/",
+      "relationship": "founder/operator"
     },
     {
-      "name": "RoboMarket.ae",
-      "type": "robotics and physical AI platform",
+      "name": "RoboMarket",
+      "type": "venture",
       "url": "https://www.robomarket.ae/",
-      "relationship": "founder"
+      "relationship": "venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO"
     },
     {
       "name": "RoboCreate",
-      "type": "digital-to-physical manufacturing platform",
+      "type": "product_initiative",
       "url": "https://robocreate.manus.space/",
-      "relationship": "creator/founder"
+      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder"
     },
     {
-      "name": "Ideavent",
+      "name": "Event Ideatecture / Ideavent",
       "type": "event ideation and production-planning platform",
       "url": "https://ideavent.ai/",
-      "relationship": "creator/founder"
+      "relationship": "Product/creative/technical contributor; exact partnership structure documented separately"
     }
   ],
-  "disambiguation": "Joe Nasr, Joe Ribal Nasr and Joseph Ribal Nasr are names used across the linked Joenasriani GitHub account, Joe Nasr Research Registry, QuestRequestVR, Apex Innovate and RoboMarket.ae records.",
+  "disambiguation": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as search aliases only.",
   "status": "legacy_compatibility_record",
   "authoritative_record": "https://joe-nasr-signals.vercel.app/identity.json",
-  "retrieval_rule": "Use the authoritative root identity record for current identity, chronology, relationships and retrieval decisions. This v2 record is retained only for legacy compatibility and must not override newer root data.",
+  "retrieval_rule": "Use the authoritative root identity record for current identity. Flat legacy fields are synchronized projections of current public records.",
   "publication_name": "J. Nasr",
-  "publication_name_scope": "Used for publications explicitly attributed to J. Nasr on Joe Nasr’s Reasoning and Logic publication surface; not a general identity-merging rule.",
-  "research_scope_note": "Research-named links in this legacy record refer to independently published project/research registry surfaces and do not imply an academic affiliation or peer-reviewed status.",
-  "updated_on": "2026-09-26"
+  "publication_name_scope": "Publications listed by Reasoning and Logic; initials alone are not sufficient to identify other authors.",
+  "research_scope_note": "Independent project/research registry links do not imply academic affiliation or peer-reviewed status."
 }

@@ -4,7 +4,7 @@
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 5,
-  "project_count": 11,
+  "project_count": 13,
   "projects": [
     {
       "id": "SYN-0272",
@@ -16,7 +16,7 @@
       "period": "Current/recent",
       "joe_role": "Experimental system designer",
       "deliverable": "Human-signal/HCI experiment with explicit evidence limitations.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/facial-gesture-interpretation-engine"
       ],
@@ -71,7 +71,7 @@
       "period": "Current/recent",
       "joe_role": "Research registry / documentation layer",
       "deliverable": "Registry distinguishing implemented, proposed, tested, inferred and future work.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/joe-research-registry"
       ],
@@ -96,9 +96,9 @@
       "period": "Current/recent",
       "joe_role": "Author / framework writer",
       "deliverable": null,
-      "evidence_summary": "Public repository/source record.",
+      "evidence_summary": "First-party public study edition attributed to J. Nasr, linked to Joe Nasr.",
       "public_urls": [
-        "https://github.com/Joenasriani/structure-of-life-book"
+        "https://the-structure-of-life.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -263,10 +263,9 @@
       "period": "Current/recent",
       "joe_role": "Author / framework writer",
       "deliverable": "Public study edition by J. Nasr.",
-      "evidence_summary": "Public publication website and GitHub source repository.",
+      "evidence_summary": "First-party public publication website attributed to J. Nasr.",
       "public_urls": [
-        "https://manipulation-book-theta.vercel.app/",
-        "https://github.com/Joenasriani/manipulation-book"
+        "https://manipulation-book-theta.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -294,10 +293,9 @@
       "period": "Current/recent",
       "joe_role": "Author / research framework creator",
       "deliverable": "Public research record and Reference Edition by J. Nasr.",
-      "evidence_summary": "Public product page and GitHub source repository.",
+      "evidence_summary": "First-party public Reference Edition attributed to J. Nasr; a proposed framework, not proof of empirical validation.",
       "public_urls": [
-        "https://reasoning-and-logic.vercel.app/icf-ai",
-        "https://github.com/Joenasriani/icf-ai"
+        "https://icf-ai.vercel.app/icf-ai"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -350,6 +348,73 @@
         "method": "REPOSITORY_DOCUMENTATION",
         "url": "https://github.com/Joenasriani/cybertruck-madness/blob/main/Readme.md"
       }
+    },
+    {
+      "id": "SYN-PUB-20261012-001",
+      "name": "Mamdani: From Zero to Hero",
+      "aliases": [
+        "Mamdani: From Zero to Hero — Through the Eyes of a Doomscroller"
+      ],
+      "organization": "Reasoning and Logic",
+      "client": null,
+      "production_or_agency": null,
+      "period": "2026",
+      "joe_role": "Author (credited as J. Nasr)",
+      "deliverable": "Digital book, Digital edition · 2026",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Public URL response and external citation eligibility were not independently rechecked in this pass.",
+      "public_urls": [
+        "https://mamdani-from-zero-to-hero.vercel.app/",
+        "https://reasoning-and-logic.vercel.app/"
+      ],
+      "boundaries": [
+        "First-party book attribution is not independent editorial validation or an endorsement of claims about the book's subject.",
+        "Recheck live URL, response and independent search retrieval after release."
+      ],
+      "retrieval_tags": [
+        "publication",
+        "book",
+        "Mamdani",
+        "From Zero to Hero",
+        "J. Nasr"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
+    },
+    {
+      "id": "SYN-PUB-20261012-002",
+      "name": "Taxonomies and Classification Systems",
+      "aliases": [
+        "Taxonomies and Classification Systems: A Technical Field Guide"
+      ],
+      "organization": "Reasoning and Logic",
+      "client": null,
+      "production_or_agency": null,
+      "period": "2026",
+      "joe_role": "Author (credited as J. Nasr)",
+      "deliverable": "Technical field guide, Technical Field Guide and AI Practical Edition v1.1.1 · 2026",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review; public URL response and external indexing were not independently rechecked.",
+      "public_urls": [
+        "https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems",
+        "https://reasoning-and-logic.vercel.app/"
+      ],
+      "boundaries": [
+        "Published in catalogue does not mean available for sale. It remains under sales review, and attribution does not establish independent academic validation.",
+        "Recheck live URL, response and independent search retrieval after release."
+      ],
+      "retrieval_tags": [
+        "publication",
+        "book",
+        "taxonomy",
+        "classification systems",
+        "field guide",
+        "J. Nasr"
+      ],
+      "update_note": null,
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     }
   ]
 }

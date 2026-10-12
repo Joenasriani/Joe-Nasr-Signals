@@ -36,7 +36,7 @@ These are platform modes, not separate personas. Categories describe the work; m
 - **Professional mode** - LinkedIn, Facebook main, about.me
 - **Maker mode** - GitHub, itch.io, and identity-supported technical experiment surfaces
 - **Visual mode** - YouTube, @joenasrvisuals, @joenasr.mp4, Flickr
-- **Music mode** - SoundCloud, ReverbNation, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other supported music/catalogue surfaces
+- **Music mode** - SoundCloud, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other available music/catalogue surfaces. Unavailable historical profiles remain archived separately.
 - **Evidence mode** - Joe Nasr Signals
 
 A surface may support adjacent modes. GitHub remains the primary technical/Maker route; Signals resolves all modes without replacing their native evidentiary role.
@@ -50,7 +50,7 @@ Signals uses a query-aware routing model for Joe Nasr's public graph. The detail
 - **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. It does **not** mean weak, irrelevant, deprecated or hidden.
 - **Pending verification** surfaces are recorded but are not promoted until their public visibility or identity relationship is rechecked.
 
-Topic relevance can override age. A historical specialist page may be a strong live retrieval source for the query it directly answers. For example, ReverbNation is historical in time but remains relevant to searches for Joe Nasr's guitar, music and composition work.
+Topic relevance can override age when the source is accessible. ReverbNation is preserved as historical guitar/composition evidence, but the recorded URL returned HTTP 404 on 12 October 2026 and is excluded from active retrieval until its availability is reverified.
 
 The graph is guidance for identity resolution and retrieval, not a claim that external search engines or AI systems will crawl or rank the URLs in a fixed sequence.
 
@@ -93,7 +93,7 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 - **Reasoning and Logic**: https://reasoning-and-logic.vercel.app/
 - Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.
 - Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; it is not a rule for merging unrelated authors with the same initials.
-- The live catalogue includes *Manipulation: The Fool and the Wise*, *The Structure of Life: The Structure of Reasoning*, and *ICF-AI*, a provisional framework for AI systems.
+- The bookstore source catalogue lists five publications: *Mamdani: From Zero to Hero* (sales open), *Taxonomies and Classification Systems* (published, sales review), *The Structure of Life: The Structure of Reasoning*, *ICF-AI* (research reference framework), and *Manipulation: The Fool and the Wise*. Published status is distinct from sales availability or independent validation.
 
 This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
 
@@ -136,7 +136,7 @@ These pages preserve earlier professional, teaching, music, media and platform r
 - Stage 32 - Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
 - Stage 32 - Joe Ribal Nasr, music/sound archive: https://www.stage32.com/profile/365666
 - Clarity - historical music/sound profile: https://clarity.fm/joenasr
-- ReverbNation - historical guitar/music profile: https://www.reverbnation.com/joenasr
+- ReverbNation - historical guitar/music profile (returned HTTP 404 on 12 October 2026; retain for chronology, not as an active destination): https://www.reverbnation.com/joenasr
 - AudioSparx - historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
 - Flickr - Joe Nasr / `joenasriani` historical alias reference: https://www.flickr.com/photos/27243981@N04/
 - Mixcloud - Joe Nasr / `joenasrprofile`: https://www.mixcloud.com/joenasrprofile/
@@ -152,7 +152,7 @@ The following verified names and handles resolve to the same Joe Nasr identity w
 - Joe Ribal Nasr - public name variant
 Handles are platform-specific; no single username is treated as the universal or primary cross-platform handle.
 
-Verified public handles include:
+Documented public handles include:
 - Joenasriani
 - joenasr
 - joenasrprofile
@@ -183,4 +183,29 @@ https://joe-nasr-signals.vercel.app/
 
 ## Public data
 
-`identity.json` holds the verified LinkedIn roles, dates, relationships and teaching sources. The homepage FAQ schema is derived from its visible answers.
+`identity.json` records LinkedIn-listed roles and dates alongside separately classified teaching and project evidence. Confirming what LinkedIn displays does not independently prove each underlying engagement. The homepage FAQ schema is derived from its visible answers.
+
+## Canonical games routes
+
+- Published games: https://joe-nasr-signals.vercel.app/games.html
+- Development archive: https://joe-nasr-signals.vercel.app/games-development.html
+- Published games data: https://joe-nasr-signals.vercel.app/games.json
+- Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
+
+Vercel redirects the corresponding old `/v2/` paths to these root routes. On GitHub Pages, the old HTML files redirect with JavaScript, preserving query strings and fragments. Without JavaScript, the page offers a manual link and instructions for keeping those suffixes; static hosting cannot transfer them automatically. Catalog JSON and image files are exact compatibility copies. The old identity JSON includes the current canonical record plus synchronized flat legacy fields, preserving their field types and using current supported relationships.
+
+After editing a canonical root catalog, identity record or preview asset, run `python scripts/sync_v2_compatibility.py`. CI checks that the compatibility files remain synchronized. The root Person identifier and individual game identifiers are unchanged.
+
+Validation compares the complete published HTML schema with its JSON catalog, checks visible names and source links, executes legacy redirects against query/fragment cases, and checks the legacy identity field contract. Run `python scripts/validate_v2_migration.py` and `python -m unittest discover -s tests -v` before release. Node.js is used only to test the browser redirect scripts.
+
+The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and all ten Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
+
+## Direct discovery and public evidence
+
+The homepage links directly to the root games and development catalogs. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
+
+The project index and detail shards share names, aliases, evidence classes and retrieval states. Public application or publication pages do not imply public source-code availability. Historical unavailable links retain their attribution but are excluded from active retrieval routes.
+
+`python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
+
+Source validation does not establish deployment, indexing, search ranking or AI citation. Public verification is a separate release step.

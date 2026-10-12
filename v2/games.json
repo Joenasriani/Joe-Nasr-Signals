@@ -3,13 +3,13 @@
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://joe-nasr-signals.vercel.app/v2/games.html#page",
-      "url": "https://joe-nasr-signals.vercel.app/v2/games.html",
+      "@id": "https://joe-nasr-signals.vercel.app/games.html#page",
+      "url": "https://joe-nasr-signals.vercel.app/games.html",
       "name": "Games by Joe Nasr",
       "description": "Canonical catalog of original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr, organized around gameplay mechanics, genre, platform and official play pages.",
-      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.png",
+      "image": "https://joe-nasr-signals.vercel.app/games-preview.png",
       "mainEntity": {
-        "@id": "https://joe-nasr-signals.vercel.app/v2/games.html#games"
+        "@id": "https://joe-nasr-signals.vercel.app/games.html#games"
       },
       "about": {
         "@type": "Thing",
@@ -22,7 +22,7 @@
         "@id": "https://joe-nasr-signals.vercel.app/#website"
       },
       "inLanguage": "en",
-      "dateModified": "2026-09-16"
+      "dateModified": "2026-10-12"
     },
     {
       "@type": "Person",
@@ -42,10 +42,10 @@
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "@id": "https://joe-nasr-signals.vercel.app/v2/games.html#games",
+      "@id": "https://joe-nasr-signals.vercel.app/games.html#games",
       "name": "Games by Joe Nasr",
       "description": "Original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr.",
-      "url": "https://joe-nasr-signals.vercel.app/v2/games.html",
+      "url": "https://joe-nasr-signals.vercel.app/games.html",
       "numberOfItems": 26,
       "itemListOrder": "https://schema.org/ItemListUnordered",
       "itemListElement": [
@@ -87,7 +87,7 @@
           "item": {
             "@type": "VideoGame",
             "@id": "https://joenasr.itch.io/diorama#game",
-            "name": "DIORAMA",
+            "name": "Diorama",
             "url": "https://joenasr.itch.io/diorama",
             "description": "3D browser mechanical puzzle game built around compact isometric structures, route logic, switches, bridges, lifts and spatial planning.",
             "genre": "Puzzle",
@@ -805,7 +805,7 @@
           }
         }
       ],
-      "image": "https://joe-nasr-signals.vercel.app/v2/games-preview.png"
+      "image": "https://joe-nasr-signals.vercel.app/games-preview.png"
     }
   ]
 }
