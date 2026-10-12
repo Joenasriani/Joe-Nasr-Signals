@@ -9,6 +9,8 @@ on:
       - "llms.txt"
       - "projects.json"
       - "data/**"
+      - "games/itchio/**"
+      - "robots.txt"
       - "games.html"
       - "games.json"
       - "games-development.html"
@@ -55,13 +57,22 @@ jobs:
 
           while IFS= read -r file; do
             case "$file" in
-              index.html|identity.json|llms.txt|projects.json|data/*|sitemap.xml)
+              index.html|sitemap.xml|robots.txt)
                 add_url "https://joe-nasr-signals.vercel.app/"
                 ;;
+              identity.json|llms.txt|projects.json|data/*)
+                add_url "https://joe-nasr-signals.vercel.app/$file"
+                add_url "https://joe-nasr-signals.vercel.app/"
+                ;;
+              games/itchio/*)
+                add_url "https://joe-nasr-signals.vercel.app/games.html"
+                ;;
               games.html|games.json|games-preview.png|games-preview.svg)
+                add_url "https://joe-nasr-signals.vercel.app/games.json"
                 add_url "https://joe-nasr-signals.vercel.app/games.html"
                 ;;
               games-development.html|games-development.json|games-development-preview.png|games-development-preview.svg)
+                add_url "https://joe-nasr-signals.vercel.app/games-development.json"
                 add_url "https://joe-nasr-signals.vercel.app/games-development.html"
                 ;;
               pre-institutional-human-order.html)

@@ -10,7 +10,7 @@ from urllib.request import build_opener, HTTPRedirectHandler, Request
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://joe-nasr-signals.vercel.app"
-PUBLIC_FILES = ["index.html", "identity.json", "projects.json", "llms.txt", "sitemap.xml",
+PUBLIC_FILES = ["index.html", "identity.json", "projects.json", "llms.txt", "sitemap.xml", "robots.txt", "games/itchio/index.html", "games/itchio/catalog.json",
                 "games.html", "games.json", "games-development.html", "games-development.json",
                 "games-preview.png", "games-preview.svg", "games-development-preview.png",
                 "games-development-preview.svg", "pre-institutional-human-order.html",

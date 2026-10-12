@@ -16,7 +16,7 @@
       "period": "Current/recent",
       "joe_role": "Experimental system designer",
       "deliverable": "Human-signal/HCI experiment with explicit evidence limitations.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/facial-gesture-interpretation-engine"
       ],
@@ -71,7 +71,7 @@
       "period": "Current/recent",
       "joe_role": "Research registry / documentation layer",
       "deliverable": "Registry distinguishing implemented, proposed, tested, inferred and future work.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/joe-research-registry"
       ],
@@ -96,9 +96,9 @@
       "period": "Current/recent",
       "joe_role": "Author / framework writer",
       "deliverable": null,
-      "evidence_summary": "Public repository/source record.",
+      "evidence_summary": "First-party public study edition attributed to J. Nasr, linked to Joe Nasr.",
       "public_urls": [
-        "https://github.com/Joenasriani/structure-of-life-book"
+        "https://the-structure-of-life.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -263,10 +263,9 @@
       "period": "Current/recent",
       "joe_role": "Author / framework writer",
       "deliverable": "Public study edition by J. Nasr.",
-      "evidence_summary": "Public publication website and GitHub source repository.",
+      "evidence_summary": "First-party public publication website attributed to J. Nasr.",
       "public_urls": [
-        "https://manipulation-book-theta.vercel.app/",
-        "https://github.com/Joenasriani/manipulation-book"
+        "https://manipulation-book-theta.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -294,10 +293,9 @@
       "period": "Current/recent",
       "joe_role": "Author / research framework creator",
       "deliverable": "Public research record and Reference Edition by J. Nasr.",
-      "evidence_summary": "Public product page and GitHub source repository.",
+      "evidence_summary": "First-party public Reference Edition attributed to J. Nasr; a proposed framework, not proof of empirical validation.",
       "public_urls": [
-        "https://reasoning-and-logic.vercel.app/icf-ai",
-        "https://github.com/Joenasriani/icf-ai"
+        "https://icf-ai.vercel.app/icf-ai"
       ],
       "boundaries": [],
       "retrieval_tags": [

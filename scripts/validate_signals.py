@@ -87,7 +87,8 @@ for route_name, route in identity.get("query_routes", {}).items():
 
 reverbnation = next(surface for surface in registry if surface["id"] == "reverbnation")
 assert reverbnation["temporal_state"] == "HISTORICAL"
-assert reverbnation["retrieval_state"] == "ACTIVE_QUERY_SPECIFIC"
+assert reverbnation["retrieval_state"] == "UNRESOLVED"
+assert reverbnation["availability"]["http_status"] == 404
 assert reverbnation["query_relevance"].get("Joe Nasr guitar") == "HIGH"
 
 ids = re.findall(r'\bid="([^"]+)"', html)

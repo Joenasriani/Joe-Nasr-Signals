@@ -1,8 +1,7 @@
 {
   "schema_version": "1.1",
   "snapshot_date": "2026-09-22",
-  "state": "WORKING_NATIVE_PLATFORM_AUDIT_NOT_FINAL_SIGNALS_REPERTOIRE",
-  "rule": "This file records the current itch.io-native title, short description and live itch.io tags. Correct the native itch.io project first; only then promote the corrected values into the final Signals repertoire. Do not use this working snapshot to alter the locked main Joe Nasr identity structure.",
+  "state": "HISTORICAL_NATIVE_PLATFORM_SNAPSHOT",
   "platform": "itch.io",
   "platform_profile": "https://joenasr.itch.io/",
   "count": 27,
@@ -11,8 +10,7 @@
     "title",
     "description",
     "tags",
-    "url",
-    "audit_state"
+    "url"
   ],
   "items": [
     {
@@ -27,8 +25,7 @@
         "Minimalist",
         "Puzzle-Platformer"
       ],
-      "url": "https://joenasr.itch.io/pathway",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/pathway"
     },
     {
       "id": "ITCH-002",
@@ -45,8 +42,7 @@
         "one-button",
         "threejs"
       ],
-      "url": "https://joenasr.itch.io/diorama",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/diorama"
     },
     {
       "id": "ITCH-003",
@@ -61,8 +57,7 @@
         "jumping",
         "kids"
       ],
-      "url": "https://joenasr.itch.io/happy-collector",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/happy-collector"
     },
     {
       "id": "ITCH-004",
@@ -79,8 +74,7 @@
         "Space",
         "space-shooter"
       ],
-      "url": "https://joenasr.itch.io/cosmic-velocity",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/cosmic-velocity"
     },
     {
       "id": "ITCH-005",
@@ -97,8 +91,7 @@
         "mobile",
         "one-finger"
       ],
-      "url": "https://joenasr.itch.io/cheese-maze-mouse",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/cheese-maze-mouse"
     },
     {
       "id": "ITCH-006",
@@ -113,8 +106,7 @@
         "Robots",
         "Scratch"
       ],
-      "url": "https://joenasr.itch.io/robosim",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/robosim"
     },
     {
       "id": "ITCH-007",
@@ -133,8 +125,7 @@
         "Virtual Reality (VR)",
         "xr"
       ],
-      "url": "https://joenasr.itch.io/brickxr",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/brickxr"
     },
     {
       "id": "ITCH-008",
@@ -152,8 +143,7 @@
         "Tetris",
         "Virtual Reality (VR)"
       ],
-      "url": "https://joenasr.itch.io/artetris",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/artetris"
     },
     {
       "id": "ITCH-009",
@@ -171,8 +161,7 @@
         "mobile",
         "one-button"
       ],
-      "url": "https://joenasr.itch.io/cheese-heist",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/cheese-heist"
     },
     {
       "id": "ITCH-010",
@@ -185,8 +174,7 @@
         "Singleplayer",
         "stickman"
       ],
-      "url": "https://joenasr.itch.io/in-a-stickmans-world",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/in-a-stickmans-world"
     },
     {
       "id": "ITCH-011",
@@ -202,8 +190,7 @@
         "Singleplayer",
         "tracking"
       ],
-      "url": "https://joenasr.itch.io/hand-drone-xs",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/hand-drone-xs"
     },
     {
       "id": "ITCH-012",
@@ -217,8 +204,7 @@
         "Minimalist",
         "Touch-Friendly"
       ],
-      "url": "https://joenasr.itch.io/sorting-balls-3d",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/sorting-balls-3d"
     },
     {
       "id": "ITCH-013",
@@ -235,8 +221,7 @@
         "link",
         "mobile"
       ],
-      "url": "https://joenasr.itch.io/routing-protocol",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/routing-protocol"
     },
     {
       "id": "ITCH-014",
@@ -251,8 +236,7 @@
         "now-you-know",
         "Sound effects"
       ],
-      "url": "https://joenasr.itch.io/gibberlink-academy",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/gibberlink-academy"
     },
     {
       "id": "ITCH-015",
@@ -260,8 +244,7 @@
       "title": "Coloring Book For Kids",
       "description": "A cute and simple coloring book for kids.",
       "tags": [],
-      "url": "https://joenasr.itch.io/coloring-book",
-      "audit_state": "current_native_snapshot_tags_unrecovered"
+      "url": "https://joenasr.itch.io/coloring-book"
     },
     {
       "id": "ITCH-016",
@@ -279,8 +262,7 @@
         "sliding",
         "webgames"
       ],
-      "url": "https://joenasr.itch.io/klotski",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/klotski"
     },
     {
       "id": "ITCH-017",
@@ -295,8 +277,7 @@
         "merge",
         "Minimalist"
       ],
-      "url": "https://joenasr.itch.io/mario-merge",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/mario-merge"
     },
     {
       "id": "ITCH-018",
@@ -312,8 +293,7 @@
         "jumping",
         "minigames"
       ],
-      "url": "https://joenasr.itch.io/bounce",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/bounce"
     },
     {
       "id": "ITCH-019",
@@ -326,8 +306,7 @@
         "threejs",
         "webgl"
       ],
-      "url": "https://joenasr.itch.io/ball-sort-3d",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/ball-sort-3d"
     },
     {
       "id": "ITCH-020",
@@ -341,8 +320,7 @@
         "slide",
         "slider"
       ],
-      "url": "https://joenasr.itch.io/sector-glow",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/sector-glow"
     },
     {
       "id": "ITCH-021",
@@ -357,8 +335,7 @@
         "Relaxing",
         "Singleplayer"
       ],
-      "url": "https://joenasr.itch.io/ascension",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/ascension"
     },
     {
       "id": "ITCH-022",
@@ -375,8 +352,7 @@
         "reflect",
         "zen"
       ],
-      "url": "https://joenasr.itch.io/paradigm-shift",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/paradigm-shift"
     },
     {
       "id": "ITCH-023",
@@ -393,8 +369,7 @@
         "pathfinder",
         "Snake"
       ],
-      "url": "https://joenasr.itch.io/zip-it",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/zip-it"
     },
     {
       "id": "ITCH-024",
@@ -408,8 +383,7 @@
         "quantum",
         "Tactical"
       ],
-      "url": "https://joenasr.itch.io/quantum-entanglement",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/quantum-entanglement"
     },
     {
       "id": "ITCH-025",
@@ -427,8 +401,7 @@
         "race",
         "Retro"
       ],
-      "url": "https://joenasr.itch.io/cybertruck-madness",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/cybertruck-madness"
     },
     {
       "id": "ITCH-026",
@@ -441,8 +414,7 @@
         "tic-tac-toe",
         "tiktok"
       ],
-      "url": "https://joenasr.itch.io/tic-tac-toe-reimagined",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/tic-tac-toe-reimagined"
     },
     {
       "id": "ITCH-027",
@@ -457,8 +429,9 @@
         "one-button",
         "Retro"
       ],
-      "url": "https://joenasr.itch.io/jumpy-jumperson",
-      "audit_state": "current_native_snapshot_pending_fix"
+      "url": "https://joenasr.itch.io/jumpy-jumperson"
     }
-  ]
+  ],
+  "scope_note": "27 native itch.io listings observed on 22 September 2026. Original titles, descriptions and tags are preserved as a historical platform snapshot. The canonical published-games catalog contains 26 games; separate native listings do not necessarily represent separate games.",
+  "canonical_catalog": "https://joe-nasr-signals.vercel.app/games.json"
 }

@@ -152,7 +152,7 @@ The following verified names and handles resolve to the same Joe Nasr identity w
 - Joe Ribal Nasr - public name variant
 Handles are platform-specific; no single username is treated as the universal or primary cross-platform handle.
 
-Verified public handles include:
+Documented public handles include:
 - Joenasriani
 - joenasr
 - joenasrprofile
@@ -199,3 +199,13 @@ After editing a canonical root catalog, identity record or preview asset, run `p
 Validation compares the complete published HTML schema with its JSON catalog, checks visible names and source links, executes legacy redirects against query/fragment cases, and checks the legacy identity field contract. Run `python scripts/validate_v2_migration.py` and `python -m unittest discover -s tests -v` before release. Node.js is used only to test the browser redirect scripts.
 
 The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and all ten Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
+
+## Direct discovery and public evidence
+
+The homepage links directly to the root games and development catalogs. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
+
+The project index and detail shards share names, aliases, evidence classes and retrieval states. Public application or publication pages do not imply public source-code availability. Historical unavailable links retain their attribution but are excluded from active retrieval routes.
+
+`python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
+
+Source validation does not establish deployment, indexing, search ranking or AI citation. Public verification is a separate release step.

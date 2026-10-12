@@ -70,12 +70,12 @@
       "period": "2026 active development context",
       "joe_role": "Product/creative/technical contributor; exact partnership structure documented separately",
       "deliverable": "Event ideation / event-architecture SaaS project.",
-      "evidence_summary": "Vercel notification identifies a Joenasriani commit to event-ideatecture under the RoboMarket team. Existing partnership/project source records define the Ideavent collaboration.",
+      "evidence_summary": "Documented contribution to the event ideation and event-architecture project. The public product site provides project context, not independent proof of Joe Nasr’s role or partnership structure.",
       "public_urls": [
         "https://ideavent.ai/"
       ],
       "boundaries": [
-        "Do not infer successful deployment from the blocked-deployment notification."
+        "The contribution does not establish ownership, founder status, partnership terms or completed delivery."
       ],
       "retrieval_tags": [
         "Event Ideatecture",
@@ -84,8 +84,8 @@
         "product"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
     {
@@ -101,10 +101,9 @@
       "period": "Current 2026",
       "joe_role": "System/product designer and builder",
       "deliverable": "React/TypeScript/Vite visual reasoning framework with nodes, semantic roles, provenance, executable operations, local-first storage and graph interaction.",
-      "evidence_summary": "Public GitHub/source documentation. Vercel independently identified Joenasriani/visual-framework-system-app for import/deployment.",
+      "evidence_summary": "The public Visual Framework application provides project context. The detailed implementation and builder role are documented in the project record.",
       "public_urls": [
-        "https://github.com/Joenasriani/visual-framework-system-app",
-        "https://visual-framework-app.vercel.app/"
+        "https://visual-framework-system.vercel.app/"
       ],
       "boundaries": [],
       "retrieval_tags": [
@@ -115,8 +114,8 @@
         "current"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
+      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
     {
@@ -129,10 +128,8 @@
       "period": "Current/recent",
       "joe_role": "Builder / experiment designer",
       "deliverable": "Executable multi-perspective reasoning experiment with multiple disciplinary lenses and synthesis.",
-      "evidence_summary": "Repository audit documents working prototype, OpenRouter integration, export and testing.",
-      "public_urls": [
-        "https://github.com/Joenasriani/roundtable_ai"
-      ],
+      "evidence_summary": "Documented multi-perspective reasoning prototype. No supporting public source is listed.",
+      "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
         "AI",
@@ -140,9 +137,9 @@
         "prototype"
       ],
       "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED",
-      "evidence_class": "PUBLIC",
-      "public_source_available": true
+      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_source_available": false
     },
     {
       "id": "SYN-0271",
@@ -154,7 +151,7 @@
       "period": "Current/recent",
       "joe_role": "Builder / system designer",
       "deliverable": "Local structured-reasoning application with source contracts, tests and constrained model roles.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/eureka-v3"
       ],
@@ -182,7 +179,7 @@
       "period": "Current/recent",
       "joe_role": "Research/system design",
       "deliverable": "XR/spatial research project with explicit distinction between proposed and reproducibly implemented work.",
-      "evidence_summary": "Repository audit.",
+      "evidence_summary": "Project implementation documented in the source record.",
       "public_urls": [
         "https://github.com/Joenasriani/quest-xsa"
       ],
@@ -207,7 +204,7 @@
       "period": "Current/recent",
       "joe_role": "Game/interaction designer and builder",
       "deliverable": "Interactive/game project with documented lineage across base, optimized and packaging repositories.",
-      "evidence_summary": "Repository audit and explicit lineage documentation.",
+      "evidence_summary": "Project implementation and lineage documented in the source record.",
       "public_urls": [
         "https://joenasr.itch.io/ascension"
       ],

@@ -9,12 +9,16 @@ Also appears as: Joe Ribal Nasr
 Arabic full-name form: جوزف رئبال نصر
 Arabic search aliases: جوزف نصر · جو نصر
 Handle rule: handles are platform-specific; no single username is a universal handle across all services.
-Verified public handles include: joenasr, Joenasriani, joenasrprofile, joenasrmusic, joenasrvisuals, joenasr.mp4
+Documented public handles include: joenasr, Joenasriani, joenasrprofile, joenasrmusic, joenasrvisuals, joenasr.mp4
 Nationality: Lebanese
 Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
+Published games (26): https://joe-nasr-signals.vercel.app/games.html
+Published games data: https://joe-nasr-signals.vercel.app/games.json
+Development archive (20 development records): https://joe-nasr-signals.vercel.app/games-development.html
+Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
 ## Evidence-graph role
 
@@ -164,7 +168,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 
 ## Selected historical work and training
 
-- 2016 - Joe Nasr worked as an editor for Navigation Films on the E! Beyond The Red Carpet production covering the 13th Dubai International Film Festival.
+- 2016 - Joe Nasr’s project record documents an editor role for Navigation Films on E! Beyond The Red Carpet / 13th Dubai International Film Festival. Public Navigation Films sources establish production context; they do not independently name Joe on this production.
 - June 2020 - Joe Nasr delivered virtual training in Adobe Photoshop and Illustrator for a Cartier corporate cohort through SAE.
 - SAE UAE publicly acknowledged Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma delivered in collaboration with HHEO and Reyada Centre: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
@@ -250,7 +254,7 @@ Canonical identity names:
 
 Handle rule: usernames are platform-specific identifiers. No single username is treated as Joe Nasr’s universal or primary cross-platform handle.
 
-Verified public identifiers and routes:
+Documented public identifiers and routes:
 - Joenasriani → GitHub: https://github.com/Joenasriani
 - joenasr → YouTube: https://www.youtube.com/@joenasr
 - joenasr → itch.io: https://joenasr.itch.io/
@@ -292,3 +296,9 @@ Media music composition evidence: Joe Nasr reports composing the Khalifa Award e
 - Cover recordings document the credited performance or production contribution. Original songwriting requires a separate credit.
 - LegoCraft is the source project linked to Brick XR Builder. Its documented features include brick editing, local persistence, JSON project save/import and GLB export. WebXR remains experimental; real Meta Quest hardware testing is not complete. Source: https://github.com/Joenasriani/legocraft
 - Cybertruck Madness '98 is an experimental Three.js driving game. The repository documents procedural terrain, driving and collection mechanics, keyboard and touch controls, and background music credited to ShallowWaters. Source: https://github.com/Joenasriani/cybertruck-madness
+
+## Public source availability
+
+ReverbNation remains part of Joe Nasr’s historical music record, but its listed profile returned 404 on 12 October 2026. Use the available music routes in identity.json for current retrieval. Historical attribution and topic relevance do not establish present URL availability.
+
+Roundtable AI is a documented project with no supporting public artifact currently listed. Public book pages and the Visual Framework application are linked directly; access to their implementation repositories is not implied.
