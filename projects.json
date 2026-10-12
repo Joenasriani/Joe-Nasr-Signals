@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-10-06",
+  "snapshot_date": "2026-10-12",
   "record_type": "joe_nasr_public_project_evidence_registry",
   "canonical_person": {
     "name": "Joe Nasr",
@@ -416,18 +416,6 @@
       "public_source_available": true
     },
     {
-      "id": "SYN-0258",
-      "name": "Carely Us",
-      "aliases": [
-        "Carely Us",
-        "Carelyus"
-      ],
-      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
-      "public_source_available": true
-    },
-    {
       "id": "SYN-0252",
       "name": "The Structure of Life",
       "aliases": [],
@@ -532,6 +520,15 @@
       "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
+    },
+    {
+      "id": "PUBLIC-CYBERTRUCK-001",
+      "name": "Cybertruck Madness '98",
+      "aliases": [],
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true,
+      "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json"
     }
   ],
   "recovery_candidates": [

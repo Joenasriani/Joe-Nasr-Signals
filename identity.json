@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-10-07",
+  "snapshot_date": "2026-10-12",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -529,6 +529,17 @@
           "url": "https://www.tiktok.com/@joenasr.mp4"
         }
       ]
+    },
+    {
+      "identifier": "shallowwaters",
+      "kind": "platform_alias",
+      "platforms": [
+        {
+          "name": "Suno",
+          "url": "https://suno.com/@shallowwaters"
+        }
+      ],
+      "scope": "Suno account only"
     }
   ],
   "related_entities": {
@@ -613,6 +624,18 @@
         "url": "https://www.tiktok.com/@joenasrmusic",
         "scope": "music and guitar",
         "relationship": "Joe Nasr public platform profile"
+      },
+      {
+        "platform": "Spotify",
+        "url": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+        "scope": "music catalogue",
+        "relationship": "Joe Nasr public platform profile"
+      },
+      {
+        "platform": "Suno",
+        "url": "https://suno.com/@shallowwaters",
+        "scope": "AI music under ShallowWaters",
+        "relationship": "Joe Nasr public platform profile"
       }
     ],
     "Video": [
@@ -644,7 +667,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-09-30",
+  "updated_on": "2026-10-12",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -968,8 +991,8 @@
         "guitar",
         "audio"
       ],
-      "temporal_state": "HISTORICAL",
-      "nervous_system_priority": "HISTORICAL_SUPPORT",
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
       "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
@@ -1144,6 +1167,16 @@
         "Joe Nasr music": "HIGH",
         "Joe Nasr guitar": "MEDIUM",
         "Joe Nasr Anghami": "HIGH"
+      },
+      "indexed_titles": [
+        "Dernière Danse (cover)",
+        "Ossetna Bhal Moujtama3 (cover)",
+        "College Days"
+      ],
+      "source_observation": {
+        "date": "2026-10-12",
+        "method": "SEARCH_INDEX",
+        "url": "https://play.anghami.com/artist/12198154"
       }
     },
     {
@@ -1470,6 +1503,50 @@
         "Joe Nasr XR": "HIGH",
         "Quest ReQuest VR": "HIGH"
       }
+    },
+    {
+      "id": "spotify",
+      "name": "Joe Nasr on Spotify",
+      "platform": "Spotify",
+      "url": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music catalogue",
+        "recordings"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr Spotify": "HIGH"
+      }
+    },
+    {
+      "id": "suno_shallowwaters",
+      "name": "ShallowWaters on Suno",
+      "platform": "Suno",
+      "handle": "shallowwaters",
+      "url": "https://suno.com/@shallowwaters",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "AI music",
+        "ShallowWaters"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "PROFILE",
+      "query_relevance": {
+        "Joe Nasr Suno": "HIGH",
+        "ShallowWaters Suno": "HIGH"
+      },
+      "identity_scope": "Joe Nasr uses ShallowWaters on this Suno account. The name alone does not identify accounts or releases on other platforms."
     }
   ],
   "query_routes": {
@@ -1495,10 +1572,11 @@
     "guitar_music_composer": {
       "intent": "Guitar, guitarist, music, composer, sound, audio",
       "surface_ids": [
-        "tiktok_music",
+        "spotify",
         "soundcloud",
-        "reverbnation",
         "anghami",
+        "reverbnation",
+        "tiktok_music",
         "audiosparx",
         "stage32_music",
         "bandsintown",
@@ -1593,6 +1671,13 @@
       "related_entity_ids": [
         "reasoning_and_logic"
       ]
+    },
+    "ai_music": {
+      "intent": "Joe Nasr AI music and ShallowWaters on Suno",
+      "surface_ids": [
+        "suno_shallowwaters"
+      ],
+      "scope": "This account does not establish authorship or rights for similarly named artists or individual tracks."
     }
   },
   "selected_historical_work": [
@@ -1637,8 +1722,8 @@
   ],
   "project_evidence_registry": {
     "url": "https://joe-nasr-signals.vercel.app/projects.json",
-    "snapshot_date": "2026-09-30",
-    "project_count": 47,
+    "snapshot_date": "2026-10-12",
+    "project_count": 49,
     "detail_files": [
       "https://joe-nasr-signals.vercel.app/data/projects-01.json",
       "https://joe-nasr-signals.vercel.app/data/projects-02.json",

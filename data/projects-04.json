@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-29",
+  "snapshot_date": "2026-10-12",
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 4,
@@ -234,14 +234,17 @@
       "production_or_agency": null,
       "period": "Current/recent",
       "joe_role": "XR/WebXR builder",
-      "deliverable": "React Three Fiber / Three.js / Zustand / WebXR implementation with brick manipulation and save/load.",
-      "evidence_summary": "Repository audit plus live public itch.io artifact. The public Brick XR Builder page documents a browser-based 3D/WebXR building experience by Joe Nasr, while the source repository documents the React Three Fiber / Three.js / Zustand / WebXR implementation.",
+      "deliverable": "Browser 3D brick-building sandbox with grid placement, selection, editing, local persistence, JSON project save/import and GLB export. Built with React Three Fiber, Three.js, Zustand and experimental WebXR interaction.",
+      "evidence_summary": "The LegoCraft repository documents the implementation. Brick XR Builder is the linked itch.io release. The repository documents desktop and touch interaction; real Meta Quest hardware testing is not yet complete.",
       "public_urls": [
         "https://github.com/Joenasriani/legocraft",
         "https://joenasr.itch.io/brickxr",
         "https://legocraftvr.vercel.app/"
       ],
-      "boundaries": [],
+      "boundaries": [
+        "WebXR is experimental. Real Meta Quest hardware compatibility and performance are not yet verified.",
+        "Features documented for the current repository are not a test report for every earlier Brick XR release."
+      ],
       "retrieval_tags": [
         "WebXR",
         "Three.js",
@@ -250,7 +253,12 @@
       "update_note": "2026-10-04: linked the public itch.io Brick XR Builder identity to the LegoCraft source/project lineage.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true
+      "public_source_available": true,
+      "source_observation": {
+        "date": "2026-10-12",
+        "method": "REPOSITORY_DOCUMENTATION",
+        "url": "https://github.com/Joenasriani/legocraft/blob/main/README.md"
+      }
     }
   ]
 }

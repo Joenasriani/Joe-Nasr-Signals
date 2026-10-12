@@ -234,7 +234,7 @@
             "name": "Legocraft",
             "alternateName": "Brick XR Builder",
             "url": "https://legocraftvr.vercel.app/",
-            "description": "Independent browser based 3D brick building sandbox for placing and editing digital bricks, saving builds, exporting GLB models and exploring creations through WebXR. Not affiliated with the LEGO Group.",
+            "description": "Independent browser 3D brick-building sandbox with editing, saved projects and GLB export. WebXR interaction is experimental; real Meta Quest hardware testing is not yet complete. Not affiliated with the LEGO Group.",
             "genre": [
               "Sandbox",
               "Creative building"
@@ -732,7 +732,7 @@
               "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
             },
             "sameAs": [
-              "https://github.com/Joenasriani/teslamadness"
+              "https://github.com/Joenasriani/cybertruck-madness"
             ],
             "inLanguage": "en",
             "keywords": [

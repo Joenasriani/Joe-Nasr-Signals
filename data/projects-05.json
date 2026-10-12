@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "snapshot_date": "2026-09-30",
+  "snapshot_date": "2026-10-12",
   "canonical_person": "Joe Nasr",
   "registry": "Joe Nasr Signals project evidence",
   "shard": 5,
@@ -84,33 +84,6 @@
       "update_note": null,
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true
-    },
-    {
-      "id": "SYN-0258",
-      "name": "Carely Us",
-      "aliases": [
-        "Carely Us",
-        "Carelyus"
-      ],
-      "organization": "Carely Us / Printify",
-      "client": "Carely Us customers",
-      "production_or_agency": "Printify fulfillment/platform",
-      "period": "2026",
-      "joe_role": "Merchant/store operator",
-      "deliverable": "Print-on-demand and e-commerce store operation.",
-      "evidence_summary": "Documented project record supports Joe Nasr as operator of the Carely Us store.",
-      "public_urls": [
-        "https://carelyusshop.etsy.com/"
-      ],
-      "retrieval_tags": [
-        "ecommerce",
-        "Printify",
-        "Carely Us"
-      ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
       "public_source_available": true
     },
     {
@@ -269,7 +242,13 @@
       "update_note": "Added 2026-09-29 from the known Joe Ribal Nasr Stage32 reel.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true
+      "public_source_available": true,
+      "source_observation": {
+        "date": "2026-10-12",
+        "method": "SEARCH_INDEX",
+        "url": "https://www.stage32.com/media/1064925116376293426",
+        "supported_credit": "Joe Nasr: Music Producer / Sound Mixer"
+      }
     },
     {
       "id": "SYN-0332",
@@ -334,6 +313,43 @@
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
+    },
+    {
+      "id": "PUBLIC-CYBERTRUCK-001",
+      "name": "Cybertruck Madness '98",
+      "aliases": [],
+      "organization": null,
+      "client": null,
+      "production_or_agency": null,
+      "period": "Current",
+      "joe_role": "Game development",
+      "deliverable": "Experimental Three.js browser driving game with procedural terrain, drifting, ring collection, battery management, a map and an extraction objective.",
+      "evidence_summary": "The public source repository documents keyboard and touch controls, procedural audio and background music credited to ShallowWaters.",
+      "public_urls": [
+        "https://github.com/Joenasriani/cybertruck-madness",
+        "https://github.com/Joenasriani/cybertruck-madness/blob/main/Readme.md",
+        "https://cybertruckmadness.vercel.app/",
+        "https://joenasr.itch.io/cybertruck-madness"
+      ],
+      "boundaries": [
+        "Experimental fan project without affiliation to Tesla or the creators of Motocross Madness.",
+        "The source-code license does not establish redistribution rights for bundled models or music."
+      ],
+      "retrieval_tags": [
+        "Three.js",
+        "browser game",
+        "driving",
+        "procedural terrain",
+        "touch controls"
+      ],
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true,
+      "source_observation": {
+        "date": "2026-10-12",
+        "method": "REPOSITORY_DOCUMENTATION",
+        "url": "https://github.com/Joenasriani/cybertruck-madness/blob/main/Readme.md"
+      }
     }
   ]
 }
