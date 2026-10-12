@@ -18,6 +18,20 @@ def validate(root=ROOT):
     guide = (root / 'llms.txt').read_text()
     assert html == render(html), 'Initial archive differs from interactive records'
     assert 'aria-label="Search work, role or discipline"' in html, 'Search accessible label missing'
+    assert 'editorial_notability_status' not in identity['public_evidence_update_2026_10_04'], 'Internal editorial audit status in public identity'
+    assert 'Independent-editorial status:' not in guide, 'Internal editorial audit status in machine guide'
+    assert 'ReverbNation is historical in time but remains a high-value route' not in guide, 'Unavailable historical site promoted to active route'
+    assert 'ReverbNation, @joenasrmusic' not in guide, 'Unavailable historical site promoted to active route'
+    graph_match = re.search(r'<script type="application/ld[+]json">(.*?)</script>', html, re.S)
+    assert graph_match, 'Missing homepage structured data'
+    graph = json.loads(graph_match.group(1))['@graph']
+    book_nodes = {node['url']: node for node in graph if node.get('@type') == 'Book'}
+    for title, url in (
+        ('Mamdani: From Zero to Hero', 'https://mamdani-from-zero-to-hero.vercel.app/'),
+        ('Taxonomies and Classification Systems', 'https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems')
+    ):
+        node = book_nodes.get(url)
+        assert node and title in node['name'] and node['author']['@id'] == ORIGIN + '#joe-nasr', 'Missing supported book schema: ' + title
     for path in ('games.html', 'games-development.html', 'games.json', 'games-development.json'):
         url = ORIGIN + path
         assert url in html and url in guide and url in json.dumps(identity), 'Missing direct catalog route: ' + path
