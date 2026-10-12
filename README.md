@@ -93,7 +93,7 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 - **Reasoning and Logic**: https://reasoning-and-logic.vercel.app/
 - Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.
 - Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; it is not a rule for merging unrelated authors with the same initials.
-- The live catalogue includes *Manipulation: The Fool and the Wise*, *The Structure of Life: The Structure of Reasoning*, and *ICF-AI*, a provisional framework for AI systems.
+- The bookstore source catalogue lists five publications: *Mamdani: From Zero to Hero* (sales open), *Taxonomies and Classification Systems* (published, sales review), *The Structure of Life: The Structure of Reasoning*, *ICF-AI* (research reference framework), and *Manipulation: The Fool and the Wise*. Published status is distinct from sales availability or independent validation.
 
 This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
 
