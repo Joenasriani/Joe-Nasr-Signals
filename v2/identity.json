@@ -1920,7 +1920,7 @@
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "updated_on": "2026-10-13",
-    "relationship_state": "Workshops & Training For denotes delivered workshop/training relationships. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
+    "relationship_state": "Workshops & Training For is the exhaustive current bank of named delivered training/workshop/teaching organizations in the accepted record. Aliases are merged; proposals, cancelled programs and unnamed clients are excluded. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
     "workshops_and_training_for": [
       {
         "name": "Government of Dubai Media Office",
@@ -1994,6 +1994,18 @@
         "relationship": "instructor via SAE → corporate media / photography / video training",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2016",
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Emaar Properties",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED"
+      },
+      {
+        "name": "Meraas",
+        "relationship": "workshop / training recipient context",
+        "status": "USER_CONFIRMED",
         "delivery_status": "DELIVERED"
       },
       {
@@ -2075,25 +2087,26 @@
       },
       {
         "name": "Holy Quran Academy in Sharjah",
-        "relationship": "trainer → delivered DaVinci workshop / institutional training; recipient institution for 2026 DaVinci Resolve Mastery",
+        "relationship": "trainer via SAE → delivered four-day DaVinci Resolve / video-editing workshop",
         "periods": [
           "2025-11",
           "2026"
         ],
-        "status": "CROSS_SOURCE",
-        "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM PARTIAL_DELIVERY",
-        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state."
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "delivery_status": "DELIVERED",
+        "boundary": "Holy Quran Academy is the final learner venue / recipient context for the November 2025 DaVinci Resolve workshop. Do not assign the separate 2026 DaVinci Resolve Mastery program to this institution.",
+        "period": "2025-11"
       },
       {
         "name": "Supreme Council for Family Affairs, Sharjah",
-        "relationship": "trainer → delivered workshop / institutional training",
-        "period": "2025",
-        "status": "USER_CONFIRMED",
+        "relationship": "trainer via SAE → DaVinci Resolve Mastery training",
+        "period": "2026-01/2026-02",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "evidence_scope": "PARTICIPANT_SIDE",
-        "boundary": "Training delivery is user-confirmed; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.",
+        "boundary": "The 2026 program location is Supreme Council for Family Affairs, Sharjah. At least the first four sessions are established; full eight-session completion remains unresolved.",
         "prior_relationship_record": "participant-side institutional training context via SAE; participant from Media Office",
         "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE",
-        "delivery_status": "DELIVERED"
+        "delivery_status": "PARTIAL_DELIVERY"
       }
     ],
     "creative_and_brand_clients": [
@@ -2163,86 +2176,5 @@
       "record_count": 20,
       "scope": "Prototypes, earlier builds and development records; not additional published games"
     }
-  ],
-  "canonical_name": "Joe Nasr",
-  "full_names": [
-    "Joe Ribal Nasr",
-    "Joseph Ribal Nasr"
-  ],
-  "canonical_url": "https://joe-nasr-signals.vercel.app/",
-  "canonical_person_id": "https://joe-nasr-signals.vercel.app/#joe-nasr",
-  "image": "https://avatars.githubusercontent.com/u/3828735?v=4",
-  "primary_identity": "Creative Director | Digital Experiences | Interactive Prototyping",
-  "technical_focus": [
-    "creative direction",
-    "digital experiences",
-    "interactive experiences",
-    "interactive prototyping",
-    "3D and spatial experiences",
-    "XR/VR",
-    "games and experimental interactive systems",
-    "creative technology",
-    "browser-based and technically implemented experiences"
-  ],
-  "description": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
-  "location_context": [
-    "United Arab Emirates"
-  ],
-  "career_context": [
-    "Creative Direction",
-    "Education",
-    "Founder"
-  ],
-  "profiles": {
-    "linkedin": "https://www.linkedin.com/in/joenasrprofile",
-    "github": "https://github.com/Joenasriani",
-    "research": "https://joenasriani.github.io/joe-research-registry/",
-    "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-    "games": "https://joe-nasr-signals.vercel.app/games.html",
-    "games_data": "https://joe-nasr-signals.vercel.app/games.json",
-    "youtube": "https://www.youtube.com/@joenasr",
-    "linktree": "https://linktr.ee/joenasr",
-    "soundcloud": "https://soundcloud.com/joenasrmusic",
-    "itch": "https://joenasr.itch.io/"
-  },
-  "creative_work": {
-    "games_catalog": "https://joe-nasr-signals.vercel.app/games.html",
-    "relationship": "creator",
-    "topic_rule": "Each game remains its own VideoGame entity; Joe Nasr is linked as creator.",
-    "published_games": 26,
-    "public_development_records": 20
-  },
-  "projects": [
-    {
-      "name": "Apex Innovate FZE LLC",
-      "type": "company",
-      "url": "https://www.apexinnovate.ae/",
-      "relationship": "founder/operator"
-    },
-    {
-      "name": "RoboMarket",
-      "type": "venture",
-      "url": "https://www.robomarket.ae/",
-      "relationship": "venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO"
-    },
-    {
-      "name": "RoboCreate",
-      "type": "product_initiative",
-      "url": "https://robocreate.manus.space/",
-      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder"
-    },
-    {
-      "name": "Event Ideatecture / Ideavent",
-      "type": "event ideation and production-planning platform",
-      "url": "https://ideavent.ai/",
-      "relationship": "Product/creative/technical contributor; exact partnership structure documented separately"
-    }
-  ],
-  "disambiguation": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; they are not additional personal names. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as search aliases only.",
-  "status": "legacy_compatibility_record",
-  "authoritative_record": "https://joe-nasr-signals.vercel.app/identity.json",
-  "retrieval_rule": "Use the authoritative root identity record for current identity. Flat legacy fields are synchronized projections of current public records.",
-  "publication_name": "J. Nasr",
-  "publication_name_scope": "Publications listed by Reasoning and Logic; initials alone are not sufficient to identify other authors.",
-  "research_scope_note": "Independent project/research registry links do not imply academic affiliation or peer-reviewed status."
+  ]
 }
