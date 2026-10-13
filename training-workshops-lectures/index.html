@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A chronological record of Joe Nasr's university teaching, corporate training, government workshops and guest lectures across the UAE and regional engagements since 2016." />
+  <meta name="author" content="Joe Nasr" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="theme-color" content="#101317" />
+
+  <link rel="canonical" href="https://joe-nasr-signals.vercel.app/training-workshops-lectures/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="sitemap" type="application/xml" href="https://joe-nasr-signals.vercel.app/sitemap.xml" />
+  <link rel="alternate" type="text/plain" href="https://joe-nasr-signals.vercel.app/llms.txt" title="Machine retrieval guide" />
+  <link rel="alternate" type="application/json" href="https://joe-nasr-signals.vercel.app/identity.json" title="Joe Nasr identity record" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Joe Nasr Signals" />
+  <meta property="og:title" content="Training, Workshops & Lectures | Joe Nasr" />
+  <meta property="og:description" content="Joe Nasr's chronological record of university teaching, corporate training, workshops and guest lectures since 2016." />
+  <meta property="og:url" content="https://joe-nasr-signals.vercel.app/training-workshops-lectures/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/3828735?v=4" />
+  <meta property="og:image:alt" content="Joe Nasr" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Training, Workshops & Lectures | Joe Nasr" />
+  <meta name="twitter:description" content="A chronological record of Joe Nasr's university teaching, corporate training, workshops and guest lectures since 2016." />
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/3828735?v=4" />
+
+  <title>Training, Workshops &amp; Lectures | Joe Nasr</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://joe-nasr-signals.vercel.app/training-workshops-lectures/#webpage",
+    "url": "https://joe-nasr-signals.vercel.app/training-workshops-lectures/",
+    "name": "Training, Workshops & Lectures | Joe Nasr",
+    "description": "A chronological record of Joe Nasr's university teaching, corporate training, government workshops and guest lectures across the UAE and regional engagements since 2016.",
+    "isPartOf": {
+      "@id": "https://joe-nasr-signals.vercel.app/#website"
+    },
+    "about": {
+      "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
+    },
+    "mainEntity": {
+      "@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --ink: #101317;
+      --paper: #f2efe7;
+      --paper-2: #e8e3d8;
+      --signal: #d9ff4f;
+      --acid: #d9ff4f;
+      --blue: #146c7e;
+      --muted: #6c6b66;
+      --line: rgba(16, 19, 23, 0.18);
+      --line-strong: rgba(16, 19, 23, 0.42);
+      --max: 1520px;
+      --pad: clamp(18px, 3.4vw, 58px);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+    }
+    body::before {
+      z-index: 9998;
+      background: rgba(224, 218, 206, 0.05);
+      -webkit-backdrop-filter: saturate(0.77) contrast(0.935) brightness(0.986);
+      backdrop-filter: saturate(0.77) contrast(0.935) brightness(0.986);
+    }
+    body::after {
+      z-index: 9999;
+      opacity: 0.079;
+      mix-blend-mode: multiply;
+      background-image:
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+      background-size: 180px 180px;
+    }
+
+    ::selection { background: var(--signal); color: var(--ink); }
+    a { color: inherit; }
+    .page-grid {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -2;
+      opacity: 0.24;
+      background-image:
+        linear-gradient(to right, transparent calc(100% - 1px), rgba(16,19,23,.16) 1px),
+        linear-gradient(to bottom, transparent calc(100% - 1px), rgba(16,19,23,.12) 1px);
+      background-size: 64px 64px;
+      mask-image: linear-gradient(to bottom, black, transparent 78%);
+    }
+    .skip-link {
+      position: fixed;
+      left: 12px;
+      top: -80px;
+      z-index: 10000;
+      padding: 10px 14px;
+      background: var(--acid);
+      color: var(--ink);
+      font-weight: 800;
+    }
+    .skip-link:focus { top: 12px; }
+
+    .site-header {
+      width: 100%;
+      height: 78px;
+      padding: 0 var(--pad);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      border-bottom: 1px solid var(--line-strong);
+      background: rgba(242,239,231,.94);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      width: max-content;
+      text-decoration: none;
+    }
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      background: var(--ink);
+      color: var(--paper);
+      font-weight: 900;
+      letter-spacing: -.06em;
+    }
+    .brand-copy { display: flex; flex-direction: column; line-height: 1.05; }
+    .brand-copy strong { font-size: 13px; letter-spacing: .16em; }
+    .brand-copy small { margin-top: 5px; font-size: 9px; letter-spacing: .14em; color: var(--muted); }
+    .header-nav { display: flex; gap: 24px; align-items: center; }
+    .header-nav a {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      text-decoration: none;
+      position: relative;
+    }
+    .header-nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 100%;
+      bottom: -7px;
+      height: 2px;
+      background: var(--signal);
+      transition: right .2s ease;
+    }
+    .header-nav a:hover::after,
+    .header-nav a:focus-visible::after { right: 0; }
+
+    .hero,
+    .timeline,
+    .confirmed,
+    .page-footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding-inline: var(--pad);
+    }
+    .hero {
+      padding-top: clamp(70px, 10vw, 150px);
+      padding-bottom: clamp(70px, 9vw, 130px);
+    }
+    .kicker,
+    .section-label,
+    .entry-type,
+    .meta-label {
+      font: 700 10px/1.2 "Courier New", monospace;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .kicker,
+    .section-label,
+    .entry-type { color: var(--blue); }
+    .hero h1 {
+      margin: 20px 0 0;
+      max-width: 1180px;
+      font-size: clamp(58px, 9vw, 142px);
+      line-height: .82;
+      letter-spacing: -.065em;
+      font-weight: 950;
+    }
+    .hero h1 span { display: block; }
+    .hero h1 .outline {
+      color: transparent;
+      -webkit-text-stroke: clamp(1.5px, .15vw, 3px) var(--ink);
+      padding-left: clamp(18px, 7vw, 110px);
+    }
+    .hero-intro {
+      max-width: 870px;
+      margin: clamp(34px, 5vw, 62px) 0 0 clamp(0px, 7vw, 110px);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(19px, 2vw, 29px);
+      line-height: 1.35;
+    }
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: clamp(48px, 6vw, 82px);
+      border-top: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .hero-meta div {
+      padding: 18px 20px 18px 0;
+      border-right: 1px solid var(--line);
+    }
+    .hero-meta div + div { padding-left: 20px; }
+    .hero-meta div:last-child { border-right: 0; }
+    .meta-label { display: block; color: var(--muted); }
+    .hero-meta strong { display: block; margin-top: 6px; font-size: 14px; }
+
+    .timeline,
+    .confirmed {
+      padding-top: clamp(72px, 9vw, 130px);
+    }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, .55fr);
+      gap: 50px;
+      align-items: end;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .section-head h2 {
+      margin: 8px 0 0;
+      font-size: clamp(42px, 7vw, 98px);
+      line-height: .9;
+      letter-spacing: -.055em;
+    }
+    .section-head p {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(17px, 1.55vw, 23px);
+      line-height: 1.4;
+    }
+
+    .year-block {
+      display: grid;
+      grid-template-columns: minmax(110px, .22fr) 1fr;
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .year {
+      padding: 34px 28px 34px 0;
+      border-right: 1px solid var(--line);
+      font-size: clamp(36px, 5vw, 72px);
+      line-height: 1;
+      letter-spacing: -.05em;
+      font-weight: 950;
+    }
+    .entries { min-width: 0; }
+    .entry {
+      display: grid;
+      grid-template-columns: minmax(180px, .28fr) minmax(0, 1fr);
+      gap: 28px;
+      padding: 34px 0 34px 34px;
+      border-bottom: 1px solid var(--line);
+    }
+    .entry:last-child { border-bottom: 0; }
+    .entry-side time {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font: 700 12px/1.4 "Courier New", monospace;
+    }
+    .entry-main h3 {
+      margin: 0;
+      font-size: clamp(22px, 2.4vw, 34px);
+      line-height: 1.08;
+      letter-spacing: -.025em;
+    }
+    .entry-main .org {
+      margin: 8px 0 0;
+      font-weight: 800;
+    }
+    .entry-main p:last-child {
+      max-width: 920px;
+      margin: 14px 0 0;
+      color: #343638;
+    }
+
+    .confirmed-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border-top: 1px solid var(--line-strong);
+      margin-top: 40px;
+    }
+    .confirmed-item {
+      padding: 28px 28px 30px 0;
+      border-bottom: 1px solid var(--line);
+      min-height: 180px;
+    }
+    .confirmed-item:nth-child(odd) { border-right: 1px solid var(--line); }
+    .confirmed-item:nth-child(even) { padding-left: 28px; }
+    .confirmed-item h3 {
+      margin: 0;
+      font-size: clamp(20px, 2vw, 30px);
+      line-height: 1.12;
+    }
+    .confirmed-item p {
+      margin: 12px 0 0;
+      max-width: 650px;
+      color: #343638;
+    }
+
+    .note {
+      margin-top: 34px;
+      padding: 20px 22px;
+      border-left: 5px solid var(--signal);
+      background: rgba(232,227,216,.56);
+      max-width: 980px;
+    }
+    .note strong { display: block; margin-bottom: 6px; }
+
+    .page-footer {
+      padding-top: clamp(80px, 10vw, 140px);
+      padding-bottom: 50px;
+    }
+    .back-link {
+      display: inline-block;
+      border-bottom: 2px solid var(--ink);
+      text-decoration: none;
+      font-weight: 850;
+      font-size: clamp(18px, 2vw, 26px);
+    }
+    .back-link:hover,
+    .back-link:focus-visible { border-color: var(--signal); }
+    .footer-rule {
+      margin-top: 54px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line-strong);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--muted);
+      font: 700 10px/1.5 "Courier New", monospace;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 900px) {
+      .site-header { grid-template-columns: 1fr auto; }
+      .header-nav a:not(:first-child) { display: none; }
+      .hero-meta { grid-template-columns: 1fr; }
+      .hero-meta div,
+      .hero-meta div + div {
+        padding: 15px 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .hero-meta div:last-child { border-bottom: 0; }
+      .section-head { grid-template-columns: 1fr; gap: 24px; }
+      .year-block { grid-template-columns: 1fr; }
+      .year {
+        padding: 34px 0 20px;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .entry {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        padding: 28px 0;
+      }
+      .confirmed-grid { grid-template-columns: 1fr; }
+      .confirmed-item,
+      .confirmed-item:nth-child(even) { padding: 26px 0; }
+      .confirmed-item:nth-child(odd) { border-right: 0; }
+      .footer-rule { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#chronology">Skip to training chronology</a>
+  <div class="page-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Joe Nasr Signals">
+      <span class="brand-mark">JN</span>
+      <span class="brand-copy">
+        <strong>JOE NASR</strong>
+        <small>SIGNALS</small>
+      </span>
+    </a>
+    <nav class="header-nav" aria-label="Page navigation">
+      <a href="/">Signals</a>
+      <a href="#chronology">Chronology</a>
+      <a href="#confirmed">Other engagements</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="pageTitle">
+      <div class="kicker">TRAINING / WORKSHOPS / LECTURES</div>
+      <h1 id="pageTitle"><span>Training, Workshops</span><span class="outline">&amp; Lectures.</span></h1>
+      <p class="hero-intro">University teaching, corporate training, government and institutional workshops, and guest lectures delivered from May 2016 onward. The professional record accounts for 100+ sessions across university, corporate and institutional settings in the UAE and regional engagements.</p>
+      <div class="hero-meta" aria-label="Training record summary">
+        <div><span class="meta-label">PERIOD</span><strong>May 2016 – Present</strong></div>
+        <div><span class="meta-label">FORMATS</span><strong>Lectures · Courses · Workshops · Corporate Training</strong></div>
+        <div><span class="meta-label">CONTEXT</span><strong>University · Government · Media · Corporate</strong></div>
+      </div>
+    </section>
+
+    <section class="timeline" id="chronology" aria-labelledby="chronologyTitle">
+      <div class="section-head">
+        <div>
+          <div class="section-label">CHRONOLOGY</div>
+          <h2 id="chronologyTitle">Chronology.</h2>
+        </div>
+        <p>Dated engagements are arranged by period. Multi-month programs retain their full known date range.</p>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2016</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">University Teaching</span>
+              <time datetime="2016-06">June 2016 onward</time>
+            </div>
+            <div class="entry-main">
+              <h3>SAE Institute Dubai / SAE University College</h3>
+              <p class="org">Lecturer · Instructor · Corporate Trainer · Course Designer</p>
+              <p>Part-time faculty and classroom teaching began in 2016. Early documented teaching includes Introduction to Premiere Pro, followed by design, animation, editing, post-production and applied-media subjects across academic and professional programs.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Training</span>
+              <time datetime="2016">2016–2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Digital Video Editing</h3>
+              <p class="org">Emaar Hospitality Group · via SAE</p>
+              <p>Corporate video-editing instruction with revision sessions, final-project guidance, assessment and certification-related review.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Training</span>
+              <time datetime="2016">2016</time>
+            </div>
+            <div class="entry-main">
+              <h3>Media, Photography &amp; Video Training</h3>
+              <p class="org">Rove Hotels · via SAE</p>
+              <p>Professional training for hospitality and social-media personnel in the media, photography and video-production training context.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Short Course</span>
+              <time datetime="2016">2016–2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>e-Music Production</h3>
+              <p class="org">SAE Institute Dubai / SAE University College</p>
+              <p>Short-course instruction and final-project assessment within SAE's professional and academic training environment.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Teaching / Course Work</span>
+              <time datetime="2016">2016–2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Applied Media &amp; Adobe Course Subjects</h3>
+              <p class="org">SAE Institute Dubai / SAE University College</p>
+              <p>Teaching and course operations across Adobe After Effects, InDesign, Motion Graphics, Digital Video Editing, Premiere Pro and post-production, alongside project assessment and course-revision sessions.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2017</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Professional Training</span>
+              <time datetime="2017">2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Media &amp; Video Production Training</h3>
+              <p class="org">ITP Media Group · via SAE</p>
+              <p>Instruction and assessment for editors and media professionals, including final-project and attendance-based certification work.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Custom Program</span>
+              <time datetime="2017-02">February–March 2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Customized Adobe Media-Production Program</h3>
+              <p class="org">Dubai Tourism / Department of Tourism and Commerce Marketing · via SAE</p>
+              <p>Course design and training in Adobe-based media-production workflows. This training relationship is separate from Joe Nasr's media-production work for Dubai Tourism.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Training</span>
+              <time datetime="2017">2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Elements &amp; Principles of Design – Basic 02</h3>
+              <p class="org">GEMS Education</p>
+              <p>Design training delivered for GEMS educators and staff through the Canon / GEMS training route.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Training</span>
+              <time datetime="2017">2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Understanding the Digital Camera – Basic B2</h3>
+              <p class="org">GEMS Education</p>
+              <p>Practical camera and creative-media training for GEMS educators and staff.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Workshop / Training</span>
+              <time datetime="2017-02">2017</time>
+            </div>
+            <div class="entry-main">
+              <h3>Infographics Program</h3>
+              <p class="org">UAE Ministry of Interior · via SAE</p>
+              <p>Delivered workshop and training in the Infographics program context.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2019</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Training</span>
+              <time datetime="2019-03">March 2019</time>
+            </div>
+            <div class="entry-main">
+              <h3>Infographics Design</h3>
+              <p class="org">Vision Valley · via SAE Institute Dubai</p>
+              <p>Corporate training focused on infographics design and visual communication.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2020</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Online Corporate Training</span>
+              <time datetime="2020-06">June 2020</time>
+            </div>
+            <div class="entry-main">
+              <h3>Adobe Photoshop &amp; Illustrator</h3>
+              <p class="org">Cartier Middle East · via SAE</p>
+              <p>Online Adobe training for Cartier's regional team. The program covered Photoshop and Illustrator.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Training</span>
+              <time datetime="2020-12">December 2020</time>
+            </div>
+            <div class="entry-main">
+              <h3>Adobe After Effects</h3>
+              <p class="org">Sharjah Department of Housing · via SAE</p>
+              <p>Four-day After Effects training program for department employees.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2024</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Media Training Program</span>
+              <time datetime="2024-09-30">30 September–24 December 2024</time>
+            </div>
+            <div class="entry-main">
+              <h3>Media Training Program – Group 1</h3>
+              <p class="org">Reyada Learning &amp; Development / Reyada Center · SAE University College</p>
+              <p>Instructor and facilitator for a 13-person on-campus media-training cohort.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2025</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Diploma Training</span>
+              <time datetime="2025-01-06">6 January–20 March 2025</time>
+            </div>
+            <div class="entry-main">
+              <h3>Media Program Diploma / Media Graphic &amp; Motion Design – Group 1</h3>
+              <p class="org">Executive Office of H.H. Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi · Reyada · SAE University College</p>
+              <p>Instructor, corporate trainer and project supervisor across Creative Thinking &amp; Graphic Design, Digital Product Design, Motion Graphics using Adobe After Effects, and project support. Topics included branding, visual communication, typography, layout, color, packaging, Adobe tools, AI-assisted creative tools, Canva, UX/UI, Figma and supervised project work.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Diploma Training</span>
+              <time datetime="2025-04-07">7 April–19 June 2025</time>
+            </div>
+            <div class="entry-main">
+              <h3>Media Program Diploma / Media Graphic &amp; Motion Design – Group 2</h3>
+              <p class="org">Executive Office of H.H. Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi · Reyada · SAE University College</p>
+              <p>Second delivered program across graphic design, digital product design, motion graphics and project supervision. The cohort graduated on 26 June 2025.</p>
+            </div>
+          </article>
+
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Workshop</span>
+              <time datetime="2025-11-03">3–6 November 2025</time>
+            </div>
+            <div class="entry-main">
+              <h3>Corporate Video Editing using DaVinci Resolve</h3>
+              <p class="org">Holy Quran Academy in Sharjah · Reyada / Executive Office program · via SAE University College</p>
+              <p>Four-day corporate DaVinci Resolve and video-editing workshop, delivered from 09:00 to 14:00.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="year-block">
+        <div class="year">2026</div>
+        <div class="entries">
+          <article class="entry">
+            <div class="entry-side">
+              <span class="entry-type">Corporate Training</span>
+              <time datetime="2026-01-12">January 2026</time>
+            </div>
+            <div class="entry-main">
+              <h3>DaVinci Resolve Mastery</h3>
+              <p class="org">Holy Quran Academy in Sharjah · Reyada / Executive Office program · via SAE University College</p>
+              <p>Trainer for a 20-participant advanced DaVinci Resolve program. The first four sessions of the eight-session schedule are part of the delivered record; the page does not represent all eight sessions as completed.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="confirmed" id="confirmed" aria-labelledby="confirmedTitle">
+      <div class="section-head">
+        <div>
+          <div class="section-label">ADDITIONAL ENGAGEMENTS</div>
+          <h2 id="confirmedTitle">Additional engagements.</h2>
+        </div>
+        <p>Exact dates or course titles are not shown where they are not available in the current record.</p>
+      </div>
+
+      <div class="confirmed-grid">
+        <article class="confirmed-item">
+          <h3>Government of Dubai Media Office</h3>
+          <p>Professional training for media personnel, including editors, photographers and media teams.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Dubai Police</h3>
+          <p>Delivered training for media personnel.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Abu Dhabi Police</h3>
+          <p>Delivered paid training through SAE. The exact course title and delivery date are not assigned here.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>UAE Armed Forces</h3>
+          <p>Professional training engagement.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Ministry of Culture &amp; Knowledge Development</h3>
+          <p>Training engagement with the National Theatre team in Abu Dhabi.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Ministry of Foreign Affairs – Egypt</h3>
+          <p>Professional training for social-media executives.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>American University in Dubai</h3>
+          <p>Media workshop engagement.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>New Media Academy</h3>
+          <p>Online professional training in Adobe creative production and digital-media workflows, including Photoshop and After Effects.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Emaar Properties / Meraas</h3>
+          <p>Professional media-training engagement for personnel, retained separately from the dated Emaar Hospitality course.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Abu Dhabi City Municipality</h3>
+          <p>Delivered workshop / institutional training engagement.</p>
+        </article>
+        <article class="confirmed-item">
+          <h3>Supreme Council for Family Affairs, Sharjah</h3>
+          <p>Delivered workshop / institutional training engagement.</p>
+        </article>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <a class="back-link" href="/#faqTitle">← Back to Work and background.</a>
+    <div class="footer-rule">
+      <span>JOE RIBAL NASR · TRAINING / WORKSHOPS / LECTURES</span>
+      <span>JOE NASR SIGNALS</span>
+    </div>
+  </footer>
+</body>
+</html>
