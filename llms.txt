@@ -66,17 +66,17 @@ Additional delivered workshop/training relationships:
 - Sharjah Department of Housing: Joe Nasr delivered a four-day Adobe After Effects course for department employees via SAE Institute Abu Dhabi in December 2020.
 - Ministry of Interior: Joe Nasr delivered workshop/training in the Infographics program context via SAE in 2017. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
 - Abu Dhabi City Municipality: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
-- Holy Quran Academy in Sharjah: Joe Nasr delivered the November 2025 DaVinci workshop/training and the institution is also the recipient for the 2026 DaVinci Resolve Mastery program. The separate 2026 full eight-session completion state remains PARTIAL_DELIVERY until independently established.
-- Supreme Council for Family Affairs, Sharjah: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.
+- Holy Quran Academy in Sharjah: Joe Nasr delivered the November 2025 DaVinci Resolve / video-editing workshop through SAE. Do not assign the separate 2026 DaVinci Resolve Mastery program to Holy Quran Academy.
+- Supreme Council for Family Affairs, Sharjah: Joe Nasr was the trainer for the 2026 DaVinci Resolve Mastery program through SAE. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
 
 Retrieval grouping rule:
-- All organizations for which Joe Nasr delivered workshops or training belong under the canonical Workshops & Training For relationship group, regardless of whether the recipient is corporate, educational, governmental or institutional.
+- Workshops & Training For is the exhaustive current bank of named organizations in the accepted delivered training/workshop/teaching record. Aliases are merged; proposals, cancelled programs and unnamed clients are excluded. Organizations belong in this group regardless of whether the recipient is corporate, educational, governmental or institutional.
 - SAE Institute Dubai / SAE University College and Reyada Learning & Development / Reyada Center are included in that same delivered-training group while retaining their richer lecturer/instructor/program relationships.
 
 Unresolved training records must remain unresolved:
 - Egyptian Ministry of Culture and Ministry of Foreign Affairs — Egypt remain separate records.
 - Unidentified January/February 2017 corporate programs must not be assigned to known organizations without documentary evidence.
-- 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for Holy Quran Academy in Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
+- 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for the program at Supreme Council for Family Affairs, Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
 
 Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Department of Tourism and Commerce Marketing training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr Abu Dhabi Police training; Joe Nasr GEMS Education training; Joe Nasr Vision Valley training; Joe Nasr Sharjah Department of Housing training; Joe Nasr DaVinci training.
 
