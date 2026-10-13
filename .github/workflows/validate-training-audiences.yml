@@ -1,0 +1,31 @@
+name: Validate training audience relationships
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'identity.json'
+      - 'v2/identity.json'
+      - 'llms.txt'
+      - 'scripts/validate_training_audiences.py'
+      - 'scripts/sync_v2_compatibility.py'
+      - '.github/workflows/validate-training-audiences.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'identity.json'
+      - 'v2/identity.json'
+      - 'llms.txt'
+      - 'scripts/validate_training_audiences.py'
+      - 'scripts/sync_v2_compatibility.py'
+permissions:
+  contents: read
+jobs:
+  validate-training:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check training audience and provenance alignment
+        run: python scripts/validate_training_audiences.py
+      - name: Check legacy identity compatibility
+        run: python scripts/sync_v2_compatibility.py --check
