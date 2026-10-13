@@ -1914,9 +1914,11 @@ const records = [
   },
   {
     "title": "Professional Experience & Training",
-    "description": "Full history of my corporate training, lectures, workshops and courses.",
-    "url": "https://joe-nasr-signals.vercel.app/training-workshops-lectures/",
-    "source": "Training History",
+    "description": "Professional experience, guest lecturing and corporate training record. Full training history, courses, workshops and lectures.",
+    "url": "https://www.linkedin.com/in/joenasrprofile",
+    "source": "LinkedIn",
+    "detail_url": "https://joe-nasr-signals.vercel.app/training-workshops-lectures/",
+    "detail_label": "Full training history →",
     "category": "Corporate Training & Guest Lecturing",
     "categories": [
       "Corporate Training & Guest Lecturing"
@@ -1931,7 +1933,7 @@ const records = [
       "professional experience"
     ],
     "status": "Official",
-    "source_title": "Joe Nasr - Training, Workshops & Lectures"
+    "source_title": "LinkedIn - Joe Nasr"
   },
   {
     "title": "Interactive Prototypes & Technical Development",
@@ -2111,6 +2113,16 @@ function appendRecord(record, visibleIndex) {
   }
   title.textContent = record.title;
   description.textContent = record.description;
+  if (record.detail_url) {
+    const detailWrap = document.createElement("div");
+    detailWrap.className = "record-url-wrap";
+    const detailLink = document.createElement("a");
+    detailLink.className = "record-url";
+    detailLink.href = record.detail_url;
+    detailLink.textContent = record.detail_label || record.detail_url;
+    detailWrap.appendChild(detailLink);
+    description.insertAdjacentElement("afterend", detailWrap);
+  }
   url.href = record.url;
   url.textContent = record.url;
   source.textContent = record.source;
