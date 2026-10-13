@@ -32,7 +32,7 @@ def card(r):
         f'<p class="kind">{escape(r["category"])} · {escape(r["type"])}</p>'
         f'<h2>{escape(r["title"])}</h2>'
         f'<p class="issuer">{issuer_year}</p>'
-        '<p class="evidence">Documented completion; public issuer verification not yet established.</p>'
+        '<p class="evidence">Course completion documented; issuer verification not asserted.</p>'
         '</div></article>'
     )
 
