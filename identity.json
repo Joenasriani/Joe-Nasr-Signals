@@ -1920,7 +1920,7 @@
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "updated_on": "2026-10-13",
-    "relationship_state": "Workshops & Training For is the exhaustive current bank of named delivered training/workshop/teaching organizations in the accepted record. Aliases are merged; proposals, cancelled programs and unnamed clients are excluded. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
+    "relationship_state": "Workshops & Training For denotes delivered workshop/training relationships. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
     "workshops_and_training_for": [
       {
         "name": "Government of Dubai Media Office",
@@ -1994,18 +1994,6 @@
         "relationship": "instructor via SAE → corporate media / photography / video training",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2016",
-        "delivery_status": "DELIVERED"
-      },
-      {
-        "name": "Emaar Properties",
-        "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
-        "delivery_status": "DELIVERED"
-      },
-      {
-        "name": "Meraas",
-        "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
         "delivery_status": "DELIVERED"
       },
       {
@@ -2087,26 +2075,25 @@
       },
       {
         "name": "Holy Quran Academy in Sharjah",
-        "relationship": "trainer via SAE → delivered four-day DaVinci Resolve / video-editing workshop",
+        "relationship": "trainer → delivered DaVinci workshop / institutional training; recipient institution for 2026 DaVinci Resolve Mastery",
         "periods": [
           "2025-11",
           "2026"
         ],
-        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
-        "delivery_status": "DELIVERED",
-        "boundary": "Holy Quran Academy is the final learner venue / recipient context for the November 2025 DaVinci Resolve workshop. Do not assign the separate 2026 DaVinci Resolve Mastery program to this institution.",
-        "period": "2025-11"
+        "status": "CROSS_SOURCE",
+        "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM PARTIAL_DELIVERY",
+        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state."
       },
       {
         "name": "Supreme Council for Family Affairs, Sharjah",
-        "relationship": "trainer via SAE → DaVinci Resolve Mastery training",
-        "period": "2026-01/2026-02",
-        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "relationship": "trainer → delivered workshop / institutional training",
+        "period": "2025",
+        "status": "USER_CONFIRMED",
         "evidence_scope": "PARTICIPANT_SIDE",
-        "boundary": "The 2026 program location is Supreme Council for Family Affairs, Sharjah. At least the first four sessions are established; full eight-session completion remains unresolved.",
+        "boundary": "Training delivery is user-confirmed; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.",
         "prior_relationship_record": "participant-side institutional training context via SAE; participant from Media Office",
         "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE",
-        "delivery_status": "PARTIAL_DELIVERY"
+        "delivery_status": "DELIVERED"
       }
     ],
     "creative_and_brand_clients": [
