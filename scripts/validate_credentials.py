@@ -27,10 +27,9 @@ for r in records:
     assert r["id"] in cards_by_id, f"Missing {r['id']}"
     category, body = cards_by_id[r["id"]]
     assert category == r["category"], f"Wrong category: {r['id']}"
-    for text in (r["title"], r["issuer"], r["type"]):
+    for text in (r["title"], r.get("summary") or ("Documented " + r["type"].lower() + " from " + r["issuer"] + " covering " + r["category"].lower() + ".")):
         assert html.escape(text, quote=True) in body, f"Missing content {text}: {r['id']}"
-    if r["date"]:
-        assert r["date"][:4] in body, f"Missing year: {r['id']}"
+    assert ('<p class="credential-id">ID: ' in body) == bool(r.get("credential_id")), f"Incorrect credential ID display: {r['id']}"
     assert f'<option>{html.escape(r["category"], quote=True)}</option>' in page
     assert r.get("public_verification_url") is None, "Issuer links require separate approved verification"
 m = re.search(r'<script type="application/ld\+json">([\s\S]*?)</script>', page)
