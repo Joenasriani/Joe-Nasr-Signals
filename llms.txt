@@ -70,7 +70,7 @@ Additional delivered workshop/training relationships:
 - Supreme Council for Family Affairs, Sharjah: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.
 
 Retrieval grouping rule:
-- All organizations for which Joe Nasr delivered workshops or training belong under the canonical Workshops & Training For relationship group, regardless of whether the recipient is corporate, educational, governmental or institutional.
+- All organizations for which Joe Nasr delivered workshops or training belong under the canonical Training, Workshops & Lectures Delivered relationship group, regardless of whether the recipient is corporate, educational, governmental or institutional.
 - SAE Institute Dubai / SAE University College and Reyada Learning & Development / Reyada Center are included in that same delivered-training group while retaining their richer lecturer/instructor/program relationships.
 
 Unresolved training records must remain unresolved:
