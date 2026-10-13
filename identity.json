@@ -1925,12 +1925,26 @@
       {
         "name": "Government of Dubai Media Office",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Editors, Photographers & Media Teams",
+          "audience_kind": "mixed_professional_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Dubai Police",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Abu Dhabi Police",
@@ -1938,32 +1952,74 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "before 2020-12; exact date unresolved",
         "delivery_status": "DELIVERED / PAID_REFERENCE",
-        "boundary": "The delivered paid training relationship is established from private finance reconciliation. The exact course title/content and exact delivery date remain unresolved; do not invent them or infer direct contracting."
+        "boundary": "The delivered paid training relationship is established from private finance reconciliation. The exact course title/content and exact delivery date remain unresolved; do not invent them or infer direct contracting.",
+        "training_audience": {
+          "display_label": "Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "UAE Armed Forces",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Abu Dhabi Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Ministry of Culture and Knowledge Development",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "National Theatre of Abu Dhabi Team",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
         "relationship": "institutional training-program recipient",
-        "status": "CROSS_SOURCE"
+        "status": "CROSS_SOURCE",
+        "training_audience": {
+          "display_label": "Event Producers, Designers & Animators",
+          "audience_kind": "professional_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Ministry of Foreign Affairs — Egypt",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Social Media Executives",
+          "audience_kind": "professional_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "American University in Dubai",
         "relationship": "education / workshop recipient context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Media Workshop Participants",
+          "audience_kind": "participant_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "GEMS Education",
@@ -1975,26 +2031,54 @@
           "Understanding the Digital Camera — Basic B2"
         ],
         "delivery_status": "DELIVERED / HISTORICAL",
-        "boundary": "GEMS is the training recipient. Canon appears in the training route/ecosystem for one record; do not recast Canon as a separate recipient or client without stronger evidence."
+        "boundary": "GEMS is the training recipient. Canon appears in the training route/ecosystem for one record; do not recast Canon as a separate recipient or client without stronger evidence.",
+        "training_audience": {
+          "display_label": "Canon-Sponsored Education",
+          "audience_kind": "program_or_sponsorship_context",
+          "evidence_status": "USER_REPORTED_SPONSORSHIP_UNVERIFIED",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Canon/GEMS training context documented. Canon sponsorship is not independently established. Label is program context rather than department."
+        }
       },
       {
         "name": "New Media Academy",
         "relationship": "education / online training context",
-        "status": "USER_CONFIRMED"
+        "status": "USER_CONFIRMED",
+        "training_audience": {
+          "display_label": "Adobe Software Course Participants",
+          "audience_kind": "participant_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "ITP Media Group",
         "relationship": "instructor via SAE → media / video production and editing training",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2017",
-        "delivery_status": "DELIVERED"
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Executive Editors Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Entire Executive Editors department trained according to user clarification. SAE correspondence separately documents training delivery; it does not independently establish full department membership."
+        }
       },
       {
         "name": "Emaar Hospitality Group",
         "relationship": "instructor via SAE → corporate media / photography / video training",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2016",
-        "delivery_status": "DELIVERED"
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Graphic Design & Production Team",
+          "audience_kind": "professional_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Cartier Middle East",
@@ -2002,7 +2086,14 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2020-06",
         "delivery_status": "DELIVERED",
-        "delivery_mode": "online"
+        "delivery_mode": "online",
+        "training_audience": {
+          "display_label": "Social Media Executives",
+          "audience_kind": "professional_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Vision Valley",
@@ -2010,7 +2101,14 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2019-03",
         "delivery_status": "DELIVERED",
-        "boundary": "This establishes a delivered corporate-training relationship; it does not by itself establish direct employment or direct contracting."
+        "boundary": "This establishes a delivered corporate-training relationship; it does not by itself establish direct employment or direct contracting.",
+        "training_audience": {
+          "display_label": "Marketing Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Rove Hotels",
@@ -2018,7 +2116,14 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2016",
         "delivery_status": "DELIVERED",
-        "boundary": "Participant-domain evidence also included other Emaar hospitality brands; this record does not promote those domains into separate contractual-client relationships."
+        "boundary": "Participant-domain evidence also included other Emaar hospitality brands; this record does not promote those domains into separate contractual-client relationships.",
+        "training_audience": {
+          "display_label": "Social Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Dubai Tourism",
@@ -2026,7 +2131,14 @@
         "period": "2017-02/2017-03",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "program_status": "CONFIRMED / DELIVERY_CONTEXT_DIRECTLY_ESTABLISHED",
-        "boundary": "Keep separate from the independently documented Dubai Tourism / Department of Tourism and Commerce Marketing media-production relationship."
+        "boundary": "Keep separate from the independently documented Dubai Tourism / Department of Tourism and Commerce Marketing media-production relationship.",
+        "training_audience": {
+          "display_label": "Social Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "SAE Institute Dubai / SAE University College",
@@ -2034,7 +2146,14 @@
         "status": "CROSS_SOURCE",
         "period": "2016–2026",
         "temporal_state": "HISTORICAL / RECURRING_INSTITUTIONAL_RELATIONSHIP",
-        "delivery_status": "DELIVERED"
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Graphic Design & Motion Diploma Participants",
+          "audience_kind": "participant_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Reyada Learning & Development / Reyada Center",
@@ -2046,7 +2165,14 @@
           "Media Graphic & Motion Design",
           "DaVinci-related training"
         ],
-        "delivery_status": "DELIVERED"
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Media & Marketing Departments",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Ministry of Interior",
@@ -2055,7 +2181,14 @@
         "period": "2017-02",
         "delivery_status": "DELIVERED",
         "prior_relationship_record": "course-development / institutional program involvement via SAE → Infographics",
-        "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE"
+        "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "training_audience": {
+          "display_label": "Social Media Department",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Abu Dhabi City Municipality",
@@ -2063,7 +2196,14 @@
         "status": "USER_CONFIRMED",
         "delivery_status": "DELIVERED",
         "prior_relationship_record": "training preparation / program context",
-        "prior_evidence_status": "EXISTING_PROJECT_RECORD"
+        "prior_evidence_status": "EXISTING_PROJECT_RECORD",
+        "training_audience": {
+          "display_label": "Media Production",
+          "audience_kind": "professional_function",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Sharjah Department of Housing",
@@ -2071,7 +2211,14 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2020-12",
         "delivery_status": "DELIVERED",
-        "boundary": "The department is the training recipient; the provider route remains SAE Institute Abu Dhabi."
+        "boundary": "The department is the training recipient; the provider route remains SAE Institute Abu Dhabi.",
+        "training_audience": {
+          "display_label": "Executive Media Office",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       },
       {
         "name": "Holy Quran Academy in Sharjah",
@@ -2082,7 +2229,14 @@
         ],
         "status": "CROSS_SOURCE",
         "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM PARTIAL_DELIVERY",
-        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state."
+        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state.",
+        "training_audience": {
+          "display_label": "DaVinci Editors & Media Production Teams",
+          "audience_kind": "mixed_professional_audience",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. Preserve partial eight-session completion status."
+        }
       },
       {
         "name": "Supreme Council for Family Affairs, Sharjah",
@@ -2093,7 +2247,14 @@
         "boundary": "Training delivery is user-confirmed; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.",
         "prior_relationship_record": "participant-side institutional training context via SAE; participant from Media Office",
         "prior_evidence_status": "VERIFIED_THIRD_PARTY_PRIVATE",
-        "delivery_status": "DELIVERED"
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Media Executive Office",
+          "audience_kind": "reported_department_or_team",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "independent_public_department_evidence": "NOT_ESTABLISHED",
+          "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
+        }
       }
     ],
     "creative_and_brand_clients": [
