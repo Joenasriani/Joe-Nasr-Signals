@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-10-12",
+  "snapshot_date": "2026-10-13",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -700,7 +700,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-10-12",
+  "updated_on": "2026-10-13",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -1675,6 +1675,10 @@
         "Joe Nasr ITP Media training",
         "Joe Nasr Emaar training",
         "Joe Nasr Reyada",
+        "Joe Nasr Abu Dhabi Police training",
+        "Joe Nasr GEMS Education training",
+        "Joe Nasr Vision Valley training",
+        "Joe Nasr Sharjah Department of Housing training",
         "Joe Nasr DaVinci training"
       ],
       "boundary": "Use typed relationship records and delivery states. Do not infer completed delivery from proposal/program involvement, and do not collapse participant-side or venue context into direct contractual-client status."
@@ -1915,6 +1919,7 @@
   },
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
+    "updated_on": "2026-10-13",
     "relationship_state": "Workshops & Training For denotes delivered workshop/training relationships. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
     "workshops_and_training_for": [
       {
@@ -1926,6 +1931,14 @@
         "name": "Dubai Police",
         "relationship": "workshop / training recipient context",
         "status": "USER_CONFIRMED"
+      },
+      {
+        "name": "Abu Dhabi Police",
+        "relationship": "trainer via SAE → delivered paid training engagement; exact course title unresolved",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "before 2020-12; exact date unresolved",
+        "delivery_status": "DELIVERED / PAID_REFERENCE",
+        "boundary": "The delivered paid training relationship is established from private finance reconciliation. The exact course title/content and exact delivery date remain unresolved; do not invent them or infer direct contracting."
       },
       {
         "name": "UAE Armed Forces",
@@ -1953,6 +1966,18 @@
         "status": "USER_CONFIRMED"
       },
       {
+        "name": "GEMS Education",
+        "relationship": "instructor / trainer → delivered design-principles and digital-camera training for GEMS educators and staff; Canon / GEMS route",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2017",
+        "programs": [
+          "Elements & Principles of Design — Basic 02",
+          "Understanding the Digital Camera — Basic B2"
+        ],
+        "delivery_status": "DELIVERED / HISTORICAL",
+        "boundary": "GEMS is the training recipient. Canon appears in the training route/ecosystem for one record; do not recast Canon as a separate recipient or client without stronger evidence."
+      },
+      {
         "name": "New Media Academy",
         "relationship": "education / online training context",
         "status": "USER_CONFIRMED"
@@ -1978,6 +2003,14 @@
         "period": "2020-06",
         "delivery_status": "DELIVERED",
         "delivery_mode": "online"
+      },
+      {
+        "name": "Vision Valley",
+        "relationship": "corporate trainer via SAE Institute Dubai → delivered Infographics Design training",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2019-03",
+        "delivery_status": "DELIVERED",
+        "boundary": "This establishes a delivered corporate-training relationship; it does not by itself establish direct employment or direct contracting."
       },
       {
         "name": "Rove Hotels",
@@ -2031,6 +2064,14 @@
         "delivery_status": "DELIVERED",
         "prior_relationship_record": "training preparation / program context",
         "prior_evidence_status": "EXISTING_PROJECT_RECORD"
+      },
+      {
+        "name": "Sharjah Department of Housing",
+        "relationship": "instructor / trainer via SAE Institute Abu Dhabi → delivered four-day Adobe After Effects course for department employees",
+        "status": "VERIFIED_THIRD_PARTY_PRIVATE",
+        "period": "2020-12",
+        "delivery_status": "DELIVERED",
+        "boundary": "The department is the training recipient; the provider route remains SAE Institute Abu Dhabi."
       },
       {
         "name": "Holy Quran Academy in Sharjah",

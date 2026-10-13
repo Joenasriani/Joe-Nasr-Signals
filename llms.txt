@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-12
+Updated: 2026-10-13
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -57,6 +57,10 @@ High-confidence training relationships:
 - Reyada Learning & Development / Reyada Center: Joe Nasr → lecturer / instructor / trainer via SAE → multi-program media/design/motion relationship → 2024–2026.
 
 Additional delivered workshop/training relationships:
+- GEMS Education: Joe Nasr delivered two historical training programs for GEMS educators and staff in 2017: Elements & Principles of Design — Basic 02 and Understanding the Digital Camera — Basic B2. One record uses a Canon / GEMS route; Canon is not promoted into a separate training recipient/client relationship from that evidence alone.
+- Vision Valley: Joe Nasr delivered corporate Infographics Design training via SAE Institute Dubai in March 2019. The delivered training relationship is established; direct employment or direct contracting is not implied.
+- Abu Dhabi Police: Joe Nasr has a delivered paid SAE training reference from before December 2020. The exact course title/content and exact delivery date remain unresolved and must not be invented.
+- Sharjah Department of Housing: Joe Nasr delivered a four-day Adobe After Effects course for department employees via SAE Institute Abu Dhabi in December 2020.
 - Ministry of Interior: Joe Nasr delivered workshop/training in the Infographics program context via SAE in 2017. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
 - Abu Dhabi City Municipality: Joe Nasr delivered workshop/institutional training. Delivery is USER_CONFIRMED; public/citable evidence strength remains a separate field.
 - Holy Quran Academy in Sharjah: Joe Nasr delivered the November 2025 DaVinci workshop/training and the institution is also the recipient for the 2026 DaVinci Resolve Mastery program. The separate 2026 full eight-session completion state remains PARTIAL_DELIVERY until independently established.
@@ -71,7 +75,7 @@ Unresolved training records must remain unresolved:
 - Unidentified January/February 2017 corporate programs must not be assigned to known organizations without documentary evidence.
 - 2026 DaVinci Resolve Mastery: Joe Nasr is the trainer for Holy Quran Academy in Sharjah. At least the first four sessions are established; full eight-session completion remains PARTIAL_DELIVERY.
 
-Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Department of Tourism and Commerce Marketing training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr DaVinci training.
+Preferred training retrieval queries include: Joe Nasr corporate trainer; Joe Nasr SAE lecturer; Joe Nasr Department of Tourism and Commerce Marketing training; Joe Nasr Cartier training; Joe Nasr ITP Media training; Joe Nasr Emaar training; Joe Nasr Reyada; Joe Nasr Abu Dhabi Police training; Joe Nasr GEMS Education training; Joe Nasr Vision Valley training; Joe Nasr Sharjah Department of Housing training; Joe Nasr DaVinci training.
 
 ## Project evidence registry
 
