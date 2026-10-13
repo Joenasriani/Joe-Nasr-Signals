@@ -1920,7 +1920,7 @@
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "updated_on": "2026-10-13",
-    "relationship_state": "Workshops & Training For denotes delivered workshop/training relationships. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
+    "relationship_state": "Training, Workshops & Lectures Delivered denotes training, workshops and lectures delivered by Joe Nasr to the listed organizations or their audiences. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
     "workshops_and_training_for": [
       {
         "name": "Government of Dubai Media Office",
