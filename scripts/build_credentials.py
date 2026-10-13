@@ -20,7 +20,8 @@ def escape(value):
 
 def card(r):
     date = r["date"] or "0000"
-    issuer_year = escape(r["issuer"]) + (" · " + escape(r["date"][:4]) if r["date"] else "")
+    summary = r.get("summary") or ("Documented " + r["type"].lower() + " from " + r["issuer"] + " covering " + r["category"].lower() + ".")
+    id_text = '<p class="credential-id">ID: ' + escape(r["credential_id"]) + '</p>' if r.get("credential_id") else ""
     return (
         f'<article class="credential" id="{escape(r["id"])}" data-category="{escape(r["category"])}" '
         f'data-title="{escape(r["title"].lower())}" data-date="{escape(date)}">'
@@ -29,10 +30,9 @@ def card(r):
         f'<span class="paper-name">{escape(r["title"])}</span>'
         f'<span class="paper-issuer">{escape(r["issuer"])}</span></span></div>'
         '<div class="details">'
-        f'<p class="kind">{escape(r["category"])} · {escape(r["type"])}</p>'
         f'<h2>{escape(r["title"])}</h2>'
-        f'<p class="issuer">{issuer_year}</p>'
-        '<p class="evidence">Course completion documented; issuer verification not asserted.</p>'
+        f'{id_text}'
+        f'<p class="what">{escape(summary)}</p>'
         '</div></article>'
     )
 
