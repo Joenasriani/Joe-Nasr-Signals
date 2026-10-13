@@ -500,6 +500,16 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
   line-height: 1.5;
 }
 .client-bank-group li:last-child { margin-bottom: 0; }
+/* Scoped training-audience labels, preview only. Other groups unchanged. */
+.client-bank-group-training .training-audience {
+  display: block;
+  margin-top: 1px;
+  color: #74756f;
+  font: 400 11px/1.4 Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
 .client-bank-note {
   margin: 34px 0 0;
   max-width: 760px;
@@ -1624,29 +1634,29 @@ body.compact .record-url-wrap { margin-top: 8px; }
         <div class="client-bank-group client-bank-group-training">
           <h3>Training, Workshops &amp; Lectures Delivered</h3>
           <ul>
-            <li>Government of Dubai Media Office</li>
-            <li>Dubai Police</li>
-            <li>Abu Dhabi Police</li>
-            <li>UAE Armed Forces</li>
-            <li>Ministry of Culture &amp; Knowledge Development</li>
-            <li>Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi</li>
-            <li>Ministry of Foreign Affairs — Egypt</li>
-            <li>American University in Dubai</li>
-            <li>GEMS Education</li>
-            <li>New Media Academy</li>
-            <li>ITP Media Group</li>
-            <li>Emaar Hospitality Group</li>
-            <li>Cartier Middle East</li>
-            <li>Vision Valley</li>
-            <li>Rove Hotels</li>
-            <li>Dubai Tourism</li>
-            <li>SAE Institute Dubai / SAE University College</li>
-            <li>Reyada Learning &amp; Development / Reyada Center</li>
-            <li>Ministry of Interior</li>
-            <li>Abu Dhabi City Municipality</li>
-            <li>Sharjah Department of Housing</li>
-            <li>Holy Quran Academy in Sharjah</li>
-            <li>Supreme Council for Family Affairs, Sharjah</li>
+            <li>Government of Dubai Media Office<span class="training-audience">Editors, Photographers & Media Teams</span></li>
+            <li>Dubai Police<span class="training-audience">Media Department</span></li>
+            <li>Abu Dhabi Police<span class="training-audience">Media Department</span></li>
+            <li>UAE Armed Forces<span class="training-audience">Abu Dhabi Media Department</span></li>
+            <li>Ministry of Culture &amp; Knowledge Development<span class="training-audience">National Theatre of Abu Dhabi Team</span></li>
+            <li>Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi<span class="training-audience">Event Producers, Designers & Animators</span></li>
+            <li>Ministry of Foreign Affairs — Egypt<span class="training-audience">Social Media Executives</span></li>
+            <li>American University in Dubai<span class="training-audience">Media Workshop Participants</span></li>
+            <li>GEMS Education<span class="training-audience">Canon-Sponsored Education</span></li>
+            <li>New Media Academy<span class="training-audience">Adobe Software Course Participants</span></li>
+            <li>ITP Media Group<span class="training-audience">Executive Editors Department</span></li>
+            <li>Emaar Hospitality Group<span class="training-audience">Graphic Design & Production Team</span></li>
+            <li>Cartier Middle East<span class="training-audience">Social Media Executives</span></li>
+            <li>Vision Valley<span class="training-audience">Marketing Department</span></li>
+            <li>Rove Hotels<span class="training-audience">Social Media Department</span></li>
+            <li>Dubai Tourism<span class="training-audience">Social Media Department</span></li>
+            <li>SAE Institute Dubai / SAE University College<span class="training-audience">Graphic Design & Motion Diploma Participants</span></li>
+            <li>Reyada Learning &amp; Development / Reyada Center<span class="training-audience">Media &amp; Marketing Departments</span></li>
+            <li>Ministry of Interior<span class="training-audience">Social Media Department</span></li>
+            <li>Abu Dhabi City Municipality<span class="training-audience">Media Production</span></li>
+            <li>Sharjah Department of Housing<span class="training-audience">Executive Media Office</span></li>
+            <li>Holy Quran Academy in Sharjah<span class="training-audience">DaVinci Editors &amp; Media Production Teams</span></li>
+            <li>Supreme Council for Family Affairs, Sharjah<span class="training-audience">Media Executive Office</span></li>
           </ul>
           <div class="faq-more"><a href="/training-workshops-lectures/" aria-label="Full Joe Nasr training, workshops and lectures history">more...</a></div>
         </div>
