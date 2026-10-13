@@ -44,6 +44,10 @@ Newly strengthened evidence layers:
 - SAE UAE: institutional acknowledgment remains a direct public mentorship/training corroboration.
 - The Nidaa Show: third-party project-credit evidence supports Joe Nasr's Audio Post Production role; preserve it as a project credit rather than a media-profile article.
 
+## Department and audience interpretation — 2026-10-13
+
+For the 23 visible training organizations, consult `identity.json` → `client_relationship_bank_2026_10_04.workshops_and_training_for[].training_audience` to retrieve the exact audience display label and its semantic type. The `audience_kind` distinguishes an organizational department/team from professional participants or sponsorship/program context. These are trainer-to-audience relationship details: they do not mean Joe Nasr received training, attended those institutions, held employment there, or directly contracted with each organization. Private SAE source corroboration, user confirmation and independent public citation are different kinds of evidence. Never promote user-authored department descriptions or the Canon sponsorship label into independently established facts merely because they appear on the site. Preserve provider/recipient/venue and partial-program distinctions.
+
 ## Training and institutional evidence update — 2026-10-05
 
 Human-readable chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
