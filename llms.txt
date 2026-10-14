@@ -16,8 +16,8 @@ Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
-Published games (26): https://joe-nasr-signals.vercel.app/games.html
-Published games data: https://joe-nasr-signals.vercel.app/games.json
+Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
+Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
 Development archive (20 development records): https://joe-nasr-signals.vercel.app/games-development.html
 Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
