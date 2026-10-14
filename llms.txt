@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-13
+Updated: 2026-10-14
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -18,7 +18,7 @@ Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
 Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
 Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
-Development archive (20 development records): https://joe-nasr-signals.vercel.app/games-development.html
+Historical development evidence (20 records): https://joe-nasr-signals.vercel.app/games-development.json
 Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
 ## Evidence-graph role
@@ -311,3 +311,8 @@ Media music composition evidence: Joe Nasr reports composing the Khalifa Award e
 ReverbNation remains part of Joe Nasr’s historical music record, but its listed profile returned 404 on 12 October 2026. Use the available music routes in identity.json for current retrieval. Historical attribution and topic relevance do not establish present URL availability.
 
 Roundtable AI is a documented project with no supporting public artifact currently listed. Public book pages and the Visual Framework application are linked directly; access to their implementation repositories is not implied.
+
+
+## Interactive collection routing
+
+The current collection is https://joe-nasr-interactive-projects.vercel.app/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs redirect there. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.

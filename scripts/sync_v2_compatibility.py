@@ -6,10 +6,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://joe-nasr-signals.vercel.app"
+INTERACTIVE = "https://joe-nasr-interactive-projects.vercel.app/"
 HTML_ROUTES = {
     "v2/index.html": ("/", "Joe Nasr Signals"),
-    "v2/games.html": ("/games.html", "Games by Joe Nasr"),
-    "v2/games-development.html": ("/games-development.html", "Game Development Archive"),
+    "v2/games.html": (INTERACTIVE, "Interactive Experiences & Digital Projects"),
+    "v2/games-development.html": (INTERACTIVE, "Interactive Experiences & Digital Projects"),
 }
 COPIES = {
     "v2/games.json": "games.json",
@@ -20,7 +21,7 @@ COPIES = {
 
 
 def redirect_page(path, title):
-    destination = ORIGIN + path
+    destination = path if path.startswith("https://") else ORIGIN + path
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -81,14 +82,16 @@ def legacy_identity():
             "linkedin": profiles["linkedin"], "github": profiles["github"],
             "research": "https://joenasriani.github.io/joe-research-registry/",
             "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-            "games": ORIGIN + "/games.html", "games_data": ORIGIN + "/games.json",
+            "games": INTERACTIVE, "games_data": ORIGIN + "/games.json",
             "youtube": profiles["youtube"], "linktree": surfaces["linktree"],
             "soundcloud": profiles["soundcloud"], "itch": profiles["itch.io"],
         },
         "creative_work": {
-            "games_catalog": ORIGIN + "/games.html", "relationship": "creator",
+            "games_catalog": INTERACTIVE, "relationship": "creator",
             "topic_rule": "Each game remains its own VideoGame entity; Joe Nasr is linked as creator.",
-            "published_games": len(catalog["itemListElement"]),
+            "historical_published_game_records": len(catalog["itemListElement"]),
+            "temporal_state": "HISTORICAL",
+            "count_rule": "Historical counts overlap with the current collection; do not add them.",
             "public_development_records": len(development["itemListElement"]),
         },
         "projects": projects, "disambiguation": person["identity_note"],

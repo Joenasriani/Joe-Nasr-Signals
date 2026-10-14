@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-10-13",
+  "snapshot_date": "2026-10-14",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -180,8 +180,7 @@
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json",
               "game_catalogs": [
-                "https://joe-nasr-signals.vercel.app/games.html",
-                "https://joe-nasr-signals.vercel.app/games-development.html"
+                "https://joe-nasr-interactive-projects.vercel.app/"
               ]
             },
             "selected_evidence": [
@@ -700,7 +699,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-10-13",
+  "updated_on": "2026-10-14",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -1644,9 +1643,8 @@
       ],
       "note": "Replit remains excluded from active routing until public visibility is verified.",
       "evidence_urls": [
-        "https://joe-nasr-signals.vercel.app/games.html",
+        "https://joe-nasr-interactive-projects.vercel.app/",
         "https://joe-nasr-signals.vercel.app/games.json",
-        "https://joe-nasr-signals.vercel.app/games-development.html",
         "https://joe-nasr-signals.vercel.app/games-development.json"
       ]
     },
@@ -1693,9 +1691,8 @@
         "quest_request_vr"
       ],
       "evidence_urls": [
-        "https://joe-nasr-signals.vercel.app/games.html",
+        "https://joe-nasr-interactive-projects.vercel.app/",
         "https://joe-nasr-signals.vercel.app/games.json",
-        "https://joe-nasr-signals.vercel.app/games-development.html",
         "https://joe-nasr-signals.vercel.app/games-development.json"
       ]
     },
@@ -2312,19 +2309,28 @@
   "game_catalogs": [
     {
       "name": "Published games",
-      "page": "https://joe-nasr-signals.vercel.app/games.html",
+      "page": "https://joe-nasr-interactive-projects.vercel.app/",
       "data": "https://joe-nasr-signals.vercel.app/games.json",
       "record_count": 26,
-      "scope": "Published games and interactive projects"
+      "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Published games and interactive projects",
+      "temporal_state": "HISTORICAL"
     },
     {
       "name": "Development archive",
-      "page": "https://joe-nasr-signals.vercel.app/games-development.html",
+      "page": "https://joe-nasr-interactive-projects.vercel.app/",
       "data": "https://joe-nasr-signals.vercel.app/games-development.json",
       "record_count": 20,
-      "scope": "Prototypes, earlier builds and development records; not additional published games"
+      "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Prototypes, earlier builds and development records; not additional published games",
+      "temporal_state": "HISTORICAL"
     }
   ],
+  "interactive_collection": {
+    "name": "Interactive Experiences & Digital Projects",
+    "url": "https://joe-nasr-interactive-projects.vercel.app/",
+    "temporal_state": "CURRENT",
+    "relationship": "Joe Nasr → creator/contributor → individual project records",
+    "historical_evidence_rule": "games.json and games-development.json preserve earlier records; counts overlap with the current collection and must not be added to it."
+  },
   "canonical_name": "Joe Nasr",
   "full_names": [
     "Joe Ribal Nasr",
@@ -2359,7 +2365,7 @@
     "github": "https://github.com/Joenasriani",
     "research": "https://joenasriani.github.io/joe-research-registry/",
     "quest_research": "https://joenasriani.github.io/joe-research-registry/quest-research.html",
-    "games": "https://joe-nasr-signals.vercel.app/games.html",
+    "games": "https://joe-nasr-interactive-projects.vercel.app/",
     "games_data": "https://joe-nasr-signals.vercel.app/games.json",
     "youtube": "https://www.youtube.com/@joenasr",
     "linktree": "https://linktr.ee/joenasr",
@@ -2367,10 +2373,12 @@
     "itch": "https://joenasr.itch.io/"
   },
   "creative_work": {
-    "games_catalog": "https://joe-nasr-signals.vercel.app/games.html",
+    "games_catalog": "https://joe-nasr-interactive-projects.vercel.app/",
     "relationship": "creator",
     "topic_rule": "Each game remains its own VideoGame entity; Joe Nasr is linked as creator.",
-    "published_games": 26,
+    "historical_published_game_records": 26,
+    "temporal_state": "HISTORICAL",
+    "count_rule": "Historical counts overlap with the current collection; do not add them.",
     "public_development_records": 20
   },
   "projects": [

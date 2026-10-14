@@ -5,8 +5,8 @@
       "@type": "CollectionPage",
       "@id": "https://joe-nasr-signals.vercel.app/games.html#page",
       "url": "https://joe-nasr-signals.vercel.app/games.html",
-      "name": "Games by Joe Nasr",
-      "description": "Canonical catalog of original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr, organized around gameplay mechanics, genre, platform and official play pages.",
+      "name": "Historical game evidence snapshot",
+      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-interactive-projects.vercel.app/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
       "image": "https://joe-nasr-signals.vercel.app/games-preview.png",
       "mainEntity": {
         "@id": "https://joe-nasr-signals.vercel.app/games.html#games"
@@ -22,7 +22,8 @@
         "@id": "https://joe-nasr-signals.vercel.app/#website"
       },
       "inLanguage": "en",
-      "dateModified": "2026-10-12"
+      "dateModified": "2026-10-12",
+      "creativeWorkStatus": "HISTORICAL"
     },
     {
       "@type": "Person",
@@ -43,8 +44,8 @@
       "@context": "https://schema.org",
       "@type": "ItemList",
       "@id": "https://joe-nasr-signals.vercel.app/games.html#games",
-      "name": "Games by Joe Nasr",
-      "description": "Original browser, puzzle, arcade, educational, mobile and WebXR games created by Joe Nasr.",
+      "name": "Historical game evidence snapshot",
+      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-interactive-projects.vercel.app/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
       "url": "https://joe-nasr-signals.vercel.app/games.html",
       "numberOfItems": 26,
       "itemListOrder": "https://schema.org/ItemListUnordered",
@@ -805,7 +806,8 @@
           }
         }
       ],
-      "image": "https://joe-nasr-signals.vercel.app/games-preview.png"
+      "image": "https://joe-nasr-signals.vercel.app/games-preview.png",
+      "creativeWorkStatus": "HISTORICAL"
     }
   ]
 }

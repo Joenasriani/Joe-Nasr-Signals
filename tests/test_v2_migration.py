@@ -56,38 +56,32 @@ class MigrationChecks(unittest.TestCase):
         path.write_text(text)
         self.rejected("Development anchor mismatch")
 
-    def test_external_catalog_mismatch_is_rejected(self):
+    def test_historical_page_identity_is_preserved(self):
         path = self.root / "games.json"
         data = json.loads(path.read_text())
-        data["@graph"][0]["@id"] = "https://joe-nasr-signals.vercel.app/wrong.html#page"
+        data["@graph"][0]["@id"] = "https://example.invalid/wrong#page"
         path.write_text(json.dumps(data))
         self.sync()
-        self.rejected("schema differs")
+        self.rejected("Historical page identity drift")
 
-    def test_matching_but_wrong_page_identity_is_rejected(self):
+    def test_retired_page_must_not_return(self):
+        (self.root / "games.html").write_text("Obsolete catalog")
+        self.rejected("Retired games.html must remain deleted")
+
+    def test_wrong_current_collection_redirect(self):
+        path = self.root / "vercel.json"
+        data = json.loads(path.read_text())
+        next(r for r in data["redirects"] if r["source"] == "/games.html")["destination"] = "/"
+        path.write_text(json.dumps(data))
+        self.rejected("Wrong redirect for /games.html")
+
+    def test_historical_context_required(self):
         path = self.root / "games.json"
         data = json.loads(path.read_text())
-        data["@graph"][0]["@id"] = "https://joe-nasr-signals.vercel.app/wrong.html#page"
+        data["@graph"][0].pop("creativeWorkStatus")
         path.write_text(json.dumps(data))
-        html = self.root / "games.html"
-        text = re.sub(r'(<script type="application/ld\+json">).*?(</script>)',
-                      lambda m: m.group(1) + json.dumps(data) + m.group(2), html.read_text(), flags=re.S)
-        html.write_text(text)
         self.sync()
-        self.rejected("Page/person identity mismatch")
-
-    def test_visible_source_drift_is_rejected(self):
-        path = self.root / "games.html"
-        text = path.read_text()
-        old = 'href="https://github.com/Joenasriani/cybertruck-madness"'
-        self.assertIn(old, text)
-        path.write_text(text.replace(old, 'href="https://github.com/Joenasriani/teslamadness"'))
-        self.rejected("Visible game link drift")
-
-    def test_visible_experimental_boundary_is_required(self):
-        path = self.root / "games.html"
-        path.write_text(path.read_text().replace("WebXR interaction is experimental; real Meta Quest hardware testing is not yet complete. Published", "Explore creations through WebXR. Published"))
-        self.rejected("experimental boundary")
+        self.rejected("Historical collection context missing")
 
     def test_broken_generator_loses_query_and_fragment(self):
         path = self.root / "scripts/sync_v2_compatibility.py"
@@ -156,11 +150,12 @@ class PublicationChecks(unittest.TestCase):
         self.assertIn("games.json", failures[0])
 
     def test_temporary_redirect_is_not_ready(self):
-        self.assertEqual(len(gate.check_once(opener=PublishedFiles(redirect_status=307))), 10)
+        self.assertEqual(len(gate.check_once(opener=PublishedFiles(redirect_status=307))), len(PublishedFiles().rules))
 
     def test_lost_query_is_not_ready(self):
-        self.assertEqual(len(gate.check_once(opener=PublishedFiles(keep_query=False))), 10)
+        self.assertEqual(len(gate.check_once(opener=PublishedFiles(keep_query=False))), len(PublishedFiles().rules))
 
 
 if __name__ == "__main__":
     unittest.main()
+

@@ -8,6 +8,7 @@ import subprocess
 from urllib.parse import urljoin, urlparse
 
 from sync_v2_compatibility import outputs
+INTERACTIVE = "https://joe-nasr-interactive-projects.vercel.app/"
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://joe-nasr-signals.vercel.app"
@@ -73,8 +74,8 @@ def require(condition, message):
 def validate_redirect_scripts():
     # Execute the actual saved scripts with independent expected destinations.
     # Comparing output to the same generator alone cannot catch a broken generator.
-    routes = {"v2/index.html": "/", "v2/games.html": "/games.html",
-              "v2/games-development.html": "/games-development.html"}
+    routes = {"v2/index.html": "/", "v2/games.html": INTERACTIVE,
+              "v2/games-development.html": INTERACTIVE}
     cases = ["", "?utm_source=old&value=a%2Bb#work", "?q=x%20y#profiles", "#identity"]
     fixtures = []
     for name, path in routes.items():
@@ -83,12 +84,12 @@ def validate_redirect_scripts():
         require("<noscript>" in text and "before ? or #" in text, "Missing manual bookmark fallback: " + name)
         page = Page()
         page.feed(text)
-        require(page.canonical == [ORIGIN + path], "Wrong legacy canonical: " + name)
+        require(page.canonical == [path if path.startswith("https://") else ORIGIN + path], "Wrong legacy canonical: " + name)
         script = re.search(r"<script>(.*?)</script>", text, re.S)
         require(script, "Missing redirect script: " + name)
         for suffix in cases:
             fixtures.append({"script": script.group(1), "input": ORIGIN + "/" + name + suffix,
-                             "expected": ORIGIN + path + suffix})
+                             "expected": (path if path.startswith("https://") else ORIGIN + path) + suffix})
     program = r'''
 const vm = require('node:vm');
 const fs = require('node:fs');
@@ -129,113 +130,42 @@ def validate_legacy_identity():
 
 
 def main():
-    for name in FILES:
-        require((ROOT / name).is_file(), "Missing canonical file: " + name)
-        if not name.endswith(".png"):
-            require("/v2/" not in (ROOT / name).read_text(), "Legacy URL in canonical file: " + name)
-
+    require(not (ROOT / "games.html").exists(), "Retired games.html must remain deleted")
     config = json.loads((ROOT / "vercel.json").read_text())
-    required = {"/v2": "/", "/v2/": "/", "/v2/index.html": "/",
-                "/v2/identity.json": "/identity.json"}
-    required.update({"/v2/" + name: "/" + name for name in FILES})
+    required = {"/v2": "/", "/v2/": "/", "/v2/index.html": "/", "/v2/identity.json": "/identity.json",
+                "/games.html": INTERACTIVE, "/games-development.html": INTERACTIVE,
+                "/v2/games.html": INTERACTIVE, "/v2/games-development.html": INTERACTIVE}
+    for name in ("games.json", "games-development.json", "games-preview.png", "games-preview.svg"):
+        required["/v2/" + name] = "/" + name
     require(len(config["redirects"]) == len(required), "Unexpected redirect rule outside the migration map")
-    for old, new in required.items():
-        rules = [rule for rule in config["redirects"] if rule["source"] == old]
-        require(len(rules) == 1, "Expected one redirect for " + old)
-        require(rules[0]["destination"] == new and rules[0].get("permanent") is True,
-                "Wrong redirect for " + old)
-
+    for source, target in required.items():
+        rows = [r for r in config["redirects"] if r["source"] == source]
+        require(len(rows) == 1 and rows[0]["destination"] == target and rows[0].get("permanent") is True,
+                "Wrong redirect for " + source)
     published = json.loads((ROOT / "games.json").read_text())
-    games = next(node for node in published["@graph"] if node.get("@type") == "ItemList")
-    require(games["numberOfItems"] == len(games["itemListElement"]), "Published game count mismatch")
+    games = next(n for n in published["@graph"] if n.get("@type") == "ItemList")
+    page = next(n for n in published["@graph"] if n.get("@type") == "CollectionPage")
+    require(page["@id"] == ORIGIN + "/games.html#page", "Historical page identity drift")
+    require(games["numberOfItems"] == len(games["itemListElement"]) == 26, "Historical game count mismatch")
+    require(all(n.get("creativeWorkStatus") == "HISTORICAL" and INTERACTIVE in n["description"] for n in (page, games)),
+            "Historical collection context missing")
     development = json.loads((ROOT / "games-development.json").read_text())
-    require(len({row["item"]["@id"] for row in games["itemListElement"]}) == len(games["itemListElement"]),
-            "Duplicate game identity")
-    require(games["@id"] == ORIGIN + "/games.html#games" and games["url"] == ORIGIN + "/games.html",
-            "Wrong published catalog identity")
-    require(development["@id"] == ORIGIN + "/games-development.html#development-games", "Wrong development catalog identity")
-    development_ids = [row["item"].get("@id") for row in development["itemListElement"]]
-    require(all(development_ids) and len(set(development_ids)) == len(development_ids),
-            "Missing development game identity")
+    require(len(development["itemListElement"]) == 20, "Historical development count mismatch")
+    ids = [r["item"].get("@id") for r in development["itemListElement"]]
+    require(all(ids) and len(set(ids)) == len(ids), "Missing development game identity")
     for row in development["itemListElement"]:
         item = row["item"]
-        game_id = item["@id"]
-        require(game_id.startswith(ORIGIN + "/games-development.html#development-")
-                and item.get("url") == game_id, "Development game canonical URL drift: " + item["name"])
-        anchor = game_id.split("#", 1)[1]
-        require('class="record" id="' + anchor + '"' in (ROOT / "games-development.html").read_text(),
-                "Development anchor mismatch: " + item["name"])
-    for html_name, data_name, count in [
-        ("games.html", "games.json", len(games["itemListElement"])),
-        ("games-development.html", "games-development.json", len(development["itemListElement"])),
-    ]:
-        text = (ROOT / html_name).read_text()
-        page = Page()
-        page.feed(text)
-        canonical = ORIGIN + "/" + html_name
-        require(page.canonical == [canonical], "Incorrect canonical: " + html_name)
-        require(page.meta.get("og:url") == canonical, "Incorrect share URL: " + html_name)
-        require(any(urljoin(canonical, link) == ORIGIN + "/" + data_name for link in page.alternate),
-                "Missing machine-readable catalog: " + html_name)
-        require(page.heading_count == count, "Visible/catalog game count mismatch: " + html_name)
-        preview = PREVIEWS[html_name]
-        for key in ("og:image", "twitter:image"):
-            require(page.meta.get(key) == ORIGIN + "/" + preview + ".png", "Incorrect image: " + html_name)
-        for extension in ("png", "svg"):
-            require((ROOT / (preview + "." + extension)).is_file(), "Missing preview: " + preview)
-        png = (ROOT / (preview + ".png")).read_bytes()
-        require(png[:8] == b"\x89PNG\r\n\x1a\n" and struct.unpack(">II", png[16:24]) == (1200, 630),
-                "Invalid preview dimensions: " + preview)
-        svg = (ROOT / (preview + ".svg")).read_text()
-        require("/v2/" not in svg and ORIGIN.removeprefix("https://") + "/" + html_name in svg,
-                "Preview points to the wrong page: " + preview)
-        label = "PUBLISHED" if html_name == "games.html" else "DEVELOPMENT"
-        require(str(count) + " " + label in svg, "Wrong preview count or status: " + preview)
-        for link in page.links:
-            target = urlparse(urljoin(canonical, link))
-            if target.netloc == urlparse(ORIGIN).netloc:
-                path = target.path.lstrip("/") or "index.html"
-                require((ROOT / path).is_file(), "Missing local link: " + link)
-        schemas = [json.loads(block) for block in re.findall(
-            r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', text, re.S)]
-        require(schemas, "Missing page schema: " + html_name)
-        page_node = schemas[0]
-        data = published if data_name == "games.json" else development
-        if html_name == "games.html":
-            require(page_node == data, "Published HTML schema differs from its JSON catalog")
-        if "@graph" in page_node:
-            page_node = next(node for node in page_node["@graph"] if node.get("@type") == "CollectionPage")
-        require(page_node["@id"] == canonical + "#page" and page_node["url"] == canonical
-                and page_node["author"]["@id"] == PERSON,
-                "Page/person identity mismatch: " + html_name)
-        expected_list = games if html_name == "games.html" else development
-        require(page_node["mainEntity"]["@id"] == expected_list["@id"], "Wrong page/catalog link: " + html_name)
-        require(len(page.records) == count, "Visible record count mismatch: " + html_name)
-        for visible, row in zip(page.records, expected_list["itemListElement"]):
-            item = row["item"]
-            require(item.get("creator", {}).get("@id") == PERSON, "Game/person identity drift: " + item["name"])
-            aliases = [item["name"], *([item.get("alternateName")] if isinstance(item.get("alternateName"), str) else item.get("alternateName", []))]
-            if item["name"] == "Happy Collector: Good Habits Adventure":
-                aliases.append("Happy Collector")
-            require(visible["title"] in aliases, "Visible game name drift: " + item["name"])
-            sources = item.get("sameAs", [])
-            if isinstance(sources, str):
-                sources = [sources]
-            for link in visible["links"]:
-                require(link == item.get("url") or link in sources, "Visible game link drift: " + link)
-            if "legocraft" in item.get("url", ""):
-                require("experimental" in visible["description"] and "Meta Quest hardware testing is not yet complete" in visible["description"],
-                        "Visible LegoCraft caption lost the experimental boundary")
-
+        require(item["@id"].startswith(ORIGIN + "/games-development.html#development-") and item.get("url") == item["@id"], "Development identity drift")
+        require('class="record" id="' + item["@id"].split("#", 1)[1] + '"' in (ROOT / "games-development.html").read_text(), "Development anchor mismatch")
+    for row in games["itemListElement"] + development["itemListElement"]:
+        require(row["item"].get("creator", {}).get("@id") == PERSON, "Game/person identity drift")
     sitemap = (ROOT / "sitemap.xml").read_text()
-    require("/v2/" not in sitemap, "Legacy URL in sitemap")
-    for name in ("games.html", "games-development.html"):
-        require(ORIGIN + "/" + name in sitemap, "Missing sitemap entry: " + name)
+    require(ORIGIN + "/games.html" not in sitemap and ORIGIN + "/games-development.html" not in sitemap, "Retired collection in sitemap")
+    validate_legacy_identity()
     for name, expected in outputs().items():
         require((ROOT / name).read_bytes() == expected, "Compatibility file drift: " + name)
-    validate_legacy_identity()
     validate_redirect_scripts()
-    print("Canonical game pages, catalogs, assets and ten legacy redirects are consistent.")
+    print("Current interactive routing, historical evidence and legacy redirects are consistent.")
 
 
 if __name__ == "__main__":

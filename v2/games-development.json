@@ -2,8 +2,8 @@
   "@context": "https://schema.org",
   "@type": "ItemList",
   "@id": "https://joe-nasr-signals.vercel.app/games-development.html#development-games",
-  "name": "Public Game Development Archive",
-  "description": "Public game prototypes, alternate builds and earlier development records, separated from current published releases.",
+  "name": "Historical Game Development Evidence",
+  "description": "Historical prototypes, alternate builds and earlier development records. Current collection: https://joe-nasr-interactive-projects.vercel.app/. Records overlap with the current collection; do not add their count to it.",
   "itemListOrder": "https://schema.org/ItemListUnordered",
   "itemListElement": [
     {

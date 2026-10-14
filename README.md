@@ -188,7 +188,7 @@ https://joe-nasr-signals.vercel.app/
 ## Canonical games routes
 
 - Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
-- Development archive: https://joe-nasr-signals.vercel.app/games-development.html
+- Historical development evidence: https://joe-nasr-signals.vercel.app/games-development.json
 - Historical game records (preserved): https://joe-nasr-signals.vercel.app/games.json
 - Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
@@ -209,3 +209,6 @@ The project index and detail shards share names, aliases, evidence classes and r
 `python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
 
 Source validation does not establish deployment, indexing, search ranking or AI citation. Public verification is a separate release step.
+
+
+The current interactive collection is https://joe-nasr-interactive-projects.vercel.app/. The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; their counts are not additional projects.

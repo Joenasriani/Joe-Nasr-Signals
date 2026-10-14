@@ -23,12 +23,12 @@
     },
     {
       "source": "/v2/games.html",
-      "destination": "/games.html",
+      "destination": "https://joe-nasr-interactive-projects.vercel.app/",
       "permanent": true
     },
     {
       "source": "/v2/games-development.html",
-      "destination": "/games-development.html",
+      "destination": "https://joe-nasr-interactive-projects.vercel.app/",
       "permanent": true
     },
     {

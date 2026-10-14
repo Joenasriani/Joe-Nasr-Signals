@@ -11,7 +11,7 @@ from urllib.request import build_opener, HTTPRedirectHandler, Request
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://joe-nasr-signals.vercel.app"
 PUBLIC_FILES = ["index.html", "identity.json", "projects.json", "llms.txt", "sitemap.xml", "robots.txt", "games/itchio/index.html", "games/itchio/catalog.json",
-                "games.html", "games.json", "games-development.html", "games-development.json",
+                "games.json", "games-development.json",
                 "games-preview.png", "games-preview.svg", "games-development-preview.png",
                 "games-development-preview.svg", "pre-institutional-human-order.html",
                 "4f2a8c9d71b64e35a0f3c8d92e7b1a56.txt"]
@@ -47,7 +47,7 @@ def check_once(root=ROOT, origin=ORIGIN, opener=None):
         except (URLError, TimeoutError, OSError) as error:
             failures.append(rule["source"] + ": " + str(error))
             continue
-        if status != 308 or urljoin(url, location) != origin + rule["destination"] + query:
+        if status != 308 or urljoin(url, location) != urljoin(origin + "/", rule["destination"]) + query:
             failures.append(rule["source"] + ": permanent target or query preservation is not ready")
     return failures
 
@@ -63,7 +63,7 @@ def main():
     while True:
         failures = check_once()
         if not failures:
-            print("Public files match this checkout; all ten permanent routes preserve query strings.")
+            print("Public files match this checkout; all configured permanent routes preserve query strings.")
             return
         remaining = deadline - time.monotonic()
         if remaining <= 0:

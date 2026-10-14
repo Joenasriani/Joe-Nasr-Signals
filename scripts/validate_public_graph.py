@@ -32,9 +32,13 @@ def validate(root=ROOT):
     ):
         node = book_nodes.get(url)
         assert node and title in node['name'] and node['author']['@id'] == ORIGIN + '#joe-nasr', 'Missing supported book schema: ' + title
-    for path in ('games.html', 'games-development.html', 'games.json', 'games-development.json'):
+    interactive = 'https://joe-nasr-interactive-projects.vercel.app/'
+    assert not (root / 'games.html').exists(), 'Retired games.html must remain deleted'
+    assert interactive in html and interactive in guide and interactive in json.dumps(identity), 'Missing current interactive collection'
+    for path in ('games.json', 'games-development.json'):
         url = ORIGIN + path
-        assert url in html and url in guide and url in json.dumps(identity), 'Missing direct catalog route: ' + path
+        assert url in guide and url in json.dumps(identity), 'Missing direct catalog route: ' + path
+    assert all(c['temporal_state'] == 'HISTORICAL' for c in identity['game_catalogs']), 'Historical catalog state missing'
     for phrase in ('verified profiles', 'Verified platform identifiers', 'Verified public handles', 'Verified public identifiers'):
         assert phrase not in html + guide, 'Ambiguous verification label'
     details = {}
@@ -86,15 +90,16 @@ def validate(root=ROOT):
     assert 'reverbnation' not in identity['query_routes']['guitar_music_composer']['surface_ids']
     sitemap = ET.fromstring((root / 'sitemap.xml').read_text())
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-    assert {ORIGIN, ORIGIN+'games.html', ORIGIN+'games-development.html'} <= {x.text for x in sitemap.findall('s:url/s:loc', ns)}
+    assert ORIGIN in {x.text for x in sitemap.findall('s:url/s:loc', ns)}
+    assert not {ORIGIN+'games.html', ORIGIN+'games-development.html'} & {x.text for x in sitemap.findall('s:url/s:loc', ns)}, 'Retired collection in sitemap'
     # First-party machine links must resolve to files in the publication.
-    for name in ['index.html', 'identity.json', 'llms.txt', 'projects.json', 'games.html', 'games-development.html']:
+    for name in ['index.html', 'identity.json', 'llms.txt', 'projects.json', 'games-development.html']:
         text = (root / name).read_text()
         for url in re.findall(r'https://joe-nasr-signals\.vercel\.app/[^\s<>"\']*', text):
             path = urlsplit(url.rstrip('.,;:)')).path.lstrip('/') or 'index.html'
             assert not path.startswith('v2/'), 'Active discovery uses a legacy URL'
-            assert (root / path).exists(), 'Missing internal target: ' + path
-    print('Direct discovery, 49 evidence records, historical snapshot and public boundaries pass.')
+            assert (root / path).exists() or ('/' + path) in {r['source'] for r in json.loads((root / 'vercel.json').read_text())['redirects']}, 'Missing internal target: ' + path
+    print('Direct discovery, 51 evidence records, historical snapshot and public boundaries pass.')
 
 
 if __name__ == '__main__':
