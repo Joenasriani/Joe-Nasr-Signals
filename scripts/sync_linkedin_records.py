@@ -97,7 +97,7 @@ def render_files():
     previous_roles = [role for role in roles if role["end"] != "Present"]
     source_url = identity["linkedin_aligned_work_experience"]["source_url"]
     career_html = (
-        '<details id="linkedin-experience"><summary><span>Q07</span>LinkedIn Experience</summary>'
+        '<details id="linkedin-experience"><summary><span>Q02</span>What professional experience does Joe Nasr have?</summary>'
         '<div class="faq-answer"><p><strong>Current roles:</strong></p><ul>'
         + "".join("<li>" + escape(role["title"]) + "</li>" for role in current_roles)
         + '</ul><p><strong>Previous roles:</strong></p><ul>'
@@ -108,10 +108,10 @@ def render_files():
     )
     html = (ROOT / "index.html").read_text()
     html = replace_once(
-        r'<details(?: id="linkedin-experience")?><summary><span>Q07</span>.*?</details>',
+        r'<details id="linkedin-experience"><summary><span>Q02</span>.*?</details>',
         lambda _: career_html, html, "Q07 LinkedIn Experience entry", flags=re.S,
     )
-    # Q08 is a curated synthesis of education and recovered institutional evidence.
+    # Q04 is a curated synthesis of education and recovered institutional evidence.
     # This role synchronizer must never append or replace its teaching narrative.
     outputs = {"index.html": sync_faq_schema(html)}
     for name in ("README.md", "llms.txt"):
