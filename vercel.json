@@ -54,7 +54,8 @@
   ],
   "git": {
     "deploymentEnabled": {
-      "codex/signals-v2-migration-20261012": false
+      "codex/signals-v2-migration-20261012": false,
+      "codex/signals-design-consistency-20261014": false
     }
   }
 }
