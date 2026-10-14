@@ -187,9 +187,9 @@ https://joe-nasr-signals.vercel.app/
 
 ## Canonical games routes
 
-- Published games: https://joe-nasr-signals.vercel.app/games.html
+- Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
 - Development archive: https://joe-nasr-signals.vercel.app/games-development.html
-- Published games data: https://joe-nasr-signals.vercel.app/games.json
+- Historical game records (preserved): https://joe-nasr-signals.vercel.app/games.json
 - Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
 Vercel redirects the corresponding old `/v2/` paths to these root routes. On GitHub Pages, the old HTML files redirect with JavaScript, preserving query strings and fragments. Without JavaScript, the page offers a manual link and instructions for keeping those suffixes; static hosting cannot transfer them automatically. Catalog JSON and image files are exact compatibility copies. The old identity JSON includes the current canonical record plus synchronized flat legacy fields, preserving their field types and using current supported relationships.
