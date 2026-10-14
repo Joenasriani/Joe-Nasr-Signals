@@ -66,6 +66,7 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
 }
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important;}
 /* Global matte surface: subtle e-paper / printed-stock feel.
    Purely visual; does not affect layout or interaction. */
 body::before,
@@ -1309,7 +1310,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
       <div class="hero-copy">
         <p class="eyebrow"><span></span> PUBLIC WORK ARCHIVE</p>
         <h1 id="heroTitle"><span>JOE</span><span class="outline-word">NASR</span></h1>
-        <p class="hero-intro">Selected work in advertising, visual communication, multimedia production and digital experiences, alongside independent projects in music, education and research.</p>
+        <p class="hero-intro"><strong class="visually-hidden">Creative Director | Digital Experiences | Interactive Prototyping</strong>Selected work in advertising, visual communication, multimedia production and digital experiences, alongside independent projects in music, education and research.</p>
         <div class="identity-names" aria-label="Joe Nasr identity names">
           <span><b>Full name</b> Joseph Ribal Nasr</span>
           <span><b>Name variant</b> Joe Ribal Nasr</span>
