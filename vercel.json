@@ -50,6 +50,11 @@
       "source": "/v2/games-preview.svg",
       "destination": "/games-preview.svg",
       "permanent": true
+    },
+    {
+      "source": "/games-development.html",
+      "destination": "https://joe-nasr-interactive-projects.vercel.app/",
+      "permanent": true
     }
   ],
   "git": {
