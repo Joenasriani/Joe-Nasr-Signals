@@ -398,7 +398,7 @@
       "Ministry of Culture and Knowledge Development",
       "the Executive Office of Her Highness Sheikha Jawaher bint Mohammed bin Sultan Al Qasimi",
       "Reyada Centre",
-      "Ministry of Foreign Affairs — Egypt",
+      "Ministry of Foreign Affairs – Egypt",
       "New Media Academy",
       "American University in Dubai (AUD)",
       "Emaar Properties",
@@ -1839,7 +1839,7 @@
       "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
     },
     {
-      "label": "The Structure of Life — The Structure of Reasoning",
+      "label": "The Structure of Life – The Structure of Reasoning",
       "url": "https://the-structure-of-life.vercel.app/",
       "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
     },
@@ -1998,7 +1998,7 @@
         }
       },
       {
-        "name": "Ministry of Foreign Affairs — Egypt",
+        "name": "Ministry of Foreign Affairs – Egypt",
         "relationship": "workshop / training recipient context",
         "status": "USER_CONFIRMED",
         "training_audience": {
@@ -2027,8 +2027,8 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2017",
         "programs": [
-          "Elements & Principles of Design — Basic 02",
-          "Understanding the Digital Camera — Basic B2"
+          "Elements & Principles of Design – Basic 02",
+          "Understanding the Digital Camera – Basic B2"
         ],
         "delivery_status": "DELIVERED / HISTORICAL",
         "boundary": "GEMS is the training recipient. Canon appears in the training route/ecosystem for one record; do not recast Canon as a separate recipient or client without stronger evidence.",
@@ -2295,7 +2295,7 @@
   },
   "training_programs": [
     {
-      "name": "DaVinci Resolve Mastery — Holy Quran Academy in Sharjah",
+      "name": "DaVinci Resolve Mastery – Holy Quran Academy in Sharjah",
       "person": "Joe Nasr",
       "role": "Trainer",
       "recipient": "Holy Quran Academy in Sharjah",

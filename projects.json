@@ -480,7 +480,7 @@
       "id": "SYN-0332",
       "name": "Manipulation: The Fool and the Wise",
       "aliases": [
-        "Manipulation — The Fool and the Wise",
+        "Manipulation – The Fool and the Wise",
         "Manipulation"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
@@ -502,7 +502,7 @@
     },
     {
       "id": "SYN-GMC-001",
-      "name": "GMC campaign — Capital D Studio",
+      "name": "GMC campaign – Capital D Studio",
       "aliases": [
         "GMC campaign",
         "GMC commercial"
@@ -514,7 +514,7 @@
     },
     {
       "id": "SYN-CHEV-TRAVERSE-001",
-      "name": "Chevrolet Arabia — All-New Traverse #BetterDriver",
+      "name": "Chevrolet Arabia – All-New Traverse #BetterDriver",
       "aliases": [
         "The All-New Traverse - Technology That Helps Make A #BetterDriver",
         "Chevrolet Traverse #BetterDriver"
@@ -537,7 +537,7 @@
       "id": "SYN-PUB-20261012-001",
       "name": "Mamdani: From Zero to Hero",
       "aliases": [
-        "Mamdani: From Zero to Hero — Through the Eyes of a Doomscroller"
+        "Mamdani: From Zero to Hero – Through the Eyes of a Doomscroller"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
       "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",

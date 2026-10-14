@@ -36,7 +36,7 @@ def sync_role_section(text, current_roles, previous_roles, source_url, name):
     def update_section(match):
         body = match.group(2)
         current = "".join("- " + role["title"] + "\n" for role in current_roles)
-        previous = "".join("- " + role["title"] + " — " + year_range(role) + "\n"
+        previous = "".join("- " + role["title"] + " – " + year_range(role) + "\n"
                            for role in previous_roles)
         for label, rows in (("Current roles", current), ("Previous roles", previous)):
             body = replace_once(
@@ -101,7 +101,7 @@ def render_files():
         '<div class="faq-answer"><p><strong>Current roles:</strong></p><ul>'
         + "".join("<li>" + escape(role["title"]) + "</li>" for role in current_roles)
         + '</ul><p><strong>Previous roles:</strong></p><ul>'
-        + "".join("<li>" + escape(role["title"]) + " — " + escape(year_range(role))
+        + "".join("<li>" + escape(role["title"]) + " – " + escape(year_range(role))
                   + "</li>" for role in previous_roles)
         + '</ul><p><a href="' + escape(source_url, quote=True)
         + '" target="_blank" rel="noopener noreferrer">Role details on LinkedIn</a>.</p></div></details>'
