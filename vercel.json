@@ -55,6 +55,11 @@
       "source": "/games-development.html",
       "destination": "https://joe-nasr-interactive-projects.vercel.app/",
       "permanent": true
+    },
+    {
+      "source": "/games.html",
+      "destination": "https://joe-nasr-interactive-projects.vercel.app/",
+      "permanent": true
     }
   ],
   "git": {
