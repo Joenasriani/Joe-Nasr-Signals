@@ -699,7 +699,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-17",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -2020,7 +2020,7 @@
       },
       {
         "name": "GEMS Education",
-        "relationship": "instructor / trainer → delivered design-principles and digital-camera training for GEMS educators and staff; Canon / GEMS route",
+        "relationship": "Delivered design training in the GEMS Education context; Canon-sponsored camera and photography education was delivered to students.",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2017",
         "programs": [
@@ -2028,14 +2028,15 @@
           "Understanding the Digital Camera – Basic B2"
         ],
         "delivery_status": "DELIVERED / HISTORICAL",
-        "boundary": "GEMS is the training recipient. Canon appears in the training route/ecosystem for one record; do not recast Canon as a separate recipient or client without stronger evidence.",
+        "boundary": "Canon was a sponsor, not a training recipient. Sponsorship and student audience are user-confirmed; do not infer Canon staff training, direct employment or independent public verification.",
         "training_audience": {
           "display_label": "Canon-Sponsored Education",
           "audience_kind": "program_or_sponsorship_context",
           "evidence_status": "USER_REPORTED_SPONSORSHIP_UNVERIFIED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
-          "boundary": "Canon/GEMS training context documented. Canon sponsorship is not independently established. Label is program context rather than department."
-        }
+          "boundary": "Canon-sponsored education for students is user-confirmed program context, not an organizational department or proof of training Canon staff."
+        },
+        "superseded_relationship_2026_10_17": "instructor / trainer → delivered design-principles and digital-camera training for GEMS educators and staff; Canon / GEMS route"
       },
       {
         "name": "New Media Academy",
@@ -2330,5 +2331,26 @@
     "temporal_state": "CURRENT",
     "relationship": "Joe Nasr → creator/contributor → individual project records",
     "historical_evidence_rule": "games.json and games-development.json preserve earlier records; counts overlap with the current collection and must not be added to it."
+  },
+  "external_libraries": {
+    "role": "Full subject libraries; Signals remains the curated canonical identity and routing hub.",
+    "libraries": [
+      {
+        "name": "Campaigns & Video Productions",
+        "url": "https://joe-nasr-video-campaigns.vercel.app/"
+      },
+      {
+        "name": "Interactive Experiences & Digital Projects",
+        "url": "https://joe-nasr-interactive-projects.vercel.app/"
+      },
+      {
+        "name": "Certifications & Credentials",
+        "url": "https://joe-nasr-certifications.vercel.app/"
+      },
+      {
+        "name": "Guitar Originals & Covers",
+        "url": "https://joe-nasr-guitar.vercel.app/"
+      }
+    ]
   }
 }
