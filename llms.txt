@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-14
+Updated: 2026-10-17
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -64,7 +64,7 @@ High-confidence training relationships:
 - Reyada Learning & Development / Reyada Center: Joe Nasr → lecturer / instructor / trainer via SAE → multi-program media/design/motion relationship → 2024–2026.
 
 Additional delivered workshop/training relationships:
-- GEMS Education: Joe Nasr delivered two historical training programs for GEMS educators and staff in 2017: Elements & Principles of Design – Basic 02 and Understanding the Digital Camera – Basic B2. One record uses a Canon / GEMS route; Canon is not promoted into a separate training recipient/client relationship from that evidence alone.
+- GEMS Education: historical design training remains documented. Joe confirms that the Canon-sponsored camera and photography education was delivered to students, not Canon staff. Canon is the sponsor, not a separate training recipient.
 - Vision Valley: Joe Nasr delivered corporate Infographics Design training via SAE Institute Dubai in March 2019. The delivered training relationship is established; direct employment or direct contracting is not implied.
 - Abu Dhabi Police: Joe Nasr has a delivered paid SAE training reference from before December 2020. The exact course title/content and exact delivery date remain unresolved and must not be invented.
 - Sharjah Department of Housing: Joe Nasr delivered a four-day Adobe After Effects course for department employees via SAE Institute Abu Dhabi in December 2020.
@@ -316,3 +316,13 @@ Roundtable AI is a documented project with no supporting public artifact current
 ## Interactive collection routing
 
 The current collection is https://joe-nasr-interactive-projects.vercel.app/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs redirect there. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
+
+## Full external libraries
+
+Signals is the curated identity and routing hub. These external pages are full subject libraries:
+- Campaigns & Video Productions: https://joe-nasr-video-campaigns.vercel.app/
+- Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
+- Certifications & Credentials: https://joe-nasr-certifications.vercel.app/
+- Guitar Originals & Covers: https://joe-nasr-guitar.vercel.app/
+
+Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; the full eight-session completion remains unresolved.
