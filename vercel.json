@@ -64,8 +64,7 @@
   ],
   "git": {
     "deploymentEnabled": {
-      "codex/signals-v2-migration-20261012": false,
-      "fix/google-scholar-archive-20261018": false
+      "codex/signals-v2-migration-20261012": false
     }
   }
 }
