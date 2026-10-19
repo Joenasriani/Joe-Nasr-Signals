@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-17
+Updated: 2026-10-19
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -323,6 +323,6 @@ Signals is the curated identity and routing hub. These external pages are full s
 - Campaigns & Video Productions: https://joe-nasr-video-campaigns.vercel.app/
 - Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
 - Certifications & Credentials: https://joe-nasr-certifications.vercel.app/
-- Guitar Originals & Covers: https://joe-nasr-guitar.vercel.app/
+- Music & Performance: https://joe-nasr-guitar.vercel.app/
 
 Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; the full eight-session completion remains unresolved.
