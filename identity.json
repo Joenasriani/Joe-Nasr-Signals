@@ -63,6 +63,7 @@
             "front_page_selected_evidence_relationship": "campaign work",
             "front_page_selected_evidence": [
               "Mercedes-Benz",
+              "Emaar Properties",
               "Dubai Culture and Arts Authority",
               "Noon",
               "GMC"
@@ -82,6 +83,7 @@
             },
             "front_page_selected_evidence": [
               "Maybelline New York",
+              "NYX Professional Makeup",
               "Estée Lauder",
               "Sephora",
               "Chopard"
@@ -123,7 +125,6 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
-              "NYX Professional Makeup",
               "L'Azurde",
               "Jotun",
               "Daoversal",
