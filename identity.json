@@ -1114,6 +1114,29 @@
       }
     },
     {
+      "id": "google_scholar",
+      "name": "Joe Nasr on Google Scholar",
+      "platform": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=V_8fZGQAAAAJ&hl=en",
+      "category": [
+        "Research",
+        "Publications"
+      ],
+      "subtopics": [
+        "research",
+        "publications",
+        "author profile"
+      ],
+      "temporal_state": "UNKNOWN",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "UNRESOLVED",
+      "relationship_to_joe": "AUTHOR_PROFILE",
+      "query_relevance": {
+        "Joe Nasr Google Scholar": "HIGH",
+        "Joe Nasr research": "MEDIUM"
+      }
+    },
+    {
       "id": "linktree",
       "name": "Joe Nasr on Linktree",
       "platform": "Linktree",
