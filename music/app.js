@@ -1,0 +1,3 @@
+const search=document.querySelector('#search'),clear=document.querySelector('#clear'),cards=[...document.querySelectorAll('.video-card')],summary=document.querySelector('#inventory-summary'),empty=document.querySelector('#empty');
+function draw(){const q=search.value.trim().toLocaleLowerCase();let count=0;for(const c of cards){c.hidden=!c.textContent.toLocaleLowerCase().includes(q);if(!c.hidden)count++}summary.textContent=`${count} of ${cards.length} music videos`;empty.hidden=count!==0}
+search.addEventListener('input',draw);clear.addEventListener('click',()=>{search.value='';draw();search.focus()});draw();
