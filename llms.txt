@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-19
+Updated: 2026-10-23
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -15,6 +15,10 @@ Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
+Research & Publications (DOI-linked records): https://joe-nasr-signals.vercel.app/publications/
+Research registry (includes technical studies and work in development): https://joenasriani.github.io/joe-research-registry/
+Research registry source: https://github.com/Joenasriani/joe-research-registry
+Publication distinction: a DOI identifies a deposited publication and does not establish peer review or experimental validation.
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
 Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
 Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
