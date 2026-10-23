@@ -16,7 +16,7 @@ Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
-Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
+Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
 Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
 Historical development evidence (20 records): https://joe-nasr-signals.vercel.app/games-development.json
 Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
@@ -315,14 +315,15 @@ Roundtable AI is a documented project with no supporting public artifact current
 
 ## Interactive collection routing
 
-The current collection is https://joe-nasr-interactive-projects.vercel.app/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs redirect there. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
+The current collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs currently redirect to the original external collection at https://joe-nasr-interactive-projects.vercel.app/. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
 
-## Full external libraries
+## Subject libraries inside Signals
 
-Signals is the curated identity and routing hub. These external pages are full subject libraries:
-- Campaigns & Video Productions: https://joe-nasr-video-campaigns.vercel.app/
-- Interactive Experiences & Digital Projects: https://joe-nasr-interactive-projects.vercel.app/
-- Certifications & Credentials: https://joe-nasr-certifications.vercel.app/
-- Music & Performance: https://joe-nasr-guitar.vercel.app/
+Signals is the canonical identity and routing hub. These full subject libraries now also reside within Signals. Original external sites remain accessible as alternate public library locations:
+- Research & Publications: https://joe-nasr-signals.vercel.app/publications/ (external copy: https://joe-nasr-publications.vercel.app/) 
+- Campaigns & Video Productions: https://joe-nasr-signals.vercel.app/video-campaigns/ (external copy: https://joe-nasr-video-campaigns.vercel.app/)
+- Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/ (external copy: https://joe-nasr-interactive-projects.vercel.app/)
+- Certifications & Credentials: https://joe-nasr-signals.vercel.app/certifications/ (external copy: https://joe-nasr-certifications.vercel.app/)
+- Music & Performance: https://joe-nasr-signals.vercel.app/music/ (external copy: https://joe-nasr-guitar.vercel.app/)
 
 Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; the full eight-session completion remains unresolved.
