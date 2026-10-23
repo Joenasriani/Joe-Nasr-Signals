@@ -133,8 +133,8 @@ def main():
     require(not (ROOT / "games.html").exists(), "Retired games.html must remain deleted")
     config = json.loads((ROOT / "vercel.json").read_text())
     required = {"/v2": "/", "/v2/": "/", "/v2/index.html": "/", "/v2/identity.json": "/identity.json",
-                "/games.html": INTERACTIVE, "/games-development.html": INTERACTIVE,
-                "/v2/games.html": INTERACTIVE, "/v2/games-development.html": INTERACTIVE}
+                "/games.html": "/interactive-projects/", "/games-development.html": "/interactive-projects/",
+                "/v2/games.html": "/interactive-projects/", "/v2/games-development.html": "/interactive-projects/"}
     for name in ("games.json", "games-development.json", "games-preview.png", "games-preview.svg"):
         required["/v2/" + name] = "/" + name
     require(len(config["redirects"]) == len(required), "Unexpected redirect rule outside the migration map")
