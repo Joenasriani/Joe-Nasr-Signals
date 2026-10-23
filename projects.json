@@ -326,9 +326,10 @@
     },
     {
       "id": "SYN-0278",
-      "name": "Visual Framework System App",
+      "name": "Visual Framework Application",
       "aliases": [
         "VFA",
+        "Visual Framework Application",
         "Visual Framework System App"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
