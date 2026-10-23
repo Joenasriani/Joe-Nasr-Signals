@@ -90,9 +90,10 @@
     },
     {
       "id": "SYN-0278",
-      "name": "Visual Framework System App",
+      "name": "Visual Framework Application",
       "aliases": [
         "VFA",
+        "Visual Framework Application",
         "Visual Framework System App"
       ],
       "organization": "Independent technical / research / interactive lab",
