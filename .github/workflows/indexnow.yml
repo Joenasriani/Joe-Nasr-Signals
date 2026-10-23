@@ -21,6 +21,11 @@ on:
       - "games-development-preview.svg"
       - "pre-institutional-human-order.html"
       - "sitemap.xml"
+      - "publications/**"
+      - "certifications/**"
+      - "interactive-projects/**"
+      - "video-campaigns/**"
+      - "music/**"
 
 permissions:
   contents: read
@@ -74,6 +79,21 @@ jobs:
               games-development.html|games-development.json|games-development-preview.png|games-development-preview.svg)
                 add_url "https://joe-nasr-signals.vercel.app/games-development.json"
                 add_url "https://joe-nasr-signals.vercel.app/games-development.html"
+                ;;
+              publications/*)
+                add_url "https://joe-nasr-signals.vercel.app/publications/"
+                ;;
+              certifications/*)
+                add_url "https://joe-nasr-signals.vercel.app/certifications/"
+                ;;
+              interactive-projects/*)
+                add_url "https://joe-nasr-signals.vercel.app/interactive-projects/"
+                ;;
+              video-campaigns/*)
+                add_url "https://joe-nasr-signals.vercel.app/video-campaigns/"
+                ;;
+              music/*)
+                add_url "https://joe-nasr-signals.vercel.app/music/"
                 ;;
               pre-institutional-human-order.html)
                 add_url "https://joe-nasr-signals.vercel.app/pre-institutional-human-order.html"
