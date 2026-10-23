@@ -182,7 +182,7 @@
               ],
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json",
               "game_catalogs": [
-                "https://joe-nasr-interactive-projects.vercel.app/"
+                "https://joe-nasr-signals.vercel.app/interactive-projects/"
               ]
             },
             "selected_evidence": [
@@ -1668,7 +1668,7 @@
       ],
       "note": "Replit remains excluded from active routing until public visibility is verified.",
       "evidence_urls": [
-        "https://joe-nasr-interactive-projects.vercel.app/",
+        "https://joe-nasr-signals.vercel.app/interactive-projects/",
         "https://joe-nasr-signals.vercel.app/games.json",
         "https://joe-nasr-signals.vercel.app/games-development.json"
       ]
@@ -1716,7 +1716,7 @@
         "quest_request_vr"
       ],
       "evidence_urls": [
-        "https://joe-nasr-interactive-projects.vercel.app/",
+        "https://joe-nasr-signals.vercel.app/interactive-projects/",
         "https://joe-nasr-signals.vercel.app/games.json",
         "https://joe-nasr-signals.vercel.app/games-development.json"
       ]
@@ -2336,7 +2336,7 @@
   "game_catalogs": [
     {
       "name": "Published games",
-      "page": "https://joe-nasr-interactive-projects.vercel.app/",
+      "page": "https://joe-nasr-signals.vercel.app/interactive-projects/",
       "data": "https://joe-nasr-signals.vercel.app/games.json",
       "record_count": 26,
       "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Published games and interactive projects",
@@ -2344,7 +2344,7 @@
     },
     {
       "name": "Development archive",
-      "page": "https://joe-nasr-interactive-projects.vercel.app/",
+      "page": "https://joe-nasr-signals.vercel.app/interactive-projects/",
       "data": "https://joe-nasr-signals.vercel.app/games-development.json",
       "record_count": 20,
       "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Prototypes, earlier builds and development records; not additional published games",
@@ -2353,29 +2353,33 @@
   ],
   "interactive_collection": {
     "name": "Interactive Experiences & Digital Projects",
-    "url": "https://joe-nasr-interactive-projects.vercel.app/",
+    "url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
     "temporal_state": "CURRENT",
     "relationship": "Joe Nasr → creator/contributor → individual project records",
     "historical_evidence_rule": "games.json and games-development.json preserve earlier records; counts overlap with the current collection and must not be added to it."
   },
   "external_libraries": {
-    "role": "Full subject libraries; Signals remains the curated canonical identity and routing hub.",
+    "role": "Subject libraries hosted within Signals; original external libraries remain alternate public access points.",
     "libraries": [
       {
         "name": "Campaigns & Video Productions",
-        "url": "https://joe-nasr-video-campaigns.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/video-campaigns/",
+        "alternate_url": "https://joe-nasr-video-campaigns.vercel.app/"
       },
       {
         "name": "Interactive Experiences & Digital Projects",
-        "url": "https://joe-nasr-interactive-projects.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
+        "alternate_url": "https://joe-nasr-interactive-projects.vercel.app/"
       },
       {
         "name": "Certifications & Credentials",
-        "url": "https://joe-nasr-certifications.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/certifications/",
+        "alternate_url": "https://joe-nasr-certifications.vercel.app/"
       },
       {
         "name": "Music & Performance",
-        "url": "https://joe-nasr-guitar.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/music/",
+        "alternate_url": "https://joe-nasr-guitar.vercel.app/"
       }
     ]
   }
