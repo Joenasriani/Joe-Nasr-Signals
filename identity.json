@@ -2382,5 +2382,11 @@
         "alternate_url": "https://joe-nasr-guitar.vercel.app/"
       }
     ]
+  },
+  "research_publication_references": {
+    "publications_library": "https://joe-nasr-signals.vercel.app/publications/",
+    "research_registry": "https://joenasriani.github.io/joe-research-registry/",
+    "research_registry_source": "https://github.com/Joenasriani/joe-research-registry",
+    "scope": "Refer to the publications library for DOI-linked published records; the research registry also includes technical studies and works in development. Do not infer peer review or implementation validation from a DOI."
   }
 }
