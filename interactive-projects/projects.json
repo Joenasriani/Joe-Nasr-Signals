@@ -1,0 +1,1720 @@
+{
+  "title": "Interactive Experiences & Digital Projects",
+  "collection_type": "curated_public_archive",
+  "version": "2026-10-14-robosim-release-consolidation",
+  "publication_status": "PUBLIC_ARCHIVE",
+  "identity_reference": "https://joe-nasr-signals.vercel.app/",
+  "sources": [
+    "https://joenasr.itch.io/",
+    "https://github.com/Joenasriani",
+    "https://joe-nasr-signals.vercel.app/"
+  ],
+  "count": 77,
+  "projects": [
+    {
+      "id": "robosim",
+      "title": "RoboSim",
+      "category": "Robotics & Simulation",
+      "description": "Educational browser robot programming and simulation with sequenced instructions and logic puzzles.",
+      "status": "In development / public itch.io listing; runtime not tested",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/robosim"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/robo-web-sim"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "Simulations"
+      ],
+      "historical_itch_title_2026_09_22": "RoboSim (Early Access)",
+      "alternate_titles": [
+        "RoboSim (Early Access)"
+      ],
+      "itch_status_observed": "In development",
+      "itch_status_observed_on": "2026-10-14",
+      "development_note": "Itch.io currently identifies RoboSim as In development.",
+      "visible_in_collection": false,
+      "record_role": "related_itch_release",
+      "parent_project_id": "robowebsim",
+      "relationship_note": "Public itch.io RoboSim release associated with the RoboWebSim simulator and its shared GitHub repository. Retained as a source/release record, not a second independent project."
+    },
+    {
+      "id": "brick-xr-builder",
+      "title": "Brick XR Builder",
+      "category": "3D & XR",
+      "description": "Browser-based brick building and construction with experimental WebXR interaction.",
+      "status": "In development / public itch.io listing; runtime not tested",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/brickxr"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/legocraft"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/the-lego-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "XR & Immersive"
+      ],
+      "historical_itch_title_2026_09_22": "BRICK XR BUILDER (EARLY ACCESS)",
+      "alternate_titles": [
+        "BRICK XR BUILDER (EARLY ACCESS)"
+      ],
+      "itch_status_observed": "In development",
+      "itch_status_observed_on": "2026-10-14",
+      "development_note": "VR / WebXR mode is Beta and actively evolving (itch.io public project notes)."
+    },
+    {
+      "id": "diorama",
+      "title": "Diorama",
+      "category": "Spatial & Puzzle",
+      "description": "Isometric 3D mechanical puzzle with switches, lifts, bridges and route planning.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/diorama"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/diorama-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "ascension",
+      "title": "Ascension",
+      "category": "Spatial & Puzzle",
+      "description": "Isometric architectural puzzle with geometric routes and spatial progression.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/ascension"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/ascension-opt"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/ascension-opt-playstore"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "pathway",
+      "title": "Pathway",
+      "category": "Spatial & Puzzle",
+      "description": "Thirty-level browser reflection puzzle with lenses, mirrors and directed light.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/pathway"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/pathway-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "ar-tetris-xr",
+      "title": "Spatial Tetris XR",
+      "category": "3D & XR",
+      "description": "Spatial falling-block game for mobile AR and mixed reality on Meta Quest VR headsets. Its current WebXR mode uses immersive-ar, not a separate immersive-vr session; device compatibility still needs independent validation.",
+      "status": "In development / public itch.io listing; runtime not tested",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/artetris"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/spatial-tetris-xr"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "XR & Immersive"
+      ],
+      "historical_itch_title_2026_09_22": "AR TETRIS - Mobile/MetaQuest",
+      "alternate_titles": [
+        "AR Tetris XR",
+        "AR TETRIS - Mobile/MetaQuest"
+      ],
+      "itch_status_observed": "In development",
+      "itch_status_observed_on": "2026-10-14",
+      "platform_modes": [
+        {
+          "platform": "Mobile",
+          "experience": "Augmented reality (AR)",
+          "technical_mode": "WebXR immersive-ar"
+        },
+        {
+          "platform": "Meta Quest VR headset",
+          "experience": "Mixed reality (MR) using passthrough",
+          "technical_mode": "WebXR immersive-ar; no standalone immersive-vr session in current source",
+          "verification": "Headset runtime not independently tested in this audit"
+        }
+      ],
+      "naming_note": "Spatial Tetris XR is the current archive title. The former AR Tetris XR name and historic itch.io title are preserved as aliases. XR is the umbrella category for mobile AR and Quest headset MR."
+    },
+    {
+      "id": "hand-drone-xs",
+      "title": "Hand Drone XS",
+      "category": "Human-Computer Interaction",
+      "description": "Browser arcade game controlled through webcam hand tracking.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/hand-drone-xs"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/hand-drone-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "paradigm-shift",
+      "title": "Paradigm Shift",
+      "category": "Spatial & Puzzle",
+      "description": "Perspective-shifting browser puzzle with spatial relationships and hidden paths.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/paradigm-shift"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/paradigm-shift-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "robowebsim",
+      "title": "RoboWebSim",
+      "category": "Robotics & Simulation",
+      "description": "Browser-based 3D robotics simulator with Blockly programming, editable arenas, virtual sensors and lessons. The RoboSim itch.io game is a related public release.",
+      "status": "Prototype / source documented",
+      "type": "Web application",
+      "links": [
+        {
+          "label": "Public Demo",
+          "url": "https://robo-web-sim.vercel.app"
+        },
+        {
+          "label": "RoboSim on itch.io",
+          "url": "https://joenasr.itch.io/robosim"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/robo-web-sim"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Simulations"
+      ],
+      "visible_in_collection": true,
+      "related_release_ids": [
+        "robosim"
+      ],
+      "relationship_note": "RoboSim is the linked itch.io release of the same documented simulator lineage; StudioSim is a separate creative-production learning platform."
+    },
+    {
+      "id": "studiosim",
+      "title": "StudioSim",
+      "category": "3D & XR",
+      "description": "Interactive WebGL and WebXR creative-production learning rooms with course and lesson framework",
+      "status": "Prototype / source documented",
+      "type": "Interactive education platform",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/studiosim"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "XR & Immersive",
+        "Simulations"
+      ]
+    },
+    {
+      "id": "quest-4d",
+      "title": "Quest-4D",
+      "category": "3D & XR",
+      "description": "Interactive projection and rotation of four-dimensional geometry, not literal 4D spatial perception",
+      "status": "Prototype / source documented",
+      "type": "Visualization",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://joenasriani.github.io/quest-4d/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quest-4d"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "XR & Immersive"
+      ]
+    },
+    {
+      "id": "4d-tesseract-simulator",
+      "title": "4D Tesseract Simulator",
+      "category": "3D & XR",
+      "description": "Browser visualization of four-dimensional hypercube rotations through lower-dimensional projection",
+      "status": "Prototype / source documented",
+      "type": "Visualization",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://joenasriani.github.io/4d-tesseract-simulator/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/4d-tesseract-simulator"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "XR & Immersive",
+        "Simulations"
+      ]
+    },
+    {
+      "id": "aether3d",
+      "title": "Aether3D",
+      "category": "Creative Digital Tools",
+      "description": "3D asset design and preview prototype with editable parameters and export options",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/aether3d"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "cosmic-velocity-gyro-control",
+      "title": "Cosmic Velocity: Gyro Control",
+      "category": "Games & Play",
+      "description": "Mobile space game controlled through device tilt and gyroscope.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/cosmic-velocity"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "happy-collector-good-habits-adventure",
+      "title": "Happy Collector: Good Habits Adventure",
+      "category": "Games & Play",
+      "description": "3D educational browser platformer based on good and bad habit collection.",
+      "status": "In development / public itch.io listing; runtime not tested",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/happy-collector"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-happy-collector"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ],
+      "historical_itch_title_2026_09_22": "Happy Collector - Good Habits Adventure!",
+      "alternate_titles": [
+        "Happy Collector - Good Habits Adventure!"
+      ],
+      "itch_status_observed": "In development",
+      "itch_status_observed_on": "2026-10-14"
+    },
+    {
+      "id": "visual-framework-system-app",
+      "title": "Visual Framework Application",
+      "category": "Creative Digital Tools",
+      "description": "Node-based visual reasoning and interactive framework system",
+      "status": "Private-source / public demo",
+      "type": "Application (public demo; source repository private)",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://visual-framework-system.vercel.app"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "facial-gesture-interpretation-engine-aeon",
+      "title": "Facial Gesture Interpretation Engine / AEON",
+      "category": "Human-Computer Interaction",
+      "description": "Browser camera and audio measurement experiments with explicitly limited inferential scope",
+      "status": "Prototype / source documented",
+      "type": "HCI prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://facial-gesture-interpretation-engin.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/facial-gesture-interpretation-engine"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "routing-protocol",
+      "title": "Routing Protocol",
+      "category": "Spatial & Puzzle",
+      "description": "Networking puzzle that connects packet routes through constrained nodes.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/routing-protocol"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/routing-protocol-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "gibberlink-academy",
+      "title": "GibberLink Academy",
+      "category": "Educational Interactive",
+      "description": "Educational signal and pattern-recognition game inspired by machine communication.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/gibberlink-academy"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "intellicourse-creator",
+      "title": "IntelliCourse Creator",
+      "category": "Educational Interactive",
+      "description": "Interactive course-building application producing syllabus, lessons, practice and quizzes",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://deep-course-creator.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/deep-course-creator"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "davinci-resolve-student-tutorial",
+      "title": "DaVinci Resolve Student Tutorial",
+      "category": "Educational Interactive",
+      "description": "Browser-based multi-part interactive teaching tutorial with navigation and assessment",
+      "status": "Prototype / source documented",
+      "type": "Educational experience",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://joenasriani.github.io/davinci-tutorial/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/davinci-tutorial"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "quantum-entanglement",
+      "title": "Quantum Entanglement",
+      "category": "Spatial & Puzzle",
+      "description": "Dual-control particle-routing browser puzzle, not a quantum simulator.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/quantum-entanglement"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quantum-entanglement-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "ball-sort-3d",
+      "title": "Ball Sort 3D",
+      "category": "Spatial & Puzzle",
+      "description": "3D ball sorting game using constrained tube moves.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/ball-sort-3d"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/ball-sorting-puzzle"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "rubber-river-cam",
+      "title": "Rubber River Cam",
+      "category": "Human-Computer Interaction",
+      "description": "Real-time camera visual effects with MediaPipe hand and face tracking",
+      "status": "Prototype / source documented",
+      "type": "Visual interaction prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/rubber-river-cam"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "quantum-game-engine",
+      "title": "Quantum Game Engine",
+      "category": "Creative Digital Tools",
+      "description": "Experimental TypeScript game-engine components with a Canvas platformer example",
+      "status": "Prototype / source documented",
+      "type": "Engine prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quantum-game-engine"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "sorting-balls-3d",
+      "title": "Sorting Balls 3D",
+      "category": "Spatial & Puzzle",
+      "description": "Separate public sorting-puzzle listing; distinct from Ball Sort 3D per repository record.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/sorting-balls-3d"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "klotski",
+      "title": "Klotski",
+      "category": "Spatial & Puzzle",
+      "description": "Three-dimensional presentation of the classic sliding-block puzzle.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/klotski"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/klotski-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "one-hub-media",
+      "title": "One Hub Media",
+      "category": "Creative Digital Tools",
+      "description": "Experimental browser workspace for media ideation and production planning",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://one-hub-media.vercel.app/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/one-hub-media"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "cheese-maze-mouse",
+      "title": "Cheese Maze Mouse",
+      "category": "Games & Play",
+      "description": "Thirty-level maze game guiding a mouse through constrained routes.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/cheese-maze-mouse"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ],
+      "historical_itch_title_2026_09_22": "CheeSe mAzE mOuSe",
+      "alternate_titles": [
+        "CheeSe mAzE mOuSe"
+      ]
+    },
+    {
+      "id": "neo-link",
+      "title": "Neo-Link",
+      "category": "Creative Digital Tools",
+      "description": "Direct browser-to-browser file transfer application using WebRTC",
+      "status": "Prototype / source documented",
+      "type": "Web application",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://joenasriani.github.io/neo-link/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/neo-link"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "cheese-heist-mouse",
+      "title": "Cheese Heist Mouse",
+      "category": "Games & Play",
+      "description": "Kitchen arcade challenge to collect cheese while avoiding a cat.",
+      "status": "In development / public itch.io listing; runtime not tested",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/cheese-heist"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ],
+      "historical_itch_title_2026_09_22": "CheeSe HeiSt MouSe",
+      "alternate_titles": [
+        "CheeSe HeiSt MouSe"
+      ],
+      "itch_status_observed": "In development",
+      "itch_status_observed_on": "2026-10-14"
+    },
+    {
+      "id": "eureka",
+      "title": "Eureka",
+      "category": "Creative Digital Tools",
+      "description": "Interactive structured reasoning, episode mapping and source-anchored comparison app",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://eureka-v3.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/eureka-v3"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "dealfindr-compass",
+      "title": "DealFindr Compass",
+      "category": "Creative Digital Tools",
+      "description": "Browser price comparison and offer exploration prototype",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/dealfindr-ai-compass"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "in-a-stickman-s-world",
+      "title": "In a Stickman’s World",
+      "category": "Games & Play",
+      "description": "Browser platform action game featuring movement, combat, hazards and collection.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/in-a-stickmans-world"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "coloring-book-for-kids",
+      "title": "Coloring Book for Kids",
+      "category": "Educational Interactive",
+      "description": "Touch-friendly browser coloring activity.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/coloring-book"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/coloring-book"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "vibedeal",
+      "title": "VibeDeal",
+      "category": "Creative Digital Tools",
+      "description": "Delivery-aware deal discovery and comparison prototype",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/vibedeal"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "mario-merge",
+      "title": "Mario Merge",
+      "category": "Games & Play",
+      "description": "Unofficial fan-made merge puzzle; not affiliated with Nintendo.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/mario-merge"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/mario-merge"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "shoptopost",
+      "title": "ShopToPost",
+      "category": "Creative Digital Tools",
+      "description": "Web tool for creative advertising posts from e-commerce product links",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://shoptopost.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/shoptopost"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "jit-erp-generator",
+      "title": "JIT-ERP Generator",
+      "category": "Creative Digital Tools",
+      "description": "Structured workflow-to-application specification and code-generation prototype",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/jit-erp-ai"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "old-bounce",
+      "title": "Old Bounce",
+      "category": "Games & Play",
+      "description": "Compact platform game with touch-friendly movement.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/bounce"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/bounce-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "personafolio",
+      "title": "Personafolio",
+      "category": "Creative Digital Tools",
+      "description": "Configurable personal data and social linking browser application",
+      "status": "Prototype / source documented",
+      "type": "Application prototype",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://personafolio-one.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/personafolio"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "sector-glow-cyber-extract",
+      "title": "Sector Glow: Cyber-Extract",
+      "category": "Spatial & Puzzle",
+      "description": "Glowing-grid extraction and routing puzzle.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/sector-glow"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "the-creative-hub",
+      "title": "The Creative Hub",
+      "category": "Creative Digital Tools",
+      "description": "Concept and interactive specification for an all-in-one media creation studio",
+      "status": "Prototype / source documented",
+      "type": "Specification prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/the-creative-hub"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "zip-it",
+      "title": "Zip It!",
+      "category": "Spatial & Puzzle",
+      "description": "Grid coverage puzzle that visits numbered checkpoints in sequence.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/zip-it"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/zipit-game"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ],
+      "historical_itch_title_2026_09_22": "ZIP IT! LinkedIn.",
+      "alternate_titles": [
+        "ZIP IT! LinkedIn."
+      ],
+      "name_clarification": "Historic itch.io title referenced LinkedIn. This is an independent puzzle project; no LinkedIn affiliation, sponsorship, or endorsement is established."
+    },
+    {
+      "id": "ai-courses",
+      "title": "AI Courses",
+      "category": "Educational Interactive",
+      "description": "Mobile-first educational content structures, progression and quiz prototypes",
+      "status": "Prototype / source documented",
+      "type": "Content prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/aicourses"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "cybertruck-madness-98",
+      "title": "Cybertruck Madness '98",
+      "category": "Games & Play",
+      "description": "Independent retro driving experiment, not affiliated with Tesla.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/cybertruck-madness"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/cybertruck-madness"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "tic-tac-toe-reimagined",
+      "title": "Tic Tac Toe Reimagined",
+      "category": "Games & Play",
+      "description": "Expanded tic-tac-toe-inspired spatial board puzzle.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/tic-tac-toe-reimagined"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/tictactoe-advanced"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "training-days",
+      "title": "Training Days",
+      "category": "Educational Interactive",
+      "description": "Interactive course catalog and syllabus-generator platform",
+      "status": "Prototype / source documented",
+      "type": "Web application",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://training-days.vercel.app"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/training-days"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "jumpy-jumperson",
+      "title": "Jumpy Jumperson",
+      "category": "Games & Play",
+      "description": "One-button 3D runner with jumping, boosts and obstacles.",
+      "status": "Published / check current availability",
+      "type": "Game",
+      "links": [
+        {
+          "label": "Demo on itch.io",
+          "url": "https://joenasr.itch.io/jumpy-jumperson"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/jumpy-jumperson"
+        }
+      ],
+      "source_scope": "itch.io",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "quest-xsa",
+      "title": "Quest-XSA",
+      "category": "Research & Concept Studies",
+      "description": "XR spatial research and sensor integration design; full implementation not asserted",
+      "status": "Research / proposed",
+      "type": "Research concept",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quest-xsa"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Simulations"
+      ]
+    },
+    {
+      "id": "quest-mfts",
+      "title": "Quest MFTS",
+      "category": "Research & Concept Studies",
+      "description": "Cockpit-simulation integration feasibility study, not a validated finished system",
+      "status": "Research / proposed",
+      "type": "Research concept",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quest-mfts"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Simulations"
+      ]
+    },
+    {
+      "id": "quest-eagleeye",
+      "title": "Quest EagleEye",
+      "category": "Research & Concept Studies",
+      "description": "XR tactical interface design study; not a fielded system",
+      "status": "Research / proposed",
+      "type": "Research concept",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/quest-eagleeye-project"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Simulations"
+      ]
+    },
+    {
+      "id": "aura-olfactory-xr",
+      "title": "AURA Olfactory XR",
+      "category": "Research & Concept Studies",
+      "description": "Proposed multisensory scent interface and prototype design study, not validated hardware",
+      "status": "Research / proposed",
+      "type": "Research concept",
+      "links": [
+        {
+          "label": "Public project / demo",
+          "url": "https://joenasriani.github.io/olfac-channels/"
+        },
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/olfac-channels"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "XR & Immersive"
+      ]
+    },
+    {
+      "id": "robo-hpa-lab",
+      "title": "Robo HPA Lab",
+      "category": "Robotics & Simulation",
+      "description": "Experimental perception and scene-context software laboratory",
+      "status": "Prototype / source documented",
+      "type": "Development laboratory",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/robo-hpa-lab"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Simulations"
+      ]
+    },
+    {
+      "id": "robo-rag-apps",
+      "title": "Robo RAG Apps",
+      "category": "Creative Digital Tools",
+      "description": "Reference library of retrieval applications and interactive Streamlit interfaces",
+      "status": "Prototype / source documented",
+      "type": "Application collection",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/robo-rag-apps"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "quest-ket",
+      "title": "Quest KET",
+      "category": "Research & Concept Studies",
+      "description": "VR research project; inspect the source before specifying implemented functions",
+      "status": "Research / proposed",
+      "type": "Research record",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/vr-ket"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "quest-vr-brain",
+      "title": "Quest VR / Brain",
+      "category": "Research & Concept Studies",
+      "description": "Narrative literature review rather than a deployed interactive artifact",
+      "status": "Research / proposed",
+      "type": "Related research, scope review",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/vr-and-the-brain"
+        }
+      ],
+      "source_scope": "GitHub additional discovery",
+      "notes": "",
+      "disciplines": [
+        "XR & Immersive"
+      ]
+    },
+    {
+      "id": "threadbound",
+      "title": "Threadbound",
+      "category": "Spatial & Puzzle",
+      "description": "Puzzle platformer prototype built on recorded movement and ghost replay",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/threadbound-game"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "signal-cities",
+      "title": "Signal Cities",
+      "category": "Human-Computer Interaction",
+      "description": "Three.js browser puzzle integrating authorized city feeds as game inputs",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/cam-city"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "flyby",
+      "title": "Flyby",
+      "category": "3D & XR",
+      "description": "Procedural browser flight and cockpit-style simulation",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/geo-force-vr"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "XR & Immersive"
+      ]
+    },
+    {
+      "id": "ai-garden-vr",
+      "title": "AI Garden VR",
+      "category": "Educational Interactive",
+      "description": "Gamified garden learning prototype with experimental progression",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/ai-garden-vr"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "XR & Immersive"
+      ]
+    },
+    {
+      "id": "stress-buster-3000",
+      "title": "Stress Buster 3000",
+      "category": "Human-Computer Interaction",
+      "description": "On-screen arcade interaction with related experimental WebXR implementation",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/punch-game"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/punch-game-xr"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play",
+        "Interactive Tools"
+      ]
+    },
+    {
+      "id": "life-and-origins",
+      "title": "Life and Origins",
+      "category": "Games & Play",
+      "description": "Combine elements in an interactive discovery workspace",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/life-and-origins-game"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "word-finder",
+      "title": "Word Finder",
+      "category": "Educational Interactive",
+      "description": "Bilingual Arabic and English touch-enabled word-search experience",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-word-finder"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "kids-memory-match",
+      "title": "Kids Memory Match",
+      "category": "Educational Interactive",
+      "description": "Card-matching educational game with SVG/alternate implementations",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-match"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/kids-svg"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/kids-svg-game"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "the-memory-game-tap-n-in-order",
+      "title": "The Memory Game: Tap N# in Order",
+      "category": "Educational Interactive",
+      "description": "Number-sequence memory browser game",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-memory-game"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "hero-mission-the-healthy-choice",
+      "title": "Hero Mission: The Healthy Choice",
+      "category": "Educational Interactive",
+      "description": "Interactive child-focused safety and choice quiz",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-no-to-drugs"
+        },
+        {
+          "label": "Related implementation",
+          "url": "https://github.com/Joenasriani/kids-hero-quest"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "find-your-destiny",
+      "title": "Find Your Destiny",
+      "category": "Educational Interactive",
+      "description": "Question-and-choice quiz with result interface",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-find-your-destiny"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "safety-champion-adventure",
+      "title": "Safety Champion Adventure",
+      "category": "Educational Interactive",
+      "description": "Child-focused safety-learning activity",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-safety-champion"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "hero-academy-healthy-plate",
+      "title": "Hero Academy: Healthy Plate",
+      "category": "Educational Interactive",
+      "description": "Educational food-selection game",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-hero-plate"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "kindness-drive",
+      "title": "Kindness Drive",
+      "category": "Educational Interactive",
+      "description": "Social decision-making learning game",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-kindness-drive"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "a-smarter-me",
+      "title": "A Smarter Me!",
+      "category": "Educational Interactive",
+      "description": "Educational quiz and choice activity",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-a-smarter-me"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "bmx-xtreme-3d",
+      "title": "BMX Xtreme 3D",
+      "category": "Games & Play",
+      "description": "Procedural BMX racing prototype",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/bmx-xtreme"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "ergo-matic",
+      "title": "Ergo-Matic",
+      "category": "Educational Interactive",
+      "description": "Board-and-quiz ergonomics learning game",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/kids-ergo-matic"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "hangman",
+      "title": "Hangman",
+      "category": "Games & Play",
+      "description": "Browser word game with 2D/3D variants",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/hangman"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "ai-millionaire-studio",
+      "title": "AI Millionaire Studio",
+      "category": "Educational Interactive",
+      "description": "Partial source record for quiz studio prototype",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/wwtbam-ai-edition"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    },
+    {
+      "id": "stickman-s-homework",
+      "title": "Stickman’s Homework",
+      "category": "Educational Interactive",
+      "description": "Notebook-style math platform game",
+      "status": "Prototype / development archive",
+      "type": "Prototype",
+      "links": [
+        {
+          "label": "View on GitHub",
+          "url": "https://github.com/Joenasriani/stickmans-homework"
+        }
+      ],
+      "source_scope": "Existing 20-record development list",
+      "notes": "",
+      "disciplines": [
+        "Games & Play"
+      ]
+    }
+  ],
+  "discipline_options": [
+    "Games & Play",
+    "XR & Immersive",
+    "Simulations",
+    "Interactive Tools"
+  ],
+  "visible_count": 76,
+  "display_policy": "76 visible project entries; RoboSim preserved as a related itch.io release record under RoboWebSim, without independent showcase placement."
+}
