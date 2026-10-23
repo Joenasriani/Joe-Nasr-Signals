@@ -315,7 +315,7 @@ Roundtable AI is a documented project with no supporting public artifact current
 
 ## Interactive collection routing
 
-The current collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs currently redirect to the original external collection at https://joe-nasr-interactive-projects.vercel.app/. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
+The current collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs, including their /v2/ compatibility variants, permanently redirect to https://joe-nasr-signals.vercel.app/interactive-projects/. The original external interactive library remains an alternate access point. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
 
 ## Subject libraries inside Signals
 
