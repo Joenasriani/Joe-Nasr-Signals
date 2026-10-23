@@ -657,7 +657,8 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 }
 .open-button { background: var(--ink); color: var(--paper); }
 .copy-button:hover { background: var(--paper); }
-.open-button:hover { background: var(--signal); border-color: var(--signal); }
+.open-button:hover,
+.open-button:focus-visible { background: var(--ink); color: var(--signal); border-color: var(--ink); }
 .empty-state { padding: 70px 0; text-align: center; border-bottom: 1px solid var(--line-strong); }
 .empty-state strong { display: block; font-size: 24px; }
 .empty-state span { color: var(--muted); }
