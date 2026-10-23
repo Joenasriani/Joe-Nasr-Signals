@@ -1,0 +1,4657 @@
+{
+  "lastVerifiedDate": "2026-10-17",
+  "categories": [
+    "Branding",
+    "Campaigns",
+    "Video Production",
+    "Post-production",
+    "Animation",
+    "Motion Graphics",
+    "3D",
+    "Retouching",
+    "Audio Post-production",
+    "Media Music"
+  ],
+  "playlists": [
+    {
+      "title": "Showcase: Some of My Side Video Editing Projects",
+      "publicEntriesInspected": 45,
+      "reportedCount": 45,
+      "note": null
+    },
+    {
+      "title": "Showcase: Some of My Audio Post-Production Projects",
+      "publicEntriesInspected": 6,
+      "reportedCount": 6,
+      "note": null
+    },
+    {
+      "title": "Showcase: My Original Media Music Compositions",
+      "publicEntriesInspected": 24,
+      "reportedCount": 24,
+      "note": null
+    },
+    {
+      "title": "Showcase: My Video Post-Production Brand Projects",
+      "publicEntriesInspected": 41,
+      "reportedCount": 41,
+      "note": null
+    },
+    {
+      "title": "Showcase: Animated Infographics on a Budget!",
+      "publicEntriesInspected": 17,
+      "reportedCount": 17,
+      "note": null
+    },
+    {
+      "title": "Showcase: My 3D Work for Web3 Projects and Other Brands",
+      "publicEntriesInspected": 53,
+      "reportedCount": 53,
+      "note": null
+    },
+    {
+      "title": "Showcase: My Creative Brand Advertising Projects",
+      "publicEntriesInspected": 59,
+      "reportedCount": 59,
+      "note": null
+    },
+    {
+      "title": "BTS Showcase: My Ad Retouching Work",
+      "publicEntriesInspected": 37,
+      "reportedCount": 37,
+      "note": null
+    }
+  ],
+  "videos": [
+    {
+      "videoId": "ve9qRnIJEM4",
+      "title": "ADIDAS TERREX MENA | Jackets Campaign | Post-Production",
+      "description": "Brand: adidas Project: TERREX MENA Production: Seeme International Post-Production: Joe Nasr Year: 2021",
+      "url": "https://www.youtube.com/watch?v=ve9qRnIJEM4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2021-10-20T06:38:37-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0309",
+          "title": "adidas TERREX Jackets MENA",
+          "description": "Post-production for the regional commercial through SEEME Production.",
+          "category": "Commercial / Post-production"
+        }
+      ],
+      "additionalSources": [
+        {
+          "label": "Vimeo: adidas TERREX Jackets MENA",
+          "url": "https://vimeo.com/794455766"
+        }
+      ],
+      "displayTitle": "Adidas Terrex MENA | Jackets Campaign | Post-Production",
+      "editorialOrder": 0,
+      "publicDescription": "Adidas TERREX MENA jackets campaign."
+    },
+    {
+      "videoId": "9MpVWuh_A4c",
+      "title": "ELIE SAAB x EMAAR | Dubai Opera Launch | Live Direction & Post Production",
+      "description": "Brands: ELIE SAAB and Emaar Project: ELIE SAAB GALA at Emaar Beachfront Event: Partnership Launch, Gala Dinner, and Haute Couture Presentation Venue: Dubai Opera Launch Principals: Elie Saab and Mohamed Alabbar Production: Shadow Professional Photography…",
+      "url": "https://www.youtube.com/watch?v=9MpVWuh_A4c",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-04-12T09:11:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Elie Saab x Emaar | Dubai Opera Launch | Live Direction & Post-Production",
+      "editorialOrder": 1,
+      "publicDescription": "Elie Saab x Emaar gala at Dubai Opera."
+    },
+    {
+      "videoId": "2lmn_UKAFds",
+      "title": "CHOPARD Ice Cube | 2017 Influencer Campaign Hero Film",
+      "description": "Brand: Chopard Collection: Rihanna ♥ Chopard / Ice Cube Project: 2017 Influencer Social Campaign Production: Capital D Studio Director: Serena Abi Aad Cinematography: Tareck Raffoul Producer: Farah El Sayegh Post-Production: Joe Nasr Format: 8-Influencer…",
+      "url": "https://www.youtube.com/watch?v=2lmn_UKAFds",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:08:52-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube | 2017 Influencer Campaign Hero Film",
+      "editorialOrder": 2,
+      "publicDescription": "Chopard Ice Cube 2017 influencer campaign hero film."
+    },
+    {
+      "videoId": "wTMNBmSIVIY",
+      "title": "The All-New Traverse - Technology That Helps Make A #BetterDriver",
+      "description": "The all-new Traverse features class-leading technology that improves the driving experience and can even improve your driving.",
+      "url": "https://www.youtube.com/watch?v=wTMNBmSIVIY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [],
+      "publishedAt": "2018-01-10T04:15:51-08:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-CHEV-TRAVERSE-001",
+          "title": "Chevrolet Arabia All-New Traverse",
+          "description": "Official Chevrolet campaign video. The client upload does not independently establish an individual Joe Nasr credit.",
+          "category": "Campaign / Client artifact"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "The All-New Traverse | Technology That Helps Make a #BetterDriver",
+      "editorialOrder": 3,
+      "publicDescription": "Chevrolet Traverse campaign video."
+    },
+    {
+      "videoId": "kvmCU-dMWqU",
+      "title": "Dubai Tourism & Culture | Yasmin Yousri | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Project: Dubai Tourism & Culture Featured Talent: Yasmin Yousri YouTube: https://www.youtube.com/@YasminYousri Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year: 2019",
+      "url": "https://www.youtube.com/watch?v=kvmCU-dMWqU",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-01-19T05:27:05-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Yasmin Yousri | Post-Production",
+      "editorialOrder": 4,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Yasmin Yousri. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "qa3u606n0yg",
+      "title": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "description": "Client: Mercedes-Benz / Gargash Enterprises Agency: Capital D Studio Project: She's Mercedes — Dubai Featured Talent: Rosemin Manji, Mirna Hamady, Maria Iqbal, Janan Shihadeh and other She's Mercedes Dubai campaign participants",
+      "url": "https://www.youtube.com/watch?v=qa3u606n0yg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:05:03-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "editorialOrder": 5,
+      "publicDescription": "Mercedes-Benz / She’s Mercedes Dubai / campaign video."
+    },
+    {
+      "videoId": "HK6-howOxi4",
+      "title": "AEON Towers | Live Up | Effects & Retouching",
+      "description": "Client: Marakez Cairo Agency: Leo Burnett Cairo Project: AEON Towers Live Up Featured Talent: Production: ASTUDIO, Dubai Post-Production / Effects & Retouching: Joe Nasr Year: 2018 Production:",
+      "url": "https://www.youtube.com/watch?v=HK6-howOxi4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-04-21T04:57:10-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Aeon Towers | Live Up | Effects & Retouching",
+      "editorialOrder": 6,
+      "publicDescription": "Aeon Towers / Live Up campaign video."
+    },
+    {
+      "videoId": "jTQm-RiwLms",
+      "title": "Dubai Tourism & Culture | Jumana Khan | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Jumana Khan YouTube: https://www.youtube.com/@jumanaabdurahman Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=jTQm-RiwLms",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-01-19T05:27:08-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Jumana Khan | Post-Production",
+      "editorialOrder": 7,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Jumana Khan. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "-VQmNYdOAwU",
+      "title": "L'azurde - Mother's Day",
+      "description": "Her heart has always been the purest... wish her a happy Mother’s Day with pure gold.",
+      "url": "https://www.youtube.com/watch?v=-VQmNYdOAwU",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-03-20T08:06:39-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde | Mother's Day",
+      "editorialOrder": 8,
+      "publicDescription": "L’Azurde / Mother's Day campaign video."
+    },
+    {
+      "videoId": "uoF4D8FKsPs",
+      "title": "Bloomingdale’s | Rhea Jacobs | Post-Editing, VFX & Music",
+      "description": "A Bloomingdale’s fashion campaign featuring Rhea Jacobs.",
+      "url": "https://www.youtube.com/watch?v=uoF4D8FKsPs",
+      "categories": [
+        "Media Music",
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions",
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-31T22:44:03-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Bloomingdale’s | Rhea Jacobs | Post-Editing, VFX & Music",
+      "editorialOrder": 9,
+      "publicDescription": "Bloomingdale's fashion campaign featuring Rhea Jacobs."
+    },
+    {
+      "videoId": "dUImFNFP1jw",
+      "title": "Glamglow X Sephora Social Media Campaign",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=dUImFNFP1jw",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Motion Graphics"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:45:12-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0291",
+          "title": "GlamGlow x Sephora",
+          "description": "Social campaign motion and post-production work.",
+          "category": "Branded content / Motion"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Glamglow × Sephora | Social Media Campaign | Post-Production Edit",
+      "editorialOrder": 10,
+      "publicDescription": "GlamGlow x Sephora social campaign."
+    },
+    {
+      "videoId": "RAaUj43Mj-k",
+      "title": "اسوارة الحب التي تستحقها! The love bracelet she deserves",
+      "description": "Shop now: http://bit.ly/2nU0Pwd",
+      "url": "https://www.youtube.com/watch?v=RAaUj43Mj-k",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-02-12T07:48:56-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "اسوارة الحب التي تستحقها! The Love Bracelet She Deserves",
+      "editorialOrder": 11,
+      "publicDescription": "اسوارة الحب التي تستحقها! The Love Bracelet She Deserves campaign video."
+    },
+    {
+      "videoId": "T9XB5Siq9sM",
+      "title": "The unique gift you are looking for! قدّم لها هدية تٌميّزها",
+      "description": "Shop now: http://bit.ly/2nU0Pwd",
+      "url": "https://www.youtube.com/watch?v=T9XB5Siq9sM",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-02-11T07:16:50-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Unique Gift You Are Looking for! قدّم لها هدية تٌميّزها",
+      "editorialOrder": 12,
+      "publicDescription": "The Unique Gift You Are Looking For! قدّم لها هدية تٌميّزها campaign video."
+    },
+    {
+      "videoId": "nnFrTfYvIv8",
+      "title": "She's Mercedes - She's   Samar",
+      "description": "The elegance of fashion illustration infused in design.",
+      "url": "https://www.youtube.com/watch?v=nnFrTfYvIv8",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-09-11T09:50:36-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "She's Mercedes | She's Samar",
+      "editorialOrder": 13,
+      "publicDescription": "She’s Mercedes / She’s Samar campaign video."
+    },
+    {
+      "videoId": "rso6Yn7dpto",
+      "title": "Fit me MAYBELLINE w/Maya",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=rso6Yn7dpto",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-04-21T04:58:50-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Maya",
+      "editorialOrder": 14,
+      "publicDescription": "Maybelline / Fit Me / Maya campaign video."
+    },
+    {
+      "videoId": "husVgZRcOtg",
+      "title": "Fashion Bloggers Pitch",
+      "description": "With #CapitalDStudio | Film/TV/Social Media Production & Post Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=husVgZRcOtg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:13:09-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Fashion Bloggers Pitch",
+      "editorialOrder": 15,
+      "publicDescription": "Fashion Bloggers Pitch campaign video."
+    },
+    {
+      "videoId": "o8Zc5uQ-UeM",
+      "title": "Lazurde Social Media Campaign",
+      "description": "Video editing and vfx",
+      "url": "https://www.youtube.com/watch?v=o8Zc5uQ-UeM",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-03-19T23:44:31-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde | Social Media Campaign",
+      "editorialOrder": 16,
+      "publicDescription": "L’Azurde / Social Media campaign video."
+    },
+    {
+      "videoId": "F9hRYCRWYfQ",
+      "title": "The perfect gift to celebrate your love! أجمل هدية يتوّج بها حبك!",
+      "description": "Shop now: http://bit.ly/2nU0Pwd",
+      "url": "https://www.youtube.com/watch?v=F9hRYCRWYfQ",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-02-08T05:34:55-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Perfect Gift to Celebrate Your Love! أجمل هدية يتوّج بها حبك!",
+      "editorialOrder": 17,
+      "publicDescription": "The Perfect Gift To Celebrate Your Love! أجمل هدية يتوّج بها حبك campaign video."
+    },
+    {
+      "videoId": "LnumRoULeIM",
+      "title": "L'Azurde Jewelry -  Bouquet Collection  (eyes replacement_5_14_16sec/skin/jewelry retouching)",
+      "description": "AStudio Production Dubai UAE",
+      "url": "https://www.youtube.com/watch?v=LnumRoULeIM",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-22T03:08:20-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde Jewelry | Bouquet Collection | Eye, Skin & Jewelry Retouching",
+      "editorialOrder": 18,
+      "publicDescription": "L’Azurde Jewelry / Bouquet Collection (Eyes Replacement_5_14_16Sec/Skin/Jewelry Retouching) campaign video."
+    },
+    {
+      "videoId": "lMtBBnFnPCk",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 01",
+      "description": "One of the individual 20-second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=lMtBBnFnPCk",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:24:53-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 01",
+      "editorialOrder": 19,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 01 campaign video."
+    },
+    {
+      "videoId": "fzn47J4PUtY",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 02 | Post Production",
+      "description": "One of the individual 20 second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=fzn47J4PUtY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:11:06-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 02 | Post-Production",
+      "editorialOrder": 20,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 02 campaign video."
+    },
+    {
+      "videoId": "OajrLdSXzHA",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 03 | Post Production",
+      "description": "One of the individual 20 second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=OajrLdSXzHA",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:24:47-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 03 | Post-Production",
+      "editorialOrder": 21,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 03 campaign video."
+    },
+    {
+      "videoId": "XX0LIutlRXw",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 04 | Post Production",
+      "description": "One of the individual 20-second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=XX0LIutlRXw",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:25:08-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 04 | Post-Production",
+      "editorialOrder": 22,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 04 campaign video."
+    },
+    {
+      "videoId": "_JWvt4gmZgg",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 05 | Post Production",
+      "description": "One of the individual 20-second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=_JWvt4gmZgg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:10:37-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 05 | Post-Production",
+      "editorialOrder": 23,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 05 campaign video."
+    },
+    {
+      "videoId": "nPV0aso4cSM",
+      "title": "CHOPARD ICE CUBE Instagram _ Special Effects",
+      "description": "Capital D Studio Creative Director: Meredith Damouni Director: Serena Abi Aad Post Production: Joe Nasr Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=nPV0aso4cSM",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-12-29T08:09:47-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube | Instagram | Special Effects",
+      "editorialOrder": 24,
+      "publicDescription": "Chopard Ice Cube / Instagram campaign video."
+    },
+    {
+      "videoId": "ghZmIZNg398",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 06 | Post Production",
+      "description": "One of the individual 20-second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=ghZmIZNg398",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:25:19-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 06 | Post-Production",
+      "editorialOrder": 25,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 06 campaign video."
+    },
+    {
+      "videoId": "xvLd7rwbL34",
+      "title": "L'Oreal Advert / Raw / Edit / First Cut",
+      "description": "Get a behind-the-scenes look at the making of a L'Oreal advert, from the raw footage to the edited first cut. This video showcases the transformation of the raw footage into a polished edit, giving you an insight into the post-production process. Watch as…",
+      "url": "https://www.youtube.com/watch?v=xvLd7rwbL34",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-04-21T04:56:56-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Oréal Advert | Raw Footage | First Cut",
+      "editorialOrder": 26,
+      "publicDescription": "L’Oréal Advert / Raw / Edit campaign video."
+    },
+    {
+      "videoId": "beSOaFzMfIo",
+      "title": "Maybelline Fit Me | Ascia AKF | Editing, Motion Graphics & VFX",
+      "description": "Client: Maybelline New York Agency: Capital D Studio, Dubai Project: Fit Me Featured Talent: Ascia AKF YouTube: https://www.youtube.com/@asciaakf Production: Post-Production / Video Editing / Motion Graphics / VFX / Rotoscoping: Joe Nasr Year: 2017",
+      "url": "https://www.youtube.com/watch?v=beSOaFzMfIo",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-31T22:39:16-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Ascia AKF | Editing, Motion Graphics & VFX",
+      "editorialOrder": 27,
+      "publicDescription": "Maybelline Fit Me / Ascia AKF campaign video."
+    },
+    {
+      "videoId": "rcQgWjCqPXw",
+      "title": "Jewelry Cinemagraph #046 | Post Production Working Pass",
+      "description": "Jewelry cinemagraph working pass from 2019.",
+      "url": "https://www.youtube.com/watch?v=rcQgWjCqPXw",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-05-13T07:52:27-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jewelry Cinemagraph #046 | Post-Production Working Pass",
+      "editorialOrder": 28,
+      "publicDescription": "Jewelry Cinemagraph #046 campaign video."
+    },
+    {
+      "videoId": "KqJcBcVw6uE",
+      "title": "Barakat | Everyday Goodness | Post-Production",
+      "description": "Client: Barakat Campaign / Brand: Live Fresh Production House: Phoenix Films Director: Serena Abi Aad Joe Nasr Contribution: Editing / Post-Production Market: UAE",
+      "url": "https://www.youtube.com/watch?v=KqJcBcVw6uE",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2021-11-08T09:16:19-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Barakat | Everyday Goodness | Post-Production",
+      "editorialOrder": 29,
+      "publicDescription": "Barakat / Everyday Goodness campaign video."
+    },
+    {
+      "videoId": "MTND4MSUnFE",
+      "title": "Noon Campaign - Women Wear",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=MTND4MSUnFE",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:59-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Noon Campaign | Women Wear",
+      "editorialOrder": 30,
+      "publicDescription": "Noon campaign cut, Women Wear."
+    },
+    {
+      "videoId": "xXRWLz23pDg",
+      "title": "Noon Campaign - Sex Unisex",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=xXRWLz23pDg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:54-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Noon Campaign | Sex Unisex",
+      "editorialOrder": 31,
+      "publicDescription": "Noon campaign cut, Unisex."
+    },
+    {
+      "videoId": "udtqKJqDmiQ",
+      "title": "Noon Campaign - men",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=udtqKJqDmiQ",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:46-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Noon Campaign | Men",
+      "editorialOrder": 32,
+      "publicDescription": "Noon campaign cut, Men."
+    },
+    {
+      "videoId": "6vrHgXfkzpU",
+      "title": "Noon Campaign - Men Wear",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=6vrHgXfkzpU",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:45:06-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Noon Campaign | Men Wear",
+      "editorialOrder": 33,
+      "publicDescription": "Noon campaign cut, Men Wear."
+    },
+    {
+      "videoId": "ryWxtIu8Do4",
+      "title": "Noon Campaign - Women",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=ryWxtIu8Do4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:48-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Noon Campaign | Women",
+      "editorialOrder": 34,
+      "publicDescription": "Noon campaign cut, Women."
+    },
+    {
+      "videoId": "srPc8aLN3zE",
+      "title": "Oco typo animation",
+      "description": "Watch the mesmerizing Oco typo animation, a stunning visual representation of typography in motion. This captivating animation showcases the beauty of kinetic typography, with each letter and symbol coming to life in a symphony of color and movement. Get…",
+      "url": "https://www.youtube.com/watch?v=srPc8aLN3zE",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns",
+        "Animation",
+        "Motion Graphics"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: Animated Infographics on a Budget!",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2020-01-11T07:22:22-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Oco Typo Animation",
+      "editorialOrder": 35,
+      "publicDescription": "Oco Typo Animation campaign video."
+    },
+    {
+      "videoId": "9s5rKUH-bN0",
+      "title": "Have you met Nele?",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=9s5rKUH-bN0",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-05-02T12:24:22-07:00",
+      "status": "LOGIN_REQUIRED",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Have You Met Nele? | Visual Production Archive",
+      "editorialOrder": 36,
+      "publicDescription": "Have You Met Nele campaign video."
+    },
+    {
+      "videoId": "RPtuZf2MD2M",
+      "title": "Estee Lauder First Edit",
+      "description": "video production, post editing, and design",
+      "url": "https://www.youtube.com/watch?v=RPtuZf2MD2M",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-01-02T03:09:21-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Estee Lauder First Edit",
+      "editorialOrder": 37,
+      "publicDescription": "Estée Lauder First Edit campaign video."
+    },
+    {
+      "videoId": "eD97V4Ylo00",
+      "title": "The cape op1 cut _ w/Dinz sisters",
+      "description": "Dinz marketing video",
+      "url": "https://www.youtube.com/watch?v=eD97V4Ylo00",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-07-13T10:55:17-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Cape | Milestone Cut | Dinz Sisters",
+      "editorialOrder": 38,
+      "publicDescription": "The Cape OP1 Cut / W/Dinz Sisters campaign video."
+    },
+    {
+      "videoId": "IGKI8jjRtGs",
+      "title": "Dubai Tourism & Culture | Ghassan Kayed | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Ghassan Kayed Instagram: https://www.instagram.com/ghassankyd/ Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=IGKI8jjRtGs",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-04-21T04:57:57-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Ghassan Kayed | Post-Production",
+      "editorialOrder": 39,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Ghassan Kayed. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "wb-qPpbYnb4",
+      "title": "Dubai Tourism & Culture | Nilo | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Nilo Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year: 2019 Production:",
+      "url": "https://www.youtube.com/watch?v=wb-qPpbYnb4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-01-19T05:27:02-08:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0310",
+          "title": "Dubai Tourism Influencer Series",
+          "description": "Campaign post-production through Shadow Professional Photography.",
+          "category": "Campaign / Post-production"
+        }
+      ],
+      "additionalSources": [
+        {
+          "label": "Dubai Tourism video collection",
+          "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfjkeigxE9B4dce16vtCY67"
+        }
+      ],
+      "displayTitle": "Dubai Tourism & Culture | Nilo | Post-Production",
+      "editorialOrder": 40,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Nilo. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "IU_qMlQmcm8",
+      "title": "Dubai Tourism & Culture | Tamara Jamal | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Tamara Jamal Instagram: https://www.instagram.com/tamara.jamal/ Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=IU_qMlQmcm8",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-10-23T00:00:03-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0311",
+          "title": "Dubai Tourism Lookbooks",
+          "description": "Video post-production for three Dubai Tourism lookbooks.",
+          "category": "Campaign / Post-production"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Tamara Jamal | Post-Production",
+      "editorialOrder": 41,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Tamara Jamal. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "tfd3Pq3WLlI",
+      "title": "Dubai Tourism & Culture | Jumana Khan | Lookbook | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Jumana Khan YouTube: https://www.youtube.com/@jumanaabdurahman Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=tfd3Pq3WLlI",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-10-22T23:59:26-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0311",
+          "title": "Dubai Tourism Lookbooks",
+          "description": "Video post-production for three Dubai Tourism lookbooks.",
+          "category": "Campaign / Post-production"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Jumana Khan | Lookbook | Post-Production",
+      "editorialOrder": 42,
+      "publicDescription": "Dubai Tourism multi-influencer lookbook featuring Jumana Khan. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "SrX4kXUgerA",
+      "title": "Dubai Tourism & Culture | Nilo Lookbook | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Nilo Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year: 2019 Production:",
+      "url": "https://www.youtube.com/watch?v=SrX4kXUgerA",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-10-22T23:59:45-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0311",
+          "title": "Dubai Tourism Lookbooks",
+          "description": "Video post-production for three Dubai Tourism lookbooks.",
+          "category": "Campaign / Post-production"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Nilo Lookbook | Post-Production",
+      "editorialOrder": 43,
+      "publicDescription": "Dubai Tourism multi-influencer lookbook featuring Nilo Lookbook. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "aadDW4TjQFo",
+      "title": "#Fitme MAYBELLINE w/Aseel",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=aadDW4TjQFo",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-12-29T08:06:26-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Aseel",
+      "editorialOrder": 44,
+      "publicDescription": "Maybelline / Fit Me / Aseel campaign video."
+    },
+    {
+      "videoId": "yejOu-2QO0s",
+      "title": "Lazurde Banner Adaptation",
+      "description": "Mall Banners Egypt Astudio Production Joenasr Post Production www.joenasr.net",
+      "url": "https://www.youtube.com/watch?v=yejOu-2QO0s",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-03-19T23:45:19-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde | Banner Adaptation",
+      "editorialOrder": 45,
+      "publicDescription": "L’Azurde Banner Adaptation campaign video."
+    },
+    {
+      "videoId": "dNrmkv9zTCY",
+      "title": "Lazurde BANNER-noaudio_ Adaptation/Skin/Jewelry Retouching",
+      "description": "Mall Banners Egypt Astudio Production Joe Nasr Post Production www.joenasr.net",
+      "url": "https://www.youtube.com/watch?v=dNrmkv9zTCY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-03-19T23:45:16-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde | Banner Adaptation | No Audio | Skin & Jewelry Retouching",
+      "editorialOrder": 46,
+      "publicDescription": "L’Azurde Banner-Noaudio_ Adaptation/Skin/Jewelry Retouching campaign video."
+    },
+    {
+      "videoId": "8jGJMjvI6RY",
+      "title": "The artistic Mercedes-Benz G-Class designed for She's Mercedes Dubai",
+      "description": "Unveiling the artistic Mercedes-Benz G-Class specifically designed for She's Mercedes in Dubai by Janan Studio",
+      "url": "https://www.youtube.com/watch?v=8jGJMjvI6RY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-09-28T10:11:47-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Artistic Mercedes-Benz G-Class Designed for She's Mercedes Dubai",
+      "editorialOrder": 47,
+      "publicDescription": "The Artistic Mercedes-Benz G-Class Designed For She's Mercedes Dubai campaign video."
+    },
+    {
+      "videoId": "BGcUmBZei3I",
+      "title": "Chopard Ice Cube 2017 | Teaser 02 | Post Production",
+      "description": "Short teaser created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=BGcUmBZei3I",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-12-29T08:09:26-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Teaser 02 | Post-Production",
+      "editorialOrder": 48,
+      "publicDescription": "Chopard Ice Cube 2017 / Teaser 02 campaign video."
+    },
+    {
+      "videoId": "cCvBH8Gqlms",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 07 | Post Production",
+      "description": "One of the individual 20 second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=cCvBH8Gqlms",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:25:24-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 07 | Post-Production",
+      "editorialOrder": 49,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 07 campaign video."
+    },
+    {
+      "videoId": "c2nF-hRVRr0",
+      "title": "Dubai Tourism & Culture | Tamara Jamal Lookbook | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Tamara Jamal Instagram: https://www.instagram.com/tamara.jamal/ Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=c2nF-hRVRr0",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-04-21T04:57:45-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Tamara Jamal Lookbook | Post-Production",
+      "editorialOrder": 50,
+      "publicDescription": "Dubai Tourism multi-influencer lookbook featuring Tamara Jamal Lookbook. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "yIui0LuV2I4",
+      "title": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2 Joe Nasr project record:",
+      "url": "https://www.youtube.com/watch?v=yIui0LuV2I4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-01-07T03:00:32-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "editorialOrder": 51,
+      "publicDescription": "Mercedes-Benz / She’s Mercedes Dubai / campaign video."
+    },
+    {
+      "videoId": "vDN-Alq3ClA",
+      "title": "Maybelline Fit Me | Ascia AKF | Editing, Motion Graphics & VFX",
+      "description": "One of the ultimate challenges in that Maybelline ad was the rotoscope. The background had the same color as Ascia's clothes and motion blur everywhere! Anyway, we couldn't reshoot because of the right deadline but I think we pull it off as much as…",
+      "url": "https://www.youtube.com/watch?v=vDN-Alq3ClA",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-22T03:21:24-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Ascia AKF | Editing, Motion Graphics & VFX",
+      "editorialOrder": 52,
+      "publicDescription": "Maybelline Fit Me / Ascia AKF campaign video."
+    },
+    {
+      "videoId": "RBUZFhfegio",
+      "title": "Nyx Arabia Face Awards Season 2",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=RBUZFhfegio",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-01-08T22:16:06-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "NYX Arabia Face Awards Season 2",
+      "editorialOrder": 53,
+      "publicDescription": "NYX Arabia / Face Awards / Season 2 campaign video."
+    },
+    {
+      "videoId": "6IVPufxZdOk",
+      "title": "Estee(2)",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=6IVPufxZdOk",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-08-26T05:21:33-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Estée | Working Version 2 | Post-Production",
+      "editorialOrder": 54,
+      "publicDescription": "Estee(2) campaign video."
+    },
+    {
+      "videoId": "1XJL2jIgUGg",
+      "title": "#Fitme MAYBELLINE w/Maya",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=1XJL2jIgUGg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-04-22T03:20:51-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Maya",
+      "editorialOrder": 55,
+      "publicDescription": "Maybelline / Fit Me / Maya campaign video."
+    },
+    {
+      "videoId": "H_mDPcMciWA",
+      "title": "#FitMe Maybelline",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=H_mDPcMciWA",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2018-04-22T03:21:05-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#FitMe Maybelline",
+      "editorialOrder": 56,
+      "publicDescription": "Maybelline / Fit Me campaign video."
+    },
+    {
+      "videoId": "aQ29nZ5U8D0",
+      "title": "Estee-gram - Glam Glow - Estee on Instagram",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=aQ29nZ5U8D0",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2019-08-26T05:21:44-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Estée Lauder / Glamglow | Instagram Edit | Post-Production",
+      "editorialOrder": 57,
+      "publicDescription": "Estee-Gram / Glam Glow / Estee On Instagram campaign video."
+    },
+    {
+      "videoId": "rUDjUbuATDg",
+      "title": "Fit me MAYBELLINE w/Aseel",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=rUDjUbuATDg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-22T03:20:59-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Aseel",
+      "editorialOrder": 58,
+      "publicDescription": "Maybelline / Fit Me / Aseel campaign video."
+    },
+    {
+      "videoId": "7Ncmevdo1WI",
+      "title": "Chopard Ice Cube 2017 | Influencer Social Cut 08 | Post Production",
+      "description": "One of the individual 20-second social edits created for the Chopard Ice Cube influencer campaign in 2017.",
+      "url": "https://www.youtube.com/watch?v=7Ncmevdo1WI",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Creative Brand Advertising Projects"
+      ],
+      "publishedAt": "2017-10-15T07:25:14-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube 2017 | Influencer Social Cut 08 | Post-Production",
+      "editorialOrder": 59,
+      "publicDescription": "Chopard Ice Cube 2017 / Influencer Social Cut 08 campaign video."
+    },
+    {
+      "videoId": "i6ScASwPlvU",
+      "title": "Pepsi Arabia with Qusai Kheder | Post Production",
+      "description": "Client: Pepsi Arabia Agency: Impact BBDO, Jeddah Campaign: Bigger is Better TVC: Pepsi 500 ml Featured Talent: Qusai Kheder | Qusai | قصي خضر YouTube: https://www.youtube.com/@QusaimuziQ Instagram: https://www.instagram.com/qusaimuziq/ TV Production…",
+      "url": "https://www.youtube.com/watch?v=i6ScASwPlvU",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Audio Post-production",
+        "Branding",
+        "Campaigns",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: Some of My Audio Post-Production Projects",
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2012-06-05T23:17:32-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Pepsi Arabia with Qusai Kheder | Post-Production",
+      "editorialOrder": 60,
+      "publicDescription": "Pepsi Arabia With Qusai Kheder campaign video."
+    },
+    {
+      "videoId": "U1FPZZCcaFo",
+      "title": "Michael Kors Dubai Event | New York to Dubai Skyline Intro | Animation",
+      "description": "Client: Michael Kors Agency: Project: Michael Kors Dubai Event — New York to Dubai Skyline Intro Featured Talent: Production: Research & Development Marketing Consultancy (RND), Dubai Animation / Motion Graphics: Joe Nasr Year: 2018 Production:",
+      "url": "https://www.youtube.com/watch?v=U1FPZZCcaFo",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-11-13T03:04:21-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Michael Kors Dubai Event | New York to Dubai Skyline Intro | Animation",
+      "editorialOrder": 61,
+      "publicDescription": "Michael Kors Dubai Event / New York To Dubai Skyline Intro / Animation campaign video."
+    },
+    {
+      "videoId": "amYp2v1jL6Q",
+      "title": "Gamers Hub Middle East | 2020 Game Trailer | Post-Production",
+      "description": "Project: Gamers Hub Middle East — 2020 Game Trailer Company: Gamers Hub Media Events (GHME), Dubai Post-Production: Joe Nasr Year: 2020",
+      "url": "https://www.youtube.com/watch?v=amYp2v1jL6Q",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2020-01-18T21:57:12-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Gamers Hub Middle East | 2020 Game Trailer | Post-Production",
+      "editorialOrder": 62,
+      "publicDescription": "Gamers Hub Middle East / 2020 Game Trailer campaign video."
+    },
+    {
+      "videoId": "J564S-VSWVg",
+      "title": "#Maybelline Fit me  / Rotoscope",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=J564S-VSWVg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2017-12-29T08:06:54-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Maybelline Fit Me | Rotoscope",
+      "editorialOrder": 63,
+      "publicDescription": "#Maybelline Fit Me / Rotoscope campaign video."
+    },
+    {
+      "videoId": "R_OgfQqBIEY",
+      "title": "Sephora Intro with GlamGlow | Intro Animation | Motion Graphics",
+      "description": "Brand: GLAMGLOW Retail Partner: Sephora Middle East Brand Group: The Estée Lauder Companies",
+      "url": "https://www.youtube.com/watch?v=R_OgfQqBIEY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-01-04T05:17:09-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Sephora Intro with Glamglow | Intro Animation | Motion Graphics",
+      "editorialOrder": 64,
+      "publicDescription": "Sephora Intro With GlamGlow / Intro Animation campaign video."
+    },
+    {
+      "videoId": "1LbMbABrca4",
+      "title": "Galeries Lafayette | Beauty Week Campaign | Post-Production",
+      "description": "Client: Galeries Lafayette Agency: Capital D Studio, Dubai Project: Beauty Week — Social Media Campaign Post-Production: Joe Nasr Year: 2018",
+      "url": "https://www.youtube.com/watch?v=1LbMbABrca4",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-01-31T22:35:53-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Galeries Lafayette | Beauty Week Campaign | Post-Production",
+      "editorialOrder": 65,
+      "publicDescription": "Galeries Lafayette / Beauty Week campaign video."
+    },
+    {
+      "videoId": "XogWU5swj70",
+      "title": "NYX Arabia Face Awards 2017 | Editing/VFX",
+      "description": "Client: NYX Professional Makeup Arabia Project: Arabia Face Awards 2017 Location: Dubai, UAE",
+      "url": "https://www.youtube.com/watch?v=XogWU5swj70",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-08T22:13:35-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "NYX Arabia Face Awards 2017 | Editing/VFX",
+      "editorialOrder": 66,
+      "publicDescription": "NYX Arabia Face Awards 2017 campaign video."
+    },
+    {
+      "videoId": "QA_my5J7p6g",
+      "title": "Jewelry Cinemagraph Color Retouching",
+      "description": "Series Project: Jewelry Cinemagraph Work: Cinemagraph Animation / Color Retouching Year: 2019",
+      "url": "https://www.youtube.com/watch?v=QA_my5J7p6g",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-05-13T07:51:47-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jewelry Cinemagraph Color Retouching",
+      "editorialOrder": 67,
+      "publicDescription": "Jewelry Cinemagraph Color Retouching campaign video."
+    },
+    {
+      "videoId": "vfzIZSfu3fI",
+      "title": "Jewelry Cinemagraph #048 | Loop Animation",
+      "description": "Series Project: Jewelry Cinemagraph Work: Cinemagraph Animation Year: 2019",
+      "url": "https://www.youtube.com/watch?v=vfzIZSfu3fI",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-05-13T07:52:20-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jewelry Cinemagraph #048 | Loop Animation",
+      "editorialOrder": 68,
+      "publicDescription": "Jewelry Cinemagraph #048 / Loop Animation campaign video."
+    },
+    {
+      "videoId": "gShfAUitOMU",
+      "title": "Galeries Lafayette Dubai | Instagram Stories & Mall Displays | Post Production | 2018",
+      "description": "Digital campaign content for Galeries Lafayette Dubai, created for social media and large-format retail displays, including placements at The Dubai Mall.",
+      "url": "https://www.youtube.com/watch?v=gShfAUitOMU",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-07T06:03:07-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Galeries Lafayette Dubai | Instagram Stories & Mall Displays | Post-Production | 2018",
+      "editorialOrder": 69,
+      "publicDescription": "Galeries Lafayette Dubai / Instagram Stories & Mall Displays / 2018 campaign video."
+    },
+    {
+      "videoId": "vp8ytlNEVQo",
+      "title": "Galeries Lafayette Dubai | Post Editing Process",
+      "description": "Working post production edit for Galeries Lafayette Dubai from 2018.",
+      "url": "https://www.youtube.com/watch?v=vp8ytlNEVQo",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-01-04T04:38:14-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Galeries Lafayette Dubai | Post Editing Process",
+      "editorialOrder": 70,
+      "publicDescription": "Galeries Lafayette Dubai / Post Editing Process campaign video."
+    },
+    {
+      "videoId": "1opzhAEfFVQ",
+      "title": "Chopard Girls | After Effects Rotoscoping and Compositing",
+      "description": "The performers were filmed individually against a white background. In Adobe After Effects, I used rotoscoping and animated masks to isolate each person from the original footage.",
+      "url": "https://www.youtube.com/watch?v=1opzhAEfFVQ",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching",
+        "Motion Graphics"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-03-19T23:48:45-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0256",
+          "title": "Chopard Girls",
+          "description": "After Effects rotoscoping, animated masks and compositing.",
+          "category": "Motion / Compositing"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Chopard Girls | After Effects Rotoscoping and Compositing",
+      "editorialOrder": 71,
+      "publicDescription": "Chopard Girls production."
+    },
+    {
+      "videoId": "-OCfCMZNzJg",
+      "title": "Post Production - Banners and Slides at Dubai Mall _La Fayette",
+      "description": "How we set up the video for banners at Dubai Mall.",
+      "url": "https://www.youtube.com/watch?v=-OCfCMZNzJg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-10T12:39:02-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Post-Production | Banners and Slides at Dubai Mall | La Fayette",
+      "editorialOrder": 72,
+      "publicDescription": "Post-Production / Banners And Slides At Dubai Mall _La Fayette campaign video."
+    },
+    {
+      "videoId": "W9AixRBXjVs",
+      "title": "Jotun Arabia | Stop-Motion | Post-Production Breakdown",
+      "description": "Client: Jotun Arabia Production Context: Capital D Studio Joe Nasr Contribution: Editing / Post-Production / Motion Graphics / Compositing Project Type: Behind-the-Scenes / Post-Production Breakdown Period: 2017",
+      "url": "https://www.youtube.com/watch?v=W9AixRBXjVs",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-10-06T13:38:22-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jotun Arabia | Stop-Motion | Post-Production Breakdown",
+      "editorialOrder": 73,
+      "publicDescription": "Jotun Arabia campaign video."
+    },
+    {
+      "videoId": "fWh4ECK2Lxk",
+      "title": "Jotun Arabia | Kat LeBrasse | Stop-Motion Ad",
+      "description": "Client: Jotun Arabia Featured Talent: Kat LeBrasse Production Context: Capital D Studio Joe Nasr Contribution: Editing / Post-Production / Motion Graphics / Stop-Motion Compositing Period: 2017",
+      "url": "https://www.youtube.com/watch?v=fWh4ECK2Lxk",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Animation",
+        "Motion Graphics",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "Showcase: Animated Infographics on a Budget!",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-10-06T13:37:07-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jotun Arabia | Kat LeBrasse | Stop-Motion Ad",
+      "editorialOrder": 74,
+      "publicDescription": "Jotun Arabia / Kat Lebrasse campaign video."
+    },
+    {
+      "videoId": "xl8RM6Cr5-w",
+      "title": "Jotun Arabia | Kat LeBrasse | Sea Emerald Stop-Motion Campaign",
+      "description": "Client: Jotun Arabia Featured Talent: Kat LeBrasse Production Context: Capital D Studio Joe Nasr Contribution: Editing / Post-Production / Motion Graphics / Stop-Motion Compositing Period: 2017",
+      "url": "https://www.youtube.com/watch?v=xl8RM6Cr5-w",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-10-06T13:39:55-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Jotun Arabia | Kat LeBrasse | Sea Emerald Stop-Motion Campaign",
+      "editorialOrder": 75,
+      "publicDescription": "Jotun Arabia / Kat Lebrasse campaign video."
+    },
+    {
+      "videoId": "Nk1iRGnGYKA",
+      "title": "Post-Production Cinemagraph-ing and Coloring Workflow",
+      "description": "Workflow Joe Nasr project record:",
+      "url": "https://www.youtube.com/watch?v=Nk1iRGnGYKA",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-04-21T05:05:25-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Post-Production | Cinemagraph & Coloring Workflow",
+      "editorialOrder": 76,
+      "publicDescription": "Post-Production Cinemagraph-Ing And Coloring Workflow campaign video."
+    },
+    {
+      "videoId": "bzOLNhkFlsA",
+      "title": "Chopard | After Effects Tracking Working Pass",
+      "description": "Chopard post production working clip from 2017.",
+      "url": "https://www.youtube.com/watch?v=bzOLNhkFlsA",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2017-12-29T08:08:27-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard | After Effects Tracking Working Pass",
+      "editorialOrder": 77,
+      "publicDescription": "Chopard campaign video."
+    },
+    {
+      "videoId": "-MqtMG3NpyE",
+      "title": "L'Azurde Jewelry | Cleanup and Retouching Working Pass",
+      "description": "L'Azurde jewelry post production working clip from 2018.",
+      "url": "https://www.youtube.com/watch?v=-MqtMG3NpyE",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-22T03:09:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "L'Azurde Jewelry | Cleanup and Retouching Working Pass",
+      "editorialOrder": 78,
+      "publicDescription": "L’Azurde Jewelry / Cleanup And Retouching Working Pass campaign video."
+    },
+    {
+      "videoId": "wWtQ49qdukg",
+      "title": "Clinic Media | After Effects Rotoscoping and VFX Working Pass",
+      "description": "Online post-production working clip from 2018.",
+      "url": "https://www.youtube.com/watch?v=wWtQ49qdukg",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-04-22T03:09:59-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Clinic Media | After Effects Rotoscoping and VFX Working Pass",
+      "editorialOrder": 79,
+      "publicDescription": "Clinic Media campaign video."
+    },
+    {
+      "videoId": "4orZO_WDYVQ",
+      "title": "FENDI x Marie Claire Arabia | Nina Abdel Malak | Video Retouching",
+      "description": "FENDI x Marie Claire Arabia editorial featuring Nina Abdel Malak from 2018.",
+      "url": "https://www.youtube.com/watch?v=4orZO_WDYVQ",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-08T03:51:15-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Fendi × Marie Claire Arabia | Nina Abdel Malak | Video Retouching",
+      "editorialOrder": 80,
+      "publicDescription": "Fendi X Marie Claire Arabia / Nina Abdel Malak / Video Retouching campaign video."
+    },
+    {
+      "videoId": "4D3zsCw5_ts",
+      "title": "Barakat I May 2021 I Cinema Ad I UAE",
+      "description": "The 72 sec. Barakat on screen campaign was booked through Motivate Val Morgan, and is screening at multiple VOX locations from 13th May 2021 to 27th May 2021.",
+      "url": "https://www.youtube.com/watch?v=4D3zsCw5_ts",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2021-05-17T04:01:27-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Barakat I May 2021 I Cinema Ad I UAE",
+      "editorialOrder": 81,
+      "publicDescription": "Barakat I May 2021 I Cinema Ad I UAE campaign video."
+    },
+    {
+      "videoId": "CI8mbXLaJ30",
+      "title": "Etihad Airways | Choose Well | Burj Khalifa 2019",
+      "description": "Etihad Airways campaign edit from 2019 featuring Emirati talent.",
+      "url": "https://www.youtube.com/watch?v=CI8mbXLaJ30",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2026-10-06T08:27:33-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Etihad Airways | Choose Well | Burj Khalifa 2019",
+      "editorialOrder": 82,
+      "publicDescription": "Etihad Airways / Choose Well / Burj Khalifa 2019 campaign video."
+    },
+    {
+      "videoId": "VH6i9VkrxCc",
+      "title": "#NoMoreSouq | Motion Graphics Animation",
+      "description": "Motion graphics animation created around the transition from Souq.com to Amazon.ae in the UAE 2018-2019",
+      "url": "https://www.youtube.com/watch?v=VH6i9VkrxCc",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-04-21T04:55:35-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#NoMoreSouq | Motion Graphics Animation",
+      "editorialOrder": 83,
+      "publicDescription": "#NoMoreSouq campaign video."
+    },
+    {
+      "videoId": "R44sjkF2gls",
+      "title": "Etihad Airways | Choose Well | English/InstaStory 2019",
+      "description": "English vertical edit produced for Etihad Airways in 2019.",
+      "url": "https://www.youtube.com/watch?v=R44sjkF2gls",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-08-26T05:22:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Etihad Airways | Choose Well | English Instagram Story | 2019",
+      "editorialOrder": 84,
+      "publicDescription": "Etihad Airways / Choose Well / English/Instastory 2019 campaign video."
+    },
+    {
+      "videoId": "4fn1v2KcMkA",
+      "title": "Domestic streamers video",
+      "description": "Join us as we dive into the world of domestic streamers, exploring the unique experiences and perspectives of streamers from around the globe. From gaming and entertainment to music and art, domestic streamers are pushing the boundaries of online content…",
+      "url": "https://www.youtube.com/watch?v=4fn1v2KcMkA",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Branding",
+        "Campaigns"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2020-01-11T07:22:30-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Domestic Streamers Video",
+      "editorialOrder": 85,
+      "publicDescription": "Domestic Streamers Video campaign video."
+    },
+    {
+      "videoId": "9EgSarePV5g",
+      "title": "Clinic Media - DUST ON SENSOR REMOVAL and More...",
+      "description": "ClinicMedia.net info@clinicmedia.net FOR YOUR PHOTOS, VIDEOS, AND AUDIO PRODUCTIONS High End Low Rate Online Post Production SERVICES | Visual Effects | CGI | Retouching | Digital MakeOvers | Object Removal | Object Insertion | Dust-On-Sensor Cleaning |…",
+      "url": "https://www.youtube.com/watch?v=9EgSarePV5g",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-04-22T03:10:04-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Clinic Media | Dust Removal & Visual Cleanup",
+      "editorialOrder": 86,
+      "publicDescription": "Clinic Media / Dust On Sensor Removal And More campaign video."
+    },
+    {
+      "videoId": "jIDTyVX_Z-8",
+      "title": "Clinic Media - Online Post - ScreenRecording #057",
+      "description": "Clinic Media - Online Post - ScreenRecording #057 Clinicmedia.net Online Post Production VFX CGI DIGITAL MAKEOVERS",
+      "url": "https://www.youtube.com/watch?v=jIDTyVX_Z-8",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-04-22T03:09:29-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Clinic Media | Post-Production Screen Recording 057",
+      "editorialOrder": 87,
+      "publicDescription": "Clinic Media / Online Post / Screenrecording #057 campaign video."
+    },
+    {
+      "videoId": "mBS6PSK6D7Q",
+      "title": "Online Editing - Special FX Fixes, Removals, and Skin Cleansing",
+      "description": "Araman Studio JLT Dubai UAE L'Azurde - mother day Special Effects - Retouching - Cleansing - Object Removal - Skin Enhancement | www.Joenasr.net",
+      "url": "https://www.youtube.com/watch?v=mBS6PSK6D7Q",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-03-21T02:19:16-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Online Editing | Special FX Fixes, Removals & Skin Cleansing",
+      "editorialOrder": 88,
+      "publicDescription": "Online Editing / Special Fx Fixes, Removals, And Skin Cleansing campaign video."
+    },
+    {
+      "videoId": "ZNGpeCZxe-A",
+      "title": "Fit Me Maybelline",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=ZNGpeCZxe-A",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-04-22T03:21:11-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Fit Me Maybelline",
+      "editorialOrder": 89,
+      "publicDescription": "Fit Me Maybelline campaign video."
+    },
+    {
+      "videoId": "QSuc_cpGdpc",
+      "title": "CLINIC MEDIA - Fashion Photos and Videos Retouching without Titles",
+      "description": "CLINIC MEDIA ONLINE POST PRODUCTION www.clinicmedia.net - Fashion Photos and Videos Retouching and Digital Make Overs",
+      "url": "https://www.youtube.com/watch?v=QSuc_cpGdpc",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-04-22T03:10:11-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Clinic Media | Fashion Retouching | Untitled Version",
+      "editorialOrder": 90,
+      "publicDescription": "Clinic Media / Fashion Photos And Videos Retouching Without Titles campaign video."
+    },
+    {
+      "videoId": "R5YDB9ndqSY",
+      "title": "Adidas | Terrex Jackets Campaign Hero | Post-Production",
+      "description": "Brand: Adidas Project: TERREX Jackets MENA Production: Seeme International Post-Production: Joe Nasr Year: 2021",
+      "url": "https://www.youtube.com/watch?v=R5YDB9ndqSY",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2021-10-20T06:30:09-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0309",
+          "title": "adidas TERREX Jackets MENA",
+          "description": "Post-production for the regional commercial through SEEME Production.",
+          "category": "Commercial / Post-production"
+        }
+      ],
+      "additionalSources": [
+        {
+          "label": "Vimeo: adidas TERREX Jackets MENA",
+          "url": "https://vimeo.com/794455766"
+        }
+      ],
+      "displayTitle": "Adidas | Terrex Jackets Campaign Hero | Post-Production",
+      "editorialOrder": 91,
+      "publicDescription": "Adidas / Terrex Jackets Campaign / Hero campaign video."
+    },
+    {
+      "videoId": "A9p3HDKJddo",
+      "title": "GLAMGLOW × Sephora | Instagram Campaign | Post-Production",
+      "description": "Brand: GLAMGLOW Retail Partner: Sephora Middle East Brand Group: The Estée Lauder Companies",
+      "url": "https://www.youtube.com/watch?v=A9p3HDKJddo",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:41-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Glamglow × Sephora | Instagram Campaign | Post-Production",
+      "editorialOrder": 92,
+      "publicDescription": "GlamGlow × Sephora / Instagram campaign video."
+    },
+    {
+      "videoId": "mpc1JXmEe98",
+      "title": "GLAMGLOW × Sephora | Influencer Campaign | Post-Production",
+      "description": "Brand: GLAMGLOW Retail Partner: Sephora Middle East Brand Group: The Estée Lauder Companies",
+      "url": "https://www.youtube.com/watch?v=mpc1JXmEe98",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2018-03-19T23:44:35-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Glamglow × Sephora | Influencer Campaign | Post-Production",
+      "editorialOrder": 93,
+      "publicDescription": "GlamGlow × Sephora / Influencer campaign video."
+    },
+    {
+      "videoId": "iLH3FcSK_VI",
+      "title": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "description": "Client / Brand: Mercedes-Benz",
+      "url": "https://www.youtube.com/watch?v=iLH3FcSK_VI",
+      "categories": [
+        "Branding",
+        "Campaigns",
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My Video Post-Production Brand Projects"
+      ],
+      "publishedAt": "2019-08-26T05:21:16-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "She's Mercedes Dubai | Mercedes-Benz | Campaign | Post-Production",
+      "editorialOrder": 94,
+      "publicDescription": "She's Mercedes Dubai / Mercedes-Benz / campaign video."
+    },
+    {
+      "videoId": "Pa5x-GMpTtA",
+      "title": "IGG  Final 1080p MP4  Edit MotionGraphics 3D Coloring SFX Mix",
+      "description": "documentary, Dubai, Abu Dhabi,",
+      "url": "https://www.youtube.com/watch?v=Pa5x-GMpTtA",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-05-13T07:52:41-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "IGG | Final 1080p Edit | Motion Graphics, 3D, Color & SFX",
+      "editorialOrder": 95,
+      "publicDescription": "Igg Final 1080P Mp4 Edit Motiongraphics 3D Coloring Sfx Mix video."
+    },
+    {
+      "videoId": "eBzvsU-jLZw",
+      "title": "DCT 3RD DAY HD 43 SEC",
+      "description": "Abu Dhabi Cultural Courses Onset Production and Post www.mediavalley.ae",
+      "url": "https://www.youtube.com/watch?v=eBzvsU-jLZw",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:17:23-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "DCT | Day 3 | 43-Second HD Edit",
+      "editorialOrder": 96,
+      "publicDescription": "Dct 3Rd Day Hd 43 Sec video."
+    },
+    {
+      "videoId": "-ydiQViCok0",
+      "title": "DCT Earthern Course Day 1",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=-ydiQViCok0",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:26:19-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "DCT Earthern Course Day 1",
+      "editorialOrder": 97,
+      "publicDescription": "Dct Earthern Course Day 1 video."
+    },
+    {
+      "videoId": "CIxiM29imKw",
+      "title": "DCT EARTHEN DAY02",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=CIxiM29imKw",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:26:54-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "DCT Earthen Day02",
+      "editorialOrder": 98,
+      "publicDescription": "Dct Earthen Day02 video."
+    },
+    {
+      "videoId": "j2XFqckVViU",
+      "title": "DCT 4TH DAY HD 60 SEC DAY4",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=j2XFqckVViU",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2018-11-15T02:47:20-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "DCT | Day 4, 60-Second Export | Post-Production",
+      "editorialOrder": 99,
+      "publicDescription": "Dct 4Th Day Hd 60 Sec Day4 video."
+    },
+    {
+      "videoId": "I7TCv5ekag8",
+      "title": "BUILT2SPEC SEMI DOCUMENTARY",
+      "description": "France Built2Spec SemiSeries Part1 Collaboration with FreeFlyFrance Post-Production www.mediavalley.ae",
+      "url": "https://www.youtube.com/watch?v=I7TCv5ekag8",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:19:02-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Built2Spec Semi Documentary",
+      "editorialOrder": 100,
+      "publicDescription": "Built2Spec Semi Documentary video."
+    },
+    {
+      "videoId": "F86ESPw35LY",
+      "title": "TRA event",
+      "description": "Video Editing, Motion Graphics, Animation, Music Production | @CapitalDStudio www.CapitalDstudio.com Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=F86ESPw35LY",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2017-12-29T08:12:51-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Tra Event",
+      "editorialOrder": 101,
+      "publicDescription": "Tra Event video."
+    },
+    {
+      "videoId": "x1PGJYTc4pY",
+      "title": "Etihad Airways | Choose Well | Live Burj Khalifa 2019",
+      "description": "Witness the breathtaking views of the Burj Khalifa, the tallest building in the world, as Etihad brings you a live stream of this stunning landmark. Get an exclusive glimpse of the Dubai skyline and experience the grandeur of the Burj Khalifa in real-time.…",
+      "url": "https://www.youtube.com/watch?v=x1PGJYTc4pY",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-05-13T07:35:52-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Etihad Airways | Choose Well | Live Burj Khalifa 2019",
+      "editorialOrder": 102,
+      "publicDescription": "Etihad Airways / Choose Well / Live Burj Khalifa 2019 video."
+    },
+    {
+      "videoId": "kpcrPx1huLo",
+      "title": "Chevrolet Social Media Campaign Video",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=kpcrPx1huLo",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2017-12-29T08:11:22-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chevrolet Social Media Campaign Video",
+      "editorialOrder": 103,
+      "publicDescription": "Chevrolet Social Media Campaign Video video."
+    },
+    {
+      "videoId": "Jbmq-5mZHWI",
+      "title": "ET بالعربي | Video Editing | 2015",
+      "description": "ET Bil Arabi / ET بالعربي 2015 Joe Nasr — Freelance Video Editor Editing: Final Cut Pro 7 Production: Charisma Group Production Studios: twofour54, Abu Dhabi Historical YouTube archive included multiple cuts/uploads; several later became copyright-blocked.",
+      "url": "https://www.youtube.com/watch?v=Jbmq-5mZHWI",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2015-07-16T05:02:08-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0319",
+          "title": "ET Bil Arabi",
+          "description": "Freelance editing for a Charisma Group television production.",
+          "category": "Broadcast / Editing"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "ET بالعربي | Video Editing | 2015",
+      "editorialOrder": 104,
+      "publicDescription": "ET Bil Arabi television production."
+    },
+    {
+      "videoId": "KY_xvsXcNg0",
+      "title": "Joe Nasr Music Production - TVC - Efes Beer 0% Alc.",
+      "description": "Sound Design www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=KY_xvsXcNg0",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Audio Post-production",
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: Some of My Audio Post-Production Projects",
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2012-10-03T04:32:50-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Music Production | TVC | Efes Beer 0% Alc.",
+      "editorialOrder": 105,
+      "publicDescription": "Music Production / TVC / Efes Beer 0% Alc."
+    },
+    {
+      "videoId": "o_Mq8YTCsoI",
+      "title": "The Nidaa Show | Oprah Winfrey Promo | 2015",
+      "description": "“The Nidaa Show” promotional video featuring Oprah Winfrey from 2015.",
+      "url": "https://www.youtube.com/watch?v=o_Mq8YTCsoI",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Audio Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "Showcase: Some of My Audio Post-Production Projects"
+      ],
+      "publishedAt": "2015-12-01T07:57:11-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Nidaa Show | Oprah Winfrey Promo | 2015",
+      "editorialOrder": 106,
+      "publicDescription": "The Nidaa Show / Oprah Winfrey Promo / 2015 video."
+    },
+    {
+      "videoId": "Xv_8W4yEztI",
+      "title": "Dubai Tourism - Ahmad's Edit",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=Xv_8W4yEztI",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:27:10-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism | Ahmad's Edit",
+      "editorialOrder": 107,
+      "publicDescription": "Dubai Tourism / Ahmad's Edit video."
+    },
+    {
+      "videoId": "82Dw6RUuqa4",
+      "title": "DCT Earthern Course Day 2",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=82Dw6RUuqa4",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-01-19T05:26:57-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "DCT Earthern Course Day 2",
+      "editorialOrder": 108,
+      "publicDescription": "Dct Earthern Course Day 2 video."
+    },
+    {
+      "videoId": "cJkEah6fB5k",
+      "title": "When Joe was 16-17 years old - For you to remember or I to forget (cakewalk session)",
+      "description": "Cubase Demo Session Halion/Orchestral Steinberg/Waves Plugins www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=cJkEah6fB5k",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2010-09-06T17:49:38-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "When Joe Was 16-17 Years Old | For You to Remember or I to Forget (Cakewalk Session)",
+      "editorialOrder": 109,
+      "publicDescription": "When Joe Was 16-17 Years Old / For You To Remember Or I To Forget (Cakewalk Session) video.",
+      "excludeFromCampaignViewer": true
+    },
+    {
+      "videoId": "3cdRcxKXtKs",
+      "title": "Dubai Tourism & Culture | Ghassan Kayed | Post-Production",
+      "description": "Client: Dubai Tourism (DTCM), Government of Dubai Agency: Project: Dubai Tourism & Culture Featured Talent: Ghassan Kayed Instagram: https://www.instagram.com/ghassankyd/ Production: Shadow Professional Photography, Dubai Post-Production: Joe Nasr Year…",
+      "url": "https://www.youtube.com/watch?v=3cdRcxKXtKs",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2018-10-22T23:58:50-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Tourism & Culture | Ghassan Kayed | Post-Production",
+      "editorialOrder": 110,
+      "publicDescription": "Dubai Tourism multi-influencer campaign featuring Ghassan Kayed. Production: Shadow Professional Photography."
+    },
+    {
+      "videoId": "_rUlYkWX7M8",
+      "title": "Astudio motion logo on social media",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=_rUlYkWX7M8",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-08-26T05:20:33-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Astudio Motion Logo on Social Media",
+      "editorialOrder": 111,
+      "publicDescription": "Astudio Motion Logo On Social Media video."
+    },
+    {
+      "videoId": "ccHJYsreX70",
+      "title": "#jewelry #cinemagraph #loop #045",
+      "description": "Discover the mesmerizing world of jewelry cinemagraphs with this stunning loop, #045. A perfectly crafted blend of stillness and motion, this cinemagraph showcases exquisite jewelry pieces in a captivating and endless loop. Ideal for anyone who loves the…",
+      "url": "https://www.youtube.com/watch?v=ccHJYsreX70",
+      "categories": [
+        "Video Production",
+        "Post-production",
+        "Retouching"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-05-13T07:52:33-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#Jewelry #Cinemagraph #Loop #045",
+      "editorialOrder": 112,
+      "publicDescription": "#jewelry #cinemagraph #loop #045 video."
+    },
+    {
+      "videoId": "rPjcpMJ5TNU",
+      "title": "Discussion with Colin Mochrie and Brad Sherwood at New York Film Academy",
+      "description": "Colin Mochrie and Brad Sherwood spent an afternoon with students at New York Film Academy in March. In addition to their numerous television and film appearances, the improv actors are well known for the years they spent on the British and American…",
+      "url": "https://www.youtube.com/watch?v=rPjcpMJ5TNU",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2016-04-21T10:29:40-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Discussion with Colin Mochrie and Brad Sherwood at New York Film Academy",
+      "editorialOrder": 113,
+      "publicDescription": "Discussion With Colin Mochrie And Brad Sherwood At New York Film Academy video."
+    },
+    {
+      "videoId": "Psq-qWtOzN8",
+      "title": "The Talent Show Pitch #talentshow",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=Psq-qWtOzN8",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2020-01-18T21:59:45-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Talent Show | Pitch Video | Archived Version",
+      "editorialOrder": 114,
+      "publicDescription": "The Talent Show Pitch #talentshow video."
+    },
+    {
+      "videoId": "gkIN9DZOgYY",
+      "title": "Etihad Rail | Abu Dhabi Achievements Mashup | Post-Production",
+      "description": "Client / Brand: Etihad Rail Project: Abu Dhabi / Etihad Rail Achievements Mashup Contribution: Post-Production / Video Editing",
+      "url": "https://www.youtube.com/watch?v=gkIN9DZOgYY",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2020-01-18T21:57:52-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Etihad Rail | Abu Dhabi Achievements Mashup | Post-Production",
+      "editorialOrder": 115,
+      "publicDescription": "Etihad Rail / Abu Dhabi Achievements Mashup video."
+    },
+    {
+      "videoId": "3KcFhO_Zb88",
+      "title": "Expo2020 UAE SHEIKHS REUNITE",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=3KcFhO_Zb88",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2020-02-01T00:48:21-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Expo 2020 UAE | Sheikhs Reunion | Post-Production Edit",
+      "editorialOrder": 116,
+      "publicDescription": "Expo2020 UAE Sheikhs Reunite video."
+    },
+    {
+      "videoId": "vgf5PYkm9BQ",
+      "title": "+++THE ARABIC HD",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=vgf5PYkm9BQ",
+      "categories": [
+        "Video Production",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Side Video Editing Projects"
+      ],
+      "publishedAt": "2019-04-29T08:23:27-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Arabic Version | HD | Production Export",
+      "editorialOrder": 117,
+      "publicDescription": "+++The Arabic Hd video."
+    },
+    {
+      "videoId": "xkHQup-vzzA",
+      "title": "Transform Glass into An Entertainment Unit with #Bluebeams!!! NOW IN DUBAI.",
+      "description": "Now in Dubai BLUEBEAMS TURN ANY GLASS FACADE INTO HIGH DEFINITION PROJECTOR SCREEN 00971 55 206 7668 00971 58 56 36 277 info@mediavalley.ae Dubai, United Arab Emirates MediaValleyFzLLC",
+      "url": "https://www.youtube.com/watch?v=xkHQup-vzzA",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-06-07T02:36:20-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Transform Glass Into an Entertainment Unit with #Bluebeams!!! Now in Dubai.",
+      "editorialOrder": 118,
+      "publicDescription": "Transform Glass Into An Entertainment Unit With #Bluebeams!!! Now In Dubai video."
+    },
+    {
+      "videoId": "E66TU6-WjRg",
+      "title": "Nyx Cosmetics | Maya | Bloopers |  Nyx Face Awards Compilation",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=E66TU6-WjRg",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-12-29T08:07:09-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "NYX Arabia Face Awards | Maya Bloopers Compilation",
+      "editorialOrder": 119,
+      "publicDescription": "NYX Cosmetics / Maya / Bloopers video."
+    },
+    {
+      "videoId": "zNnk-JdwpiY",
+      "title": "Nadex animation video",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=zNnk-JdwpiY",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-05-29T01:22:42-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Nadex | Animation Video",
+      "editorialOrder": 120,
+      "publicDescription": "Nadex Animation Video video."
+    },
+    {
+      "videoId": "Wm_q07dzAJE",
+      "title": "#SaudiArabia #NoMoreSouQ Campaign",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=Wm_q07dzAJE",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production",
+        "3D",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!",
+        "Showcase: My 3D Work for Web3 Projects and Other Brands",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-03-11T05:57:05-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#SaudiArabia #NoMoreSouQ Campaign",
+      "editorialOrder": 121,
+      "publicDescription": "#SaudiArabia #NoMoreSouQ Campaign video."
+    },
+    {
+      "videoId": "HVhPOXfT2ZU",
+      "title": "Bluebeams Social Media Motion Graphics",
+      "description": "Motion Graphics by Media Valley www.mediavalley.ae Bluebeams service now in Dubai Transform GLASS FACADES into HIGH DEFINITION Projector Screens Call 00971 55 206 7668 or 00971 58 56 36 277 For more information, email info@mediavalley.ae Dubai, United Arab…",
+      "url": "https://www.youtube.com/watch?v=HVhPOXfT2ZU",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-06-08T03:52:30-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Bluebeams Social Media Motion Graphics",
+      "editorialOrder": 122,
+      "publicDescription": "Bluebeams Social Media Motion Graphics video."
+    },
+    {
+      "videoId": "KyhTnXoIf6o",
+      "title": "Smart Dubai Infographics",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=KyhTnXoIf6o",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2019-08-26T05:22:45-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Smart Dubai | Infographic Animation",
+      "editorialOrder": 123,
+      "publicDescription": "Smart Dubai Infographics video."
+    },
+    {
+      "videoId": "DuDUKOUJANo",
+      "title": "#Bluebeams Ferrari Beirut Simulation Video",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=DuDUKOUJANo",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-10-07T08:53:51-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#Bluebeams Ferrari Beirut Simulation Video",
+      "editorialOrder": 124,
+      "publicDescription": "#Bluebeams Ferrari Beirut Simulation Video video."
+    },
+    {
+      "videoId": "NQ7WfiRgq_g",
+      "title": "LEEJAM - Animated Infograph",
+      "description": "LeeJam Stat Infographics",
+      "url": "https://www.youtube.com/watch?v=NQ7WfiRgq_g",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-05-14T20:52:42-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Leejam | Animated Infograph",
+      "editorialOrder": 125,
+      "publicDescription": "Leejam / Animated Infograph video."
+    },
+    {
+      "videoId": "xjLj1AC7PBA",
+      "title": "BLUEBEAMS The New Magic Liquid Now In UAE",
+      "description": "Now in Dubai BLUEBEAMS Transform Glass into Projector Screens 00971 55 206 7668 00971 58 56 36 277 info@mediavalley.ae Dubai, United Arab Emirates MediaValleyFzLLC",
+      "url": "https://www.youtube.com/watch?v=xjLj1AC7PBA",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-06-08T03:54:22-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Bluebeams the New Magic Liquid Now in UAE",
+      "editorialOrder": 126,
+      "publicDescription": "Bluebeams The New Magic Liquid Now In UAE video."
+    },
+    {
+      "videoId": "cuoTTpz_qiI",
+      "title": "INSTAGRAM VID - Animated Infograph - #iloveuae43",
+      "description": "Joe Nasr Post Production Mobile: 00971 55 206 766 8 Google Play Store: http://goo.gl/4vtga2 Website: www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=cuoTTpz_qiI",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2015-10-03T14:36:21-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Instagram Video | Animated Infographic | #ILoveUAE43",
+      "editorialOrder": 127,
+      "publicDescription": "Instagram Vid / Animated Infograph / #iloveuae43 video."
+    },
+    {
+      "videoId": "9iKmIDVAaq4",
+      "title": "#SaudiArabia Red Friday",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=9iKmIDVAaq4",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-03-11T05:55:07-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Saudi Arabia | Red Friday | Campaign Edit",
+      "editorialOrder": 128,
+      "publicDescription": "#SaudiArabia Red Friday video."
+    },
+    {
+      "videoId": "GWdWHs0Kfr4",
+      "title": "#Bluebeams Maserati Lebanon Simulation Video",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=GWdWHs0Kfr4",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-10-09T10:59:06-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#Bluebeams Maserati Lebanon Simulation Video",
+      "editorialOrder": 129,
+      "publicDescription": "#Bluebeams Maserati Lebanon Simulation Video video."
+    },
+    {
+      "videoId": "iTx-FjPgvV8",
+      "title": "#Bluebeams Louis V Hotel LED simulation - Beirut, Lebanon",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=iTx-FjPgvV8",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2018-10-07T06:13:31-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#Bluebeams Louis V Hotel Led Simulation | Beirut, Lebanon",
+      "editorialOrder": 130,
+      "publicDescription": "#Bluebeams Louis V Hotel Led Simulation / Beirut, Lebanon video."
+    },
+    {
+      "videoId": "YFKLmkTwvWA",
+      "title": "All will P unveiled. June 3.",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=YFKLmkTwvWA",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-05-28T06:57:15-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "All Will P Unveiled. June 3.",
+      "editorialOrder": 131,
+      "publicDescription": "All Will P Unveiled. June 3 video."
+    },
+    {
+      "videoId": "4VBOeXcjOuo",
+      "title": "The most debated question of all time...",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=4VBOeXcjOuo",
+      "categories": [
+        "Animation",
+        "Motion Graphics",
+        "Video Production"
+      ],
+      "playlistTitles": [
+        "Showcase: Animated Infographics on a Budget!"
+      ],
+      "publishedAt": "2019-03-01T01:07:48-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Most Debated Question of All Time...",
+      "editorialOrder": 132,
+      "publicDescription": "The Most Debated Question Of All Time video."
+    },
+    {
+      "videoId": "3KRTv5xkyhc",
+      "title": "Meta Race | Meta Ape 3D Game Trailer | Joe Nasr",
+      "description": "Project: Meta Race Brand / Ecosystem: Meta Ape Blockchain Network: Conscious Network Joe Nasr Contribution: Trailer Production / Creative Production Project Context: Web3 / GameFi / 3D Animation Period: 2021–2023",
+      "url": "https://www.youtube.com/watch?v=3KRTv5xkyhc",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-04T05:25:01-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Meta Race | Meta Ape 3D Game Trailer",
+      "editorialOrder": 133,
+      "publicDescription": "Meta Race / Meta Ape 3D Game Trailer video."
+    },
+    {
+      "videoId": "FEZA6HcCqPM",
+      "title": "Daoversal Metaverse | Animation Trailer | Joe Nasr",
+      "description": "Daoversal Metaverse - animation and creative work from Joe Nasr’s Web3 and metaverse project archive.",
+      "url": "https://www.youtube.com/watch?v=FEZA6HcCqPM",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2023-12-02T09:15:25-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Daoversal Metaverse | Animation Trailer",
+      "editorialOrder": 134,
+      "publicDescription": "Daoversal Metaverse / Animation Trailer video."
+    },
+    {
+      "videoId": "mhVmc-3_lEc",
+      "title": "Earn.Games Academy | Learn to Fly 3D Animation | Joe Nasr",
+      "description": "Project: Earn.Games Academy Campaign / Concept: Learn to Fly Joe Nasr Contribution: 3D Character Animation / Creative Production Deliverable: Branded Animated Teaser Project Context: Web3 Education / GameFi Period: 2022",
+      "url": "https://www.youtube.com/watch?v=mhVmc-3_lEc",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-07T14:34:01-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Earn.Games Academy | Learn to Fly 3D Animation",
+      "editorialOrder": 135,
+      "publicDescription": "Earn.Games Academy / Learn To Fly 3D Animation video."
+    },
+    {
+      "videoId": "NEK6PraNqpg",
+      "title": "B.Game | Web3 Gaming Trailer | Joe Nasr",
+      "description": "Project: B.Game Organization / Ecosystem: Guild Technologies / Daoverse Capital Joe Nasr Contribution: Creative Production / Promotional Media Project Context: Web3 / Gaming / Digital Entertainment Period: 2021–2023",
+      "url": "https://www.youtube.com/watch?v=NEK6PraNqpg",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2023-12-02T09:13:53-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "B.Game | Web3 Gaming Trailer",
+      "editorialOrder": 136,
+      "publicDescription": "B.Game / Web3 Gaming Trailer video."
+    },
+    {
+      "videoId": "nuW5I6G2XTY",
+      "title": "Earn Games | Guild Technology | Animation Work",
+      "description": "Pinnie getting ready for EARN.GAMES ACADEMY REGISTRATION",
+      "url": "https://www.youtube.com/watch?v=nuW5I6G2XTY",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2022-12-31T03:42:48-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Earn Games | Guild Technology | Animation Work",
+      "editorialOrder": 137,
+      "publicDescription": "Earn Games / Guild Technology / Animation Work video."
+    },
+    {
+      "videoId": "ntt9pp4EvN4",
+      "title": "B Game's Dystopian Street Ad",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=ntt9pp4EvN4",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-04T06:09:26-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "B Game's Dystopian Street Ad",
+      "editorialOrder": 138,
+      "publicDescription": "B Game's Dystopian Street Ad video."
+    },
+    {
+      "videoId": "1YsqT05TZsM",
+      "title": "Earn Games | Guild Technology | Animation Work",
+      "description": "Project: Earn.Games Academy Joe Nasr Contribution: 3D Animation / Motion Design / Creative Production Deliverable: Coming Soon Teaser / Brand Ident Project Context: Web3 Education / GameFi Period: 2022",
+      "url": "https://www.youtube.com/watch?v=1YsqT05TZsM",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-28T05:52:44-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Earn Games | Guild Technology | Animation Work",
+      "editorialOrder": 139,
+      "publicDescription": "Earn Games / Guild Technology / Animation Work video."
+    },
+    {
+      "videoId": "dnlGWNE-758",
+      "title": "ApeParkDAO | Web3 GameFi Teaser | Joe Nasr",
+      "description": "Project: ApeParkDAO Project Context: Web3 / GameFi / NFT Investment Ecosystem: Daoverse Capital Joe Nasr Contribution: Teaser Production Period: 2022",
+      "url": "https://www.youtube.com/watch?v=dnlGWNE-758",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2023-12-02T09:14:20-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "ApeParkDAO | Web3 GameFi Teaser",
+      "editorialOrder": 140,
+      "publicDescription": "Apeparkdao / Web3 Gamefi Teaser video."
+    },
+    {
+      "videoId": "BDotbRsjLpE",
+      "title": "Snippet of the Owl who wanted to discover his talent #ad",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=BDotbRsjLpE",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-03T02:51:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Snippet of the Owl Who Wanted to Discover His Talent #Ad",
+      "editorialOrder": 141,
+      "publicDescription": "Snippet Of The Owl Who Wanted To Discover His Talent #ad video."
+    },
+    {
+      "videoId": "7N-86oG0xsE",
+      "title": "NFT Concept Milestone | 3D Animation & Creative Concept | Joe Nasr",
+      "description": "First concept milestone for a Web3 / NFT promotional idea.",
+      "url": "https://www.youtube.com/watch?v=7N-86oG0xsE",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-12-14T08:12:59-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "NFT Concept Milestone | 3D Animation & Creative Concept",
+      "editorialOrder": 142,
+      "publicDescription": "NFT Concept Milestone / 3D Animation & Creative Concept video."
+    },
+    {
+      "videoId": "nQHh-t47IFU",
+      "title": "Film Noir - intro bgames parody #3danimation",
+      "description": "Genre: film noir parody",
+      "url": "https://www.youtube.com/watch?v=nQHh-t47IFU",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-10T03:30:27-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Film Noir | Intro Bgames Parody #3Danimation",
+      "editorialOrder": 143,
+      "publicDescription": "Film Noir / Intro Bgames Parody #3danimation video."
+    },
+    {
+      "videoId": "fGRcQUpDM-4",
+      "title": "Meta Ape NFT collection ad in progress #3danimation #blender",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=fGRcQUpDM-4",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-24T00:11:01-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Meta Ape NFT Collection Ad in Progress #3Danimation #Blender",
+      "editorialOrder": 144,
+      "publicDescription": "Meta Ape NFT Collection Ad In Progress #3danimation #blender video."
+    },
+    {
+      "videoId": "r6-W8989RRk",
+      "title": "Metaverse Environment Prototype | 3D Design & Spatial Concept | Joe Nasr",
+      "description": "3D metaverse environment prototype exploring spatial design, futuristic architecture, virtual-world composition and cinematic lighting.",
+      "url": "https://www.youtube.com/watch?v=r6-W8989RRk",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-07T14:35:00-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Metaverse Environment Prototype | 3D Design & Spatial Concept",
+      "editorialOrder": 145,
+      "publicDescription": "Metaverse Environment Prototype / 3D Design & Spatial Concept video."
+    },
+    {
+      "videoId": "nqdAL6admR0",
+      "title": "APE ESCAPES: Meta Ape NFT Parody Animation! #donkeykong",
+      "description": "That's Meta Ape nft promo parody. Remember Donkey Kong the aracde game? #nft #blender",
+      "url": "https://www.youtube.com/watch?v=nqdAL6admR0",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-25T21:38:03-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Ape Escapes: Meta Ape NFT Parody Animation! #Donkeykong",
+      "editorialOrder": 146,
+      "publicDescription": "Ape Escapes: Meta Ape NFT Parody Animation! #donkeykong video."
+    },
+    {
+      "videoId": "5bs7c1KCuQw",
+      "title": "Recap of The Owl's Epic Journey (16:9) #animation #ad",
+      "description": "Recap of the Owl's Epic Journey - (music only)",
+      "url": "https://www.youtube.com/watch?v=5bs7c1KCuQw",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-03T10:15:00-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Recap of the Owl's Epic Journey (16:9) #Animation #Ad",
+      "editorialOrder": 147,
+      "publicDescription": "Recap Of The Owl's Epic Journey (16:9) #animation #ad video."
+    },
+    {
+      "videoId": "bU774MfPRxs",
+      "title": "Flight of the Owl | Earn.Games Academy 3D Animation | Joe Nasr",
+      "description": "Project: Flight of the Owl Ecosystem: Earn.Games Academy Joe Nasr Contribution: 3D Animation / Cinematic Development / Creative Production Deliverable: Animated Narrative / Project Recap Project Context: Web3 Education / GameFi Period: 2022",
+      "url": "https://www.youtube.com/watch?v=bU774MfPRxs",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-30T21:34:00-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Flight of the Owl | Earn.Games Academy 3D Animation",
+      "editorialOrder": 148,
+      "publicDescription": "Flight Of The Owl / Earn.Games Academy 3D Animation video."
+    },
+    {
+      "videoId": "EcGfd2IhQS0",
+      "title": "Earn.Games Owl Game | Early Cinematic Prototype | Joe Nasr",
+      "description": "Project: Earn.Games Owl Game Joe Nasr Contribution: Cinematic Development / 3D Environment & World Building Project Stage: Early Cinematic Prototype / Rough Cut Project Context: Web3 Educational Gaming Period: 2022",
+      "url": "https://www.youtube.com/watch?v=EcGfd2IhQS0",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-04T06:00:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Earn.Games Owl Game | Early Cinematic Prototype",
+      "editorialOrder": 149,
+      "publicDescription": "Earn.Games Owl Game / Early Cinematic Prototype video."
+    },
+    {
+      "videoId": "3Hivw9_JQ6o",
+      "title": "Animation Milestone | Ai Awareness | First Edit",
+      "description": "I'm more for the design aspect and the creative process of the video but if you wanna talk about the implications of #AI, I'm more than happy to.",
+      "url": "https://www.youtube.com/watch?v=3Hivw9_JQ6o",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-03T10:10:00-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Animation Milestone | AI Awareness | First Edit",
+      "editorialOrder": 150,
+      "publicDescription": "Animation Milestone / AI Awareness / First Edit video."
+    },
+    {
+      "videoId": "mWOU4SId39A",
+      "title": "The ultimate simulation game.. #3d #3ddesign #simulation",
+      "description": "The Simulation Within",
+      "url": "https://www.youtube.com/watch?v=mWOU4SId39A",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-21T04:07:07-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Ultimate Simulation Game.. #3D #3Ddesign #Simulation",
+      "editorialOrder": 151,
+      "publicDescription": "The Ultimate Simulation Game.. #3d #3ddesign #simulation video."
+    },
+    {
+      "videoId": "RF3SS4k_1vg",
+      "title": "Conscious Network | 3D Logo & Hand Gesture Animation | Joe Nasr",
+      "description": "Project: Conscious Network Organization / Ecosystem: Conscious Network / ConsciousDAO Joe Nasr Contribution: 3D Animation / Motion Design Deliverable: Logo and hand-gesture animation Project Context: Blockchain, Web3 and AI Period: 2023",
+      "url": "https://www.youtube.com/watch?v=RF3SS4k_1vg",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-09T07:52:12-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Conscious Network | 3D Logo & Hand Gesture Animation",
+      "editorialOrder": 152,
+      "publicDescription": "Conscious Network / 3D Logo & Hand Gesture Animation video."
+    },
+    {
+      "videoId": "BkPhcPugTrU",
+      "title": "Meta Ape NFT Collection | Web3 Promo | Joe Nasr",
+      "description": "Project: Meta Ape NFT Collection Ecosystem: META 2032 DAO Joe Nasr Contribution: Promotional Media / Creative Production Project Context: Web3 / NFT / GameFi Period: 2022–2023",
+      "url": "https://www.youtube.com/watch?v=BkPhcPugTrU",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-11T23:34:21-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Meta Ape NFT Collection | Web3 Promo",
+      "editorialOrder": 153,
+      "publicDescription": "Meta Ape NFT Collection / Web3 Promo video."
+    },
+    {
+      "videoId": "_oF6aTfQDR0",
+      "title": "170910 467 Vert edit and animation",
+      "description": "documentary",
+      "url": "https://www.youtube.com/watch?v=_oF6aTfQDR0",
+      "categories": [
+        "3D",
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands",
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-04-17T04:06:31-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "170910 467 Vert Edit and Animation",
+      "editorialOrder": 154,
+      "publicDescription": "170910 467 Vert Edit And Animation video."
+    },
+    {
+      "videoId": "KC2WoTr82Ho",
+      "title": "Wise the Owl | Unreal Engine Game Prototype | Joe Nasr",
+      "description": "Project: Wise the Owl Project Context: Earn.Games / Web3 Educational Gaming Joe Nasr Contribution: Unreal Engine Prototyping / 3D Environment & Level Design / Animation Project Stage: Early Game Prototype / Vertical Slice",
+      "url": "https://www.youtube.com/watch?v=KC2WoTr82Ho",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-09T11:10:33-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Wise the Owl | Unreal Engine Game Prototype",
+      "editorialOrder": 155,
+      "publicDescription": "Wise The Owl / Unreal Engine Game Prototype video."
+    },
+    {
+      "videoId": "Fj5bmbw1vnk",
+      "title": "From Google SketchUp to Cinema 4D using StudioBox preset  (link in description)",
+      "description": "Sketchup for speed, Cinema 4D for details and Studiobox for a quick semi-realistic rendering.",
+      "url": "https://www.youtube.com/watch?v=Fj5bmbw1vnk",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-10-03T01:01:44-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "From Google SketchUp to Cinema 4D Using StudioBox Preset (Link in Description)",
+      "editorialOrder": 156,
+      "publicDescription": "From Google Sketchup To Cinema 4D Using Studiobox Preset (Link In Description) video."
+    },
+    {
+      "videoId": "dSDKNJu2v9U",
+      "title": "Dubai Chamber 3D Modeling and Animation",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=dSDKNJu2v9U",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2019-08-26T05:23:00-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Dubai Chamber | 3D Modeling & Animation",
+      "editorialOrder": 157,
+      "publicDescription": "Dubai Chamber 3D Modeling And Animation video."
+    },
+    {
+      "videoId": "Jrclu08YnjU",
+      "title": "First #NFT collection",
+      "description": "First NFT collection design",
+      "url": "https://www.youtube.com/watch?v=Jrclu08YnjU",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-04T11:33:39-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "First #NFT Collection",
+      "editorialOrder": 158,
+      "publicDescription": "First #NFT Collection video."
+    },
+    {
+      "videoId": "bYuCVg7GHSg",
+      "title": "Meraas Pitch - Interior Design - Effects and Visualization",
+      "description": "Video Design and Visual Effects 2D and 3D rendering Pitch Visualisation Meraas.ae",
+      "url": "https://www.youtube.com/watch?v=bYuCVg7GHSg",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-07-13T10:54:16-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Meraas Pitch | Interior Design | Effects and Visualization",
+      "editorialOrder": 159,
+      "publicDescription": "Meraas Pitch / Interior Design video."
+    },
+    {
+      "videoId": "NJiXp08UUJc",
+      "title": "3D Dubai_ ministry_ FLY EMIRATES pilot",
+      "description": "Join us on an immersive 3D journey over the stunning city of Dubai, where innovation meets tradition. In this video, we take on the role of a FLY EMIRATES pilot, offering a unique perspective on the city's breathtaking landscapes and architectural marvels.…",
+      "url": "https://www.youtube.com/watch?v=NJiXp08UUJc",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2020-01-18T22:00:06-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "3D Dubai | Ministry | Fly Emirates Pilot",
+      "editorialOrder": 160,
+      "publicDescription": "3D Dubai_ Ministry_ Fly Emirates Pilot video."
+    },
+    {
+      "videoId": "-NJwAHOHiPE",
+      "title": "Mohammed Bin Rashid Al Maktoum Business Awards",
+      "description": "The high-profile Award Ceremony, held under the patronage of H.H. Sheikh Mohammed bin Rashid Al Maktoum, Vice-President and Prime Minister of the UAE and Ruler of Dubai, was organised by Dubai Chamber of Commerce and Industry. The prestigious ceremony was…",
+      "url": "https://www.youtube.com/watch?v=-NJwAHOHiPE",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2019-03-04T21:10:13-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Mohammed Bin Rashid Al Maktoum Business Awards",
+      "editorialOrder": 161,
+      "publicDescription": "Mohammed Bin Rashid Al Maktoum Business Awards video."
+    },
+    {
+      "videoId": "I4TlqhBYJiU",
+      "title": "Astronaut 3D Animation Loop | Character Animation & VFX | Joe Nasr",
+      "description": "3D astronaut animation loop exploring character motion, cinematic lighting, reflective materials and space-based visual effects.",
+      "url": "https://www.youtube.com/watch?v=I4TlqhBYJiU",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-10-19T07:54:45-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Astronaut 3D Animation Loop | Character Animation & VFX",
+      "editorialOrder": 162,
+      "publicDescription": "Astronaut 3D Animation Loop video."
+    },
+    {
+      "videoId": "4eoeTqt9UOk",
+      "title": "Daoversal Metaverse",
+      "description": "A promotional video created for Daoversal around its metaverse concept and visual direction.",
+      "url": "https://www.youtube.com/watch?v=4eoeTqt9UOk",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2023-12-02T09:14:36-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Daoversal Metaverse",
+      "editorialOrder": 163,
+      "publicDescription": "Daoversal Metaverse video."
+    },
+    {
+      "videoId": "NjZgBjeUVKw",
+      "title": "MetaRace Game Snippets - 3D characters, animation, promo, gameplay #gamedesign",
+      "description": "Welcome to MetaRace, the ultimate car racing game that combines the excitement of high-speed competition with the unique world of NFTs. In MetaRace, you'll be racing against other players from around the world, but you won't just be competing for bragging…",
+      "url": "https://www.youtube.com/watch?v=NjZgBjeUVKw",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-12T02:30:06-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "MetaRace Game Snippets - 3D Characters, Animation, Promo, Gameplay #Gamedesign",
+      "editorialOrder": 164,
+      "publicDescription": "Metarace Game Snippets / 3D Characters, Animation, Promo, Gameplay #gamedesign video."
+    },
+    {
+      "videoId": "4-All2XR1Y0",
+      "title": "Daoversal Metaverse | 3D Animation Trailer",
+      "description": "Daoversal Metaverse - animation and creative work from Joe Nasr’s Web3 and metaverse project archive.",
+      "url": "https://www.youtube.com/watch?v=4-All2XR1Y0",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-07T14:34:24-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Daoversal Metaverse | 3D Animation Trailer",
+      "editorialOrder": 165,
+      "publicDescription": "Daoversal Metaverse / 3D Animation Trailer video."
+    },
+    {
+      "videoId": "4zOfvYwckEw",
+      "title": "Earn.Games Academy | The Owl Animation Teaser | Joe Nasr",
+      "description": "Project: Earn.Games Academy Joe Nasr Contribution: 3D Animation / Creative Production Deliverable: Animated Promotional Teaser Project Context: Web3 Education / GameFi Period: 2022",
+      "url": "https://www.youtube.com/watch?v=4zOfvYwckEw",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-09T07:56:36-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Earn.Games Academy | The Owl Animation Teaser",
+      "editorialOrder": 166,
+      "publicDescription": "Earn.Games Academy / The Owl Animation Teaser video."
+    },
+    {
+      "videoId": "JbUDuqVrJsA",
+      "title": "the crypto astronaut that went viral #3d #3danimation #c4d #cryptoworld #viral",
+      "description": "i remember like 5 6 years ago this went viral and i started seeing it everywhere even in better animation skills lol",
+      "url": "https://www.youtube.com/watch?v=JbUDuqVrJsA",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-26T22:00:11-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Crypto Astronaut That Went Viral #3D #3Danimation #C4D #Cryptoworld #Viral",
+      "editorialOrder": 167,
+      "publicDescription": "The Crypto Astronaut That Went Viral #3d #3danimation #c4d #cryptoworld #viral video."
+    },
+    {
+      "videoId": "TTG921WUu5E",
+      "title": "The owl who didnt know how to fly #3danimation #animationshorts",
+      "description": "short animation: https://youtu.be/5bs7c1KCuQw?si=x_AI_hA1PcRSNbm7",
+      "url": "https://www.youtube.com/watch?v=TTG921WUu5E",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-27T07:00:20-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Owl Who Didnt Know How to Fly #3Danimation #Animationshorts",
+      "editorialOrder": 168,
+      "publicDescription": "The Owl Who Didnt Know How To Fly #3danimation #animationshorts video."
+    },
+    {
+      "videoId": "oxNlq2PcSck",
+      "title": "3D NFT Avatar Collection | Character Design Concept",
+      "description": "3D NFT avatar collection concept exploring character variations, digital collectibles and generative-style visual development.",
+      "url": "https://www.youtube.com/watch?v=oxNlq2PcSck",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-12-16T11:11:24-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "3D NFT Avatar Collection | Character Design Concept",
+      "editorialOrder": 169,
+      "publicDescription": "3D NFT Avatar Collection / Character Design Concept video."
+    },
+    {
+      "videoId": "quqKOnLppmo",
+      "title": "Ape NFT in Michael Bay's movie doing the Hero shot! #blender3d #animation",
+      "description": "Michael Bay's spinning camera shot style, often referred to as the \"Michael Bay hero shot,\" is a distinctive technique used by the director to create a dynamic and engaging visual effect in his films",
+      "url": "https://www.youtube.com/watch?v=quqKOnLppmo",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-25T15:22:31-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Ape NFT in Michael Bay's Movie Doing the Hero Shot! #Blender3D #Animation",
+      "editorialOrder": 170,
+      "publicDescription": "Ape NFT In Michael Bay's Movie Doing The Hero Shot! #blender3d #animation video."
+    },
+    {
+      "videoId": "PhLp-GlmGdM",
+      "title": "Meta Ape NFT Collection #opensea",
+      "description": "nft designs",
+      "url": "https://www.youtube.com/watch?v=PhLp-GlmGdM",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-09T11:02:36-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Meta Ape NFT Collection #Opensea",
+      "editorialOrder": 171,
+      "publicDescription": "Meta Ape NFT Collection #opensea video."
+    },
+    {
+      "videoId": "OmCLp9PBBd0",
+      "title": "NFT collection project #nftdesigns",
+      "description": "No description was provided in the available YouTube description.",
+      "url": "https://www.youtube.com/watch?v=OmCLp9PBBd0",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-11T23:32:01-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "NFT Collection | Visual Design Project",
+      "editorialOrder": 172,
+      "publicDescription": "NFT Collection Project #nftdesigns video."
+    },
+    {
+      "videoId": "BR4A7BIARGk",
+      "title": "CITY AT NIGHT - HOW I CREATE MY SCENES #CINEMA4D #3D #WORKFLOW",
+      "description": "Here' a workflow of a city at night without any details cause as you know, we don't always have time!",
+      "url": "https://www.youtube.com/watch?v=BR4A7BIARGk",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2020-03-09T11:51:29-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "City at Night | How I Create My Scenes #Cinema4D #3D #Workflow",
+      "editorialOrder": 173,
+      "publicDescription": "City At Night / How I Create My Scenes #Cinema 4D #3D #WORKFLOW video."
+    },
+    {
+      "videoId": "fwQiQ8eFt9o",
+      "title": "Inspiration. Sparkle. Thought. Ideas. Failure. Hope #3danimation",
+      "description": "inspiration sparks one thought.",
+      "url": "https://www.youtube.com/watch?v=fwQiQ8eFt9o",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-05-18T09:22:55-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Inspiration. Sparkle. Thought. Ideas. Failure. Hope #3Danimation",
+      "editorialOrder": 174,
+      "publicDescription": "Inspiration. Sparkle. Thought. Ideas. Failure. Hope #3danimation video."
+    },
+    {
+      "videoId": "W20MffUAlTE",
+      "title": "Conscious Network | Blockchain & AI Animation Concept | Joe Nasr",
+      "description": "Project: Conscious Network Project Context: Blockchain, Web3, and artificial intelligence Organization / Investment Ecosystem: Daoverse Capital Joe Nasr Contribution: Animation / Creative Production Historical Project Period: 2023",
+      "url": "https://www.youtube.com/watch?v=W20MffUAlTE",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2024-06-24T00:44:23-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Conscious Network | Blockchain & AI Animation Concept",
+      "editorialOrder": 175,
+      "publicDescription": "Conscious Network / Blockchain & AI Animation Concept video."
+    },
+    {
+      "videoId": "_fblhjK9tKo",
+      "title": "3D Model Dancing on Cinema4D - Camera Animation",
+      "description": "Dancing 3D model Cinema 4D Camera Animation",
+      "url": "https://www.youtube.com/watch?v=_fblhjK9tKo",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2019-06-07T13:02:26-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "3D Model Dancing on Cinema4D | Camera Animation",
+      "editorialOrder": 176,
+      "publicDescription": "3D Model Dancing On Cinema 4D / Camera Animation video."
+    },
+    {
+      "videoId": "K90C5VmZaTs",
+      "title": "Falling Balls in C4D #3Din4D",
+      "description": "Create from scratch a real ball in cinema 4d",
+      "url": "https://www.youtube.com/watch?v=K90C5VmZaTs",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-09-22T02:14:15-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Falling Balls in C4D #3Din4D",
+      "editorialOrder": 177,
+      "publicDescription": "Falling Balls In C4D #3Din4D video."
+    },
+    {
+      "videoId": "2ON-S4auxxQ",
+      "title": "Simple Camera Morph - Switching between two cameras in Cinema 4D",
+      "description": "Simple Camera Morphing: 1. select both cameras. 2. click on camera morph. 3. set the transition timing.",
+      "url": "https://www.youtube.com/watch?v=2ON-S4auxxQ",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-10-09T10:58:53-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Simple Camera Morph | Switching Between Two Cameras in Cinema 4D",
+      "editorialOrder": 178,
+      "publicDescription": "Simple Camera Morph / Switching Between Two Cameras In Cinema 4D video."
+    },
+    {
+      "videoId": "t_vhWPNDxqo",
+      "title": "Attach Cloth to Object Technique in Cinema4D - Create a Flag in 3D  #3Din4D",
+      "description": "...so this is how we attach a cloth to an object from several points. Remember both objects should be \"editable\" and not in their primary parametric state. There you go...",
+      "url": "https://www.youtube.com/watch?v=t_vhWPNDxqo",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-09-22T03:15:24-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Attach Cloth to Object Technique in Cinema4D | Create a Flag in 3D #3Din4D",
+      "editorialOrder": 179,
+      "publicDescription": "Attach Cloth To Object Technique In Cinema 4D / Create A Flag In 3D #3Din4D video."
+    },
+    {
+      "videoId": "G4S3mh2Hjwo",
+      "title": "#3DinC4D _ How to \"Screw\" It in 3D",
+      "description": "Create an old realistic SCREW from scratch in Cinema 4D",
+      "url": "https://www.youtube.com/watch?v=G4S3mh2Hjwo",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-09-21T00:03:07-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "#3DinC4D | How to “Screw” It in 3D",
+      "editorialOrder": 180,
+      "publicDescription": "#3DinC4D / How To \"Screw\" It In 3D video."
+    },
+    {
+      "videoId": "sUKml4SbzZc",
+      "title": "Create a Serpent Chain in Cinema 4D - #Tutorial",
+      "description": "Create a Chain in Cinema 4D: ------------------------------- Torus Cut in the middle Symmetry Move it away Spline Cloner Set to Spline Effector: Steps (rotation) 90 degrees x the number of chainrings",
+      "url": "https://www.youtube.com/watch?v=sUKml4SbzZc",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-10-07T06:11:08-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Create a Serpent Chain in Cinema 4D - #Tutorial",
+      "editorialOrder": 181,
+      "publicDescription": "Create A Serpent Chain In Cinema 4D / #Tutorial video."
+    },
+    {
+      "videoId": "m6pBAPw3h9U",
+      "title": "Create a Chain in Cinema 4D Tutorial",
+      "description": "How to create a chain in Cinema4D The steps: Torus Symmetry Spline Cloner Step Effector",
+      "url": "https://www.youtube.com/watch?v=m6pBAPw3h9U",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-10-08T04:01:42-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Create a Chain in Cinema 4D Tutorial",
+      "editorialOrder": 182,
+      "publicDescription": "Create A Chain In Cinema 4D Tutorial video."
+    },
+    {
+      "videoId": "GxFCbc5czTw",
+      "title": "The easy way to screw - Cinema 4D Tutorial #3DonC4D",
+      "description": "create a screw with splines",
+      "url": "https://www.youtube.com/watch?v=GxFCbc5czTw",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-09-21T01:58:54-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Easy Way to Screw | Cinema 4D Tutorial #3DonC4D",
+      "editorialOrder": 183,
+      "publicDescription": "The Easy Way To Screw / Cinema 4D Tutorial #3DonC4D video."
+    },
+    {
+      "videoId": "QoyvZ2Pgfpg",
+      "title": "How to Make a Sphere in SketchUp Pro #Tutorial",
+      "description": "Learn how to make a sphere with a path and a circle. Play it in slow mo 0.5.",
+      "url": "https://www.youtube.com/watch?v=QoyvZ2Pgfpg",
+      "categories": [
+        "3D"
+      ],
+      "playlistTitles": [
+        "Showcase: My 3D Work for Web3 Projects and Other Brands"
+      ],
+      "publishedAt": "2018-10-09T10:59:17-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "How to Make a Sphere in SketchUp Pro #Tutorial",
+      "editorialOrder": 184,
+      "publicDescription": "How To Make A Sphere In Sketchup Pro #Tutorial video."
+    },
+    {
+      "videoId": "b_HI2H7dYFY",
+      "title": "FENDI & MARIE CLAIRE -  Dust Removal / Skin Cleansing",
+      "description": "Capital D",
+      "url": "https://www.youtube.com/watch?v=b_HI2H7dYFY",
+      "categories": [
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2019-01-25T04:11:37-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Fendi × Marie Claire | Retouching, Subtle VFX & Lens Dust Cleanup",
+      "editorialOrder": 185,
+      "publicDescription": "Fendi & Marie Claire / Dust Removal / Skin Cleansing video."
+    },
+    {
+      "videoId": "gYL5wZtWx3I",
+      "title": "Chopard Ice Cube Cinemagraph w/Influencers",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2",
+      "url": "https://www.youtube.com/watch?v=gYL5wZtWx3I",
+      "categories": [
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-04-22T03:21:44-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Chopard Ice Cube | Influencer Cinemagraph",
+      "editorialOrder": 186,
+      "publicDescription": "Chopard Ice Cube Cinemagraph W/Influencers video."
+    },
+    {
+      "videoId": "ws-mbNRk6j4",
+      "title": "Post Production - Banners and Slides at Dubai Mall _La Fayette",
+      "description": "How we set up the video for those vertical banners in Malls.",
+      "url": "https://www.youtube.com/watch?v=ws-mbNRk6j4",
+      "categories": [
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2018-01-31T22:36:10-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Post-Production | Banners and Slides at Dubai Mall | La Fayette",
+      "editorialOrder": 187,
+      "publicDescription": "Post-Production / Banners And Slides At Dubai Mall _La Fayette video."
+    },
+    {
+      "videoId": "iyErX-NtkKE",
+      "title": "Post Production - Making of (online offline) - La Fayette",
+      "description": "Film/TV Post Production & Motion Picture Scores Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com | Google Play Store: http://goo.gl/4vtga2 Joe Nasr project record:",
+      "url": "https://www.youtube.com/watch?v=iyErX-NtkKE",
+      "categories": [
+        "Retouching",
+        "Post-production"
+      ],
+      "playlistTitles": [
+        "BTS Showcase: My Ad Retouching Work"
+      ],
+      "publishedAt": "2017-12-29T08:02:46-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Post-Production | Making of (Online Offline) | La Fayette",
+      "editorialOrder": 188,
+      "publicDescription": "Post-Production / Making Of (Online Offline) / La Fayette video."
+    },
+    {
+      "videoId": "vcD7KReYYdE",
+      "title": "Milco Yogurt | Where Is Milco? TVC | Music & Sound Design",
+      "description": "Brand: Milco Yoghurt Campaign: Where Is Milco?",
+      "url": "https://www.youtube.com/watch?v=vcD7KReYYdE",
+      "categories": [
+        "Audio Post-production",
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Audio Post-Production Projects",
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2011-11-02T01:47:42-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [
+        {
+          "id": "NS-NEW-20260929-001",
+          "title": "Milco TVC",
+          "description": "Music composition, sound recording and sound design.",
+          "category": "Commercial / Sound"
+        }
+      ],
+      "additionalSources": [
+        {
+          "label": "Milco TVC on Stage32",
+          "url": "https://www.stage32.com/media/1064925419263762486"
+        }
+      ],
+      "displayTitle": "Milco Yogurt | Where Is Milco? TVC | Music & Sound Design",
+      "editorialOrder": 189,
+      "publicDescription": "Milco 'Where Is Milco?' TV commercial."
+    },
+    {
+      "videoId": "0HWa-PjZwWA",
+      "title": "The Nidaa Show | Promo | 2015",
+      "description": "“The Nidaa Show” promotional video from 2015.",
+      "url": "https://www.youtube.com/watch?v=0HWa-PjZwWA",
+      "categories": [
+        "Audio Post-production"
+      ],
+      "playlistTitles": [
+        "Showcase: Some of My Audio Post-Production Projects"
+      ],
+      "publishedAt": "2016-01-03T11:25:14-08:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "The Nidaa Show | Promo | 2015",
+      "editorialOrder": 190,
+      "publicDescription": "The Nidaa Show / Promo / 2015 video."
+    },
+    {
+      "videoId": "U0YPG5fVHSs",
+      "title": "Emirates Government Excellence Award | Orchestral Composition | 2014",
+      "description": "Original music and orchestral composition by Joe Nasr for the 2014 Emirates Government Excellence Award ceremony.",
+      "url": "https://www.youtube.com/watch?v=U0YPG5fVHSs",
+      "categories": [
+        "Media Music",
+        "Motion Graphics"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2014-06-22T04:20:49-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0287",
+          "title": "The Walk of Fame",
+          "description": "Orchestral composition for the Khalifa International Awards of Excellence.",
+          "category": "Event / Composition"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Emirates Government Excellence Award | Orchestral Composition | 2014",
+      "editorialOrder": 191,
+      "publicDescription": "Emirates Government Excellence Award / Orchestral Composition / 2014 music video."
+    },
+    {
+      "videoId": "_FD4iFGqSHY",
+      "title": "Saudi German Hospital | TVC Music Composition",
+      "description": "Saudi German Hospital - television commercial music composition from Joe Nasr’s historical advertising-music archive.",
+      "url": "https://www.youtube.com/watch?v=_FD4iFGqSHY",
+      "categories": [
+        "Media Music",
+        "Motion Graphics"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2009-06-18T17:14:29-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0265",
+          "title": "Saudi German Hospital TVC",
+          "description": "Music for a commercial. The linked recording is a composition demo.",
+          "category": "Commercial / Composition"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Saudi German Hospital | TVC Music Composition",
+      "editorialOrder": 192,
+      "publicDescription": "Saudi German Hospital."
+    },
+    {
+      "videoId": "IrIMwqLmOzo",
+      "title": "Panda Stores | TVC Music",
+      "description": "Panda Stores - commercial TVC music from Joe Nasr’s historical advertising-music archive.",
+      "url": "https://www.youtube.com/watch?v=IrIMwqLmOzo",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2009-06-18T16:04:37-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0264",
+          "title": "Panda Stores TVC",
+          "description": "Music and sound effects for a television commercial.",
+          "category": "Commercial / Sound"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Panda Stores | TVC Music",
+      "editorialOrder": 193,
+      "publicDescription": "Panda Stores TV commercial."
+    },
+    {
+      "videoId": "qCsbazuEpmg",
+      "title": "Panda Stores | TVC Music",
+      "description": "Panda Stores - music and sound-effects work from Joe Nasr’s historical commercial-production archive.",
+      "url": "https://www.youtube.com/watch?v=qCsbazuEpmg",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2012-09-23T01:58:43-07:00",
+      "status": "OK",
+      "professionalPriority": true,
+      "sourceRecords": [
+        {
+          "id": "SYN-0264",
+          "title": "Panda Stores TVC",
+          "description": "Music and sound effects for a television commercial.",
+          "category": "Commercial / Sound"
+        }
+      ],
+      "additionalSources": [],
+      "displayTitle": "Panda Stores | TVC Music",
+      "editorialOrder": 194,
+      "publicDescription": "Panda Stores TV commercial."
+    },
+    {
+      "videoId": "Wa_Qd1Daqyg",
+      "title": "Joe Nasr Music for Head&Shoulders",
+      "description": "Joe Nasr Music Production Mobile: 00971 55 206 766 8 | Website: www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=Wa_Qd1Daqyg",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2015-09-25T13:01:44-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Music for Head&Shoulders",
+      "editorialOrder": 195,
+      "publicDescription": "Music For Head&Shoulders music video."
+    },
+    {
+      "videoId": "NQvMyU-YKHI",
+      "title": "Joe Nasr Music Production - TVC - Abu Dhabi Film Festival",
+      "description": "Abu Dhabi Film Festival - TVC2011 www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=NQvMyU-YKHI",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2013-04-01T16:42:14-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Music Production | TVC | Abu Dhabi Film Festival",
+      "editorialOrder": 196,
+      "publicDescription": "Music Production / TVC / Abu Dhabi Film Festival."
+    },
+    {
+      "videoId": "f2MsyVSDaU0",
+      "title": "Joe Nasr Music Production - TVC - GoldGym",
+      "description": "www.JoenasrApp.com Gold Gym TVC Pitch Music",
+      "url": "https://www.youtube.com/watch?v=f2MsyVSDaU0",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2012-09-24T01:45:50-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Music Production | TVC | GoldGym",
+      "editorialOrder": 197,
+      "publicDescription": "Music Production / TVC / Goldgym."
+    },
+    {
+      "videoId": "XgEKYnPPq-A",
+      "title": "TVC Music - ElBarake Bel Chabeb",
+      "description": "www.JoenasrApp.com El Barake Bel Chabeb Campaign Pitch Music Composition + Sound Design",
+      "url": "https://www.youtube.com/watch?v=XgEKYnPPq-A",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2012-09-24T05:08:56-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "TVC Music | ElBarake Bel Chabeb",
+      "editorialOrder": 198,
+      "publicDescription": "TVC Music / Elbarake Bel Chabeb."
+    },
+    {
+      "videoId": "nQ3aY56tM1A",
+      "title": "Smint | Tvc Music",
+      "description": "Creative Director: Sami Saab Final Mix: Clementine www.JoenasrApp.com",
+      "url": "https://www.youtube.com/watch?v=nQ3aY56tM1A",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2012-10-19T13:36:59-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [],
+      "additionalSources": [],
+      "displayTitle": "Smint | TVC Music",
+      "editorialOrder": 199,
+      "publicDescription": "Smint / TVC Music."
+    },
+    {
+      "videoId": "tQ6Ah68jS3w",
+      "title": "Milco Yogurt | Where Is Milco? TVC | Music & Sound Design",
+      "description": "Brand: Milco Yoghurt Campaign: Where Is Milco?",
+      "url": "https://www.youtube.com/watch?v=tQ6Ah68jS3w",
+      "categories": [
+        "Media Music"
+      ],
+      "playlistTitles": [
+        "Showcase: My Original Media Music Compositions"
+      ],
+      "publishedAt": "2015-09-25T12:56:40-07:00",
+      "status": "OK",
+      "professionalPriority": false,
+      "sourceRecords": [
+        {
+          "id": "NS-NEW-20260929-001",
+          "title": "Milco TVC",
+          "description": "Music composition, sound recording and sound design.",
+          "category": "Commercial / Sound"
+        }
+      ],
+      "additionalSources": [
+        {
+          "label": "Milco TVC on Stage32",
+          "url": "https://www.stage32.com/media/1064925419263762486"
+        }
+      ],
+      "displayTitle": "Milco Yogurt | Where Is Milco? TVC | Music & Sound Design",
+      "editorialOrder": 200,
+      "publicDescription": "Milco 'Where Is Milco?' TV commercial."
+    }
+  ],
+  "inventorySummary": {
+    "playlistEntries": 282,
+    "uniquePlaylistVideoIds": 211,
+    "supplementalVideoIds": 1,
+    "publicUniqueVideos": 201,
+    "duplicateVideoIdsRemoved": 71
+  }
+}

@@ -1,0 +1,66 @@
+:root{--ink:#101317;--paper:#f2efe7;--acid:#d9ff4f;--muted:#6c6b66;--line:rgba(16,19,23,.24);--max:1440px;--pad:clamp(20px,4vw,64px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.45}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+.site-header{border-bottom:1px solid var(--line);background:var(--paper)}
+.header-inner{min-height:72px;display:flex;align-items:center;justify-content:flex-start}
+.brand{font-size:22px;font-weight:900;letter-spacing:.08em;text-decoration:none}
+.hero{padding:clamp(72px,10vw,150px) 0 64px;border-bottom:1px solid var(--line)}
+.kicker{font:700 11px/1.2 "Courier New",monospace;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:Arial,Helvetica,sans-serif;font-size:clamp(54px,10vw,150px);font-weight:900;line-height:.82;letter-spacing:-.065em;color:#101317;margin:20px 0 30px;max-width:1200px}
+h1 span{display:block}
+.lead{font:clamp(19px,2vw,30px)/1.35 Arial,Helvetica,sans-serif;max-width:900px;margin:0}
+.hero-note{margin-top:36px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.hero-note a{text-underline-offset:4px}
+.catalog{padding-top:70px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);padding-bottom:20px}
+h2{font-size:clamp(28px,4vw,52px);line-height:.95;letter-spacing:-.045em;margin:12px 0 0;font-weight:900}
+.summary{font:700 10px/1.4 "Courier New",monospace;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);max-width:460px;text-align:right;margin:0}
+.filters{display:grid;grid-template-columns:minmax(240px,1fr) minmax(210px,.42fr) auto;align-items:end;gap:14px;padding:24px 0;border-bottom:1px solid var(--line)}
+.filters label{display:grid;gap:7px;font:800 10px/1 "Courier New",monospace;letter-spacing:.1em;text-transform:uppercase}
+input,select,button{font:inherit;color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:0;min-height:48px;padding:0 14px}
+input,select{font:16px/1.3 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none}
+input::placeholder{color:#77766f}
+button{cursor:pointer;font:800 10px/1 "Courier New",monospace;letter-spacing:.1em;text-transform:uppercase}
+button:hover,button:focus-visible{background:var(--acid)}
+input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #146c7e;outline-offset:3px}
+.category-index{display:flex;flex-wrap:wrap;gap:8px;padding:22px 0 26px}
+.category-chip{border:1px solid var(--line);padding:7px 10px;font:800 10px/1 "Courier New",monospace;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);background:transparent;cursor:pointer}
+.category-chip[aria-pressed="true"],.category-chip:hover{background:var(--acid);color:var(--ink)}
+.video-list{border-top:1px solid var(--line)}
+.video-card{display:grid;grid-template-columns:54px minmax(0,1fr) minmax(160px,220px);gap:20px;padding:24px 0 26px;border-bottom:1px solid var(--line);align-items:start}
+.number{font:700 11px/1.5 "Courier New",monospace;color:var(--muted);padding-top:4px}
+.video-title{font-size:clamp(19px,2vw,27px);line-height:1.08;letter-spacing:-.025em;margin:0 0 10px;font-weight:800;overflow-wrap:anywhere}
+.video-description{font-size:14px;line-height:1.55;max-width:850px;margin:0 0 14px;color:#343633;white-space:pre-line}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.tag{font:700 9px/1.25 "Courier New",monospace;text-transform:uppercase;letter-spacing:.07em;padding:5px 7px;background:rgba(16,19,23,.07)}
+.video-meta{font:11px/1.65 "Courier New",monospace;color:var(--muted);overflow-wrap:anywhere}
+.video-meta span{display:block}
+.video-links{display:flex;flex-direction:column;gap:12px;align-items:flex-start;padding-top:3px}
+.video-links a{font:800 10px/1 "Courier New",monospace;text-transform:uppercase;letter-spacing:.08em;text-decoration-thickness:1px;text-underline-offset:4px;overflow-wrap:anywhere}
+.video-links a:hover{background:var(--acid)}
+.project-reference{border-left:2px solid var(--line);margin-top:12px;padding:5px 0 5px 12px;font-size:12px;line-height:1.45;color:#3e403b}
+.project-reference strong{display:block;margin-bottom:4px}
+.empty{padding:28px 0;font-size:15px;color:var(--muted)}
+.source-note,.external-sources{padding:58px 0 38px;border-top:1px solid var(--line);margin-top:58px;max-width:1000px}
+.source-note h2,.external-sources h2{font-size:clamp(28px,4vw,46px);margin:14px 0 16px}
+.source-note p,.external-sources>p{max-width:800px;font-size:15px;line-height:1.6;margin:0 0 18px}
+details{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font:800 11px/1.4 "Courier New",monospace;letter-spacing:.08em;text-transform:uppercase}
+#playlist-counts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 28px;padding:0 0 0 18px;font-size:12px;line-height:1.45}
+.coverage-note{font-size:12px!important;color:var(--muted);margin:17px 0 0!important}
+.external-list{border-top:1px solid var(--line)}
+.external-card{display:grid;grid-template-columns:minmax(180px,.8fr) minmax(0,1.2fr);gap:22px;padding:18px 0;border-bottom:1px solid var(--line)}
+.external-card h3{font-size:18px;line-height:1.2;margin:0 0 5px}
+.external-card p{font-size:13px;line-height:1.5;margin:0;color:#3e403b}
+.external-card .source-link{display:inline-block;font:800 10px/1.5 "Courier New",monospace;margin-top:8px;text-underline-offset:3px;overflow-wrap:anywhere}
+footer{display:flex;justify-content:space-between;gap:24px;padding:28px 0 42px;border-top:1px solid var(--line);margin-top:20px;color:var(--muted);font:10px/1.5 "Courier New",monospace;text-transform:uppercase;letter-spacing:.06em}
+/* Global matte surface: subtle e-paper / printed-stock feel.
+   Purely visual; does not affect layout or interaction. */
+body::before,body::after{content:"";position:fixed;inset:0;pointer-events:none}
+body::before{z-index:9998;background:rgba(224,218,206,.05);-webkit-backdrop-filter:saturate(.77) contrast(.935) brightness(.986);backdrop-filter:saturate(.77) contrast(.935) brightness(.986)}
+body::after{z-index:9999;opacity:.079;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");background-size:180px 180px}
+@media(max-width:720px){.hero{padding-top:42px;padding-bottom:30px}h1{font-size:clamp(51px,13.3vw,90px);line-height:.88;letter-spacing:-.064em;margin:19px 0 24px}.lead{font-size:clamp(19px,5.2vw,28px)}.section-head{display:block}.summary{text-align:left;margin-top:14px}.filters{grid-template-columns:1fr 1fr}.search-field{grid-column:1/-1}.filters button{min-height:46px}.video-card{grid-template-columns:34px minmax(0,1fr);gap:12px}.video-links{grid-column:2;flex-direction:row;flex-wrap:wrap;padding-top:0}.video-links a{font-size:10px}.external-card{grid-template-columns:1fr;gap:8px}footer{display:block}footer span{display:block;margin-top:5px}}
+@media(max-width:420px){h1{font-size:clamp(47px,12.8vw,58px);line-height:.88;letter-spacing:-.064em}.video-card{grid-template-columns:26px minmax(0,1fr)}.filters{grid-template-columns:1fr}.search-field{grid-column:auto}#playlist-counts{grid-template-columns:1fr}.category-index{gap:6px}}

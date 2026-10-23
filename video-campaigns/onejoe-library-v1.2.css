@@ -1,0 +1,87 @@
+/* ONEJOE External Library UI v1.2.0 – 2026-10-17.
+   One source copied byte-for-byte to each independent archive. Signals read-only.
+   Source reference: current Interactive Projects headline/geometry.
+   Shared Arial introductions follow Joe's latest font consistency correction. */
+.onejoe-library{--ink:#101317;--paper:#f2efe7;--muted:#6c6b66;--line:rgba(16,19,23,.24);--max:1440px;--pad:clamp(20px,4vw,64px);margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.45 Arial,Helvetica,sans-serif}
+.onejoe-library .wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--pad)}
+.onejoe-library header,.onejoe-library .site-header{padding:0;border-bottom:1px solid var(--line);background:var(--paper)}
+.onejoe-library header .wrap{min-height:72px;display:flex;align-items:center;justify-content:flex-start}
+.onejoe-library .onejoe-brand{font:900 22px/1.45 Arial,Helvetica,sans-serif;letter-spacing:.08em;color:var(--ink);text-decoration:none}
+.onejoe-library .hero{padding:clamp(44px,7vw,82px) 0 42px;min-height:0;background:none;border-bottom:1px solid var(--line);overflow:visible}
+.onejoe-library .hero::before{content:none}
+.onejoe-library .hero h1{font:900 clamp(54px,10vw,150px)/.82 Arial,Helvetica,sans-serif;letter-spacing:-.065em;color:var(--ink);margin:20px 0 30px;max-width:1200px;text-transform:none;overflow-wrap:anywhere}
+.onejoe-library .hero h1 span{display:block}
+.onejoe-library .hero .kicker,.onejoe-library .hero .eyebrow{font:700 11px/1.2 "Courier New",monospace;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:0}
+.onejoe-library .hero .onejoe-intro{font:400 clamp(19px,2vw,30px)/1.35 Arial,Helvetica,sans-serif;letter-spacing:normal;color:var(--ink);max-width:900px;margin:0}
+.onejoe-library .hero .onejoe-back-row{max-width:900px;margin-top:32px;padding:14px 0}
+.onejoe-library .hero .onejoe-back{display:inline-block;font:400 14px/1.45 Arial,Helvetica,sans-serif;letter-spacing:normal;text-transform:none;color:var(--ink);background:none;border:0;margin:0;padding:0;text-decoration:underline;text-underline-offset:3px}
+.onejoe-library .filters label,.onejoe-library .filter-label,.onejoe-library .label{font:700 11px/1.45 "Courier New",monospace;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}
+.onejoe-library input,.onejoe-library select,.onejoe-library .filters input,.onejoe-library .filters select{font:400 16px/1.35 Arial,Helvetica,sans-serif;letter-spacing:normal;text-transform:none;color:var(--ink);height:52px;min-height:52px;padding:0 15px;border:1px solid rgba(24,26,25,.3);border-radius:0;background:transparent}
+.onejoe-library button,.onejoe-library .category-chip{font:700 11px/1.45 "Courier New",monospace;letter-spacing:.08em;text-transform:uppercase}
+.onejoe-library .record h2,.onejoe-library .record-title,.onejoe-library .video-title{font:700 28px/1.12 Arial,Helvetica,sans-serif;letter-spacing:-.035em;text-transform:none;color:var(--ink)}
+.onejoe-library .record p,.onejoe-library .video-description,.onejoe-library .external-card p{font:400 15px/1.5 Arial,Helvetica,sans-serif;letter-spacing:normal}
+.onejoe-library .meta,.onejoe-library .source-scope,.onejoe-library .record-kind,.onejoe-library .record-meta,.onejoe-library .record-id,.onejoe-library .video-meta,.onejoe-library .number,.onejoe-library .index,.onejoe-library .num,.onejoe-library .count,.onejoe-library .summary{font:400 11px/1.5 "Courier New",monospace;letter-spacing:.05em;color:var(--muted)}
+.onejoe-library .tag{font:700 10px/1.5 "Courier New",monospace;letter-spacing:.06em}
+.onejoe-library .record-links a,.onejoe-library .video-links a,.onejoe-library .source-link{font:700 11px/1.4 Arial,Helvetica,sans-serif;letter-spacing:.065em;text-transform:uppercase}
+.onejoe-library footer{font:400 11px/1.5 "Courier New",monospace;letter-spacing:.05em;color:var(--muted)}
+.onejoe-library>footer{max-width:1440px;padding:28px 0 42px;margin:20px auto 0}
+.onejoe-library a:focus-visible,.onejoe-library input:focus-visible,.onejoe-library select:focus-visible,.onejoe-library button:focus-visible{outline:2px solid #146c7e;outline-offset:3px}
+@media(max-width:800px){.onejoe-library .record h2,.onejoe-library .record-title,.onejoe-library .video-title{font-size:24px}}
+@media(max-width:720px){.onejoe-library .hero{padding-top:42px;padding-bottom:30px}.onejoe-library .hero h1{font-size:clamp(51px,13.3vw,90px);line-height:.88;letter-spacing:-.064em;margin:19px 0 24px}.onejoe-library .hero .onejoe-intro{font-size:clamp(19px,5.2vw,28px)}.onejoe-library .hero .onejoe-back-row{margin-top:26px}}
+@media(max-width:420px){.onejoe-library .record h2,.onejoe-library .record-title,.onejoe-library .video-title{font-size:22px}}
+@media(max-width:390px){.onejoe-library .hero h1{font-size:clamp(47px,12.8vw,58px)}}
+@media(prefers-reduced-motion:reduce){.onejoe-library{scroll-behavior:auto}.onejoe-library *{scroll-behavior:auto;transition:none}}
+
+/* v1.2: common ordinal column, row rhythm and arrow-only hover. */
+.onejoe-library #projects>.record{grid-template-columns:64px minmax(220px,.7fr) minmax(260px,1.4fr) auto;gap:28px;padding:24px 0}
+.onejoe-library .archive-list>li{grid-template-columns:64px minmax(0,1fr);gap:28px;padding:24px 0}
+.onejoe-library .video-card{grid-template-columns:64px minmax(0,1fr) minmax(160px,220px);gap:28px;padding:24px 0}
+.onejoe-library .video-links a,.onejoe-library .record-links a,.onejoe-library .source-link{color:var(--ink);text-decoration:none;border-bottom:0;background:transparent}
+.onejoe-library .video-links a:hover,.onejoe-library .video-links a:focus-visible,.onejoe-library .record-links a:hover,.onejoe-library .record-links a:focus-visible,.onejoe-library .source-link:hover,.onejoe-library .source-link:focus-visible{color:var(--ink);text-decoration:none;background:transparent}
+.onejoe-library .link-arrow{display:inline-block;color:var(--ink);transition:color .15s ease}
+.onejoe-library a:hover .link-arrow,.onejoe-library a:focus-visible .link-arrow{color:var(--acid)}
+@media(max-width:800px){.onejoe-library #projects>.record,.onejoe-library .archive-list>li,.onejoe-library .video-card{grid-template-columns:42px minmax(0,1fr);gap:10px 18px}.onejoe-library .video-links{grid-column:2;flex-direction:row;flex-wrap:wrap}}
+@media(max-width:420px){.onejoe-library #projects>.record,.onejoe-library .archive-list>li,.onejoe-library .video-card{grid-template-columns:30px minmax(0,1fr);gap:10px 12px}}
+@media(prefers-reduced-motion:reduce){.onejoe-library .link-arrow{transition:none}}
+
+/* Common footer, divider and filter layout. */
+.onejoe-library footer{text-transform:none;display:block}
+.onejoe-library .hero,.onejoe-library footer{position:relative;border:0}
+.onejoe-library .hero::after,.onejoe-library footer::before{content:"";position:absolute;left:50%;width:calc(min(100vw - 15px, 1440px) - 2 * var(--pad));height:1px;background:var(--line);transform:translateX(-50%);pointer-events:none}
+.onejoe-library .hero::after{bottom:0}
+.onejoe-library footer::before{top:0}
+.onejoe-library .onejoe-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1.2fr) auto;align-items:end;gap:20px;padding:24px 0;margin:0;border:0}
+.onejoe-library .onejoe-filters>label,.onejoe-library .onejoe-filters>.filter-field{display:flex;flex-direction:column;gap:8px;min-width:0;margin:0}
+.onejoe-library .onejoe-filters input,.onejoe-library .onejoe-filters select{width:100%;box-sizing:border-box}
+.onejoe-library .onejoe-filters button{height:52px;margin:0}
+.onejoe-library .guitar-filters{grid-template-columns:minmax(0,1fr) auto}
+.onejoe-library .onejoe-results{display:block;text-align:right;font:400 11px/1.5 "Courier New",monospace;letter-spacing:.05em;text-transform:none;margin:0 0 20px;padding:0;color:var(--muted)}
+@media(max-width:720px){.onejoe-library .onejoe-filters{grid-template-columns:minmax(0,1fr);gap:16px}.onejoe-library .onejoe-results{text-align:left}}
+
+.onejoe-library .onejoe-results{width:100%;max-width:none;box-sizing:border-box}
+
+.onejoe-library .video-description{overflow-wrap:anywhere;}
+@media(max-width:1024px){.onejoe-library .onejoe-back,.onejoe-library .record-links a,.onejoe-library .video-links a,.onejoe-library .source-link{display:inline-flex;align-items:center;min-height:44px}.onejoe-library .category-chip{min-height:44px;display:inline-flex;align-items:center}}
+@media(max-width:1024px){.onejoe-library .release-note a,.onejoe-library .project-reference a{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}}
+
+/* 2026-10-18: tablet project rows must not retain desktop minimum columns. */
+.onejoe-library #projects>.record>*{min-width:0;overflow-wrap:anywhere}
+@media(max-width:1024px){
+ .onejoe-library #projects>.record{grid-template-columns:42px minmax(0,1fr);gap:10px 18px}
+ .onejoe-library #projects>.record>p,.onejoe-library #projects>.record>.record-links{grid-column:2}
+ .onejoe-library #projects>.record>.record-links{align-items:flex-start;flex-direction:row;flex-wrap:wrap}
+ .onejoe-library #projects>.record>.record-links a{white-space:normal;text-align:left;max-width:100%}
+}
+@media(max-width:420px){.onejoe-library #projects>.record{grid-template-columns:30px minmax(0,1fr);gap:10px 12px}}
+
+/* ONEJOE v1.3 external-library filter/navigation alignment */
+.onejoe-library .onejoe-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1.2fr) auto;align-items:end;gap:16px;padding:22px 0 12px;margin:0;border:0}
+.onejoe-library .onejoe-filters > label,.onejoe-library .onejoe-filters > .filter-field{min-width:0;display:flex;flex-direction:column;gap:8px}
+.onejoe-library .onejoe-filters input,.onejoe-library .onejoe-filters select{box-sizing:border-box;width:100%;height:52px;min-height:52px}
+.onejoe-library .onejoe-filters .onejoe-reset{display:inline-flex;align-items:center;justify-content:center;min-height:52px;height:52px;padding:0 20px;margin:0;white-space:nowrap}
+.onejoe-library .onejoe-results{display:block;margin:12px 0 22px}
+.onejoe-library .onejoe-back-row{max-width:none!important;box-sizing:border-box;width:100%;margin-top:26px!important;padding:14px 0!important}
+.onejoe-library .onejoe-back-row .onejoe-back{font:400 14px/1.45 Arial,Helvetica,sans-serif!important;text-transform:none!important;letter-spacing:normal!important;text-decoration:underline!important;text-underline-offset:3px!important;color:var(--ink)!important}
+.onejoe-library .onejoe-back-row .onejoe-back:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+.onejoe-library .category-index{display:none!important}
+@media(max-width:800px){.onejoe-library .onejoe-filters{grid-template-columns:minmax(0,1fr);gap:16px;padding:22px 0 10px}.onejoe-library .onejoe-filters .onejoe-reset{width:100%}.onejoe-library .onejoe-results{margin:14px 0 24px}}
