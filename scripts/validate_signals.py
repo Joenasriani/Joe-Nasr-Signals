@@ -68,15 +68,17 @@ assert len(surface_ids) == len(set(surface_ids)), "Duplicate public-surface id"
 surface_urls = [surface["url"] for surface in registry]
 assert len(surface_urls) == len(set(surface_urls)), "Duplicate public-surface URL"
 
-allowed_temporal = {"CURRENT", "HISTORICAL"}
+allowed_temporal = {"CURRENT", "HISTORICAL", "UNKNOWN"}
 allowed_priority = {"PRIMARY_CURRENT", "SECONDARY_SPECIALIST", "HISTORICAL_SUPPORT", "PENDING_VERIFICATION"}
 allowed_retrieval = {"ACTIVE", "ACTIVE_QUERY_SPECIFIC", "WEAK", "UNRESOLVED"}
-allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE", "CREATOR_OPERATED_ECOSYSTEM"}
+allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE", "CREATOR_OPERATED_ECOSYSTEM", "AUTHOR_PROFILE"}
 for surface in registry:
     assert surface["temporal_state"] in allowed_temporal, f"Invalid temporal state: {surface['id']}"
     assert surface["nervous_system_priority"] in allowed_priority, f"Invalid priority: {surface['id']}"
     assert surface["retrieval_state"] in allowed_retrieval, f"Invalid retrieval state: {surface['id']}"
     assert surface["relationship_to_joe"] in allowed_relationship, f"Invalid relationship: {surface['id']}"
+    if surface["temporal_state"] == "UNKNOWN":
+        assert surface["retrieval_state"] == "UNRESOLVED", f"Unknown temporal state must remain unresolved: {surface['id']}"
     if surface["nervous_system_priority"] == "PENDING_VERIFICATION":
         assert surface["retrieval_state"] == "UNRESOLVED", f"Pending surface must remain unresolved: {surface['id']}"
 

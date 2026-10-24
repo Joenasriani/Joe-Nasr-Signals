@@ -194,7 +194,7 @@ https://joe-nasr-signals.vercel.app/
 
 Current public identity, game evidence catalogues, and preview assets are maintained at their canonical root paths. Older game HTML entry points are directed to the integrated Interactive Projects collection. Canonical validation checks use the active root records and routes.
 
-The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and all ten Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
+The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and the configured current Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
 
 ## Direct discovery and public evidence
 
