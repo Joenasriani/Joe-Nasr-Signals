@@ -192,7 +192,7 @@ https://joe-nasr-signals.vercel.app/
 - Historical game records (preserved): https://joe-nasr-signals.vercel.app/games.json
 - Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
-Legacy `/v2/` requests continue to receive Vercel permanent redirects to canonical root paths via `vercel.json`. No duplicate legacy identity, game catalogue, or asset files are maintained. Historic GitHub Pages `/v2/` file URLs are no longer served by this repository; consult Git history for preserved legacy snapshots. Canonical validations run against root records and current routes.
+Current public identity, game evidence catalogues, and preview assets are maintained at their canonical root paths. Older game HTML entry points are directed to the integrated Interactive Projects collection. Canonical validation checks use the active root records and routes.
 
 The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and all ten Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
 
