@@ -32,9 +32,9 @@ def validate(root=ROOT):
     ):
         node = book_nodes.get(url)
         assert node and title in node['name'] and node['author']['@id'] == ORIGIN + '#joe-nasr', 'Missing supported book schema: ' + title
-    interactive = 'https://joe-nasr-interactive-projects.vercel.app/'
+    interactive = ORIGIN + 'interactive-projects/'
     assert not (root / 'games.html').exists(), 'Retired games.html must remain deleted'
-    assert interactive in html and interactive in guide and interactive in json.dumps(identity), 'Missing current interactive collection'
+    assert interactive in html and interactive in guide and interactive in json.dumps(identity), 'Missing integrated canonical interactive collection'
     for path in ('games.json', 'games-development.json'):
         url = ORIGIN + path
         assert url in guide and url in json.dumps(identity), 'Missing direct catalog route: ' + path
