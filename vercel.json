@@ -2,56 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/v2",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/v2/",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/v2/index.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/v2/identity.json",
-      "destination": "/identity.json",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games.html",
-      "destination": "/interactive-projects/",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games-development.html",
-      "destination": "/interactive-projects/",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games.json",
-      "destination": "/games.json",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games-development.json",
-      "destination": "/games-development.json",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games-preview.png",
-      "destination": "/games-preview.png",
-      "permanent": true
-    },
-    {
-      "source": "/v2/games-preview.svg",
-      "destination": "/games-preview.svg",
-      "permanent": true
-    },
-    {
       "source": "/games-development.html",
       "destination": "/interactive-projects/",
       "permanent": true
@@ -61,10 +11,5 @@
       "destination": "/interactive-projects/",
       "permanent": true
     }
-  ],
-  "git": {
-    "deploymentEnabled": {
-      "codex/signals-v2-migration-20261012": false
-    }
-  }
+  ]
 }

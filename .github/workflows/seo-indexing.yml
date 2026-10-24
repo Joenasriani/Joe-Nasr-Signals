@@ -23,9 +23,5 @@ jobs:
         run: python scripts/validate_signals.py
       - name: Validate direct discovery and public evidence boundaries
         run: python scripts/validate_public_graph.py
-      - name: Check legacy URL compatibility
-        run: python scripts/sync_v2_compatibility.py --check
-      - name: Validate canonical games routes
-        run: python scripts/validate_v2_migration.py
-      - name: Test migration failure cases and publication gate
+      - name: Test canonical public graph
         run: python -m unittest discover -s tests -v

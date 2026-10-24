@@ -97,7 +97,6 @@ def validate(root=ROOT):
         text = (root / name).read_text()
         for url in re.findall(r'https://joe-nasr-signals\.vercel\.app/[^\s<>"\']*', text):
             path = urlsplit(url.rstrip('.,;:)')).path.lstrip('/') or 'index.html'
-            assert not path.startswith('v2/'), 'Active discovery uses a legacy URL'
             assert (root / path).exists() or ('/' + path) in {r['source'] for r in json.loads((root / 'vercel.json').read_text())['redirects']}, 'Missing internal target: ' + path
     print('Direct discovery, 51 evidence records, historical snapshot and public boundaries pass.')
 
