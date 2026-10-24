@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-23
+Updated: 2026-10-24
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -19,6 +19,7 @@ Research & Publications (DOI-linked records): https://joe-nasr-signals.vercel.ap
 Research registry (includes technical studies and work in development): https://joenasriani.github.io/joe-research-registry/
 Research registry source: https://github.com/Joenasriani/joe-research-registry
 Publication distinction: a DOI identifies a deposited publication and does not establish peer review or experimental validation.
+DOI-linked technical report: Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface — Joseph Ribal Nasr (same person as Joe Nasr) — DOI https://doi.org/10.5281/zenodo.23622202 — source https://github.com/Joenasriani/tongue-trackpad — conceptual engineering report and proposed validation only; no fabricated or tested intraoral device, human-use validation, or peer-review claim. Verify current Zenodo metadata independently.
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
 Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
 Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
