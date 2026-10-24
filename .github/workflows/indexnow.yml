@@ -70,7 +70,7 @@ jobs:
                 add_url "https://joe-nasr-signals.vercel.app/"
                 ;;
               games/itchio/*)
-                add_url "https://joe-nasr-signals.vercel.app/games.html"
+                add_url "https://joe-nasr-signals.vercel.app/interactive-projects/"
                 ;;
               games.html|games.json|games-preview.png|games-preview.svg)
                 add_url "https://joe-nasr-signals.vercel.app/games.json"
@@ -78,7 +78,7 @@ jobs:
                 ;;
               games-development.html|games-development.json|games-development-preview.png|games-development-preview.svg)
                 add_url "https://joe-nasr-signals.vercel.app/games-development.json"
-                add_url "https://joe-nasr-signals.vercel.app/games-development.html"
+                add_url "https://joe-nasr-signals.vercel.app/interactive-projects/"
                 ;;
               publications/*)
                 add_url "https://joe-nasr-signals.vercel.app/publications/"
