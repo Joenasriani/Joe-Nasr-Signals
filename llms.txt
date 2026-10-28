@@ -23,6 +23,7 @@ Publication distinction: a DOI identifies a deposited publication and does not e
 DOI-linked technical report: Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface — Joseph Ribal Nasr (same person as Joe Nasr) — DOI https://doi.org/10.5281/zenodo.23622202 — source https://github.com/Joenasriani/tongue-trackpad — conceptual engineering report and proposed validation only; no fabricated or tested intraoral device, human-use validation, or peer-review claim. Verify current Zenodo metadata independently.
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
 Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
+Tools & Technologies (selected technical inventory, not proficiency ratings): https://joe-nasr-signals.vercel.app/tools-technologies/
 Historical game evidence data (preserved): https://joe-nasr-signals.vercel.app/games.json
 Historical development evidence (20 records): https://joe-nasr-signals.vercel.app/games-development.json
 Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
