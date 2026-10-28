@@ -171,7 +171,58 @@ header .brand{font-size:22px;font-weight:900;letter-spacing:.08em;text-decoratio
 .onejoe-library .category-index{display:none!important}
 @media(max-width:800px){.onejoe-library .onejoe-filters{grid-template-columns:minmax(0,1fr);gap:16px;padding:22px 0 10px}.onejoe-library .onejoe-filters .onejoe-reset{width:100%}.onejoe-library .onejoe-results{margin:14px 0 24px}}
 
-.inventory-summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:26px 0 14px;border-bottom:1px solid var(--line)}.inventory-summary span,.group-count{font:700 11px/1.5 "Courier New",monospace;letter-spacing:.08em;color:var(--muted)}.inventory-summary strong{font:700 14px/1.4 Arial,Helvetica,sans-serif}.tool-section{margin:0}.tool-section .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:34px 0 17px;border-bottom:1px solid var(--line)}.tool-section .section-head h2{font:700 clamp(18px,2.1vw,25px)/1.2 Arial,Helvetica,sans-serif;letter-spacing:-.025em;margin:0}.tool-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.tool-item{display:grid;grid-template-columns:30px minmax(0,1fr);gap:15px;align-items:baseline;min-width:0;padding:18px 18px 18px 0;border-bottom:1px solid var(--line);font:500 clamp(16px,1.6vw,21px)/1.35 Arial,Helvetica,sans-serif;overflow-wrap:anywhere}.tool-index{font:700 11px/1.5 "Courier New",monospace;color:var(--muted)}.scope-note{font-size:14px;line-height:1.6;color:var(--muted);max-width:850px;margin:32px 0 65px}.scope-note a{text-underline-offset:3px}@media(max-width:720px){.tool-list{grid-template-columns:1fr}.tool-item{padding:16px 0}.tool-section .section-head{padding:28px 0 14px}.inventory-summary{flex-wrap:wrap}}@media(max-width:390px){.tool-item{grid-template-columns:24px minmax(0,1fr);gap:12px}}</style></head>
+.inventory-summary{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding:26px 0 14px;border-bottom:1px solid var(--line)}.inventory-summary span,.group-count{font:700 11px/1.5 "Courier New",monospace;letter-spacing:.08em;color:var(--muted)}.inventory-summary strong{font:700 14px/1.4 Arial,Helvetica,sans-serif}.tool-section{margin:0}.tool-section .section-head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:34px 0 17px;border-bottom:1px solid var(--line)}.tool-section .section-head h2{font:700 clamp(18px,2.1vw,25px)/1.2 Arial,Helvetica,sans-serif;letter-spacing:-.025em;margin:0}.tool-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.tool-item{display:grid;grid-template-columns:30px minmax(0,1fr);gap:15px;align-items:baseline;min-width:0;padding:18px 18px 18px 0;border-bottom:1px solid var(--line);font:500 clamp(16px,1.6vw,21px)/1.35 Arial,Helvetica,sans-serif;overflow-wrap:anywhere}.tool-index{font:700 11px/1.5 "Courier New",monospace;color:var(--muted)}.scope-note{font-size:14px;line-height:1.6;color:var(--muted);max-width:850px;margin:32px 0 65px}.scope-note a{text-underline-offset:3px}@media(max-width:720px){.tool-list{grid-template-columns:1fr}.tool-item{padding:16px 0}.tool-section .section-head{padding:28px 0 14px}.inventory-summary{flex-wrap:wrap}}@media(max-width:390px){.tool-item{grid-template-columns:24px minmax(0,1fr);gap:12px}}
+/* Identical header geometry and typography to Interactive Projects / Publications. */
+.site-header {
+  --ink: #101317;
+  --paper: #f2efe7;
+  --muted: #6c6b66;
+  --line-strong: rgba(16, 19, 23, 0.42);
+  --pad: clamp(18px, 3.4vw, 58px);
+  font: 400 16px/1.5 Arial, Helvetica, sans-serif;
+  color: var(--ink);
+}
+.onejoe-library .site-header,
+.onejoe-library .site-header * { box-sizing: border-box; }
+.onejoe-library .site-header .brand { font: inherit; letter-spacing: normal; color: revert; }
+.onejoe-library .site-header .brand-copy strong { font-family: inherit; font-weight: 700; line-height: inherit; }
+.onejoe-library .site-header .brand-copy small { font: inherit; }
+.onejoe-library .site-header {
+  width: 100%;
+  height: 78px;
+  padding: 0 var(--pad);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  border-bottom: 1px solid var(--line-strong);
+  background: rgba(242,239,231,.94);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.onejoe-library .site-header .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  text-decoration: none;
+}
+.onejoe-library .site-header .brand-mark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 900;
+  letter-spacing: -.06em;
+}
+.onejoe-library .site-header .brand-copy { display: flex; flex-direction: column; line-height: 1.05; }
+.onejoe-library .site-header .brand-copy strong { font-size: 13px; letter-spacing: .16em; }
+.onejoe-library .site-header .brand-copy small { margin-top: 5px; font-size: 9px; letter-spacing: .14em; color: var(--muted); }
+@media(max-width:980px){.onejoe-library .site-header{grid-template-columns:auto minmax(0,1fr);gap:16px}}@media(max-width:680px){.onejoe-library .site-header{--pad:18px}.onejoe-library .site-header{height:66px;gap:10px}.onejoe-library .site-header .brand-copy{display:none}.onejoe-library .site-header .brand-copy small{display:none}.onejoe-library .site-header .brand-mark{width:36px;height:36px}}
+</style></head>
 <body class="onejoe-library" data-onejoe-ui="1.3.0"><header class="site-header"><a class="brand" href="https://joe-nasr-signals.vercel.app/" aria-label="Joe Nasr Signals"><span class="brand-mark">JN</span><span class="brand-copy"><strong>JOE NASR</strong><small>SIGNALS</small></span></a></header>
 <div class="page-grid" aria-hidden="true"></div><section class="hero" aria-labelledby="page-title"><div class="wrap"><div class="kicker">PROFESSIONAL REFERENCE LIBRARY</div><h1 id="page-title"><span>Tools &amp;</span><span>Technologies</span></h1><p class="onejoe-intro">Selected professional software, platforms, frameworks and technologies across creative production, immersive experiences, generative AI, application development and automation.</p><div class="onejoe-back-row"><a class="onejoe-back" href="https://joe-nasr-signals.vercel.app/">← Back to Joe Nasr Signals</a></div></div></section>
 <main class="wrap"><div class="inventory-summary"><span>SELECTED INVENTORY</span><strong>44 tools &amp; technologies</strong></div><section class="tool-section" aria-labelledby="group-0"><div class="section-head"><h2 id="group-0">Design, Video &amp; Post-production</h2><span class="group-count">9 entries</span></div><div class="tool-list"><div class="tool-item"><span class="tool-index">01</span><span>Adobe Photoshop</span></div><div class="tool-item"><span class="tool-index">02</span><span>Adobe Illustrator</span></div><div class="tool-item"><span class="tool-index">03</span><span>Adobe InDesign</span></div><div class="tool-item"><span class="tool-index">04</span><span>Adobe After Effects</span></div><div class="tool-item"><span class="tool-index">05</span><span>Adobe Premiere Pro</span></div><div class="tool-item"><span class="tool-index">06</span><span>Adobe Audition</span></div><div class="tool-item"><span class="tool-index">07</span><span>Adobe Media Encoder</span></div><div class="tool-item"><span class="tool-index">08</span><span>Blackmagic Design DaVinci Resolve</span></div><div class="tool-item"><span class="tool-index">09</span><span>Figma</span></div></div></section>
