@@ -407,6 +407,7 @@ Evidence boundary: This is a user-confirmed selected inventory, not a proficienc
 - Vite
 - Google Firebase
 - Python
+- Replit
 
 ### AI Automation, Development & Infrastructure
 - Composio
