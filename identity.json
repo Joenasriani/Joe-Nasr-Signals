@@ -2443,8 +2443,80 @@
   },
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
-    "scope": "Selected software and technologies across design, video, 3D, immersive, web, AI and development workflows",
-    "evidence_boundary": "Selected inventory only. No equal-proficiency, certification or individual hands-on mastery claims are implied; corroborate specific experience against project and training records.",
-    "inventory_count": 26
+    "scope": "Selected professional software, platforms, frameworks and technologies across creative production, 3D, XR, generative AI, web and automation",
+    "evidence_boundary": "User-confirmed public inventory. Inclusion does not establish equal proficiency, certification, or independently verified use for every entry.",
+    "inventory_count": 44,
+    "groups": [
+      {
+        "category": "Design, Video & Post-production",
+        "items": [
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Adobe InDesign",
+          "Adobe After Effects",
+          "Adobe Premiere Pro",
+          "Adobe Audition",
+          "Adobe Media Encoder",
+          "Blackmagic Design DaVinci Resolve",
+          "Figma"
+        ]
+      },
+      {
+        "category": "3D, XR & Interactive Technology",
+        "items": [
+          "Maxon Cinema 4D",
+          "Blender",
+          "Epic Games Unreal Engine",
+          "SimLab Composer",
+          "Three.js",
+          "React Three Fiber",
+          "WebGL",
+          "WebXR"
+        ]
+      },
+      {
+        "category": "Generative AI & Creative Technology",
+        "items": [
+          "OpenAI ChatGPT",
+          "Google AI Studio",
+          "Higgsfield AI",
+          "Runway",
+          "Magnific AI",
+          "Freepik",
+          "Adobe Firefly",
+          "Midjourney",
+          "ComfyUI",
+          "ElevenLabs",
+          "Suno"
+        ]
+      },
+      {
+        "category": "Web & Application Development",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Next.js",
+          "Node.js",
+          "Supabase"
+        ]
+      },
+      {
+        "category": "AI Automation, Development & Infrastructure",
+        "items": [
+          "Composio",
+          "n8n",
+          "Make.com",
+          "Langflow",
+          "Git",
+          "GitHub",
+          "Vercel",
+          "Docker"
+        ]
+      }
+    ],
+    "updated_on": "2026-10-28"
   }
 }
