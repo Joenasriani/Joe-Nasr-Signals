@@ -2445,20 +2445,33 @@
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
     "scope": "Selected professional software, platforms, frameworks and technologies across creative production, 3D, XR, generative AI, web and automation",
     "evidence_boundary": "User-confirmed public inventory. Inclusion does not establish equal proficiency, certification, or independently verified use for every entry.",
-    "inventory_count": 44,
+    "inventory_count": 63,
     "groups": [
       {
         "category": "Design, Video & Post-production",
         "items": [
           "Adobe Photoshop",
           "Adobe Illustrator",
-          "Adobe InDesign",
           "Adobe After Effects",
           "Adobe Premiere Pro",
           "Adobe Audition",
+          "Adobe InDesign",
           "Adobe Media Encoder",
           "Blackmagic Design DaVinci Resolve",
-          "Figma"
+          "Figma",
+          "Adobe Lightroom",
+          "Adobe Dreamweaver",
+          "Canva",
+          "Apple Final Cut Pro"
+        ]
+      },
+      {
+        "category": "Music & Audio Production",
+        "items": [
+          "Apple Logic Pro",
+          "Avid Pro Tools",
+          "Steinberg Nuendo",
+          "Steinberg Cubase"
         ]
       },
       {
@@ -2500,7 +2513,11 @@
           "React",
           "Next.js",
           "Node.js",
-          "Supabase"
+          "Supabase",
+          "Bootstrap",
+          "Vite",
+          "Google Firebase",
+          "Python"
         ]
       },
       {
@@ -2513,7 +2530,19 @@
           "Git",
           "GitHub",
           "Vercel",
-          "Docker"
+          "Docker",
+          "Microsoft Playwright",
+          "GitHub Copilot",
+          "Cursor",
+          "OpenRouter",
+          "Lovable"
+        ]
+      },
+      {
+        "category": "Marketing & Analytics",
+        "items": [
+          "Google Analytics",
+          "Google Ads"
         ]
       }
     ],
