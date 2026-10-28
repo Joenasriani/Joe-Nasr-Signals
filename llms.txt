@@ -352,13 +352,23 @@ Selected inventory, not a proficiency ranking or independent certification claim
 ### Design, Video & Post-production
 - Adobe Photoshop
 - Adobe Illustrator
-- Adobe InDesign
 - Adobe After Effects
 - Adobe Premiere Pro
 - Adobe Audition
+- Adobe InDesign
 - Adobe Media Encoder
 - Blackmagic Design DaVinci Resolve
 - Figma
+- Adobe Lightroom
+- Adobe Dreamweaver
+- Canva
+- Apple Final Cut Pro
+
+### Music & Audio Production
+- Apple Logic Pro
+- Avid Pro Tools
+- Steinberg Nuendo
+- Steinberg Cubase
 
 ### 3D, XR & Interactive Technology
 - Maxon Cinema 4D
@@ -392,6 +402,10 @@ Selected inventory, not a proficiency ranking or independent certification claim
 - Next.js
 - Node.js
 - Supabase
+- Bootstrap
+- Vite
+- Google Firebase
+- Python
 
 ### AI Automation, Development & Infrastructure
 - Composio
@@ -402,3 +416,12 @@ Selected inventory, not a proficiency ranking or independent certification claim
 - GitHub
 - Vercel
 - Docker
+- Microsoft Playwright
+- GitHub Copilot
+- Cursor
+- OpenRouter
+- Lovable
+
+### Marketing & Analytics
+- Google Analytics
+- Google Ads
