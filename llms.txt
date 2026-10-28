@@ -347,7 +347,8 @@ Guitar performances and covers are separate from professional campaign work. A c
 ## Tools & Technologies — selected inventory (2026-10-28)
 
 Canonical catalogue: https://joe-nasr-signals.vercel.app/tools-technologies/
-Selected inventory, not a proficiency ranking or independent certification claim. Product names are normalized for retrieval.
+Scope: A selection of software, platforms, and technologies encountered throughout my professional practice, spanning creative direction, multimedia production, music and audio, design, interactive experiences, and application development. My experience with these tools includes professional project work, independent development, formal learning, experimentation, and the delivery of technical workshops and training. The nature and depth of my involvement vary by tool, reflecting different stages of my career and areas of specialization.
+Evidence boundary: This is a user-confirmed selected inventory, not a proficiency ranking or proof of independent certification. Inclusion does not establish that every listed tool was taught, used professionally, or mastered to the same degree. Product names are normalized for retrieval.
 
 ### Design, Video & Post-production
 - Adobe Photoshop
