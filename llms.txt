@@ -15,7 +15,7 @@ Professional base: Dubai, United Arab Emirates
 Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
-Research & Publications (DOI-linked records): https://joe-nasr-signals.vercel.app/publications/
+Research & Publications (DOI-linked records and separate bookstore module): https://joe-nasr-signals.vercel.app/publications/
 Supporting author-profile link (ownership USER_CONFIRMED; public accessibility and article metadata NOT_RECHECKED): https://scholar.google.com/citations?user=V_8fZGQAAAAJ&hl=en — Google Scholar; do not infer peer review, institutional affiliation, or a validated publication claim from the profile alone.
 Research registry (includes technical studies and work in development): https://joenasriani.github.io/joe-research-registry/
 Research registry source: https://github.com/Joenasriani/joe-research-registry
@@ -103,7 +103,7 @@ Projects, brands, clients, agencies, productions, books and ventures are related
 
 30 September 2026 taxonomy update: the human-facing Signals archive was reduced to a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities. The visible YouTube routing uses Joe Nasr’s curated Showcase playlists rather than individual video/project links, and itch.io is represented by one public games/XR hub rather than individual game links; project-level evidence remains in the machine-readable project registry for retrieval and provenance.
 Selected client and training names shown on the human-facing page are plain-text credibility context, not Person sameAs identities or links.
-Individual publications are not listed separately in the visible archive; Reasoning and Logic is the public bookstore route. The publications remain available as related entities and project evidence for retrieval and provenance.
+Individual publications are not listed separately in the homepage visible archive; the Publications library links to Reasoning and Logic as the separate online bookstore route. The publications remain available as related entities and project evidence for retrieval and provenance.
 
 29 September 2026 project updates: Chopard Girls was strengthened by refreshed YouTube process metadata; Dubai Tourism lookbook metadata now explicitly names Joe Nasr in post-production on individual videos; Milco TVC and H&S Pitch Music were added from the known Joe Ribal Nasr Stage32 reel; EMT - High tech prod remains recovery-only because the retrieved artifact does not state Joe's role.
 
@@ -190,7 +190,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 
 ## Books + Writing
 
-- Reasoning and Logic, Joe Nasr's online bookstore: https://reasoning-and-logic.vercel.app/
+- Reasoning and Logic, Joe Nasr's online bookstore (linked from the Publications library after DOI records): https://reasoning-and-logic.vercel.app/
 - Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.
 - Author credit: J. Nasr, attributed here to Joe Nasr specifically for this bookstore and its publications. Do not merge other authors solely because they use these initials.
 - Bookstore source catalogue (five publications): Mamdani: From Zero to Hero – Through the Eyes of a Doomscroller (digital book, sales open); Taxonomies and Classification Systems: A Technical Field Guide (published, sales review); The Structure of Life: The Structure of Reasoning; ICF-AI (research reference framework); Manipulation: The Fool and the Wise. First-party book URLs and independent search retrieval require public rechecks.
