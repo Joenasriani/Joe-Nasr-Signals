@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-10-24
+Updated: 2026-10-28
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
