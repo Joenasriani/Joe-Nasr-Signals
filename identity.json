@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "snapshot_date": "2026-10-14",
+  "snapshot_date": "2026-10-28",
   "record_type": "public_identity_taxonomy_and_evidence_graph",
   "canonical_person": {
     "public_name": "Joe Nasr",
@@ -569,7 +569,7 @@
       "relationship": "owned by Joe Nasr; publication surface for his writing",
       "url": "https://reasoning-and-logic.vercel.app/",
       "category": "Books + Writing",
-      "description": "Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.",
+      "description": "Online bookstore featuring publications covering research, scientific concepts, documented evidence, source analysis, music theory, and AI / SI reasoning frameworks. The collection explores structured approaches to research, critical thinking, knowledge organization, and computational workflows.",
       "author_attribution": {
         "credited_name": "J. Nasr",
         "person": "Joe Nasr",
@@ -2389,7 +2389,57 @@
     "publications_library": "https://joe-nasr-signals.vercel.app/publications/",
     "research_registry": "https://joenasriani.github.io/joe-research-registry/",
     "research_registry_source": "https://github.com/Joenasriani/joe-research-registry",
-    "scope": "Refer to the publications library for DOI-linked published records; the research registry also includes technical studies and works in development. Do not infer peer review or implementation validation from a DOI."
+    "scope": "Refer to the publications library for DOI-linked published records; the research registry also includes technical studies and works in development. Do not infer peer review or implementation validation from a DOI.",
+    "doi_catalogue": [
+      {
+        "title": "The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting",
+        "doi": "10.5281/zenodo.23689714",
+        "url": "https://doi.org/10.5281/zenodo.23689714",
+        "publication_type": "Book",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      },
+      {
+        "title": "Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface",
+        "doi": "10.5281/zenodo.23622202",
+        "url": "https://doi.org/10.5281/zenodo.23622202",
+        "publication_type": "ScholarlyArticle",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      },
+      {
+        "title": "MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art",
+        "doi": "10.5281/zenodo.23592679",
+        "url": "https://doi.org/10.5281/zenodo.23592679",
+        "publication_type": "ScholarlyArticle",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      },
+      {
+        "title": "Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls",
+        "doi": "10.5281/zenodo.23552640",
+        "url": "https://doi.org/10.5281/zenodo.23552640",
+        "publication_type": "ScholarlyArticle",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      },
+      {
+        "title": "Quest-XSA: Thermal and UV Sensory Augmentation for Meta Quest",
+        "doi": "10.5281/zenodo.23538919",
+        "url": "https://doi.org/10.5281/zenodo.23538919",
+        "publication_type": "ScholarlyArticle",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      },
+      {
+        "title": "ICF-AI: An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems",
+        "doi": "10.5281/zenodo.23504055",
+        "url": "https://doi.org/10.5281/zenodo.23504055",
+        "publication_type": "ScholarlyArticle",
+        "record_source": "https://joe-nasr-signals.vercel.app/publications/",
+        "verification_note": "DOI record and publication status require source-specific verification; DOI alone does not establish peer review."
+      }
+    ]
   },
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
