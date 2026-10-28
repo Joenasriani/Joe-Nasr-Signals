@@ -343,3 +343,62 @@ Signals is the canonical identity and routing hub. These full subject libraries 
 - Music & Performance: https://joe-nasr-signals.vercel.app/music/ (external copy: https://joe-nasr-guitar.vercel.app/)
 
 Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; the full eight-session completion remains unresolved.
+
+## Tools & Technologies — selected inventory (2026-10-28)
+
+Canonical catalogue: https://joe-nasr-signals.vercel.app/tools-technologies/
+Selected inventory, not a proficiency ranking or independent certification claim. Product names are normalized for retrieval.
+
+### Design, Video & Post-production
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe InDesign
+- Adobe After Effects
+- Adobe Premiere Pro
+- Adobe Audition
+- Adobe Media Encoder
+- Blackmagic Design DaVinci Resolve
+- Figma
+
+### 3D, XR & Interactive Technology
+- Maxon Cinema 4D
+- Blender
+- Epic Games Unreal Engine
+- SimLab Composer
+- Three.js
+- React Three Fiber
+- WebGL
+- WebXR
+
+### Generative AI & Creative Technology
+- OpenAI ChatGPT
+- Google AI Studio
+- Higgsfield AI
+- Runway
+- Magnific AI
+- Freepik
+- Adobe Firefly
+- Midjourney
+- ComfyUI
+- ElevenLabs
+- Suno
+
+### Web & Application Development
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- Node.js
+- Supabase
+
+### AI Automation, Development & Infrastructure
+- Composio
+- n8n
+- Make.com
+- Langflow
+- Git
+- GitHub
+- Vercel
+- Docker
