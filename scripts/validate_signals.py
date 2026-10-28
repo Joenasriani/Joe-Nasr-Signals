@@ -99,3 +99,42 @@ for target in re.findall(r'href="#([^"]+)"', html):
     assert target in ids, f"Broken section link: #{target}"
 print(f"Published JSON and JSON-LD valid; {len(records)} unique archive records; category and section links valid.")
 
+
+# DOI catalogue: visible records and machine-readable ItemList must agree.
+from html import unescape
+from urllib.parse import unquote, urlparse
+
+publication_html = (ROOT / "publications" / "index.html").read_text()
+publication_match = re.search(
+    r'<script type="application/ld\+json">(.*?)</script>',
+    publication_html, re.S
+)
+assert publication_match, "Missing publications JSON-LD"
+publication_schema = json.loads(publication_match.group(1))
+publication_list = publication_schema["mainEntity"]
+items = publication_list["itemListElement"]
+assert publication_list["numberOfItems"] == len(items), "Publication JSON-LD count mismatch"
+visible = re.findall(
+    r'<article class="pub">\s*<div class="num">(\d+)</div>\s*<div>'
+    r'.*?<h3>(.*?)</h3>\s*<div class="doi">DOI:\s*([^<]+)</div>'
+    r'.*?<div class="actions"><a href="([^"]+)"[^>]*>VIEW PUBLICATION'
+    r'.*?<button data-doi="([^"]+)"',
+    publication_html, re.S
+)
+assert len(visible) == len(items), "Visible and JSON-LD publication counts differ"
+doi_seen = set()
+for index, ((number, title, doi, link, button_doi), entry) in enumerate(zip(visible, items), 1):
+    item = entry["item"]
+    doi = doi.strip()
+    assert int(number) == index and entry["position"] == index, "Publication order mismatch"
+    assert unescape(title).strip() == item["name"], f"Publication {index} title mismatch"
+    assert doi == item["identifier"] == button_doi, f"Publication {index} DOI mismatch"
+    assert doi not in doi_seen, f"Duplicate publication DOI: {doi}"
+    doi_seen.add(doi)
+    assert urlparse(unquote(link)).geturl() == item["url"], f"Publication {index} DOI link mismatch"
+    assert item["@type"] in {"ScholarlyArticle", "Book"}, "Unsupported publication type"
+    assert item["author"]["@id"] == "https://joe-nasr-signals.vercel.app/#joe-nasr"
+assert len(items) > 0, "Empty publications catalogue"
+assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
+assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "sitemap.xml").read_text()
+print(f"Publication catalogue validated: {len(items)} visible and structured DOI records.")
