@@ -701,7 +701,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-28",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -2390,5 +2390,11 @@
     "research_registry": "https://joenasriani.github.io/joe-research-registry/",
     "research_registry_source": "https://github.com/Joenasriani/joe-research-registry",
     "scope": "Refer to the publications library for DOI-linked published records; the research registry also includes technical studies and works in development. Do not infer peer review or implementation validation from a DOI."
+  },
+  "tools_technologies_library": {
+    "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
+    "scope": "Selected software and technologies across design, video, 3D, immersive, web, AI and development workflows",
+    "evidence_boundary": "Selected inventory only. No equal-proficiency, certification or individual hands-on mastery claims are implied; corroborate specific experience against project and training records.",
+    "inventory_count": 26
   }
 }
