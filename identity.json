@@ -2445,7 +2445,7 @@
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
     "scope": "A selection of software, platforms, and technologies encountered throughout my professional practice, spanning creative direction, multimedia production, music and audio, design, interactive experiences, and application development. My experience with these tools includes professional project work, independent development, formal learning, experimentation, and the delivery of technical workshops and training. The nature and depth of my involvement vary by tool, reflecting different stages of my career and areas of specialization.",
     "evidence_boundary": "User-confirmed public inventory. Inclusion does not establish equal proficiency, certification, or independently verified use for every entry.",
-    "inventory_count": 63,
+    "inventory_count": 64,
     "groups": [
       {
         "category": "Design, Video & Post-production",
@@ -2517,7 +2517,8 @@
           "Bootstrap",
           "Vite",
           "Google Firebase",
-          "Python"
+          "Python",
+          "Replit"
         ]
       },
       {
