@@ -371,7 +371,7 @@ Selected inventory, not a proficiency ranking or independent certification claim
 - WebXR
 
 ### Generative AI & Creative Technology
-- OpenAI ChatGPT
+- OpenAI ChatGPT / Codex
 - Google AI Studio
 - Higgsfield AI
 - Runway
