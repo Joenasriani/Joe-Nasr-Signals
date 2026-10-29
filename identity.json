@@ -2466,15 +2466,6 @@
         ]
       },
       {
-        "category": "Music & Audio Production",
-        "items": [
-          "Apple Logic Pro",
-          "Avid Pro Tools",
-          "Steinberg Nuendo",
-          "Steinberg Cubase"
-        ]
-      },
-      {
         "category": "3D, XR & Interactive Technology",
         "items": [
           "Maxon Cinema 4D",
@@ -2544,6 +2535,15 @@
         "items": [
           "Google Analytics",
           "Google Ads"
+        ]
+      },
+      {
+        "category": "Music & Audio Production",
+        "items": [
+          "Apple Logic Pro",
+          "Avid Pro Tools",
+          "Steinberg Nuendo",
+          "Steinberg Cubase"
         ]
       }
     ],
