@@ -365,12 +365,6 @@ Evidence boundary: This is a user-confirmed selected inventory, not a proficienc
 - Canva
 - Apple Final Cut Pro
 
-### Music & Audio Production
-- Apple Logic Pro
-- Avid Pro Tools
-- Steinberg Nuendo
-- Steinberg Cubase
-
 ### 3D, XR & Interactive Technology
 - Maxon Cinema 4D
 - Blender
@@ -427,3 +421,9 @@ Evidence boundary: This is a user-confirmed selected inventory, not a proficienc
 ### Marketing & Analytics
 - Google Analytics
 - Google Ads
+
+### Music & Audio Production
+- Apple Logic Pro
+- Avid Pro Tools
+- Steinberg Nuendo
+- Steinberg Cubase
