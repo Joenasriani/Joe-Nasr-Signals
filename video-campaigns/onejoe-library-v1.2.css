@@ -2,7 +2,7 @@
    One source copied byte-for-byte to each independent archive. Signals read-only.
    Source reference: current Interactive Projects headline/geometry.
    Shared Arial introductions follow Joe's latest font consistency correction. */
-.onejoe-library{--ink:#101317;--paper:#f2efe7;--muted:#6c6b66;--line:rgba(16,19,23,.24);--max:1440px;--pad:clamp(20px,4vw,64px);margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.45 Arial,Helvetica,sans-serif}
+.onejoe-library{--ink:#101317;--paper:#f7f7f5;--muted:#6c6b66;--line:rgba(16,19,23,.24);--max:1440px;--pad:clamp(20px,4vw,64px);margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.45 Arial,Helvetica,sans-serif}
 .onejoe-library .wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--pad)}
 .onejoe-library header,.onejoe-library .site-header{padding:0;border-bottom:1px solid var(--line);background:var(--paper)}
 .onejoe-library header .wrap{min-height:72px;display:flex;align-items:center;justify-content:flex-start}
