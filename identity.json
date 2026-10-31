@@ -907,7 +907,8 @@
         "Joe Nasr advertising": "HIGH",
         "Joe Nasr music": "MEDIUM",
         "Joe Nasr training": "MEDIUM"
-      }
+      },
+      "related_music_audio_playlist_url": "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
     },
     {
       "id": "itch_io",
@@ -1657,7 +1658,8 @@
         "reverbnation"
       ],
       "evidence_urls": [
-        "https://joe-nasr-signals.vercel.app/music/"
+        "https://joe-nasr-signals.vercel.app/music/",
+        "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
       ],
       "boundary": "This route includes Joe Nasr’s personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
     },
