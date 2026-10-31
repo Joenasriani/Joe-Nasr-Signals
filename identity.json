@@ -1551,6 +1551,27 @@
       }
     },
     {
+      "id": "apple_music",
+      "name": "Joe Nasr on Apple Music",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/artist/joe-nasr/833542898",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music catalogue",
+        "recordings"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr Apple Music": "HIGH"
+      }
+    },
+    {
       "id": "deezer",
       "name": "Joe Nasr on Deezer",
       "platform": "Deezer",
@@ -1620,6 +1641,7 @@
       "surface_ids": [
         "youtube",
         "spotify",
+        "apple_music",
         "deezer",
         "soundcloud",
         "anghami",
