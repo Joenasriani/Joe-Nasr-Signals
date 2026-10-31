@@ -783,12 +783,12 @@
         "research publications",
         "scholarly discovery"
       ],
-      "temporal_state": "UNKNOWN",
+      "temporal_state": "CURRENT",
       "nervous_system_priority": "SECONDARY_SPECIALIST",
-      "retrieval_state": "UNRESOLVED",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "AUTHOR_PROFILE",
       "ownership_evidence": "USER_CONFIRMED",
-      "verification_note": "Joe Nasr explicitly confirms ownership of this Google Scholar profile. Public accessibility and individual article attribution/metadata have not been independently rechecked; no claim of peer review, academic affiliation, or Google institutional-email verification is implied.",
+      "verification_note": "Public profile accessibility checked 2026-10-31. The public page displayed 12 works; six titles correspond to DOI-linked records on the Signals Publications page, while six additional items have not been reconciled to Signals source records. Search-result visibility and ranking were not verified. Profile contents do not establish peer review, employment, institutional affiliation, or source validation.",
       "query_relevance": {
         "Joe Nasr Google Scholar": "HIGH",
         "Joseph Ribal Nasr publications": "HIGH"
@@ -1425,57 +1425,6 @@
       }
     },
     {
-      "id": "flickr",
-      "name": "Joe Nasr on Flickr",
-      "platform": "Flickr",
-      "handle": "joenasriani",
-      "url": "https://www.flickr.com/photos/27243981@N04/",
-      "category": [
-        "Graphics",
-        "Visual Archive"
-      ],
-      "subtopics": [
-        "visual work",
-        "photography",
-        "Joenasriani alias history"
-      ],
-      "temporal_state": "HISTORICAL",
-      "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
-      "relationship_to_joe": "PROFILE",
-      "query_relevance": {
-        "Joenasriani": "HIGH",
-        "Joe Nasr Flickr": "HIGH",
-        "Joe Nasr visuals": "MEDIUM"
-      }
-    },
-    {
-      "id": "freelancer",
-      "name": "Joe Nasr on Freelancer",
-      "platform": "Freelancer",
-      "handle": "joenasriani",
-      "url": "https://www.freelancer.com/u/joenasriani",
-      "category": [
-        "Professional",
-        "Creative"
-      ],
-      "subtopics": [
-        "freelance",
-        "creative",
-        "media",
-        "Joenasriani alias history"
-      ],
-      "temporal_state": "HISTORICAL",
-      "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
-      "relationship_to_joe": "PROFILE",
-      "query_relevance": {
-        "Joenasriani": "HIGH",
-        "Joe Nasr Freelancer": "HIGH",
-        "Joe Nasr freelance": "MEDIUM"
-      }
-    },
-    {
       "id": "ten_times",
       "name": "Joe Nasr on 10times",
       "platform": "10times",
@@ -1484,18 +1433,18 @@
         "Professional"
       ],
       "subtopics": [
-        "Creative Director",
-        "Media Valley",
-        "Dubai"
+        "historical private event-directory profile",
+        "incomplete role label"
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
       "retrieval_state": "WEAK",
       "relationship_to_joe": "DIRECTORY_PROFILE",
       "query_relevance": {
-        "Joe Nasr Media Valley": "MEDIUM",
-        "Joe Nasr Creative Director Dubai": "MEDIUM"
-      }
+        "Joe Nasr Media Valley": "LOW",
+        "Joe Nasr Creative Director Dubai": "LOW"
+      },
+      "verification_note": "Checked 2026-10-31: the 10times profile is private and displays Creative Director, Apex Innovate FZLLC, without the Founder part of the Creative Director & Founder title used on Signals. Its About link points to Signals, but the private directory page adds little public evidence; retain as a historical trace only, excluded from active query routing."
     },
     {
       "id": "gamebrain",
@@ -1634,8 +1583,7 @@
       "surface_ids": [
         "linkedin",
         "youtube",
-        "stage32_creative",
-        "ten_times"
+        "stage32_creative"
       ]
     },
     "guitar_music_composer": {
@@ -1733,7 +1681,6 @@
       "surface_ids": [
         "tiktok_visuals",
         "youtube",
-        "flickr",
         "stage32_creative"
       ]
     },

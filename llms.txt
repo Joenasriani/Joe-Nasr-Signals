@@ -16,7 +16,7 @@ Canonical record / evidence graph: https://joe-nasr-signals.vercel.app/
 Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.json
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
 Research & Publications (DOI-linked records and separate bookstore module): https://joe-nasr-signals.vercel.app/publications/
-Supporting author-profile link (ownership USER_CONFIRMED; public accessibility and article metadata NOT_RECHECKED): https://scholar.google.com/citations?user=V_8fZGQAAAAJ&hl=en — Google Scholar; do not infer peer review, institutional affiliation, or a validated publication claim from the profile alone.
+Google Scholar author profile (public accessibility checked 2026-10-31): https://scholar.google.com/citations?user=V_8fZGQAAAAJ&hl=en — the page displayed 12 works; six titles correspond to DOI-linked Signals publication records and six additional items remain unreconciled to Signals source records. Search-result visibility and ranking were not verified. Do not infer peer review, employment, institutional affiliation, or validation of an item from the profile alone.
 Research registry (includes technical studies and work in development): https://joenasriani.github.io/joe-research-registry/
 Research registry source: https://github.com/Joenasriani/joe-research-registry
 Publication distinction: a DOI identifies a deposited publication and does not establish peer review or experimental validation.
