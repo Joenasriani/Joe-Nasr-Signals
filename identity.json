@@ -1433,20 +1433,20 @@
         "Professional"
       ],
       "subtopics": [
-        "historical professional/event-directory profile",
-        "Creative Director",
-        "Apex Innovate",
-        "Dubai"
+        "Creative Director & Founder",
+        "Apex Innovate FZE LLC",
+        "Dubai",
+        "professional event directory"
       ],
-      "temporal_state": "HISTORICAL",
-      "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "WEAK",
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "DIRECTORY_PROFILE",
       "query_relevance": {
         "Joe Nasr Creative Director Dubai": "MEDIUM",
         "Joe Nasr Apex Innovate": "MEDIUM"
       },
-      "verification_note": "Checked 2026-10-31: the direct 10times profile is marked private and its About link points to Signals. Search-indexed public event/visitor pages surface JOE NASR as Creative Director at Apex Innovate FZLLC in Dubai; an older indexed event page uses Media Valley. Treat these directory labels as historical/self-reported and incomplete or conflicting, not proof of current title, employer, or event attendance. Retain as a WEAK historical support route, not a primary professional source. Refresh after Joe updates the 10times profile."
+      "verification_note": "Live browser check 2026-10-31: the publicly visible profile displays “Creative Director & Founder, Apex Innovate FZE LLC,” Dubai, United Arab Emirates, and links to Signals in its About section. Treat these as current profile-published details and a supporting directory route; the page itself does not independently verify the underlying role, company relationship, or event attendance."
     },
     {
       "id": "gamebrain",
