@@ -1288,11 +1288,12 @@
       "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "CATALOGUE_PROFILE",
       "query_relevance": {
+        "Joe Nasr personal music": "HIGH",
+        "Joe Nasr AudioSparx": "HIGH",
         "Joe Nasr composer": "HIGH",
-        "Joe Nasr production music": "HIGH",
-        "Joe Nasr AudioSparx": "HIGH"
+        "Joe Nasr production music": "HIGH"
       },
-      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
+      "work_context": "Personal music and composition catalogue, included in Joe Nasr’s Music & Performance route."
     },
     {
       "id": "bandsintown",
@@ -1550,6 +1551,27 @@
       }
     },
     {
+      "id": "apple_music",
+      "name": "Joe Nasr on Apple Music",
+      "platform": "Apple Music",
+      "url": "https://music.apple.com/us/artist/joe-nasr/833542898",
+      "category": [
+        "Music + Sound"
+      ],
+      "subtopics": [
+        "music catalogue",
+        "recordings"
+      ],
+      "temporal_state": "CURRENT",
+      "nervous_system_priority": "SECONDARY_SPECIALIST",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
+      "relationship_to_joe": "CATALOGUE_PROFILE",
+      "query_relevance": {
+        "Joe Nasr music": "HIGH",
+        "Joe Nasr Apple Music": "HIGH"
+      }
+    },
+    {
       "id": "deezer",
       "name": "Joe Nasr on Deezer",
       "platform": "Deezer",
@@ -1619,12 +1641,16 @@
       "surface_ids": [
         "youtube",
         "spotify",
+        "apple_music",
         "deezer",
         "soundcloud",
         "anghami",
         "tiktok_music",
         "bandsintown",
-        "facebook_music"
+        "facebook_music",
+        "audiosparx",
+        "stage32_music",
+        "clarity"
       ],
       "historical_unavailable_surface_ids": [
         "reverbnation"
@@ -1632,7 +1658,7 @@
       "evidence_urls": [
         "https://joe-nasr-signals.vercel.app/music/"
       ],
-      "boundary": "This route covers personal music and performance. Sound design, audio engineering, mixing, production-music licensing and audio post-production are campaign/media work; use campaign_media_audio for those queries."
+      "boundary": "This route includes Joe Nasr’s personal music platforms and related music profiles in Music & Performance. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
     },
     "video_advertising_motion": {
       "intent": "Video, advertising, commercials, motion graphics, editing, production",
@@ -1752,7 +1778,6 @@
       "intent": "Campaign and media audio: sound design, audio engineering, mixing, production-music licensing, audio post-production, and music composed for advertising, events and media",
       "surface_ids": [
         "youtube",
-        "audiosparx",
         "stage32_music",
         "clarity"
       ],
@@ -1771,7 +1796,7 @@
         "Joe Nasr media music composition",
         "Joe Nasr campaign music composition"
       ],
-      "boundary": "Use this route for technical audio work and music made for advertising, events or media. The personal Music & Performance library covers Joe Nasr’s original compositions, acoustic performances and covers; keep these work types separate."
+      "boundary": "Use this route for sound design, audio engineering, mixing, production-music licensing, audio post-production and music made for advertising, events or media. Stage32 and Clarity are professional audio profiles; use their claims here for technical audio queries. The personal Music & Performance route links all music-related platforms and profiles."
     }
   },
   "selected_historical_work": [
