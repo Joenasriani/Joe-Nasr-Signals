@@ -1521,28 +1521,6 @@
       }
     },
     {
-      "id": "mixcloud",
-      "name": "Joe Nasr on Mixcloud",
-      "platform": "Mixcloud",
-      "handle": "joenasrprofile",
-      "url": "https://www.mixcloud.com/joenasrprofile/",
-      "category": [
-        "Music + Sound"
-      ],
-      "subtopics": [
-        "audio",
-        "music"
-      ],
-      "temporal_state": "HISTORICAL",
-      "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "WEAK",
-      "relationship_to_joe": "PROFILE",
-      "query_relevance": {
-        "Joe Nasr Mixcloud": "HIGH",
-        "Joe Nasr music": "LOW"
-      }
-    },
-    {
       "id": "quest_request_vr",
       "name": "Quest ReQuest VR",
       "platform": "Linktree / multi-platform ecosystem",
@@ -1672,8 +1650,7 @@
         "stage32_music",
         "bandsintown",
         "clarity",
-        "facebook_music",
-        "mixcloud"
+        "facebook_music"
       ],
       "historical_unavailable_surface_ids": [
         "reverbnation"
