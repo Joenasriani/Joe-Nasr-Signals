@@ -1650,7 +1650,8 @@
         "facebook_music",
         "audiosparx",
         "stage32_music",
-        "clarity"
+        "clarity",
+        "suno_shallowwaters"
       ],
       "historical_unavailable_surface_ids": [
         "reverbnation"
@@ -1658,7 +1659,7 @@
       "evidence_urls": [
         "https://joe-nasr-signals.vercel.app/music/"
       ],
-      "boundary": "This route includes Joe Nasr’s personal music platforms and related music profiles in Music & Performance. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
+      "boundary": "This route includes Joe Nasr’s personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
     },
     "video_advertising_motion": {
       "intent": "Video, advertising, commercials, motion graphics, editing, production",
