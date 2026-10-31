@@ -1291,7 +1291,8 @@
         "Joe Nasr composer": "HIGH",
         "Joe Nasr production music": "HIGH",
         "Joe Nasr AudioSparx": "HIGH"
-      }
+      },
+      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
     },
     {
       "id": "bandsintown",
@@ -1342,7 +1343,8 @@
         "Joe Nasr audio": "HIGH",
         "Joe Nasr Pro Tools": "HIGH",
         "Joe Nasr music": "HIGH"
-      }
+      },
+      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
     },
     {
       "id": "stage32_music",
@@ -1366,7 +1368,8 @@
         "Joe Ribal Nasr music": "HIGH",
         "Joe Nasr composer": "HIGH",
         "Joe Nasr sound designer": "HIGH"
-      }
+      },
+      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
     },
     {
       "id": "stage32_creative",
@@ -1764,7 +1767,9 @@
         "Joe Nasr production-music licensing",
         "Joe Nasr audio post-production",
         "Joe Nasr campaign audio",
-        "Joe Nasr media production"
+        "Joe Nasr media production",
+        "Joe Nasr media music composition",
+        "Joe Nasr campaign music composition"
       ],
       "boundary": "Use this route for technical audio work and music made for advertising, events or media. The personal Music & Performance library covers Joe Nasr’s original compositions, acoustic performances and covers; keep these work types separate."
     }
