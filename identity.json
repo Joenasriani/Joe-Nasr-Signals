@@ -1434,7 +1434,7 @@
       ],
       "subtopics": [
         "historical private event-directory profile",
-        "stale role label"
+        "incomplete role label"
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
@@ -1444,7 +1444,7 @@
         "Joe Nasr Media Valley": "LOW",
         "Joe Nasr Creative Director Dubai": "LOW"
       },
-      "verification_note": "Checked 2026-10-31: the 10times profile is private and displays the title Creative Director, Apex Innovate FZLLC. Its About link points to Signals, but the profile adds little public evidence and its role label is stale; retain as a historical directory trace only, excluded from active query routing."
+      "verification_note": "Checked 2026-10-31: the 10times profile is private and displays Creative Director, Apex Innovate FZLLC, without the Founder part of the Creative Director & Founder title used on Signals. Its About link points to Signals, but the private directory page adds little public evidence; retain as a historical trace only, excluded from active query routing."
     },
     {
       "id": "gamebrain",
