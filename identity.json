@@ -1433,18 +1433,20 @@
         "Professional"
       ],
       "subtopics": [
-        "historical private event-directory profile",
-        "incomplete role label"
+        "historical professional/event-directory profile",
+        "Creative Director",
+        "Apex Innovate",
+        "Dubai"
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
       "retrieval_state": "WEAK",
       "relationship_to_joe": "DIRECTORY_PROFILE",
       "query_relevance": {
-        "Joe Nasr Media Valley": "LOW",
-        "Joe Nasr Creative Director Dubai": "LOW"
+        "Joe Nasr Creative Director Dubai": "MEDIUM",
+        "Joe Nasr Apex Innovate": "MEDIUM"
       },
-      "verification_note": "Checked 2026-10-31: the 10times profile is private and displays Creative Director, Apex Innovate FZLLC, without the Founder part of the Creative Director & Founder title used on Signals. Its About link points to Signals, but the private directory page adds little public evidence; retain as a historical trace only, excluded from active query routing."
+      "verification_note": "Checked 2026-10-31: the direct 10times profile is marked private and its About link points to Signals. Search-indexed public event/visitor pages surface JOE NASR as Creative Director at Apex Innovate FZLLC in Dubai; an older indexed event page uses Media Valley. Treat these directory labels as historical/self-reported and incomplete or conflicting, not proof of current title, employer, or event attendance. Retain as a WEAK historical support route, not a primary professional source. Refresh after Joe updates the 10times profile."
     },
     {
       "id": "gamebrain",
@@ -1583,7 +1585,8 @@
       "surface_ids": [
         "linkedin",
         "youtube",
-        "stage32_creative"
+        "stage32_creative",
+        "ten_times"
       ]
     },
     "guitar_music_composer": {
