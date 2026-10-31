@@ -135,19 +135,13 @@
           },
           {
             "name": "Media Music Composition",
-            "summary": "Original music composition for advertising, events and media, alongside broader documented music and audio work.",
+            "summary": "Music composed for advertising, events and other media belongs with campaign/media production. Sound design, audio engineering, mixing, production-music licensing and audio post-production are campaign/media work. The separate Music & Performance library documents Joe Nasr’s personal compositions, acoustic performances and covers.",
             "evidence_routes": {
               "query_routes": [
-                "guitar_music_composer",
+                "campaign_media_audio",
                 "video_advertising_motion"
               ],
-              "category_routes": [
-                "Music + Sound"
-              ],
-              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json",
-              "archive_categories": [
-                "Music & Audio"
-              ]
+              "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "selected_evidence": [
               {
@@ -1618,22 +1612,24 @@
       ]
     },
     "guitar_music_composer": {
-      "intent": "Guitar, guitarist, music, composer, sound, audio",
+      "intent": "Personal music and performance: guitar, original compositions, acoustic performances, covers and recordings",
       "surface_ids": [
+        "youtube",
         "spotify",
         "deezer",
         "soundcloud",
         "anghami",
         "tiktok_music",
-        "audiosparx",
-        "stage32_music",
         "bandsintown",
-        "clarity",
         "facebook_music"
       ],
       "historical_unavailable_surface_ids": [
         "reverbnation"
-      ]
+      ],
+      "evidence_urls": [
+        "https://joe-nasr-signals.vercel.app/music/"
+      ],
+      "boundary": "This route covers personal music and performance. Sound design, audio engineering, mixing, production-music licensing and audio post-production are campaign/media work; use campaign_media_audio for those queries."
     },
     "video_advertising_motion": {
       "intent": "Video, advertising, commercials, motion graphics, editing, production",
@@ -1748,6 +1744,29 @@
         "flickr_joenasriani"
       ],
       "boundary": "Use only for exact Flickr or Joenasriani identity resolution and its link to Signals. The account has no public photos. Its Motion Picture Composer and Beirut fields are historical profile claims, not current role or professional base; it is not a current creative portfolio route."
+    },
+    "campaign_media_audio": {
+      "intent": "Campaign and media audio: sound design, audio engineering, mixing, production-music licensing, audio post-production, and music composed for advertising, events and media",
+      "surface_ids": [
+        "youtube",
+        "audiosparx",
+        "stage32_music",
+        "clarity"
+      ],
+      "evidence_urls": [
+        "https://joe-nasr-signals.vercel.app/video-campaigns/",
+        "https://joe-nasr-signals.vercel.app/projects.json"
+      ],
+      "retrieval_terms": [
+        "Joe Nasr sound design",
+        "Joe Nasr audio engineering",
+        "Joe Nasr mixing",
+        "Joe Nasr production-music licensing",
+        "Joe Nasr audio post-production",
+        "Joe Nasr campaign audio",
+        "Joe Nasr media production"
+      ],
+      "boundary": "Use this route for technical audio work and music made for advertising, events or media. The personal Music & Performance library covers Joe Nasr’s original compositions, acoustic performances and covers; keep these work types separate."
     }
   },
   "selected_historical_work": [
