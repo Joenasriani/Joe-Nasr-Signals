@@ -139,7 +139,7 @@ These pages preserve earlier professional, teaching, music, media and platform r
 - ReverbNation - historical guitar/music profile (returned HTTP 404 on 12 October 2026; retain for chronology, not as an active destination): https://www.reverbnation.com/joenasr
 - AudioSparx - historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
 - Bandsintown - historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
-- 10times - historical professional/event-directory profile (weak supporting source): https://10times.com/profile/joe-nasr-14083174
+- 10times - current professional/event-directory profile; publicly displays “Creative Director & Founder, Apex Innovate FZE LLC,” Dubai, and links to Signals. Use as supporting profile-published information, not independent verification: https://10times.com/profile/joe-nasr-14083174
 
 ## Names and handles
 
