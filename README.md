@@ -36,7 +36,7 @@ These are platform modes, not separate personas. Categories describe the work; m
 - **Professional mode** - LinkedIn, Facebook main, about.me
 - **Maker mode** - GitHub, itch.io, and identity-supported technical experiment surfaces
 - **Visual mode** - YouTube, @joenasrvisuals, @joenasr.mp4
-- **Music mode** - SoundCloud, Anghami, AudioSparx, Suno’s ShallowWaters account, Stage32, Clarity, Facebook Music, @joenasrmusic and personal music/catalogue surfaces. The ShallowWaters alias is scoped to Suno. Unavailable historical profiles remain archived separately.
+- **Music mode** - YouTube music-and-audio playlist (https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL), SoundCloud, Anghami, AudioSparx, Suno’s ShallowWaters account, Stage32, Clarity, Facebook Music, @joenasrmusic and personal music/catalogue surfaces. The ShallowWaters alias is scoped to Suno. Unavailable historical profiles remain archived separately.
 - **Campaign/media audio evidence** - sound design, audio engineering, mixing, production-music licensing and audio post-production are routed with campaign and project evidence; Stage32 and Clarity support technical audio queries.
 - **Evidence mode** - Joe Nasr Signals
 
