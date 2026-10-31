@@ -35,7 +35,7 @@ These are platform modes, not separate personas. Categories describe the work; m
 
 - **Professional mode** - LinkedIn, Facebook main, about.me
 - **Maker mode** - GitHub, itch.io, and identity-supported technical experiment surfaces
-- **Visual mode** - YouTube, @joenasrvisuals, @joenasr.mp4, Flickr
+- **Visual mode** - YouTube, @joenasrvisuals, @joenasr.mp4
 - **Music mode** - SoundCloud, Anghami, AudioSparx, Facebook Music, @joenasrmusic and other available music/catalogue surfaces. Unavailable historical profiles remain archived separately.
 - **Evidence mode** - Joe Nasr Signals
 
@@ -138,9 +138,7 @@ These pages preserve earlier professional, teaching, music, media and platform r
 - Clarity - historical music/sound profile: https://clarity.fm/joenasr
 - ReverbNation - historical guitar/music profile (returned HTTP 404 on 12 October 2026; retain for chronology, not as an active destination): https://www.reverbnation.com/joenasr
 - AudioSparx - historical composer/production-music profile: https://www.audiosparx.com/JoeNasr
-- Flickr - Joe Nasr / `joenasriani` historical alias reference: https://www.flickr.com/photos/27243981@N04/
 - Bandsintown - historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
-- 10times - Creative Director / Media Valley / Dubai profile: https://10times.com/profile/joe-nasr-14083174
 
 ## Names and handles
 
