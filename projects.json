@@ -191,11 +191,13 @@
     },
     {
       "id": "SYN-0260",
-      "name": "CDAO Website UI Adjustment",
-      "aliases": [],
+      "name": "ConsciousDAO – Creative and Operations Direction (Guild Technologies)",
+      "aliases": [
+        "CDAO Website UI Adjustment"
+      ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_ROLE",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -509,8 +511,8 @@
         "GMC commercial"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "USER_CONFIRMED_CONTEXT_PLUS_LEGACY_CORROBORATION",
-      "evidence_class": "USER_CONFIRMED_WITH_LEGACY_PROFILE_CORROBORATION",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -521,7 +523,7 @@
         "Chevrolet Traverse #BetterDriver"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
