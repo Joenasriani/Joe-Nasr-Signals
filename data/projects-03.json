@@ -105,7 +105,15 @@
       "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2024-09-30",
+        "end_date": "2024-12-24",
+        "program": "Media Training Program",
+        "cohort": "Group 1",
+        "delivery_evidence": "completion not separately established"
+      }
     },
     {
       "id": "SYN-0303",
@@ -134,7 +142,15 @@
       "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-01-06",
+        "end_date": "2025-03-20",
+        "program": "Media Graphic and Motion Design Diploma",
+        "cohort": "Group 1",
+        "delivery_evidence": "completion not separately established"
+      }
     },
     {
       "id": "SYN-0304",
@@ -164,7 +180,15 @@
       "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": true
+      "public_source_available": true,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-04-07",
+        "end_date": "2025-06-19",
+        "program": "Media Graphic and Motion Design Diploma",
+        "cohort": "Group 2",
+        "delivery_evidence": "graduation 2025-06-26"
+      }
     },
     {
       "id": "SYN-0301",
@@ -190,7 +214,15 @@
       "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-11-03",
+        "end_date": "2025-11-06",
+        "program": "Corporate Video Editing using DaVinci Resolve",
+        "cohort": "4-day workshop",
+        "delivery_evidence": "four-day workshop"
+      }
     },
     {
       "id": "SYN-0302",
@@ -216,7 +248,15 @@
       "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2026-01-12",
+        "end_date": "2026-02-03",
+        "program": "DaVinci Resolve Mastery",
+        "cohort": "8-session course",
+        "delivery_evidence": "four sessions documented as delivered; eight scheduled"
+      }
     },
     {
       "id": "SYN-0259",
