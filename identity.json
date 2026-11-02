@@ -2300,8 +2300,8 @@
           "2026"
         ],
         "status": "CROSS_SOURCE",
-        "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM PARTIAL_DELIVERY",
-        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery record still preserves the unresolved full eight-session completion state.",
+        "delivery_status": "DELIVERED_WORKSHOP; 2026 PROGRAM DELIVERED",
+        "boundary": "Delivered workshop/training relationship is established. The separate 2026 DaVinci Resolve Mastery course was fully delivered, as confirmed by Joe Nasr on 2026-11-02.",
         "training_audience": {
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
@@ -2375,11 +2375,11 @@
       "canonical_recipient_name": "Holy Quran Academy in Sharjah",
       "program": "DaVinci Resolve Mastery",
       "year": 2026,
-      "delivery_status": "PARTIAL_DELIVERY",
-      "established_scope": "At least the first four sessions are independently established.",
-      "unresolved_scope": "Completion of the full eight-session program remains unresolved.",
-      "evidence_status": "USER_CONFIRMED + PARTIAL_DELIVERY",
-      "boundary": "Do not state full eight-session completion until the remaining sessions are established."
+      "delivery_status": "DELIVERED",
+      "established_scope": "Earlier documentation established four sessions; Joe Nasr confirmed delivery of all eight on 2026-11-02.",
+      "unresolved_scope": "All eight sessions confirmed delivered by Joe Nasr on 2026-11-02.",
+      "evidence_status": "USER_CONFIRMED_DELIVERED",
+      "boundary": "All eight sessions delivered according to Joe Nasr's direct confirmation; do not misrepresent this as independent attendance verification."
     }
   ],
   "game_catalogs": [
