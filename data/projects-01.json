@@ -157,16 +157,17 @@
       "organization": "OTV Lebanon / historical broadcast music",
       "client": "Lebanese television program; historical OTV context preserved in older metadata",
       "production_or_agency": "Director Gino Aoun; Production Executive Hasan Kabani",
-      "period": "DATE_CONFLICT: older indexed description 2007-2008; later cleaned metadata 2009",
+      "period": "2007–2008 (historical indexed program period; exact production date not independently established)",
       "joe_role": "Music",
       "deliverable": "Main music theme.",
-      "evidence_summary": "Current Joe YouTube description credits Music: Joe Nasr and names Gino Aoun / Hasan Kabani; older indexed description stated OTV Lebanon and 2007-2008; current title/description says 2009; ReverbNation also preserves the TV-show intro artifact.",
+      "evidence_summary": "Joe Nasr's published video credits Music: Joe Nasr for the show's main music theme, with Gino Aoun as director and Hasan Kabani as production executive. Historical indexed video metadata dates the program to 2007–2008; later video metadata used 2009. These are source-label differences, not a dispute of Joe's music credit. Public historical professional biography also lists Le2ouna 3al Se7a (OTV) among Joe's television work.",
       "public_urls": [
         "https://www.youtube.com/watch?v=6clXuMZ_ft0",
         "https://www.reverbnation.com/joenasr/song/2569067-le2ouna-3al-se7a--tv-show-intro"
       ],
       "boundaries": [
-        "Do not silently choose 2009 over 2007-2008 or vice versa."
+        "Do not infer the music's exact production year from the video publication date or conflicting historical labels.",
+        "Retain the earlier 2009 metadata reference only as source-history context, not as an unconfirmed-work flag."
       ],
       "retrieval_tags": [
         "Le2ouna 3al Se7a",
@@ -174,13 +175,10 @@
         "theme music",
         "date conflict"
       ],
-      "update_note": null,
-      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT",
+      "update_note": "2026-11-02: corrected classification: Joe's music credit is documented; historical program dating differences must not classify the project as unconfirmed.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true,
-      "evidence_flags": [
-        "DATE_CONFLICT"
-      ]
+      "public_source_available": true
     },
     {
       "id": "SYN-0264",
