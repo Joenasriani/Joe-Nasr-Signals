@@ -186,20 +186,20 @@
       "aliases": [],
       "organization": "Other commercial / branded project records",
       "client": "Pepsi Arabia",
-      "production_or_agency": "Impact BBDO, Jeddah (agency named in Joe's YouTube archive)",
+      "production_or_agency": "Montage TV Production (Joe's engagement/production route; directly confirmed by Joe Nasr on 2026-11-02). Impact BBDO, Jeddah is named as campaign agency in the YouTube video description, not Joe's contracting route.",
       "period": "Portfolio video published June 2012; production date not established",
       "joe_role": "Audio Post-Production",
       "deliverable": "Audio post-production for Pepsi Arabia / Qusai Kheder commercial.",
-      "evidence_summary": "Joe Nasr directly confirmed Audio Post-Production as his exact credit on 2026-11-02. His published YouTube archive identifies Pepsi Arabia, Impact BBDO Jeddah, the Bigger is Better / Pepsi 500 ml TVC and Qusai Kheder (i6ScASwPlvU). A separate third-party 2011 Pepsi/Qusai Music Mix project-history reference provides possible context only; the relationship between that record and this commercial is not established.",
+      "evidence_summary": "Joe Nasr directly confirmed Audio Post-Production as his exact credit, undertaken via Montage TV Production (2026-11-02). His YouTube archive identifies Pepsi Arabia, Impact BBDO Jeddah as the campaign agency, the Bigger is Better / Pepsi 500 ml TVC and Qusai Kheder (i6ScASwPlvU). A third-party 2011 Pepsi/Qusai Music Mix reference is retained as separate, unlinked context; no assumption that these are the same production.",
       "public_urls": [
         "https://www.youtube.com/watch?v=i6ScASwPlvU",
         "https://ae.linkedin.com/in/antoniosabatella"
       ],
       "boundaries": [
-        "Do not attribute TV montage or video editing to Joe for this project; his confirmed credit is Audio Post-Production.",
-        "Do not infer music composition from the audio post-production credit.",
-        "Do not merge the distinct 2011 third-party Pepsi/Qusai Music Mix reference without establishing project identity.",
-        "Impact BBDO is the agency, not an asserted employer."
+        "Joe's credit is Audio Post-Production; do not attribute video editing, TV montage, or music composition.",
+        "Joe performed this work via Montage TV Production; do not substitute the advertised campaign agency, Impact BBDO, as Joe's engagement route.",
+        "Do not infer formal employment with Montage TV Production from this project credit.",
+        "Do not merge the 2011 Pepsi/Qusai Music Mix third-party reference without evidence."
       ],
       "retrieval_tags": [
         "Pepsi Arabia",
@@ -210,7 +210,7 @@
         "Bonsaininja",
         "Massimiliano Pareschi"
       ],
-      "update_note": "2026-11-02: Joe directly corrected exact role to Audio Post-Production; matched own YouTube archive and retained separate 2011 context as unresolved association.",
+      "update_note": "2026-11-02: User clarified Audio Post-Production work was via Montage TV Production. Distinguish his engagement route from campaign agency in YouTube description.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
