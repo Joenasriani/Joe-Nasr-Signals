@@ -69,14 +69,15 @@
       "client": "Event Ideatecture / Ideavent",
       "production_or_agency": null,
       "period": "2026 active development context",
-      "joe_role": "Product/creative/technical contributor; exact partnership structure documented separately",
+      "joe_role": "Co-Founder + Creative Director",
       "deliverable": "Event ideation / event-architecture SaaS project.",
-      "evidence_summary": "Documented contribution to the event ideation and event-architecture project. The public product site provides project context, not independent proof of Joe Nasr’s role or partnership structure.",
+      "evidence_summary": "Documented contribution to the event ideation and event-architecture project. The public product site provides project context, not independent proof of Joe Nasr’s role or partnership structure. User directly confirmed Co-Founder + Creative Director on 2026-11-02. Ownership percentages, corporate registrations and partnership terms are not established by this confirmation.",
       "public_urls": [
         "https://ideavent.ai/"
       ],
       "boundaries": [
-        "The contribution does not establish ownership, founder status, partnership terms or completed delivery."
+        "Joe directly confirms Co-Founder and Creative Director; public site alone does not independently prove partnership structure.",
+        "Do not infer corporate shareholding, incorporation, share percentage or contractual terms."
       ],
       "retrieval_tags": [
         "Event Ideatecture",
@@ -84,9 +85,9 @@
         "SaaS",
         "product"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User directly confirmed Co-Founder + Creative Director on 2026-11-02. Ownership percentages, corporate registrations and partnership terms are not established by this confirmation.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -101,9 +102,9 @@
       "client": null,
       "production_or_agency": null,
       "period": "Current 2026",
-      "joe_role": "System/product designer and builder",
+      "joe_role": "System / Product Designer + Builder",
       "deliverable": "React/TypeScript/Vite visual reasoning framework with nodes, semantic roles, provenance, executable operations, local-first storage and graph interaction.",
-      "evidence_summary": "The public Visual Framework application provides project context. The detailed implementation and builder role are documented in the project record.",
+      "evidence_summary": "The public Visual Framework application provides project context. The detailed implementation and builder role are documented in the project record. User confirmed existing system/product designer and builder credit on 2026-11-02.",
       "public_urls": [
         "https://visual-framework-system.vercel.app/"
       ],
@@ -115,9 +116,9 @@
         "React",
         "current"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed existing system/product designer and builder credit on 2026-11-02.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -128,9 +129,9 @@
       "client": null,
       "production_or_agency": null,
       "period": "Current/recent",
-      "joe_role": "Builder / experiment designer",
+      "joe_role": "Builder + Experiment Designer",
       "deliverable": "Executable multi-perspective reasoning experiment with multiple disciplinary lenses and synthesis.",
-      "evidence_summary": "Documented multi-perspective reasoning prototype. No supporting public source is listed.",
+      "evidence_summary": "Documented multi-perspective reasoning prototype. No supporting public source is listed. User confirmed existing builder and experiment designer credit on 2026-11-02.",
       "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
@@ -138,9 +139,9 @@
         "reasoning",
         "prototype"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed existing builder and experiment designer credit on 2026-11-02.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
