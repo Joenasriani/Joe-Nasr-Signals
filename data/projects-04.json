@@ -14,11 +14,12 @@
       "client": "AudioSparx marketplace/licensing customers",
       "production_or_agency": "AudioSparx / Navarr Enterprises",
       "period": "Active evidence in Jul 2026",
-      "joe_role": "Music vendor / composer-catalog owner",
-      "deliverable": "Commercial licensing/sales catalog with recorded commission activity.",
-      "evidence_summary": "Documented project record supports Joe Nasr as the composer-catalog owner associated with commercial AudioSparx licensing activity.",
+      "joe_role": "Composer / catalog artist",
+      "deliverable": "Music catalogue listing for licensing, including The Rise of the Ancient Kingdoms (AudioSparx catalog ID 676198).",
+      "evidence_summary": "Public AudioSparx artist page directly lists Joe Nasr as composer and an active licensable track, The Rise of the Ancient Kingdoms (catalog ID 676198). These pages support composer/catalogue attribution and listing for licensing, not evidence of completed sales or financial royalties.",
       "public_urls": [
-        "https://www.audiosparx.com/sa/module/artist/countries/by_country.cfm/fips.AE/aatemp.0"
+        "https://www.audiosparx.com/JoeNasr",
+        "https://www.audiosparx.com/sa/archive/World-Music/Middle-Eastern-World-Fusion/The-Rise-of-the-Ancient-Kingdoms/676198"
       ],
       "retrieval_tags": [
         "music",
@@ -26,9 +27,9 @@
         "AudioSparx",
         "composer"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: verified public AudioSparx artist and track pages; no claims of completed licenses or royalty transactions.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
       "public_source_available": true
     },
     {
