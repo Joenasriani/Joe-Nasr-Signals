@@ -248,7 +248,8 @@
         "kind": "separate_engagement",
         "start_date": "2024-09-30",
         "end_date": "2024-12-24",
-        "cohort": "Group 1"
+        "cohort": "Group 1",
+        "delivery_status": "DELIVERED"
       }
     },
     {
@@ -266,7 +267,8 @@
         "kind": "separate_engagement",
         "start_date": "2025-01-06",
         "end_date": "2025-03-20",
-        "cohort": "Group 1"
+        "cohort": "Group 1",
+        "delivery_status": "DELIVERED"
       }
     },
     {
@@ -284,7 +286,8 @@
         "kind": "separate_engagement",
         "start_date": "2025-04-07",
         "end_date": "2025-06-19",
-        "cohort": "Group 2"
+        "cohort": "Group 2",
+        "delivery_status": "DELIVERED"
       }
     },
     {
@@ -299,7 +302,8 @@
         "kind": "separate_engagement",
         "start_date": "2025-11-03",
         "end_date": "2025-11-06",
-        "cohort": "Four-day workshop"
+        "cohort": "Four-day workshop",
+        "delivery_status": "DELIVERED"
       }
     },
     {
@@ -314,7 +318,8 @@
         "kind": "separate_engagement",
         "start_date": "2026-01-12",
         "end_date": "2026-02-03",
-        "cohort": "Eight-session course"
+        "cohort": "Eight-session course",
+        "delivery_status": "DELIVERED"
       }
     },
     {
