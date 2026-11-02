@@ -243,7 +243,13 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2024-09-30",
+        "end_date": "2024-12-24",
+        "cohort": "Group 1"
+      }
     },
     {
       "id": "SYN-0303",
@@ -255,7 +261,13 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-01-06",
+        "end_date": "2025-03-20",
+        "cohort": "Group 1"
+      }
     },
     {
       "id": "SYN-0304",
@@ -267,7 +279,13 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": true
+      "public_source_available": true,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-04-07",
+        "end_date": "2025-06-19",
+        "cohort": "Group 2"
+      }
     },
     {
       "id": "SYN-0301",
@@ -276,7 +294,13 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2025-11-03",
+        "end_date": "2025-11-06",
+        "cohort": "Four-day workshop"
+      }
     },
     {
       "id": "SYN-0302",
@@ -285,7 +309,13 @@
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "public_source_available": false,
+      "training_engagement": {
+        "kind": "separate_engagement",
+        "start_date": "2026-01-12",
+        "end_date": "2026-02-03",
+        "cohort": "Eight-session course"
+      }
     },
     {
       "id": "SYN-0259",
