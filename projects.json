@@ -205,8 +205,8 @@
       "name": "Social content strategy and graphics",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -214,8 +214,8 @@
       "name": "Valentine's Day promo videos",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -223,8 +223,8 @@
       "name": "Dreamsicle perfume contest promo video",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -232,8 +232,8 @@
       "name": "AVA shared work environment",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -322,8 +322,8 @@
       "name": "Event Ideatecture / Ideavent",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -335,8 +335,8 @@
         "Visual Framework System App"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -344,8 +344,8 @@
       "name": "Roundtable AI",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -439,8 +439,8 @@
         "13th Dubai International Film Festival"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -543,7 +543,7 @@
         "Mamdani: From Zero to Hero – Through the Eyes of a Doomscroller"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
     },
@@ -554,7 +554,7 @@
         "Taxonomies and Classification Systems: A Technical Field Guide"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-05.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
     }
