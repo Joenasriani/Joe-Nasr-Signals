@@ -152,8 +152,8 @@
         "Glamglow X Sephora Social Media Campaign"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "ESTABLISHED_RECORD",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
       "public_source_available": true
     },
     {
