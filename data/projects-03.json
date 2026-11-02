@@ -275,7 +275,7 @@
       "evidence_summary": "Documented project record supports Joe Nasr as the online Adobe trainer for the June 2020 Cartier cohort. Joe Nasr confirmed on 2026-11-02 that the existing corporate training record and role are accurate; this is first-person confirmation, not third-party verification.",
       "public_urls": [],
       "boundaries": [
-        "Do not state an exact delivered session count until attendance/completion records are recovered."
+        "Delivery is confirmed; exact session count is not established from the retained schedule alone."
       ],
       "retrieval_tags": [
         "Cartier",
@@ -286,7 +286,7 @@
         "2020",
         "online"
       ],
-      "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details.",
+      "update_note": "2026-11-02: User affirmed recorded training engagements and credits without changes to specific delivery details. 2026-11-02: Clarified that unknown session count does not question delivered training.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
