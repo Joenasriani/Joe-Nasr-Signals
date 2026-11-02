@@ -167,8 +167,11 @@
     },
     {
       "id": "SYN-0290",
-      "name": "Pepsi Arabia montage / Qusai",
-      "aliases": [],
+      "name": "Pepsi Arabia × Qusai Kheder – Audio Post-Production",
+      "aliases": [
+        "Pepsi Arabia montage / Qusai",
+        "Pepsi Arabia Bigger is Better TVC"
+      ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-02.json",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "ESTABLISHED_RECORD",
