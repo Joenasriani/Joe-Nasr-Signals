@@ -241,8 +241,8 @@
       "name": "Media Training Program - Group 1",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -253,8 +253,8 @@
         "Media Graphic & Motion Design Group 1"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -265,8 +265,8 @@
         "Media Graphic & Motion Design Group 2"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     },
     {
@@ -274,8 +274,8 @@
       "name": "Corporate Video Editing using DaVinci Resolve",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -283,8 +283,8 @@
       "name": "DaVinci Resolve Mastery Corporate Training",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "PARTIAL",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -295,8 +295,8 @@
         "Cartier Adobe Training"
       ],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-03.json",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
