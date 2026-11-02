@@ -304,8 +304,8 @@
       "name": "Joe Nasr AudioSparx catalog / licensing activity",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-04.json",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
       "public_source_available": true
     },
     {
