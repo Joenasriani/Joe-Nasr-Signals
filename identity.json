@@ -2307,7 +2307,7 @@
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
-          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. Preserve partial eight-session completion status."
+          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. The 2026 eight-session course was delivered, confirmed by Joe Nasr on 2026-11-02."
         }
       },
       {
@@ -2377,9 +2377,9 @@
       "year": 2026,
       "delivery_status": "DELIVERED",
       "established_scope": "Earlier documentation established four sessions; Joe Nasr confirmed delivery of all eight on 2026-11-02.",
-      "unresolved_scope": "All eight sessions confirmed delivered by Joe Nasr on 2026-11-02.",
       "evidence_status": "USER_CONFIRMED_DELIVERED",
-      "boundary": "All eight sessions delivered according to Joe Nasr's direct confirmation; do not misrepresent this as independent attendance verification."
+      "boundary": "All eight sessions delivered according to Joe Nasr's direct confirmation; do not misrepresent this as independent attendance verification.",
+      "confirmed_delivery_scope": "All eight sessions confirmed delivered by Joe Nasr on 2026-11-02."
     }
   ],
   "game_catalogs": [
