@@ -280,16 +280,17 @@
       "id": "SYN-0257",
       "name": "NYX Cosmetics Dubai",
       "aliases": [],
-      "organization": "Capital D Studio",
+      "organization": "Capital D",
       "client": "NYX Professional Makeup",
-      "production_or_agency": "Capital D Studio",
+      "production_or_agency": "Capital D",
       "period": "Historical; exact campaign date unresolved",
-      "joe_role": "Video/multimedia/post-production contribution; exact credit needs source recovery",
+      "joe_role": "Post-Production",
       "deliverable": null,
-      "evidence_summary": "Existing project cleanup record links NYX Dubai with Capital D provenance.",
+      "evidence_summary": "Joe Nasr directly confirmed his Post-Production credit on the NYX Professional Makeup Dubai project, with Capital D as the agency (2026-11-02). This is first-person professional attribution, not independent third-party verification.",
       "public_urls": [],
       "boundaries": [
-        "Do not over-specify exact deliverable or job title until asset/source is rechecked."
+        "Capital D is the agency; NYX Professional Makeup is the brand/client.",
+        "Do not infer a specific post-production discipline, deliverable, campaign date, or employer relationship without supporting evidence."
       ],
       "retrieval_tags": [
         "beauty",
@@ -297,8 +298,8 @@
         "Capital D",
         "commercial"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
+      "update_note": "2026-11-02: User clarified Agency: Capital D; credit: Post-Production. No independent public artifact asserted.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
