@@ -123,9 +123,9 @@
       "client": "E! / NBCUniversal",
       "production_or_agency": "Navigation Films",
       "period": "December 2016",
-      "joe_role": "Editor",
-      "deliverable": "Editing work for E! Beyond The Red Carpet at the 13th Dubai International Film Festival.",
-      "evidence_summary": "Documented project record supports Joe Nasr as Editor for the December 2016 E! Beyond The Red Carpet / 13th Dubai International Film Festival production. Navigation Films' current public Dubai-office and portfolio pages independently establish its Dubai production/post-production operation and in-house editing capability, but no recovered public source currently names Joe on this specific production.",
+      "joe_role": "Video Editor / Post-Production",
+      "deliverable": "Video editing / post-production for E! Beyond The Red Carpet, 13th Dubai International Film Festival.",
+      "evidence_summary": "Documented project record supports Joe Nasr as video editor for the December 2016 E! Beyond The Red Carpet / 13th Dubai International Film Festival production. Navigation Films' current public Dubai-office and portfolio pages independently establish its Dubai production/post-production operation and in-house editing capability, but no recovered public source currently names Joe on this specific production. User confirmed Video Editor / Post-Production credit on 2026-11-02; source attribution remains first-person/internal, not independent production credit.",
       "public_urls": [
         "https://navigationfilms.com/offices/dubai/",
         "https://navigationfilms.com/our-work/"
@@ -142,11 +142,11 @@
         "2016",
         "TV"
       ],
-      "update_note": "2026-10-04: added Navigation Films public context without upgrading Joe's role to independently verified.",
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed Video Editor / Post-Production credit on 2026-11-02; source attribution remains first-person/internal, not independent production credit.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true,
-      "source_quality_note": "Public sources corroborate Navigation Films' production/post-production context only. Joe's specific editor credit remains documented nonpublic until a public role-bearing source is recovered."
+      "source_quality_note": "Individual video editor/post-production credit directly confirmed by Joe. Navigation Films public sources corroborate production company context only; no individual end-credit frame independently recovered."
     },
     {
       "id": "SYN-0256",
@@ -361,7 +361,7 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Digital book, Digital edition · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Public URL response and external citation eligibility were not independently rechecked in this pass.",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Public URL response and external citation eligibility were not independently rechecked in this pass. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
       "public_urls": [
         "https://mamdani-from-zero-to-hero.vercel.app/",
         "https://reasoning-and-logic.vercel.app/"
@@ -377,8 +377,8 @@
         "From Zero to Hero",
         "J. Nasr"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "update_note": "2026-11-02: User confirmed existing author attribution and publication description exactly as recorded. Sales status and external indexing are unchanged.",
+      "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
     },
@@ -394,7 +394,7 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Technical field guide, Technical Field Guide and AI Practical Edition v1.1.1 · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review; public URL response and external indexing were not independently rechecked.",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review; public URL response and external indexing were not independently rechecked. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
       "public_urls": [
         "https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems",
         "https://reasoning-and-logic.vercel.app/"
@@ -411,8 +411,8 @@
         "field guide",
         "J. Nasr"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED",
+      "update_note": "2026-11-02: User confirmed existing author attribution and publication description exactly as recorded. Sales status and external indexing are unchanged.",
+      "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
     }
