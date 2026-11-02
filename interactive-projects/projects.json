@@ -9,7 +9,7 @@
     "https://github.com/Joenasriani",
     "https://joe-nasr-signals.vercel.app/"
   ],
-  "count": 77,
+  "count": 68,
   "projects": [
     {
       "id": "robosim",
@@ -298,29 +298,6 @@
       ]
     },
     {
-      "id": "quest-4d",
-      "title": "Quest-4D",
-      "category": "3D & XR",
-      "description": "Interactive projection and rotation of four-dimensional geometry, not literal 4D spatial perception",
-      "status": "Prototype / source documented",
-      "type": "Visualization",
-      "links": [
-        {
-          "label": "Public project / demo",
-          "url": "https://joenasriani.github.io/quest-4d/"
-        },
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/quest-4d"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "XR & Immersive"
-      ]
-    },
-    {
       "id": "4d-tesseract-simulator",
       "title": "4D Tesseract Simulator",
       "category": "3D & XR",
@@ -342,25 +319,6 @@
       "disciplines": [
         "XR & Immersive",
         "Simulations"
-      ]
-    },
-    {
-      "id": "aether3d",
-      "title": "Aether3D",
-      "category": "Creative Digital Tools",
-      "description": "3D asset design and preview prototype with editable parameters and export options",
-      "status": "Prototype / source documented",
-      "type": "Application prototype",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/aether3d"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Interactive Tools"
       ]
     },
     {
@@ -510,29 +468,6 @@
         {
           "label": "View on GitHub",
           "url": "https://github.com/Joenasriani/deep-course-creator"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Interactive Tools"
-      ]
-    },
-    {
-      "id": "davinci-resolve-student-tutorial",
-      "title": "DaVinci Resolve Student Tutorial",
-      "category": "Educational Interactive",
-      "description": "Browser-based multi-part interactive teaching tutorial with navigation and assessment",
-      "status": "Prototype / source documented",
-      "type": "Educational experience",
-      "links": [
-        {
-          "label": "Public project / demo",
-          "url": "https://joenasriani.github.io/davinci-tutorial/"
-        },
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/davinci-tutorial"
         }
       ],
       "source_scope": "GitHub additional discovery",
@@ -1153,86 +1088,6 @@
       ]
     },
     {
-      "id": "quest-xsa",
-      "title": "Quest-XSA",
-      "category": "Research & Concept Studies",
-      "description": "XR spatial research and sensor integration design; full implementation not asserted",
-      "status": "Research / proposed",
-      "type": "Research concept",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/quest-xsa"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Simulations"
-      ]
-    },
-    {
-      "id": "quest-mfts",
-      "title": "Quest MFTS",
-      "category": "Research & Concept Studies",
-      "description": "Cockpit-simulation integration feasibility study, not a validated finished system",
-      "status": "Research / proposed",
-      "type": "Research concept",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/quest-mfts"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Simulations"
-      ]
-    },
-    {
-      "id": "quest-eagleeye",
-      "title": "Quest EagleEye",
-      "category": "Research & Concept Studies",
-      "description": "XR tactical interface design study; not a fielded system",
-      "status": "Research / proposed",
-      "type": "Research concept",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/quest-eagleeye-project"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Simulations"
-      ]
-    },
-    {
-      "id": "aura-olfactory-xr",
-      "title": "AURA Olfactory XR",
-      "category": "Research & Concept Studies",
-      "description": "Proposed multisensory scent interface and prototype design study, not validated hardware",
-      "status": "Research / proposed",
-      "type": "Research concept",
-      "links": [
-        {
-          "label": "Public project / demo",
-          "url": "https://joenasriani.github.io/olfac-channels/"
-        },
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/olfac-channels"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "XR & Immersive"
-      ]
-    },
-    {
       "id": "robo-hpa-lab",
       "title": "Robo HPA Lab",
       "category": "Robotics & Simulation",
@@ -1268,44 +1123,6 @@
       "notes": "",
       "disciplines": [
         "Interactive Tools"
-      ]
-    },
-    {
-      "id": "quest-ket",
-      "title": "Quest KET",
-      "category": "Research & Concept Studies",
-      "description": "VR research project; inspect the source before specifying implemented functions",
-      "status": "Research / proposed",
-      "type": "Research record",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/vr-ket"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "Interactive Tools"
-      ]
-    },
-    {
-      "id": "quest-vr-brain",
-      "title": "Quest VR / Brain",
-      "category": "Research & Concept Studies",
-      "description": "Narrative literature review rather than a deployed interactive artifact",
-      "status": "Research / proposed",
-      "type": "Related research, scope review",
-      "links": [
-        {
-          "label": "View on GitHub",
-          "url": "https://github.com/Joenasriani/vr-and-the-brain"
-        }
-      ],
-      "source_scope": "GitHub additional discovery",
-      "notes": "",
-      "disciplines": [
-        "XR & Immersive"
       ]
     },
     {
@@ -1715,6 +1532,6 @@
     "Simulations",
     "Interactive Tools"
   ],
-  "visible_count": 76,
-  "display_policy": "76 visible project entries; RoboSim preserved as a related itch.io release record under RoboWebSim, without independent showcase placement."
+  "visible_count": 67,
+  "display_policy": "67 visible project entries; RoboSim preserved as a related itch.io release record under RoboWebSim, without independent showcase placement."
 }
