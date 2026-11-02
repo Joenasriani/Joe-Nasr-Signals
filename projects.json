@@ -64,12 +64,9 @@
       "name": "Le2ouna 3al Se7a - main music theme",
       "aliases": [],
       "detail_file": "https://joe-nasr-signals.vercel.app/data/projects-01.json",
-      "public_retrieval_status": "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
-      "public_source_available": true,
-      "evidence_flags": [
-        "DATE_CONFLICT"
-      ]
+      "public_source_available": true
     },
     {
       "id": "SYN-0264",
