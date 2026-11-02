@@ -117,11 +117,11 @@
       ],
       "organization": "The Estée Lauder Companies (brand group)",
       "client": "GLAMGLOW (brand); Sephora Middle East (retail partner)",
-      "production_or_agency": null,
+      "production_or_agency": "Capital D (agency; confirmed directly by Joe Nasr on 2026-11-02)",
       "period": "Published artifacts: January–March 2018 (publication dates, not independently confirmed production dates)",
-      "joe_role": "Post-Production; motion graphics / intro animation",
-      "deliverable": "Social media campaign post-production, Instagram campaign, influencer campaign, and intro animation / motion graphics.",
-      "evidence_summary": "Joe Nasr's YouTube campaign archive contains four specific first-party artifacts: intro animation (R_OgfQqBIEY, published Jan 2018), Instagram campaign (A9p3HDKJddo), influencer campaign (mpc1JXmEe98), and social media campaign (dUImFNFP1jw), with the latter three published March 2018. Video titles explicitly attribute post-production and motion graphics; descriptions identify GLAMGLOW, Sephora Middle East as retail partner and The Estée Lauder Companies as brand group. No agency is established by the available descriptions.",
+      "joe_role": "Motion Graphics / Animation",
+      "deliverable": "Motion graphics / animation for the GLAMGLOW × Sephora social media campaign.",
+      "evidence_summary": "Joe Nasr directly confirmed his exact credit as Motion Graphics / Animation and agency as Capital D on 2026-11-02. The four associated YouTube artifacts document the GLAMGLOW × Sephora social, intro, Instagram, and influencer campaign context. First-party artifact titles and descriptions are project references, not proof of broader post-production duties or independent client-side credits.",
       "public_urls": [
         "https://www.youtube.com/watch?v=dUImFNFP1jw",
         "https://www.youtube.com/watch?v=R_OgfQqBIEY",
@@ -129,9 +129,10 @@
         "https://www.youtube.com/watch?v=mpc1JXmEe98"
       ],
       "boundaries": [
-        "Do not infer an agency; none is identified in the archived YouTube descriptions.",
-        "Publication dates are not necessarily production dates.",
-        "Do not characterize first-party portfolio credits as independent client-side verification."
+        "Capital D is the agency, not Joe's employer unless separately documented.",
+        "Joe's exact confirmed credit is Motion Graphics / Animation; do not replace it with generic post-production.",
+        "Publication dates do not necessarily establish production dates.",
+        "YouTube portfolio evidence and Joe's own confirmation must not be described as independent client-side verification."
       ],
       "retrieval_tags": [
         "Sephora",
@@ -139,7 +140,7 @@
         "After Effects",
         "Premiere"
       ],
-      "update_note": "2026-11-02: Reconciled four YouTube video entries, roles, and brand/retail partner distinctions from video-campaigns/videos.json; retained first-party evidence provenance.",
+      "update_note": "2026-11-02: User corrected exact credit to Motion Graphics / Animation and confirmed agency Capital D; supersedes earlier generalized post-production attribution.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
