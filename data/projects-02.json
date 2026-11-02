@@ -115,21 +115,23 @@
         "Sephora intro with GlamGlow",
         "Glamglow X Sephora Social Media Campaign"
       ],
-      "organization": "Other commercial / branded project records",
-      "client": "Sephora / GlamGlow",
+      "organization": "The Estée Lauder Companies (brand group)",
+      "client": "GLAMGLOW (brand); Sephora Middle East (retail partner)",
       "production_or_agency": null,
-      "period": null,
-      "joe_role": "Post-production / motion",
-      "deliverable": "After Effects and Premiere work.",
-      "evidence_summary": "Joe Nasr’s public YouTube upload is titled “Glamglow X Sephora Social Media Campaign,” providing a public first-party artifact for the established Sephora / GlamGlow project record. The source is Joe-controlled and does not independently verify client-side attribution or the exact role beyond the established project record.",
+      "period": "Published artifacts: January–March 2018 (publication dates, not independently confirmed production dates)",
+      "joe_role": "Post-Production; motion graphics / intro animation",
+      "deliverable": "Social media campaign post-production, Instagram campaign, influencer campaign, and intro animation / motion graphics.",
+      "evidence_summary": "Joe Nasr's YouTube campaign archive contains four specific first-party artifacts: intro animation (R_OgfQqBIEY, published Jan 2018), Instagram campaign (A9p3HDKJddo), influencer campaign (mpc1JXmEe98), and social media campaign (dUImFNFP1jw), with the latter three published March 2018. Video titles explicitly attribute post-production and motion graphics; descriptions identify GLAMGLOW, Sephora Middle East as retail partner and The Estée Lauder Companies as brand group. No agency is established by the available descriptions.",
       "public_urls": [
         "https://www.youtube.com/watch?v=dUImFNFP1jw",
-        "https://www.youtube.com/playlist?list=PLA_K3WfiOwle_Ck9t6oH4Gwb0LuLev4dt"
+        "https://www.youtube.com/watch?v=R_OgfQqBIEY",
+        "https://www.youtube.com/watch?v=A9p3HDKJddo",
+        "https://www.youtube.com/watch?v=mpc1JXmEe98"
       ],
       "boundaries": [
-        "Exact year, agency and final project title remain unresolved.",
-        "Exact year, agency and final client-side project title remain unresolved.",
-        "Joe’s YouTube upload is first-party evidence; do not represent it as independent Sephora or GLAMGLOW verification."
+        "Do not infer an agency; none is identified in the archived YouTube descriptions.",
+        "Publication dates are not necessarily production dates.",
+        "Do not characterize first-party portfolio credits as independent client-side verification."
       ],
       "retrieval_tags": [
         "Sephora",
@@ -137,9 +139,9 @@
         "After Effects",
         "Premiere"
       ],
-      "update_note": "2026-10-06: Exact YouTube video dUImFNFP1jw resolved via YouTube oEmbed as “Glamglow X Sephora Social Media Campaign” by Joe Nasr; linked with the supplied project-specific playlist.",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "ESTABLISHED_RECORD",
+      "update_note": "2026-11-02: Reconciled four YouTube video entries, roles, and brand/retail partner distinctions from video-campaigns/videos.json; retained first-party evidence provenance.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
       "public_source_available": true
     },
     {
