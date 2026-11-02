@@ -251,18 +251,22 @@
     },
     {
       "id": "SYN-0260",
-      "name": "CDAO Website UI Adjustment",
-      "aliases": [],
-      "organization": "ConsciousDAO / Conscious Network",
-      "client": "ConsciousDAO",
-      "production_or_agency": null,
+      "name": "ConsciousDAO – Creative and Operations Direction (Guild Technologies)",
+      "aliases": [
+        "CDAO Website UI Adjustment"
+      ],
+      "organization": "Guild Technologies, Dubai",
+      "client": "ConsciousDAO / Conscious Network (project context)",
+      "production_or_agency": "Guild Technologies, Dubai (professional work context; not necessarily employer status for every related project)",
       "period": "Jul-Aug 2023 document context",
-      "joe_role": "UI adjustment contributor/editor; full implementation scope unresolved",
-      "deliverable": "UI adjustment contribution on the CDAO website.",
-      "evidence_summary": "Documented project record supports Joe Nasr as a UI adjustment contributor/editor; full implementation scope remains unresolved.",
+      "joe_role": "Director of Operations & Creative Lead",
+      "deliverable": null,
+      "evidence_summary": "Joe Nasr confirmed on 2026-11-02 that his role was operational and creative director at Guild Technologies, Dubai, in relation to the previously indexed CDAO website UI record. The earlier UI adjustment description should not be inferred as his exact sole contribution; original project scope remains separately unresolved.",
       "public_urls": [],
       "boundaries": [
-        "Do not claim sole design ownership or shipped implementation."
+        "Do not represent the earlier website UI adjustment as Joe's exact deliverable without further project-specific evidence.",
+        "Distinguish Guild Technologies role from ConsciousDAO project/client relationship.",
+        "Do not infer sole ownership of CDAO website design or implementation."
       ],
       "retrieval_tags": [
         "UI",
@@ -270,9 +274,9 @@
         "website",
         "2023"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: Joe clarified his role as operational and creative director at Guild Technologies, Dubai; earlier UI-contributor characterization removed.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_ROLE",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -308,18 +312,19 @@
       ],
       "organization": "Chevrolet Arabia",
       "client": "Chevrolet",
-      "production_or_agency": null,
+      "production_or_agency": "Capital D (agency; confirmed project route)",
       "period": null,
-      "joe_role": "Project contribution; exact role not stated by the official client upload",
-      "deliverable": "Regional Chevrolet Traverse campaign video / branded content artifact.",
-      "evidence_summary": "The exact YouTube artifact is published by the official Chevrolet Arabia channel. This independently verifies the client/campaign artifact and regional publication context. The official upload does not name Joe Nasr, so Joe’s exact role must remain sourced from the established project record/user confirmation rather than inferred from the client video.",
+      "joe_role": "Full Post-Production",
+      "deliverable": "Full post-production for Chevrolet Arabia All-New Traverse #BetterDriver campaign.",
+      "evidence_summary": "Official Chevrolet Arabia YouTube campaign artifact documents the branded campaign. Joe Nasr directly confirmed on 2026-11-02 that his credit was Full Post-Production through Capital D. Official channel does not name his individual credit; this is separately sourced to Joe's confirmation.",
       "public_urls": [
         "https://www.youtube.com/watch?v=wTMNBmSIVIY",
         "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfvTCEWNSZWdE5YwbwkT2gY"
       ],
       "boundaries": [
-        "Official Chevrolet Arabia publication proves the artifact and client/campaign context, not Joe Nasr’s individual credit.",
-        "Do not infer creative direction, editing, production, agency, or year until a source explicitly establishes those fields."
+        "Capital D is the agency through which Joe contributed, not an asserted employer.",
+        "Official Chevrolet Arabia publication establishes the campaign artifact; Joe's individual role is supported by his own confirmation.",
+        "Do not infer an exact production date from upload/publication metadata."
       ],
       "retrieval_tags": [
         "Chevrolet",
@@ -329,8 +334,8 @@
         "official client publication",
         "regional campaign"
       ],
-      "update_note": "2026-10-06: Exact video wTMNBmSIVIY resolved via YouTube oEmbed/metadata as an official Chevrolet Arabia upload; added with the supplied project-specific playlist.",
-      "public_retrieval_status": "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
+      "update_note": "2026-11-02: Joe directly confirmed Full Post-Production via Capital D.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
     }
