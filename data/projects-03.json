@@ -14,9 +14,9 @@
       "client": "AVA Only",
       "production_or_agency": null,
       "period": "Jan 2025",
-      "joe_role": "Creative/video production contribution",
-      "deliverable": "Valentine's Day promotional video contribution for AVA Only.",
-      "evidence_summary": "Documented project record supports Joe Nasr's creative/video production contribution.",
+      "joe_role": "Motion Graphics / Animation; Video Production and Post-Production",
+      "deliverable": "Valentine's Day promotional video motion graphics / animation, video production and post-production.",
+      "evidence_summary": "Documented project record supports Joe Nasr's creative/video production contribution. User confirmed motion graphics / animation plus video production and post-production on 2026-11-02.",
       "public_urls": [],
       "boundaries": [
         "Exact authorship split among team members is not established."
@@ -27,9 +27,9 @@
         "promo video",
         "Facebook"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed motion graphics / animation plus video production and post-production on 2026-11-02.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -40,9 +40,9 @@
       "client": "AVA Only / Dreamsicle",
       "production_or_agency": null,
       "period": "Jan 2025",
-      "joe_role": "Project-team creative/video contribution; sole authorship not established",
-      "deliverable": "Perfume contest promotional video contribution.",
-      "evidence_summary": "Documented project record supports Joe Nasr's project-team creative/video contribution.",
+      "joe_role": "Motion Graphics / Animation",
+      "deliverable": "Motion graphics / animation contribution to the Dreamsicle perfume contest promotional video.",
+      "evidence_summary": "Documented project record supports Joe Nasr's project-team creative/video contribution. User confirmed motion graphics / animation on 2026-11-02; earlier team authorship boundary retained.",
       "public_urls": [],
       "boundaries": [
         "Do not claim sole creation."
@@ -53,9 +53,9 @@
         "perfume",
         "promo"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed motion graphics / animation on 2026-11-02; earlier team authorship boundary retained.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
@@ -66,9 +66,9 @@
       "client": "AVA Only",
       "production_or_agency": null,
       "period": "Oct 2024 onward",
-      "joe_role": "Contributor",
-      "deliverable": "Ongoing content collaboration within the AVA project environment.",
-      "evidence_summary": "Documented project record supports Joe Nasr as a contributor to the AVA work environment.",
+      "joe_role": "Creative Direction",
+      "deliverable": "Creative direction in the AVA shared work environment.",
+      "evidence_summary": "Documented project record supports Joe Nasr as a contributor to the AVA work environment. User confirmed creative direction on 2026-11-02; no team size or employment relationship inferred.",
       "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
@@ -76,9 +76,9 @@
         "Drive",
         "collaboration"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED",
-      "evidence_class": "DOCUMENTED_NONPUBLIC",
+      "update_note": "2026-11-02: User confirmed creative direction on 2026-11-02; no team size or employment relationship inferred.",
+      "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
+      "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
     },
     {
