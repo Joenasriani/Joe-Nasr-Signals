@@ -2595,5 +2595,25 @@
       }
     ],
     "updated_on": "2026-10-28"
+  },
+  "interactive_research_classification_2026_11_02": {
+    "interactive_collection_url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
+    "interactive_visible_entries": 67,
+    "interactive_catalog_records": 68,
+    "non_showcase_release": "RoboSim is a related itch.io release under RoboWebSim, not a second showcase entry.",
+    "excluded_from_interactive_showcase": [
+      "Quest VR / Brain",
+      "Quest KET",
+      "AURA Olfactory XR",
+      "Quest EagleEye",
+      "Quest MFTS",
+      "Quest-XSA",
+      "DaVinci Resolve Student Tutorial",
+      "Aether3D",
+      "Quest-4D"
+    ],
+    "classification": "Research, publication, conceptual or educational documentation – not interactive showcase records",
+    "research_route": "https://joe-nasr-signals.vercel.app/publications/",
+    "boundary": "Preserve documented source records and DOI claims only where independently supported. Do not infer a published DOI for every excluded item. The main evidence registry of 51 entries is separate."
   }
 }
