@@ -148,26 +148,36 @@
       "id": "SYN-0288",
       "name": "L’AZURDE",
       "aliases": [],
-      "organization": "Other commercial / branded project records",
+      "organization": "AStudio / Araman Studio (credited production contexts across distinct clips)",
       "client": "L’AZURDE",
-      "production_or_agency": null,
-      "period": null,
-      "joe_role": "Project contribution; exact role pending",
-      "deliverable": null,
-      "evidence_summary": "Existing commercial-project cleanup record.",
-      "public_urls": [],
+      "production_or_agency": "AStudio Production Dubai; Araman Studio JLT Dubai (as individually credited in Joe Nasr's video descriptions)",
+      "period": "Published portfolio videos March–April 2018; production dates not independently established",
+      "joe_role": "Post-Production; video editing, VFX, retouching and banner adaptation",
+      "deliverable": "L'Azurde social campaign edits; jewelry Bouquet Collection eye/skin/jewelry retouching; Egypt mall banner adaptation; Mother's Day online-editing/VFX cleanups.",
+      "evidence_summary": "First-party YouTube portfolio descriptions directly credit 'Joe Nasr Post Production' on L'Azurde banner adaptations (yejOu-2QO0s, dNrmkv9zTCY), 'Video editing and vfx' on the social campaign (o8Zc5uQ-UeM), and eye/skin/jewelry retouching and online-edit fixes across Bouquet Collection and Mother's Day clips (LnumRoULeIM, mBS6PSK6D7Q). Other clips are campaign context; distinguish AStudio and Araman Studio credits by item.",
+      "public_urls": [
+        "https://www.youtube.com/watch?v=o8Zc5uQ-UeM",
+        "https://www.youtube.com/watch?v=LnumRoULeIM",
+        "https://www.youtube.com/watch?v=yejOu-2QO0s",
+        "https://www.youtube.com/watch?v=dNrmkv9zTCY",
+        "https://www.youtube.com/watch?v=mBS6PSK6D7Q",
+        "https://www.youtube.com/watch?v=-VQmNYdOAwU",
+        "https://www.youtube.com/watch?v=-MqtMG3NpyE"
+      ],
       "boundaries": [
-        "Exact deliverable, year, agency and role."
+        "AStudio Production and Araman Studio are distinct production-name credits in separate videos; do not merge them or assign one agency to all clips.",
+        "YouTube publish dates do not independently establish production dates.",
+        "First-party public credits should not be described as independently verified client-side credits."
       ],
       "retrieval_tags": [
         "L’AZURDE",
         "luxury",
         "jewelry"
       ],
-      "update_note": null,
-      "public_retrieval_status": "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED",
-      "evidence_class": "ESTABLISHED_RECORD",
-      "public_source_available": false
+      "update_note": "2026-11-02: recovered multiple 2018 YouTube credits, agency/production context and specific post-production contributions from video-campaigns/videos.json.",
+      "public_retrieval_status": "PUBLICLY_SUPPORTED",
+      "evidence_class": "PUBLIC",
+      "public_source_available": true
     },
     {
       "id": "SYN-0290",
