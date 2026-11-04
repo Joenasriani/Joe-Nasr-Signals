@@ -63,10 +63,10 @@
     },
     {
       "id": "SYN-0266",
-      "name": "Event Ideatecture / Ideavent",
+      "name": "IdeaVent",
       "aliases": [],
-      "organization": "Event Ideatecture / Ideavent",
-      "client": "Event Ideatecture / Ideavent",
+      "organization": "IdeaVent",
+      "client": "IdeaVent",
       "production_or_agency": null,
       "period": "2026 active development context",
       "joe_role": "Co-Founder + Creative Director",
@@ -80,8 +80,8 @@
         "Do not infer corporate shareholding, incorporation, share percentage or contractual terms."
       ],
       "retrieval_tags": [
-        "Event Ideatecture",
-        "Ideavent",
+        "IdeaVent",
+        "IdeaVent",
         "SaaS",
         "product"
       ],
