@@ -216,7 +216,7 @@
               "project_registry": "https://joe-nasr-signals.vercel.app/projects.json"
             },
             "front_page_selected_evidence": [
-              "Visual Framework Engine",
+              "Visual Framework Application",
               "Roundtable AI",
               "RoboWebSim"
             ]
@@ -237,10 +237,11 @@
             },
             "front_page_selected_evidence": [
               "RoboMarket.ae",
-              "Apex Innovate",
-              "Daoversal"
+              "RoboCreate",
+              "Ideavent.ai",
+              "ApexInnovate.ae"
             ],
-            "front_page_evidence_note": "Daoversal is the current front-page selected evidence label as of 2026-10-01. Daoverse Capital is a separate historical client record covering 2021–2023 and is not the same entity or label."
+            "front_page_evidence_note": "Historical correction: Daoversal was listed under Product & Venture Development on 2026-10-01 but is no longer a selected venture. Its creative-work evidence remains under Motion Graphics, Animation & 3D. Daoverse Capital is a separate historical 2021–2023 client record."
           }
         ]
       },
