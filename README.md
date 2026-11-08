@@ -1,5 +1,7 @@
 # Joe Nasr - Public Work & References
 
+**Current AI / maintainer handoff:** [AI_HANDOFF_CURRENT.md](AI_HANDOFF_CURRENT.md) – first-read document for the active website, source precedence, release validation and safe continuation. Superseded historical routing is preserved at [docs/archive/RECONCILIATION_HISTORY_2026-11-08.md](docs/archive/RECONCILIATION_HISTORY_2026-11-08.md).
+
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
 **Joe Nasr’s public record** covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.
@@ -85,8 +87,9 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 
 - GitHub: https://github.com/Joenasriani
 - Interactive work / games: https://joenasr.itch.io/
-- Research Registry: https://joenasriani.github.io/joe-research-registry/
-- Quest & Immersive Systems Research: https://joenasriani.github.io/joe-research-registry/quest-research.html
+- Research / DOI Registry (README-first source, not a website): https://github.com/Joenasriani/joe-research-registry
+- Current Research & Publications page (6 Zenodo works with related ResearchGate and Dataverse evidence): https://joe-nasr-signals.vercel.app/publications/
+- Research source records for Quest-XSA and Quest-MFTS: https://github.com/Joenasriani/joe-research-registry/blob/main/registry.json
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
 
 ## Books + Writing
@@ -97,6 +100,14 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 - The bookstore source catalogue lists five publications: *Mamdani: From Zero to Hero* (sales open), *Taxonomies and Classification Systems* (published, sales review), *The Structure of Life: The Structure of Reasoning*, *ICF-AI* (research reference framework), and *Manipulation: The Fool and the Wise*. Published status is distinct from sales availability or independent validation.
 
 This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
+
+## Publications and external research records (reconciled 2026-11-08)
+
+The integrated Publications page contains **six distinct Zenodo DOI records**: one Book (*The Composer’s Prompt*), three Reports (Tongue as Trackpad, Quest-XSA and Quest-MFTS), one Working paper (MPI-AIR) and one Preprint (ICF-AI). The associated concept DOI for *The Composer’s Prompt* represents its versions, **not** an additional work. The official Zenodo API verification recorded by the separate research registry is dated **2026-11-06**.
+
+The ResearchGate full-text book listing is a **distribution of the same book**, publicly verified **2026-11-07** per the research registry, not a seventh publication. The Harvard Dataverse record `10.7910/DVN/STHUVV` is a **separately published companion dataset** (version 1.1 released 2026-11-04, API verified 2026-11-06), not another Zenodo work. The separate historical Dataverse record `10.7910/DVN/ZCZ0NA` has no verified public-access state. Google Scholar's previously observed 12-entry profile remains a dated observation rather than a claim of current indexing or peer review.
+
+Current researcher routing: [ORCID](https://orcid.org/0009-0004-5698-9097) · [Zenodo publications](https://joe-nasr-signals.vercel.app/publications/) · [Google Scholar](https://scholar.google.com/citations?user=V_8fZGQAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Joseph-Nasr-9) · [Harvard Dataverse](https://doi.org/10.7910/DVN/STHUVV). Treat each source's relationship as distinct; preserve original dates, authorship and provenance.
 
 ## Public audience signal
 
