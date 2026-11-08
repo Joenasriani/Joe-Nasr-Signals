@@ -341,12 +341,14 @@ The current collection is https://joe-nasr-signals.vercel.app/interactive-projec
 
 ## Subject libraries inside Signals
 
-Signals is the canonical identity and routing hub. These full subject libraries now also reside within Signals. Original external sites remain accessible as alternate public library locations:
-- Research & Publications: https://joe-nasr-signals.vercel.app/publications/ (external copy: https://joe-nasr-publications.vercel.app/) 
-- Campaigns & Video Productions: https://joe-nasr-signals.vercel.app/video-campaigns/ (external copy: https://joe-nasr-video-campaigns.vercel.app/)
-- Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/ (external copy: https://joe-nasr-interactive-projects.vercel.app/)
-- Certifications & Credentials: https://joe-nasr-signals.vercel.app/certifications/ (external copy: https://joe-nasr-certifications.vercel.app/)
-- Music & Performance: https://joe-nasr-signals.vercel.app/music/ (external copy: https://joe-nasr-guitar.vercel.app/)
+Signals is the canonical identity and routing hub. The complete integrated subject libraries are maintained as paths in the Signals GitHub repository and served under the Signals Vercel deployment. Legacy standalone deployments were kept after the migration and are **not** current canonical routing. Do not treat retirement, deletion, or redirect status as verified until separately checked.
+- Research & Publications: https://joe-nasr-signals.vercel.app/publications/
+- Campaigns & Video Productions: https://joe-nasr-signals.vercel.app/video-campaigns/
+- Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
+- Certifications & Credentials: https://joe-nasr-signals.vercel.app/certifications/
+- Music & Performance: https://joe-nasr-signals.vercel.app/music/
+
+Earlier standalone Vercel library routes are preserved as migration history in docs/archive/RECONCILIATION_HISTORY_2026-11-08.md, not as current recommended destinations. A distinct historical guitar route must not be assumed redundant without source comparison.
 
 Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; Joe Nasr confirms all eight scheduled sessions were delivered.
 
