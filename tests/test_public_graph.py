@@ -87,8 +87,8 @@ class PublicGraphChecks(unittest.TestCase):
         self.change_json('projects.json', lambda d: next(r for r in d['projects'] if r['id']=='SYN-0277').update(evidence_class='PUBLIC'))
         self.check('Index/detail evidence mismatch')
 
-    def test_unavailable_history_not_active_route(self):
-        self.change_json('identity.json', lambda d: d['query_routes']['guitar_music_composer']['surface_ids'].append('reverbnation'))
+    def test_accessible_historical_music_profile_keeps_active_route(self):
+        self.change_json('identity.json', lambda d: d['query_routes']['guitar_music_composer']['surface_ids'].remove('reverbnation'))
         self.check('AssertionError')
 
 
