@@ -2412,18 +2412,15 @@
     "libraries": [
       {
         "name": "Campaigns & Video Productions",
-        "url": "https://joe-nasr-signals.vercel.app/video-campaigns/",
-        "alternate_url": "https://joe-nasr-video-campaigns.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/video-campaigns/"
       },
       {
         "name": "Interactive Experiences & Digital Projects",
-        "url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
-        "alternate_url": "https://joe-nasr-interactive-projects.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/interactive-projects/"
       },
       {
         "name": "Certifications & Credentials",
-        "url": "https://joe-nasr-signals.vercel.app/certifications/",
-        "alternate_url": "https://joe-nasr-certifications.vercel.app/"
+        "url": "https://joe-nasr-signals.vercel.app/certifications/"
       },
       {
         "name": "Music & Performance",
