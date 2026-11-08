@@ -58,6 +58,16 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 - Production Publications nav order: **ORCID | Zenodo | Google Scholar | ResearchGate | Harvard Dataverse**.
 - The HTML page, JSON-LD, README, research section in identity.json, `llms.txt`, and sitemap were reconciled on 2026-11-08. Date-scoped verification claims do **not** mean experiments were validated or publications peer-reviewed.
 
+## Music identity / ReverbNation correction – 2026-11-08
+
+- Canonical Music & Performance library: https://joe-nasr-signals.vercel.app/music/ . The existing `Music & Audio Profiles` card list now includes **ReverbNation**: https://www.reverbnation.com/joenasr .
+- **Identity:** Joe NASR / Joe Nasr on ReverbNation; soundtrack, instrumental compositions and guitar performance. This is an accessible public **historical music profile** of the same factual person, not a claim that all profile text describes his current professional position.
+- **Evidence and status:** Joe provided a live browser screenshot dated **2026-11-08**, showing the accessible artist page and music content. The previous **2026-10-12 HTTP 404** observation is preserved in `identity.json` as **STALE / SUPERSEDED**. Browser accessibility was established from the screenshot; **no independently measured current HTTP status** is claimed.
+- **Current machine routing:** `identity.json` keeps `temporal_state: HISTORICAL` and `nervous_system_priority: HISTORICAL_SUPPORT`, with `retrieval_state: ACTIVE_QUERY_SPECIFIC`; `reverbnation` is present in `query_routes.guitar_music_composer.surface_ids` and removed from the historical-unavailable route. `README.md` and `llms.txt` reflect the same scope, and regression tests protect it.
+- **Visible card:** “Soundtracks, instrumental compositions, and guitar performances by Joe Nasr.” Public copy contains **no** audit process or browser-availability explanation. Do not reintroduce internal verification language in the UI.
+- **Sitemap:** `sitemap.xml` records the Music page's actual **2026-11-08** modification date; do not backdate to October 31. The sitemap, canonical tag and metadata should remain aligned.
+- **Verification boundary:** Source changes were reopened, validation and deployment were checked during the corresponding work. External Google indexing and AI citations are **not established** by successful Vercel or IndexNow workflows.
+
 ## Other counts and relationships – do not conflate
 
 - **67** interactive-project showcase entries; **68** machine-readable interactive collection records, including the distinct non-showcase RoboSim/RoboWebSim-related record. **51** separate projects in the broader evidence graph. Different granularity, not conflict.
@@ -89,6 +99,6 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 
 ## Scope and verification notes for this reconciliation
 
-The tree-level inventory and high-value source documents were inspected, with identified stale publication links and type conflicts repaired. GitHub source-file rechecks and production commit verification are required after the last handoff commit. Complete external third-party link checking, independent Zenodo/Dataverse/ResearchGate API re-verification, and comprehensive test-suite execution are **not implied** by this handoff. Report any outstanding checks honestly rather than converting them to `VERIFIED`.
+The tree-level inventory and high-value source documents were inspected, with identified stale publication links and type conflicts repaired. On 2026-11-08, ReverbNation's accessible historical music identity, public music-library card, verification taxonomy, README/LLM guidance, and sitemap modification date were reconciled. Source validation and deployment checks must be repeated after every subsequent commit; do not infer Google indexing from a sitemap or a successful IndexNow notification. Complete external third-party link checking, independent Zenodo/Dataverse/ResearchGate API re-verification, and comprehensive test-suite execution are **not implied** by this handoff. Report any outstanding checks honestly rather than converting them to `VERIFIED`.
 
 The most reliable continuation starts here, then follows `README.md` and individual source-of-truth files; archived material is evidence, not instruction.
