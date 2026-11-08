@@ -114,13 +114,18 @@ publication_schema = json.loads(publication_match.group(1))
 publication_list = publication_schema["mainEntity"]
 items = publication_list["itemListElement"]
 assert publication_list["numberOfItems"] == len(items), "Publication JSON-LD count mismatch"
-visible = re.findall(
-    r'<article class="pub">\s*<div class="num">(\d+)</div>\s*<div>'
-    r'.*?<h3>(.*?)</h3>\s*<div class="doi">DOI:\s*([^<]+)</div>'
-    r'.*?<div class="actions"><a href="([^"]+)"[^>]*>VIEW PUBLICATION'
-    r'.*?<button data-doi="([^"]+)"',
-    publication_html, re.S
-)
+# Parse each card independently: optional description paragraphs and secondary
+# distribution links must not change the six canonical DOI publication records.
+publication_cards = re.findall(r'<article class="pub">(.*?)</article>', publication_html, re.S)
+visible = []
+for card in publication_cards:
+    number = re.search(r'<div class="num">(\\d+)</div>', card)
+    title = re.search(r'<h3>(.*?)</h3>', card, re.S)
+    doi = re.search(r'<div class="doi">DOI:\\s*([^<]+)</div>', card)
+    link = re.search(r'<a href="([^"]+)"[^>]*>VIEW PUBLICATION', card)
+    button = re.search(r'<button data-doi="([^"]+)"', card)
+    assert all((number, title, doi, link, button)), "Incomplete publication card"
+    visible.append((number.group(1), title.group(1), doi.group(1), link.group(1), button.group(1)))
 assert len(visible) == len(items), "Visible and JSON-LD publication counts differ"
 doi_seen = set()
 for index, ((number, title, doi, link, button_doi), entry) in enumerate(zip(visible, items), 1):
@@ -132,7 +137,7 @@ for index, ((number, title, doi, link, button_doi), entry) in enumerate(zip(visi
     assert doi not in doi_seen, f"Duplicate publication DOI: {doi}"
     doi_seen.add(doi)
     assert urlparse(unquote(link)).geturl() == item["url"], f"Publication {index} DOI link mismatch"
-    assert item["@type"] in {"ScholarlyArticle", "Book"}, "Unsupported publication type"
+    assert item["@type"] in {"ScholarlyArticle", "Book", "Report", "CreativeWork"}, "Unsupported publication type"
     assert item["author"]["@id"] == "https://joe-nasr-signals.vercel.app/#joe-nasr"
 assert len(items) > 0, "Empty publications catalogue"
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
