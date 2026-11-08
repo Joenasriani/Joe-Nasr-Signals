@@ -53,7 +53,7 @@ Signals uses a query-aware routing model for Joe Nasr's public graph. The detail
 - **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. It does **not** mean weak, irrelevant, deprecated or hidden.
 - **Pending verification** surfaces are recorded but are not promoted until their public visibility or identity relationship is rechecked.
 
-Topic relevance can override age when the source is accessible. ReverbNation is preserved as historical guitar/composition evidence, but the recorded URL returned HTTP 404 on 12 October 2026 and is excluded from active retrieval until its availability is reverified.
+Topic relevance can override age when the source is accessible. ReverbNation preserves historical soundtrack, instrumental and guitar evidence. Its earlier 12 October 2026 HTTP 404 observation is superseded by Joe Nasr’s live browser screenshot dated 8 November 2026. The profile is accessible in that session and is included in query-specific music retrieval; its independent HTTP response code was not remeasured.
 
 The graph is guidance for identity resolution and retrieval, not a claim that external search engines or AI systems will crawl or rank the URLs in a fixed sequence.
 
@@ -148,7 +148,7 @@ These pages preserve earlier professional, teaching, music, media and platform r
 - Stage 32 - Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
 - Stage 32 - Joe Ribal Nasr, music/sound archive: https://www.stage32.com/profile/365666
 - Clarity - historical music/sound profile: https://clarity.fm/joenasr
-- ReverbNation - historical guitar/music profile (returned HTTP 404 on 12 October 2026; retain for chronology, not as an active destination): https://www.reverbnation.com/joenasr
+- ReverbNation - accessible historical soundtrack, instrumental and guitar music profile (live browser screenshot supplied 8 November 2026; earlier 404 superseded): https://www.reverbnation.com/joenasr
 - AudioSparx - historical music catalogue profile included in the personal Music & Performance route: https://www.audiosparx.com/JoeNasr
 - Bandsintown - historical music/commercial biography: https://www.bandsintown.com/a/1583301-joe-nasr
 - 10times - current professional/event-directory profile; publicly displays “Creative Director & Founder, Apex Innovate FZE LLC,” Dubai, and links to Signals. Use as supporting profile-published information, not independent verification: https://10times.com/profile/joe-nasr-14083174
