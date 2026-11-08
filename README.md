@@ -197,7 +197,7 @@ https://joe-nasr-signals.vercel.app/
 
 ## Canonical games routes
 
-- Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/ (external copy: https://joe-nasr-interactive-projects.vercel.app/)
+- Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection)
 - Historical development evidence: https://joe-nasr-signals.vercel.app/games-development.json
 - Historical game records (preserved): https://joe-nasr-signals.vercel.app/games.json
 - Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
@@ -217,7 +217,7 @@ The project index and detail shards share names, aliases, evidence classes and r
 Source validation does not establish deployment, indexing, search ranking or AI citation. Public verification is a separate release step.
 
 
-The canonical integrated interactive collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (external copy: https://joe-nasr-interactive-projects.vercel.app/). The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; their counts are not additional projects.
+The canonical integrated interactive collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection). The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; their counts are not additional projects.
 
 ## Interactive / Research classification boundary (2026-11-02)
 
