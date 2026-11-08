@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-11-04
+Updated: 2026-11-08
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -17,9 +17,12 @@ Machine current-identity record: https://joe-nasr-signals.vercel.app/identity.js
 Machine project/evidence registry: https://joe-nasr-signals.vercel.app/projects.json
 Research & Publications (DOI-linked records and separate bookstore module): https://joe-nasr-signals.vercel.app/publications/
 Google Scholar author profile (public accessibility checked 2026-10-31): https://scholar.google.com/citations?user=V_8fZGQAAAAJ&hl=en — the page displayed 12 works; six titles correspond to DOI-linked Signals publication records and six additional items remain unreconciled to Signals source records. Search-result visibility and ranking were not verified. Do not infer peer review, employment, institutional affiliation, or validation of an item from the profile alone.
-Research registry (includes technical studies and work in development): https://joenasriani.github.io/joe-research-registry/
-Research registry source: https://github.com/Joenasriani/joe-research-registry
-Publication distinction: a DOI identifies a deposited publication and does not establish peer review or experimental validation.
+Research publication/DOI registry (GitHub README, not a separate website): https://github.com/Joenasriani/joe-research-registry
+Research registry structured data: https://github.com/Joenasriani/joe-research-registry/blob/main/registry.json
+Publication distinction: a DOI identifies a deposited publication and does not establish peer review or experimental validation. Six unique Zenodo DOI records were verified through the official Zenodo API on 2026-11-06, according to the research registry. Their resource types are: The Composer's Prompt – Book; Tongue as Trackpad, Quest-MFTS and Quest-XSA – Reports; MPI-AIR – Working paper; ICF-AI – Preprint. The Composer's Prompt concept DOI 10.5281/zenodo.23689713 represents all versions of its existing book, not a seventh work.
+Researcher profile: https://orcid.org/0009-0004-5698-9097
+ResearchGate record (same book, separate distribution): https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting (public full text verified 2026-11-07 per registry; not a separate work).
+Harvard Dataverse companion dataset (separate from six Zenodo publications): https://doi.org/10.7910/DVN/STHUVV (version 1.1 RELEASED 2026-11-04, API confirmed 2026-11-06 per registry). Separate historical Dataverse book record DOI 10.7910/DVN/ZCZ0NA is not confirmed publicly accessible; do not label it published.
 DOI-linked technical report: Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface — Joseph Ribal Nasr (same person as Joe Nasr) — DOI https://doi.org/10.5281/zenodo.23622202 — source https://github.com/Joenasriani/tongue-trackpad — conceptual engineering report and proposed validation only; no fabricated or tested intraoral device, human-use validation, or peer-review claim. Verify current Zenodo metadata independently.
 Training, workshops and lectures chronology: https://joe-nasr-signals.vercel.app/training-workshops-lectures/
 Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
@@ -190,7 +193,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 
 
 DOI-linked catalogue (current Publications page order; publication status and source verification are separate):
-- The Composer’s Prompt: Music Theory and Harmony for Computational Music Prompting — https://doi.org/10.5281/zenodo.23689714
+- The Composer’s Prompt (Book; descriptive subtitle: Music Theory and Harmony for Computational Music Prompting) — https://doi.org/10.5281/zenodo.23689714
 - Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface — https://doi.org/10.5281/zenodo.23622202
 - MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art — https://doi.org/10.5281/zenodo.23592679
 - Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls — https://doi.org/10.5281/zenodo.23552640
