@@ -87,8 +87,12 @@ def validate(root=ROOT):
     assert 'not an independently published credit' in html
     assert 'evidence_boundary' in identity['selected_historical_work'][0]
     surface = next(s for s in identity['public_surface_registry'] if s['id'] == 'reverbnation')
-    assert surface['temporal_state'] == 'HISTORICAL' and surface['retrieval_state'] == 'UNRESOLVED'
-    assert 'reverbnation' not in identity['query_routes']['guitar_music_composer']['surface_ids']
+    assert surface['temporal_state'] == 'HISTORICAL' and surface['retrieval_state'] == 'ACTIVE_QUERY_SPECIFIC'
+    assert surface['availability']['method'] == 'USER_PROVIDED_LIVE_BROWSER_SCREENSHOT'
+    assert surface['availability']['browser_accessible'] is True
+    assert surface['availability']['http_status'] is None, 'Do not invent HTTP verification'
+    assert surface['availability']['historical_observation']['http_status'] == 404, 'Preserve superseded 404 evidence'
+    assert 'reverbnation' in identity['query_routes']['guitar_music_composer']['surface_ids']
     sitemap = ET.fromstring((root / 'sitemap.xml').read_text())
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     assert ORIGIN in {x.text for x in sitemap.findall('s:url/s:loc', ns)}
