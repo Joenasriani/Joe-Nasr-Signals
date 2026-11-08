@@ -6,7 +6,7 @@
       "@id": "https://joe-nasr-signals.vercel.app/games.html#page",
       "url": "https://joe-nasr-signals.vercel.app/games.html",
       "name": "Historical game evidence snapshot",
-      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-interactive-projects.vercel.app/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
+      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-signals.vercel.app/interactive-projects/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
       "image": "https://joe-nasr-signals.vercel.app/games-preview.png",
       "mainEntity": {
         "@id": "https://joe-nasr-signals.vercel.app/games.html#games"
@@ -45,7 +45,7 @@
       "@type": "ItemList",
       "@id": "https://joe-nasr-signals.vercel.app/games.html#games",
       "name": "Historical game evidence snapshot",
-      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-interactive-projects.vercel.app/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
+      "description": "Historical game evidence snapshot. Current Interactive Experiences & Digital Projects collection: https://joe-nasr-signals.vercel.app/interactive-projects/. Original identifiers and project records are retained; this is not a separate current catalog and its count must not be added to the current collection.",
       "url": "https://joe-nasr-signals.vercel.app/games.html",
       "numberOfItems": 26,
       "itemListOrder": "https://schema.org/ItemListUnordered",
