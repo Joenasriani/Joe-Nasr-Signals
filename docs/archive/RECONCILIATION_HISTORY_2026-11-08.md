@@ -29,6 +29,22 @@ This is a historical provenance record. It must not be used as the current AI ha
    - ACTION: Updated `llms.txt` to cite the correct registry and dated evidence; updated `sitemap.xml` and Publications JSON-LD modification date to 2026-11-08.
    - AFTER: Keep source, AI guide, schema and sitemap aligned. Indexing/ranking or AI citation changes are **not** presumed from publication alone.
 
+## Former standalone Vercel libraries (historical inventory)
+
+**Historical location only – not current canonical routing or a deletion log.** The 2026-10-23 migration copied these subject libraries into the corresponding folders of `Joenasriani/Joe-Nasr-Signals`. The original migration plan retained the standalone deployments; later retirement was requested, but final deletion or redirects are **not verified**.
+
+| Historical standalone URL | Current integrated canonical destination | Retirement state |
+| --- | --- | --- |
+| https://joe-nasr-publications.vercel.app/ | https://joe-nasr-signals.vercel.app/publications/ | NOT_VERIFIED_DELETED |
+| https://joe-nasr-certifications.vercel.app/ | https://joe-nasr-signals.vercel.app/certifications/ | NOT_VERIFIED_DELETED |
+| https://joe-nasr-interactive-projects.vercel.app/ | https://joe-nasr-signals.vercel.app/interactive-projects/ | NOT_VERIFIED_DELETED |
+| https://joe-nasr-video-campaigns.vercel.app/ | https://joe-nasr-signals.vercel.app/video-campaigns/ | NOT_VERIFIED_DELETED |
+| https://joe-nasr-music.vercel.app/ | https://joe-nasr-signals.vercel.app/music/ | OWNERSHIP_OR_DEPLOYMENT_NOT_RECHECKED |
+
+Additional historical guitar reference: https://joe-nasr-guitar.vercel.app/ – do **not** assume this is identical to `joe-nasr-music` or safe to delete without comparison.
+
+Current active routing was reconciled to the integrated Signals paths in `README.md`, `llms.txt`, `identity.json`, `games.json`, `games-development.json`, `games-development.html`, and `games/itchio/index.html`. Distinguish URL repair from public retirement or evidence preservation. Do not infer 301/308 redirects or search engine deindexing from an updated link.
+
 ## Historical evidence, not removal instructions
 
 - The integrated Interactive Projects collection retains **67 visible showcase entries**, **68 structured collection records** including one non-showcase related release, and an independent **51-entry** project-evidence registry. Different counts reflect different grains and must not be “deduplicated” without evidence.
