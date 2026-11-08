@@ -1256,7 +1256,7 @@
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "UNRESOLVED",
+      "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
         "Joe Nasr guitar": "HIGH",
@@ -1264,9 +1264,16 @@
         "Joe Nasr music": "HIGH"
       },
       "availability": {
-        "checked_on": "2026-10-12",
-        "http_status": 404,
-        "note": "Historical attribution is retained; this URL was unavailable at the last check."
+        "checked_on": "2026-11-08",
+        "method": "USER_PROVIDED_LIVE_BROWSER_SCREENSHOT",
+        "browser_accessible": true,
+        "http_status": null,
+        "historical_observation": {
+          "checked_on": "2026-10-12",
+          "http_status": 404,
+          "status": "STALE_SUPERSEDED"
+        },
+        "note": "On 2026-11-08, Joe Nasr supplied a live browser screenshot of the accessible Joe NASR artist page, showing Soundtrack / Dubai, featured music tracks, artist biography and a guitar video. Independent HTTP response status and outbound profile links were not rechecked."
       }
     },
     {
@@ -1652,11 +1659,10 @@
         "audiosparx",
         "stage32_music",
         "clarity",
-        "suno_shallowwaters"
-      ],
-      "historical_unavailable_surface_ids": [
+        "suno_shallowwaters",
         "reverbnation"
       ],
+      "historical_unavailable_surface_ids": [],
       "evidence_urls": [
         "https://joe-nasr-signals.vercel.app/music/",
         "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
