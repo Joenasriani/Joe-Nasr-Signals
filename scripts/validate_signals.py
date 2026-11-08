@@ -89,8 +89,15 @@ for route_name, route in identity.get("query_routes", {}).items():
 
 reverbnation = next(surface for surface in registry if surface["id"] == "reverbnation")
 assert reverbnation["temporal_state"] == "HISTORICAL"
-assert reverbnation["retrieval_state"] == "UNRESOLVED"
-assert reverbnation["availability"]["http_status"] == 404
+assert reverbnation["retrieval_state"] == "ACTIVE_QUERY_SPECIFIC"
+assert reverbnation["url"] == "https://www.reverbnation.com/joenasr"
+assert reverbnation["availability"]["checked_on"] == "2026-11-08"
+assert reverbnation["availability"]["method"] == "USER_PROVIDED_LIVE_BROWSER_SCREENSHOT"
+assert reverbnation["availability"]["browser_accessible"] is True
+assert reverbnation["availability"]["http_status"] is None, "Do not invent a measured HTTP response"
+assert reverbnation["availability"]["historical_observation"]["http_status"] == 404
+assert "reverbnation" in identity["query_routes"]["guitar_music_composer"]["surface_ids"]
+assert "reverbnation" not in identity["query_routes"]["guitar_music_composer"]["historical_unavailable_surface_ids"]
 assert reverbnation["query_relevance"].get("Joe Nasr guitar") == "HIGH"
 
 ids = re.findall(r'\bid="([^"]+)"', html)
