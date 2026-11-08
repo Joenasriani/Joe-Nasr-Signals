@@ -63,7 +63,8 @@ def validate(root=ROOT):
         assert len(entries) == 1 and entries[0]['url'] == url and entries[0]['sales_status'] == sale_state, 'Publication source mismatch: ' + title
         detail = details[book_id]
         assert detail['name'] == title and url in detail['public_urls'], 'Publication evidence route mismatch: ' + title
-        assert detail['public_retrieval_status'] == 'CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED', 'Publication public verification overstated: ' + title
+        assert detail['public_retrieval_status'] in {'CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED', 'USER_CONFIRMED_EXISTING_PUBLICATION_RECORD'}, 'Unsupported publication evidence status: ' + title
+        # User-confirmed publication records establish a source relationship, not independent scholarly verification.
         assert title in guide and title in (root / 'README.md').read_text(), 'Publication missing from machine guide: ' + title
     public_bank = identity['client_relationship_bank_2026_10_04']
     assert not {'grouping_history', 'presentation_update', 'authority_note'} & public_bank.keys(), 'Private audit process exposed in public identity'
