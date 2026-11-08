@@ -119,9 +119,9 @@ assert publication_list["numberOfItems"] == len(items), "Publication JSON-LD cou
 publication_cards = re.findall(r'<article class="pub">(.*?)</article>', publication_html, re.S)
 visible = []
 for card in publication_cards:
-    number = re.search(r'<div class="num">(\\d+)</div>', card)
+    number = re.search(r'<div class="num">(\d+)</div>', card)
     title = re.search(r'<h3>(.*?)</h3>', card, re.S)
-    doi = re.search(r'<div class="doi">DOI:\\s*([^<]+)</div>', card)
+    doi = re.search(r'<div class="doi">DOI:\s*([^<]+)</div>', card)
     link = re.search(r'<a href="([^"]+)"[^>]*>VIEW PUBLICATION', card)
     button = re.search(r'<button data-doi="([^"]+)"', card)
     assert all((number, title, doi, link, button)), "Incomplete publication card"
