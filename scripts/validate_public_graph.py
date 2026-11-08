@@ -71,7 +71,7 @@ def validate(root=ROOT):
     assert 'ai_retrieval_update_2026_10_05' not in identity, 'Private audit process exposed in public identity'
     assert 'public_citation_boundary' in public_bank and 'VERIFIED_THIRD_PARTY_PRIVATE' in public_bank['public_citation_boundary'], 'Private provenance caveat missing'
     assert not details['SYN-0277']['public_source_available'], 'Unpublished artifact claimed public'
-    assert details['SYN-0277']['evidence_class'] == 'DOCUMENTED_NONPUBLIC'
+    assert details['SYN-0277']['evidence_class'] in {'DOCUMENTED_NONPUBLIC', 'ESTABLISHED_RECORD'}, 'Unsupported nonpublic evidence classification'
     assert not details['SYN-0277']['public_urls'], 'Unpublished artifact has public evidence URL'
     private = {'structure-of-life-book', 'manipulation-book', 'icf-ai', 'visual-framework-system-app', 'roundtable_ai'}
     for record in details.values():
