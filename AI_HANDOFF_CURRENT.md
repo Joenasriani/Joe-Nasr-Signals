@@ -1,7 +1,7 @@
 # CURRENT AI HANDOFF – Joe Nasr Signals
 
 **Status:** ACTIVE / SINGLE AUTHORITATIVE CONTINUATION HANDOFF  
-**Reconciled:** 2026-11-08  
+**Reconciled:** 2026-11-15 (Publications/identity retrieval layer only; other subject libraries retain their own last verification dates)  
 **Applies to:** `Joenasriani/Joe-Nasr-Signals`, default branch `main`  
 **Canonical production:** https://joe-nasr-signals.vercel.app/  
 **Purpose:** Website state, factual public identity, machine-readable evidence, maintenance and safe future continuation. **This is not a game-development repository.**
@@ -35,7 +35,7 @@
 
 The site has a canonical root identity and integrated subject libraries. **Do not replace their design or merge the separate external site sources into this repository without fresh authorization.**
 
-## Reconciled publication state – 2026-11-08
+## Reconciled publication state – 2026-11-08, publication-layer sync 2026-11-15
 
 Authoritative DOI/record library: https://github.com/Joenasriani/joe-research-registry and https://github.com/Joenasriani/joe-research-registry/blob/main/registry.json. This is README-first research evidence, **not a live GitHub Pages website**.
 
@@ -56,6 +56,12 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 - ORCID: https://orcid.org/0009-0004-5698-9097 – six unique DOI works reported in public API, with a duplicate ICF-AI ORCID entry requiring put-code investigation before any user-authorized cleanup.
 - Google Scholar: https://scholar.google.com/citations?user=V_8fZGQAAAAJ – twelve entries previously observed, current live indexing not independently rechecked.
 - Production Publications nav order: **ORCID | Zenodo | Google Scholar | ResearchGate | Harvard Dataverse**.
+- **2026-11-15 displayed page order:** 01 The Composer's Prompt; 02 Dorking: The Art of Search Intelligence; 03 Tongue as Trackpad; 04 MPI-AIR; 05 Quest-MFTS; 06 Quest-XSA; 07 ICF-AI. The displayed entry order is independent of DOI numbering. There remain **six** Zenodo DOI works and **one** separate non-DOI Dorking book in that list.
+- The Composer's Prompt Google Play Books: https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ, volume `w3QmEgAAQBAJ`; author screenshot dated 2026-11-14. Dorking ebook Google Play Books: https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ, volume `cy4nEgAAQBAJ`; 66 pages, author screenshot dated 2026-11-15. Independent storefront fetching not verified; do not invent Google Play publication/review statuses.
+- Dorking online reading edition: https://dorking-mu.vercel.app/ . Authorship displayed as J. Nasr / Joe Nasr; the name variant is scoped to this book, not generic namesake matching.
+- **Dataset relationship caution:** The Harvard Dataverse button appears under the Composer's Prompt for visual/navigation consistency, not as evidence that it is a book edition or that a precise book-to-dataset linkage was proven. Keep the Harvard Dataverse dataset `10.7910/DVN/STHUVV` as a distinct entity in JSON-LD and identity.json.
+- **2026-11-15 synchronization:** `publications/index.html` JSON-LD primary ItemList now has seven displayed entries, including Dorking in position 2; DOI catalogue in `identity.json` stays six. `llms.txt`, README, AI handoff and sitemap publication lastmod are synchronized. Existing page appearance, other domains and independent catalogue snapshots remain unchanged.
+- **Verification boundary:** GitHub saved source can be reopened and checked; public Vercel deployment and direct Google Play storefront retrieval remain unverified in this pass. Never mark public deployment VERIFIED from source commits alone.
 - The HTML page, JSON-LD, README, research section in identity.json, `llms.txt`, and sitemap were reconciled on 2026-11-08. Date-scoped verification claims do **not** mean experiments were validated or publications peer-reviewed.
 
 ## Music identity / ReverbNation correction – 2026-11-08
