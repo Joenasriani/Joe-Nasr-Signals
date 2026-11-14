@@ -2448,7 +2448,14 @@
         "url": "https://doi.org/10.5281/zenodo.23689714",
         "publication_type": "Book",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim.",
+        "google_play_books": {
+          "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
+          "volume_id": "w3QmEgAAQBAJ",
+          "relationship": "retail_ebook_distribution_of_same_zenodo_book",
+          "evidence": "author-provided public storefront screenshots, 2026-11-14",
+          "independent_live_fetch": "NOT_VERIFIED"
+        }
       },
       {
         "title": "Tongue as Trackpad: Conceptual Design and Proposed Validation of an Intraoral Capacitive Human–Computer Interface",
@@ -2490,7 +2497,31 @@
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
         "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
       }
-    ]
+    ],
+    "publications_page_visible_entries": 7,
+    "zenodo_doi_publications": 6,
+    "non_doi_books": [
+      {
+        "title": "Dorking: The Art of Search Intelligence",
+        "type": "Book",
+        "credit_as_displayed": "J. Nasr / Joe Nasr",
+        "read_online": "https://dorking-mu.vercel.app/",
+        "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ",
+        "google_books_volume_id": "cy4nEgAAQBAJ",
+        "pages_as_displayed": 66,
+        "doi": "NOT_ESTABLISHED",
+        "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
+        "independent_live_fetch": "NOT_VERIFIED",
+        "relationship": "separate_book_not_seventh_zenodo_doi_work"
+      }
+    ],
+    "related_distribution_relationships": {
+      "researchgate": "ResearchGate is an additional record and full-text route for The Composer’s Prompt, not a separate DOI publication",
+      "harvard_dataverse": "Dataset 10.7910/DVN/STHUVV remains a separate published companion dataset. The publications page links it from The Composer’s Prompt action row for navigation; precise dataset-to-book linkage is not independently established.",
+      "google_play_books": "Retail listings are additional routes to their respective books; no extra Zenodo DOI is implied."
+    },
+    "layer_updated_on": "2026-11-15",
+    "verification_scope": "GitHub source reconciled against dated research-registry and owner screenshot evidence; public production deployment and independent Google Play Books URL fetch NOT VERIFIED."
   },
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
