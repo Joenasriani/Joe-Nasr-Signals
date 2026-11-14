@@ -13,7 +13,7 @@ ORIGIN = "https://joe-nasr-signals.vercel.app"
 PUBLIC_FILES = ["index.html", "publications/index.html", "certifications/index.html", "interactive-projects/index.html", "video-campaigns/index.html", "music/index.html", "identity.json", "projects.json", "llms.txt", "sitemap.xml", "robots.txt", "games/itchio/index.html", "games/itchio/catalog.json",
                 "games.json", "games-development.json",
                 "games-preview.png", "games-preview.svg", "games-development-preview.png",
-                "games-development-preview.svg", "pre-institutional-human-order.html",
+                "games-development-preview.svg",
                 "4f2a8c9d71b64e35a0f3c8d92e7b1a56.txt"]
 
 
