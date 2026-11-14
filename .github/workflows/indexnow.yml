@@ -19,7 +19,6 @@ on:
       - "games-preview.svg"
       - "games-development-preview.png"
       - "games-development-preview.svg"
-      - "pre-institutional-human-order.html"
       - "sitemap.xml"
       - "publications/**"
       - "certifications/**"
@@ -94,9 +93,6 @@ jobs:
                 ;;
               music/*)
                 add_url "https://joe-nasr-signals.vercel.app/music/"
-                ;;
-              pre-institutional-human-order.html)
-                add_url "https://joe-nasr-signals.vercel.app/pre-institutional-human-order.html"
                 ;;
             esac
           done <<< "$changed"
