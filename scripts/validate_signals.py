@@ -161,4 +161,4 @@ assert non_doi_titles == ["Dorking: The Art of Search Intelligence"], "Non-DOI b
 assert len(items) == 7, "Expected seven visible publications (six DOI works + one non-DOI book)"
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "sitemap.xml").read_text()
-print(f"Publication catalogue validated: {len(items)} visible and structured DOI records.")
+print(f"Publication catalogue validated: {len(items)} visible records; {len(doi_seen)} DOI works; {len(non_doi_titles)} non-DOI book.")
