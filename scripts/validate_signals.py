@@ -123,30 +123,42 @@ items = publication_list["itemListElement"]
 assert publication_list["numberOfItems"] == len(items), "Publication JSON-LD count mismatch"
 # Parse each card independently: optional description paragraphs and secondary
 # distribution links must not change the six canonical DOI publication records.
-publication_cards = re.findall(r'<article class="pub">(.*?)</article>', publication_html, re.S)
-visible = []
-for card in publication_cards:
+publication_cards = re.findall(r'<article class="pub"(?:\s[^>]*)?>(.*?)</article>', publication_html, re.S)
+assert len(publication_cards) == len(items), "Visible and JSON-LD publication counts differ"
+doi_seen = set()
+non_doi_titles = []
+for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
+    item = entry["item"]
     number = re.search(r'<div class="num">(\d+)</div>', card)
     title = re.search(r'<h3>(.*?)</h3>', card, re.S)
-    doi = re.search(r'<div class="doi">DOI:\s*([^<]+)</div>', card)
-    link = re.search(r'<a href="([^"]+)"[^>]*>VIEW PUBLICATION', card)
-    button = re.search(r'<button data-doi="([^"]+)"', card)
-    assert all((number, title, doi, link, button)), "Incomplete publication card"
-    visible.append((number.group(1), title.group(1), doi.group(1), link.group(1), button.group(1)))
-assert len(visible) == len(items), "Visible and JSON-LD publication counts differ"
-doi_seen = set()
-for index, ((number, title, doi, link, button_doi), entry) in enumerate(zip(visible, items), 1):
-    item = entry["item"]
-    doi = doi.strip()
-    assert int(number) == index and entry["position"] == index, "Publication order mismatch"
-    assert unescape(title).strip() == item["name"], f"Publication {index} title mismatch"
-    assert doi == item["identifier"] == button_doi, f"Publication {index} DOI mismatch"
-    assert doi not in doi_seen, f"Duplicate publication DOI: {doi}"
-    doi_seen.add(doi)
-    assert urlparse(unquote(link)).geturl() == item["url"], f"Publication {index} DOI link mismatch"
+    assert number and title, f"Incomplete publication card {index}"
+    assert int(number.group(1)) == index and entry["position"] == index, "Publication order mismatch"
+    assert unescape(title.group(1)).strip() == item["name"], f"Publication {index} title mismatch"
     assert item["@type"] in {"ScholarlyArticle", "Book", "Report", "CreativeWork"}, "Unsupported publication type"
     assert item["author"]["@id"] == "https://joe-nasr-signals.vercel.app/#joe-nasr"
-assert len(items) > 0, "Empty publications catalogue"
+
+    if item.get("identifier"):
+        doi = re.search(r'<div class="doi">DOI:\s*([^<]+)</div>', card)
+        link = re.search(r'<a href="([^"]+)"[^>]*>VIEW PUBLICATION', card)
+        button = re.search(r'<button data-doi="([^"]+)"', card)
+        assert all((doi, link, button)), f"Incomplete DOI publication card {index}"
+        doi_value = doi.group(1).strip()
+        assert doi_value == item["identifier"] == button.group(1), f"Publication {index} DOI mismatch"
+        assert doi_value not in doi_seen, f"Duplicate publication DOI: {doi_value}"
+        doi_seen.add(doi_value)
+        assert urlparse(unquote(link.group(1))).geturl() == item["url"], f"Publication {index} DOI link mismatch"
+    else:
+        # Dorking is a separate book with no established DOI, not a seventh Zenodo record.
+        assert item["@type"] == "Book", "Non-DOI publication must be explicitly typed as Book"
+        assert "data-doi=" not in card and "VIEW PUBLICATION" not in card, "Non-DOI book misrepresented as DOI work"
+        assert item["url"] in card, "Non-DOI book distribution URL mismatch"
+        reading_page = item.get("subjectOf", {}).get("url")
+        assert reading_page and reading_page in card, "Non-DOI book reading URL mismatch"
+        non_doi_titles.append(item["name"])
+
+assert len(doi_seen) == 6, "Expected six unique Zenodo DOI works"
+assert non_doi_titles == ["Dorking: The Art of Search Intelligence"], "Non-DOI book inventory mismatch"
+assert len(items) == 7, "Expected seven visible publications (six DOI works + one non-DOI book)"
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "sitemap.xml").read_text()
-print(f"Publication catalogue validated: {len(items)} visible and structured DOI records.")
+print(f"Publication catalogue validated: {len(items)} visible records; {len(doi_seen)} DOI works; {len(non_doi_titles)} non-DOI book.")
