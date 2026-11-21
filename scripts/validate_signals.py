@@ -160,8 +160,10 @@ for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
         non_doi_titles.append(item["name"])
 
 assert len(doi_seen) == 6, "Expected six unique Zenodo DOI works"
-assert non_doi_titles == ["Dorking: The Art of Search Intelligence", "Manipulation: The Fool & The Wise: A study of influence, deception, power and AI"], "Non-DOI book inventory mismatch"
+assert non_doi_titles == ["Manipulation: The Fool & The Wise: A study of influence, deception, power and AI", "Dorking: The Art of Search Intelligence"], "Non-DOI book inventory mismatch"
 assert len(items) == 8, "Expected eight visible publications (six DOI works + two non-DOI books)"
+assert [entry["item"]["name"] for entry in items][1].startswith("Manipulation: The Fool & The Wise"), "Manipulation must be second"
+assert [entry["item"]["name"] for entry in items][-1].startswith("Tongue as Trackpad"), "Tongue as Trackpad must be last"
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "sitemap.xml").read_text()
 print(f"Publication catalogue validated: {len(items)} visible records; {len(doi_seen)} DOI works; {len(non_doi_titles)} non-DOI book.")
