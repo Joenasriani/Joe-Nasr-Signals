@@ -2501,6 +2501,18 @@
     "zenodo_doi_publications": 6,
     "non_doi_books": [
       {
+        "title": "Manipulation: The Fool & The Wise: A study of influence, deception, power and AI",
+        "type": "Book",
+        "credit_as_displayed": "J. Nasr (Joe Nasr)",
+        "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ",
+        "google_books_volume_id": "26EuEgAAQBAJ",
+        "pages_as_displayed": 404,
+        "doi": "NOT_ESTABLISHED",
+        "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
+        "independent_live_fetch": "NOT_VERIFIED",
+        "relationship": "separate_non_doi_book_not_zenodo_doi_work"
+      },
+      {
         "title": "Dorking: The Art of Search Intelligence",
         "type": "Book",
         "credit_as_displayed": "J. Nasr / Joe Nasr",
@@ -2512,18 +2524,6 @@
         "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
         "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_book_not_seventh_zenodo_doi_work"
-      },
-      {
-        "title": "Manipulation: The Fool & The Wise: A study of influence, deception, power and AI",
-        "type": "Book",
-        "credit_as_displayed": "J. Nasr (Joe Nasr)",
-        "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ",
-        "google_books_volume_id": "26EuEgAAQBAJ",
-        "pages_as_displayed": 404,
-        "doi": "NOT_ESTABLISHED",
-        "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
-        "independent_live_fetch": "NOT_VERIFIED",
-        "relationship": "separate_non_doi_book_not_zenodo_doi_work"
       }
     ],
     "related_distribution_relationships": {

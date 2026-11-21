@@ -109,7 +109,11 @@ The retired `joe-nasr-guitar.vercel.app` `alternate_url` was removed from the Mu
 
 ## 2026-11-21 Publications addition – separate non-DOI ebook
 
-Owner-provided Google Play Books screenshots dated 2026-11-21 show *Manipulation: The Fool & The Wise: A study of influence, deception, power and AI*, author J. Nasr (also displayed as Joe Nasr), 404 pages and Google Books volume `26EuEgAAQBAJ` at https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ. The Google Play page could not be independently retrieved during this session. The book is a separate non-DOI work and becomes Publications visible entry 08, with matching Book JSON-LD, non_doi_books identity record and llms.txt route. The six existing Zenodo DOI works remain six, Dorking retains entry 02, and historical 2026-11-15 snapshots below are not retroactively changed. Do not infer a DOI, peer review, durable price or independent storefront inspection.
+Owner-provided Google Play Books screenshots dated 2026-11-21 show *Manipulation: The Fool & The Wise: A study of influence, deception, power and AI*, author J. Nasr (also displayed as Joe Nasr), 404 pages and Google Books volume `26EuEgAAQBAJ` at https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ. The Google Play page could not be independently retrieved during this session. The book was initially added as entry 08 and later moved to entry 02 at the owner's direction on 2026-11-21, with matching Book JSON-LD, non_doi_books identity record and llms.txt route. The six existing Zenodo DOI works remain six; Dorking is now entry 03 and Tongue as Trackpad is entry 08. The dated 2026-11-15 historical snapshot below is preserved as historical evidence. Do not infer a DOI, peer review, durable price or independent storefront inspection.
+
+## 2026-11-21 current Publications display sequence
+
+01 The Composer's Prompt; 02 Manipulation: The Fool & The Wise; 03 Dorking: The Art of Search Intelligence; 04 MPI-AIR; 05 Quest-MFTS; 06 Quest-XSA; 07 ICF-AI; 08 Tongue as Trackpad. Display order is not DOI priority, authorship precedence, or publication date. Six distinct Zenodo DOI works and two separate non-DOI books are preserved. Both visible HTML entries and JSON-LD ListItem positions follow this sequence.
 
 ## Scope and verification notes for this reconciliation
 
