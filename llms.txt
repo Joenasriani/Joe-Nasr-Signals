@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-11-15 (publications layer; other historical observations retain their original verification dates)
+Updated: 2026-11-21 (retired standalone website routing; publications and other source verification dates remain independently scoped)
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -341,18 +341,18 @@ Roundtable AI is a documented project with no supporting public artifact current
 
 ## Interactive collection routing
 
-The current collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs redirect to https://joe-nasr-signals.vercel.app/interactive-projects/. The original external interactive library remains an alternate access point. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
+The current collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (Interactive Experiences & Digital Projects). The retired games.html and games-development.html URLs redirect to https://joe-nasr-signals.vercel.app/interactive-projects/. The former standalone Interactive Projects Vercel website was deleted on 2026-11-21 and is no longer an alternate access point. Retained games.json and games-development.json are historical evidence snapshots, not competing current collections. Their counts overlap with the current collection and must not be added together.
 
 ## Subject libraries inside Signals
 
-Signals is the canonical identity and routing hub. The complete integrated subject libraries are maintained as paths in the Signals GitHub repository and served under the Signals Vercel deployment. Legacy standalone deployments were kept after the migration and are **not** current canonical routing. Do not treat retirement, deletion, or redirect status as verified until separately checked.
+Signals is the canonical identity and routing hub. The complete integrated subject libraries are maintained as paths in the Signals GitHub repository and served under the Signals Vercel deployment. The four legacy standalone Vercel projects serving Certifications, Interactive Projects, Video Campaigns, and Music/Guitar were deleted on 2026-11-21, verified by authenticated project API returning 404; their five old domains are not active destinations. The canonical integrated routes on Signals returned HTTP 200. No permanent redirects were established, and public search deindexing remains unverified.
 - Research & Publications: https://joe-nasr-signals.vercel.app/publications/
 - Campaigns & Video Productions: https://joe-nasr-signals.vercel.app/video-campaigns/
 - Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
 - Certifications & Credentials: https://joe-nasr-signals.vercel.app/certifications/
 - Music & Performance: https://joe-nasr-signals.vercel.app/music/
 
-Earlier standalone Vercel library routes are preserved as migration history in docs/archive/RECONCILIATION_HISTORY_2026-11-08.md, not as current recommended destinations. A distinct historical guitar route must not be assumed redundant without source comparison.
+Earlier standalone Vercel library routes are preserved as migration history in docs/archive/RECONCILIATION_HISTORY_2026-11-08.md, not as current recommended destinations. The historical Guitar/Music Vercel project was verified to own both former domain aliases and was deleted on 2026-11-21; retain URLs only in dated migration evidence.
 
 Guitar performances and covers are separate from professional campaign work. A cover performance does not establish original songwriting. Canon-sponsored camera and photography education was delivered to students; Canon was not the training recipient. The 2026 DaVinci Resolve Mastery recipient is Holy Quran Academy in Sharjah; Joe Nasr confirms all eight scheduled sessions were delivered.
 
