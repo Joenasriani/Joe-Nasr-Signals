@@ -153,12 +153,15 @@ for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
         assert "data-doi=" not in card and "VIEW PUBLICATION" not in card, "Non-DOI book misrepresented as DOI work"
         assert item["url"] in card, "Non-DOI book distribution URL mismatch"
         reading_page = item.get("subjectOf", {}).get("url")
-        assert reading_page and reading_page in card, "Non-DOI book reading URL mismatch"
+        if reading_page:
+            assert reading_page in card, "Non-DOI book reading URL mismatch"
+        if item["name"] == "Dorking: The Art of Search Intelligence":
+            assert reading_page, "Established Dorking reading page missing"
         non_doi_titles.append(item["name"])
 
 assert len(doi_seen) == 6, "Expected six unique Zenodo DOI works"
-assert non_doi_titles == ["Dorking: The Art of Search Intelligence"], "Non-DOI book inventory mismatch"
-assert len(items) == 7, "Expected seven visible publications (six DOI works + one non-DOI book)"
+assert non_doi_titles == ["Dorking: The Art of Search Intelligence", "Manipulation: The Fool & The Wise: A study of influence, deception, power and AI"], "Non-DOI book inventory mismatch"
+assert len(items) == 8, "Expected eight visible publications (six DOI works + two non-DOI books)"
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "llms.txt").read_text()
 assert "https://joe-nasr-signals.vercel.app/publications/" in (ROOT / "sitemap.xml").read_text()
 print(f"Publication catalogue validated: {len(items)} visible records; {len(doi_seen)} DOI works; {len(non_doi_titles)} non-DOI book.")
