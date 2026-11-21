@@ -226,3 +226,7 @@ The canonical integrated interactive collection is https://joe-nasr-signals.verc
 ## Interactive / Research classification boundary (2026-11-02)
 
 The integrated Interactive Projects page contains **67 visible entries** and the related machine-readable collection stores **68 records** (including the non-showcase RoboSim / RoboWebSim release). Nine conceptual, research, publication and tutorial records were removed from the interactive collection: Quest VR / Brain, Quest KET, AURA Olfactory XR, Quest EagleEye, Quest MFTS, Quest-XSA, DaVinci Resolve Student Tutorial, Aether3D, and Quest-4D. Their separate research and publication evidence, where already documented, is retained. This does not establish a published DOI or a completed interactive build for each item. The 51-entry `projects.json` evidence registry has a separate purpose and count; records retained there should not automatically reappear in the interactive showcase.
+
+### Tools & Technologies inventory consistency
+
+The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**, not Design, Video & Post-production. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. Inclusion is not a proficiency ranking or proof of equal use.
