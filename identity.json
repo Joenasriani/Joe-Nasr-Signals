@@ -2553,7 +2553,6 @@
           "Blackmagic Design DaVinci Resolve",
           "Figma",
           "Adobe Lightroom",
-          "Adobe Dreamweaver",
           "Canva",
           "Apple Final Cut Pro"
         ]
@@ -2602,7 +2601,8 @@
           "Vite",
           "Google Firebase",
           "Python",
-          "Replit"
+          "Replit",
+          "Adobe Dreamweaver"
         ]
       },
       {
@@ -2640,7 +2640,7 @@
         ]
       }
     ],
-    "updated_on": "2026-10-28"
+    "updated_on": "2026-11-21"
   },
   "interactive_research_classification_2026_11_02": {
     "interactive_collection_url": "https://joe-nasr-signals.vercel.app/interactive-projects/",

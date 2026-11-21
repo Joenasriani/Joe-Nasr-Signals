@@ -93,6 +93,31 @@ def validate(root=ROOT):
     assert surface['availability']['http_status'] is None, 'Do not invent HTTP verification'
     assert surface['availability']['historical_observation']['http_status'] == 404, 'Preserve superseded 404 evidence'
     assert 'reverbnation' in identity['query_routes']['guitar_music_composer']['surface_ids']
+    # Tools catalogue is one inventory across visible HTML, structured data and AI retrieval.
+    tools_groups = identity['tools_technologies_library']['groups']
+    tool_names = [item for group in tools_groups for item in group['items']]
+    assert len(tool_names) == len(set(tool_names)) == 64, 'Tools inventory duplicate or total mismatch'
+    assert 'Adobe Dreamweaver' not in tools_groups[0]['items'], 'Dreamweaver category drift'
+    assert tools_groups[3]['category'] == 'Web & Application Development' and tools_groups[3]['items'].count('Adobe Dreamweaver') == 1, 'Dreamweaver category drift'
+    tools_html = (root / 'tools-technologies/index.html').read_text()
+    tools_schema = json.loads(re.search(r'<script type="application/ld[+]json">(.*?)</script>', tools_html, re.S).group(1))
+    actual_items = tools_schema['mainEntity']['itemListElement']
+    assert [(item['position'], item['name']) for item in actual_items] == list(enumerate(tool_names, 1)), 'Tools JSON-LD mismatch'
+    from html import unescape
+    for index, group in enumerate(tools_groups):
+        section_match = re.search(r'<section class="tool-section" aria-labelledby="group-' + str(index) + r'">(.*?)</section>', tools_html, re.S)
+        assert section_match, 'Tools visible section missing'
+        section = section_match.group(1)
+        count = re.search(r'<span class="group-count">(\d+) entries</span>', section)
+        assert count and int(count.group(1)) == len(group['items']), 'Tools visible count mismatch'
+        actual_visible = re.findall(r'<div class="tool-item"><span class="tool-index">\d+</span><span>(.*?)</span></div>', section)
+        assert [unescape(item) for item in actual_visible] == group['items'], 'Tools visible list mismatch'
+        guide_header = '### ' + group['category'] + '\n'
+        assert guide_header in guide, 'Tools AI group missing'
+        guide_part = guide.split(guide_header, 1)[1]
+        guide_part = re.split(r'\n#{2,3} ', guide_part, maxsplit=1)[0]
+        guide_items = [line[2:] for line in guide_part.splitlines() if line.startswith('- ')]
+        assert guide_items == group['items'], 'Tools AI list mismatch'
     sitemap = ET.fromstring((root / 'sitemap.xml').read_text())
     ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     assert ORIGIN in {x.text for x in sitemap.findall('s:url/s:loc', ns)}
