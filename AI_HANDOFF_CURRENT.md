@@ -1,7 +1,7 @@
 # CURRENT AI HANDOFF – Joe Nasr Signals
 
 **Status:** ACTIVE / SINGLE AUTHORITATIVE CONTINUATION HANDOFF  
-**Reconciled:** 2026-11-15 (Publications/identity retrieval layer only; other subject libraries retain their own last verification dates)  
+**Reconciled:** 2026-11-21 (Vercel archive retirement and live retrieval routing only; Publications last independently synchronized 2026-11-15; other subject libraries retain their own verification dates)  
 **Applies to:** `Joenasriani/Joe-Nasr-Signals`, default branch `main`  
 **Canonical production:** https://joe-nasr-signals.vercel.app/  
 **Purpose:** Website state, factual public identity, machine-readable evidence, maintenance and safe future continuation. **This is not a game-development repository.**
@@ -33,7 +33,7 @@
 | AI retrieval / crawling | `llms.txt`, `sitemap.xml`, `robots.txt` | corresponding root routes |
 | Release guards | `scripts/`, `tests/`, `.github/workflows/`, `vercel.json` | source-only |
 
-The site has a canonical root identity and integrated subject libraries. **Do not replace their design or merge the separate external site sources into this repository without fresh authorization.**
+The site has a canonical root identity and integrated subject libraries. The four former standalone Vercel archive projects (Certifications, Interactive Projects, Video Campaigns, Music/Guitar) were deleted on 2026-11-21, confirmed by authenticated Vercel project lookup; these domains are not live alternate destinations and no redirects were established. The integrated Signals routes remain canonical. **Do not replace their design or merge separate external site sources into this repository without fresh authorization.**
 
 ## Reconciled publication state – 2026-11-08, publication-layer sync 2026-11-15
 
@@ -102,6 +102,10 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 - Retired GitHub Pages research routes belong to the historical archive, not navigation, README current routing or `identity.json`.
 - No earlier `AI_HANDOFF_*.md` files were present in the audited `main` tree when this handoff was established; do not create competing current handoffs.
 - Do not change the canonical root website or subject libraries on your own initiative. External research banks are separate sources and link back only as intended.
+
+## 2026-11-21 technical maintenance scope
+
+The retired `joe-nasr-guitar.vercel.app` `alternate_url` was removed from the Music & Performance record in `identity.json` by merged PR #86; current GitHub main and deployed `identity.json` were verified. A separate live/source audit confirmed exact source-to-production matches for the core machine files, five project detail shards and integrated subject pages, with valid JSON/JSON-LD syntax. `identity.json.updated_on` records technical maintenance; its older `snapshot_date` is a historical evidence snapshot, not a claim that all identity facts were independently reverified on 2026-11-21. The former external standalone sites were removed, not redirected; Google indexing and third-party AI citation state remain unverified. The project README is a GitHub maintenance document and is not promised as a public `/README.md` route.
 
 ## Scope and verification notes for this reconciliation
 
