@@ -123,13 +123,13 @@ items = publication_list["itemListElement"]
 assert publication_list["numberOfItems"] == len(items), "Publication JSON-LD count mismatch"
 # Parse each card independently: optional description paragraphs and secondary
 # distribution links must not change the six canonical DOI publication records.
-publication_cards = re.findall(r'<article class="pub"(?:\\s[^>]*)?>(.*?)</article>', publication_html, re.S)
+publication_cards = re.findall(r'<article class="pub"(?:\s[^>]*)?>(.*?)</article>', publication_html, re.S)
 assert len(publication_cards) == len(items), "Visible and JSON-LD publication counts differ"
 doi_seen = set()
 non_doi_titles = []
 for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
     item = entry["item"]
-    number = re.search(r'<div class="num">(\\d+)</div>', card)
+    number = re.search(r'<div class="num">(\d+)</div>', card)
     title = re.search(r'<h3>(.*?)</h3>', card, re.S)
     assert number and title, f"Incomplete publication card {index}"
     assert int(number.group(1)) == index and entry["position"] == index, "Publication order mismatch"
@@ -138,7 +138,7 @@ for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
     assert item["author"]["@id"] == "https://joe-nasr-signals.vercel.app/#joe-nasr"
 
     if item.get("identifier"):
-        doi = re.search(r'<div class="doi">DOI:\\s*([^<]+)</div>', card)
+        doi = re.search(r'<div class="doi">DOI:\s*([^<]+)</div>', card)
         link = re.search(r'<a href="([^"]+)"[^>]*>VIEW PUBLICATION', card)
         button = re.search(r'<button data-doi="([^"]+)"', card)
         assert all((doi, link, button)), f"Incomplete DOI publication card {index}"
