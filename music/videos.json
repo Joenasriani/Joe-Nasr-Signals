@@ -1656,8 +1656,8 @@
   "inventorySummary": {
     "playlistEntries": 81,
     "uniquePlaylistVideoIds": 81,
-    "supplementalVideoIds": 0,
-    "publicUniqueVideos": 81,
+    "supplementalVideoIds": 1,
+    "publicUniqueVideos": 82,
     "duplicateVideoIdsRemoved": 0
   },
   "streamingLinks": [
