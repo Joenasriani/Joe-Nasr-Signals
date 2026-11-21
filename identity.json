@@ -2414,7 +2414,7 @@
     "historical_evidence_rule": "games.json and games-development.json preserve earlier records; counts overlap with the current collection and must not be added to it."
   },
   "external_libraries": {
-    "role": "Subject libraries hosted within Signals; original external libraries remain alternate public access points.",
+    "role": "Subject libraries hosted within Signals; former standalone Vercel library projects have been retired.",
     "libraries": [
       {
         "name": "Campaigns & Video Productions",
