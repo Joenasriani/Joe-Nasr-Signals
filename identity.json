@@ -2497,7 +2497,7 @@
         "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
       }
     ],
-    "publications_page_visible_entries": 7,
+    "publications_page_visible_entries": 8,
     "zenodo_doi_publications": 6,
     "non_doi_books": [
       {
@@ -2512,6 +2512,18 @@
         "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
         "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_book_not_seventh_zenodo_doi_work"
+      },
+      {
+        "title": "Manipulation: The Fool & The Wise: A study of influence, deception, power and AI",
+        "type": "Book",
+        "credit_as_displayed": "J. Nasr (Joe Nasr)",
+        "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ",
+        "google_books_volume_id": "26EuEgAAQBAJ",
+        "pages_as_displayed": 404,
+        "doi": "NOT_ESTABLISHED",
+        "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
+        "independent_live_fetch": "NOT_VERIFIED",
+        "relationship": "separate_non_doi_book_not_zenodo_doi_work"
       }
     ],
     "related_distribution_relationships": {
@@ -2519,8 +2531,8 @@
       "harvard_dataverse": "Dataset 10.7910/DVN/STHUVV remains a separate published companion dataset. The publications page links it from The Composer’s Prompt action row for navigation; precise dataset-to-book linkage is not independently established.",
       "google_play_books": "Retail listings are additional routes to their respective books; no extra Zenodo DOI is implied."
     },
-    "layer_updated_on": "2026-11-15",
-    "verification_scope": "GitHub source reconciled against dated research-registry and owner screenshot evidence; public production deployment and independent Google Play Books URL fetch NOT VERIFIED."
+    "layer_updated_on": "2026-11-21",
+    "verification_scope": "Six Zenodo DOI records retain separately dated official-source checks. The Dorking and Manipulation Google Play Books listings are based on dated owner screenshots; independent Google Play Books URL fetch not verified. Live production deployment requires separate confirmation."
   },
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
