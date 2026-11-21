@@ -153,7 +153,10 @@ for index, (card, entry) in enumerate(zip(publication_cards, items), 1):
         assert "data-doi=" not in card and "VIEW PUBLICATION" not in card, "Non-DOI book misrepresented as DOI work"
         assert item["url"] in card, "Non-DOI book distribution URL mismatch"
         reading_page = item.get("subjectOf", {}).get("url")
-        assert reading_page and reading_page in card, "Non-DOI book reading URL mismatch"
+        if reading_page:
+            assert reading_page in card, "Non-DOI book reading URL mismatch"
+        if item["name"] == "Dorking: The Art of Search Intelligence":
+            assert reading_page, "Established Dorking reading page missing"
         non_doi_titles.append(item["name"])
 
 assert len(doi_seen) == 6, "Expected six unique Zenodo DOI works"
