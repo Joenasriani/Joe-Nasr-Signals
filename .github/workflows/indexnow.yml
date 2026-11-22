@@ -73,7 +73,7 @@ jobs:
                 ;;
               games.html|games.json|games-preview.png|games-preview.svg)
                 add_url "https://joe-nasr-signals.vercel.app/games.json"
-                add_url "https://joe-nasr-signals.vercel.app/games.html"
+                add_url "https://joe-nasr-signals.vercel.app/interactive-projects/"
                 ;;
               games-development.html|games-development.json|games-development-preview.png|games-development-preview.svg)
                 add_url "https://joe-nasr-signals.vercel.app/games-development.json"
