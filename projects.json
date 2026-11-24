@@ -9,7 +9,7 @@
     "github_handle": "Joenasriani",
     "identity_record": "https://joe-nasr-signals.vercel.app/identity.json"
   },
-  "registry_role": "Machine-readable public project/evidence layer. Project entities are related to Joe Nasr but are not Person sameAs identities.",
+  "registry_role": "Machine-readable public project/evidence layer. Project entities connect to Joe Nasr through typed relationships. Person sameAs identifies the individual.",
   "project_count": 51,
   "detail_files": [
     "https://joe-nasr-signals.vercel.app/data/projects-01.json",

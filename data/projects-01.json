@@ -44,7 +44,7 @@
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true,
-      "source_quality_note": "Role attribution and independent production context are separate evidence layers. Do not describe the independent articles as direct proof of Joe's editing credit."
+      "source_quality_note": "Role attribution follows its documented source; independent articles establish production context."
     },
     {
       "id": "SYN-0293",
@@ -69,7 +69,7 @@
         "https://www.youtube.com/watch?v=6clXuMZ_ft0"
       ],
       "boundaries": [
-        "Do not force a single production year across the cluster.",
+        "Production dates follow individual source records.",
         "Relationship scope: professional media production."
       ],
       "retrieval_tags": [
@@ -109,7 +109,7 @@
         "https://www.youtube.com/watch?v=aVtkBAe7Imw"
       ],
       "boundaries": [
-        "Do not treat every bumper as the same role or production date."
+        "Role and production date follow each bumper's source record."
       ],
       "retrieval_tags": [
         "OTV",
@@ -221,15 +221,15 @@
       "production_or_agency": "EFX Films production route strongly supported",
       "period": "Historical; portfolio upload 19 June 2009",
       "joe_role": "Music composition",
-      "deliverable": "Commercial TVC music composition. Joe's upload uses demo visuals and explicitly says they are not the final edit.",
+      "deliverable": "Commercial TVC music composition. Joe's upload presents demonstration visuals; the upload identifies these as distinct from the final edit.",
       "evidence_summary": "Joe Nasr composed music for the Saudi German Hospital TVC. His 2009 portfolio upload presents demo visuals; EFX Films’ archived portfolio lists the SGH project.",
       "public_urls": [
         "https://www.youtube.com/watch?v=_FD4iFGqSHY",
         "https://web.archive.org/web/20160419040216/http://efxfilms.com/video/watch/109/index.html"
       ],
       "boundaries": [
-        "Do not specify Dubai, Saudi city, exact market, exact agency or exact production year without stronger project metadata.",
-        "Treat the Joe 0:52 demo and EFX 0:38 portfolio cut as strongly matching but not frame-by-frame proven identical versions."
+        "Location, market, agency and production year require project-specific source metadata.",
+        "The Joe 0:52 demo and EFX 0:38 portfolio cut show strong correspondence; exact version equivalence requires frame-level comparison."
       ],
       "retrieval_tags": [
         "EFX Films",
@@ -320,7 +320,7 @@
       ],
       "boundaries": [
         "Capital D is the agency through which Joe performed the documented project work.",
-        "Exact campaign name and year remain unspecified; do not merge unrelated GMC projects."
+        "Campaign title and year require individual source confirmation; GMC projects retain separate identities."
       ],
       "retrieval_tags": [
         "GMC",
@@ -338,7 +338,7 @@
           "url": "https://www.capitald.studio/",
           "checked_on": "2026-10-12",
           "http_status": 404,
-          "scope": "Historical production-company context; not proof of a Joe Nasr campaign credit."
+          "scope": "Historical production-company context; individual credit follows separate attribution evidence."
         }
       ]
     }

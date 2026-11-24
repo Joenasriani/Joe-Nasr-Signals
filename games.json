@@ -269,7 +269,7 @@
             "@id": "https://artetris.vercel.app/#game",
             "name": "AR Tetris",
             "url": "https://artetris.vercel.app/",
-            "description": "Independent browser augmented reality falling block puzzle for mobile and Meta Quest browsers using WebXR spatial placement. Not affiliated with Tetris Holding or The Tetris Company.",
+            "description": "Independent browser augmented reality falling block puzzle for mobile and Meta Quest browsers using WebXR spatial placement. Independently developed fan project.",
             "genre": "Puzzle",
             "gamePlatform": [
               "Web browser",
@@ -444,7 +444,7 @@
             "@id": "https://joenasr.itch.io/gibberlink-academy#game",
             "name": "GIBBERLINK ACADEMY",
             "url": "https://joenasr.itch.io/gibberlink-academy",
-            "description": "Independent educational browser game inspired by GibberLink style machine communication concepts, with signal decoding, pattern recognition and translation challenges. Not an official GibberLink project.",
+            "description": "Independent educational browser game inspired by GibberLink style machine communication concepts, with signal decoding, pattern recognition and translation challenges. Independently developed educational project.",
             "genre": "Educational",
             "gamePlatform": "Web browser",
             "creator": {
@@ -528,7 +528,7 @@
             "@id": "https://joenasr.itch.io/mario-merge#game",
             "name": "Mario Merge",
             "url": "https://joenasr.itch.io/mario-merge",
-            "description": "Unofficial Mario themed browser merge puzzle using physics driven object combinations. Not affiliated with Nintendo or the official Mario franchise.",
+            "description": "Unofficial Mario themed browser merge puzzle using physics driven object combinations. Independently developed fan project.",
             "genre": [
               "Puzzle",
               "Merge"
@@ -726,7 +726,7 @@
             "@id": "https://joenasr.itch.io/cybertruck-madness#game",
             "name": "Cybertruck Madness '98",
             "url": "https://joenasr.itch.io/cybertruck-madness",
-            "description": "Independent retro browser racing game with a Cybertruck inspired vehicle and off road physics. Not affiliated with Tesla.",
+            "description": "Independent retro browser racing game with a Cybertruck inspired vehicle and off road physics. Independently developed fan project.",
             "genre": "Racing",
             "gamePlatform": "Web browser",
             "creator": {

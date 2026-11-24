@@ -1665,7 +1665,7 @@
       "platform": "Spotify",
       "url": "https://open.spotify.com/track/4JCuf9V0PFOMBMiUc18hCp",
       "trackId": "4JCuf9V0PFOMBMiUc18hCp",
-      "titleVerification": "artist supplied; platform comparison outstanding",
+      "titleVerification": "artist-supplied title; platform comparison remains a separate verification step",
       "displayOrder": 0,
       "title": "The Fall of the Ancient Kingdoms",
       "album": "Dreams Vol. 2",

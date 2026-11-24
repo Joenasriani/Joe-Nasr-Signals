@@ -432,6 +432,6 @@
       "url": "https://joenasr.itch.io/jumpy-jumperson"
     }
   ],
-  "scope_note": "27 native itch.io listings observed on 22 September 2026. Original titles, descriptions and tags are preserved as a historical platform snapshot. The canonical published-games catalog contains 26 games; separate native listings do not necessarily represent separate games.",
+  "scope_note": "27 native itch.io listings observed on 22 September 2026. Original titles, descriptions and tags are preserved as a historical platform snapshot. The canonical published-games catalog contains 26 games; native listings include related releases; the canonical catalog provides the distinct-game count.",
   "canonical_catalog": "https://joe-nasr-signals.vercel.app/games.json"
 }
