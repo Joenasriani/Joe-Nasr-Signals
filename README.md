@@ -29,11 +29,11 @@ This site is the public evidence and entity-resolution layer for Joe Nasr. It se
 
 Working principle: His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.
 
-Categories describe the work. Platforms are routed inside those categories; a platform such as TikTok is not itself a work category.
+Categories describe the work; platform routes sit within their respective work domains.
 
 ## Platform modes
 
-These are platform modes, not separate personas. Categories describe the work; modes describe the retrieval door into the same Joe Nasr identity graph.
+These platform modes represent one shared identity. Categories describe the work; modes describe the retrieval door into the same Joe Nasr identity graph.
 
 - **Professional mode** - LinkedIn, Facebook main, about.me
 - **Maker mode** - GitHub, itch.io, and identity-supported technical experiment surfaces
@@ -42,7 +42,7 @@ These are platform modes, not separate personas. Categories describe the work; m
 - **Campaign/media audio evidence** - sound design, audio engineering, mixing, production-music licensing and audio post-production are routed with campaign and project evidence; Stage32 and Clarity support technical audio queries.
 - **Evidence mode** - Joe Nasr Signals
 
-A surface may support adjacent modes. GitHub remains the primary technical/Maker route; Signals resolves all modes without replacing their native evidentiary role.
+A surface may support adjacent modes. GitHub remains the primary technical/Maker route; Signals resolves all modes while preserving their native evidentiary role.
 
 ## Retrieval architecture
 
@@ -72,7 +72,7 @@ Previous roles:
 - Independent Creative – 2005–2023
 
 Source: https://www.linkedin.com/in/joenasrprofile/details/experience/
-Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies remain clients, not employers.
+Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract role overlaps the broader Independent Creative record intentionally; Daoverse Capital and Guild Technologies retain their client relationship classification.
 
 ## Education and teaching
 
@@ -87,7 +87,7 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 
 - GitHub: https://github.com/Joenasriani
 - Interactive work / games: https://joenasr.itch.io/
-- Research / DOI Registry (README-first source, not a website): https://github.com/Joenasriani/joe-research-registry
+- Research / DOI Registry (GitHub README): https://github.com/Joenasriani/joe-research-registry
 - Current Research & Publications page (6 Zenodo works with related ResearchGate and Dataverse evidence): https://joe-nasr-signals.vercel.app/publications/
 - Research source records for Quest-XSA and Quest-MFTS: https://github.com/Joenasriani/joe-research-registry/blob/main/registry.json
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
@@ -96,18 +96,18 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 
 - **Reasoning and Logic**: https://reasoning-and-logic.vercel.app/
 - Books and independently published reasoning frameworks by J. Nasr on human behavior, influence, reasoning and systems.
-- Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; it is not a rule for merging unrelated authors with the same initials.
+- Joe Nasr owns this bookstore and publishes his writing there under **J. Nasr**. This name attribution is specific to these publications; other authors require contextual identity linkage.
 - The bookstore source catalogue lists five publications: *Mamdani: From Zero to Hero* (sales open), *Taxonomies and Classification Systems* (published, sales review), *The Structure of Life: The Structure of Reasoning*, *ICF-AI* (research reference framework), and *Manipulation: The Fool and the Wise*. Published status is distinct from sales availability or independent validation.
 
 This is the books and writing branch of Signals. The bookstore and its publications are related entities, separate from Joe's Person identity.
 
 ## Publications and external research records (page and data reconciled 2026-11-15)
 
-**Current display order (2026-11-21):** 01 The Composer’s Prompt; 02 Manipulation: The Fool & The Wise; 03 Dorking; 04 MPI-AIR; 05 Quest-MFTS; 06 Quest-XSA; 07 ICF-AI; 08 Tongue as Trackpad. Display order does not change publication types or DOI counts.
+**Current display order (2026-11-21):** 01 The Composer’s Prompt; 02 Manipulation: The Fool & The Wise; 03 Dorking; 04 MPI-AIR; 05 Quest-MFTS; 06 Quest-XSA; 07 ICF-AI; 08 Tongue as Trackpad. Publication types and DOI counts follow the individual records.
 
-The integrated Publications page displays **eight numbered entries**: **six distinct Zenodo DOI records**, plus *Dorking: The Art of Search Intelligence* and *Manipulation: The Fool & The Wise* (two separately distributed retail books). Display numbers follow page ordering; the Zenodo registry contains six works. The DOI inventory contains: one Book (*The Composer’s Prompt*), three Reports (Tongue as Trackpad, Quest-XSA and Quest-MFTS), one Working paper (MPI-AIR) and one Preprint (ICF-AI). The associated concept DOI for *The Composer’s Prompt* represents its versions, **not** an additional work. The official Zenodo API verification recorded by the separate research registry is dated **2026-11-06**.
+The integrated Publications page displays **eight numbered entries**: **six distinct Zenodo DOI records**, plus *Dorking: The Art of Search Intelligence* and *Manipulation: The Fool & The Wise* (two separately distributed retail books). Display numbers follow page ordering; the Zenodo registry contains six works. The DOI inventory contains: one Book (*The Composer’s Prompt*), three Reports (Tongue as Trackpad, Quest-XSA and Quest-MFTS), one Working paper (MPI-AIR) and one Preprint (ICF-AI). The associated concept DOI for *The Composer’s Prompt* represents the versions of that same work. The official Zenodo API verification recorded by the separate research registry is dated **2026-11-06**.
 
-The ResearchGate full-text book listing is a **distribution of the same book**, publicly verified **2026-11-07** per the research registry, not a seventh publication. The same book has an additional [Google Play Books ebook listing](https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ) (volume `w3QmEgAAQBAJ`), observed in author-provided public storefront screenshots on **2026-11-14**. Separately, *Dorking: The Art of Search Intelligence* is linked to its [online reading edition](https://dorking-mu.vercel.app/) and [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ) (volume `cy4nEgAAQBAJ`, 66 pages shown in author screenshot dated **2026-11-15**), with its own retail distribution record. A second retail book, *Manipulation: The Fool & The Wise: A study of influence, deception, power and AI*, has a [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ), volume `26EuEgAAQBAJ`, credited to J. Nasr / Joe Nasr and displayed as 404 pages in user-provided screenshots dated 2026-11-21. This listing documents retail distribution. The Harvard Dataverse record `10.7910/DVN/STHUVV` is a **separately published companion dataset** (version 1.1 released 2026-11-04, API verified 2026-11-06), not another Zenodo work. Google Scholar provides an additional author-profile route.
+The ResearchGate full-text book listing is a **distribution of the same book**, publicly verified **2026-11-07** per the research registry, providing another distribution route. The same book has an additional [Google Play Books ebook listing](https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ) (volume `w3QmEgAAQBAJ`), observed in author-provided public storefront screenshots on **2026-11-14**. Separately, *Dorking: The Art of Search Intelligence* is linked to its [online reading edition](https://dorking-mu.vercel.app/) and [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ) (volume `cy4nEgAAQBAJ`, 66 pages shown in author screenshot dated **2026-11-15**), with its own retail distribution record. A second retail book, *Manipulation: The Fool & The Wise: A study of influence, deception, power and AI*, has a [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ), volume `26EuEgAAQBAJ`, credited to J. Nasr / Joe Nasr and displayed as 404 pages in user-provided screenshots dated 2026-11-21. This listing documents retail distribution. The Harvard Dataverse record `10.7910/DVN/STHUVV` is a **separately published companion dataset** (version 1.1 released 2026-11-04, API verified 2026-11-06), classified as a separate dataset. Google Scholar provides an additional author-profile route.
 
 The Publications page links the Harvard Dataverse dataset from the *Composer’s Prompt* action row as a navigational convenience. It remains a **separately published dataset** linked for navigation. The precise dataset-to-book relationship requires separate evidence; structured data identifies the dataset as its own publication. The Reasoning & Logic catalogue inventory elsewhere in this README preserves the dated source snapshot and its original titles and links.
 
@@ -125,7 +125,7 @@ His public profiles show more than 60K cumulative follower relationships across 
 - RoboMarket - venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO - official site: https://www.robomarket.ae/
 - RoboCreate - product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem - https://robocreate.manus.space/
 
-These are related entities and must not be merged into Joe's Person entity as `sameAs` identities. "Under Apex" describes the current venture/product relationship and does not by itself claim that either initiative is a separately incorporated subsidiary.
+These entities connect through typed venture/product relationships. Corporate incorporation is a distinct evidence category.
 
 ## Founder / venture surface
 
@@ -164,7 +164,7 @@ The following verified names and handles resolve to the same Joe Nasr identity w
 - Joe Nasr - primary public name
 - Joseph Ribal Nasr - full name
 - Joe Ribal Nasr - public name variant
-Handles are platform-specific; no single username is treated as the universal or primary cross-platform handle.
+Handles are platform-specific identifiers.
 
 Documented public handles include:
 - Joenasriani
@@ -181,7 +181,7 @@ Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally base
 
 ## Entity-resolution rule
 
-`sameAs` is reserved for pages or profiles representing Joe Nasr himself. Apex Innovate, RoboMarket, books, games, research projects and other artifacts are separate entities connected to Joe through explicit relationships; they are not Joe's `sameAs` identities.
+`sameAs` is reserved for pages or profiles representing Joe Nasr himself. Apex Innovate, RoboMarket, books, games, research projects and other artifacts are separate entities connected to Joe through explicit relationships; Person `sameAs` identifies Joe himself.
 
 ## Repository notes
 
@@ -208,7 +208,7 @@ https://joe-nasr-signals.vercel.app/
 
 Current public identity, game evidence catalogues, and preview assets are maintained at their canonical root paths. Older game HTML entry points are directed to the integrated Interactive Projects collection. Canonical validation checks use the active root records and routes.
 
-The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and the configured Vercel redirects return their expected 307 or 308 status and preserve the query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
+The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and the configured Vercel redirects return their expected 307 or 308 status and preserve the query string. Publication readiness requires matching deployed files, redirect checks and release verification.
 
 ## Direct discovery and public evidence
 
@@ -218,10 +218,10 @@ The project index and detail shards share names, aliases, evidence classes and r
 
 `python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
 
-Source validation does not establish deployment, indexing, search ranking or AI citation. Public verification is a separate release step.
+Source validation, deployment, indexing, search ranking and AI citation are distinct verification stages.
 
 
-The canonical integrated interactive collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection). The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; their counts are not additional projects.
+The canonical integrated interactive collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection). The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; the integrated collection provides the distinct-project count.
 
 ## Interactive / Research classification boundary (2026-11-02)
 
@@ -229,4 +229,4 @@ The integrated Interactive Projects page contains **67 visible entries** and the
 
 ### Tools & Technologies inventory consistency
 
-The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**, not Design, Video & Post-production. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. The inventory is organized by application area.
+The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. The inventory is organized by application area.

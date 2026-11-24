@@ -1,7 +1,7 @@
 """Compatibility entry point for the scoped record synchronizer.
 
-The former global replacements could corrupt Organization URLs and rewrite
-unrelated game records. Current facts are maintained in identity.json.
+Scoped synchronization preserves Organization URLs and game records.
+Current facts are maintained in identity.json.
 """
 from pathlib import Path
 import runpy
