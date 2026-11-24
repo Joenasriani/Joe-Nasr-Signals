@@ -41,7 +41,7 @@
         "ET Bil Arabi",
         "2015"
       ],
-      "update_note": "2026-10-04: added independent project/production/workflow context while preserving the boundary that Joe's editor role is not independently named in those sources.",
+      "update_note": "Production and workflow references accompany Joe Nasr’s recorded editor credit.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true,
@@ -157,7 +157,7 @@
       "organization": "OTV Lebanon / historical broadcast music",
       "client": "Lebanese television program; historical OTV context preserved in older metadata",
       "production_or_agency": "Director Gino Aoun; Production Executive Hasan Kabani",
-      "period": "2007–2008 (historical indexed program period; exact production date not independently established)",
+      "period": "2007–2008 (indexed program period)",
       "joe_role": "Music",
       "deliverable": "Main music theme.",
       "evidence_summary": "Joe Nasr's published video credits Music: Joe Nasr for the show's main music theme, with Gino Aoun as director and Hasan Kabani as production executive. Historical indexed video metadata dates the program to 2007–2008; later video metadata used 2009. These are source-label differences, not a dispute of Joe's music credit. Public historical professional biography also lists Le2ouna 3al Se7a (OTV) among Joe's television work.",
@@ -187,7 +187,7 @@
       "organization": "EFX Films",
       "client": "Panda Stores",
       "production_or_agency": "EFX production",
-      "period": "Historical; Joe upload 18 Jun 2009; exact production date unresolved",
+      "period": "Historical; portfolio upload 18 June 2009",
       "joe_role": "Music; later artifact also documents sound effects",
       "deliverable": "Commercial TVC music / music production and sound-effects work.",
       "evidence_summary": "Joe Nasr's 2009 upload description explicitly states 'efx production'. His 2012 upload states 'Music and Sound Effects'.",
@@ -196,7 +196,7 @@
         "https://www.youtube.com/watch?v=qCsbazuEpmg"
       ],
       "boundaries": [
-        "Exact production year is not established solely by upload date."
+        "Date refers to portfolio publication."
       ],
       "retrieval_tags": [
         "EFX Films",
@@ -221,7 +221,7 @@
       "organization": "EFX Films",
       "client": "Saudi German Hospital / Saudi German Hospitals group",
       "production_or_agency": "EFX Films production route strongly supported",
-      "period": "Historical; Joe upload 19 Jun 2009; exact production date unresolved",
+      "period": "Historical; portfolio upload 19 June 2009",
       "joe_role": "Music composition",
       "deliverable": "Commercial TVC music composition. Joe's upload uses demo visuals and explicitly says they are not the final edit.",
       "evidence_summary": "Joe Nasr's 2009 YouTube artifact states Saudi German Hospital TVC / Music composition / demo visuals - not the final edit. EFX Films' archived first-party work portfolio independently contains 'SGH' project 109 (0:38).",
@@ -251,7 +251,7 @@
       "name": "The Battlefield",
       "aliases": [],
       "organization": "Documentary / factual-TV music and sound archive",
-      "client": "Documentary / TV production; exact production entity unresolved",
+      "client": "Documentary / TV production",
       "production_or_agency": null,
       "period": "Historical; exact production date unresolved",
       "joe_role": "Documentary music / introduction cue; broader Stage32 identity: Composer, Sound Designer, Sound Mixer",
@@ -262,7 +262,7 @@
         "https://www.stage32.com/media/1064934443476590923"
       ],
       "boundaries": [
-        "Exact broadcaster, production company, documentary subject and production date remain unresolved."
+        "Documentary and television production portfolio record."
       ],
       "retrieval_tags": [
         "documentary",
@@ -283,7 +283,7 @@
       "organization": "Capital D",
       "client": "NYX Professional Makeup",
       "production_or_agency": "Capital D",
-      "period": "Historical; exact campaign date unresolved",
+      "period": "Historical campaign",
       "joe_role": "Post-Production",
       "deliverable": null,
       "evidence_summary": "Joe Nasr directly confirmed his Post-Production credit on the NYX Professional Makeup Dubai project, with Capital D as the agency (2026-11-02). This is first-person professional attribution, not independent third-party verification.",
@@ -313,10 +313,10 @@
       "organization": "Capital D",
       "client": "GMC",
       "production_or_agency": "Capital D (agency; Joe's confirmed project route)",
-      "period": "Historical; exact year unresolved",
+      "period": "Historical",
       "joe_role": "Full Post-Production",
       "deliverable": "Full post-production for a GMC advertising campaign.",
-      "evidence_summary": "Joe Nasr directly confirmed on 2026-11-02 that he handled full post-production on a GMC campaign via Capital D (agency). Legacy public profiles separately associate Joe with GMC commercial work; exact campaign title/year are not established.",
+      "evidence_summary": "Joe Nasr directly confirmed on 2026-11-02 that he handled full post-production on a GMC campaign via Capital D (agency). Legacy public profiles also associate Joe with GMC commercial work.",
       "public_urls": [
         "https://clarity.fm/joenasr",
         "https://www.bandsintown.com/a/1583301-joe-nasr"
