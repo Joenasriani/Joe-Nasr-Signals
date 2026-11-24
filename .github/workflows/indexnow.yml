@@ -25,6 +25,8 @@ on:
       - "interactive-projects/**"
       - "video-campaigns/**"
       - "music/**"
+      - "training-workshops-lectures/**"
+      - "tools-technologies/**"
 
 permissions:
   contents: read
@@ -90,6 +92,12 @@ jobs:
                 ;;
               video-campaigns/*)
                 add_url "https://joe-nasr-signals.vercel.app/video-campaigns/"
+                ;;
+              training-workshops-lectures/*)
+                add_url "https://joe-nasr-signals.vercel.app/training-workshops-lectures/"
+                ;;
+              tools-technologies/*)
+                add_url "https://joe-nasr-signals.vercel.app/tools-technologies/"
                 ;;
               music/*)
                 add_url "https://joe-nasr-signals.vercel.app/music/"
