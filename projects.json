@@ -594,31 +594,20 @@
       "public_source_available": true
     }
   ],
-  "recovery_candidates": [
-    {
-      "name": "EMT - High tech prod",
-      "url": "https://www.stage32.com/media/1067146212920012566",
-      "state": "RECOVERY_ONLY",
-      "reason": "Known Joe Ribal Nasr reel contains the artifact, but the retrieved public page does not state Joe's role or deliverable.",
-      "asserted": false,
-      "public_retrieval_status": "UNRESOLVED_CONTEXT_ONLY"
-    }
-  ],
   "public_retrieval_status_semantics": {
     "PUBLICLY_SUPPORTED": "A listed public source supports the project or role relationship.",
-    "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT": "Public evidence supports the relationship, but a material date conflict remains unresolved.",
-    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED": "A public page exists, but the project record has not been independently reverified in the latest consolidation.",
-    "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED": "Historical context retained in the graph without recent independent public reverification.",
-    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "A related public page exists, but the specific Joe Nasr role is not independently established by the listed public page.",
-    "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Context is retained for entity continuity but should not be treated as an independently publicly verified role claim.",
+    "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT": "Project relationship with multiple recorded dates.",
+    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED": "Historical project context.",
+    "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED": "Historical project context.",
+    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Related project context; individual contributions are described in the project record.",
+    "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Related project context; individual contributions are described in the project record.",
     "PARTIAL_PUBLIC_CONTEXT": "Only the stated portion is publicly supportable; full completion is not asserted.",
-    "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Only limited context is retained; do not infer full completion or independent public verification."
+    "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Related project context; individual contributions are described in the project record."
   },
   "evidence_class_semantics": {
     "PUBLIC": "The project or role is supported by a listed public source.",
     "DOCUMENTED_NONPUBLIC": "The project or role is supported by documented evidence whose underlying source is not published here.",
-    "ESTABLISHED_RECORD": "The project exists in the established project record, but stronger source recovery is still needed for precise public claims.",
-    "PARTIAL": "Only the stated portion of the work or delivery is established.",
-    "UNRESOLVED": "Do not promote as a factual project or role claim until evidence is sufficient."
+    "ESTABLISHED_RECORD": "Established professional record.",
+    "PARTIAL": "Only the stated portion of the work or delivery is established."
   }
 }
