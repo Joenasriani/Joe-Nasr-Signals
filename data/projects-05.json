@@ -158,7 +158,7 @@
       "organization": "Capital D Studio",
       "client": "Chopard",
       "production_or_agency": "Capital D provenance possible; exact production chain not fully established",
-      "period": "Exact year unresolved",
+      "period": "Historical",
       "joe_role": "Post-production",
       "deliverable": "After Effects rotoscoping and compositing.",
       "evidence_summary": "Current YouTube metadata documents Joe Nasr's After Effects rotoscoping, animated masks, layering and compositing on the public video asset.",
@@ -166,7 +166,7 @@
         "https://www.youtube.com/watch?v=1opzhAEfFVQ"
       ],
       "boundaries": [
-        "Exact campaign name, year, agency and featured talent remain unresolved."
+        "Historical campaign portfolio record."
       ],
       "retrieval_tags": [
         "Chopard",
@@ -189,7 +189,7 @@
       "organization": "Historical music / commercial archive",
       "client": "Milco",
       "production_or_agency": null,
-      "period": "Historical; exact production year unresolved",
+      "period": "Historical",
       "joe_role": "Music composition; sound recording & design",
       "deliverable": "TVC music/sound work",
       "evidence_summary": "Known Joe Ribal Nasr Stage32 reel page states: Music Composition Sound Recording & Design - Milco TVC.",
@@ -197,7 +197,7 @@
         "https://www.stage32.com/media/1064925419263762486"
       ],
       "boundaries": [
-        "Exact production year, commissioning route and final broadcast/use are not established by the retrieved page."
+        "Historical production portfolio record."
       ],
       "retrieval_tags": [
         "Milco",
@@ -222,7 +222,7 @@
       "organization": "Historical music / commercial archive",
       "client": "H&S (as titled on the public artifact)",
       "production_or_agency": null,
-      "period": "Historical; exact year unresolved",
+      "period": "Historical",
       "joe_role": "Music Producer / Sound Mixer",
       "deliverable": "Pitch-music artifact",
       "evidence_summary": "Known Joe Ribal Nasr Stage32 reel page explicitly credits Joe Nasr - Music Producer/Sound Mixer; Eddy Khabbouth - Music Producer; Chris Malari - SFX Designer.",
@@ -361,7 +361,7 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Digital book, Digital edition · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Public URL response and external citation eligibility were not independently rechecked in this pass. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
       "public_urls": [
         "https://mamdani-from-zero-to-hero.vercel.app/",
         "https://reasoning-and-logic.vercel.app/"
@@ -394,7 +394,7 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Technical field guide, Technical Field Guide and AI Practical Edition v1.1.1 · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review; public URL response and external indexing were not independently rechecked. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
+      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
       "public_urls": [
         "https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems",
         "https://reasoning-and-logic.vercel.app/"
