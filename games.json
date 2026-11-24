@@ -235,7 +235,7 @@
             "name": "Legocraft",
             "alternateName": "Brick XR Builder",
             "url": "https://legocraftvr.vercel.app/",
-            "description": "Independent browser 3D brick-building sandbox with editing, saved projects and GLB export. WebXR interaction is experimental; real Meta Quest hardware testing is not yet complete. Not affiliated with the LEGO Group.",
+            "description": "Independent browser 3D brick-building sandbox with editing, saved projects and GLB export. Experimental WebXR interaction; Meta Quest hardware testing is a separate verification step. Independently created brick-building game.",
             "genre": [
               "Sandbox",
               "Creative building"

@@ -53,7 +53,7 @@ Signals uses a query-aware routing model for Joe Nasr's public graph. The detail
 - **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. These records retain chronological and specialist retrieval value.
 - **Reference records** retain their evidence status; active routing uses established public identity relationships.
 
-Topic relevance can override age when the source is accessible. ReverbNation preserves historical soundtrack, instrumental and guitar evidence. Its earlier 12 October 2026 HTTP 404 observation is superseded by Joe Nasr’s live browser screenshot dated 8 November 2026. The profile is accessible in that session and is included in query-specific music retrieval; its independent HTTP response code was not remeasured.
+Topic relevance can override age when the source is accessible. ReverbNation preserves historical soundtrack, instrumental and guitar evidence. The live browser screenshot supplied by Joe Nasr on 8 November 2026 supersedes the earlier observation and establishes browser accessibility in that session. The profile is included in query-specific music retrieval; the dated HTTP observation remains in identity.json.
 
 The graph provides semantic guidance for identity resolution and query-specific retrieval.
 
@@ -109,7 +109,7 @@ The integrated Publications page displays **eight numbered entries**: **six dist
 
 The ResearchGate full-text book listing is a **distribution of the same book**, publicly verified **2026-11-07** per the research registry, not a seventh publication. The same book has an additional [Google Play Books ebook listing](https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ) (volume `w3QmEgAAQBAJ`), observed in author-provided public storefront screenshots on **2026-11-14**. Separately, *Dorking: The Art of Search Intelligence* is linked to its [online reading edition](https://dorking-mu.vercel.app/) and [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ) (volume `cy4nEgAAQBAJ`, 66 pages shown in author screenshot dated **2026-11-15**), without an established Zenodo DOI. A second non-DOI title, *Manipulation: The Fool & The Wise: A study of influence, deception, power and AI*, has a [Google Play Books listing](https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ), volume `26EuEgAAQBAJ`, credited to J. Nasr / Joe Nasr and displayed as 404 pages in user-provided screenshots dated 2026-11-21. This retail listing is not a Zenodo DOI publication. The Harvard Dataverse record `10.7910/DVN/STHUVV` is a **separately published companion dataset** (version 1.1 released 2026-11-04, API verified 2026-11-06), not another Zenodo work. Google Scholar provides an additional author-profile route.
 
-The Publications page links the Harvard Dataverse dataset from the *Composer’s Prompt* action row as a navigational convenience. It remains a **separately published companion dataset**; available evidence does **not** independently establish the precise dataset-to-book relationship. The page's structured data keeps it separate rather than treating it as a copy or edition of the book. The separate Reasoning & Logic catalogue inventory elsewhere in this README is a dated historical snapshot, **not** a current, exhaustively verified bookstore catalogue. No older titles or links were silently deleted during the 2026-11-15 publication-layer reconciliation.
+The Publications page links the Harvard Dataverse dataset from the *Composer’s Prompt* action row as a navigational convenience. It remains a **separately published dataset** linked for navigation. The precise dataset-to-book relationship requires separate evidence; structured data identifies the dataset as its own publication. The Reasoning & Logic catalogue inventory elsewhere in this README preserves the dated source snapshot and its original titles and links.
 
 Current researcher routing: [ORCID](https://orcid.org/0009-0004-5698-9097) · [Zenodo publications](https://joe-nasr-signals.vercel.app/publications/) · [Google Scholar](https://scholar.google.com/citations?user=V_8fZGQAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Joseph-Nasr-9) · [Harvard Dataverse](https://doi.org/10.7910/DVN/STHUVV). Treat each source's relationship as distinct; preserve original dates, authorship and provenance.
 
@@ -189,7 +189,7 @@ Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally base
 - Historical material is retained for chronology and context.
 - A public repository under `Joenasriani` is not automatically treated as original authorship; forks, mirrors and upstream projects remain distinguished from Joe-created work.
 - A generic `Joe Nasr` search result is linked here only when the source context supports the association.
-- Linktree remains an active supporting routing node in the public graph. It is useful for connecting multiple platform threads and routing them back into the wider identity structure, but it is not the canonical identity/evidence authority or the preferred primary public destination. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
+- Linktree remains an active supporting routing node in the public graph. It is useful for connecting multiple platform threads and routing them back into the wider identity structure, and complements the canonical identity hub. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
 
 ## Public archive
 
@@ -208,13 +208,13 @@ https://joe-nasr-signals.vercel.app/
 
 Current public identity, game evidence catalogues, and preview assets are maintained at their canonical root paths. Older game HTML entry points are directed to the integrated Interactive Projects collection. Canonical validation checks use the active root records and routes.
 
-The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and the configured current Vercel redirects return 308 with the expected query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
+The development archive has its own 20-record preview. IndexNow waits until public file bytes match the checked-out revision and the configured Vercel redirects return their expected 307 or 308 status and preserve the query string. An available IndexNow key alone does not establish publication readiness. Browser fragments and GitHub Pages publication still require release verification.
 
 ## Direct discovery and public evidence
 
 The homepage links directly to the root games and development catalogs. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
 
-The project index and detail shards share names, aliases, evidence classes and retrieval states. Public application or publication pages do not imply public source-code availability. Historical links retain their attribution in archival records; active routes use current public sources.
+The project index and detail shards share names, aliases, evidence classes and retrieval states. Application, publication and source-code access are documented as distinct evidence types. Historical links retain their attribution in archival records; active routes use current public sources.
 
 `python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
 
@@ -225,7 +225,7 @@ The canonical integrated interactive collection is https://joe-nasr-signals.verc
 
 ## Interactive / Research classification boundary (2026-11-02)
 
-The integrated Interactive Projects page contains **67 visible entries** and the related machine-readable collection stores **68 records** (including the non-showcase RoboSim / RoboWebSim release). Nine conceptual, research, publication and tutorial records were removed from the interactive collection: Quest VR / Brain, Quest KET, AURA Olfactory XR, Quest EagleEye, Quest MFTS, Quest-XSA, DaVinci Resolve Student Tutorial, Aether3D, and Quest-4D. Their separate research and publication evidence, where already documented, is retained. This does not establish a published DOI or a completed interactive build for each item. The 51-entry `projects.json` evidence registry has a separate purpose and count; records retained there should not automatically reappear in the interactive showcase.
+The integrated Interactive Projects page contains **67 visible entries** and the related machine-readable collection stores **68 records** (including the non-showcase RoboSim / RoboWebSim release). Nine records are classified under conceptual, research, publication and tutorial documentation: Quest VR / Brain, Quest KET, AURA Olfactory XR, Quest EagleEye, Quest MFTS, Quest-XSA, DaVinci Resolve Student Tutorial, Aether3D, and Quest-4D. Their documented research and publication evidence is retained; DOI identifiers and build status follow each individual source record. The 51-entry `projects.json` evidence registry is a separate collection.
 
 ### Tools & Technologies inventory consistency
 

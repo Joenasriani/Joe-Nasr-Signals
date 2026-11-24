@@ -1036,7 +1036,7 @@
     {
       "videoId": "q6TAXpw5NPc",
       "title": "Over 8 | Acoustic Guitar Solo",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=q6TAXpw5NPc",
       "categories": [
         "Guitar Performance"
@@ -1176,7 +1176,7 @@
     {
       "videoId": "8MuCiHFsNnY",
       "title": "Joe Nasr - Reflections (#guitar)",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=8MuCiHFsNnY",
       "categories": [
         "Guitar Performance"
@@ -1316,7 +1316,7 @@
     {
       "videoId": "xNyaqMNlUug",
       "title": "Now that we have stories #original #guitar #instrumental",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=xNyaqMNlUug",
       "categories": [
         "Guitar Performance"
@@ -1476,7 +1476,7 @@
     {
       "videoId": "XiKg6Nh08xU",
       "title": "Kingdom Come . What Love Can Be #acoustic #guitarcover #playalong",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=XiKg6Nh08xU",
       "categories": [
         "Guitar Performance"
@@ -1516,7 +1516,7 @@
     {
       "videoId": "0wp0HXai5R4",
       "title": "Angels #acousticcover #guitarsolo #instrumental",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=0wp0HXai5R4",
       "categories": [
         "Guitar Performance"
@@ -1536,7 +1536,7 @@
     {
       "videoId": "CEKD59tYQgk",
       "title": "Tears in the rain #guitar #cover",
-      "description": "No description was provided in the available YouTube description.",
+      "description": "",
       "url": "https://www.youtube.com/watch?v=CEKD59tYQgk",
       "categories": [
         "Guitar Performance"
@@ -1678,15 +1678,15 @@
       "url": "https://play.anghami.com/album/1021439866",
       "relationship": "album",
       "albumId": "1021439866",
-      "albumTitleStatus": "not_verified",
-      "recordingMatches": "not_verified",
+      "albumTitleStatus": "source_comparison_outstanding",
+      "recordingMatches": "source_comparison_outstanding",
       "displayOrder": 1
     },
     {
       "platform": "SoundCloud",
       "url": "https://soundcloud.com/joenasrmusic",
       "relationship": "profile",
-      "individualTrackMatches": "not_verified",
+      "individualTrackMatches": "source_comparison_outstanding",
       "displayOrder": 2
     }
   ]

@@ -400,7 +400,7 @@
       "ITP Media Group"
     ],
     "training_provider_example": "SAE Dubai",
-    "scope_note": "The named organizations reproduce the LinkedIn teaching entry checked on 25 September 2026. Separate institutional evidence is identified by its own source; this is not an exhaustive teaching record.",
+    "scope_note": "The named organizations reproduce the LinkedIn teaching entry checked on 25 September 2026. Additional institutional records are identified by their respective sources.",
     "source_url": "https://www.linkedin.com/in/joenasrprofile/details/experience/",
     "verified_live_on": "2026-09-25",
     "historical_institutional_evidence": [
@@ -443,7 +443,7 @@
   },
   "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
   "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
-  "graph_role": "Public evidence and entity-resolution layer beneath Joe Nasr's main online presentation. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
+  "graph_role": "Canonical public identity, evidence and discovery hub for Joe Nasr. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
   "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. No specialist surface should redefine the whole person.",
   "platform_roles": {
     "linkedin": "current professional and career chronology",
@@ -1775,7 +1775,7 @@
       "surface_ids": [
         "flickr_joenasriani"
       ],
-      "boundary": "Historical Flickr identity and handle continuity; not the current professional portfolio."
+      "boundary": "Historical Flickr identity and handle continuity."
     },
     "campaign_media_audio": {
       "intent": "Campaign and media audio: sound design, audio engineering, mixing, production-music licensing, audio post-production, and music composed for advertising, events and media",
@@ -1899,22 +1899,22 @@
     {
       "label": "Manipulation: The Fool and the Wise",
       "url": "https://manipulation-book-theta.vercel.app/",
-      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source accessible through the Reasoning and Logic bookstore."
     },
     {
       "label": "The Structure of Life – The Structure of Reasoning",
       "url": "https://the-structure-of-life.vercel.app/",
-      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source accessible through the Reasoning and Logic bookstore."
     },
     {
       "label": "ICF",
       "url": "https://icf-ai.vercel.app/icf-ai",
-      "reason": "Machine-readable publication source; not listed individually in the visible Signals archive. Public routing is through the Reasoning and Logic bookstore."
+      "reason": "Machine-readable publication source accessible through the Reasoning and Logic bookstore."
     },
     {
       "label": "Showcase: Some of My Audio Post-Production Projects",
       "url": "https://www.youtube.com/playlist?list=PLA_K3WfiOwlcCdWWfbn9hNODzGUzj9uXi",
-      "reason": "Historical audio-post evidence available to machine retrieval; not used as the current visible Media Music Composition route."
+      "reason": "Historical audio-post evidence for specialist retrieval."
     },
     {
       "label": "Joe Nasr on Flickr (joenasriani)",
@@ -2435,7 +2435,7 @@
         "url": "https://doi.org/10.5281/zenodo.23689714",
         "publication_type": "Book",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim.",
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type.",
         "google_play_books": {
           "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
           "volume_id": "w3QmEgAAQBAJ",
@@ -2449,7 +2449,7 @@
         "url": "https://doi.org/10.5281/zenodo.23622202",
         "publication_type": "Report",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type."
       },
       {
         "title": "MPI-AIR: Multidisciplinary Professional Identity in AI Retrieval: A Bounded Review of Relevant Prior Art",
@@ -2457,7 +2457,7 @@
         "url": "https://doi.org/10.5281/zenodo.23592679",
         "publication_type": "Working paper",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type."
       },
       {
         "title": "Quest-MFTS: A Proposed Multimodal XR Simulation Architecture Using Consumer Headsets and Physical Controls",
@@ -2465,7 +2465,7 @@
         "url": "https://doi.org/10.5281/zenodo.23552640",
         "publication_type": "Report",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type."
       },
       {
         "title": "Quest-XSA: Thermal and UV Sensory Augmentation for Meta Quest",
@@ -2473,7 +2473,7 @@
         "url": "https://doi.org/10.5281/zenodo.23538919",
         "publication_type": "Report",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type."
       },
       {
         "title": "ICF-AI: An Evidence-Status-Aware Protocol for Documenting Causal Claims in AI Systems",
@@ -2481,7 +2481,7 @@
         "url": "https://doi.org/10.5281/zenodo.23504055",
         "publication_type": "Preprint",
         "record_source": "https://joe-nasr-signals.vercel.app/publications/",
-        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; no peer-review or experimental-validation claim."
+        "verification_note": "Publication DOI and resource type confirmed by official Zenodo API on 2026-11-06 according to the separate research registry; verification scope: DOI and resource type."
       }
     ],
     "publications_page_visible_entries": 8,
@@ -2494,9 +2494,9 @@
         "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Manipulation_The_Fool_The_Wise?id=26EuEgAAQBAJ",
         "google_books_volume_id": "26EuEgAAQBAJ",
         "pages_as_displayed": 404,
-        "doi": "NOT_ESTABLISHED",
+        "doi": null,
         "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
-        "relationship": "separate_non_doi_book_not_zenodo_doi_work"
+        "relationship": "separate_retail_book"
       },
       {
         "title": "Dorking: The Art of Search Intelligence",
@@ -2506,15 +2506,15 @@
         "google_play_books": "https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ",
         "google_books_volume_id": "cy4nEgAAQBAJ",
         "pages_as_displayed": 66,
-        "doi": "NOT_ESTABLISHED",
+        "doi": null,
         "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
-        "relationship": "separate_book_not_seventh_zenodo_doi_work"
+        "relationship": "separate_retail_book"
       }
     ],
     "related_distribution_relationships": {
       "researchgate": "ResearchGate is an additional record and full-text route for The Composer’s Prompt, not a separate DOI publication",
       "harvard_dataverse": "Published dataset 10.7910/DVN/STHUVV is listed separately and linked from the Publications page.",
-      "google_play_books": "Retail listings are additional routes to their respective books; no extra Zenodo DOI is implied."
+      "google_play_books": "Retail listings provide additional distribution routes to their respective books."
     },
     "layer_updated_on": "2026-11-21",
     "verification_scope": "Six Zenodo DOI records and Google Play Books listings for Dorking and Manipulation are documented in the publication catalogue."

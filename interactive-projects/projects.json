@@ -193,8 +193,8 @@
         {
           "platform": "Meta Quest VR headset",
           "experience": "Mixed reality (MR) using passthrough",
-          "technical_mode": "WebXR immersive-ar; no standalone immersive-vr session in current source",
-          "verification": "Headset runtime not independently tested in this audit"
+          "technical_mode": "WebXR immersive-ar implementation",
+          "verification": "Verification scope: source implementation; headset runtime testing is a separate step"
         }
       ],
       "naming_note": "Spatial Tetris XR is the current archive title. The former AR Tetris XR name and historic itch.io title are preserved as aliases. XR is the umbrella category for mobile AR and Quest headset MR."
@@ -392,7 +392,7 @@
       "id": "facial-gesture-interpretation-engine-aeon",
       "title": "Facial Gesture Interpretation Engine / AEON",
       "category": "Human-Computer Interaction",
-      "description": "Browser camera and audio measurement experiments with explicitly limited inferential scope",
+      "description": "Browser camera and audio measurement experiments with defined measurement scope",
       "status": "Prototype / source documented",
       "type": "HCI prototype",
       "links": [
@@ -974,7 +974,7 @@
       "alternate_titles": [
         "ZIP IT! LinkedIn."
       ],
-      "name_clarification": "Historic itch.io title referenced LinkedIn. This is an independent puzzle project; no LinkedIn affiliation, sponsorship, or endorsement is established."
+      "name_clarification": "Independent puzzle project with a historical itch.io title referencing LinkedIn; attribution scope is independent creation."
     },
     {
       "id": "ai-courses",
