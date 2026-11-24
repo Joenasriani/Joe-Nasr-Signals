@@ -751,7 +751,7 @@
       "ACTIVE": "Public and useful as a current retrieval path.",
       "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
       "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source.",
-      "UNRESOLVED": "Do not promote until the unresolved visibility, ownership, alias or identity question is settled."
+      "UNRESOLVED": "Reserved for records outside active identity routing."
     },
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
@@ -1890,7 +1890,7 @@
       "DOCUMENTED_NONPUBLIC": "Supported by documented evidence whose underlying source is not published in this public record.",
       "ESTABLISHED_RECORD": "Established in the project record but still requiring stronger source recovery for precise public claims.",
       "PARTIAL": "Only the stated portion of the work or delivery is established.",
-      "UNRESOLVED": "Not sufficient for a factual public project or role claim."
+      "UNRESOLVED": "Contextual records outside the public project-credit catalogue."
     }
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
@@ -2007,7 +2007,6 @@
           "display_label": "Editors, Photographers & Media Teams",
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2019,7 +2018,6 @@
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2034,7 +2032,6 @@
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2046,7 +2043,6 @@
           "display_label": "Abu Dhabi Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2058,7 +2054,6 @@
           "display_label": "National Theatre of Abu Dhabi Team",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2070,7 +2065,6 @@
           "display_label": "Event Producers, Designers & Animators",
           "audience_kind": "professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2082,7 +2076,6 @@
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2094,7 +2087,6 @@
           "display_label": "Media Workshop Participants",
           "audience_kind": "participant_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2113,7 +2105,6 @@
           "display_label": "Canon-Sponsored Education",
           "audience_kind": "program_or_sponsorship_context",
           "evidence_status": "USER_REPORTED_SPONSORSHIP_UNVERIFIED",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Canon-sponsored education for students is user-confirmed program context, not an organizational department or proof of training Canon staff."
         },
         "superseded_relationship_2026_10_17": "instructor / trainer → delivered design-principles and digital-camera training for GEMS educators and staff; Canon / GEMS route"
@@ -2126,7 +2117,6 @@
           "display_label": "Adobe Software Course Participants",
           "audience_kind": "participant_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2140,8 +2130,7 @@
           "display_label": "Executive Editors Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
-          "boundary": "Entire Executive Editors department trained according to user clarification. SAE correspondence separately documents training delivery; it does not independently establish full department membership."
+          "boundary": "Training delivered to the entire Executive Editors department, as recorded by Joe Nasr."
         }
       },
       {
@@ -2154,7 +2143,6 @@
           "display_label": "Graphic Design & Production Team",
           "audience_kind": "professional_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2169,7 +2157,6 @@
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2184,7 +2171,6 @@
           "display_label": "Marketing Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2199,7 +2185,6 @@
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2214,7 +2199,6 @@
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2229,7 +2213,6 @@
           "display_label": "Graphic Design & Motion Diploma Participants",
           "audience_kind": "participant_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2248,7 +2231,6 @@
           "display_label": "Media & Marketing Departments",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2264,7 +2246,6 @@
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2279,7 +2260,6 @@
           "display_label": "Media Production",
           "audience_kind": "professional_function",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2294,7 +2274,6 @@
           "display_label": "Executive Media Office",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       },
@@ -2312,7 +2291,6 @@
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. The 2026 eight-session course was delivered, confirmed by Joe Nasr on 2026-11-02."
         }
       },
@@ -2330,7 +2308,6 @@
           "display_label": "Media Executive Office",
           "audience_kind": "reported_department_or_team",
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
       }
@@ -2370,7 +2347,7 @@
       "B.Games",
       "Earn.games"
     ],
-    "public_citation_boundary": "USER_CONFIRMED identifies user-attested delivery, not independently publicly verified evidence. VERIFIED_THIRD_PARTY_PRIVATE identifies nonpublic provenance and is not a publicly citable source. No source documents or private correspondence are included in this projection. Workshop recipients and provider relationships do not automatically imply direct employment or contractual client relationships."
+    "public_citation_boundary": "USER_CONFIRMED identifies delivery recorded by Joe Nasr. VERIFIED_THIRD_PARTY_PRIVATE identifies third-party documentation retained privately. Workshop recipients, training providers, employers and contracting clients are distinct relationship types."
   },
   "training_programs": [
     {
@@ -2452,8 +2429,7 @@
           "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
           "volume_id": "w3QmEgAAQBAJ",
           "relationship": "retail_ebook_distribution_of_same_zenodo_book",
-          "evidence": "author-provided public storefront screenshots, 2026-11-14",
-          "independent_live_fetch": "NOT_VERIFIED"
+          "evidence": "author-provided public storefront screenshots, 2026-11-14"
         }
       },
       {
@@ -2509,7 +2485,6 @@
         "pages_as_displayed": 404,
         "doi": "NOT_ESTABLISHED",
         "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
-        "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_non_doi_book_not_zenodo_doi_work"
       },
       {
@@ -2522,7 +2497,6 @@
         "pages_as_displayed": 66,
         "doi": "NOT_ESTABLISHED",
         "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
-        "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_book_not_seventh_zenodo_doi_work"
       }
     ],
