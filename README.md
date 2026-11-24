@@ -1,6 +1,6 @@
 # Joe Nasr - Public Work & References
 
-**Current AI / maintainer handoff:** [AI_HANDOFF_CURRENT.md](AI_HANDOFF_CURRENT.md) – first-read document for the active website, source precedence, release validation and safe continuation. Superseded historical routing is preserved at [docs/archive/RECONCILIATION_HISTORY_2026-11-08.md](docs/archive/RECONCILIATION_HISTORY_2026-11-08.md).
+**Canonical public identity:** https://joe-nasr-signals.vercel.app/
 
 **Creative Director | Digital Experiences | Interactive Prototyping**
 
