@@ -23,6 +23,23 @@ Person ID:
 
 `https://joe-nasr-signals.vercel.app/#joe-nasr`
 
+## Website directory
+
+The canonical Signals website contains eight indexable pages. The route inventory was checked against the production domain on 24 November 2026; all eight returned HTTP 200.
+
+| Page | Canonical URL | Content |
+| --- | --- | --- |
+| Signals | https://joe-nasr-signals.vercel.app/ | Professional identity, practice domains, selected references and FAQ |
+| Training, Workshops & Lectures | https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | Training and teaching engagements |
+| Research & Publications | https://joe-nasr-signals.vercel.app/publications/ | Eight publication entries: six Zenodo works and two retail books |
+| Certifications & Credentials | https://joe-nasr-signals.vercel.app/certifications/ | 32 credential records |
+| Interactive Experiences & Digital Projects | https://joe-nasr-signals.vercel.app/interactive-projects/ | 67 showcase entries, 68 machine-readable records including a related release |
+| Campaigns & Video Productions | https://joe-nasr-signals.vercel.app/video-campaigns/ | Campaign and production library; 200 viewer entries and 201 source records |
+| Music & Performance | https://joe-nasr-signals.vercel.app/music/ | 82 video records and music platform routes |
+| Tools & Technologies | https://joe-nasr-signals.vercel.app/tools-technologies/ | 64 tools across seven categories |
+
+The catalogue counts reflect the repository data. Historical itch.io listings are accessible at https://joe-nasr-signals.vercel.app/games/itchio/ and use a historical snapshot indexing policy (`noindex,follow`). The sitemap enumerates the eight canonical indexable pages. Machine-readable discovery uses `identity.json`, `llms.txt`, `projects.json` and their linked catalogues.
+
 ## Graph role
 
 This site is the public evidence and entity-resolution layer for Joe Nasr. It serves as the canonical hub for professional identity and discovery. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
@@ -88,7 +105,7 @@ Updated from the LinkedIn structure as of 2026-09-30. The 2021–2023 contract r
 - GitHub: https://github.com/Joenasriani
 - Interactive work / games: https://joenasr.itch.io/
 - Research / DOI Registry (GitHub README): https://github.com/Joenasriani/joe-research-registry
-- Current Research & Publications page (6 Zenodo works with related ResearchGate and Dataverse evidence): https://joe-nasr-signals.vercel.app/publications/
+- Current Research & Publications page (eight entries, including six Zenodo works and two retail books, with related ResearchGate and Dataverse evidence): https://joe-nasr-signals.vercel.app/publications/
 - Research source records for Quest-XSA and Quest-MFTS: https://github.com/Joenasriani/joe-research-registry/blob/main/registry.json
 - YouTube / audiovisual work archive: https://youtube.com/@joenasr
 
@@ -116,8 +133,6 @@ Current researcher routing: [ORCID](https://orcid.org/0009-0004-5698-9097) · [Z
 ## Public audience signal
 
 His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure measures cumulative cross-platform follower relationships, including potential audience overlap.
-
-
 
 ## Company and venture relationships
 
@@ -159,7 +174,7 @@ These pages preserve earlier professional, teaching, music, media and platform r
 
 ## Names and handles
 
-The following verified names and handles resolve to the same Joe Nasr identity where the linked source supports that relationship:
+The following documented names and handles resolve to the same Joe Nasr identity where the linked source supports that relationship:
 
 - Joe Nasr - primary public name
 - Joseph Ribal Nasr - full name
@@ -204,7 +219,6 @@ https://joe-nasr-signals.vercel.app/
 - Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection)
 - Historical development evidence: https://joe-nasr-signals.vercel.app/games-development.json
 - Historical game records (preserved): https://joe-nasr-signals.vercel.app/games.json
-- Development archive data: https://joe-nasr-signals.vercel.app/games-development.json
 
 Current public identity, game evidence catalogues, and preview assets are maintained at their canonical root paths. Older game HTML entry points are directed to the integrated Interactive Projects collection. Canonical validation checks use the active root records and routes.
 
@@ -212,7 +226,7 @@ The development archive has its own 20-record preview. IndexNow waits until publ
 
 ## Direct discovery and public evidence
 
-The homepage links directly to the root games and development catalogs. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
+The integrated Interactive Projects page is the primary project discovery route; the root game and development catalogs preserve related machine-readable records. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
 
 The project index and detail shards share names, aliases, evidence classes and retrieval states. Application, publication and source-code access are documented as distinct evidence types. Historical links retain their attribution in archival records; active routes use current public sources.
 
@@ -220,12 +234,11 @@ The project index and detail shards share names, aliases, evidence classes and r
 
 Source validation, deployment, indexing, search ranking and AI citation are distinct verification stages.
 
-
 The canonical integrated interactive collection is https://joe-nasr-signals.vercel.app/interactive-projects/ (canonical integrated collection). The old games.html page remains deleted. Historical JSON catalogs retain original project evidence and identifiers; the integrated collection provides the distinct-project count.
 
 ## Interactive / Research classification boundary (2026-11-02)
 
-The integrated Interactive Projects page contains **67 visible entries** and the related machine-readable collection stores **68 records** (including the non-showcase RoboSim / RoboWebSim release). Nine records are classified under conceptual, research, publication and tutorial documentation: Quest VR / Brain, Quest KET, AURA Olfactory XR, Quest EagleEye, Quest MFTS, Quest-XSA, DaVinci Resolve Student Tutorial, Aether3D, and Quest-4D. Their documented research and publication evidence is retained; DOI identifiers and build status follow each individual source record. The 51-entry `projects.json` evidence registry is a separate collection.
+The integrated Interactive Projects page contains **67 visible entries** and the related machine-readable collection stores **68 records** (including the related RoboSim / RoboWebSim release). Nine records are classified under conceptual, research, publication and tutorial documentation: Quest VR / Brain, Quest KET, AURA Olfactory XR, Quest EagleEye, Quest MFTS, Quest-XSA, DaVinci Resolve Student Tutorial, Aether3D, and Quest-4D. Their documented research and publication evidence is retained; DOI identifiers and build status follow each individual source record. The 51-entry `projects.json` evidence registry is a separate collection.
 
 ### Tools & Technologies inventory consistency
 
