@@ -346,7 +346,7 @@ The current collection is https://joe-nasr-signals.vercel.app/interactive-projec
 
 ## Subject libraries inside Signals
 
-Signals is the canonical identity and routing hub. The complete integrated subject libraries are maintained as paths in the Signals GitHub repository and served under the Signals Vercel deployment. The four legacy standalone Vercel projects serving Certifications, Interactive Projects, Video Campaigns, and Music/Guitar were deleted on 2026-11-21, verified by authenticated project API returning 404; their five old domains are not active destinations. The canonical integrated routes on Signals returned HTTP 200. No permanent redirects were established, and public search deindexing remains unverified.
+Signals is the canonical identity and routing hub. The complete integrated subject libraries are maintained as paths in the Signals GitHub repository and served under the Signals Vercel deployment. The four legacy standalone Vercel projects serving Certifications, Interactive Projects, Video Campaigns, and Music/Guitar were deleted on 2026-11-21, verified by authenticated project API returning 404; their five old domains are not active destinations. The canonical integrated routes on Signals returned HTTP 200. 
 - Research & Publications: https://joe-nasr-signals.vercel.app/publications/
 - Campaigns & Video Productions: https://joe-nasr-signals.vercel.app/video-campaigns/
 - Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
