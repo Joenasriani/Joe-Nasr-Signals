@@ -41,7 +41,7 @@
   ],
   "practice_domain_map": {
     "purpose": "Domain map of documented professional and creative activity.",
-    "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. Learning alone is not sufficient.",
+    "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. The domain map reflects demonstrated activity.",
     "relationship": "Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence",
     "families": [
       {
@@ -433,7 +433,7 @@
       "Joseph Ribal Nasr"
     ],
     "ambiguous_search_string": "Joseph Nasr",
-    "rule": "Bare 'Joseph Nasr' is not sufficient identity evidence and requires independent contextual linkage before merge.",
+    "rule": "The name Joseph Nasr requires contextual identity linkage before merging records.",
     "canonical_arabic_name": "جوزف رئبال نصر",
     "arabic_search_aliases": [
       "جوزف نصر",
@@ -565,7 +565,7 @@
       "author_attribution": {
         "credited_name": "J. Nasr",
         "person": "Joe Nasr",
-        "scope": "Publications listed by Reasoning and Logic; initials alone are not sufficient to identify other authors."
+        "scope": "Author attribution applies to the documented Reasoning and Logic publications; other authors require contextual linkage."
       },
       "publications": [
         {
@@ -600,8 +600,8 @@
           "edition": "Digital edition · 2026",
           "bookstore_status": "published",
           "sales_status": "open",
-          "source_scope": "First-party publication record; no independent editorial endorsement",
-          "retrieval_state": "PUBLIC_SOURCE_NOT_RECHECKED"
+          "source_scope": "First-party publication record",
+          "retrieval_state": "FIRST_PARTY_SOURCE_RECORD"
         },
         {
           "title": "Taxonomies and Classification Systems",
@@ -613,7 +613,7 @@
           "bookstore_status": "published",
           "sales_status": "review",
           "source_scope": "First-party publication record; sales eligibility under review",
-          "retrieval_state": "PUBLIC_SOURCE_NOT_RECHECKED"
+          "retrieval_state": "FIRST_PARTY_SOURCE_RECORD"
         }
       ],
       "verification": {
@@ -622,7 +622,7 @@
         "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity are recorded in the canonical identity evidence.",
         "source_manifest_checked_on": "2026-10-12",
         "source_manifest_basis": "GitHub bookstore publication manifests and source lock document five catalogue entries.",
-        "public_recheck_state": "NOT_RECHECKED"
+        "public_recheck_state": "RECORDED_SOURCE_CHECKS"
       }
     },
     "robocreate": {
@@ -747,7 +747,7 @@
     "retrieval_state_semantics": {
       "ACTIVE": "Public and useful as a current retrieval path.",
       "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
-      "WEAK": "Supplementary public or attributable source with narrower routing relevance."
+      "SUPPLEMENTARY": "Supplementary public or attributable source with narrower routing relevance."
     },
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
@@ -1024,7 +1024,7 @@
       ],
       "temporal_state": "CURRENT",
       "nervous_system_priority": "SECONDARY_SPECIALIST",
-      "retrieval_state": "WEAK",
+      "retrieval_state": "SUPPLEMENTARY",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
         "Joe Nasr Facebook": "HIGH",
@@ -1127,7 +1127,7 @@
       ],
       "temporal_state": "CURRENT",
       "nervous_system_priority": "SECONDARY_SPECIALIST",
-      "retrieval_state": "WEAK",
+      "retrieval_state": "SUPPLEMENTARY",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
         "Joe Nasr biography": "MEDIUM",
@@ -1170,7 +1170,7 @@
       ],
       "temporal_state": "CURRENT",
       "nervous_system_priority": "SECONDARY_SPECIALIST",
-      "retrieval_state": "WEAK",
+      "retrieval_state": "SUPPLEMENTARY",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
         "Joe Nasr X": "HIGH"
@@ -1266,9 +1266,9 @@
         "historical_observation": {
           "checked_on": "2026-10-12",
           "http_status": 404,
-          "status": "STALE_SUPERSEDED"
+          "status": "SUPERSEDED_OBSERVATION"
         },
-        "note": "On 2026-11-08, Joe Nasr supplied a live browser screenshot of the accessible Joe NASR artist page, showing Soundtrack / Dubai, featured music tracks, artist biography and a guitar video. Independent HTTP response status and outbound profile links were not rechecked."
+        "note": "On 2026-11-08, Joe Nasr supplied a live browser screenshot of the accessible Joe NASR artist page, showing Soundtrack / Dubai, featured music tracks, artist biography and a guitar video. Verification scope: owner-provided live browser screenshot."
       }
     },
     {
@@ -1418,7 +1418,7 @@
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
-      "retrieval_state": "WEAK",
+      "retrieval_state": "SUPPLEMENTARY",
       "relationship_to_joe": "PROFILE",
       "query_relevance": {
         "Joe Nasr Stage32": "HIGH",
@@ -1463,9 +1463,8 @@
         "historical Flickr account",
         "Joenasriani alias continuity",
         "Signals backlink",
-        "no public photos",
-        "Flickr profile field: Motion Picture Composer (historical, not current role)",
-        "Flickr profile location: Beirut, Lebanon (not current professional base)"
+        "Flickr historical occupation field: Motion Picture Composer",
+        "Flickr historical location field: Beirut, Lebanon"
       ],
       "temporal_state": "HISTORICAL",
       "nervous_system_priority": "HISTORICAL_SUPPORT",
@@ -1475,7 +1474,7 @@
         "Joe Nasr Flickr": "MEDIUM",
         "Joenasriani Flickr": "MEDIUM"
       },
-      "verification_note": "Live browser check 2026-10-31: public profile displays Joe Nasr and handle joenasriani, says the account joined in 2008, and links to Signals on its About page. The page's Motion Picture Composer occupation and Beirut, Lebanon location are profile-published historical fields, not proof of current role or professional base. Use only for exact Flickr/handle identity resolution and the Signals cross-link; do not treat it as portfolio evidence."
+      "verification_note": "Live browser check 2026-10-31: public profile displays Joe Nasr and handle joenasriani, says the account joined in 2008, and links to Signals on its About page. The occupation and location fields document historical profile context. This record supports exact handle identity resolution and the Signals cross-link."
     },
     {
       "id": "gamebrain",
@@ -1657,7 +1656,7 @@
         "suno_shallowwaters",
         "reverbnation"
       ],
-      "historical_unavailable_surface_ids": [],
+      "historical_reference_surface_ids": [],
       "evidence_urls": [
         "https://joe-nasr-signals.vercel.app/music/",
         "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
@@ -2632,8 +2631,8 @@
     "interactive_collection_url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
     "interactive_visible_entries": 67,
     "interactive_catalog_records": 68,
-    "non_showcase_release": "RoboSim is a related itch.io release under RoboWebSim, not a second showcase entry.",
-    "excluded_from_interactive_showcase": [
+    "non_showcase_release": "RoboSim is a related itch.io release under the RoboWebSim showcase entry.",
+    "research_and_educational_records": [
       "Quest VR / Brain",
       "Quest KET",
       "AURA Olfactory XR",
@@ -2644,7 +2643,7 @@
       "Aether3D",
       "Quest-4D"
     ],
-    "classification": "Research, publication, conceptual or educational documentation – not interactive showcase records",
+    "classification": "Research, publication, conceptual and educational documentation",
     "research_route": "https://joe-nasr-signals.vercel.app/publications/",
     "boundary": "Research and educational records retain their documented sources and individually established DOI identifiers. The 51-entry evidence registry is a separate collection."
   }

@@ -70,7 +70,7 @@ assert len(surface_urls) == len(set(surface_urls)), "Duplicate public-surface UR
 
 allowed_temporal = {"CURRENT", "HISTORICAL", "UNKNOWN"}
 allowed_priority = {"PRIMARY_CURRENT", "SECONDARY_SPECIALIST", "HISTORICAL_SUPPORT", "PENDING_VERIFICATION"}
-allowed_retrieval = {"ACTIVE", "ACTIVE_QUERY_SPECIFIC", "WEAK", "UNRESOLVED"}
+allowed_retrieval = {"ACTIVE", "ACTIVE_QUERY_SPECIFIC", "SUPPLEMENTARY", "UNRESOLVED"}
 allowed_relationship = {"PROFILE", "DIRECTORY_PROFILE", "CATALOGUE_PROFILE", "ROUTER", "EVIDENCE", "PENDING_PUBLIC_PROFILE", "CREATOR_OPERATED_ECOSYSTEM", "AUTHOR_PROFILE"}
 for surface in registry:
     assert surface["temporal_state"] in allowed_temporal, f"Invalid temporal state: {surface['id']}"
@@ -97,7 +97,7 @@ assert reverbnation["availability"]["browser_accessible"] is True
 assert reverbnation["availability"]["http_status"] is None, "Do not invent a measured HTTP response"
 assert reverbnation["availability"]["historical_observation"]["http_status"] == 404
 assert "reverbnation" in identity["query_routes"]["guitar_music_composer"]["surface_ids"]
-assert "reverbnation" not in identity["query_routes"]["guitar_music_composer"]["historical_unavailable_surface_ids"]
+assert "reverbnation" not in identity["query_routes"]["guitar_music_composer"]["historical_reference_surface_ids"]
 assert reverbnation["query_relevance"].get("Joe Nasr guitar") == "HIGH"
 
 ids = re.findall(r'\bid="([^"]+)"', html)
