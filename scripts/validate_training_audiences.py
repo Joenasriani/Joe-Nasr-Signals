@@ -26,7 +26,7 @@ records = canonical["client_relationship_bank_2026_10_04"]["workshops_and_traini
 aliases = {"Ministry of Culture and Knowledge Development":
            "Ministry of Culture & Knowledge Development"}
 
-assert len(visible) == len(records) == 23, "Training record count mismatch"
+assert len(visible) == len(records) == 25, "Training record count mismatch"
 assert len({name for name, _ in visible}) == len(visible), "Duplicate organizations"
 for entry, (name, audience) in zip(records, visible):
     assert aliases.get(entry["name"], entry["name"]) == name, f"Organization mismatch: {name}"
@@ -36,5 +36,5 @@ for entry, (name, audience) in zip(records, visible):
     assert field["evidence_status"], f"Missing evidence qualification: {name}"
     assert field["boundary"], f"Missing inference boundary: {name}"
 assert any(r["name"] == "GEMS Education" and "sponsor" in r.get("boundary", "").lower() and "students" in r["training_audience"]["boundary"].lower() for r in records), "Canon/GEMS evidence boundary missing"
-assert "Entire Executive Editors department trained according to user clarification" in str(records), "ITP scope boundary missing"
-print("Training relationship alignment passed: 23 audiences; canonical identity verified.")
+assert "Training delivered to the entire Executive Editors department, as recorded by Joe Nasr." in str(records), "ITP scope boundary missing"
+print("Training relationship alignment passed: 25 audiences; canonical identity verified.")
