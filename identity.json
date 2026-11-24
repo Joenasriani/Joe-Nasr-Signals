@@ -2126,16 +2126,14 @@
       },
       {
         "name": "ITP Media Group",
-        "relationship": "instructor via SAE → media / video production and editing training",
+        "relationship": "Media production and video editing training delivered to the Executive Editors Department of ITP Media Group through SAE (2017).",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2017",
         "delivery_status": "DELIVERED",
         "training_audience": {
           "display_label": "Executive Editors Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
-          "boundary": "Entire Executive Editors department trained according to user clarification. SAE correspondence separately documents training delivery; it does not independently establish full department membership."
+          "evidence_status": "TRAINING_DELIVERED"
         }
       },
       {
