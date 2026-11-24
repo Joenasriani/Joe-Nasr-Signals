@@ -47,8 +47,8 @@ def check_once(root=ROOT, origin=ORIGIN, opener=None):
         except (URLError, TimeoutError, OSError) as error:
             failures.append(rule["source"] + ": " + str(error))
             continue
-        if status != 308 or urljoin(url, location) != urljoin(origin + "/", rule["destination"]) + query:
-            failures.append(rule["source"] + ": permanent target or query preservation is not ready")
+        if status != (308 if rule.get("permanent", False) else 307) or urljoin(url, location) != urljoin(origin + "/", rule["destination"]) + query:
+            failures.append(rule["source"] + ": configured redirect target or query preservation differs")
     return failures
 
 
@@ -63,7 +63,7 @@ def main():
     while True:
         failures = check_once()
         if not failures:
-            print("Public files match this checkout; all configured permanent routes preserve query strings.")
+            print("Public files match this checkout; all configured redirects preserve query strings.")
             return
         remaining = deadline - time.monotonic()
         if remaining <= 0:
