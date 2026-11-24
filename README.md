@@ -197,7 +197,7 @@ https://joe-nasr-signals.vercel.app/
 
 ## Public data
 
-`identity.json` records LinkedIn-listed roles and dates alongside separately classified teaching and project evidence. Confirming what LinkedIn displays does not independently prove each underlying engagement. The homepage FAQ schema is derived from its visible answers.
+`identity.json` records LinkedIn-listed roles and dates alongside separately classified teaching and project evidence. LinkedIn provides professional profile information; teaching and project records provide their respective source context. The homepage FAQ schema is derived from its visible answers.
 
 ## Canonical games routes
 
