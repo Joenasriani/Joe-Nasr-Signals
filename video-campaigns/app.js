@@ -10,12 +10,12 @@ const sortedVideos=()=>catalog.videos.filter(v=>!v.excludeFromCampaignViewer).so
 function draw(){
  const category=categorySelect.value;
  const query=searchInput.value.trim().toLocaleLowerCase();
- const items=sortedVideos().filter(v=>(!category||v.categories.includes(category))&&(!query||[v.title,v.displayTitle,v.publicDescription??v.description,v.videoId,...v.categories].join(' ').toLocaleLowerCase().includes(query)));
+ const items=sortedVideos().filter(v=>(!category||v.categories.includes(category))&&(!query||[v.title,v.displayTitle,v.publicDescription??'',v.videoId,...v.categories].join(' ').toLocaleLowerCase().includes(query)));
  list.innerHTML=items.map((v,i)=>`<article class="video-card">
    <div class="number">${String(i+1).padStart(3,'0')}</div>
    <div><h3 class="video-title">${esc(v.displayTitle||v.title)}</h3>
      <div class="tags">${v.categories.map(c=>`<span class="tag">${esc(c)}</span>`).join('')}</div>
-     ${(v.publicDescription??v.description)?`<p class="video-description">${esc(v.publicDescription??v.description)}</p>`:''}
+     ${(v.publicDescription??'')?`<p class="video-description">${esc(v.publicDescription??'')}</p>`:''}
      <div class="video-meta"><span>YouTube ID: ${esc(v.videoId)}</span></div>
      
      ${v.additionalSources.map(s=>`<div class="project-reference"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a></div>`).join('')}
