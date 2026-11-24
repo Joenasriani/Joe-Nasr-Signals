@@ -2106,15 +2106,11 @@
           "Understanding the Digital Camera – Basic B2"
         ],
         "delivery_status": "DELIVERED / HISTORICAL",
-        "boundary": "Canon was a sponsor, not a training recipient. Sponsorship and student audience are user-confirmed; do not infer Canon staff training, direct employment or independent public verification.",
         "training_audience": {
           "display_label": "Canon-Sponsored Education",
           "audience_kind": "program_or_sponsorship_context",
-          "evidence_status": "USER_REPORTED_SPONSORSHIP_UNVERIFIED",
-          "independent_public_department_evidence": "NOT_ESTABLISHED",
-          "boundary": "Canon-sponsored education for students is user-confirmed program context, not an organizational department or proof of training Canon staff."
-        },
-        "superseded_relationship_2026_10_17": "instructor / trainer → delivered design-principles and digital-camera training for GEMS educators and staff; Canon / GEMS route"
+          "evidence_status": "TRAINING_DELIVERED"
+        }
       },
       {
         "name": "New Media Academy",
