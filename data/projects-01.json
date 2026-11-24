@@ -20,7 +20,7 @@
       "period": "2015",
       "joe_role": "Freelance Video Editor",
       "deliverable": "Video editing; editing system documented as Final Cut Pro 7.",
-      "evidence_summary": "Joe's public YouTube artifact states Freelance Video Editor: Joe Nasr, Editing: Final Cut Pro 7, Production: Charisma Group, Production Studios: twofour54, Abu Dhabi. Independent 2015 trade/news coverage separately verifies ET Bil Arabi's launch, Charisma Group production and twofour54/Abu Dhabi production context; Etere later documents Final Cut Pro in the show's workflow. The independent context sources do not themselves name Joe as editor.",
+      "evidence_summary": "Joe Nasr worked as freelance video editor using Final Cut Pro 7 for ET Bil Arabi, produced by Charisma Group at twofour54, Abu Dhabi. His public YouTube artifact records the editor credit; trade coverage and Etere document the production and workflow.",
       "public_urls": [
         "https://www.youtube.com/watch?v=Jbmq-5mZHWI",
         "https://www.digitalstudiome.com/production/article-8394-cbs-and-mbc-launch-et-bil-arabi",
@@ -29,8 +29,7 @@
         "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
       ],
       "boundaries": [
-        "Do not describe recurring end-credit inclusion as primary-source verified until an actual end-credit frame is recovered.",
-        "Do not revert the role to audio post-production unless separate evidence proves additional audio work."
+        "Role attribution: published portfolio artifact. Production and workflow context: trade and technical publications. Recurring end-credit inclusion requires an actual end-credit frame."
       ],
       "retrieval_tags": [
         "TV",
@@ -160,14 +159,13 @@
       "period": "2007–2008 (indexed program period)",
       "joe_role": "Music",
       "deliverable": "Main music theme.",
-      "evidence_summary": "Joe Nasr's published video credits Music: Joe Nasr for the show's main music theme, with Gino Aoun as director and Hasan Kabani as production executive. Historical indexed video metadata dates the program to 2007–2008; later video metadata used 2009. These are source-label differences, not a dispute of Joe's music credit. Public historical professional biography also lists Le2ouna 3al Se7a (OTV) among Joe's television work.",
+      "evidence_summary": "Joe Nasr composed the main music theme for Le2ouna 3al Se7a, directed by Gino Aoun with production executive Hasan Kabani. His published video and historical professional biography document the credit. Source date labels span 2007–2009.",
       "public_urls": [
         "https://www.youtube.com/watch?v=6clXuMZ_ft0",
         "https://www.reverbnation.com/joenasr/song/2569067-le2ouna-3al-se7a--tv-show-intro"
       ],
       "boundaries": [
-        "Do not infer the music's exact production year from the video publication date or conflicting historical labels.",
-        "Retain the earlier 2009 metadata reference only as source-history context, not as an unconfirmed-work flag."
+        "Source dates refer to the respective historical metadata records."
       ],
       "retrieval_tags": [
         "Le2ouna 3al Se7a",
@@ -175,7 +173,7 @@
         "theme music",
         "date conflict"
       ],
-      "update_note": "2026-11-02: corrected classification: Joe's music credit is documented; historical program dating differences must not classify the project as unconfirmed.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
@@ -224,7 +222,7 @@
       "period": "Historical; portfolio upload 19 June 2009",
       "joe_role": "Music composition",
       "deliverable": "Commercial TVC music composition. Joe's upload uses demo visuals and explicitly says they are not the final edit.",
-      "evidence_summary": "Joe Nasr's 2009 YouTube artifact states Saudi German Hospital TVC / Music composition / demo visuals - not the final edit. EFX Films' archived first-party work portfolio independently contains 'SGH' project 109 (0:38).",
+      "evidence_summary": "Joe Nasr composed music for the Saudi German Hospital TVC. His 2009 portfolio upload presents demo visuals; EFX Films’ archived portfolio lists the SGH project.",
       "public_urls": [
         "https://www.youtube.com/watch?v=_FD4iFGqSHY",
         "https://web.archive.org/web/20160419040216/http://efxfilms.com/video/watch/109/index.html"
@@ -286,11 +284,10 @@
       "period": "Historical campaign",
       "joe_role": "Post-Production",
       "deliverable": null,
-      "evidence_summary": "Joe Nasr directly confirmed his Post-Production credit on the NYX Professional Makeup Dubai project, with Capital D as the agency (2026-11-02). This is first-person professional attribution, not independent third-party verification.",
+      "evidence_summary": "Post-production for NYX Professional Makeup Dubai through Capital D. Credit recorded by Joe Nasr on 2026-11-02.",
       "public_urls": [],
       "boundaries": [
-        "Capital D is the agency; NYX Professional Makeup is the brand/client.",
-        "Do not infer a specific post-production discipline, deliverable, campaign date, or employer relationship without supporting evidence."
+        "Capital D: agency. NYX Professional Makeup: brand/client. Recorded role: post-production."
       ],
       "retrieval_tags": [
         "beauty",
@@ -298,7 +295,7 @@
         "Capital D",
         "commercial"
       ],
-      "update_note": "2026-11-02: User clarified Agency: Capital D; credit: Post-Production. No independent public artifact asserted.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
@@ -316,7 +313,7 @@
       "period": "Historical",
       "joe_role": "Full Post-Production",
       "deliverable": "Full post-production for a GMC advertising campaign.",
-      "evidence_summary": "Joe Nasr directly confirmed on 2026-11-02 that he handled full post-production on a GMC campaign via Capital D (agency). Legacy public profiles also associate Joe with GMC commercial work.",
+      "evidence_summary": "Full post-production for a GMC campaign through Capital D. Historical professional profiles also document GMC commercial work.",
       "public_urls": [
         "https://clarity.fm/joenasr",
         "https://www.bandsintown.com/a/1583301-joe-nasr"
