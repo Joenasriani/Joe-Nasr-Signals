@@ -40,7 +40,7 @@
     "browser-based and technically implemented experiences"
   ],
   "practice_domain_map": {
-    "purpose": "Domain map of documented professional and creative activity. This is not a chronological CV and not a self-rated skills list.",
+    "purpose": "Domain map of documented professional and creative activity.",
     "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. Learning alone is not sufficient.",
     "relationship": "Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence",
     "families": [
@@ -192,7 +192,7 @@
                   "workshops",
                   "community"
                 ],
-                "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership."
+                "affiliation_note": "Independent Meta Quest content and community initiative."
               }
             ],
             "front_page_selected_evidence": [
@@ -240,7 +240,7 @@
               "Ideavent.ai",
               "ApexInnovate.ae"
             ],
-            "front_page_evidence_note": "Historical correction: Daoversal was listed under Product & Venture Development on 2026-10-01 but is no longer a selected venture. Its creative-work evidence remains under Motion Graphics, Animation & 3D. Daoverse Capital is a separate historical 2021–2023 client record."
+            "front_page_evidence_note": "Daoversal is selected creative-work evidence under Motion Graphics, Animation & 3D. Daoverse Capital is a separate historical 2021–2023 client record."
           }
         ]
       },
@@ -454,7 +454,7 @@
     "ventures": "venture and product relationship evidence",
     "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
   },
-  "presentation_role": "This record is not Joe Nasr's main presentation surface. Its function is to connect different public trails to the same factual person and preserve their relationships, chronology and evidence.",
+  "presentation_role": "Canonical identity and discovery record connecting Joe Nasr’s public work, profiles, relationships, chronology and evidence.",
   "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
   "public_identifiers": [
     {
@@ -589,7 +589,7 @@
           "status": "provisional framework",
           "author": "J. Nasr",
           "url": "https://icf-ai.vercel.app/icf-ai",
-          "scope_note": "Independently published provisional framework; this record does not imply academic affiliation or peer-reviewed status."
+          "scope_note": "Independently published research framework."
         },
         {
           "title": "Mamdani: From Zero to Hero",
@@ -621,7 +621,7 @@
         "checked_on": "2026-09-25",
         "basis": "Live bookstore content for title, author credit and catalogue; ownership and scoped author identity are recorded in the canonical identity evidence.",
         "source_manifest_checked_on": "2026-10-12",
-        "source_manifest_basis": "GitHub bookstore publication manifests and source lock document five catalogue entries. Live HTTP status and independent indexing were not rechecked.",
+        "source_manifest_basis": "GitHub bookstore publication manifests and source lock document five catalogue entries.",
         "public_recheck_state": "NOT_RECHECKED"
       }
     },
@@ -639,7 +639,7 @@
       "url": "https://linktr.ee/questrequestvr",
       "category": "XR + Games",
       "description": "Independent Meta Quest-focused ecosystem spanning VR/XR content, gameplay, reviews, workshops and community resources.",
-      "affiliation_note": "Independent initiative; not an official Meta property and no Meta partnership is implied."
+      "affiliation_note": "Independent Meta Quest content and community initiative."
     }
   },
   "category_routes": {
@@ -1525,7 +1525,7 @@
       "nervous_system_priority": "SECONDARY_SPECIALIST",
       "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "CREATOR_OPERATED_ECOSYSTEM",
-      "affiliation_note": "Independent initiative; not represented as an official Meta property or partnership.",
+      "affiliation_note": "Independent Meta Quest content and community initiative.",
       "query_relevance": {
         "Joe Nasr Meta Quest": "HIGH",
         "Joe Nasr VR": "HIGH",
@@ -1720,7 +1720,7 @@
         "Joe Nasr Sharjah Department of Housing training",
         "Joe Nasr DaVinci training"
       ],
-      "boundary": "Use typed relationship records and delivery states. Do not infer completed delivery from proposal/program involvement, and do not collapse participant-side or venue context into direct contractual-client status."
+      "boundary": "Delivered training, program participation, venue, sponsor and contractual-client relationships are recorded as distinct types."
     },
     "games_xr": {
       "intent": "Games, XR, VR, interactive work",
@@ -1970,7 +1970,7 @@
         "sources": [
           "https://prospectoo.com/company/MediaValleyFz-LLC-14387104/"
         ],
-        "boundary": "Directory-level corroboration, not independent editorial coverage."
+        "boundary": "Directory-profile corroboration."
       },
       {
         "subject": "Montage TV Production",
@@ -1978,7 +1978,7 @@
         "sources": [
           "https://clarity.fm/joenasr"
         ],
-        "boundary": "Testimonial/profile evidence, not editorial coverage."
+        "boundary": "Attributed testimonial and profile evidence."
       }
     ],
     "current_interactive_artifact_corroboration": [
@@ -2161,7 +2161,7 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2019-03",
         "delivery_status": "DELIVERED",
-        "boundary": "This establishes a delivered corporate-training relationship; it does not by itself establish direct employment or direct contracting.",
+        "boundary": "Delivered corporate-training relationship.",
         "training_audience": {
           "display_label": "Marketing Department",
           "audience_kind": "reported_department_or_team",
@@ -2175,7 +2175,7 @@
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
         "period": "2016",
         "delivery_status": "DELIVERED",
-        "boundary": "Participant-domain evidence also included other Emaar hospitality brands; this record does not promote those domains into separate contractual-client relationships.",
+        "boundary": "Participant-domain evidence also included other Emaar hospitality brands.",
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
@@ -2286,7 +2286,7 @@
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "TRAINING_DELIVERED",
-          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. The 2026 eight-session course was delivered, confirmed by Joe Nasr on 2026-11-02."
+          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Host venue, training recipient and participant employer are distinct relationship types. Joe Nasr delivered all eight sessions of the 2026 course."
         }
       },
       {
@@ -2527,7 +2527,7 @@
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
     "scope": "A selection of software, platforms, and technologies encountered throughout my professional practice, spanning creative direction, multimedia production, music and audio, design, interactive experiences, and application development. My experience with these tools includes professional project work, independent development, formal learning, experimentation, and the delivery of technical workshops and training. The nature and depth of my involvement vary by tool, reflecting different stages of my career and areas of specialization.",
-    "evidence_boundary": "User-confirmed public inventory. Inclusion does not establish equal proficiency, certification, or independently verified use for every entry.",
+    "evidence_boundary": "Selected tools and technologies inventory organized by discipline. Certifications, teaching and professional credits have separate records.",
     "inventory_count": 64,
     "groups": [
       {
