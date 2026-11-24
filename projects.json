@@ -595,23 +595,13 @@
     }
   ],
   "public_retrieval_status_semantics": {
-    "PUBLICLY_SUPPORTED": "A listed public source supports the project or role relationship.",
-    "PROFESSIONAL_CREDIT": "Professional project credit.",
-    "PROFESSIONAL_ROLE": "Professional project role.",
-    "PUBLICATION_RECORD": "Publication record.",
-    "PUBLICLY_SUPPORTED_WITH_DATE_CONFLICT": "Public sources support the relationship; source dates differ.",
-    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_NOT_RECENTLY_REVERIFIED": "Public page retained as project context.",
-    "CONTEXT_ONLY_NOT_RECENTLY_REVERIFIED": "Historical project context.",
-    "CONTEXT_ONLY_PUBLIC_PAGE_EXISTS_ROLE_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Related public page provides project context; role information comes from the project record.",
-    "CONTEXT_ONLY_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Contextual entity relationship; role attribution is recorded separately.",
-    "PARTIAL_CONTEXT_NOT_INDEPENDENTLY_PUBLICLY_VERIFIED": "Contextual record describing the documented scope.",
-    "PARTIAL_PUBLIC_CONTEXT": "Only the stated portion is publicly supportable; full completion is not asserted."
+    "PUBLICLY_SUPPORTED": "Project or role linked to a listed public source.",
+    "USER_CONFIRMED_PROFESSIONAL_CREDIT": "Professional project credit recorded by Joe Nasr.",
+    "USER_CONFIRMED_PROFESSIONAL_ROLE": "Professional role recorded by Joe Nasr.",
+    "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD": "Authorship and publication record recorded by Joe Nasr."
   },
   "evidence_class_semantics": {
-    "PUBLIC": "The project or role is supported by a listed public source.",
-    "DOCUMENTED_NONPUBLIC": "The project or role is supported by documented evidence whose underlying source is not published here.",
-    "ESTABLISHED_RECORD": "Established professional record.",
-    "PARTIAL": "Only the stated portion of the work or delivery is established.",
-    "UNRESOLVED": "Contextual records outside the project-credit catalogue."
+    "PUBLIC": "Project or role linked to a listed public source.",
+    "ESTABLISHED_RECORD": "Established professional record."
   }
 }
