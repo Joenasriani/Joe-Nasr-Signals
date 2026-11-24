@@ -70,7 +70,7 @@
       ],
       "boundaries": [
         "Do not force a single production year across the cluster.",
-        "Do not infer political affiliation or endorsement from professional work for the broadcaster."
+        "Relationship scope: professional media production."
       ],
       "retrieval_tags": [
         "OTV",
@@ -319,7 +319,7 @@
         "https://www.bandsintown.com/a/1583301-joe-nasr"
       ],
       "boundaries": [
-        "Capital D is the agency through which Joe worked; do not infer an employment relationship.",
+        "Capital D is the agency through which Joe performed the documented project work.",
         "Exact campaign name and year remain unspecified; do not merge unrelated GMC projects."
       ],
       "retrieval_tags": [
