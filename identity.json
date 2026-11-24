@@ -2310,6 +2310,30 @@
           "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
+      },
+      {
+        "name": "DEWA",
+        "relationship": "Delivered professional training",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Delivered Training",
+          "audience_kind": "training_engagement",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "boundary": "Training engagement recorded by Joe Nasr."
+        }
+      },
+      {
+        "name": "The Millennium School",
+        "relationship": "Delivered professional training",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Delivered Training",
+          "audience_kind": "training_engagement",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "boundary": "Training engagement recorded by Joe Nasr."
+        }
       }
     ],
     "creative_and_brand_clients": [
