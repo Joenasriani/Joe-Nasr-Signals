@@ -2,6 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/AI_HANDOFF_CURRENT.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
       "source": "/games-development.html",
       "destination": "/interactive-projects/",
       "permanent": true
