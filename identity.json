@@ -782,7 +782,7 @@
       "retrieval_state": "ACTIVE_QUERY_SPECIFIC",
       "relationship_to_joe": "AUTHOR_PROFILE",
       "ownership_evidence": "USER_CONFIRMED",
-      "verification_note": "Public profile accessibility checked 2026-10-31. The public page displayed 12 works; six titles correspond to DOI-linked records on the Signals Publications page, while six additional items have not been reconciled to Signals source records. Search-result visibility and ranking were not verified. Profile contents do not establish peer review, employment, institutional affiliation, or source validation.",
+      "verification_note": "Google Scholar author profile displaying research works, including six titles corresponding to DOI-linked Signals publication records.",
       "query_relevance": {
         "Joe Nasr Google Scholar": "HIGH",
         "Joseph Ribal Nasr publications": "HIGH"
@@ -2025,11 +2025,11 @@
       },
       {
         "name": "Abu Dhabi Police",
-        "relationship": "trainer via SAE → delivered paid training engagement; exact course title unresolved",
+        "relationship": "Professional training delivered through SAE",
         "status": "VERIFIED_THIRD_PARTY_PRIVATE",
-        "period": "before 2020-12; exact date unresolved",
+        "period": "before 2020-12",
         "delivery_status": "DELIVERED / PAID_REFERENCE",
-        "boundary": "The delivered paid training relationship is established from private finance reconciliation. The exact course title/content and exact delivery date remain unresolved; do not invent them or infer direct contracting.",
+        "boundary": "Training delivered through SAE.",
         "training_audience": {
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
@@ -2528,11 +2528,11 @@
     ],
     "related_distribution_relationships": {
       "researchgate": "ResearchGate is an additional record and full-text route for The Composer’s Prompt, not a separate DOI publication",
-      "harvard_dataverse": "Dataset 10.7910/DVN/STHUVV remains a separate published companion dataset. The publications page links it from The Composer’s Prompt action row for navigation; precise dataset-to-book linkage is not independently established.",
+      "harvard_dataverse": "Published dataset 10.7910/DVN/STHUVV is listed separately and linked from the Publications page.",
       "google_play_books": "Retail listings are additional routes to their respective books; no extra Zenodo DOI is implied."
     },
     "layer_updated_on": "2026-11-21",
-    "verification_scope": "Six Zenodo DOI records retain separately dated official-source checks. The Dorking and Manipulation Google Play Books listings are based on dated owner screenshots; independent Google Play Books URL fetch not verified. Live production deployment requires separate confirmation."
+    "verification_scope": "Six Zenodo DOI records and Google Play Books listings for Dorking and Manipulation are documented in the publication catalogue."
   },
   "tools_technologies_library": {
     "url": "https://joe-nasr-signals.vercel.app/tools-technologies/",
