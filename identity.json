@@ -699,7 +699,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-24",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -747,7 +747,8 @@
     "retrieval_state_semantics": {
       "ACTIVE": "Public and useful as a current retrieval path.",
       "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
-      "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source."
+      "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source.",
+      "UNRESOLVED": "Reserved for records outside active identity routing."
     },
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
@@ -1257,6 +1258,18 @@
         "Joe Nasr guitar": "HIGH",
         "Joe Nasr composer": "HIGH",
         "Joe Nasr music": "HIGH"
+      },
+      "availability": {
+        "checked_on": "2026-11-08",
+        "method": "USER_PROVIDED_LIVE_BROWSER_SCREENSHOT",
+        "browser_accessible": true,
+        "http_status": null,
+        "historical_observation": {
+          "checked_on": "2026-10-12",
+          "http_status": 404,
+          "status": "STALE_SUPERSEDED"
+        },
+        "note": "On 2026-11-08, Joe Nasr supplied a live browser screenshot of the accessible Joe NASR artist page, showing Soundtrack / Dubai, featured music tracks, artist biography and a guitar video. Independent HTTP response status and outbound profile links were not rechecked."
       }
     },
     {
@@ -1435,7 +1448,7 @@
         "Joe Nasr Creative Director Dubai": "MEDIUM",
         "Joe Nasr Apex Innovate": "MEDIUM"
       },
-      "verification_note": "Professional directory profile linked to Signals."
+      "verification_note": "Directory profile displaying Creative Director & Founder, Apex Innovate FZE LLC, with a link to Signals. Apex Innovate is based in the United Arab Emirates."
     },
     {
       "id": "flickr_joenasriani",
@@ -1801,7 +1814,8 @@
       "event": "13th Dubai International Film Festival",
       "temporal_state": "HISTORICAL",
       "canonical_public_url": "https://joe-nasr-signals.vercel.app/",
-      "description": "Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films."
+      "description": "Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films.",
+      "evidence_boundary": "Editor credit recorded in Joe Nasr’s project documentation; Navigation Films sources provide production context."
     },
     {
       "name": "Cartier corporate training through SAE",
@@ -1871,7 +1885,8 @@
       "PUBLIC": "Supported by a listed public source.",
       "DOCUMENTED_NONPUBLIC": "Supported by documented evidence whose underlying source is not published in this public record.",
       "ESTABLISHED_RECORD": "Established professional record.",
-      "PARTIAL": "Only the stated portion of the work or delivery is established."
+      "PARTIAL": "Only the stated portion of the work or delivery is established.",
+      "UNRESOLVED": "Contextual records outside the public project-credit catalogue."
     }
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
@@ -1938,7 +1953,7 @@
           "https://www.digitalstudiome.com/production/content-management/article-8971-et-bil-arabi-finds-new-home-at-twofour54",
           "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
         ],
-        "boundary": "Sources document the production context and editing workflow."
+        "boundary": "Production context sources; editor credit recorded in Joe Nasr’s project evidence."
       },
       {
         "subject": "E! Beyond The Red Carpet / DIFF 2016",
@@ -1947,7 +1962,7 @@
           "https://navigationfilms.com/offices/dubai/",
           "https://navigationfilms.com/our-work/"
         ],
-        "source_scope": "Navigation Films production and post-production company profile."
+        "boundary": "Navigation Films sources document production context; the editor credit is recorded in Joe Nasr’s project record."
       },
       {
         "subject": "Media Valley",
@@ -1987,7 +2002,8 @@
         "training_audience": {
           "display_label": "Editors, Photographers & Media Teams",
           "audience_kind": "mixed_professional_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -1997,7 +2013,8 @@
         "training_audience": {
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2010,7 +2027,8 @@
         "training_audience": {
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2020,7 +2038,8 @@
         "training_audience": {
           "display_label": "Abu Dhabi Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2030,7 +2049,8 @@
         "training_audience": {
           "display_label": "National Theatre of Abu Dhabi Team",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2040,7 +2060,8 @@
         "training_audience": {
           "display_label": "Event Producers, Designers & Animators",
           "audience_kind": "professional_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2050,7 +2071,8 @@
         "training_audience": {
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2060,7 +2082,8 @@
         "training_audience": {
           "display_label": "Media Workshop Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2076,8 +2099,10 @@
         "training_audience": {
           "display_label": "Canon-Sponsored Education",
           "audience_kind": "program_or_sponsorship_context",
-          "evidence_status": "TRAINING_DELIVERED"
-        }
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Canon-sponsored education for students."
+        },
+        "boundary": "Canon sponsored the education program for students."
       },
       {
         "name": "New Media Academy",
@@ -2086,7 +2111,8 @@
         "training_audience": {
           "display_label": "Adobe Software Course Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2098,7 +2124,8 @@
         "training_audience": {
           "display_label": "Executive Editors Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Training delivered to the entire Executive Editors department, as recorded by Joe Nasr."
         }
       },
       {
@@ -2110,7 +2137,8 @@
         "training_audience": {
           "display_label": "Graphic Design & Production Team",
           "audience_kind": "professional_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2123,7 +2151,8 @@
         "training_audience": {
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2136,7 +2165,8 @@
         "training_audience": {
           "display_label": "Marketing Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2149,7 +2179,8 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2162,7 +2193,8 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2175,7 +2207,8 @@
         "training_audience": {
           "display_label": "Graphic Design & Motion Diploma Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2192,7 +2225,8 @@
         "training_audience": {
           "display_label": "Media & Marketing Departments",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2206,7 +2240,8 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2219,7 +2254,8 @@
         "training_audience": {
           "display_label": "Media Production",
           "audience_kind": "professional_function",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2232,7 +2268,8 @@
         "training_audience": {
           "display_label": "Executive Media Office",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
         }
       },
       {
@@ -2262,7 +2299,32 @@
         "training_audience": {
           "display_label": "Media Executive Office",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "TRAINING_DELIVERED"
+          "evidence_status": "TRAINING_DELIVERED",
+          "boundary": "Audience recorded for the delivered training engagement."
+        }
+      },
+      {
+        "name": "DEWA",
+        "relationship": "Delivered professional training",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Delivered Training",
+          "audience_kind": "training_engagement",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "boundary": "Training engagement recorded by Joe Nasr."
+        }
+      },
+      {
+        "name": "The Millennium School",
+        "relationship": "Delivered professional training",
+        "status": "USER_CONFIRMED",
+        "delivery_status": "DELIVERED",
+        "training_audience": {
+          "display_label": "Delivered Training",
+          "audience_kind": "training_engagement",
+          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "boundary": "Training engagement recorded by Joe Nasr."
         }
       }
     ],
@@ -2301,7 +2363,7 @@
       "B.Games",
       "Earn.games"
     ],
-    "public_citation_boundary": "Training recipients, training providers, creative clients and production organizations are distinct professional relationship categories."
+    "public_citation_boundary": "USER_CONFIRMED identifies delivery recorded by Joe Nasr. VERIFIED_THIRD_PARTY_PRIVATE identifies third-party documentation retained privately. Workshop recipients, training providers, employers and contracting clients are distinct relationship types."
   },
   "training_programs": [
     {
@@ -2313,10 +2375,10 @@
       "program": "DaVinci Resolve Mastery",
       "year": 2026,
       "delivery_status": "DELIVERED",
-      "established_scope": "Earlier documentation established four sessions; Joe Nasr confirmed delivery of all eight on 2026-11-02.",
+      "established_scope": "Eight training sessions delivered.",
       "evidence_status": "USER_CONFIRMED_DELIVERED",
-      "boundary": "All eight sessions delivered according to Joe Nasr's direct confirmation; do not misrepresent this as independent attendance verification.",
-      "confirmed_delivery_scope": "All eight sessions confirmed delivered by Joe Nasr on 2026-11-02."
+      "boundary": "Delivery recorded by the trainer.",
+      "confirmed_delivery_scope": "All eight sessions delivered, as recorded by Joe Nasr on 2026-11-02."
     }
   ],
   "game_catalogs": [
@@ -2383,8 +2445,7 @@
           "url": "https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ",
           "volume_id": "w3QmEgAAQBAJ",
           "relationship": "retail_ebook_distribution_of_same_zenodo_book",
-          "evidence": "author-provided public storefront screenshots, 2026-11-14",
-          "independent_live_fetch": "NOT_VERIFIED"
+          "evidence": "author-provided public storefront screenshots, 2026-11-14"
         }
       },
       {
@@ -2440,7 +2501,6 @@
         "pages_as_displayed": 404,
         "doi": "NOT_ESTABLISHED",
         "evidence": "author-provided Google Play Books screenshot, 2026-11-21",
-        "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_non_doi_book_not_zenodo_doi_work"
       },
       {
@@ -2453,7 +2513,6 @@
         "pages_as_displayed": 66,
         "doi": "NOT_ESTABLISHED",
         "evidence": "author-provided Google Play Books screenshot, 2026-11-15",
-        "independent_live_fetch": "NOT_VERIFIED",
         "relationship": "separate_book_not_seventh_zenodo_doi_work"
       }
     ],
