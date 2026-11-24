@@ -71,12 +71,12 @@
       "period": "2026 active development context",
       "joe_role": "Co-Founder + Creative Director",
       "deliverable": "Event ideation / event-architecture SaaS project.",
-      "evidence_summary": "Documented contribution to the event ideation and event-architecture project. The public product site provides project context, not independent proof of Joe Nasr’s role or partnership structure. User directly confirmed Co-Founder + Creative Director on 2026-11-02. Ownership percentages, corporate registrations and partnership terms are not established by this confirmation.",
+      "evidence_summary": "Event ideation and event architecture project. Joe Nasr recorded his role as Co-Founder and Creative Director on 2026-11-02. The public product site provides project context.",
       "public_urls": [
         "https://ideavent.ai/"
       ],
       "boundaries": [
-        "Joe directly confirms Co-Founder and Creative Director; public site alone does not independently prove partnership structure.",
+        "Co-Founder and Creative Director, as recorded by Joe Nasr.",
         "Do not infer corporate shareholding, incorporation, share percentage or contractual terms."
       ],
       "retrieval_tags": [
@@ -84,7 +84,7 @@
         "SaaS",
         "product"
       ],
-      "update_note": "2026-11-02: User directly confirmed Co-Founder + Creative Director on 2026-11-02. Ownership percentages, corporate registrations and partnership terms are not established by this confirmation.",
+      "update_note": "2026-11-02: Co-Founder and Creative Director role recorded by Joe Nasr.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
