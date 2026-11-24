@@ -31,7 +31,7 @@
         "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfjkeigxE9B4dce16vtCY67"
       ],
       "boundaries": [
-        "Do not infer unverified talent surnames or agency relationships beyond established records."
+        "Talent and agency attribution follows the documented source records."
       ],
       "retrieval_tags": [
         "Dubai Tourism",
@@ -258,9 +258,9 @@
       "evidence_summary": "Joe Nasr contributed operations and creative direction at Guild Technologies, Dubai, in relation to ConsciousDAO. The archived website UI record documents one project activity.",
       "public_urls": [],
       "boundaries": [
-        "Do not represent the earlier website UI adjustment as Joe's exact deliverable without further project-specific evidence.",
+        "The earlier website UI adjustment is recorded as project context; individual deliverables follow project-specific evidence.",
         "Distinguish Guild Technologies role from ConsciousDAO project/client relationship.",
-        "Do not infer sole ownership of CDAO website design or implementation."
+        "CDAO website design and implementation are recorded as project context; individual contributions follow documented attribution."
       ],
       "retrieval_tags": [
         "UI",
