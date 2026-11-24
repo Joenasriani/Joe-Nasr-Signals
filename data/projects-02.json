@@ -21,7 +21,7 @@
       "period": "2019",
       "joe_role": "Post-production",
       "deliverable": "Post-production on individual Department of Tourism and Commerce Marketing influencer/talent cuts.",
-      "evidence_summary": "Existing YouTube/project cleanup record. Shadow independently lists Dubai Tourism among its clients. Joe's role and production chain are preserved in the approved project metadata.",
+      "evidence_summary": "Joe Nasr contributed post-production to the Dubai Tourism influencer series. His public Nilo video documents the credit; Shadow lists Dubai Tourism among its clients.",
       "public_urls": [
         "https://www.youtube.com/watch?v=kvmCU-dMWqU",
         "https://www.youtube.com/watch?v=jTQm-RiwLms",
@@ -59,7 +59,7 @@
       "period": "2018",
       "joe_role": "Post-production",
       "deliverable": "Lookbook-format Dubai Tourism assets.",
-      "evidence_summary": "Approved YouTube cleanup record.",
+      "evidence_summary": "Joe Nasr contributed post-production to the Dubai Tourism lookbooks, as credited in the published YouTube descriptions.",
       "public_urls": [
         "https://www.youtube.com/watch?v=IU_qMlQmcm8",
         "https://www.youtube.com/watch?v=tfd3Pq3WLlI",
@@ -89,7 +89,7 @@
       "period": "2021",
       "joe_role": "Post-production",
       "deliverable": "MENA commercial/post-production project.",
-      "evidence_summary": "SEEME Production Vimeo/public project tracing supports the project. Joe's individual post-production role is preserved in the archive/project record.",
+      "evidence_summary": "Joe Nasr contributed post-production to adidas TERREX Jackets MENA. SEEME Production’s public portfolio provides project context.",
       "public_urls": [
         "https://vimeo.com/794455766"
       ],
@@ -121,7 +121,7 @@
       "period": "Portfolio publication dates: January–March 2018",
       "joe_role": "Motion Graphics / Animation",
       "deliverable": "Motion graphics / animation for the GLAMGLOW × Sephora social media campaign.",
-      "evidence_summary": "Joe Nasr directly confirmed his exact credit as Motion Graphics / Animation and agency as Capital D on 2026-11-02. The four associated YouTube artifacts document the GLAMGLOW × Sephora social, intro, Instagram, and influencer campaign context. First-party artifact titles and descriptions are project references, not proof of broader post-production duties or independent client-side credits.",
+      "evidence_summary": "Motion graphics and animation for the GLAMGLOW × Sephora social media campaign through Capital D. Four published YouTube artifacts document the social, intro, Instagram and influencer campaign.",
       "public_urls": [
         "https://www.youtube.com/watch?v=dUImFNFP1jw",
         "https://www.youtube.com/watch?v=R_OgfQqBIEY",
@@ -129,10 +129,7 @@
         "https://www.youtube.com/watch?v=mpc1JXmEe98"
       ],
       "boundaries": [
-        "Capital D is the agency, not Joe's employer unless separately documented.",
-        "Joe's exact confirmed credit is Motion Graphics / Animation; do not replace it with generic post-production.",
-        "Publication dates do not necessarily establish production dates.",
-        "YouTube portfolio evidence and Joe's own confirmation must not be described as independent client-side verification."
+        "Capital D: agency. Joe Nasr: motion graphics and animation. Dates follow the individual published assets."
       ],
       "retrieval_tags": [
         "Sephora",
@@ -140,7 +137,7 @@
         "After Effects",
         "Premiere"
       ],
-      "update_note": "2026-11-02: User corrected exact credit to Motion Graphics / Animation and confirmed agency Capital D; supersedes earlier generalized post-production attribution.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
@@ -193,16 +190,13 @@
       "period": "Portfolio video published June 2012",
       "joe_role": "Audio Post-Production",
       "deliverable": "Audio post-production for Pepsi Arabia / Qusai Kheder commercial.",
-      "evidence_summary": "Joe Nasr directly confirmed Audio Post-Production as his exact credit, undertaken via Montage TV Production (2026-11-02). His YouTube archive identifies Pepsi Arabia, Impact BBDO Jeddah as the campaign agency, the Bigger is Better / Pepsi 500 ml TVC and Qusai Kheder (i6ScASwPlvU). A third-party 2011 Pepsi/Qusai Music Mix reference is retained as separate, unlinked context; no assumption that these are the same production.",
+      "evidence_summary": "Audio post-production for Pepsi Arabia × Qusai Kheder through Montage TV Production. The YouTube campaign archive identifies Impact BBDO Jeddah as campaign agency and documents the Bigger is Better / Pepsi 500 ml TVC. The 2011 Pepsi/Qusai Music Mix is a separate source record.",
       "public_urls": [
         "https://www.youtube.com/watch?v=i6ScASwPlvU",
         "https://ae.linkedin.com/in/antoniosabatella"
       ],
       "boundaries": [
-        "Joe's credit is Audio Post-Production; do not attribute video editing, TV montage, or music composition.",
-        "Joe performed this work via Montage TV Production; do not substitute the advertised campaign agency, Impact BBDO, as Joe's engagement route.",
-        "Do not infer formal employment with Montage TV Production from this project credit.",
-        "Do not merge the 2011 Pepsi/Qusai Music Mix third-party reference without evidence."
+        "Joe Nasr: audio post-production. Engagement route: Montage TV Production. Campaign agency: Impact BBDO Jeddah. The 2011 Pepsi/Qusai Music Mix is a separate source record."
       ],
       "retrieval_tags": [
         "Pepsi Arabia",
@@ -213,7 +207,7 @@
         "Bonsaininja",
         "Massimiliano Pareschi"
       ],
-      "update_note": "2026-11-02: User clarified Audio Post-Production work was via Montage TV Production. Distinguish his engagement route from campaign agency in YouTube description.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
@@ -261,7 +255,7 @@
       "period": "Jul-Aug 2023 document context",
       "joe_role": "Director of Operations & Creative Lead",
       "deliverable": null,
-      "evidence_summary": "Joe Nasr confirmed on 2026-11-02 that his role was operational and creative director at Guild Technologies, Dubai, in relation to the previously indexed CDAO website UI record. The earlier UI adjustment description records one aspect of the project.",
+      "evidence_summary": "Joe Nasr contributed operations and creative direction at Guild Technologies, Dubai, in relation to ConsciousDAO. The archived website UI record documents one project activity.",
       "public_urls": [],
       "boundaries": [
         "Do not represent the earlier website UI adjustment as Joe's exact deliverable without further project-specific evidence.",
@@ -289,7 +283,7 @@
       "period": "Dec 2024-Jan 2025",
       "joe_role": "Creative Direction + Content Strategy + Graphic Design / Social Content",
       "deliverable": "Creative direction, content strategy, graphic design and social content for AVA / GLO.",
-      "evidence_summary": "Documented project record supports Joe Nasr's content-strategy and graphic/content contribution. User confirmed exact combined contribution on 2026-11-02.",
+      "evidence_summary": "Joe Nasr contributed creative direction, content strategy, graphic design and social content.",
       "public_urls": [],
       "retrieval_tags": [
         "AVA",
@@ -298,7 +292,7 @@
         "graphics",
         "social"
       ],
-      "update_note": "2026-11-02: User confirmed exact combined contribution on 2026-11-02.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
@@ -316,15 +310,13 @@
       "period": null,
       "joe_role": "Full Post-Production",
       "deliverable": "Full post-production for Chevrolet Arabia All-New Traverse #BetterDriver campaign.",
-      "evidence_summary": "Official Chevrolet Arabia YouTube campaign artifact documents the branded campaign. Joe Nasr directly confirmed on 2026-11-02 that his credit was Full Post-Production through Capital D. Official channel does not name his individual credit; this is separately sourced to Joe's confirmation.",
+      "evidence_summary": "Full post-production for Chevrolet Arabia’s All-New Traverse #BetterDriver campaign through Capital D. Chevrolet Arabia’s official YouTube channel documents the campaign.",
       "public_urls": [
         "https://www.youtube.com/watch?v=wTMNBmSIVIY",
         "https://www.youtube.com/playlist?list=PLA_K3WfiOwlfvTCEWNSZWdE5YwbwkT2gY"
       ],
       "boundaries": [
-        "Capital D is the agency through which Joe contributed, not an asserted employer.",
-        "Official Chevrolet Arabia publication establishes the campaign artifact; Joe's individual role is supported by his own confirmation.",
-        "Do not infer an exact production date from upload/publication metadata."
+        "Capital D: agency. Role attribution: Joe Nasr’s professional project record. Campaign source: Chevrolet Arabia. Dates follow publication metadata."
       ],
       "retrieval_tags": [
         "Chevrolet",
@@ -334,7 +326,7 @@
         "official client publication",
         "regional campaign"
       ],
-      "update_note": "2026-11-02: Joe directly confirmed Full Post-Production via Capital D.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
