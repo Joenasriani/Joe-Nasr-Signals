@@ -1818,7 +1818,7 @@
       "event": "13th Dubai International Film Festival",
       "temporal_state": "HISTORICAL",
       "canonical_public_url": "https://joe-nasr-signals.vercel.app/",
-      "evidence_boundary": "The editor role is documented in the project record. The listed public Navigation Films pages establish production context, not an independently published credit naming Joe Nasr on this production."
+      "description": "Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films."
     },
     {
       "name": "Cartier corporate training through SAE",
@@ -1966,7 +1966,7 @@
           "https://navigationfilms.com/offices/dubai/",
           "https://navigationfilms.com/our-work/"
         ],
-        "boundary": "No public Navigation Films or independent source naming Joe Nasr on this production has yet been recovered."
+        "source_scope": "Navigation Films production and post-production company profile."
       },
       {
         "subject": "Media Valley",
