@@ -803,7 +803,7 @@
       "id": "mario-merge",
       "title": "Mario Merge",
       "category": "Games & Play",
-      "description": "Unofficial fan-made merge puzzle; not affiliated with Nintendo.",
+      "description": "Independently created fan-made merge puzzle inspired by Mario.",
       "status": "Published / source listing",
       "type": "Game",
       "links": [
@@ -999,7 +999,7 @@
       "id": "cybertruck-madness-98",
       "title": "Cybertruck Madness '98",
       "category": "Games & Play",
-      "description": "Independent retro driving experiment, not affiliated with Tesla.",
+      "description": "Independently created retro driving experiment inspired by Cybertruck.",
       "status": "Published / source listing",
       "type": "Game",
       "links": [
@@ -1533,5 +1533,5 @@
     "Interactive Tools"
   ],
   "visible_count": 67,
-  "display_policy": "67 visible project entries; RoboSim preserved as a related itch.io release record under RoboWebSim, without independent showcase placement."
+  "display_policy": "67 visible project entries; RoboSim preserved as a related itch.io release record under RoboWebSim, within the parent showcase entry."
 }

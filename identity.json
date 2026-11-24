@@ -444,7 +444,7 @@
   "supporting_evidence_repository": "https://github.com/Joenasriani/joe-nasr-public-reception",
   "canonical_record_layer": "https://joe-nasr-signals.vercel.app/",
   "graph_role": "Canonical public identity, evidence and discovery hub for Joe Nasr. It connects aliases, chronology, projects, companies, ventures, platforms and evidence without forcing the whole person into one professional category.",
-  "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. No specialist surface should redefine the whole person.",
+  "platform_inheritance_rule": "Platform surfaces inherit the same factual identity graph while keeping platform-native scope and prose. Each specialist surface represents its own documented domain within the shared identity graph.",
   "platform_roles": {
     "linkedin": "current professional and career chronology",
     "youtube": "audiovisual archive across professional projects, media, music/audio, training and selected interactive work",
@@ -586,7 +586,7 @@
           "title": "ICF-AI",
           "full_title": "Integrative Causal Framework for AI Systems",
           "type": "research_framework",
-          "status": "provisional framework",
+          "status": "working framework",
           "author": "J. Nasr",
           "url": "https://icf-ai.vercel.app/icf-ai",
           "scope_note": "Independently published research framework."
@@ -747,7 +747,7 @@
     "retrieval_state_semantics": {
       "ACTIVE": "Public and useful as a current retrieval path.",
       "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
-      "SUPPLEMENTARY": "Supplementary public or attributable source with narrower routing relevance."
+      "SUPPLEMENTARY": "Supplementary public or attributable source for specific queries."
     },
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
@@ -1768,7 +1768,7 @@
       "surface_ids": [
         "suno_shallowwaters"
       ],
-      "scope": "This account does not establish authorship or rights for similarly named artists or individual tracks."
+      "scope": "Attribution scope: this specific account. Track authorship and rights require track-specific evidence."
     },
     "flickr_historical_profile": {
       "intent": "Joe Nasr Flickr profile, Joenasriani account, historical identity and handle continuity",
@@ -1855,7 +1855,7 @@
       "https://joe-nasr-signals.vercel.app/data/projects-04.json",
       "https://joe-nasr-signals.vercel.app/data/projects-05.json"
     ],
-    "role": "Machine-readable project/evidence layer beneath the person identity graph. Projects are related entities, not Person sameAs identities.",
+    "role": "Machine-readable project/evidence layer beneath the person identity graph. Projects connect through typed relationships; Person sameAs links identify the individual.",
     "fields": [
       "canonical project name",
       "aliases",
@@ -1923,7 +1923,7 @@
     }
   ],
   "public_evidence_update_2026_10_04": {
-    "presentation_state": "Client, project and institution names are represented through practice-domain selected evidence and machine-readable project/source records rather than a standalone CLIENTELE wall.",
+    "presentation_state": "Client, project and institution names are represented through practice-domain selected evidence and machine-readable project/source records.",
     "direct_or_institutional_corroboration": [
       {
         "subject": "SAE UAE Design and Motion Graphics program",
@@ -2382,7 +2382,7 @@
       "page": "https://joe-nasr-signals.vercel.app/interactive-projects/",
       "data": "https://joe-nasr-signals.vercel.app/games.json",
       "record_count": 26,
-      "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Published games and interactive projects",
+      "scope": "Historical snapshot of published games and interactive projects represented in the consolidated collection",
       "temporal_state": "HISTORICAL"
     },
     {
@@ -2390,7 +2390,7 @@
       "page": "https://joe-nasr-signals.vercel.app/interactive-projects/",
       "data": "https://joe-nasr-signals.vercel.app/games-development.json",
       "record_count": 20,
-      "scope": "Historical evidence snapshot; not a separate current collection or an additional project count. Prototypes, earlier builds and development records; not additional published games",
+      "scope": "Historical snapshot of prototypes, earlier builds and development records represented in the consolidated collection",
       "temporal_state": "HISTORICAL"
     }
   ],
@@ -2399,10 +2399,10 @@
     "url": "https://joe-nasr-signals.vercel.app/interactive-projects/",
     "temporal_state": "CURRENT",
     "relationship": "Joe Nasr → creator/contributor → individual project records",
-    "historical_evidence_rule": "games.json and games-development.json preserve earlier records; counts overlap with the current collection and must not be added to it."
+    "historical_evidence_rule": "games.json and games-development.json preserve earlier records; the consolidated collection provides the current distinct-project count."
   },
   "external_libraries": {
-    "role": "Subject libraries hosted within Signals; former standalone Vercel library projects have been retired.",
+    "role": "Subject libraries consolidated under the canonical Signals routes.",
     "libraries": [
       {
         "name": "Campaigns & Video Productions",
@@ -2512,7 +2512,7 @@
       }
     ],
     "related_distribution_relationships": {
-      "researchgate": "ResearchGate is an additional record and full-text route for The Composer’s Prompt, not a separate DOI publication",
+      "researchgate": "ResearchGate provides an additional full-text distribution route for The Composer’s Prompt",
       "harvard_dataverse": "Published dataset 10.7910/DVN/STHUVV is listed separately and linked from the Publications page.",
       "google_play_books": "Retail listings provide additional distribution routes to their respective books."
     },
