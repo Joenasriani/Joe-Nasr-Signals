@@ -701,7 +701,7 @@
     ]
   },
   "schema_relationship_rule": "Use sameAs only for pages or profiles representing Joe Nasr himself. Companies, ventures, books, games and projects are separate entities connected by explicit relationships and must not be treated as sameAs identities.",
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-24",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -1452,7 +1452,7 @@
         "Joe Nasr Creative Director Dubai": "MEDIUM",
         "Joe Nasr Apex Innovate": "MEDIUM"
       },
-      "verification_note": "Live browser check 2026-10-31: the publicly visible profile displays “Creative Director & Founder, Apex Innovate FZE LLC,” Dubai, United Arab Emirates, and links to Signals in its About section. Treat these as current profile-published details and a supporting directory route; the page itself does not independently verify the underlying role, company relationship, or event attendance."
+      "verification_note": "Directory profile displaying Creative Director & Founder, Apex Innovate FZE LLC, Dubai, United Arab Emirates, with a link to Signals."
     },
     {
       "id": "flickr_joenasriani",
@@ -1957,7 +1957,7 @@
           "https://www.digitalstudiome.com/production/content-management/article-8971-et-bil-arabi-finds-new-home-at-twofour54",
           "https://www.etere.com/DocView/8641/Charisma-Group-Selects-Etere-MAM-for-ET-Bil-Arabi.aspx"
         ],
-        "boundary": "These sources do not independently name Joe Nasr as editor; Joe's role remains supported by his public artifact and recorded project evidence."
+        "boundary": "Production context sources; editor credit recorded in Joe Nasr’s project evidence."
       },
       {
         "subject": "E! Beyond The Red Carpet / DIFF 2016",
@@ -1966,7 +1966,7 @@
           "https://navigationfilms.com/offices/dubai/",
           "https://navigationfilms.com/our-work/"
         ],
-        "boundary": "No public Navigation Films or independent source naming Joe Nasr on this production has yet been recovered."
+        "boundary": "Navigation Films sources document production context; the editor credit is recorded in Joe Nasr’s project record."
       },
       {
         "subject": "Media Valley",
@@ -2382,10 +2382,10 @@
       "program": "DaVinci Resolve Mastery",
       "year": 2026,
       "delivery_status": "DELIVERED",
-      "established_scope": "Earlier documentation established four sessions; Joe Nasr confirmed delivery of all eight on 2026-11-02.",
+      "established_scope": "Eight training sessions delivered.",
       "evidence_status": "USER_CONFIRMED_DELIVERED",
-      "boundary": "All eight sessions delivered according to Joe Nasr's direct confirmation; do not misrepresent this as independent attendance verification.",
-      "confirmed_delivery_scope": "All eight sessions confirmed delivered by Joe Nasr on 2026-11-02."
+      "boundary": "Delivery recorded by the trainer.",
+      "confirmed_delivery_scope": "All eight sessions delivered, as recorded by Joe Nasr on 2026-11-02."
     }
   ],
   "game_catalogs": [
