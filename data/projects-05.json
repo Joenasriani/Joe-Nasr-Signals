@@ -226,7 +226,7 @@
         "https://www.stage32.com/media/1064925116376293426"
       ],
       "boundaries": [
-        "A pitch artifact does not prove that the work was commissioned, broadcast, selected or commercially released."
+        "Evidence scope: pitch-stage creative work."
       ],
       "retrieval_tags": [
         "H&S",
@@ -327,7 +327,7 @@
       ],
       "boundaries": [
         "Experimental fan project without affiliation to Tesla or the creators of Motocross Madness.",
-        "The source-code license does not establish redistribution rights for bundled models or music."
+        "Source-code licensing and bundled media rights are separate license scopes."
       ],
       "retrieval_tags": [
         "Three.js",
