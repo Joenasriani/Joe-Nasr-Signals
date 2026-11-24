@@ -289,7 +289,7 @@
       "period": "Current/recent",
       "joe_role": "Author / research framework creator",
       "deliverable": "Public research record and Reference Edition by J. Nasr.",
-      "evidence_summary": "First-party public Reference Edition attributed to J. Nasr; a proposed framework, not proof of empirical validation.",
+      "evidence_summary": "ICF-AI Reference Edition, a research framework authored by J. Nasr.",
       "public_urls": [
         "https://icf-ai.vercel.app/icf-ai"
       ],
@@ -357,14 +357,13 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Digital book, Digital edition · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this book under J. Nasr; its publication manifest records the author and edition. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
+      "evidence_summary": "Mamdani: From Zero to Hero, authored by J. Nasr and listed in the Reasoning and Logic bookstore publication manifest.",
       "public_urls": [
         "https://mamdani-from-zero-to-hero.vercel.app/",
         "https://reasoning-and-logic.vercel.app/"
       ],
       "boundaries": [
-        "First-party book attribution is not independent editorial validation or an endorsement of claims about the book's subject.",
-        "Recheck live URL, response and independent search retrieval after release."
+        "Authorship and edition: bookstore publication manifest."
       ],
       "retrieval_tags": [
         "publication",
@@ -373,7 +372,7 @@
         "From Zero to Hero",
         "J. Nasr"
       ],
-      "update_note": "2026-11-02: User confirmed existing author attribution and publication description exactly as recorded. Sales status and external indexing are unchanged.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
@@ -390,14 +389,13 @@
       "period": "2026",
       "joe_role": "Author (credited as J. Nasr)",
       "deliverable": "Technical field guide, Technical Field Guide and AI Practical Edition v1.1.1 · 2026",
-      "evidence_summary": "First-party Reasoning and Logic bookstore lists this field guide under J. Nasr. The manifest identifies it as published in the catalogue while sales remain under review. Joe Nasr directly affirmed the existing author attribution and publication record on 2026-11-02.",
+      "evidence_summary": "Taxonomies and Classification Systems, a field guide authored by J. Nasr and published in the Reasoning and Logic catalogue. Sales status: under review.",
       "public_urls": [
         "https://reasoning-and-logic.vercel.app/taxonomies-and-classification-systems",
         "https://reasoning-and-logic.vercel.app/"
       ],
       "boundaries": [
-        "Published in catalogue does not mean available for sale. It remains under sales review, and attribution does not establish independent academic validation.",
-        "Recheck live URL, response and independent search retrieval after release."
+        "Authorship and catalogue publication: bookstore manifest. Sales status: under review."
       ],
       "retrieval_tags": [
         "publication",
@@ -407,7 +405,7 @@
         "field guide",
         "J. Nasr"
       ],
-      "update_note": "2026-11-02: User confirmed existing author attribution and publication description exactly as recorded. Sales status and external indexing are unchanged.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_EXISTING_PUBLICATION_RECORD",
       "evidence_class": "PUBLIC",
       "public_source_available": true
