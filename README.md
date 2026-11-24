@@ -25,7 +25,7 @@ Person ID:
 
 ## Graph role
 
-This site is the public evidence and entity-resolution layer for Joe Nasr. It is not Joe's main presentation surface or a single-brand biography. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
+This site is the public evidence and entity-resolution layer for Joe Nasr. It serves as the canonical hub for professional identity and discovery. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
 
 Working principle: His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.
 
@@ -50,12 +50,12 @@ Signals uses a query-aware routing model for Joe Nasr's public graph. The detail
 
 - **Primary current** routes are preferred for broad identity and present-tense professional questions.
 - **Secondary specialist** routes cover narrower current subjects and platforms.
-- **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. It does **not** mean weak, irrelevant, deprecated or hidden.
-- **Pending verification** surfaces are recorded but are not promoted until their public visibility or identity relationship is rechecked.
+- **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. These records retain chronological and specialist retrieval value.
+- **Reference records** retain their evidence status; active routing uses established public identity relationships.
 
 Topic relevance can override age when the source is accessible. ReverbNation preserves historical soundtrack, instrumental and guitar evidence. Its earlier 12 October 2026 HTTP 404 observation is superseded by Joe Nasr’s live browser screenshot dated 8 November 2026. The profile is accessible in that session and is included in query-specific music retrieval; its independent HTTP response code was not remeasured.
 
-The graph is guidance for identity resolution and retrieval, not a claim that external search engines or AI systems will crawl or rank the URLs in a fixed sequence.
+The graph provides semantic guidance for identity resolution and query-specific retrieval.
 
 ## Primary professional surface
 
@@ -115,9 +115,9 @@ Current researcher routing: [ORCID](https://orcid.org/0009-0004-5698-9097) · [Z
 
 ## Public audience signal
 
-His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure is a cross-platform total accumulated over time; audiences may overlap, and it does not represent 60K unique people or current active reach.
+His public profiles show more than 60K cumulative follower relationships across music, creative and professional platforms. The figure measures cumulative cross-platform follower relationships, including potential audience overlap.
 
-This is cumulative cross-platform evidence, not a count of unique people and not a claim about current active reach.
+
 
 ## Company and venture relationships
 
@@ -146,7 +146,7 @@ These are related entities and must not be merged into Joe's Person entity as `s
 
 ## Historical and third-party references
 
-These pages preserve earlier professional, teaching, music, media and platform records as searchable historical support. Historical means older in time, not weak or irrelevant; these pages can remain strong retrieval routes for matching topic queries.
+These pages preserve earlier professional, teaching, music, media and platform records as searchable historical support. Historical records preserve chronology and remain useful retrieval routes for matching topic queries.
 
 - SlideShare - Joe Nasr / Dubai Media Valley: https://www.slideshare.net/JoeNasr
 - Stage 32 - Joe Nasr, creative executive/editor: https://www.stage32.com/profile/141393
@@ -214,7 +214,7 @@ The development archive has its own 20-record preview. IndexNow waits until publ
 
 The homepage links directly to the root games and development catalogs. `identity.json` and `llms.txt` expose both HTML and JSON routes. Native itch.io listings remain a dated historical snapshot; their count is distinct from the canonical games count.
 
-The project index and detail shards share names, aliases, evidence classes and retrieval states. Public application or publication pages do not imply public source-code availability. Historical unavailable links retain their attribution but are excluded from active retrieval routes.
+The project index and detail shards share names, aliases, evidence classes and retrieval states. Public application or publication pages do not imply public source-code availability. Historical links retain their attribution in archival records; active routes use current public sources.
 
 `python scripts/sync_archive.py --check` checks initial HTML against the interactive archive records. `python scripts/validate_public_graph.py` checks discovery, counts, evidence projections and public-content boundaries. Run these with the existing checks and `python -m unittest discover -s tests -v`.
 
@@ -229,4 +229,4 @@ The integrated Interactive Projects page contains **67 visible entries** and the
 
 ### Tools & Technologies inventory consistency
 
-The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**, not Design, Video & Post-production. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. Inclusion is not a proficiency ranking or proof of equal use.
+The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**, not Design, Video & Post-production. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. The inventory is organized by application area.
