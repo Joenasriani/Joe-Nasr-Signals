@@ -283,7 +283,7 @@
         "@type": "VideoGame",
         "name": "AI Garden VR",
         "alternateName": "AI Garden",
-        "description": "Experimental gamified browser prototype with creatures, progression and learning-themed interactions. The current prototype does not train a machine-learning model.",
+        "description": "Experimental gamified browser prototype with creatures, progression and learning-themed interactions. The prototype uses simulated learning interactions.",
         "genre": [
           "Educational",
           "Experimental"
@@ -304,7 +304,7 @@
         "@type": "VideoGame",
         "name": "AI Millionaire Studio",
         "alternateName": "WWTBAM AI Edition",
-        "description": "Quiz game prototype represented publicly by a partial source archive rather than a complete current playable build.",
+        "description": "Quiz game prototype documented through a partial source archive.",
         "genre": [
           "Quiz"
         ],
