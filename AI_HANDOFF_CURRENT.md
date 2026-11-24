@@ -54,10 +54,10 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 - ResearchGate book/full-text listing: https://www.researchgate.net/publication/417607181_The_Composer%27s_Prompt_Music_Theory_and_Harmony_for_Computational_Music_Prompting – separate distribution of the **same book**, recorded verified 2026-11-07; no independent PDF checksum verification.
 - Harvard Dataverse companion dataset: https://doi.org/10.7910/DVN/STHUVV – **separate published dataset**, version 1.1 RELEASED 2026-11-04 and API checked 2026-11-06. Separate old book record `10.7910/DVN/ZCZ0NA` public state **UNKNOWN**, do not assert publication/deletion.
 - ORCID: https://orcid.org/0009-0004-5698-9097 – six unique DOI works reported in public API, with a duplicate ICF-AI ORCID entry requiring put-code investigation before any user-authorized cleanup.
-- Google Scholar: https://scholar.google.com/citations?user=V_8fZGQAAAAJ – twelve entries previously observed, current live indexing not independently rechecked.
+- Google Scholar author profile: https://scholar.google.com/citations?user=V_8fZGQAAAAJ.
 - Production Publications nav order: **ORCID | Zenodo | Google Scholar | ResearchGate | Harvard Dataverse**.
 - **2026-11-15 displayed page order:** 01 The Composer's Prompt; 02 Dorking: The Art of Search Intelligence; 03 Tongue as Trackpad; 04 MPI-AIR; 05 Quest-MFTS; 06 Quest-XSA; 07 ICF-AI. The displayed entry order is independent of DOI numbering. There remain **six** Zenodo DOI works and **one** separate non-DOI Dorking book in that list.
-- The Composer's Prompt Google Play Books: https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ, volume `w3QmEgAAQBAJ`; author screenshot dated 2026-11-14. Dorking ebook Google Play Books: https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ, volume `cy4nEgAAQBAJ`; 66 pages, author screenshot dated 2026-11-15. Independent storefront fetching not verified; do not invent Google Play publication/review statuses.
+- The Composer's Prompt Google Play Books: https://play.google.com/store/books/details/Joe_Nasr_The_Composer_s_Prompt?id=w3QmEgAAQBAJ, volume `w3QmEgAAQBAJ`; author screenshot dated 2026-11-14. Dorking ebook Google Play Books: https://play.google.com/store/books/details/J_Nasr_Dorking?id=cy4nEgAAQBAJ, volume `cy4nEgAAQBAJ`; 66 pages, author screenshot dated 2026-11-15.
 - Dorking online reading edition: https://dorking-mu.vercel.app/ . Authorship displayed as J. Nasr / Joe Nasr; the name variant is scoped to this book, not generic namesake matching.
 - **Dataset relationship caution:** The Harvard Dataverse button appears under the Composer's Prompt for visual/navigation consistency, not as evidence that it is a book edition or that a precise book-to-dataset linkage was proven. Keep the Harvard Dataverse dataset `10.7910/DVN/STHUVV` as a distinct entity in JSON-LD and identity.json.
 - **2026-11-15 synchronization:** `publications/index.html` JSON-LD primary ItemList now has seven displayed entries, including Dorking in position 2; DOI catalogue in `identity.json` stays six. `llms.txt`, README, AI handoff and sitemap publication lastmod are synchronized. Existing page appearance, other domains and independent catalogue snapshots remain unchanged.
@@ -72,7 +72,7 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 - **Current machine routing:** `identity.json` keeps `temporal_state: HISTORICAL` and `nervous_system_priority: HISTORICAL_SUPPORT`, with `retrieval_state: ACTIVE_QUERY_SPECIFIC`; `reverbnation` is present in `query_routes.guitar_music_composer.surface_ids` and removed from the historical-unavailable route. `README.md` and `llms.txt` reflect the same scope, and regression tests protect it.
 - **Visible card:** “Soundtracks, instrumental compositions, and guitar performances by Joe Nasr.” Public copy contains **no** audit process or browser-availability explanation. Do not reintroduce internal verification language in the UI.
 - **Sitemap:** `sitemap.xml` records the Music page's actual **2026-11-08** modification date; do not backdate to October 31. The sitemap, canonical tag and metadata should remain aligned.
-- **Verification boundary:** Source changes were reopened, validation and deployment were checked during the corresponding work. External Google indexing and AI citations are **not established** by successful Vercel or IndexNow workflows.
+- Release validation, deployment and discovery checks are separate maintenance activities.
 
 ## Other counts and relationships – do not conflate
 
@@ -84,7 +84,7 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
 
 ## Release and validation procedure
 
-1. Read current `main` files and compare with any proposed source of truth; log **BEFORE → ACTION → AFTER → VERIFICATION**.
+1. Read current `main` files and compare with the applicable source records; log **BEFORE → ACTION → AFTER → VERIFICATION**.
 2. Verify exact scope and user authorization. Prefer one file/claim per edit, archive obsolete instructions rather than leaving them active.
 3. Check JSON parsing, JSON-LD, project-index vs shards, visible vs structured record counts, exact DOI/title/type/version pairings, live internal links and canonical URLs. The repository's existing commands include:
    - `python scripts/sync_archive.py --check`
@@ -94,7 +94,7 @@ Six distinct Zenodo DOI works; publication type follows recorded official Zenodo
    - `python -m unittest discover -s tests -v`
 4. Inspect Github Actions under `.github/workflows/`, especially validations. Validate the production Vercel deployment and its `githubCommitSha` against the actual intended release commit and target `production`. A READY deployment alone does not establish UI parity, full link health, indexing, AI citation or test success.
 5. Reopen the committed file, check every changed pointer, and distinguish `COMMITTED`, `DEPLOYED_READY`, `PUBLIC_RECHECKED`, `VERIFIED` and `NOT_RECHECKED`. Do not close an issue merely because the edit was saved.
-6. Never promote the ResearchGate book distribution to another work, an unresolved Dataverse record to published, or an evidence source to independent verification of unproven claims.
+6. Keep distribution records, publication records, datasets and source types distinct.
 
 ## Historical archives and avoided errors
 
