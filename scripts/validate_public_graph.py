@@ -84,7 +84,7 @@ def validate(root=ROOT):
     for text in ('audit_state', 'pending_fix', 'Correct the native', 'Working native-platform audit'):
         assert text not in native_text, 'Private correction instructions in public snapshot'
     assert 'HISTORICAL_NATIVE_PLATFORM_SNAPSHOT' in native_text
-    assert 'not an independently published credit' in html
+    assert 'Editor credit recorded in Joe Nasr’s project documentation; Navigation Films sources provide production context.' in html
     assert 'evidence_boundary' in identity['selected_historical_work'][0]
     surface = next(s for s in identity['public_surface_registry'] if s['id'] == 'reverbnation')
     assert surface['temporal_state'] == 'HISTORICAL' and surface['retrieval_state'] == 'ACTIVE_QUERY_SPECIFIC'
