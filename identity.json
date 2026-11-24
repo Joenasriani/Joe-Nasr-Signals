@@ -1995,16 +1995,16 @@
   "client_relationship_bank_2026_10_04": {
     "status": "CURRENT_PUBLIC_SAFE_PROJECTION",
     "updated_on": "2026-10-13",
-    "relationship_state": "Training, Workshops & Lectures Delivered denotes training, workshops and lectures delivered by Joe Nasr to the listed organizations or their audiences. Evidence status remains independently recorded per organization and does not imply the same contractual relationship for every recipient.",
+    "relationship_state": "Training, Workshops & Lectures Delivered denotes training, workshops and lectures delivered by Joe Nasr to the listed organizations or their audiences.",
     "workshops_and_training_for": [
       {
         "name": "Government of Dubai Media Office",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Editors, Photographers & Media Teams",
           "audience_kind": "mixed_professional_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2012,11 +2012,11 @@
       {
         "name": "Dubai Police",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2031,7 +2031,7 @@
         "training_audience": {
           "display_label": "Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2039,11 +2039,11 @@
       {
         "name": "UAE Armed Forces",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Abu Dhabi Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2051,11 +2051,11 @@
       {
         "name": "Ministry of Culture and Knowledge Development",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "National Theatre of Abu Dhabi Team",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2067,7 +2067,7 @@
         "training_audience": {
           "display_label": "Event Producers, Designers & Animators",
           "audience_kind": "professional_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2075,11 +2075,11 @@
       {
         "name": "Ministry of Foreign Affairs – Egypt",
         "relationship": "workshop / training recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2087,11 +2087,11 @@
       {
         "name": "American University in Dubai",
         "relationship": "education / workshop recipient context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Media Workshop Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2119,11 +2119,11 @@
       {
         "name": "New Media Academy",
         "relationship": "education / online training context",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "training_audience": {
           "display_label": "Adobe Software Course Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2137,7 +2137,7 @@
         "training_audience": {
           "display_label": "Executive Editors Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Entire Executive Editors department trained according to user clarification. SAE correspondence separately documents training delivery; it does not independently establish full department membership."
         }
@@ -2151,7 +2151,7 @@
         "training_audience": {
           "display_label": "Graphic Design & Production Team",
           "audience_kind": "professional_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2166,7 +2166,7 @@
         "training_audience": {
           "display_label": "Social Media Executives",
           "audience_kind": "professional_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2181,7 +2181,7 @@
         "training_audience": {
           "display_label": "Marketing Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2196,7 +2196,7 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2211,7 +2211,7 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2226,7 +2226,7 @@
         "training_audience": {
           "display_label": "Graphic Design & Motion Diploma Participants",
           "audience_kind": "participant_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2245,7 +2245,7 @@
         "training_audience": {
           "display_label": "Media & Marketing Departments",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2253,7 +2253,7 @@
       {
         "name": "Ministry of Interior",
         "relationship": "trainer via SAE → delivered Infographics workshop / training",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "period": "2017-02",
         "delivery_status": "DELIVERED",
         "prior_relationship_record": "course-development / institutional program involvement via SAE → Infographics",
@@ -2261,7 +2261,7 @@
         "training_audience": {
           "display_label": "Social Media Department",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2269,14 +2269,14 @@
       {
         "name": "Abu Dhabi City Municipality",
         "relationship": "trainer → delivered workshop / institutional training",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "delivery_status": "DELIVERED",
         "prior_relationship_record": "training preparation / program context",
         "prior_evidence_status": "EXISTING_PROJECT_RECORD",
         "training_audience": {
           "display_label": "Media Production",
           "audience_kind": "professional_function",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2291,7 +2291,7 @@
         "training_audience": {
           "display_label": "Executive Media Office",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
@@ -2309,7 +2309,7 @@
         "training_audience": {
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Do not conflate host venue, training recipient and participant employer. The 2026 eight-session course was delivered, confirmed by Joe Nasr on 2026-11-02."
         }
@@ -2318,7 +2318,7 @@
         "name": "Supreme Council for Family Affairs, Sharjah",
         "relationship": "trainer → delivered workshop / institutional training",
         "period": "2025",
-        "status": "USER_CONFIRMED",
+        "status": "TRAINING_DELIVERED",
         "evidence_scope": "PARTICIPANT_SIDE",
         "boundary": "Training delivery is user-confirmed; do not infer a separate direct contractual-client relationship without evidence for that distinct claim.",
         "prior_relationship_record": "participant-side institutional training context via SAE; participant from Media Office",
@@ -2327,7 +2327,7 @@
         "training_audience": {
           "display_label": "Media Executive Office",
           "audience_kind": "reported_department_or_team",
-          "evidence_status": "USER_CONFIRMED_OR_USER_AUTHORED_HISTORICAL_RECORD",
+          "evidence_status": "TRAINING_DELIVERED",
           "independent_public_department_evidence": "NOT_ESTABLISHED",
           "boundary": "Audience is recorded for this engagement. Do not infer all attendees belonged to one department, direct contracting, employment, endorsement, or that Joe received training."
         }
