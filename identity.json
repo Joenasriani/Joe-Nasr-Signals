@@ -747,8 +747,7 @@
     "retrieval_state_semantics": {
       "ACTIVE": "Public and useful as a current retrieval path.",
       "ACTIVE_QUERY_SPECIFIC": "Public and especially useful when the query matches its subject matter.",
-      "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source.",
-      "UNRESOLVED": "Reserved for records outside active identity routing."
+      "WEAK": "Public or attributable but lower-value, lower-authority or less useful as a routing source."
     },
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
@@ -1882,11 +1881,8 @@
       "H&S Pitch Music added with pitch-status boundary from the known Joe Ribal Nasr Stage32 reel."
     ],
     "evidence_class_semantics": {
-      "PUBLIC": "Supported by a listed public source.",
-      "DOCUMENTED_NONPUBLIC": "Supported by documented evidence whose underlying source is not published in this public record.",
-      "ESTABLISHED_RECORD": "Established professional record.",
-      "PARTIAL": "Only the stated portion of the work or delivery is established.",
-      "UNRESOLVED": "Contextual records outside the public project-credit catalogue."
+      "PUBLIC": "Project or role linked to a listed public source.",
+      "ESTABLISHED_RECORD": "Established professional record."
     }
   },
   "body_of_work_description": "Joe Nasr is a Creative Director. His documented body of work includes visual communication, advertising, multimedia production, digital experiences and interactive prototyping, with additional projects across motion, 3D, XR, games, music and audio, professional training, writing and research.",
