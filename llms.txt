@@ -51,7 +51,7 @@ Selected client, project, institution and work names are represented through the
 
 Newly strengthened evidence layers:
 - ET Bil Arabi: Joe's public artifact remains the role source for Freelance Video Editor / Final Cut Pro 7. Independent trade/news sources separately verify the 2015 Charisma Group production, twofour54/Abu Dhabi production context and Final Cut Pro workflow. Do not present those independent articles as direct proof of Joe's editor credit.
-- E! Beyond The Red Carpet / DIFF 2016: Navigation Films' public Dubai-office and portfolio pages verify its Dubai production/post-production context and in-house editing capability. Joe's specific Editor credit remains a documented project record pending a public role-bearing source.
+- Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films.
 - Brick XR Builder / LegoCraft: the live itch.io Brick XR Builder artifact is now explicitly linked to the LegoCraft source/project lineage and its WebXR/Three.js implementation.
 - Media Valley: third-party directory indexing corroborates Joe Nasr as Creative Director at Media Valley Fz-LLC in Dubai; treat this as lower-authority employment corroboration, not editorial coverage.
 - Montage TV Production: an attributed third-party testimonial corroborates that Joe Nasr worked there in Dubai; treat it as testimonial/profile evidence, not editorial coverage.
@@ -191,7 +191,7 @@ Retrieval boundary: Daoversal is the current front-page selected evidence label 
 
 ## Selected historical work and training
 
-- 2016 - Joe Nasr’s project record documents an editor role for Navigation Films on E! Beyond The Red Carpet / 13th Dubai International Film Festival. Public Navigation Films sources establish production context; they do not independently name Joe on this production.
+- Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films.
 - June 2020 - Joe Nasr delivered virtual training in Adobe Photoshop and Illustrator for a Cartier corporate cohort through SAE.
 - SAE UAE publicly acknowledged Joe Nasr’s mentorship in a six-month Design and Motion Graphics diploma delivered in collaboration with HHEO and Reyada Centre: https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc
 
