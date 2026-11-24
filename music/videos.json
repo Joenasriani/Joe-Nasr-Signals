@@ -9,7 +9,7 @@
       "title": "Showcase: Some of My Guitar Originals and Covers",
       "publicEntriesInspected": 81,
       "reportedCount": 82,
-      "note": "One unavailable video is hidden by YouTube and could not be inspected."
+      "note": "Inventory reflects the accessible playlist entries at the recorded inspection date; YouTube hid one additional entry."
     }
   ],
   "videos": [
@@ -196,7 +196,7 @@
     {
       "videoId": "BE3Lq3xUiUg",
       "title": "Mawtini mawtini_ Elissa s scale version _ Cminor _ guitar instrumental",
-      "description": "Description unavailable; the exact title is retained from the public playlist entry.",
+      "description": "Title recorded from the public playlist entry.",
       "url": "https://www.youtube.com/watch?v=BE3Lq3xUiUg",
       "categories": [
         "Guitar Performance"
@@ -1665,13 +1665,13 @@
       "platform": "Spotify",
       "url": "https://open.spotify.com/track/4JCuf9V0PFOMBMiUc18hCp",
       "trackId": "4JCuf9V0PFOMBMiUc18hCp",
-      "titleVerification": "pending",
+      "titleVerification": "artist supplied; platform comparison outstanding",
       "displayOrder": 0,
       "title": "The Fall of the Ancient Kingdoms",
       "album": "Dreams Vol. 2",
       "catalogue": "AudioSparx",
       "composer": "Joe Nasr",
-      "metadataStatus": "artist_confirmed_platform_unverified"
+      "metadataStatus": "artist_confirmed_metadata"
     },
     {
       "platform": "Anghami",
