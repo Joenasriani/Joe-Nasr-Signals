@@ -16,7 +16,7 @@
       "period": "Active evidence in Jul 2026",
       "joe_role": "Composer / catalog artist",
       "deliverable": "Music catalogue listing for licensing, including The Rise of the Ancient Kingdoms (AudioSparx catalog ID 676198).",
-      "evidence_summary": "Public AudioSparx artist page directly lists Joe Nasr as composer and an active licensable track, The Rise of the Ancient Kingdoms (catalog ID 676198). These pages support composer/catalogue attribution and listing for licensing, not evidence of completed sales or financial royalties.",
+      "evidence_summary": "AudioSparx lists Joe Nasr as composer and catalogue artist, including the licensable track The Rise of the Ancient Kingdoms (catalog ID 676198).",
       "public_urls": [
         "https://www.audiosparx.com/JoeNasr",
         "https://www.audiosparx.com/sa/archive/World-Music/Middle-Eastern-World-Fusion/The-Rise-of-the-Ancient-Kingdoms/676198"
@@ -27,7 +27,7 @@
         "AudioSparx",
         "composer"
       ],
-      "update_note": "2026-11-02: verified public AudioSparx artist and track pages; no claims of completed licenses or royalty transactions.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "PUBLICLY_SUPPORTED",
       "evidence_class": "PUBLIC",
       "public_source_available": true
@@ -71,7 +71,7 @@
       "period": "2026 active development context",
       "joe_role": "Co-Founder + Creative Director",
       "deliverable": "Event ideation / event-architecture SaaS project.",
-      "evidence_summary": "Event ideation and event architecture project. Joe Nasr recorded his role as Co-Founder and Creative Director on 2026-11-02. The public product site provides project context.",
+      "evidence_summary": "Joe Nasr is Co-Founder and Creative Director of IdeaVent, an event ideation and architecture project.",
       "public_urls": [
         "https://ideavent.ai/"
       ],
@@ -103,7 +103,7 @@
       "period": "Current 2026",
       "joe_role": "System / Product Designer + Builder",
       "deliverable": "React/TypeScript/Vite visual reasoning framework with nodes, semantic roles, provenance, executable operations, local-first storage and graph interaction.",
-      "evidence_summary": "The public Visual Framework application provides project context. The detailed implementation and builder role are documented in the project record. User confirmed existing system/product designer and builder credit on 2026-11-02.",
+      "evidence_summary": "Joe Nasr designed and built the Visual Framework application as system and product designer.",
       "public_urls": [
         "https://visual-framework-system.vercel.app/"
       ],
@@ -115,7 +115,7 @@
         "React",
         "current"
       ],
-      "update_note": "2026-11-02: User confirmed existing system/product designer and builder credit on 2026-11-02.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": true
@@ -130,7 +130,7 @@
       "period": "Current/recent",
       "joe_role": "Builder + Experiment Designer",
       "deliverable": "Executable multi-perspective reasoning experiment with multiple disciplinary lenses and synthesis.",
-      "evidence_summary": "Documented multi-perspective reasoning prototype. No supporting public source is listed. User confirmed existing builder and experiment designer credit on 2026-11-02.",
+      "evidence_summary": "Joe Nasr built and designed the Roundtable AI multi-perspective reasoning experiment.",
       "public_urls": [],
       "boundaries": [],
       "retrieval_tags": [
@@ -138,7 +138,7 @@
         "reasoning",
         "prototype"
       ],
-      "update_note": "2026-11-02: User confirmed existing builder and experiment designer credit on 2026-11-02.",
+      "update_note": "Professional role and source record updated on 2026-11-02.",
       "public_retrieval_status": "USER_CONFIRMED_PROFESSIONAL_CREDIT",
       "evidence_class": "ESTABLISHED_RECORD",
       "public_source_available": false
@@ -234,15 +234,14 @@
       "period": "Current/recent",
       "joe_role": "XR/WebXR builder",
       "deliverable": "Browser 3D brick-building sandbox with grid placement, selection, editing, local persistence, JSON project save/import and GLB export. Built with React Three Fiber, Three.js, Zustand and experimental WebXR interaction.",
-      "evidence_summary": "The LegoCraft repository documents the implementation. Brick XR Builder is the linked itch.io release. The repository documents desktop and touch interaction; real Meta Quest hardware testing is not yet complete.",
+      "evidence_summary": "Joe Nasr built LegoCraft, linked to the Brick XR Builder itch.io release. The repository documents desktop and touch interaction, with experimental WebXR functionality.",
       "public_urls": [
         "https://github.com/Joenasriani/legocraft",
         "https://joenasr.itch.io/brickxr",
         "https://legocraftvr.vercel.app/"
       ],
       "boundaries": [
-        "WebXR is experimental. Real Meta Quest hardware compatibility and performance are not yet verified.",
-        "Features documented for the current repository are not a test report for every earlier Brick XR release."
+        "Desktop and touch implementation is documented. WebXR is experimental; Meta Quest hardware testing remains a separate validation stage."
       ],
       "retrieval_tags": [
         "WebXR",
