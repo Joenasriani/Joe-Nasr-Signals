@@ -16,7 +16,7 @@
       "title": "RoboSim",
       "category": "Robotics & Simulation",
       "description": "Educational browser robot programming and simulation with sequenced instructions and logic puzzles.",
-      "status": "In development / public itch.io listing; runtime not tested",
+      "status": "In development / public itch.io listing",
       "type": "Game",
       "links": [
         {
@@ -44,14 +44,14 @@
       "visible_in_collection": false,
       "record_role": "related_itch_release",
       "parent_project_id": "robowebsim",
-      "relationship_note": "Public itch.io RoboSim release associated with the RoboWebSim simulator and its shared GitHub repository. Retained as a source/release record, not a second independent project."
+      "relationship_note": "Public itch.io RoboSim release associated with the RoboWebSim simulator and its shared GitHub repository. Retained as a related release record of the parent project."
     },
     {
       "id": "brick-xr-builder",
       "title": "Brick XR Builder",
       "category": "3D & XR",
       "description": "Browser-based brick building and construction with experimental WebXR interaction.",
-      "status": "In development / public itch.io listing; runtime not tested",
+      "status": "In development / public itch.io listing",
       "type": "Game",
       "links": [
         {
@@ -86,7 +86,7 @@
       "title": "Diorama",
       "category": "Spatial & Puzzle",
       "description": "Isometric 3D mechanical puzzle with switches, lifts, bridges and route planning.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -109,7 +109,7 @@
       "title": "Ascension",
       "category": "Spatial & Puzzle",
       "description": "Isometric architectural puzzle with geometric routes and spatial progression.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -136,7 +136,7 @@
       "title": "Pathway",
       "category": "Spatial & Puzzle",
       "description": "Thirty-level browser reflection puzzle with lenses, mirrors and directed light.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -158,8 +158,8 @@
       "id": "ar-tetris-xr",
       "title": "Spatial Tetris XR",
       "category": "3D & XR",
-      "description": "Spatial falling-block game for mobile AR and mixed reality on Meta Quest VR headsets. Its current WebXR mode uses immersive-ar, not a separate immersive-vr session; device compatibility still needs independent validation.",
-      "status": "In development / public itch.io listing; runtime not tested",
+      "description": "Spatial falling-block game for mobile AR and mixed reality on Meta Quest VR headsets. Its WebXR implementation uses immersive-ar; compatibility depends on device and browser support.",
+      "status": "In development / public itch.io listing",
       "type": "Game",
       "links": [
         {
@@ -204,7 +204,7 @@
       "title": "Hand Drone XS",
       "category": "Human-Computer Interaction",
       "description": "Browser arcade game controlled through webcam hand tracking.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -227,7 +227,7 @@
       "title": "Paradigm Shift",
       "category": "Spatial & Puzzle",
       "description": "Perspective-shifting browser puzzle with spatial relationships and hidden paths.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -326,7 +326,7 @@
       "title": "Cosmic Velocity: Gyro Control",
       "category": "Games & Play",
       "description": "Mobile space game controlled through device tilt and gyroscope.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -345,7 +345,7 @@
       "title": "Happy Collector: Good Habits Adventure",
       "category": "Games & Play",
       "description": "3D educational browser platformer based on good and bad habit collection.",
-      "status": "In development / public itch.io listing; runtime not tested",
+      "status": "In development / public itch.io listing",
       "type": "Game",
       "links": [
         {
@@ -416,7 +416,7 @@
       "title": "Routing Protocol",
       "category": "Spatial & Puzzle",
       "description": "Networking puzzle that connects packet routes through constrained nodes.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -439,7 +439,7 @@
       "title": "GibberLink Academy",
       "category": "Educational Interactive",
       "description": "Educational signal and pattern-recognition game inspired by machine communication.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -480,8 +480,8 @@
       "id": "quantum-entanglement",
       "title": "Quantum Entanglement",
       "category": "Spatial & Puzzle",
-      "description": "Dual-control particle-routing browser puzzle, not a quantum simulator.",
-      "status": "Published / check current availability",
+      "description": "Dual-control browser puzzle inspired by particle routing.",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -504,7 +504,7 @@
       "title": "Ball Sort 3D",
       "category": "Spatial & Puzzle",
       "description": "3D ball sorting game using constrained tube moves.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -565,7 +565,7 @@
       "title": "Sorting Balls 3D",
       "category": "Spatial & Puzzle",
       "description": "Separate public sorting-puzzle listing; distinct from Ball Sort 3D per repository record.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -584,7 +584,7 @@
       "title": "Klotski",
       "category": "Spatial & Puzzle",
       "description": "Three-dimensional presentation of the classic sliding-block puzzle.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -630,7 +630,7 @@
       "title": "Cheese Maze Mouse",
       "category": "Games & Play",
       "description": "Thirty-level maze game guiding a mouse through constrained routes.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -676,7 +676,7 @@
       "title": "Cheese Heist Mouse",
       "category": "Games & Play",
       "description": "Kitchen arcade challenge to collect cheese while avoiding a cat.",
-      "status": "In development / public itch.io listing; runtime not tested",
+      "status": "In development / public itch.io listing",
       "type": "Game",
       "links": [
         {
@@ -743,7 +743,7 @@
       "title": "In a Stickman’s World",
       "category": "Games & Play",
       "description": "Browser platform action game featuring movement, combat, hazards and collection.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -762,7 +762,7 @@
       "title": "Coloring Book for Kids",
       "category": "Educational Interactive",
       "description": "Touch-friendly browser coloring activity.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -804,7 +804,7 @@
       "title": "Mario Merge",
       "category": "Games & Play",
       "description": "Unofficial fan-made merge puzzle; not affiliated with Nintendo.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -869,7 +869,7 @@
       "title": "Old Bounce",
       "category": "Games & Play",
       "description": "Compact platform game with touch-friendly movement.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -915,7 +915,7 @@
       "title": "Sector Glow: Cyber-Extract",
       "category": "Spatial & Puzzle",
       "description": "Glowing-grid extraction and routing puzzle.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -953,7 +953,7 @@
       "title": "Zip It!",
       "category": "Spatial & Puzzle",
       "description": "Grid coverage puzzle that visits numbered checkpoints in sequence.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -1000,7 +1000,7 @@
       "title": "Cybertruck Madness '98",
       "category": "Games & Play",
       "description": "Independent retro driving experiment, not affiliated with Tesla.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -1023,7 +1023,7 @@
       "title": "Tic Tac Toe Reimagined",
       "category": "Games & Play",
       "description": "Expanded tic-tac-toe-inspired spatial board puzzle.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -1069,7 +1069,7 @@
       "title": "Jumpy Jumperson",
       "category": "Games & Play",
       "description": "One-button 3D runner with jumping, boosts and obstacles.",
-      "status": "Published / check current availability",
+      "status": "Published / source listing",
       "type": "Game",
       "links": [
         {
@@ -1491,7 +1491,7 @@
       "id": "ai-millionaire-studio",
       "title": "AI Millionaire Studio",
       "category": "Educational Interactive",
-      "description": "Partial source record for quiz studio prototype",
+      "description": "Source archive for quiz studio prototype",
       "status": "Prototype / development archive",
       "type": "Prototype",
       "links": [
