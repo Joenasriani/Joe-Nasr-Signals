@@ -10,8 +10,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 page = (ROOT / "index.html").read_text()
-opening = '<div class="client-bank-group client-bank-group-training">'
-start = page.index(opening)
+# The training group gained an id in 4e5605c so the training subpage can link
+# back to it; locate the group by its class and require that return anchor.
+opening = re.search(r'<div class="client-bank-group client-bank-group-training"[^>]*>', page)
+assert opening, "Training group missing from homepage"
+assert 'id="training-workshops-lectures"' in opening.group(0), "Training return anchor missing"
+start = opening.start()
 end = page.index('<div class="faq-more">', start)
 section = page[start:end]
 visible = [

@@ -699,7 +699,7 @@
     ]
   },
   "schema_relationship_rule": "Person sameAs identifies Joe Nasr himself. Companies, ventures, books, games and projects connect through typed relationships.",
-  "updated_on": "2026-11-24",
+  "updated_on": "2026-11-25",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
   "current_summary": "The public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
@@ -1697,6 +1697,7 @@
       "evidence_urls": [
         "https://www.linkedin.com/posts/sae-uae_hheo-reyada-centre-graphic-motion-design-activity-7351128585547431937-N9Gc",
         "https://joe-nasr-signals.vercel.app/",
+        "https://joe-nasr-signals.vercel.app/training-workshops-lectures/",
         "https://joe-nasr-signals.vercel.app/identity.json"
       ],
       "related_relationship_groups": [
