@@ -1,0 +1,35 @@
+name: Navigation regression
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Repository checks
+        run: |
+          python scripts/sync_archive.py --check
+          python scripts/validate_signals.py
+          python scripts/validate_public_graph.py
+          python scripts/validate_training_audiences.py
+          python -m unittest discover -s tests -v
+      - name: Install browser test dependencies
+        run: |
+          python -m pip install playwright==1.51.0
+          python -m playwright install --with-deps chromium
+      - name: Browser regression
+        run: |
+          python -m http.server 8765 --bind 127.0.0.1 > /tmp/signals-http.log 2>&1 &
+          trap 'kill $!' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8765/ > /dev/null; then break; fi
+            sleep 1
+          done
+          python scripts/test_navigation_browser.py
