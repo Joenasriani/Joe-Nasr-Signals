@@ -953,7 +953,9 @@ body.compact .record-url-wrap { margin-top: 8px; }
 .method-copy .collection-links li:last-child { border-bottom: 1px solid var(--line); }
 .collection-number { color: var(--muted); font: 700 10px/1.4 "Courier New", monospace; }
 .collection-links a { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 0; font-size: clamp(16px, 1.5vw, 22px); font-weight: 700; line-height: 1.3; text-decoration: none; }
-.collection-links a:hover, .collection-links a:focus-visible { text-decoration: underline; }
+.collection-links a:focus-visible { text-decoration: underline; }
+@media (hover: hover) { .collection-links a:hover { text-decoration: underline; } }
+.collection-links a:focus:not(:focus-visible) { outline: none; }
 .collection-arrow { flex: none; font-size: 18px; }
 
 </style>
@@ -1755,10 +1757,10 @@ body.compact .record-url-wrap { margin-top: 8px; }
           <li><span class="collection-number" aria-hidden="true">01</span><a href="https://joe-nasr-signals.vercel.app/training-workshops-lectures/">Training, Workshops &amp; Lectures<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
           <li><span class="collection-number" aria-hidden="true">02</span><a href="https://joe-nasr-signals.vercel.app/video-campaigns/">Campaigns &amp; Video Productions<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
           <li><span class="collection-number" aria-hidden="true">03</span><a href="https://joe-nasr-signals.vercel.app/interactive-projects/">Interactive Experiences &amp; Digital Projects<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
-          <li><span class="collection-number" aria-hidden="true">04</span><a id="certifications-credentials" href="https://joe-nasr-signals.vercel.app/certifications/">Certifications &amp; Credentials<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
+          <li id="certifications-credentials"><span class="collection-number" aria-hidden="true">04</span><a href="https://joe-nasr-signals.vercel.app/certifications/">Certifications &amp; Credentials<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
           <li><span class="collection-number" aria-hidden="true">05</span><a href="https://joe-nasr-signals.vercel.app/publications/">Research &amp; Publications<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
-          <li><span class="collection-number" aria-hidden="true">06</span><a id="tools-technologies" href="https://joe-nasr-signals.vercel.app/tools-technologies/">Tools &amp; Technologies<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
-          <li><span class="collection-number" aria-hidden="true">07</span><a id="music-performance" href="https://joe-nasr-signals.vercel.app/music/">Music &amp; Performance<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
+          <li id="tools-technologies"><span class="collection-number" aria-hidden="true">06</span><a href="https://joe-nasr-signals.vercel.app/tools-technologies/">Tools &amp; Technologies<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
+          <li id="music-performance"><span class="collection-number" aria-hidden="true">07</span><a href="https://joe-nasr-signals.vercel.app/music/">Music &amp; Performance<span class="collection-arrow" aria-hidden="true">↗</span></a></li>
         </ol></div>
         <div class="method-stamp" aria-label="Archive updated 25 November 2026"><span>UPDATED</span><strong>25·11·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
@@ -2272,6 +2274,13 @@ headerNav.addEventListener("click", event => {
 
 createFilters();
 render();
+
+// Pointer navigation must not restore a stale link focus when returning via history.
+document.querySelectorAll(".collection-links a").forEach(link => {
+  link.addEventListener("click", event => {
+    if (event.detail > 0 && document.activeElement === link) link.blur();
+  });
+});
 
 // Return links from collection pages (e.g. /#music-performance) target content
 // below the archive list. The browser jumps to the hash before render() adds the
