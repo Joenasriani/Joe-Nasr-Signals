@@ -97,7 +97,7 @@ def render_files():
     previous_roles = [role for role in roles if role["end"] != "Present"]
     source_url = identity["linkedin_aligned_work_experience"]["source_url"]
     career_html = (
-        '<details id="linkedin-experience"><summary><span>Q02</span>What is the professional experience?</summary>'
+        '<details id="linkedin-experience"><summary><span>Q02</span>What professional experience is represented here?</summary>'
         '<div class="faq-answer"><p><strong>Current roles:</strong></p><ul>'
         + "".join("<li>" + escape(role["title"]) + "</li>" for role in current_roles)
         + '</ul><p><strong>Previous roles:</strong></p><ul>'

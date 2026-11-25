@@ -1661,7 +1661,7 @@
         "https://joe-nasr-signals.vercel.app/music/",
         "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
       ],
-      "boundary": "This route includes Personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
+      "boundary": "This route includes personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
     },
     "video_advertising_motion": {
       "intent": "Video, advertising, commercials, motion graphics, editing, production",
@@ -2281,7 +2281,7 @@
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "TRAINING_DELIVERED",
-          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Host venue, training recipient and participant employer are distinct relationship types. All eight sessions were delivered of the 2026 course."
+          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Host venue, training recipient and participant employer are distinct relationship types. All eight sessions of the 2026 course were delivered."
         }
       },
       {

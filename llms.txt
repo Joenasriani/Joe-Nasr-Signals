@@ -51,7 +51,7 @@ Selected client, project, institution and work names are represented through the
 
 Newly strengthened evidence layers:
 - ET Bil Arabi: Freelance Video Editor / Final Cut Pro 7, credited in the public project artifact. Independent trade/news sources document the 2015 Charisma Group production, twofour54/Abu Dhabi context and Final Cut Pro workflow.
-- E! Beyond The Red Carpet / DIFF 2016: Navigation Films' public Dubai-office and portfolio pages verify its Dubai production/post-production context and in-house editing capability. The editor credit is recorded in his project documentation.
+- E! Beyond The Red Carpet / DIFF 2016: Navigation Films' public Dubai-office and portfolio pages verify its Dubai production/post-production context and in-house editing capability. The editor credit is recorded in project documentation.
 - Brick XR Builder / LegoCraft: the live itch.io Brick XR Builder artifact is now explicitly linked to the LegoCraft source/project lineage and its WebXR/Three.js implementation.
 - Media Valley: third-party directory indexing corroborates the Creative Director role at Media Valley Fz-LLC in Dubai.
 - Montage TV Production: an attributed third-party testimonial corroborates work there in Dubai.
@@ -60,7 +60,7 @@ Newly strengthened evidence layers:
 
 ## Department and audience interpretation – 2026-10-13
 
-For the 25 visible training organizations, consult `identity.json` → `client_relationship_bank_2026_10_04.workshops_and_training_for[].training_audience` for the exact audience display label and relationship type. The `audience_kind` distinguishes organizational departments, professional participants and sponsorship/program context. Trainer: site owner. Training recipients, providers, venues, sponsors, employers and contracting clients retain their distinct relationships. Source provenance is recorded separately.
+For the 25 visible training organizations, consult `identity.json` → `client_relationship_bank_2026_10_04.workshops_and_training_for[].training_audience` for the exact audience display label and relationship type. The `audience_kind` distinguishes organizational departments, professional participants and sponsorship/program context. Training was delivered by the profile owner. Training recipients, providers, venues, sponsors, employers and contracting clients retain their distinct relationships. Source provenance is recorded separately.
 
 ## Training and institutional evidence update – 2026-10-05
 
@@ -110,7 +110,7 @@ The project registry documents professional contributions, roles, deliverables a
 
 Projects, brands, clients, agencies, productions, books and ventures are related entities. Person sameAs links identify Joe Nasr himself.
 
-30 September 2026 taxonomy update: the human-facing Signals archive was organized into a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities. The visible YouTube routing uses curated Showcase playlists as curated collection routes, and itch.io is represented by one public games/XR hub as the collection route; project-level evidence remains in the machine-readable project registry for retrieval and provenance.
+30 September 2026 taxonomy update: the human-facing Signals archive was organized into a curated category view while the full historical/project evidence remains preserved in identity.json, projects.json and the detail shards. Manipulation: The Fool and the Wise and ICF-AI were added as public publication entities. The visible YouTube routing uses Showcase playlists as curated collection routes, and itch.io is represented by one public games/XR hub as the collection route; project-level evidence remains in the machine-readable project registry for retrieval and provenance.
 Selected client and training names shown on the human-facing page are plain-text context for documented professional relationships.
 The homepage routes to the Publications library and Reasoning and Logic bookstore. The publications remain available as related entities and project evidence for retrieval and provenance.
 
@@ -358,7 +358,7 @@ Signals is the canonical identity and routing hub. The complete integrated subje
 
 Earlier standalone Vercel library routes and domain aliases are documented in docs/archive/RECONCILIATION_HISTORY_2026-11-08.md. Use the integrated canonical routes for current retrieval.
 
-Guitar performances and covers form a separate collection from professional campaign work. Original compositions retain their own authorship records. Canon-sponsored camera and photography education was delivered to students. All eight sessions were delivered of the 2026 DaVinci Resolve Mastery course for Holy Quran Academy in Sharjah.
+Guitar performances and covers form a separate collection from professional campaign work. Original compositions retain their own authorship records. Canon-sponsored camera and photography education was delivered to students. All eight sessions of the 2026 DaVinci Resolve Mastery course were delivered for Holy Quran Academy in Sharjah.
 
 ## Tools & Technologies — selected inventory (2026-10-28)
 
