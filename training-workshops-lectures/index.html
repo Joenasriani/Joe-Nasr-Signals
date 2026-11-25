@@ -455,42 +455,8 @@
       html { scroll-behavior: auto; }
     }
   </style>
-<style id="signals-visual-typography">
-/* Signals visual typography – content only; existing layout and controls retained. */
-main .hero h1, .hero h1, .onejoe-library .hero h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 950;
-  font-size: clamp(48px, 9vw, 142px);
-  line-height: .82;
-  letter-spacing: -.065em;
-  overflow-wrap: anywhere;
-}
-.hero .hero-intro, .hero .intro, .hero .onejoe-intro, .onejoe-library .hero .onejoe-intro {
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 400;
-  font-size: clamp(19px, 2vw, 29px);
-  line-height: 1.32;
-  letter-spacing: normal;
-  color: #101317;
-}
-.hero .kicker, .onejoe-library .hero .kicker, .hero .eyebrow, .onejoe-library .hero .eyebrow {
-  font-family: "Courier New", monospace;
-  font-weight: 700;
-  font-size: 10px;
-  line-height: 1.2;
-  letter-spacing: .15em;
-  color: #6c6b66;
-}
-@media (max-width: 980px) {
-  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: clamp(48px, 9vw, 90px); line-height: .86; }
-}
-@media (max-width: 680px) {
-  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: clamp(40px, 10.5vw, 64px); line-height: .88; }
-}
-@media print {
-  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: 64px; }
-}
-</style>
+<link rel="stylesheet" href="/collection-visual.css">
+<style id="training-visual-alignment">main#top,.page-footer{max-width:var(--collection-max);padding-inline:var(--collection-pad)} @media(max-width:680px){.site-header .header-nav{gap:10px}}</style>
 </head>
 <body>
   <a class="skip-link" href="#chronology">Skip to training chronology</a>
@@ -956,8 +922,8 @@ main .hero h1, .hero h1, .onejoe-library .hero h1 {
 
   </main>
 
-  <footer class="page-footer">
-    <a class="back-link" href="/">← Back to Signals</a>
+  <footer class="page-footer signals-collection-footer">
+    <a class="signals-bottom-return" href="/">← Back to Signals</a>
     <div class="footer-rule">
       <span>JOE RIBAL NASR · TRAINING / WORKSHOPS / LECTURES</span>
       <span>JOE NASR SIGNALS</span>
