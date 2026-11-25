@@ -41,13 +41,13 @@ The catalogue counts reflect the repository data. Historical itch.io listings ar
 | Canonical URL | Source lastmod |
 | --- | --- |
 | https://joe-nasr-signals.vercel.app/ | 2026-11-25 |
-| https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | 2026-11-24 |
-| https://joe-nasr-signals.vercel.app/publications/ | 2026-11-24 |
+| https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | 2026-11-25 |
+| https://joe-nasr-signals.vercel.app/publications/ | 2026-11-25 |
 | https://joe-nasr-signals.vercel.app/certifications/ | 2026-11-25 |
-| https://joe-nasr-signals.vercel.app/interactive-projects/ | 2026-11-24 |
-| https://joe-nasr-signals.vercel.app/video-campaigns/ | 2026-11-24 |
-| https://joe-nasr-signals.vercel.app/music/ | 2026-11-24 |
-| https://joe-nasr-signals.vercel.app/tools-technologies/ | 2026-11-21 |
+| https://joe-nasr-signals.vercel.app/interactive-projects/ | 2026-11-25 |
+| https://joe-nasr-signals.vercel.app/video-campaigns/ | 2026-11-25 |
+| https://joe-nasr-signals.vercel.app/music/ | 2026-11-25 |
+| https://joe-nasr-signals.vercel.app/tools-technologies/ | 2026-11-25 |
 
 The sitemap covers canonical indexable HTML pages. Historical game entry points redirect to the integrated interactive collection. The public AI retrieval routes are `identity.json` and `llms.txt`; the maintenance guide route redirects to the homepage.
 
