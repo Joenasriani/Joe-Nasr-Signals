@@ -930,6 +930,23 @@ body.compact .record-url-wrap { margin-top: 8px; }
   color: var(--ink);
 }
 
+/* Equivalent homepage section titles share one responsive type scale. */
+#practiceTitle, #archiveTitle, #faqTitle, #client-bank-title, #methodTitle {
+  font-size: clamp(44px, 7vw, 108px);
+  line-height: .9;
+  letter-spacing: -.06em;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.method-grid { grid-template-columns: minmax(0, 1fr) 220px; }
+.method-grid h2 { grid-column: 1 / -1; }
+@media (max-width: 680px) {
+  #practiceTitle, #archiveTitle, #faqTitle, #client-bank-title, #methodTitle {
+    font-size: clamp(40px, 12vw, 57px);
+  }
+  .method-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 </style>
   <script type="application/ld+json">
 {
@@ -1724,7 +1741,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
     <section class="method-section" id="method" aria-labelledby="methodTitle">
       <div class="section-label">05 / COLLECTIONS</div>
       <div class="method-grid">
-        <h2 id="methodTitle">Collections.</h2>
+        <h2 id="methodTitle">Collections &amp; Resources.</h2>
         <div class="method-copy"><p>Explore <a href="https://joe-nasr-signals.vercel.app/training-workshops-lectures/">Training, Workshops &amp; Lectures</a>, <a href="https://joe-nasr-signals.vercel.app/video-campaigns/">Campaigns &amp; Video Productions</a>, <a href="https://joe-nasr-signals.vercel.app/interactive-projects/">Interactive Experiences &amp; Digital Projects</a>, <a id="certifications-credentials" href="https://joe-nasr-signals.vercel.app/certifications/">Certifications &amp; Credentials</a>, <a href="https://joe-nasr-signals.vercel.app/publications/">Research &amp; Publications</a>, <a id="tools-technologies" href="https://joe-nasr-signals.vercel.app/tools-technologies/">Tools &amp; Technologies</a>, and <a id="music-performance" href="https://joe-nasr-signals.vercel.app/music/">Music &amp; Performance</a>.</p></div>
         <div class="method-stamp" aria-label="Archive updated 25 November 2026"><span>UPDATED</span><strong>25·11·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
