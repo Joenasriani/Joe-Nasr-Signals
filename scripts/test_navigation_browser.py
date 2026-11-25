@@ -44,7 +44,7 @@ class NavigationTests(unittest.TestCase):
                     page.goto(BASE + "/", wait_until="load")
                     nav = page.locator(".header-nav")
                     self.assertTrue(nav.evaluate("(e) => e.scrollWidth <= e.clientWidth + 1"))
-                    self.assertEqual(page.locator("#methodTitle").inner_text(), "Collections & Resources.")
+                    self.assertEqual(page.locator("#methodTitle").inner_text(), "Collections & Resources")
                     sizes = page.locator("#practiceTitle, #archiveTitle, #faqTitle, #client-bank-title, #methodTitle").evaluate_all("(els) => els.map(e => getComputedStyle(e).fontSize)")
                     self.assertEqual(len(sizes), 5)
                     self.assertEqual(len(set(sizes)), 1, "Section heading sizes differ")
