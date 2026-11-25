@@ -223,7 +223,43 @@ header .brand{font-size:22px;font-weight:900;letter-spacing:.08em;text-decoratio
 .onejoe-library .site-header .brand-copy small { margin-top: 5px; font-size: 9px; letter-spacing: .14em; color: var(--muted); }
 @media(max-width:980px){.onejoe-library .site-header{grid-template-columns:auto minmax(0,1fr);gap:16px}}@media(max-width:680px){.onejoe-library .site-header{--pad:18px}.onejoe-library .site-header{height:66px;gap:10px}.onejoe-library .site-header .brand-copy{display:none}.onejoe-library .site-header .brand-copy small{display:none}.onejoe-library .site-header .brand-mark{width:36px;height:36px}}
 .onejoe-library .tools-bottom-back{margin:26px 0 48px;padding:14px 0;border-top:1px solid var(--line)}.onejoe-library .tools-bottom-back .onejoe-back{display:inline-flex;align-items:center;min-height:44px;font:400 14px/1.45 Arial,Helvetica,sans-serif;text-transform:none;letter-spacing:normal;text-decoration:underline;text-underline-offset:3px;color:var(--ink)}.onejoe-library .scope-note{margin-bottom:0}
-</style></head>
+</style><style id="signals-visual-typography">
+/* Signals visual typography – content only; existing layout and controls retained. */
+main .hero h1, .hero h1, .onejoe-library .hero h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 950;
+  font-size: clamp(48px, 9vw, 142px);
+  line-height: .82;
+  letter-spacing: -.065em;
+  overflow-wrap: anywhere;
+}
+.hero .hero-intro, .hero .intro, .hero .onejoe-intro, .onejoe-library .hero .onejoe-intro {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(19px, 2vw, 29px);
+  line-height: 1.32;
+  letter-spacing: normal;
+  color: #101317;
+}
+.hero .kicker, .onejoe-library .hero .kicker, .hero .eyebrow, .onejoe-library .hero .eyebrow {
+  font-family: "Courier New", monospace;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: .15em;
+  color: #6c6b66;
+}
+@media (max-width: 980px) {
+  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: clamp(48px, 9vw, 90px); line-height: .86; }
+}
+@media (max-width: 680px) {
+  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: clamp(40px, 10.5vw, 64px); line-height: .88; }
+}
+@media print {
+  .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: 64px; }
+}
+</style>
+</head>
 <body class="onejoe-library" data-onejoe-ui="1.3.0"><header class="site-header"><a class="brand" href="https://joe-nasr-signals.vercel.app/" aria-label="Joe Nasr Signals"><span class="brand-mark">JN</span><span class="brand-copy"><strong>JOE NASR</strong><small>SIGNALS</small></span></a></header>
 <div class="page-grid" aria-hidden="true"></div><section class="hero" aria-labelledby="page-title"><div class="wrap"><div class="kicker">PROFESSIONAL REFERENCE LIBRARY</div><h1 id="page-title"><span>Tools &amp;</span><span>Technologies</span></h1><p class="onejoe-intro">A selection of software, platforms, and technologies encountered throughout my professional practice, spanning creative direction, multimedia production, music and audio, design, interactive experiences, and application development. My experience with these tools includes professional project work, independent development, formal learning, experimentation, and the delivery of technical workshops and training. The nature and depth of my involvement vary by tool, reflecting different stages of my career and areas of specialization.</p></div></section>
 <main class="wrap"><div class="inventory-summary"><span>SELECTED INVENTORY</span><strong>64 tools &amp; technologies</strong></div><section class="tool-section" aria-labelledby="group-0"><div class="section-head"><h2 id="group-0">Design, Video &amp; Post-production</h2><span class="group-count">12 entries</span></div><div class="tool-list"><div class="tool-item"><span class="tool-index">01</span><span>Adobe Photoshop</span></div><div class="tool-item"><span class="tool-index">02</span><span>Adobe Illustrator</span></div><div class="tool-item"><span class="tool-index">03</span><span>Adobe After Effects</span></div><div class="tool-item"><span class="tool-index">04</span><span>Adobe Premiere Pro</span></div><div class="tool-item"><span class="tool-index">05</span><span>Adobe Audition</span></div><div class="tool-item"><span class="tool-index">06</span><span>Adobe InDesign</span></div><div class="tool-item"><span class="tool-index">07</span><span>Adobe Media Encoder</span></div><div class="tool-item"><span class="tool-index">08</span><span>Blackmagic Design DaVinci Resolve</span></div><div class="tool-item"><span class="tool-index">09</span><span>Figma</span></div><div class="tool-item"><span class="tool-index">10</span><span>Adobe Lightroom</span></div><div class="tool-item"><span class="tool-index">11</span><span>Canva</span></div><div class="tool-item"><span class="tool-index">12</span><span>Apple Final Cut Pro</span></div></div></section>
