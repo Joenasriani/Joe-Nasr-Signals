@@ -84,8 +84,13 @@ def validate(root=ROOT):
     for text in ('audit_state', 'pending_fix', 'Correct the native', 'Working native-platform audit'):
         assert text not in native_text, 'Private correction instructions in public snapshot'
     assert 'HISTORICAL_NATIVE_PLATFORM_SNAPSHOT' in native_text
-    assert 'Editor credit recorded in Joe Nasr’s project documentation; Navigation Films sources provide production context.' in html
+    # Wording revised in 950a156 ("reduce redundant identity mentions"); the
+    # evidence boundary must stay identical in the visible page and identity.json.
+    editor_boundary = 'Editor credit recorded in project documentation; Navigation Films sources provide production context.'
     assert 'evidence_boundary' in identity['selected_historical_work'][0]
+    assert identity['selected_historical_work'][0]['evidence_boundary'] == editor_boundary, 'Editor evidence boundary drift in identity.json'
+    assert html.count(editor_boundary) == 2, 'Editor evidence boundary missing from visible HTML or JSON-LD'
+    assert 'The editor credit is recorded in project documentation.' in guide, 'Editor evidence boundary missing from AI guide'
     surface = next(s for s in identity['public_surface_registry'] if s['id'] == 'reverbnation')
     assert surface['temporal_state'] == 'HISTORICAL' and surface['retrieval_state'] == 'ACTIVE_QUERY_SPECIFIC'
     assert surface['availability']['method'] == 'USER_PROVIDED_LIVE_BROWSER_SCREENSHOT'

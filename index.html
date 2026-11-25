@@ -1724,7 +1724,7 @@ body.compact .record-url-wrap { margin-top: 8px; }
     <section class="method-section" id="method" aria-labelledby="methodTitle">
       <div class="section-label">05 / COLLECTIONS</div>
       <div class="method-grid">
-        <h2 id="methodTitle">Archive notes.</h2>
+        <h2 id="methodTitle">Collections.</h2>
         <div class="method-copy"><p>Explore <a href="https://joe-nasr-signals.vercel.app/training-workshops-lectures/">Training, Workshops &amp; Lectures</a>, <a href="https://joe-nasr-signals.vercel.app/video-campaigns/">Campaigns &amp; Video Productions</a>, <a href="https://joe-nasr-signals.vercel.app/interactive-projects/">Interactive Experiences &amp; Digital Projects</a>, <a id="certifications-credentials" href="https://joe-nasr-signals.vercel.app/certifications/">Certifications &amp; Credentials</a>, <a href="https://joe-nasr-signals.vercel.app/publications/">Research &amp; Publications</a>, <a id="tools-technologies" href="https://joe-nasr-signals.vercel.app/tools-technologies/">Tools &amp; Technologies</a>, and <a id="music-performance" href="https://joe-nasr-signals.vercel.app/music/">Music &amp; Performance</a>.</p></div>
         <div class="method-stamp" aria-label="Archive updated 24 November 2026"><span>UPDATED</span><strong>24·11·26</strong><small>PUBLIC WEB INDEX</small></div>
       </div>
@@ -2238,6 +2238,23 @@ headerNav.addEventListener("click", event => {
 
 createFilters();
 render();
+
+// Return links from collection pages (e.g. /#music-performance) target content
+// below the archive list. The browser jumps to the hash before render() adds the
+// records, which pushes those targets down; re-align once layout has settled.
+function realignInitialHash() {
+  if (!window.location.hash) return;
+  // Jump, don't glide: the stylesheet sets html { scroll-behavior: smooth }.
+  const root = document.documentElement;
+  const previous = root.style.scrollBehavior;
+  root.style.scrollBehavior = "auto";
+  scrollHeaderTarget(window.location.hash, false);
+  root.style.scrollBehavior = previous;
+}
+if (window.location.hash) {
+  requestAnimationFrame(realignInitialHash);
+  window.addEventListener("load", realignInitialHash, { once: true });
+}
 
 </script>
 </body>
