@@ -61,13 +61,12 @@ class NavigationTests(unittest.TestCase):
                         page.goto(f"{BASE}/{route}/", wait_until="load")
                         link = page.get_by_role("link", name=re.compile("Back to Signals", re.I)).first
                         href = link.get_attribute("href")
-                        fragment = "#" + urlsplit(href).fragment
-                        self.assertNotEqual(fragment, "#")
+                        self.assertEqual(href, "/")
+                        self.assertTrue(page.locator(".site-header").get_by_role("link", name=re.compile("Back to Signals", re.I)).is_visible())
                         link.click()
-                        page.wait_for_url("**/" + fragment)
-                        self.assert_target(page, fragment)
-                        page.goto(BASE + "/" + fragment, wait_until="load")
-                        self.assert_target(page, fragment)
+                        page.wait_for_url(BASE + "/")
+                        page.wait_for_function("window.scrollY <= 2 && !location.hash")
+                        self.assertEqual(urlsplit(page.url).fragment, "")
                     self.assertEqual(errors, [])
                 finally:
                     page.close()
