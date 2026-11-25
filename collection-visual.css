@@ -1,12 +1,16 @@
 /* Collection visual standards. Homepage and collection controls are unaffected. */
 :root { --collection-max: 1520px; --collection-pad: clamp(18px, 3.4vw, 58px); }
-body.onejoe-library .wrap, body:not(.onejoe-library) .wrap { max-width: var(--collection-max); }
+body .wrap, body.onejoe-library .wrap { max-width: var(--collection-max); padding-inline: var(--collection-pad); }
+body .hero > .wrap { box-sizing: border-box; }
+body .site-header, body.onejoe-library .site-header { padding-inline: var(--collection-pad); }
+body footer.signals-collection-footer > .wrap { max-width: var(--collection-max); }
 body.onejoe-library .hero, body:not(.onejoe-library) .hero { padding-top: clamp(44px, 7vw, 82px); padding-bottom: 42px; }
 body .hero h1, body.onejoe-library .hero h1 { margin: 20px 0 30px; max-width: 1200px; font: 950 clamp(48px, 9vw, 142px)/.82 Arial, Helvetica, sans-serif; letter-spacing: -.065em; overflow-wrap: anywhere; }
 body .hero .hero-intro, body .hero .intro, body .hero .onejoe-intro, body.onejoe-library .hero .onejoe-intro { margin: 0; padding-left: 0; max-width: 900px; font: 400 clamp(19px, 2vw, 29px)/1.32 Georgia, "Times New Roman", serif; letter-spacing: normal; color: #101317; }
 body .hero .kicker, body.onejoe-library .hero .kicker { font: 700 10px/1.2 "Courier New", monospace; letter-spacing: .15em; color: #6c6b66; }
 body footer.signals-collection-footer, body.onejoe-library footer.signals-collection-footer { display: block; box-sizing: border-box; max-width: var(--collection-max); margin: 20px auto 0; padding-top: 24px; padding-bottom: 48px; border-top: 1px solid #1013172e; color: #6c6b66; font: 400 11px/1.5 "Courier New", monospace; letter-spacing: .05em; text-transform: none; }
 body footer.signals-collection-footer a.signals-bottom-return { display: inline-flex; align-items: center; min-height: 44px; color: #101317; font: 800 11px/1.5 Arial, Helvetica, sans-serif; letter-spacing: .14em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 3px; border: 0; }
+body footer.signals-collection-footer a.signals-bottom-return:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 body footer.signals-collection-footer .footer-rule { margin-top: 12px; padding-top: 12px; border-top: 1px solid #1013172e; }
 @media (max-width: 980px) { body .hero h1, body.onejoe-library .hero h1 { font-size: clamp(48px, 9vw, 90px); line-height: .86; } }
 @media (max-width: 680px) {
