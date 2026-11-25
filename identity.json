@@ -2414,7 +2414,14 @@
       },
       {
         "name": "Certifications & Credentials",
-        "url": "https://joe-nasr-signals.vercel.app/certifications/"
+        "url": "https://joe-nasr-signals.vercel.app/certifications/",
+        "data": "https://joe-nasr-signals.vercel.app/certifications/credentials.json",
+        "collection_schema": "https://joe-nasr-signals.vercel.app/certifications/collection-schema.json",
+        "record_count": 65,
+        "category_count": 9,
+        "relationship": "Joe Nasr → credential holder → documented course completion, academic degree or professional recognition",
+        "evidence": "Individual PDF evidence URLs in the credential catalog",
+        "record_updated_on": "2026-11-25"
       },
       {
         "name": "Music & Performance",

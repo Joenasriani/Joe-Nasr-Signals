@@ -1,7 +1,7 @@
 # Joe Nasr - canonical public identity guide
 
 Published: 2026-09-30
-Updated: 2026-11-24
+Updated: 2026-11-25
 Source verification dates are recorded separately in identity.json.
 Canonical name: Joe Nasr
 Full name: Joseph Ribal Nasr
@@ -352,6 +352,7 @@ Signals is the canonical identity and routing hub. The complete integrated subje
 - Interactive Experiences & Digital Projects: https://joe-nasr-signals.vercel.app/interactive-projects/
 - Certifications & Credentials: https://joe-nasr-signals.vercel.app/certifications/
 - Credential catalog (65 documented records, grouped by discipline; newest first within each discipline): https://joe-nasr-signals.vercel.app/certifications/credentials.json
+- Credential collection structured data: https://joe-nasr-signals.vercel.app/certifications/collection-schema.json
 - Each catalog record links to its corresponding PDF evidence. Course completion, academic degree and professional recognition are distinct relationships.
 - Music & Performance: https://joe-nasr-signals.vercel.app/music/
 

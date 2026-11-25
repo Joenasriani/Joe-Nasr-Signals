@@ -1,6 +1,6 @@
 # Joe Nasr Signals — Maintenance Guide
 
-**Updated:** 2026-11-24
+**Updated:** 2026-11-25
 
 **Canonical public identity:** https://joe-nasr-signals.vercel.app/
 
@@ -14,6 +14,7 @@ Joe Nasr (Joseph Ribal Nasr) maintains a canonical identity and work archive lin
 - Identity and professional relationships: `identity.json`
 - Project catalogue: `projects.json` and the five detail files in `data/`
 - AI-readable identity guide: `llms.txt`
+- Credential evidence catalog: `certifications/credentials.json`; collection schema: `certifications/collection-schema.json`
 - Public collections: `training-workshops-lectures/`, `publications/`, `certifications/`, `interactive-projects/`, `video-campaigns/`, `music/`, `tools-technologies/`
 - Canonical discovery: `sitemap.xml` and `robots.txt`
 - Repository directory and inventory: `README.md`
@@ -27,7 +28,7 @@ The canonical Signals website contains eight indexable pages. The route inventor
 | Signals | https://joe-nasr-signals.vercel.app/ | Professional identity, practice domains, selected references and FAQ |
 | Training, Workshops & Lectures | https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | Training and teaching engagements |
 | Research & Publications | https://joe-nasr-signals.vercel.app/publications/ | Eight publication entries: six Zenodo works and two retail books |
-| Certifications & Credentials | https://joe-nasr-signals.vercel.app/certifications/ | 32 credential records |
+| Certifications & Credentials | https://joe-nasr-signals.vercel.app/certifications/ | 65 documented credential records across nine disciplines |
 | Interactive Experiences & Digital Projects | https://joe-nasr-signals.vercel.app/interactive-projects/ | 67 showcase entries, 68 machine-readable records including a related release |
 | Campaigns & Video Productions | https://joe-nasr-signals.vercel.app/video-campaigns/ | Campaign and production library; 200 viewer entries and 201 source records |
 | Music & Performance | https://joe-nasr-signals.vercel.app/music/ | 82 video records and music platform routes |
@@ -42,7 +43,7 @@ The catalogue counts reflect the repository data. Historical itch.io listings ar
 | https://joe-nasr-signals.vercel.app/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/publications/ | 2026-11-24 |
-| https://joe-nasr-signals.vercel.app/certifications/ | 2026-11-24 |
+| https://joe-nasr-signals.vercel.app/certifications/ | 2026-11-25 |
 | https://joe-nasr-signals.vercel.app/interactive-projects/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/video-campaigns/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/music/ | 2026-11-24 |
@@ -70,7 +71,7 @@ Confirm the saved source, CI results, deployment and live production response as
 - 51 broader project evidence records.
 - 67 interactive showcase entries and 68 interactive machine-readable collection records.
 - Eight publication entries: six Zenodo DOI works and two separately listed books.
-- 32 credential records.
+- 65 documented credential records across nine disciplines.
 - 200 campaign viewer entries and 201 video source records.
 - 82 music video records.
 - 64 tools across seven categories.

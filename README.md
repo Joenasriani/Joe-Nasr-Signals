@@ -32,13 +32,17 @@ The canonical Signals website contains eight indexable pages. The route inventor
 | Signals | https://joe-nasr-signals.vercel.app/ | Professional identity, practice domains, selected references and FAQ |
 | Training, Workshops & Lectures | https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | Training and teaching engagements |
 | Research & Publications | https://joe-nasr-signals.vercel.app/publications/ | Eight publication entries: six Zenodo works and two retail books |
-| Certifications & Credentials | https://joe-nasr-signals.vercel.app/certifications/ | 32 credential records |
+| Certifications & Credentials | https://joe-nasr-signals.vercel.app/certifications/ | 65 documented credential records across nine disciplines |
 | Interactive Experiences & Digital Projects | https://joe-nasr-signals.vercel.app/interactive-projects/ | 67 showcase entries, 68 machine-readable records including a related release |
 | Campaigns & Video Productions | https://joe-nasr-signals.vercel.app/video-campaigns/ | Campaign and production library; 200 viewer entries and 201 source records |
 | Music & Performance | https://joe-nasr-signals.vercel.app/music/ | 82 video records and music platform routes |
 | Tools & Technologies | https://joe-nasr-signals.vercel.app/tools-technologies/ | 64 tools across seven categories |
 
 The catalogue counts reflect the repository data. Historical itch.io listings are accessible at https://joe-nasr-signals.vercel.app/games/itchio/ and use a historical snapshot indexing policy (`noindex,follow`). The sitemap enumerates the eight canonical indexable pages. Machine-readable discovery uses `identity.json`, `llms.txt`, `projects.json` and their linked catalogues.
+
+Credential catalog: https://joe-nasr-signals.vercel.app/certifications/credentials.json
+
+Collection structured data: https://joe-nasr-signals.vercel.app/certifications/collection-schema.json.
 
 ## Graph role
 
