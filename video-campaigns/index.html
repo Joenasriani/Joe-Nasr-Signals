@@ -99,11 +99,18 @@ main .hero h1, .hero h1, .onejoe-library .hero h1 {
   .hero h1, main .hero h1, .onejoe-library .hero h1 { font-size: 64px; }
 }
 </style>
+<style id="signals-header-return">
+.site-header .signals-return-nav { grid-column: -2 / -1; justify-self: end; display: flex; align-items: center; min-width: 0; }
+.site-header .signals-return-nav a { color: #101317; font: 800 11px/1.5 Arial, Helvetica, sans-serif; letter-spacing: .14em; text-transform: uppercase; text-decoration: none; position: relative; white-space: nowrap; display: inline-flex; align-items: center; min-height: 44px; }
+.site-header .signals-return-nav a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 7px; height: 2px; background: #d9ff4f; transition: right .2s ease; }
+.site-header .signals-return-nav a:hover::after, .site-header .signals-return-nav a:focus-visible::after { right: 0; }
+.site-header .signals-return-nav a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+</style>
 </head>
 <body class="onejoe-library" data-onejoe-ui="1.2.0">
-  <header class="site-header"><a class="brand" href="https://joe-nasr-signals.vercel.app/" aria-label="Joe Nasr Signals"><span class="brand-mark">JN</span><span class="brand-copy"><strong>JOE NASR</strong><small>SIGNALS</small></span></a></header>
+  <header class="site-header"><a class="brand" href="https://joe-nasr-signals.vercel.app/" aria-label="Joe Nasr Signals"><span class="brand-mark">JN</span><span class="brand-copy"><strong>JOE NASR</strong><small>SIGNALS</small></span></a><nav class="signals-return-nav" aria-label="Page navigation"><a href="/#campaigns-video">← Back to Signals</a></nav></header>
   <main class="wrap">
-    <section class="hero" aria-labelledby="page-title"><div class="kicker">PUBLIC VIDEO ARCHIVE</div><h1 id="page-title"><span>Campaigns &amp; Video</span><span>Productions</span></h1><p class="onejoe-intro">Campaigns, branded videos, animation, 3D, post-production and original music for advertising and media.</p><div class="onejoe-back-row"><a class="onejoe-back" href="/#campaigns-video">← Back to Signals</a></div></section>
+    <section class="hero" aria-labelledby="page-title"><div class="kicker">PUBLIC VIDEO ARCHIVE</div><h1 id="page-title"><span>Campaigns &amp; Video</span><span>Productions</span></h1><p class="onejoe-intro">Campaigns, branded videos, animation, 3D, post-production and original music for advertising and media.</p></section>
 
     <section class="catalog" aria-labelledby="catalog-heading">
       <div class="section-head">
