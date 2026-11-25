@@ -40,7 +40,7 @@ The catalogue counts reflect the repository data. Historical itch.io listings ar
 
 | Canonical URL | Source lastmod |
 | --- | --- |
-| https://joe-nasr-signals.vercel.app/ | 2026-11-24 |
+| https://joe-nasr-signals.vercel.app/ | 2026-11-25 |
 | https://joe-nasr-signals.vercel.app/training-workshops-lectures/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/publications/ | 2026-11-24 |
 | https://joe-nasr-signals.vercel.app/certifications/ | 2026-11-25 |
