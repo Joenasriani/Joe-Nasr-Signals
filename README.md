@@ -247,3 +247,7 @@ The integrated Interactive Projects page contains **67 visible entries** and the
 ### Tools & Technologies inventory consistency
 
 The [Tools & Technologies catalogue](https://joe-nasr-signals.vercel.app/tools-technologies/) includes 64 selected tools in seven categories. Adobe Dreamweaver belongs under **Web & Application Development**. Keep the visible catalogue, embedded JSON-LD ItemList, `identity.json` (`tools_technologies_library`), and `llms.txt` synchronized. `sitemap.xml` and `robots.txt` expose the canonical route. The inventory is organized by application area.
+
+### Browser navigation regression
+
+Run `python -m pip install playwright==1.51.0`, then `python -m playwright install chromium`. Start `python -m http.server 8765` from the repository root and run `python scripts/test_navigation_browser.py` in another terminal. The Navigation regression GitHub Actions workflow runs the repository validators, unit tests and browser checks on pull requests. Optional `SIGNALS_TEST_URL` points the browser checks at a different test server.
