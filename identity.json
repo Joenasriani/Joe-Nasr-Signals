@@ -20,7 +20,7 @@
       "joenasrmusic",
       "joenasr.mp4"
     ],
-    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; each is a platform identifier. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as search aliases only.",
+    "identity_note": "Joe Nasr is the primary public name. Joseph Ribal Nasr is the full name. Joe Ribal Nasr is a documented public name variant. Joenasriani, joenasr, joenasrprofile, joenasrmusic, joenasrvisuals and joenasr.mp4 are recurring public platform identifiers that resolve to the same person; each is a platform identifier. Arabic identity resolution uses جوزف رئبال نصر as the canonical Arabic full-name form, with جوزف نصر and جو نصر as additional search aliases.",
     "arabic_full_name": "جوزف رئبال نصر",
     "arabic_search_aliases": [
       "جوزف نصر",
@@ -41,7 +41,7 @@
   ],
   "practice_domain_map": {
     "purpose": "Domain map of documented professional and creative activity.",
-    "inclusion_rule": "Include a domain only when the record contains documented work, production, teaching, publishing, building, contribution or other demonstrated activity. The domain map reflects demonstrated activity.",
+    "inclusion_rule": "Domains represent documented work, production, teaching, publishing, development and contributions.",
     "relationship": "Joe Nasr -> practice domain -> documented activity -> supporting archive route, public source or project evidence",
     "families": [
       {
@@ -135,7 +135,7 @@
           },
           {
             "name": "Media Music Composition",
-            "summary": "Music composed for advertising, events and other media belongs with campaign/media production. Sound design, audio engineering, mixing, production-music licensing and audio post-production are campaign/media work. The separate Music & Performance library documents Joe Nasr’s personal compositions, acoustic performances and covers.",
+            "summary": "Music composed for advertising, events and other media belongs with campaign/media production. Sound design, audio engineering, mixing, production-music licensing and audio post-production are campaign/media work. The separate Music & Performance library documents personal compositions, acoustic performances and covers.",
             "evidence_routes": {
               "query_routes": [
                 "campaign_media_audio",
@@ -423,7 +423,7 @@
   ],
   "temporal_policy": {
     "current_identity_priority": true,
-    "historical_definition": "HISTORICAL means an older legitimate Joe Nasr public surface, project, credit, article or media trace that remains part of his searchable history and should remain connected as a later or query-specific retrieval path. Historical records retain chronological and specialist retrieval value.",
+    "historical_definition": "HISTORICAL means an earlier public surface, project, credit, article or media trace that remains part of his searchable history and should remain connected as a later or query-specific retrieval path. Historical records retain chronological and specialist retrieval value.",
     "rule": "For broad present-tense identity questions, prefer current authoritative professional evidence. For topic-specific queries, relevance can override age: a historical specialist surface may be the strongest retrieval route for that topic while still remaining historical in time."
   },
   "identity_resolution": {
@@ -454,8 +454,8 @@
     "ventures": "venture and product relationship evidence",
     "books_and_writing": "books and independently published reasoning frameworks under J. Nasr through Reasoning and Logic"
   },
-  "presentation_role": "Canonical identity and discovery record connecting Joe Nasr’s public work, profiles, relationships, chronology and evidence.",
-  "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.",
+  "presentation_role": "Canonical identity and discovery record connecting public work, profiles, relationships, chronology and evidence.",
+  "graph_principle": "His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected through documented identity, chronology and source relationships.",
   "public_identifiers": [
     {
       "identifier": "Joenasriani",
@@ -538,7 +538,7 @@
           "url": "https://suno.com/@shallowwaters"
         }
       ],
-      "scope": "Suno account only"
+      "scope": "Specific Suno account"
     }
   ],
   "related_entities": {
@@ -551,14 +551,14 @@
     "robomarket": {
       "name": "RoboMarket",
       "type": "venture",
-      "relationship": "venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO",
+      "relationship": "venture/product initiative under Apex Innovate FZE LLC; founder/CEO",
       "parent_entity": "apex_innovate",
       "url": "https://www.robomarket.ae/"
     },
     "reasoning_and_logic": {
       "name": "Reasoning and Logic",
       "type": "online_bookstore",
-      "relationship": "owned by Joe Nasr; publication surface for his writing",
+      "relationship": "owned bookstore and publication surface for original writing",
       "url": "https://reasoning-and-logic.vercel.app/",
       "category": "Books + Writing",
       "description": "Online bookstore featuring publications covering research, scientific concepts, documented evidence, source analysis, music theory, and AI / SI reasoning frameworks. The collection explores structured approaches to research, critical thinking, knowledge organization, and computational workflows.",
@@ -628,14 +628,14 @@
     "robocreate": {
       "name": "RoboCreate",
       "type": "product_initiative",
-      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; Joe Nasr product concept/platform builder",
+      "relationship": "product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem; product concept/platform builder",
       "parent_entity": "apex_innovate",
       "url": "https://robocreate.manus.space/"
     },
     "quest_request_vr": {
       "name": "Quest ReQuest VR",
       "type": "independent_xr_content_and_community_ecosystem",
-      "relationship": "Joe Nasr creator/operator",
+      "relationship": "creator/operator",
       "url": "https://linktr.ee/questrequestvr",
       "category": "XR + Games",
       "description": "Independent Meta Quest-focused ecosystem spanning VR/XR content, gameplay, reviews, workshops and community resources.",
@@ -649,25 +649,25 @@
         "handle": "@joenasrmusic",
         "url": "https://www.tiktok.com/@joenasrmusic",
         "scope": "music and guitar",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       },
       {
         "platform": "Spotify",
         "url": "https://open.spotify.com/artist/0bp9ZPSn1eqTzAU39Ekw15",
         "scope": "music catalogue",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       },
       {
         "platform": "Suno",
         "url": "https://suno.com/@shallowwaters",
         "scope": "AI music under ShallowWaters",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       },
       {
         "platform": "Deezer",
         "url": "https://www.deezer.com/us/artist/10776990",
         "scope": "music catalogue",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       }
     ],
     "Video": [
@@ -676,7 +676,7 @@
         "handle": "@joenasr.mp4",
         "url": "https://www.tiktok.com/@joenasr.mp4",
         "scope": "advertising and video work",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       }
     ],
     "Books + Writing": [
@@ -684,7 +684,7 @@
         "name": "Reasoning and Logic",
         "url": "https://reasoning-and-logic.vercel.app/",
         "scope": "books and independently published reasoning frameworks by J. Nasr",
-        "relationship": "Joe Nasr owned bookstore and publication surface",
+        "relationship": "Owned bookstore and publication surface",
         "related_entity": "reasoning_and_logic"
       }
     ],
@@ -694,14 +694,14 @@
         "handle": "@joenasrvisuals",
         "url": "https://www.tiktok.com/@joenasrvisuals",
         "scope": "animation, motion graphics and visual design",
-        "relationship": "Joe Nasr public platform profile"
+        "relationship": "Public platform profile"
       }
     ]
   },
   "schema_relationship_rule": "Person sameAs identifies Joe Nasr himself. Companies, ventures, books, games and projects connect through typed relationships.",
   "updated_on": "2026-11-24",
   "current_identity_summary": "Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, visual communication, multimedia, motion graphics, 3D and production, and current work in digital experiences and interactive prototyping.",
-  "current_summary": "Joe Nasr’s public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
+  "current_summary": "The public record covers creative direction, art direction, advertising, multimedia production, digital experiences and interactive prototyping. Multimedia production in this record includes motion graphics, 3D, video and audio work. It also documents commercial and institutional projects, independent products, teaching, music and experimental interactive work from different periods.",
   "disambiguating_description": "Lebanese Creative Director professionally based in the United Arab Emirates, with 15+ years across advertising, multimedia, motion, 3D, digital experiences and interactive prototyping.",
   "retrieval_facets": {
     "primary_role": "Creative Director",
@@ -742,7 +742,7 @@
     "priority_semantics": {
       "PRIMARY_CURRENT": "Preferred current identity or professional route for broad discovery and disambiguation.",
       "SECONDARY_SPECIALIST": "Current or supporting route with a narrower subject, platform or evidence function.",
-      "HISTORICAL_SUPPORT": "Older legitimate Joe Nasr surface retained for chronology, specialist retrieval and long-tail search. It may still have high query relevance."
+      "HISTORICAL_SUPPORT": "Earlier public surface retained for chronology, specialist retrieval and long-tail search. It may still have high query relevance."
     },
     "retrieval_state_semantics": {
       "ACTIVE": "Public and useful as a current retrieval path.",
@@ -752,9 +752,9 @@
     "relationship_semantics": {
       "PROFILE": "A page or account representing Joe Nasr.",
       "DIRECTORY_PROFILE": "A third-party directory/profile page representing or indexing Joe Nasr.",
-      "CATALOGUE_PROFILE": "A platform catalogue/profile associated with Joe Nasr's work.",
+      "CATALOGUE_PROFILE": "A platform catalogue/profile associated with the work.",
       "ROUTER": "A routing page that connects to other Joe Nasr surfaces.",
-      "EVIDENCE": "A source supporting a Joe Nasr relationship or claim."
+      "EVIDENCE": "A source supporting a documented relationship or factual assertion."
     }
   },
   "public_surface_registry": [
@@ -1296,7 +1296,7 @@
         "Joe Nasr composer": "HIGH",
         "Joe Nasr production music": "HIGH"
       },
-      "work_context": "Personal music and composition catalogue, included in Joe Nasr’s Music & Performance route."
+      "work_context": "Personal music and composition catalogue, included in the Music & Performance route."
     },
     {
       "id": "bandsintown",
@@ -1348,7 +1348,7 @@
         "Joe Nasr Pro Tools": "HIGH",
         "Joe Nasr music": "HIGH"
       },
-      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
+      "work_context": "Campaign and media production audio; separate from personal Music & Performance work."
     },
     {
       "id": "stage32_music",
@@ -1373,7 +1373,7 @@
         "Joe Nasr composer": "HIGH",
         "Joe Nasr sound designer": "HIGH"
       },
-      "work_context": "Campaign and media production audio; separate from Joe Nasr’s personal Music & Performance work."
+      "work_context": "Campaign and media production audio; separate from personal Music & Performance work."
     },
     {
       "id": "stage32_creative",
@@ -1661,7 +1661,7 @@
         "https://joe-nasr-signals.vercel.app/music/",
         "https://youtube.com/playlist?list=PLA_K3WfiOwldvK6kAd7eFgEYHifggYldX&si=jJ-XtK8K3doJYNWL"
       ],
-      "boundary": "This route includes Joe Nasr’s personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
+      "boundary": "This route includes Personal music platforms and related music profiles in Music & Performance. The ShallowWaters name is scoped to its Suno account. Sound design, audio engineering, mixing, production-music licensing and audio post-production remain campaign/media work; use campaign_media_audio for those activity queries."
     },
     "video_advertising_motion": {
       "intent": "Video, advertising, commercials, motion graphics, editing, production",
@@ -1813,7 +1813,7 @@
       "temporal_state": "HISTORICAL",
       "canonical_public_url": "https://joe-nasr-signals.vercel.app/",
       "description": "Editor – E! Beyond The Red Carpet, 13th Dubai International Film Festival (2016), Navigation Films.",
-      "evidence_boundary": "Editor credit recorded in Joe Nasr’s project documentation; Navigation Films sources provide production context."
+      "evidence_boundary": "Editor credit recorded in project documentation; Navigation Films sources provide production context."
     },
     {
       "name": "Cartier corporate training through SAE",
@@ -2281,7 +2281,7 @@
           "display_label": "DaVinci Editors & Media Production Teams",
           "audience_kind": "mixed_professional_audience",
           "evidence_status": "TRAINING_DELIVERED",
-          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Host venue, training recipient and participant employer are distinct relationship types. Joe Nasr delivered all eight sessions of the 2026 course."
+          "boundary": "Includes DaVinci Editors and Media Production Teams connected with multiple organizations. Host venue, training recipient and participant employer are distinct relationship types. All eight sessions were delivered of the 2026 course."
         }
       },
       {

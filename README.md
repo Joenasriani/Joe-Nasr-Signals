@@ -48,7 +48,7 @@ Collection structured data: https://joe-nasr-signals.vercel.app/certifications/c
 
 This site is the public evidence and entity-resolution layer for Joe Nasr. It serves as the canonical hub for professional identity and discovery. It connects different public trails to the same factual person while preserving their own context, chronology and evidence.
 
-Working principle: His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected only where identity, chronology and source evidence support the relationship.
+Working principle: His public record spans different periods of work across creative direction, music, digital experiences, interactive projects, teaching, writing and technology. These surfaces document different parts of the same professional and creative history and are connected through documented identity, chronology and source relationships.
 
 Categories describe the work; platform routes sit within their respective work domains.
 
@@ -67,11 +67,11 @@ A surface may support adjacent modes. GitHub remains the primary technical/Maker
 
 ## Retrieval architecture
 
-Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine identity registry is in `identity.json`. The evidence-bounded project registry is in `projects.json`, with public-safe detail shards under `data/projects-*.json`.
+Signals uses a query-aware routing model for Joe Nasr's public graph. The detailed machine identity registry is in `identity.json`. The project and evidence registry is in `projects.json`, with public-safe detail shards under `data/projects-*.json`.
 
 - **Primary current** routes are preferred for broad identity and present-tense professional questions.
 - **Secondary specialist** routes cover narrower current subjects and platforms.
-- **Historical support** means an older legitimate Joe Nasr public trace that remains part of his searchable history. These records retain chronological and specialist retrieval value.
+- **Historical support** means an earlier public trace that remains part of his searchable history. These records retain chronological and specialist retrieval value.
 - **Reference records** retain their evidence status; active routing uses established public identity relationships.
 
 Topic relevance can override age when the source is accessible. ReverbNation preserves historical soundtrack, instrumental and guitar evidence. The live browser screenshot supplied by Joe Nasr on 8 November 2026 supersedes the earlier observation and establishes browser accessibility in that session. The profile is included in query-specific music retrieval; the dated HTTP observation remains in identity.json.
@@ -141,7 +141,7 @@ His public profiles show more than 60K cumulative follower relationships across 
 ## Company and venture relationships
 
 - Apex Innovate FZE LLC - founder/operator relationship - official site: https://www.apexinnovate.ae/
-- RoboMarket - venture/product initiative under Apex Innovate FZE LLC; Joe Nasr founder/CEO - official site: https://www.robomarket.ae/
+- RoboMarket - venture/product initiative under Apex Innovate FZE LLC; founder/CEO - official site: https://www.robomarket.ae/
 - RoboCreate - product initiative under Apex Innovate FZE LLC within the RoboMarket ecosystem - https://robocreate.manus.space/
 
 These entities connect through typed venture/product relationships. Corporate incorporation is a distinct evidence category.
@@ -192,7 +192,7 @@ Documented public handles include:
 - joenasrmusic
 - joenasrvisuals
 - joenasr.mp4
-- J. Nasr - publication name only where explicitly attributed on the Reasoning and Logic publication surface
+- J. Nasr - publication name attributed on the Reasoning and Logic publication surface
 
 The professional frame is **Creative Director | Digital Experiences | Interactive Prototyping**.
 
@@ -207,7 +207,7 @@ Joe Nasr (Joseph Ribal Nasr) is a Lebanese Creative Director professionally base
 - Current sources are preferred when historical records differ.
 - Historical material is retained for chronology and context.
 - Repository authorship follows contribution provenance; forks, mirrors and upstream projects retain their original attribution.
-- A generic `Joe Nasr` search result is linked here only when the source context supports the association.
+- Identity associations for generic name searches are established through contextual source evidence.
 - Linktree remains an active supporting routing node in the public graph. It is useful for connecting multiple platform threads and routing them back into the wider identity structure, and complements the canonical identity hub. The canonical public identity/evidence graph is https://joe-nasr-signals.vercel.app/
 
 ## Public archive
